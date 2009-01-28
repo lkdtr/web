@@ -1,0 +1,143 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(resim/artalan.jpg) repeat-x left top;
+  text-align: center;
+  font-size: 12px;
+}
+
+* {
+  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+:focus {
+  outline: none;
+}
+
+a {
+  color: #0048ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff7600;
+  text-decoration: underline;
+}
+
+#arayuz {
+  width: 775px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.site_baslik {
+  background: url(resim/logo.png) no-repeat left top;
+  width: 639px;
+  height: 39px;
+  margin-top: 10px;
+}
+
+.site_baslik h1 {
+  display: none;
+}
+
+#menu {
+  margin-top: 20px;
+}
+
+#menu ul, #menu ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li {
+  float: left;
+  margin-right: 5px;
+}
+
+#menu .ana a {
+  display: block;
+  float: left;
+  font-size: 160%;
+  color: black;
+  padding: 5px;
+  padding-left: 45px;
+  margin-right: 15px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+#menu .ikinci {
+  clear: both;
+}
+
+#menu .ikinci a {
+  display: block;
+  float: left;
+  font-size: 90%;
+  color: gray;
+  padding: 3px;
+  margin-right: 5px;
+}
+
+#menu .ana a.liste {
+  background-image: url(resim/ikonlar/liste.gif);
+}
+
+#menu .ana a.kurallar {
+  background-image: url(resim/ikonlar/kurallar.gif);
+}
+
+#menu .ana a.etik {
+  background-image: url(resim/ikonlar/etik.gif);
+}
+
+#menu .ana a.arsiv {
+  background-image: url(resim/ikonlar/arsiv.gif);
+}
+
+#icerik {
+  clear: both;
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+
+.site_alt {
+  font-size: 90%;
+  padding-top: 30px;
+  border-top: 1px dotted #ccc;
+  color: gray;
+}
+
+.para {
+  margin-bottom: 10px;
+}
+
+.head1, .head2, .head3, .head4, .head5, .head6 {
+  color: #ff7600;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.head2 {
+	color: black;
+    font-size: 160%;
+    border-bottom: 1px dotted #aaa;
+}
+
+.head3 {
+    font-size: 140%;
+}
+
+.orderedlist {
+  margin-bottom: 20px;
+}
+
+.orderedlist li {
+  padding: 3px;
+}

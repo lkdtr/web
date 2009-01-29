@@ -90,6 +90,7 @@
       <br />
       <a class="gir" href="mailto:linux-masaustu-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-masaustu-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.masaustu">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     

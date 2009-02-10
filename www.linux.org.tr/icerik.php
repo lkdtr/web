@@ -5,7 +5,7 @@ $goster=$_GET['goster'];
 }
 ?>
 <?php 
-// Ýçerik yönetimi kýsmý
+// Ä°Ã§erik yÃ¶netimi kÄ±smÄ±
 if ( empty($_GET))
 {
 	include ("ana.inc.php");

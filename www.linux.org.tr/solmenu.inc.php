@@ -6,21 +6,21 @@
             </td>
           </tr>
           <tr>
-            <td class="menubaslik"> Bağlantılar</td>
+            <td class="menubaslik"> BaÄŸlantÄ±lar</td>
           </tr>
           <tr>
             <td style="padding-left: 3em;">
             <p>- <a class="menu" href="/ftp.html">FTP
-Dosya Alanı</a><br/>
+Dosya AlanÄ±</a><br/>
 - <a class="menu" href="/belgeler.html">Belgeler</a><br/>
 - <a class="menu" href="http://seminer.linux.org.tr">Seminerler</a><br/>
 - <a class="menu" target="_blank" href="http://gezegen.linux.org.tr">Linux
 Gezegeni </a><br/>
 - <a class="menu" href="http://senlik.linux.org.tr">Linux ve
-Özgür Yazılım
-şenliği</a><br/>
+Ã–zgÃ¼r YazÄ±lÄ±m
+ÅŸenliÄŸi</a><br/>
 - <a class="menu" href="http://liste.linux.org.tr">E-posta Listeleri</a><br/>
-- <a class="menu" href="/wikipedi.html">Wikipedia Özgür
+- <a class="menu" href="/wikipedi.html">Wikipedia Ã–zgÃ¼r
 Ansiklopedi</a><br/>
             </p>
             </td>
@@ -36,14 +36,14 @@ Fazla Linux</td>
           <tr>
             <td style="padding-left: 3em;">-
             <a class="menu" href="/linuxcdler.html">Linux CD'leri</a><br/>
-- <a class="menu" href="/linuxfirmalar.html">Linux Destek ve Eğitim
-Kurumları</a><br/>
-- <a class="menu" href="/linuxkitaplar.html">Linux Kitapları ve Dergiler</a><br/>
-- <a class="menu" href="/dagitimlar.html">Linux Dağıtımları Kılavuzu</a><br/>
-- <a class="menu" href="/yerliyazilimlar.html">Yerel Özgür
-Yazılımlar</a><br/>
-- <a class="menu" href="/yerellestirme.html">Yerelleştirme
-Çalışmaları</a><br/>
+- <a class="menu" href="/linuxfirmalar.html">Linux Destek ve EÄŸitim
+KurumlarÄ±</a><br/>
+- <a class="menu" href="/linuxkitaplar.html">Linux KitaplarÄ± ve Dergiler</a><br/>
+- <a class="menu" href="/dagitimlar.html">Linux DaÄŸÄ±tÄ±mlarÄ± KÄ±lavuzu</a><br/>
+- <a class="menu" href="/yerliyazilimlar.html">Yerel Ã–zgÃ¼r
+YazÄ±lÄ±mlar</a><br/>
+- <a class="menu" href="/yerellestirme.html">YerelleÅŸtirme
+Ã‡alÄ±ÅŸmalarÄ±</a><br/>
             </td>
           </tr>
         </tbody>
@@ -145,7 +145,7 @@ border='0' alt='' /></a></noscript>
 
 
 </center>
-	<center><h3>Sunucu Destekçilerimiz</h3></center></td></tr>
+	<center><h3>Sunucu DestekÃ§ilerimiz</h3></center></td></tr>
         <tr>
           <td><center>
           <a target="_blank" href="http://www.ulakbim.gov.tr">
@@ -161,9 +161,9 @@ border='0' alt='' /></a></noscript>
 
 
       <center> <a target="_blank" href="http://www.mozilla.org/products/firefox/">
-      <img border="0" alt="Mozilla FireFox ile Daha Hızlı ve Güzel internet!" src="<?php echo $path; ?><?php echo $resimler; ?>extras/get_FireFox.gif"/> </a>
+      <img border="0" alt="Mozilla FireFox ile Daha HÄ±zlÄ± ve GÃ¼zel internet!" src="<?php echo $path; ?><?php echo $resimler; ?>extras/get_FireFox.gif"/> </a>
       <br/>
-Web'de keyifli bir gezinti için <a target="_blank" href="http://www.mozilla.org/products/firefox/">FireFox</a>'u
+Web'de keyifli bir gezinti iÃ§in <a target="_blank" href="http://www.mozilla.org/products/firefox/">FireFox</a>'u
 tercih edin.
       </center>
       </td>

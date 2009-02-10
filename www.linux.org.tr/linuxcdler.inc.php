@@ -1,16 +1,16 @@
-<td width="508" valign="top"><div style="padding-left: 5px;"><h2>Linux CD'leri Satın Alabileceğiniz Web Siteleri</h2>
-Türkiye'de Linux CD'leri sattığı bilinen web sitelerinin bir listesini aşağıda bulabilirsiniz. 
-Listede yer alan web siteleri LKD tarafından herhangi bir biçimde denetlenmemekte ve içeriği kontrol edilmemektedir. 
-LKD, bu sitelerden yapacağınız alışverişler için herhangi bir biçimde garanti veremez, kefil olamaz. Linux CD'si satan ancak 
-listede bulunmayan siteler için <a href="mailto:web-icerik@linux.org.tr">web-icerik@linux.org.tr</a> 
+<td width="508" valign="top"><div style="padding-left: 5px;"><h2>Linux CD'leri SatÄ±n AlabileceÄŸiniz Web Siteleri</h2>
+TÃ¼rkiye'de Linux CD'leri sattÄ±ÄŸÄ± bilinen web sitelerinin bir listesini aÅŸaÄŸÄ±da bulabilirsiniz. 
+Listede yer alan web siteleri LKD tarafÄ±ndan herhangi bir biÃ§imde denetlenmemekte ve iÃ§eriÄŸi kontrol edilmemektedir. 
+LKD, bu sitelerden yapacaÄŸÄ±nÄ±z alÄ±ÅŸveriÅŸler iÃ§in herhangi bir biÃ§imde garanti veremez, kefil olamaz. Linux CD'si satan ancak 
+listede bulunmayan siteler iÃ§in <a href="mailto:web-icerik@linux.org.tr">web-icerik@linux.org.tr</a> 
 adresine e-posta atarak bizi haberdar edebilirsiniz.
 <ul><li type="square">Linux34(<a target="_blank" href="http://www.linux34.com">www.linux34.com</a>)
-<!--<li>Linuxcuyuz.biz -Ücretsiz CD Dağıtımı (<a href="http://www.linuxcuyuz.biz" target="_blank">www.linuxcuyuz.biz</a>)-->
-<!--<li>MaviPortal - Gönüllü CD Dağıtımı (<a href="http://www.maviportal.com">www.maviportal.com</a>)                       -->
-<!--<li>Linuxcuolduk.biz - Tamamen Ücretsiz CD Dağıtımı (<a href="http://www.linuxcuolduk.biz">www.linuxcuolduk.biz</a> )      -->
+<!--<li>Linuxcuyuz.biz -Ãœcretsiz CD DaÄŸÄ±tÄ±mÄ± (<a href="http://www.linuxcuyuz.biz" target="_blank">www.linuxcuyuz.biz</a>)-->
+<!--<li>MaviPortal - GÃ¶nÃ¼llÃ¼ CD DaÄŸÄ±tÄ±mÄ± (<a href="http://www.maviportal.com">www.maviportal.com</a>)                       -->
+<!--<li>Linuxcuolduk.biz - Tamamen Ãœcretsiz CD DaÄŸÄ±tÄ±mÄ± (<a href="http://www.linuxcuolduk.biz">www.linuxcuolduk.biz</a> )      -->
 </li></ul>
-<br/><h2>Hangi Linux CD'sini almalıyım?</h2>Eğer ilk defa linux kuracak/kullanacaksanız önce <strong><a href="linuxdagitimlari.html">Linux Dağıtımları Kılavuzu</a></strong>'nu okuyunuz. Bu belge ilk defa kullanacak olanlar için de, daha önce linux kullanmış ama farklı dağıtımları denemek isteyenler için de önemli bir fikir verecektir.<br/><br/><br/> </div>
+<br/><h2>Hangi Linux CD'sini almalÄ±yÄ±m?</h2>EÄŸer ilk defa linux kuracak/kullanacaksanÄ±z Ã¶nce <strong><a href="linuxdagitimlari.html">Linux DaÄŸÄ±tÄ±mlarÄ± KÄ±lavuzu</a></strong>'nu okuyunuz. Bu belge ilk defa kullanacak olanlar iÃ§in de, daha Ã¶nce linux kullanmÄ±ÅŸ ama farklÄ± daÄŸÄ±tÄ±mlarÄ± denemek isteyenler iÃ§in de Ã¶nemli bir fikir verecektir.<br/><br/><br/> </div>
       <table width="100%">
-        <tbody><tr><td align="center"><a target="_NEW" title="OpenOffice.org Türkçe" href="http://tr.openoffice.org/"><img border="0" src="<?php echo $path; ?><?php echo $resimler; ?>banners/BannerGenel_OpenOfis.gif"/></a></td></tr>
+        <tbody><tr><td align="center"><a target="_NEW" title="OpenOffice.org TÃ¼rkÃ§e" href="http://tr.openoffice.org/"><img border="0" src="<?php echo $path; ?><?php echo $resimler; ?>banners/BannerGenel_OpenOfis.gif"/></a></td></tr>
       </tbody></table>
     </td>

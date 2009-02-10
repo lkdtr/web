@@ -1,77 +1,77 @@
-<td width="508" valign="top"><table width="100%" cellpadding="5" border="0"><tbody><tr><td>Türkiye'de Linux ve özgür yazılımlar konusunda basılı yayınların bir listesini aşağıda bulabilirsiniz. Yayınların içeriği LKD tarafından herhangi bir biçimde incelenmemekte ve denetlenmemektedir. Listede bulunmayan kitaplar için <a href="mailto:lotr@linux.org.tr">bilgi@linux.org.tr</a> adresine e-posta atarak bizi haberdar edebilirsiniz. (<small><b>Son güncelleme:</b> 15/11/2008</small>)</td></tr></tbody></table>
+<td width="508" valign="top"><table width="100%" cellpadding="5" border="0"><tbody><tr><td>TÃ¼rkiye'de Linux ve Ã¶zgÃ¼r yazÄ±lÄ±mlar konusunda basÄ±lÄ± yayÄ±nlarÄ±n bir listesini aÅŸaÄŸÄ±da bulabilirsiniz. YayÄ±nlarÄ±n iÃ§eriÄŸi LKD tarafÄ±ndan herhangi bir biÃ§imde incelenmemekte ve denetlenmemektedir. Listede bulunmayan kitaplar iÃ§in <a href="mailto:lotr@linux.org.tr">bilgi@linux.org.tr</a> adresine e-posta atarak bizi haberdar edebilirsiniz. (<small><b>Son gÃ¼ncelleme:</b> 15/11/2008</small>)</td></tr></tbody></table>
 
 <table>
 	<tbody><tr><td colspan="2"><h2>
-FreeBSD 6 İşletim Sistemi</h2></td></tr>
+FreeBSD 6 Ä°ÅŸletim Sistemi</h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789759809942.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789759809942<br/>
-				<b>Yaınevi: </b>Açık Akademi Yayınları<br/>
-				<b>Yazarlar: </b>İsmail Yenigül, Barış Şimşek, Atılım Boy<br/>
+				<b>YaÄ±nevi: </b>AÃ§Ä±k Akademi YayÄ±nlarÄ±<br/>
+				<b>Yazarlar: </b>Ä°smail YenigÃ¼l, BarÄ±ÅŸ ÅimÅŸek, AtÄ±lÄ±m Boy<br/>
 				<br/>
-				Yeni FreeBSD, Yeni Kitap! Bu kitap, FreeBSD işletim sistemini geniş bir şekilde ele almakla birlikte FreeBSD 5 serisinden itibaren FreeBSD 6.2 ve FreeBSD 7 'de yer alan yenilikleri de içermektedir. Kitap sıfırdan yazılmış olup bazı konularda eski kitaptan yararlanılmıştır. Ayrıca FreeBSD ile doğrudan ilgisi olmayan veya eskimiş olan konular çıkartılarak daha verimli ve kullanışlı bir kitap ortaya çıkartılmaya çalışılmıştır.
+				Yeni FreeBSD, Yeni Kitap! Bu kitap, FreeBSD iÅŸletim sistemini geniÅŸ bir ÅŸekilde ele almakla birlikte FreeBSD 5 serisinden itibaren FreeBSD 6.2 ve FreeBSD 7 'de yer alan yenilikleri de iÃ§ermektedir. Kitap sÄ±fÄ±rdan yazÄ±lmÄ±ÅŸ olup bazÄ± konularda eski kitaptan yararlanÄ±lmÄ±ÅŸtÄ±r. AyrÄ±ca FreeBSD ile doÄŸrudan ilgisi olmayan veya eskimiÅŸ olan konular Ã§Ä±kartÄ±larak daha verimli ve kullanÄ±ÅŸlÄ± bir kitap ortaya Ã§Ä±kartÄ±lmaya Ã§alÄ±ÅŸÄ±lmÄ±ÅŸtÄ±r.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Gelecek Bireysel Linux Kitabı</h2></td></tr>
+Gelecek Bireysel Linux KitabÄ±</h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/Gbl.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>-<br/>
-				<b>Yaınevi: </b>Gelecek Yayınları<br/>
+				<b>YaÄ±nevi: </b>Gelecek YayÄ±nlarÄ±<br/>
 				<b>Yazarlar: </b> <br/>
 				<br/>
-				Linux'a kolay ve hızlı bir başlangıç için aradığınız her şey.
+				Linux'a kolay ve hÄ±zlÄ± bir baÅŸlangÄ±Ã§ iÃ§in aradÄ±ÄŸÄ±nÄ±z her ÅŸey.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Gelecek Kurumsal Linux Kitabı</h2></td></tr>
+Gelecek Kurumsal Linux KitabÄ±</h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/Gkl.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>-<br/>
-				<b>Yaınevi: </b>Gelecek Yayınları<br/>
+				<b>YaÄ±nevi: </b>Gelecek YayÄ±nlarÄ±<br/>
 				<b>Yazarlar: </b> <br/>
 				<br/>
-				Gelecek A.Ş'nin sunucu çözümlerine yönelik ürettiği kurumsal linux ile ilgili kullanım ve yapılandırma kitabı.
+				Gelecek A.Å'nin sunucu Ã§Ã¶zÃ¼mlerine yÃ¶nelik Ã¼rettiÄŸi kurumsal linux ile ilgili kullanÄ±m ve yapÄ±landÄ±rma kitabÄ±.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-GTK+/GNOME Programlama Linux Altında Görsel Program Geliştirme </h2></td></tr>
+GTK+/GNOME Programlama Linux AltÄ±nda GÃ¶rsel Program GeliÅŸtirme </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756797136.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756797136<br/>
-				<b>Yaınevi: </b>Papatya Yayıncılık<br/>
+				<b>YaÄ±nevi: </b>Papatya YayÄ±ncÄ±lÄ±k<br/>
 				<b>Yazarlar: </b>M. Ali Vardar<br/>
 				<br/>
-				GTK+/GNOME, Linux altında görsel program tasarım ortamı sunan yardımcı bir kütüphanedir. C bilen programcılar için GTK+/GNOME'ın öğrenilmesi ve onunla görsel program tasarlanması oldukça kolaydır.<br/>
+				GTK+/GNOME, Linux altÄ±nda gÃ¶rsel program tasarÄ±m ortamÄ± sunan yardÄ±mcÄ± bir kÃ¼tÃ¼phanedir. C bilen programcÄ±lar iÃ§in GTK+/GNOME'Ä±n Ã¶ÄŸrenilmesi ve onunla gÃ¶rsel program tasarlanmasÄ± oldukÃ§a kolaydÄ±r.<br/>
 <br/>
-Bu kitap Linux'un güçlü ve güvenilir mimarisini kendi profesyonel iş yaşamına koymak isteyen ve Linux ortamında profesyonelce tasarlanmış görsel arayüzlü uygulamalar geliştiren bilişimciler ve bilişim ile ilgili konularda okuyan öğrenciler için hazırlanmıştır.
+Bu kitap Linux'un gÃ¼Ã§lÃ¼ ve gÃ¼venilir mimarisini kendi profesyonel iÅŸ yaÅŸamÄ±na koymak isteyen ve Linux ortamÄ±nda profesyonelce tasarlanmÄ±ÅŸ gÃ¶rsel arayÃ¼zlÃ¼ uygulamalar geliÅŸtiren biliÅŸimciler ve biliÅŸim ile ilgili konularda okuyan Ã¶ÄŸrenciler iÃ§in hazÄ±rlanmÄ±ÅŸtÄ±r.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Her yönüyle Pardus </h2></td></tr>
+Her yÃ¶nÃ¼yle Pardus </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756477823.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756477823<br/>
-				<b>Yaınevi: </b>Pusula Yayıncılık<br/>
+				<b>YaÄ±nevi: </b>Pusula YayÄ±ncÄ±lÄ±k<br/>
 				<b>Yazarlar: </b>Talat Uyarer<br/>
 				<br/>
-				Pardus, Tübitak'ın desteği ile hayat bulan tamamen Türkçe bir Linux dağıtımıdır. Kullananların internet ortamında her türlü desteği bulduğu, kullanıcı dostu, ilk çıktığından bu yana bilgisayar kullanıcıları arasında hızla kullanılıp yaygınlaşan, ücretsiz bir işletim sistemidir. Bu kitapla, hiç Linux kullanmamış okuyucuları başlangıç seviyesinden alıp üst seviyelere getirmek amaç edinilmiştir. Yeni ve Pardus'un kendine özgü masaüstünü tanıtıp işletim sistemine olan aşinalığı artırmak, kullanımına yönelik ipuçlarıyla Pardus?u kullanmayı zevk haline getirmek, temel donanım ve yazılım konularında açık kapı bırakmamak amaç edinilmiştir. Halihazırda Linux kullanmakta olanların da faydalanacağı bu kitapta, <br/>
+				Pardus, TÃ¼bitak'Ä±n desteÄŸi ile hayat bulan tamamen TÃ¼rkÃ§e bir Linux daÄŸÄ±tÄ±mÄ±dÄ±r. KullananlarÄ±n internet ortamÄ±nda her tÃ¼rlÃ¼ desteÄŸi bulduÄŸu, kullanÄ±cÄ± dostu, ilk Ã§Ä±ktÄ±ÄŸÄ±ndan bu yana bilgisayar kullanÄ±cÄ±larÄ± arasÄ±nda hÄ±zla kullanÄ±lÄ±p yaygÄ±nlaÅŸan, Ã¼cretsiz bir iÅŸletim sistemidir. Bu kitapla, hiÃ§ Linux kullanmamÄ±ÅŸ okuyucularÄ± baÅŸlangÄ±Ã§ seviyesinden alÄ±p Ã¼st seviyelere getirmek amaÃ§ edinilmiÅŸtir. Yeni ve Pardus'un kendine Ã¶zgÃ¼ masaÃ¼stÃ¼nÃ¼ tanÄ±tÄ±p iÅŸletim sistemine olan aÅŸinalÄ±ÄŸÄ± artÄ±rmak, kullanÄ±mÄ±na yÃ¶nelik ipuÃ§larÄ±yla Pardus?u kullanmayÄ± zevk haline getirmek, temel donanÄ±m ve yazÄ±lÄ±m konularÄ±nda aÃ§Ä±k kapÄ± bÄ±rakmamak amaÃ§ edinilmiÅŸtir. HalihazÄ±rda Linux kullanmakta olanlarÄ±n da faydalanacaÄŸÄ± bu kitapta, <br/>
 <br/>
-# Pardus'a Giriş<br/>
+# Pardus'a GiriÅŸ<br/>
 # Pardus Kurulumu<br/>
-# Pardus Masaüstü, Dosya Sistemi, Ayarları<br/>
-# Ağ Ayarları, İnternet?e Bağlantı<br/>
-# Depolama Aygıtları Yönetimi<br/>
-# Sistem Araçları ve Ayarları, Tasma<br/>
-# KDE Masaüstü ve Uygulamaları<br/>
+# Pardus MasaÃ¼stÃ¼, Dosya Sistemi, AyarlarÄ±<br/>
+# AÄŸ AyarlarÄ±, Ä°nternet?e BaÄŸlantÄ±<br/>
+# Depolama AygÄ±tlarÄ± YÃ¶netimi<br/>
+# Sistem AraÃ§larÄ± ve AyarlarÄ±, Tasma<br/>
+# KDE MasaÃ¼stÃ¼ ve UygulamalarÄ±<br/>
 # Linux Konsolu<br/>
-# Windows ve Pardus Program Eşleştirmesi<br/>
+# Windows ve Pardus Program EÅŸleÅŸtirmesi<br/>
 # OpenOffice: Write, Base, Writer, Calculator, Math, Draw, Impress<br/>
 # Pisi Paket Sistemi<br/>
 # USB Modem Kurulumu<br/>
 <br/>
-gibi konular Linux dünyasına ilk adımlarını atacaklar için oldukça anlaşılır bir tarzda Talat Uyarer tarafından kaleme alınmıştır. Kitapla beraber ücretsiz Pardus Kurulum CD'si verilmektedir.
+gibi konular Linux dÃ¼nyasÄ±na ilk adÄ±mlarÄ±nÄ± atacaklar iÃ§in oldukÃ§a anlaÅŸÄ±lÄ±r bir tarzda Talat Uyarer tarafÄ±ndan kaleme alÄ±nmÄ±ÅŸtÄ±r. Kitapla beraber Ã¼cretsiz Pardus Kurulum CD'si verilmektedir.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
 Linux</h2></td></tr>
@@ -79,73 +79,73 @@ Linux</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789752979253.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789752979253<br/>
-				<b>Yaınevi: </b>Alfa Basım Yayım Dağıtım<br/>
+				<b>YaÄ±nevi: </b>Alfa BasÄ±m YayÄ±m DaÄŸÄ±tÄ±m<br/>
 				<b>Yazarlar: </b>Christopher Negus<br/>
 				<br/>
-				Linux'un temellerine ve ötesine derinlemesine hükmedin!<br/>
-16 farklı Linux dağıtımı üzerinde uzmanlaşın!<br/>
+				Linux'un temellerine ve Ã¶tesine derinlemesine hÃ¼kmedin!<br/>
+16 farklÄ± Linux daÄŸÄ±tÄ±mÄ± Ã¼zerinde uzmanlaÅŸÄ±n!<br/>
 <br/>
-# Masaüstleri, sunucular ve iş istasyonları için Linux'ta uzmanlaşın.<br/>
-# Binlerce, ücretsiz açık kaynak yazılımı bulun, kurun ve kullanın.<br/>
-# Linux'ta müzik çalın, film izleyin, görüntü ve dokümanlarınızı<br/>
-# Bir Linux masaüstünden Internet'te gezinin, e-posta gönderin veya sohbet edin.<br/>
-# Kendi e-posta ve Web sunucularınızın ayarlarını yapın<br/>
-# Güvenlik duvarlarını ve diğer araçları kullanarak güvenli bağlantılar gerçekleştirin.<br/>
-# Eski bir PC'den ileri teknoloji ürünü sunuculara kadar her şey üzerinde Linux çalıştırın.<br/>
-# 8 GB'lık DVD: Ubuntu Linux, Fedora Linux, KNOPPIX, Freespire, Gentoo Linux, Slackware Linux, BackTrack, Mandriva One.<br/>
+# MasaÃ¼stleri, sunucular ve iÅŸ istasyonlarÄ± iÃ§in Linux'ta uzmanlaÅŸÄ±n.<br/>
+# Binlerce, Ã¼cretsiz aÃ§Ä±k kaynak yazÄ±lÄ±mÄ± bulun, kurun ve kullanÄ±n.<br/>
+# Linux'ta mÃ¼zik Ã§alÄ±n, film izleyin, gÃ¶rÃ¼ntÃ¼ ve dokÃ¼manlarÄ±nÄ±zÄ±<br/>
+# Bir Linux masaÃ¼stÃ¼nden Internet'te gezinin, e-posta gÃ¶nderin veya sohbet edin.<br/>
+# Kendi e-posta ve Web sunucularÄ±nÄ±zÄ±n ayarlarÄ±nÄ± yapÄ±n<br/>
+# GÃ¼venlik duvarlarÄ±nÄ± ve diÄŸer araÃ§larÄ± kullanarak gÃ¼venli baÄŸlantÄ±lar gerÃ§ekleÅŸtirin.<br/>
+# Eski bir PC'den ileri teknoloji Ã¼rÃ¼nÃ¼ sunuculara kadar her ÅŸey Ã¼zerinde Linux Ã§alÄ±ÅŸtÄ±rÄ±n.<br/>
+# 8 GB'lÄ±k DVD: Ubuntu Linux, Fedora Linux, KNOPPIX, Freespire, Gentoo Linux, Slackware Linux, BackTrack, Mandriva One.<br/>
 # CD'de: Debian GNU/Linux, SUSE Linux, Damn Small Linux, SLAX, System Rescue CD, INSERT, Puppy Linux, Gentoo Linux, COyote Linux
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Linux Ağ Servisleri </h2></td></tr>
+Linux AÄŸ Servisleri </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756477137.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756477137<br/>
-				<b>Yaınevi: </b>Pusula Yayıncılık<br/>
-				<b>Yazarlar: </b>Mustafa Başer<br/>
+				<b>YaÄ±nevi: </b>Pusula YayÄ±ncÄ±lÄ±k<br/>
+				<b>Yazarlar: </b>Mustafa BaÅŸer<br/>
 				<br/>
-				Bu kitap Linux'un ilk yıllarından (1992) beri kullanan birisinin bilgi birikimi ve tecrübesini aktarmayı hedeflediği yazılı bir metindir.<br/>
+				Bu kitap Linux'un ilk yÄ±llarÄ±ndan (1992) beri kullanan birisinin bilgi birikimi ve tecrÃ¼besini aktarmayÄ± hedeflediÄŸi yazÄ±lÄ± bir metindir.<br/>
 <br/>
-Kitapta edilgen bir dilin kullanılmasının okuyucuyu sıkmayacağı umulur.<br/>
+Kitapta edilgen bir dilin kullanÄ±lmasÄ±nÄ±n okuyucuyu sÄ±kmayacaÄŸÄ± umulur.<br/>
 <br/>
-Bu kitabın amacı, orta düzey bir Linux kullanıcısını ileri düzey ağ yöneticisi haline getirmektir. Kitapta temel Linux kavram ve komutları anlatılmamıştır. Kitap yazılırken, Türkiye'de en yaygın Linux dağıtımı Red Hat'ın 8.0 sürümü temel alınmıştır. Bununla birlikte her Linux kullanıcısının faydalanabileceği bir anlatım hedeflenmiştir. Kitabın diğer UNIX kullanıcılarına da faydası olacağı muhakkaktır.<br/>
-(Önsöz'den Alıntı)<br/>
+Bu kitabÄ±n amacÄ±, orta dÃ¼zey bir Linux kullanÄ±cÄ±sÄ±nÄ± ileri dÃ¼zey aÄŸ yÃ¶neticisi haline getirmektir. Kitapta temel Linux kavram ve komutlarÄ± anlatÄ±lmamÄ±ÅŸtÄ±r. Kitap yazÄ±lÄ±rken, TÃ¼rkiye'de en yaygÄ±n Linux daÄŸÄ±tÄ±mÄ± Red Hat'Ä±n 8.0 sÃ¼rÃ¼mÃ¼ temel alÄ±nmÄ±ÅŸtÄ±r. Bununla birlikte her Linux kullanÄ±cÄ±sÄ±nÄ±n faydalanabileceÄŸi bir anlatÄ±m hedeflenmiÅŸtir. KitabÄ±n diÄŸer UNIX kullanÄ±cÄ±larÄ±na da faydasÄ± olacaÄŸÄ± muhakkaktÄ±r.<br/>
+(Ã–nsÃ¶z'den AlÄ±ntÄ±)<br/>
 <br/>
-- Linux'ta ağ yapısı ve temelleri<br/>
-- Ağ arayüzleri<br/>
+- Linux'ta aÄŸ yapÄ±sÄ± ve temelleri<br/>
+- AÄŸ arayÃ¼zleri<br/>
 - Linux'ta dizin hizmetleri<br/>
-- Alan adı sunucusu (DNS)<br/>
+- Alan adÄ± sunucusu (DNS)<br/>
 - Apache Web sunucusu<br/>
 - Web arabirimi (Wbmail)<br/>
-- Linux'ta dosya transfer protokolü (FTP)<br/>
-- Otomatik TCP/IP yapılandırması (DHCP)<br/>
-- Linux'ta ağ dosya sistemi (NFS)<br/>
-- Windows-Linux etkileşimi (Samba)<br/>
+- Linux'ta dosya transfer protokolÃ¼ (FTP)<br/>
+- Otomatik TCP/IP yapÄ±landÄ±rmasÄ± (DHCP)<br/>
+- Linux'ta aÄŸ dosya sistemi (NFS)<br/>
+- Windows-Linux etkileÅŸimi (Samba)<br/>
 - Novel Netware sunucusu (Mars-NWE)<br/>
-- Veritabanı sunucuları (SQL)<br/>
-- Linux'ta firewall kullanımı<br/>
+- VeritabanÄ± sunucularÄ± (SQL)<br/>
+- Linux'ta firewall kullanÄ±mÄ±<br/>
 - QMail<br/>
-- Linux'ta yedekleme ve yansılama (RSYNC)
+- Linux'ta yedekleme ve yansÄ±lama (RSYNC)
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Linux Ağ Yönetimi </h2></td></tr>
+Linux AÄŸ YÃ¶netimi </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9753472870.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9753472870<br/>
-				<b>Yaınevi: </b>Seçkin Yayıncılık<br/>
-				<b>Yazarlar: </b>Kaan Güneş Çelik, Görkem Çetin<br/>
+				<b>YaÄ±nevi: </b>SeÃ§kin YayÄ±ncÄ±lÄ±k<br/>
+				<b>Yazarlar: </b>Kaan GÃ¼neÅŸ Ã‡elik, GÃ¶rkem Ã‡etin<br/>
 				<br/>
-				Linux ağ yönetimi kitabı, daha önce Linux işletim sistemi kitabını alarak giriş yapan, bu işletim sistemini temel olarak kavrayanlar için, Internet ve Intranet servislerini gösterir. Kitapta, bir kurumun ihtiyaç duyabileceği tüm İnternet servislerinin kurulumu, kullanımı ve detaylı açıklaması vardır.<br/>
+				Linux aÄŸ yÃ¶netimi kitabÄ±, daha Ã¶nce Linux iÅŸletim sistemi kitabÄ±nÄ± alarak giriÅŸ yapan, bu iÅŸletim sistemini temel olarak kavrayanlar iÃ§in, Internet ve Intranet servislerini gÃ¶sterir. Kitapta, bir kurumun ihtiyaÃ§ duyabileceÄŸi tÃ¼m Ä°nternet servislerinin kurulumu, kullanÄ±mÄ± ve detaylÄ± aÃ§Ä±klamasÄ± vardÄ±r.<br/>
 <br/>
-Kitap içinde, Apache web sunucundan DNS ayarlarına, NFS'ten PPP ile Internet bağlantısına, Internet erişim hızını artıran Squid proxy'den Sendmail'a kadar tüm servisler akıcı, bir sistem yöneticisinin kısa sürede anlayacağı şekilde anlatılır.<br/>
+Kitap iÃ§inde, Apache web sunucundan DNS ayarlarÄ±na, NFS'ten PPP ile Internet baÄŸlantÄ±sÄ±na, Internet eriÅŸim hÄ±zÄ±nÄ± artÄ±ran Squid proxy'den Sendmail'a kadar tÃ¼m servisler akÄ±cÄ±, bir sistem yÃ¶neticisinin kÄ±sa sÃ¼rede anlayacaÄŸÄ± ÅŸekilde anlatÄ±lÄ±r.<br/>
 <br/>
-Bir kere Linux dünyasına girdiği zaman çıkamayacak, bu büyülü ortamın ve getirdiği yeniliklerin etkisinden kurtulamayacaksınız. Sevimli penguenin sizi çağırdığı yere gidin.<br/>
+Bir kere Linux dÃ¼nyasÄ±na girdiÄŸi zaman Ã§Ä±kamayacak, bu bÃ¼yÃ¼lÃ¼ ortamÄ±n ve getirdiÄŸi yeniliklerin etkisinden kurtulamayacaksÄ±nÄ±z. Sevimli penguenin sizi Ã§aÄŸÄ±rdÄ±ÄŸÄ± yere gidin.<br/>
 <br/>
 Kitapta Yer Alan Konular:<br/>
-- Bilgisayar ağları<br/>
+- Bilgisayar aÄŸlarÄ±<br/>
 - TCP/IP protokoller<br/>
-- Ağ yönetimi<br/>
+- AÄŸ yÃ¶netimi<br/>
 - IP Masquerading<br/>
 - Apache web sunucusu<br/>
 - DNS (Domain Name System)<br/>
@@ -154,59 +154,59 @@ Kitapta Yer Alan Konular:<br/>
 - Samba<br/>
 - NFS, PPP<br/>
 - Listeciler<br/>
-- Sistem ve ağ yönetim araçları<br/>
-- Linux'ta güvenlik
+- Sistem ve aÄŸ yÃ¶netim araÃ§larÄ±<br/>
+- Linux'ta gÃ¼venlik
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Linux Ağ Yönetimi </h2></td></tr>
+Linux AÄŸ YÃ¶netimi </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789753478984.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789753478984<br/>
-				<b>Yaınevi: </b>Seçkin Yayıncılık<br/>
-				<b>Yazarlar: </b>Kaan Güneş Çelik, Görkem Çetin, Barış Metin<br/>
+				<b>YaÄ±nevi: </b>SeÃ§kin YayÄ±ncÄ±lÄ±k<br/>
+				<b>Yazarlar: </b>Kaan GÃ¼neÅŸ Ã‡elik, GÃ¶rkem Ã‡etin, BarÄ±ÅŸ Metin<br/>
 				<br/>
-				Görkem Çetin, Kaan Güneş Çelik ve Barış Metin tarafından kaleme alınan Linux Ağ Yönetimi isimli kitabın bu ikinci baskısında, dünyada olduğu kadar, ülkemizde de kullanımı günden güne yaygınlaşmakta olan Linux?un en güçlü olduğu alan, yani bilgisayar ağları konusu ele alınmaktadır. Güvenilir olması ve sistemin kolaylıkla çökmemesi nedenleriyle özellikle Internet Servis Sağlayıcıları tarafından tercih edilen Linux işletim sisteminde düzgün bir kurulum yapılmaması durumunda ağ yönetimi bir kabusa dönüşebilir. Böyle zor bir durumda kalmak istemeyen kullanıcılar için Türkçe?de hazırlanmış ilk ve tek kitap olan Linux Ağ Yönetimi  bilgisayar ağları, TCP/IP ve protokoller, ağ yönetimi, IP Masquerading, Apache web sunucu, DNS, Squid proxy, Sendmail, Samba, NFS, PPP, Listeciler, Sistem ağ yönetim araçları ve Linux?ta güvenlik konularıyla ilgili merak ettiğiniz her şeyi sunmaktadır....<br/>
+				GÃ¶rkem Ã‡etin, Kaan GÃ¼neÅŸ Ã‡elik ve BarÄ±ÅŸ Metin tarafÄ±ndan kaleme alÄ±nan Linux AÄŸ YÃ¶netimi isimli kitabÄ±n bu ikinci baskÄ±sÄ±nda, dÃ¼nyada olduÄŸu kadar, Ã¼lkemizde de kullanÄ±mÄ± gÃ¼nden gÃ¼ne yaygÄ±nlaÅŸmakta olan Linux?un en gÃ¼Ã§lÃ¼ olduÄŸu alan, yani bilgisayar aÄŸlarÄ± konusu ele alÄ±nmaktadÄ±r. GÃ¼venilir olmasÄ± ve sistemin kolaylÄ±kla Ã§Ã¶kmemesi nedenleriyle Ã¶zellikle Internet Servis SaÄŸlayÄ±cÄ±larÄ± tarafÄ±ndan tercih edilen Linux iÅŸletim sisteminde dÃ¼zgÃ¼n bir kurulum yapÄ±lmamasÄ± durumunda aÄŸ yÃ¶netimi bir kabusa dÃ¶nÃ¼ÅŸebilir. BÃ¶yle zor bir durumda kalmak istemeyen kullanÄ±cÄ±lar iÃ§in TÃ¼rkÃ§e?de hazÄ±rlanmÄ±ÅŸ ilk ve tek kitap olan Linux AÄŸ YÃ¶netimi  bilgisayar aÄŸlarÄ±, TCP/IP ve protokoller, aÄŸ yÃ¶netimi, IP Masquerading, Apache web sunucu, DNS, Squid proxy, Sendmail, Samba, NFS, PPP, Listeciler, Sistem aÄŸ yÃ¶netim araÃ§larÄ± ve Linux?ta gÃ¼venlik konularÄ±yla ilgili merak ettiÄŸiniz her ÅŸeyi sunmaktadÄ±r....<br/>
 <br/>
-Kitapta Bulunan Konulardan Bazıları Şunlardır:<br/>
+Kitapta Bulunan Konulardan BazÄ±larÄ± ÅunlardÄ±r:<br/>
 <br/>
-Bilgisayar Ağlarının Temelleri<br/>
+Bilgisayar AÄŸlarÄ±nÄ±n Temelleri<br/>
 TCP- IP ve Protokoller<br/>
 DNS<br/>
 Apache Web Sunucusu<br/>
-Güvenlik<br/>
+GÃ¼venlik<br/>
 Sendmail<br/>
 NFS<br/>
 PPP<br/>
 PHP ve MySQL<br/>
-Ağ Komutları ve Yönetim Araçları
+AÄŸ KomutlarÄ± ve YÃ¶netim AraÃ§larÄ±
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Linux Altında Programlama</h2></td></tr>
+Linux AltÄ±nda Programlama</h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756797341.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756797341<br/>
-				<b>Yaınevi: </b>Papatya Yayıncılık<br/>
+				<b>YaÄ±nevi: </b>Papatya YayÄ±ncÄ±lÄ±k<br/>
 				<b>Yazarlar: </b>M. Ali Vardar<br/>
 				<br/>
-				Linux İşletim Sistemi, kimileri için doğan bir güneş, kimileri için kanser, kimisi içinde işe yaramayan bir uygulamalar zinciri  kim ne derse desin Linux büyüyor, gelişiyor ve de gelişmesi engellenemiyor. Bu kitap ta, ilk önce, kullanıcı ve programcı açısından Linux İşletim Sisteminin kullanımı/mimari yapısı ele alınmakta ve ardından Linux altında program geliştirmeye yönelik uygulama geliştirme araçları: GTK+/GNOME, Qt/KDE, GTK-PHP İkilisi, Glade ile uygulama geliştirme, Anjuta ile uygulama geliştirme, Veritabanı uygulaması ve C dili, Ncursus kütüphanesi, TCP/IP soket programlama gibi konular gerçek yaşamdan örnekler verilerek açıklanmaktadır.<br/>
+				Linux Ä°ÅŸletim Sistemi, kimileri iÃ§in doÄŸan bir gÃ¼neÅŸ, kimileri iÃ§in kanser, kimisi iÃ§inde iÅŸe yaramayan bir uygulamalar zinciri  kim ne derse desin Linux bÃ¼yÃ¼yor, geliÅŸiyor ve de geliÅŸmesi engellenemiyor. Bu kitap ta, ilk Ã¶nce, kullanÄ±cÄ± ve programcÄ± aÃ§Ä±sÄ±ndan Linux Ä°ÅŸletim Sisteminin kullanÄ±mÄ±/mimari yapÄ±sÄ± ele alÄ±nmakta ve ardÄ±ndan Linux altÄ±nda program geliÅŸtirmeye yÃ¶nelik uygulama geliÅŸtirme araÃ§larÄ±: GTK+/GNOME, Qt/KDE, GTK-PHP Ä°kilisi, Glade ile uygulama geliÅŸtirme, Anjuta ile uygulama geliÅŸtirme, VeritabanÄ± uygulamasÄ± ve C dili, Ncursus kÃ¼tÃ¼phanesi, TCP/IP soket programlama gibi konular gerÃ§ek yaÅŸamdan Ã¶rnekler verilerek aÃ§Ä±klanmaktadÄ±r.<br/>
 <br/>
 Konular <br/>
-LINUX İşletim Sistemine Bir Bakış<br/>
+LINUX Ä°ÅŸletim Sistemine Bir BakÄ±ÅŸ<br/>
 LINUX Mimarisi<br/>
-LINUX Kullanımı ve Temel Konsol Komutları<br/>
-GTK+ ve Bileşenleri<br/>
-GNOME Kütüphanesi Kullanımı<br/>
-GLADE ile Uygulama Geliştirme<br/>
-ANJUTA ile Uygulama Geliştirme<br/>
-Qt Nedir? Ve Qt Bileşenleri<br/>
-vi Editörünün Kullanımı<br/>
-Veritabanı Uygulaması ve C Dili<br/>
-Ncurses Kütüphanesi<br/>
-Linux İşletim Sistemi Bilgilerine Erişim<br/>
-TCP ve UDP Soket Kullanımı<br/>
-PHP VE GTK-PHP İkilisi
+LINUX KullanÄ±mÄ± ve Temel Konsol KomutlarÄ±<br/>
+GTK+ ve BileÅŸenleri<br/>
+GNOME KÃ¼tÃ¼phanesi KullanÄ±mÄ±<br/>
+GLADE ile Uygulama GeliÅŸtirme<br/>
+ANJUTA ile Uygulama GeliÅŸtirme<br/>
+Qt Nedir? Ve Qt BileÅŸenleri<br/>
+vi EditÃ¶rÃ¼nÃ¼n KullanÄ±mÄ±<br/>
+VeritabanÄ± UygulamasÄ± ve C Dili<br/>
+Ncurses KÃ¼tÃ¼phanesi<br/>
+Linux Ä°ÅŸletim Sistemi Bilgilerine EriÅŸim<br/>
+TCP ve UDP Soket KullanÄ±mÄ±<br/>
+PHP VE GTK-PHP Ä°kilisi
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
 Linux Doktoru </h2></td></tr>
@@ -214,83 +214,83 @@ Linux Doktoru </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789753475792.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789753475792<br/>
-				<b>Yaınevi: </b>Seçkin Yayıncılık<br/>
-				<b>Yazarlar: </b>Görkem Çetin<br/>
+				<b>YaÄ±nevi: </b>SeÃ§kin YayÄ±ncÄ±lÄ±k<br/>
+				<b>Yazarlar: </b>GÃ¶rkem Ã‡etin<br/>
 				<br/>
-				Linux, kararlı, güvenli ve özgür yapısı nedeniyle, 1992 yılından beri aranılan ve tercih edilen işletim sistemlerinin başında gelmiştir. Taşıdığı serbest yazılım potansiyeli ve dünya çapında oluşturduğu camiasıyla, geleceğin işletim sistemi adaylarının başında gelen Linux'u öğrenmeniz için hazırlanmış olan bu kitapta, her gün karşılaştığınız küçük, ancak bazen düşündürücü, bazen de zamanınızı alan ufak tefek sorunlara çözüm olmayı hedefliyor. Kitap, başlangıç ve orta seviyedeki kullanıcılara hitap ederken, sınıflandırılmış yaklaşık 300 soru ve cevapla, konuyla ilgilenenleri ileri götürmeyi amaçlıyor.
+				Linux, kararlÄ±, gÃ¼venli ve Ã¶zgÃ¼r yapÄ±sÄ± nedeniyle, 1992 yÄ±lÄ±ndan beri aranÄ±lan ve tercih edilen iÅŸletim sistemlerinin baÅŸÄ±nda gelmiÅŸtir. TaÅŸÄ±dÄ±ÄŸÄ± serbest yazÄ±lÄ±m potansiyeli ve dÃ¼nya Ã§apÄ±nda oluÅŸturduÄŸu camiasÄ±yla, geleceÄŸin iÅŸletim sistemi adaylarÄ±nÄ±n baÅŸÄ±nda gelen Linux'u Ã¶ÄŸrenmeniz iÃ§in hazÄ±rlanmÄ±ÅŸ olan bu kitapta, her gÃ¼n karÅŸÄ±laÅŸtÄ±ÄŸÄ±nÄ±z kÃ¼Ã§Ã¼k, ancak bazen dÃ¼ÅŸÃ¼ndÃ¼rÃ¼cÃ¼, bazen de zamanÄ±nÄ±zÄ± alan ufak tefek sorunlara Ã§Ã¶zÃ¼m olmayÄ± hedefliyor. Kitap, baÅŸlangÄ±Ã§ ve orta seviyedeki kullanÄ±cÄ±lara hitap ederken, sÄ±nÄ±flandÄ±rÄ±lmÄ±ÅŸ yaklaÅŸÄ±k 300 soru ve cevapla, konuyla ilgilenenleri ileri gÃ¶tÃ¼rmeyi amaÃ§lÄ±yor.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Linux Güvenliği </h2></td></tr>
+Linux GÃ¼venliÄŸi </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756477489.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756477489<br/>
-				<b>Yaınevi: </b>Pusula Yayıncılık<br/>
+				<b>YaÄ±nevi: </b>Pusula YayÄ±ncÄ±lÄ±k<br/>
 				<b>Yazarlar: </b>Daniel J. Barrett, Richard E. Silverman, Robert G. Byrnes<br/>
 				<br/>
-				Bilgisayar güvenliği karmaşık bir süreçtir, ama bizim takip etmesi kolay reçetelerimiz herhangi bir Linux sisteminin güvenliğini geliştirmeye yardımcı olacaktır. Emacs ile şif- reli e-posta göndermek için kolay bir yola mı ihtiyacınız mı var? Günün belirli zamanlarında ağ servislerinize erişimi sınırlandırmak mı istiyorsunuz? Web sunucunuza firewall mı kurmak istiyorsunuz? Ağınız da koklama yapmak mı? SSH için açık anahtar ayarlamak mı? Linux Güvenliği bu önemli görevleri yerine getirmek için gerekli olan komutları ve yapılandırma dosyası girişlerini adım adım sunmaktadır, böylece manpage'ler arasında bocalamak zorunda kalmazsınız. Bu kitap orta seviyedeki Linux kullanıcıları ve sistem yöneticileri için pratik, güvenlikle ilgili reçetelerle doludur:<br/>
+				Bilgisayar gÃ¼venliÄŸi karmaÅŸÄ±k bir sÃ¼reÃ§tir, ama bizim takip etmesi kolay reÃ§etelerimiz herhangi bir Linux sisteminin gÃ¼venliÄŸini geliÅŸtirmeye yardÄ±mcÄ± olacaktÄ±r. Emacs ile ÅŸif- reli e-posta gÃ¶ndermek iÃ§in kolay bir yola mÄ± ihtiyacÄ±nÄ±z mÄ± var? GÃ¼nÃ¼n belirli zamanlarÄ±nda aÄŸ servislerinize eriÅŸimi sÄ±nÄ±rlandÄ±rmak mÄ± istiyorsunuz? Web sunucunuza firewall mÄ± kurmak istiyorsunuz? AÄŸÄ±nÄ±z da koklama yapmak mÄ±? SSH iÃ§in aÃ§Ä±k anahtar ayarlamak mÄ±? Linux GÃ¼venliÄŸi bu Ã¶nemli gÃ¶revleri yerine getirmek iÃ§in gerekli olan komutlarÄ± ve yapÄ±landÄ±rma dosyasÄ± giriÅŸlerini adÄ±m adÄ±m sunmaktadÄ±r, bÃ¶ylece manpage'ler arasÄ±nda bocalamak zorunda kalmazsÄ±nÄ±z. Bu kitap orta seviyedeki Linux kullanÄ±cÄ±larÄ± ve sistem yÃ¶neticileri iÃ§in pratik, gÃ¼venlikle ilgili reÃ§etelerle doludur:<br/>
 <br/>
-- İptables, ipchains, xinetd, inetd ve daha fazlasını kullanarak firewall'dan tekli servislere kadar sisteminize erişimi denetlemek<br/>
+- Ä°ptables, ipchains, xinetd, inetd ve daha fazlasÄ±nÄ± kullanarak firewall'dan tekli servislere kadar sisteminize eriÅŸimi denetlemek<br/>
 <br/>
-- Ethereal, dsniff, netstat ve diğer araçlar ile ağınızı izlemek<br/>
+- Ethereal, dsniff, netstat ve diÄŸer araÃ§lar ile aÄŸÄ±nÄ±zÄ± izlemek<br/>
 <br/>
-- SSH ve SSL ile ağ bağlantılarınızı korumak<br/>
+- SSH ve SSL ile aÄŸ baÄŸlantÄ±larÄ±nÄ±zÄ± korumak<br/>
 <br/>
-- Tripwire, snort, tcpdump, logwatch ve diğer pek çoğu ile izinsiz girişleri tespit etmek<br/>
+- Tripwire, snort, tcpdump, logwatch ve diÄŸer pek Ã§oÄŸu ile izinsiz giriÅŸleri tespit etmek<br/>
 <br/>
-- Kriptografik anahtarlar, Kerberos ve PAM ile kimlik denetimi sağlamak ve sudo ile root ayrıcalıkları vermek<br/>
+- Kriptografik anahtarlar, Kerberos ve PAM ile kimlik denetimi saÄŸlamak ve sudo ile root ayrÄ±calÄ±klarÄ± vermek<br/>
 <br/>
-- GnupPG ile dosyaları ve e-posta mesajlarını şifrelemek<br/>
+- GnupPG ile dosyalarÄ± ve e-posta mesajlarÄ±nÄ± ÅŸifrelemek<br/>
 <br/>
-- Şifre kırıcılar, nmap ve kullanışlı script'lerle kendi güvenliğinizi irdelemek<br/>
+- Åifre kÄ±rÄ±cÄ±lar, nmap ve kullanÄ±ÅŸlÄ± script'lerle kendi gÃ¼venliÄŸinizi irdelemek<br/>
 <br/>
-Linux sistemleri kullanıyor ya da yönetiyorsanız, bu kitaptaki reçeteler sizi daha üretken yapacaktır: daha çok şeyi daha kısa sürede yerine getireceksiniz. Güvenlik bir sorun olmaya hep devam edecektir, ancak istediğiniz sorunlara doğru çözümlerle yaklaştığınıza emin olmak da elinizde.<br/>
-"Linux sistemlerinizin güvenli çalışması için en yeni araçların muhteşem, kullanışlı bir kolleksiyonu."<br/>
--Sandra O'Brien, Güvenlik Danışmanı<br/>
+Linux sistemleri kullanÄ±yor ya da yÃ¶netiyorsanÄ±z, bu kitaptaki reÃ§eteler sizi daha Ã¼retken yapacaktÄ±r: daha Ã§ok ÅŸeyi daha kÄ±sa sÃ¼rede yerine getireceksiniz. GÃ¼venlik bir sorun olmaya hep devam edecektir, ancak istediÄŸiniz sorunlara doÄŸru Ã§Ã¶zÃ¼mlerle yaklaÅŸtÄ±ÄŸÄ±nÄ±za emin olmak da elinizde.<br/>
+"Linux sistemlerinizin gÃ¼venli Ã§alÄ±ÅŸmasÄ± iÃ§in en yeni araÃ§larÄ±n muhteÅŸem, kullanÄ±ÅŸlÄ± bir kolleksiyonu."<br/>
+-Sandra O'Brien, GÃ¼venlik DanÄ±ÅŸmanÄ±<br/>
 <br/>
-"Bu kitap pratik görevleri öğrenmeye yeni başlayanlar ve uzun zaman önce yaptıkları şeylere dönmek isteyen profesyoneller için hazırlanmıştır. Güvenlik yönetiminde her gün karşılaştığımız teknik işlerin pek çoğunu kapsayan yoğun tarzı sizi sürükleyecek."<br/>
--Klaus Möller, DFN-CERT Gmbh
+"Bu kitap pratik gÃ¶revleri Ã¶ÄŸrenmeye yeni baÅŸlayanlar ve uzun zaman Ã¶nce yaptÄ±klarÄ± ÅŸeylere dÃ¶nmek isteyen profesyoneller iÃ§in hazÄ±rlanmÄ±ÅŸtÄ±r. GÃ¼venlik yÃ¶netiminde her gÃ¼n karÅŸÄ±laÅŸtÄ±ÄŸÄ±mÄ±z teknik iÅŸlerin pek Ã§oÄŸunu kapsayan yoÄŸun tarzÄ± sizi sÃ¼rÃ¼kleyecek."<br/>
+-Klaus MÃ¶ller, DFN-CERT Gmbh
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Linux Herkes İçin!</h2></td></tr>
+Linux Herkes Ä°Ã§in!</h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789753167192.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789753167192<br/>
-				<b>Yaınevi: </b>Alfa Basım Yayım Dağıtım<br/>
+				<b>YaÄ±nevi: </b>Alfa BasÄ±m YayÄ±m DaÄŸÄ±tÄ±m<br/>
 				<b>Yazarlar: </b>Richard Petersen<br/>
 				<br/>
-				En Kapsamlı ve Yetkin Linux Kitabı!<br/>
+				En KapsamlÄ± ve Yetkin Linux KitabÄ±!<br/>
 <br/>
-- Linux'a Giriş<br/>
+- Linux'a GiriÅŸ<br/>
 - Red Hat Linux Kurulumu<br/>
 - Openlinux Kurulumu<br/>
-- Arabirim Esasları ve Sistem Konfigürasyonu<br/>
+- Arabirim EsaslarÄ± ve Sistem KonfigÃ¼rasyonu<br/>
 - K Desktop Environment: KDE<br/>
 - Gnome<br/>
-- X Window System ve Pencere Yöneticileri<br/>
-- Kabuk İşlemleri<br/>
-- Linux Dosya Yapısı<br/>
-- Kabuk Özellikleri ve Konfigürasyonu<br/>
-- Posta Programları<br/>
-- Usenet ve Haber Okuyucuları<br/>
+- X Window System ve Pencere YÃ¶neticileri<br/>
+- Kabuk Ä°ÅŸlemleri<br/>
+- Linux Dosya YapÄ±sÄ±<br/>
+- Kabuk Ã–zellikleri ve KonfigÃ¼rasyonu<br/>
+- Posta ProgramlarÄ±<br/>
+- Usenet ve Haber OkuyucularÄ±<br/>
 - FTP ve Gopher<br/>
 - World Wide Web<br/>
-- Ağ Araçları<br/>
-- Internet Sunucuları<br/>
+- AÄŸ AraÃ§larÄ±<br/>
+- Internet SunucularÄ±<br/>
 - Apache Web Sunucusu<br/>
 - Gopher Sunucusu<br/>
 - Domain Name Service<br/>
-- Posta, Haber, Proxy ve Arama Sunucuları<br/>
-- Office Uygulamaları<br/>
-- Veritabanı Yönetim Sistemleri ve Grafik Araçları<br/>
-- Yazılım Yönetimi<br/>
-- Editörler<br/>
-- Dosya Sistemi Yönetimi<br/>
-- Sistem Yönetimi<br/>
-- Ağ Yönetimi<br/>
+- Posta, Haber, Proxy ve Arama SunucularÄ±<br/>
+- Office UygulamalarÄ±<br/>
+- VeritabanÄ± YÃ¶netim Sistemleri ve Grafik AraÃ§larÄ±<br/>
+- YazÄ±lÄ±m YÃ¶netimi<br/>
+- EditÃ¶rler<br/>
+- Dosya Sistemi YÃ¶netimi<br/>
+- Sistem YÃ¶netimi<br/>
+- AÄŸ YÃ¶netimi<br/>
 - X Windows System ve XFree86<br/>
-- Ücretsiz iki CD!!
+- Ãœcretsiz iki CD!!
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
 Linux ile Robotik </h2></td></tr>
@@ -298,136 +298,136 @@ Linux ile Robotik </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789752977754.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789752977754<br/>
-				<b>Yaınevi: </b>Alfa Basım Yayım Dağıtım<br/>
+				<b>YaÄ±nevi: </b>Alfa BasÄ±m YayÄ±m DaÄŸÄ±tÄ±m<br/>
 				<b>Yazarlar: </b>D. Jay Newman<br/>
 				<br/>
-				Robotlara meraklıysanız kaçırmamanız gereken bir kitap!<br/>
+				Robotlara meraklÄ±ysanÄ±z kaÃ§Ä±rmamanÄ±z gereken bir kitap!<br/>
 <br/>
-Linux'un gücünü ve esnekliğini kullanarak isterseniz yeni bir robot yapın, isterseniz mevcut robotunuzu geliştirin.<br/>
+Linux'un gÃ¼cÃ¼nÃ¼ ve esnekliÄŸini kullanarak isterseniz yeni bir robot yapÄ±n, isterseniz mevcut robotunuzu geliÅŸtirin.<br/>
 <br/>
-# Robotlarla tanışın.<br/>
-# Robot elektroniğinin temellerini öğrenin.<br/>
-# Robotun iç iletişim sistemini ve robot denetim ağını tanıyın.<br/>
-# Robotun duyu organları olan sensörleri öğrenin.<br/>
-# Davranışsal programlamaya giriş yapın.<br/>
-# Konuşmadan metne ve metinden konuşmaya dönüşüm mekanizmalarıyla robotunuzla iletişim kurun.<br/>
-# Kamera kullanarak robotunuzun dünyayı görebilmesini sağlayın.<br/>
-# Harita oluşturma algoritmalarını tanıyın.<br/>
-# Yapay sinir ağlarıyla çalışın.<br/>
-# Robotla kablosuz iletişimin temellerini öğrenin. 
+# Robotlarla tanÄ±ÅŸÄ±n.<br/>
+# Robot elektroniÄŸinin temellerini Ã¶ÄŸrenin.<br/>
+# Robotun iÃ§ iletiÅŸim sistemini ve robot denetim aÄŸÄ±nÄ± tanÄ±yÄ±n.<br/>
+# Robotun duyu organlarÄ± olan sensÃ¶rleri Ã¶ÄŸrenin.<br/>
+# DavranÄ±ÅŸsal programlamaya giriÅŸ yapÄ±n.<br/>
+# KonuÅŸmadan metne ve metinden konuÅŸmaya dÃ¶nÃ¼ÅŸÃ¼m mekanizmalarÄ±yla robotunuzla iletiÅŸim kurun.<br/>
+# Kamera kullanarak robotunuzun dÃ¼nyayÄ± gÃ¶rebilmesini saÄŸlayÄ±n.<br/>
+# Harita oluÅŸturma algoritmalarÄ±nÄ± tanÄ±yÄ±n.<br/>
+# Yapay sinir aÄŸlarÄ±yla Ã§alÄ±ÅŸÄ±n.<br/>
+# Robotla kablosuz iletiÅŸimin temellerini Ã¶ÄŸrenin. 
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Linux İşletim Sistemi</h2></td></tr>
+Linux Ä°ÅŸletim Sistemi</h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789752975590.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789752975590<br/>
-				<b>Yaınevi: </b>Alfa Basım Yayım Dağıtım<br/>
-				<b>Yazarlar: </b>Yalçın Özkan<br/>
+				<b>YaÄ±nevi: </b>Alfa BasÄ±m YayÄ±m DaÄŸÄ±tÄ±m<br/>
+				<b>Yazarlar: </b>YalÃ§Ä±n Ã–zkan<br/>
 				<br/>
-				- İşletim Sistemleri ve Linux Komut Yorumlayıcısı<br/>
-- Dosya Yönetimi<br/>
-- Yazıcı ve İşlem Yönetimi<br/>
-- Linux Masa Üstü Kabuk Programları
+				- Ä°ÅŸletim Sistemleri ve Linux Komut YorumlayÄ±cÄ±sÄ±<br/>
+- Dosya YÃ¶netimi<br/>
+- YazÄ±cÄ± ve Ä°ÅŸlem YÃ¶netimi<br/>
+- Linux Masa ÃœstÃ¼ Kabuk ProgramlarÄ±
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Linux İşletim Sistemi</h2></td></tr>
+Linux Ä°ÅŸletim Sistemi</h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789754869408.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789754869408<br/>
-				<b>Yaınevi: </b>Beta Basım Yayım Dağıtım A.Ş.<br/>
+				<b>YaÄ±nevi: </b>Beta BasÄ±m YayÄ±m DaÄŸÄ±tÄ±m A.Å.<br/>
 				<b>Yazarlar: </b>Mithat Uysa<br/>
 				<br/>
-				-Linux'un Tarihçesi<br/>
+				-Linux'un TarihÃ§esi<br/>
 -Linux Kurulumu (Red Hat, Slackware, Mandrake, Winlinux, Linux for Windows)<br/>
 -X Window Sistemi, KDE ve GNOME<br/>
--Linux Komut Satırı<br/>
+-Linux Komut SatÄ±rÄ±<br/>
 -Paketlerin Kurulumu<br/>
 -Kernelin Kurulumu<br/>
 -Linux ve Programlama Dilleri<br/>
 -Kabuk Programlama<br/>
--Ağ Ortamında Linux<br/>
--Linux ile İnternet Hizmetleri (E-Mail, FTP, Telnet Vb)<br/>
--Internetteki Linux Kaynakları<br/>
--Ek: İşletim Sistemleri Teorisi
+-AÄŸ OrtamÄ±nda Linux<br/>
+-Linux ile Ä°nternet Hizmetleri (E-Mail, FTP, Telnet Vb)<br/>
+-Internetteki Linux KaynaklarÄ±<br/>
+-Ek: Ä°ÅŸletim Sistemleri Teorisi
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Linux İşletim Sistemi </h2></td></tr>
+Linux Ä°ÅŸletim Sistemi </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789753477482.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789753477482<br/>
-				<b>Yaınevi: </b>Seçkin Yayıncılık<br/>
-				<b>Yazarlar: </b>Görkem Çetin<br/>
+				<b>YaÄ±nevi: </b>SeÃ§kin YayÄ±ncÄ±lÄ±k<br/>
+				<b>Yazarlar: </b>GÃ¶rkem Ã‡etin<br/>
 				<br/>
-				Linux, internet bağlantısından programcılığa, ofis yazılımlarından çoklu ortama kadar çok geniş bir yelpazede kullanım alanı bulan kararlı, hızlı ve güvenilir bir işletim sistemi haline gelmiştir. Bu kitap, daha önce Linux kullanmamış, ama yeniliğe açık, okumayı seven bilgisayar meraklıları için hazırlanmıştır. Oldukça sade ve akıcı bir dille yazılan kitata bulunan konular, herhangi br kullanıcının Linux altında temel tüm masaüstü işlemlerini yapabilmesine olanak verecek şekilde sıralanmıştır. Zengin ekran görüntüleri, anlatılan konulara paralel ve uyumlu bir şekilde tasarlanmış ve kitaba eklenmiştir.<br/>
+				Linux, internet baÄŸlantÄ±sÄ±ndan programcÄ±lÄ±ÄŸa, ofis yazÄ±lÄ±mlarÄ±ndan Ã§oklu ortama kadar Ã§ok geniÅŸ bir yelpazede kullanÄ±m alanÄ± bulan kararlÄ±, hÄ±zlÄ± ve gÃ¼venilir bir iÅŸletim sistemi haline gelmiÅŸtir. Bu kitap, daha Ã¶nce Linux kullanmamÄ±ÅŸ, ama yeniliÄŸe aÃ§Ä±k, okumayÄ± seven bilgisayar meraklÄ±larÄ± iÃ§in hazÄ±rlanmÄ±ÅŸtÄ±r. OldukÃ§a sade ve akÄ±cÄ± bir dille yazÄ±lan kitata bulunan konular, herhangi br kullanÄ±cÄ±nÄ±n Linux altÄ±nda temel tÃ¼m masaÃ¼stÃ¼ iÅŸlemlerini yapabilmesine olanak verecek ÅŸekilde sÄ±ralanmÄ±ÅŸtÄ±r. Zengin ekran gÃ¶rÃ¼ntÃ¼leri, anlatÄ±lan konulara paralel ve uyumlu bir ÅŸekilde tasarlanmÄ±ÅŸ ve kitaba eklenmiÅŸtir.<br/>
 <br/>
-Bir kere Linux dünyasına girdiğiniz zaman çıkmayacak, bu paylaşımcı ortamın büyüsüne kapılacak, getirdiği özgün yeniliklerin etkisinden kurtulamayacaksınız. Sevimli penguenin sizi çağırdığı yere gidin.
+Bir kere Linux dÃ¼nyasÄ±na girdiÄŸiniz zaman Ã§Ä±kmayacak, bu paylaÅŸÄ±mcÄ± ortamÄ±n bÃ¼yÃ¼sÃ¼ne kapÄ±lacak, getirdiÄŸi Ã¶zgÃ¼n yeniliklerin etkisinden kurtulamayacaksÄ±nÄ±z. Sevimli penguenin sizi Ã§aÄŸÄ±rdÄ±ÄŸÄ± yere gidin.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Linux Sistem Yönetimi </h2></td></tr>
+Linux Sistem YÃ¶netimi </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789759809959.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789759809959<br/>
-				<b>Yaınevi: </b>Açık Akademi Yayınları<br/>
+				<b>YaÄ±nevi: </b>AÃ§Ä±k Akademi YayÄ±nlarÄ±<br/>
 				<b>Yazarlar: </b>Tom Adelstein, Bill Lubanovic<br/>
 				<br/>
-				İster Linux yeteneklerini geliştirmek isteyen bir sistem yöneticisi isterse de yeni sorunlar ile karşılasan Linux kullanıcısı olun, Linux Sistem Yönetimi size Linux sistem ve sunucularını yönetmeniz için gerekli olacak tüm pratik bilgileri sunacaktır. Kitap SOHO hub, web ve4 yerel ağ sunucularından yük-dengeleyici kümelemelere ve sanal sunuculara kadar büyük yelpazedeki sistemleri yapılandırmanıza yardımcı olacaktır. Bunun yanında aşamalar içinde öğreneceğiniz teknik ve keşfedeceğiniz yeni yazılımlar işinizi daha da kolaylaştıracaktır.<br/>
+				Ä°ster Linux yeteneklerini geliÅŸtirmek isteyen bir sistem yÃ¶neticisi isterse de yeni sorunlar ile karÅŸÄ±lasan Linux kullanÄ±cÄ±sÄ± olun, Linux Sistem YÃ¶netimi size Linux sistem ve sunucularÄ±nÄ± yÃ¶netmeniz iÃ§in gerekli olacak tÃ¼m pratik bilgileri sunacaktÄ±r. Kitap SOHO hub, web ve4 yerel aÄŸ sunucularÄ±ndan yÃ¼k-dengeleyici kÃ¼melemelere ve sanal sunuculara kadar bÃ¼yÃ¼k yelpazedeki sistemleri yapÄ±landÄ±rmanÄ±za yardÄ±mcÄ± olacaktÄ±r. Bunun yanÄ±nda aÅŸamalar iÃ§inde Ã¶ÄŸreneceÄŸiniz teknik ve keÅŸfedeceÄŸiniz yeni yazÄ±lÄ±mlar iÅŸinizi daha da kolaylaÅŸtÄ±racaktÄ±r.<br/>
 <br/>
-Artık büyük şirketlerde milyonlarca kullanıcı tarafından kullanılan Linux için hala yetenekli yönetici eksiği bulunmaktadır. Linux Sistem Yönetimi, Unix kullanıcıları, MCSE'ler, sistem yöneticileri ve yeteneklerini geliştirmek isteyen bilgi işlem çalışanları için Linux'a giriş platformu sağlamaktadır. Peki, kitapta neler öğreneksiniz:<br/>
+ArtÄ±k bÃ¼yÃ¼k ÅŸirketlerde milyonlarca kullanÄ±cÄ± tarafÄ±ndan kullanÄ±lan Linux iÃ§in hala yetenekli yÃ¶netici eksiÄŸi bulunmaktadÄ±r. Linux Sistem YÃ¶netimi, Unix kullanÄ±cÄ±larÄ±, MCSE'ler, sistem yÃ¶neticileri ve yeteneklerini geliÅŸtirmek isteyen bilgi iÅŸlem Ã§alÄ±ÅŸanlarÄ± iÃ§in Linux'a giriÅŸ platformu saÄŸlamaktadÄ±r. Peki, kitapta neler Ã¶ÄŸreneksiniz:<br/>
 <br/>
-# Linux sunucu kurulum ve yapılandırması<br/>
-# BIND ile DNS sunucu kurulum, yapılandırma ve yönetimi<br/>
-# İnternet sunucusu ile site yönetimi, e posta ve dosya transferi ve daha fazlası<br/>
-# Küçük-orta ölçekli şirketler için kimlik denetimli e posta sunucusu kurulumu<br/>
-# Apache, PHP ve MySQL ile tam bir web sunucu kurulum ve yapılandırılması<br/>
-# Linux sanal sunucu üzerinde sistemleri birleştirip Apache web sunucu kümelemelerinin oluşturulması<br/>
-# Dağıtık dosya sistemlerinden, DHCP, yazıcı ve ağ geçidi servislerine kadar farklı yerel ağ servislerinin kurulumu, kullanıcı yönetimi vs daha fazlası<br/>
-# Xen veya VMWare ile tek donanım üzerinde, aygıt, bellek ve işlemci gücünü ayarlayabileceğiniz birden çok çekirdek çalıştırılması<br/>
-# İsteğinize göre betikler oluşturulup bunların çalıştırılması<br/>
-# rsync, tar, cdrecord, Âmânda ve MySQL yazılımları ile dosyalarınızın yedekleyip geri yüklenmesi<br/>
+# Linux sunucu kurulum ve yapÄ±landÄ±rmasÄ±<br/>
+# BIND ile DNS sunucu kurulum, yapÄ±landÄ±rma ve yÃ¶netimi<br/>
+# Ä°nternet sunucusu ile site yÃ¶netimi, e posta ve dosya transferi ve daha fazlasÄ±<br/>
+# KÃ¼Ã§Ã¼k-orta Ã¶lÃ§ekli ÅŸirketler iÃ§in kimlik denetimli e posta sunucusu kurulumu<br/>
+# Apache, PHP ve MySQL ile tam bir web sunucu kurulum ve yapÄ±landÄ±rÄ±lmasÄ±<br/>
+# Linux sanal sunucu Ã¼zerinde sistemleri birleÅŸtirip Apache web sunucu kÃ¼melemelerinin oluÅŸturulmasÄ±<br/>
+# DaÄŸÄ±tÄ±k dosya sistemlerinden, DHCP, yazÄ±cÄ± ve aÄŸ geÃ§idi servislerine kadar farklÄ± yerel aÄŸ servislerinin kurulumu, kullanÄ±cÄ± yÃ¶netimi vs daha fazlasÄ±<br/>
+# Xen veya VMWare ile tek donanÄ±m Ã¼zerinde, aygÄ±t, bellek ve iÅŸlemci gÃ¼cÃ¼nÃ¼ ayarlayabileceÄŸiniz birden Ã§ok Ã§ekirdek Ã§alÄ±ÅŸtÄ±rÄ±lmasÄ±<br/>
+# Ä°steÄŸinize gÃ¶re betikler oluÅŸturulup bunlarÄ±n Ã§alÄ±ÅŸtÄ±rÄ±lmasÄ±<br/>
+# rsync, tar, cdrecord, Ã‚mÃ¢nda ve MySQL yazÄ±lÄ±mlarÄ± ile dosyalarÄ±nÄ±zÄ±n yedekleyip geri yÃ¼klenmesi<br/>
 <br/>
-Linux Sistem yönetimi sadece bilgi dolu ve pratik değil aynı zamanda işe yarar bir kitap. Kitabın tüm içeriği e-posta listeleri, forum, tartışma grupları, kitaplar ve yetenekli çalışma arkadaşlarımızın yorumları ile oluşturulmuştur. Bu kitabın araştırılması sırasında yazarlar daha önce çözümü yazılı hale getirilmemiş birçok sorunu çözüp bunu kitaba yansıtmışlardır. Artık bu bilgiler sizin de elinizde.
+Linux Sistem yÃ¶netimi sadece bilgi dolu ve pratik deÄŸil aynÄ± zamanda iÅŸe yarar bir kitap. KitabÄ±n tÃ¼m iÃ§eriÄŸi e-posta listeleri, forum, tartÄ±ÅŸma gruplarÄ±, kitaplar ve yetenekli Ã§alÄ±ÅŸma arkadaÅŸlarÄ±mÄ±zÄ±n yorumlarÄ± ile oluÅŸturulmuÅŸtur. Bu kitabÄ±n araÅŸtÄ±rÄ±lmasÄ± sÄ±rasÄ±nda yazarlar daha Ã¶nce Ã§Ã¶zÃ¼mÃ¼ yazÄ±lÄ± hale getirilmemiÅŸ birÃ§ok sorunu Ã§Ã¶zÃ¼p bunu kitaba yansÄ±tmÄ±ÅŸlardÄ±r. ArtÄ±k bu bilgiler sizin de elinizde.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Network TCP/IP UNIX El Kitabı</h2></td></tr>
+Network TCP/IP UNIX El KitabÄ±</h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9799756797029.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9799756797029<br/>
-				<b>Yaınevi: </b>Papatya Yayıncılık<br/>
-				<b>Yazarlar: </b>Rifat Çölkesen<br/>
+				<b>YaÄ±nevi: </b>Papatya YayÄ±ncÄ±lÄ±k<br/>
+				<b>Yazarlar: </b>Rifat Ã‡Ã¶lkesen<br/>
 				<br/>
-				Elinizdeki eser, bilgisayar ağları ve Internet teknolojileri ile ilgili konuları yalın bir dille ele almakta ve okuyucuyu kısa zaman içerisinde, belirli bir düzeye getirmeyi hedeflemektedir. Network, TCP/IP ve Internet içice geçmiş kavramlardır  böylesi bir durumda, kurulan sistemlerden yüksek performans alınabilmesi, en uygun ağ cihazlarının/sistemlerinin seçilebilmesi ve optimum konfigürasyon yapılabilmesi bilinçli olmayı gerektirir. Belirli bir konuda bilinçli olmakda, ancak, o konuyla ilgili kavramların, teknolojilerin ve standartların bilinmesiyle mümkün olacaktır...<br/>
+				Elinizdeki eser, bilgisayar aÄŸlarÄ± ve Internet teknolojileri ile ilgili konularÄ± yalÄ±n bir dille ele almakta ve okuyucuyu kÄ±sa zaman iÃ§erisinde, belirli bir dÃ¼zeye getirmeyi hedeflemektedir. Network, TCP/IP ve Internet iÃ§ice geÃ§miÅŸ kavramlardÄ±r  bÃ¶ylesi bir durumda, kurulan sistemlerden yÃ¼ksek performans alÄ±nabilmesi, en uygun aÄŸ cihazlarÄ±nÄ±n/sistemlerinin seÃ§ilebilmesi ve optimum konfigÃ¼rasyon yapÄ±labilmesi bilinÃ§li olmayÄ± gerektirir. Belirli bir konuda bilinÃ§li olmakda, ancak, o konuyla ilgili kavramlarÄ±n, teknolojilerin ve standartlarÄ±n bilinmesiyle mÃ¼mkÃ¼n olacaktÄ±r...<br/>
 <br/>
-Network Dünyasına Bakış<br/>
-Network Kavramları<br/>
-LAN Kurulması İçin Gerekenler<br/>
+Network DÃ¼nyasÄ±na BakÄ±ÅŸ<br/>
+Network KavramlarÄ±<br/>
+LAN KurulmasÄ± Ä°Ã§in Gerekenler<br/>
 TCP/IP ve Internet Mimarisi<br/>
-IP Adresler ve Altağlar<br/>
-IP Yönlendirme<br/>
-Router'lara Bir Bakış<br/>
-Cisco Router Ailesi ve IOS Komut Satırı<br/>
-Router Konfigürasyonu<br/>
+IP Adresler ve AltaÄŸlar<br/>
+IP YÃ¶nlendirme<br/>
+Router'lara Bir BakÄ±ÅŸ<br/>
+Cisco Router Ailesi ve IOS Komut SatÄ±rÄ±<br/>
+Router KonfigÃ¼rasyonu<br/>
 UNIX Mimarisi<br/>
-UNIX Kullanımı<br/>
-UNIX'li Sistemin TCP/IP Ağa Eklenmesi<br/>
-Internet Hizmet Programları<br/>
+UNIX KullanÄ±mÄ±<br/>
+UNIX'li Sistemin TCP/IP AÄŸa Eklenmesi<br/>
+Internet Hizmet ProgramlarÄ±<br/>
 TCP/IP Soket Programlama<br/>
-UTP ve Seri Kablo Sonlandırma
+UTP ve Seri Kablo SonlandÄ±rma
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-OpenOffice.org Kullanım Kitabı</h2></td></tr>
+OpenOffice.org KullanÄ±m KitabÄ±</h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/Goo.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>-<br/>
-				<b>Yaınevi: </b>Gelecek Yayınları<br/>
+				<b>YaÄ±nevi: </b>Gelecek YayÄ±nlarÄ±<br/>
 				<b>Yazarlar: </b> <br/>
 				<br/>
-				OpenOffice kullanımına yönelik rehberiniz.
+				OpenOffice kullanÄ±mÄ±na yÃ¶nelik rehberiniz.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
 Pardus </h2></td></tr>
@@ -435,50 +435,50 @@ Pardus </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789750204845.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789750204845<br/>
-				<b>Yaınevi: </b>Seçkin Yayıncılık<br/>
-				<b>Yazarlar: </b>Görkem Çetin<br/>
+				<b>YaÄ±nevi: </b>SeÃ§kin YayÄ±ncÄ±lÄ±k<br/>
+				<b>Yazarlar: </b>GÃ¶rkem Ã‡etin<br/>
 				<br/>
-				# Pardus Kurulumu ve Kullanımı Konusuda Önemli Bilgiler<br/>
+				# Pardus Kurulumu ve KullanÄ±mÄ± Konusuda Ã–nemli Bilgiler<br/>
 <br/>
-# İnternete Girme, Kablosuz Ağ Ayarları ve Dizüstünde Pardus Kullanımı<br/>
+# Ä°nternete Girme, Kablosuz AÄŸ AyarlarÄ± ve DizÃ¼stÃ¼nde Pardus KullanÄ±mÄ±<br/>
 <br/>
-# Bilgisayarınızdaki Eski Verilerin Pardus'a Aktarılması<br/>
+# BilgisayarÄ±nÄ±zdaki Eski Verilerin Pardus'a AktarÄ±lmasÄ±<br/>
 <br/>
-# Word, Excel ve Powerpoint Dosyalarının Kullanımı<br/>
+# Word, Excel ve Powerpoint DosyalarÄ±nÄ±n KullanÄ±mÄ±<br/>
 <br/>
-# E-posta Gönderme, Dosya Paylaşma ve Yazıcı Ayarları<br/>
-# Güvenlik Ayarlarının Yapılması<br/>
+# E-posta GÃ¶nderme, Dosya PaylaÅŸma ve YazÄ±cÄ± AyarlarÄ±<br/>
+# GÃ¼venlik AyarlarÄ±nÄ±n YapÄ±lmasÄ±<br/>
 <br/>
-# İnternetten Program İndirme ve Kurma<br/>
+# Ä°nternetten Program Ä°ndirme ve Kurma<br/>
 <br/>
 <br/>
-Türkiye'nin en çok kullanılan, en kolay Linux'unu bu kitapla öğrenin. Her yerde Pardus'u görüyor, ama bir türlü cesaret edemiyor musunuz? Yeni başlayanlar için Pardus'u ipuçlarıyla, hızlı çözümleriyle, en önemli temelleriyle en iyi şekilde öğreten bu kitapla internete girebilir, e-postalarınızı okuyabilir, müzik CD'si dinleyebilir, kendi DVD arşivinizi oluşturabilir, onlarca oyunu oynayabilir ve Pardus'un büyülü dünyasında kendinize bir yer edinebilirsiniz.
+TÃ¼rkiye'nin en Ã§ok kullanÄ±lan, en kolay Linux'unu bu kitapla Ã¶ÄŸrenin. Her yerde Pardus'u gÃ¶rÃ¼yor, ama bir tÃ¼rlÃ¼ cesaret edemiyor musunuz? Yeni baÅŸlayanlar iÃ§in Pardus'u ipuÃ§larÄ±yla, hÄ±zlÄ± Ã§Ã¶zÃ¼mleriyle, en Ã¶nemli temelleriyle en iyi ÅŸekilde Ã¶ÄŸreten bu kitapla internete girebilir, e-postalarÄ±nÄ±zÄ± okuyabilir, mÃ¼zik CD'si dinleyebilir, kendi DVD arÅŸivinizi oluÅŸturabilir, onlarca oyunu oynayabilir ve Pardus'un bÃ¼yÃ¼lÃ¼ dÃ¼nyasÄ±nda kendinize bir yer edinebilirsiniz.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-PHP ile Web Programcılığı </h2></td></tr>
+PHP ile Web ProgramcÄ±lÄ±ÄŸÄ± </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789757092964.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789757092964<br/>
-				<b>Yaınevi: </b>Pusula Yayıncılık<br/>
-				<b>Yazarlar: </b>Mehmet Şamlı<br/>
+				<b>YaÄ±nevi: </b>Pusula YayÄ±ncÄ±lÄ±k<br/>
+				<b>Yazarlar: </b>Mehmet ÅamlÄ±<br/>
 				<br/>
-				Windows ve Linux işletim sistemlerinde PHP kurulumu<br/>
+				Windows ve Linux iÅŸletim sistemlerinde PHP kurulumu<br/>
 Linux ve PHP<br/>
-Ayar dosyaları<br/>
-Niçin PHP kullanmak gerekiyor?<br/>
-PHP programlamam dilinin temel özellikleri<br/>
-Fonksiyon, döngü, array<br/>
-PHP'de form işlemleri<br/>
-Metin ve mail işlemleri<br/>
-HTTP protokolü ve çerezler<br/>
+Ayar dosyalarÄ±<br/>
+NiÃ§in PHP kullanmak gerekiyor?<br/>
+PHP programlamam dilinin temel Ã¶zellikleri<br/>
+Fonksiyon, dÃ¶ngÃ¼, array<br/>
+PHP'de form iÅŸlemleri<br/>
+Metin ve mail iÅŸlemleri<br/>
+HTTP protokolÃ¼ ve Ã§erezler<br/>
 Session<br/>
 PHP ile MySQL<br/>
 PostgreSQL<br/>
 COM<br/>
 ODBC<br/>
 Dbx<br/>
-Grafik işlemleri 
+Grafik iÅŸlemleri 
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
 qmail E-Posta Sunucusu</h2></td></tr>
@@ -486,32 +486,32 @@ qmail E-Posta Sunucusu</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9759809907.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9759809907<br/>
-				<b>Yaınevi: </b>Açık Akademi Yayınları<br/>
-				<b>Yazarlar: </b>İsmail Yenigül, Barış Şimşek, Huzeyfe Önal<br/>
+				<b>YaÄ±nevi: </b>AÃ§Ä±k Akademi YayÄ±nlarÄ±<br/>
+				<b>Yazarlar: </b>Ä°smail YenigÃ¼l, BarÄ±ÅŸ ÅimÅŸek, Huzeyfe Ã–nal<br/>
 				<br/>
-				qmail konusunda e-posta listelerinin arşivi dışında herhangi bir Türkçe kaynak bulunmaması Türk kullanıcılar için sıkıntı verici bir durum oluşturmaktaydı. Bu kitap, başka kaynaklara ihtiyaç duymadan başlangıçtan ileri seviyeye her konuda kullanıcının bütün ihtiyaçlarının karşılanması amacıyla yazılmıştır.
+				qmail konusunda e-posta listelerinin arÅŸivi dÄ±ÅŸÄ±nda herhangi bir TÃ¼rkÃ§e kaynak bulunmamasÄ± TÃ¼rk kullanÄ±cÄ±lar iÃ§in sÄ±kÄ±ntÄ± verici bir durum oluÅŸturmaktaydÄ±. Bu kitap, baÅŸka kaynaklara ihtiyaÃ§ duymadan baÅŸlangÄ±Ã§tan ileri seviyeye her konuda kullanÄ±cÄ±nÄ±n bÃ¼tÃ¼n ihtiyaÃ§larÄ±nÄ±n karÅŸÄ±lanmasÄ± amacÄ±yla yazÄ±lmÄ±ÅŸtÄ±r.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Red Hat Linux 7 Kurulum Kılavuzu </h2></td></tr>
+Red Hat Linux 7 Kurulum KÄ±lavuzu </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789753221481.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789753221481<br/>
-				<b>Yaınevi: </b>Sistem Yayıncılık<br/>
+				<b>YaÄ±nevi: </b>Sistem YayÄ±ncÄ±lÄ±k<br/>
 				<b>Yazarlar: </b>William von Hagen<br/>
 				<br/>
-				Red Hat Linux 7 Kurulum Kılavuzu adlı bu kitap, size Red Hat Linux 7 sisteminizi çalışır hale getirmek için ihtiyaç duyacağınız bilgileri sunuyor. Bu kılavuz sayesinde kurulum ve konfigürasyon süreçlerini hızlı ve problemsiz bir şekilde atlatacaksınız. Bu kılavuz, İnternet ve çeşitli sistem konfigürasyonlarını ayarlarken etkin bir şekilde çalışmanıza imkan veren bilgileri içeriyor.<br/>
+				Red Hat Linux 7 Kurulum KÄ±lavuzu adlÄ± bu kitap, size Red Hat Linux 7 sisteminizi Ã§alÄ±ÅŸÄ±r hale getirmek iÃ§in ihtiyaÃ§ duyacaÄŸÄ±nÄ±z bilgileri sunuyor. Bu kÄ±lavuz sayesinde kurulum ve konfigÃ¼rasyon sÃ¼reÃ§lerini hÄ±zlÄ± ve problemsiz bir ÅŸekilde atlatacaksÄ±nÄ±z. Bu kÄ±lavuz, Ä°nternet ve Ã§eÅŸitli sistem konfigÃ¼rasyonlarÄ±nÄ± ayarlarken etkin bir ÅŸekilde Ã§alÄ±ÅŸmanÄ±za imkan veren bilgileri iÃ§eriyor.<br/>
 <br/>
-Kitapta şu konular hakkında bilgiler bulacaksınız:<br/>
-- Donanım gereksinimleri<br/>
-- Sisteminizi kurulum işlemine hazırlamak<br/>
-- Birden fazla işletim sistemi için disk bölümleme<br/>
-- Kurulum ve konfigürasyon<br/>
-- Sistem yönetimi<br/>
-- Pencere yöneticileri<br/>
-- Paket yönetimi<br/>
-- Donanım bileşenlerini yapılandırmak<br/>
-- Ağ bağlantısı
+Kitapta ÅŸu konular hakkÄ±nda bilgiler bulacaksÄ±nÄ±z:<br/>
+- DonanÄ±m gereksinimleri<br/>
+- Sisteminizi kurulum iÅŸlemine hazÄ±rlamak<br/>
+- Birden fazla iÅŸletim sistemi iÃ§in disk bÃ¶lÃ¼mleme<br/>
+- Kurulum ve konfigÃ¼rasyon<br/>
+- Sistem yÃ¶netimi<br/>
+- Pencere yÃ¶neticileri<br/>
+- Paket yÃ¶netimi<br/>
+- DonanÄ±m bileÅŸenlerini yapÄ±landÄ±rmak<br/>
+- AÄŸ baÄŸlantÄ±sÄ±
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
 SME Linux ile Kolay Linux Server </h2></td></tr>
@@ -519,61 +519,61 @@ SME Linux ile Kolay Linux Server </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756477854.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756477854<br/>
-				<b>Yaınevi: </b>Pusula Yayıncılık<br/>
-				<b>Yazarlar: </b>Mehmet Eğitmen<br/>
+				<b>YaÄ±nevi: </b>Pusula YayÄ±ncÄ±lÄ±k<br/>
+				<b>Yazarlar: </b>Mehmet EÄŸitmen<br/>
 				<br/>
-				Ağ pazarının dünyadaki gerçek hakimi Linux Ağları sunduğu esnek, stabil çözümlerle her zamanki gibi yine gözde ve bu uzun süre devam edeceğe benziyor. Anahtar teslimi bir Linux Server kurmak için hazırlanan, küçük-orta ölçekli işletmelerin ve ev ağlarının her türlü sunucu ihtiyacını karşılayabilecek güç ve yeteneğe sahip ücretsiz olarak temin edilebilen bir Linux sürümün işlendiği bu kitapla sunucunuzu hızlı bir şekilde kurabilir, web temelli kolay kullanım ile yönetebilir, yüzlerce kullanıcıyı organize edebilir, açık kaynak olması nedeni ile ilave hizmetleri istediğiniz anda ekleyebilir, dünyanın herhangi bir yerinden dosya ve e-postalarınıza erişerek daha hızlı çalışabilir ve ağınızı etkin biçimde koruyabilirsiniz.<br/>
+				AÄŸ pazarÄ±nÄ±n dÃ¼nyadaki gerÃ§ek hakimi Linux AÄŸlarÄ± sunduÄŸu esnek, stabil Ã§Ã¶zÃ¼mlerle her zamanki gibi yine gÃ¶zde ve bu uzun sÃ¼re devam edeceÄŸe benziyor. Anahtar teslimi bir Linux Server kurmak iÃ§in hazÄ±rlanan, kÃ¼Ã§Ã¼k-orta Ã¶lÃ§ekli iÅŸletmelerin ve ev aÄŸlarÄ±nÄ±n her tÃ¼rlÃ¼ sunucu ihtiyacÄ±nÄ± karÅŸÄ±layabilecek gÃ¼Ã§ ve yeteneÄŸe sahip Ã¼cretsiz olarak temin edilebilen bir Linux sÃ¼rÃ¼mÃ¼n iÅŸlendiÄŸi bu kitapla sunucunuzu hÄ±zlÄ± bir ÅŸekilde kurabilir, web temelli kolay kullanÄ±m ile yÃ¶netebilir, yÃ¼zlerce kullanÄ±cÄ±yÄ± organize edebilir, aÃ§Ä±k kaynak olmasÄ± nedeni ile ilave hizmetleri istediÄŸiniz anda ekleyebilir, dÃ¼nyanÄ±n herhangi bir yerinden dosya ve e-postalarÄ±nÄ±za eriÅŸerek daha hÄ±zlÄ± Ã§alÄ±ÅŸabilir ve aÄŸÄ±nÄ±zÄ± etkin biÃ§imde koruyabilirsiniz.<br/>
 Bu kitapla:<br/>
 <br/>
 # Linux Server Kurulumu<br/>
-# Linux Server Yönetimi<br/>
-# Linux Webden Yönetim<br/>
+# Linux Server YÃ¶netimi<br/>
+# Linux Webden YÃ¶netim<br/>
 # Administration<br/>
 # Security<br/>
 # Configuration<br/>
-# Linux Server ile Web Sitesi Yayınlama<br/>
-# Linux Server ile FTP Sitesi Yayınlama<br/>
-# Linux Server ile Dosya Yönetimi-Dosya Paylaşımı<br/>
-# Linux Server Üzerinden Mail Alışverişi<br/>
-# Linux Server Üzerinde Veritabanı (MYSQL) Yönetimi<br/>
-# Linux Server ile Sizin de Bir Portalınız Olsun<br/>
-# Linux Server Üzerine Fax Server Kurmak<br/>
-# Linux Server Üzerine Java Server Kurmak<br/>
+# Linux Server ile Web Sitesi YayÄ±nlama<br/>
+# Linux Server ile FTP Sitesi YayÄ±nlama<br/>
+# Linux Server ile Dosya YÃ¶netimi-Dosya PaylaÅŸÄ±mÄ±<br/>
+# Linux Server Ãœzerinden Mail AlÄ±ÅŸveriÅŸi<br/>
+# Linux Server Ãœzerinde VeritabanÄ± (MYSQL) YÃ¶netimi<br/>
+# Linux Server ile Sizin de Bir PortalÄ±nÄ±z Olsun<br/>
+# Linux Server Ãœzerine Fax Server Kurmak<br/>
+# Linux Server Ãœzerine Java Server Kurmak<br/>
 # Linux Server'i ADSL Modem ile Kullanmak<br/>
-# Linux Sözlüğü konuları titizlikle ve Mehmet Eğitmen'in kendine özgü anlatımı ile sunulmuştur.
+# Linux SÃ¶zlÃ¼ÄŸÃ¼ konularÄ± titizlikle ve Mehmet EÄŸitmen'in kendine Ã¶zgÃ¼ anlatÄ±mÄ± ile sunulmuÅŸtur.
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Windows İdarecileri İçin Linux </h2></td></tr>
+Windows Ä°darecileri Ä°Ã§in Linux </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789752974456.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789752974456<br/>
-				<b>Yaınevi: </b>Alfa Basım Yayım Dağıtım<br/>
+				<b>YaÄ±nevi: </b>Alfa BasÄ±m YayÄ±m DaÄŸÄ±tÄ±m<br/>
 				<b>Yazarlar: </b>Mark Minasi, Dan York<br/>
 				<br/>
-				Linux'un güçlü ve zayıf yanlarının anlaşılması<br/>
-Linux ve Windows'un benzerlikleri ve farkları<br/>
-Linux kurulumu ve konfigürasyonu<br/>
-Komut satırından Linux idaresi<br/>
-Minimum donanımda Linux kurulumu<br/>
-NT/2000 etki alanı oluşturmak için NIS ve NFS kullanımı<br/>
-Linux'un, Windows kullanıcı hesaplarını tanıyabilmesi için Winbind kullanımı<br/>
-Linux çekirdeğinin değiştirilmesi ve yeniden derlenmesi<br/>
+				Linux'un gÃ¼Ã§lÃ¼ ve zayÄ±f yanlarÄ±nÄ±n anlaÅŸÄ±lmasÄ±<br/>
+Linux ve Windows'un benzerlikleri ve farklarÄ±<br/>
+Linux kurulumu ve konfigÃ¼rasyonu<br/>
+Komut satÄ±rÄ±ndan Linux idaresi<br/>
+Minimum donanÄ±mda Linux kurulumu<br/>
+NT/2000 etki alanÄ± oluÅŸturmak iÃ§in NIS ve NFS kullanÄ±mÄ±<br/>
+Linux'un, Windows kullanÄ±cÄ± hesaplarÄ±nÄ± tanÄ±yabilmesi iÃ§in Winbind kullanÄ±mÄ±<br/>
+Linux Ã§ekirdeÄŸinin deÄŸiÅŸtirilmesi ve yeniden derlenmesi<br/>
 Active Directory uyumlu DNS kurulumu<br/>
-Linux tabanlı posta, DHCP, FTP ve Microsoft uyumlu dosya sunucuları kurma talimatları
+Linux tabanlÄ± posta, DHCP, FTP ve Microsoft uyumlu dosya sunucularÄ± kurma talimatlarÄ±
 			</td>
 		</tr>	<tr><td colspan="2"><h2>
-Yalnızca Eğlenmek İçin </h2></td></tr>
+YalnÄ±zca EÄŸlenmek Ä°Ã§in </h2></td></tr>
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789752201361.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789752201361<br/>
-				<b>Yaınevi: </b>Bilgi Yayınevi<br/>
+				<b>YaÄ±nevi: </b>Bilgi YayÄ±nevi<br/>
 				<b>Yazarlar: </b>Linus Torvalds<br/>
 				<br/>
-				Linus Torvalds çocukluğundan beri bilgisayarlarla oyalanmış, Helsinki'de dar bir grup içinde tanınan, şu can sıkıcı teknoloji takıntılılardan birisiydi. Sonra öncülük edecek bir işletim sistemi yazdı ve bunu Internet aracılığıyla bedelsiz olarak dağıttı. Torvalds bugün uluslararası bir halk kahramanı. Ve onun tarafından yaratılan LINUX, 12 milyonu aşkın insanın yanı sıra IBM gibi şirketlerce de kullanılıyor.<br/>
+				Linus Torvalds Ã§ocukluÄŸundan beri bilgisayarlarla oyalanmÄ±ÅŸ, Helsinki'de dar bir grup iÃ§inde tanÄ±nan, ÅŸu can sÄ±kÄ±cÄ± teknoloji takÄ±ntÄ±lÄ±lardan birisiydi. Sonra Ã¶ncÃ¼lÃ¼k edecek bir iÅŸletim sistemi yazdÄ± ve bunu Internet aracÄ±lÄ±ÄŸÄ±yla bedelsiz olarak daÄŸÄ±ttÄ±. Torvalds bugÃ¼n uluslararasÄ± bir halk kahramanÄ±. Ve onun tarafÄ±ndan yaratÄ±lan LINUX, 12 milyonu aÅŸkÄ±n insanÄ±n yanÄ± sÄ±ra IBM gibi ÅŸirketlerce de kullanÄ±lÄ±yor.<br/>
 <br/>
-Şimdi Torvalds, insanların inanç değiştirmesine neden olan yazılımının tarihine e-posta hızına ulaşan bir anlatımla verirken, bir taraftan da bir dahinin kıvrak zekasını içtenlikle ortaya vuruyor. Sonuç: Değerlerimize meydan okuyan ve dünyamızı değiştirebilecek devrimci vizyona sahip bir adamın insanı düşünmeye yönelten eğlenceli hikayesi.
+Åimdi Torvalds, insanlarÄ±n inanÃ§ deÄŸiÅŸtirmesine neden olan yazÄ±lÄ±mÄ±nÄ±n tarihine e-posta hÄ±zÄ±na ulaÅŸan bir anlatÄ±mla verirken, bir taraftan da bir dahinin kÄ±vrak zekasÄ±nÄ± iÃ§tenlikle ortaya vuruyor. SonuÃ§: DeÄŸerlerimize meydan okuyan ve dÃ¼nyamÄ±zÄ± deÄŸiÅŸtirebilecek devrimci vizyona sahip bir adamÄ±n insanÄ± dÃ¼ÅŸÃ¼nmeye yÃ¶nelten eÄŸlenceli hikayesi.
 			</td>
 		</tr>
 </tbody></table>

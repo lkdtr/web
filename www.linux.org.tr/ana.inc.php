@@ -47,92 +47,51 @@ ulaþabilirsiniz. </td>
 
 
 <tr><td style="font-size: 11px; text-align: justify;">
+<?php
+/* 
+ ======================================================================
+ lastRSS usage DEMO 2
+ ----------------------------------------------------------------------
+ This example shows, how to
+     - create lastRSS object
+    - set transparent cache
+    - get RSS file from URL
+    - access and show fields of the result
+ ======================================================================
+*/
 
-<h3>2. ACM Uluslararasý Bilgi ve Að Güvenliði Konferansý</h3>
- 
- 6-10 Ekim 2009 tarihlerinde Doðu Akdeniz Üniversitesi'nde yapýlacak
-konferansta katýlýmcýlara ait makaleler yanýnda, davetli makaleler,
-özel oturumlar, çalýþtaylar, ile kuram ve uygulamalar üzerine dersler
-olacak. SIN 2009'un ana temasý ise "e-çýlgýnlýk çaðýnda bilgi güvenliði,
-bilgi saðlamlýðý ve kamu politikasý konusunda akýllý sistemler".
-<br/>
- Konferans Web Adresi: <a href="http://www.sinconf.org">http://www.sinconf.org</a>
-<br/> 
-Bilgi için: <a href="mailto:SINConf-Chair@sinconf.org">SINConf-Chair@sinconf.org</a>
+// include lastRSS
+include "./lastRSS.php";
 
+// Create lastRSS object
+$rss = new lastRSS;
 
+// Set cache dir and cache time limit (1200 seconds)
+// (don't forget to chmod cahce dir to 777 to allow writing)
+$rss->cache_dir = './temp';
+$rss->cache_time = 1200;
 
-
-</td></tr>
-
-<tr><td style="font-size: 11px; text-align: justify;">
-   
-            <h3> "Lisanslý Yazýlým Kullanýmý" bildirgesi </h3>
-
-               
-Baþbakanlýk tarafýndan "Lisanslý Yazýlým Kullanýlmasý" konulu
-yayýnlanan genelge gereðince kullandýklarý yazýlýmlarý lisanslamak
-adýna kamu kurum ve kuruluþlarýnýn çýktýklarý ve çýkacaklarý tüm
-ihalelerde tekelci bir yapýlanmaya uygun ortam yaratmamaya özen
-göstermeleri gerektiðine dair derneðimiz bir basýn açýklamasý yaptý.
-
-
-<br/>
-<a href="http://www.lkd.org.tr/bildirgeler/basbakanlik-genelgesi-lisanslama-ihaleleri-uzerine-basin-aciklamasi">Basýn 
-açýklamasýnýn tam metni için týklayýn.</a> 
-
-
-</td>
-</tr>
-
-
-
-<tr><td style="font-size: 11px; text-align: justify;">
-   
-            <h3> Özgür Yazýlýmla ilgili bir Özgür Kitap</h3>
-<!-- <p><strong>20-21 Haziran 2008,  TOBB ETÜ, Ankara</strong></p><br>  -->
-
-               
-     M. Ali Vardar, yazdýðý üçüncü programlama kitabý "Açýk Kodlu Yazýlým Geliþtirme Araçlarý"ný yayýnevlerine vermek yerine, özgür yazýlým 
-meraklýlarýna özgürce kullanabilecekleri bir elektronik kitap olarak pdf formatýnda sunmakta ve "eðer kitabý beðendiyseniz bizi destekleyin"
-diyerek Linux Kullanýcýlarý Derneði hesabýna baðýþta bulunmaya davet etmektedir.      
-
-<br/><br/>
-Detaylý bilgi için: <a href="http://www.lkd.org.tr/news/ozgur-yazilimla-ilgili-bir-ozgur-kitap">www.lkd.org.tr/news</a> adresinden 
-yararlanabilirsiniz.
-<br/>
-Sitenize Özgür kitap <a href="http://www.linux.org.tr/ozgurkitap/">banner</a>ini ekleyerek daha çok 
-kiþinin 
-faydalanmasýný saðlayabilrsiniz. 
-
-
-</td>
-</tr>
-
-
-
-<tr><td>
-<center>
-<br/>
-<a href="http://www.scriptumlibre.org/Boycott_Trend_Micro">
-<img height="60" border="0" width="468" src="http://www.linux.org.tr/images/boycott_trend_micro_468-60.png"/></a>
-<br/>
-</center>
-</td></tr>
-
-
-<tr><td style="font-size: 11px; text-align: justify;">
-   
-            <h3>Özgür Yazýlým Dünyasý TrendMicro'yu boykot ediyor</h3>
-               
-           
-TrendMicro firmasý Barracuda Networks firmasýný ClamAV anti-virus yazýlýmýný daðýttýðý için yazýlým patentleri 
-nedeniyle dava etti. Bizler dünya özgür yazýlým camiasý yazýlým patentlerinin yazýlým sektörünün ve dolayýsýyla 
-insanlýðýn geliþmesine zarar verecek bir konu olduðunu düþünüyoruz ve onlarla mücadele ediyoruz. Yazýlým patentleri 
-yoluyla Özgür yazýlýmýn geliþmesine darbe vurmak isteyen TrendMicro gibi firmalarý da Boykot ediyoruz. Türk yazýlým 
-sektörünü de bu boykota davet ediyoruz. LKD olarak <a href="http://www.scriptumlibre.org/Boycott_Trend_Micro">ScriptumLibre.org</a> ve <a href="http://www.fsf.org/blogs/community/boycottTrendMicro.html">Özgür yazýlým vakfýný</a> destekliyoruz. 
-
-
+// Try to load and parse RSS file
+if ($rs = $rss->get('http://haber.linux.org.tr/feed/')) {
+    // Show website logo (if presented)
+    if ($rs[image_url] != '') {
+        echo "<a href=\"$rs[image_link]\"><img src=\"$rs[image_url]\" alt=\"$rs[image_title]\" vspace=\"1\" border=\"0\" /></a><br />\n";
+        }
+    // Show clickable website title
+    echo "<big><b><a href=\"$rs[link]\">$rs[title]</a></b></big><br />\n";
+       // Show website description
+    echo "$rs[description]<br />\n";
+    // Show last published articles (title, link, description)
+    echo "<ul>\n";
+    foreach($rs['items'] as $item) {
+        echo "\t<li><a href=\"$item[link]\">".$item['title']."</a><br />".$item['description']."</li>\n";
+        }
+    echo "</ul>\n";
+    }
+else {
+    echo "Error: It's not possible to reach RSS file...\n";
+}
+?> 
 
 
 </td>

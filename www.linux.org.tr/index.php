@@ -4,9 +4,8 @@
 <head>
   <link rel="stylesheet" type="text/css" href="<?php echo $path; ?><?php echo $stil; ?>stil.css">
   <script language="javascript" src="<?php echo $path; ?><?php echo $jscript; ?>jscript.js"></script>
-  <title>Linux Türkiye</title>
-  <meta http-equiv="Content-Type"
- content="text/html; charset=iso-8859-9">
+  <title>Linux TÃ¼rkiye</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <style type="text/css"><!--body {margin-left: 0px;margin-top: 0px;margin-right: 0px;}--></style>
 </head>
 <body>

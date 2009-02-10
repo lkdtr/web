@@ -10,35 +10,35 @@
             <td colspan="2" rowspan="1" class="section">
             <strong>Linux Nedir?
             </strong><br/>
-Linux, Internet üzerinden haberleşen çok sayıda
-gönüllü programcının desteğiyle Linus
-Torvalds tarafından baştan başlanarak geliştirilmiş GNU/Linux işletim
-sisteminin çekirdeğidir. <a href="../linuxnedir.html">Daha fazla
+Linux, Internet Ã¼zerinden haberleÅŸen Ã§ok sayÄ±da
+gÃ¶nÃ¼llÃ¼ programcÄ±nÄ±n desteÄŸiyle Linus
+Torvalds tarafÄ±ndan baÅŸtan baÅŸlanarak geliÅŸtirilmiÅŸ GNU/Linux iÅŸletim
+sisteminin Ã§ekirdeÄŸidir. <a href="../linuxnedir.html">Daha fazla
 bilgi...</a><br/>
-            <strong>Özgür
-Yazılım Nedir?</strong><br/>
-Yazılım ürünlerinin kişi, kurum ve kuruluşlardan
-bağımsız olarak geliştirilmesi, kullanılması, dağıtılması ve
-paylaşılması anlayışı özgür yazılım olarak
+            <strong>Ã–zgÃ¼r
+YazÄ±lÄ±m Nedir?</strong><br/>
+YazÄ±lÄ±m Ã¼rÃ¼nlerinin kiÅŸi, kurum ve kuruluÅŸlardan
+baÄŸÄ±msÄ±z olarak geliÅŸtirilmesi, kullanÄ±lmasÄ±, daÄŸÄ±tÄ±lmasÄ± ve
+paylaÅŸÄ±lmasÄ± anlayÄ±ÅŸÄ± Ã¶zgÃ¼r yazÄ±lÄ±m olarak
 bilinmektedir. <a href="../linuxnedir.html">Daha
 fazla bilgi...</a><br/>
             <strong>Nereden Linux
 Bulabilirim?</strong><br/>
-Linux, diğer birçok özgür yazılım
-ürünü gibi ücretsiz olarak
-edinilebilmektedir. Çeşitli Linux dağıtımlarının yansılarını
-Dosya Alani bölümünü oluşturan FTP
-sunucumuzda bulabilirsiniz. LKD'nin katıldığı çeşitli
-fuarlarda, standımızda Linux CD'leri bulabilirsiniz. Bunun yanı sıra CD
-satan yerlere de başvurabilirsiniz.<br/>
-            <strong>Nereden Yardım
+Linux, diÄŸer birÃ§ok Ã¶zgÃ¼r yazÄ±lÄ±m
+Ã¼rÃ¼nÃ¼ gibi Ã¼cretsiz olarak
+edinilebilmektedir. Ã‡eÅŸitli Linux daÄŸÄ±tÄ±mlarÄ±nÄ±n yansÄ±larÄ±nÄ±
+Dosya Alani bÃ¶lÃ¼mÃ¼nÃ¼ oluÅŸturan FTP
+sunucumuzda bulabilirsiniz. LKD'nin katÄ±ldÄ±ÄŸÄ± Ã§eÅŸitli
+fuarlarda, standÄ±mÄ±zda Linux CD'leri bulabilirsiniz. Bunun yanÄ± sÄ±ra CD
+satan yerlere de baÅŸvurabilirsiniz.<br/>
+            <strong>Nereden YardÄ±m
 Alabilirim?</strong><br/>
-LKD, kar amacı gütmeyen bir organizasyon olduğundan bireysel
-yada kurumsal Linux desteği vermemektedir. Buna karşın, herkesin Linux
-ile ilgili çeşitli konulardaki sorularını sorarak yanıt
-bulabileceği e-posta listelerine ve ülkemizdeLinux konusunda
-eğitim ve destek hizmeti veren firmaların bir listesine
-ulaşabilirsiniz. </td>
+LKD, kar amacÄ± gÃ¼tmeyen bir organizasyon olduÄŸundan bireysel
+yada kurumsal Linux desteÄŸi vermemektedir. Buna karÅŸÄ±n, herkesin Linux
+ile ilgili Ã§eÅŸitli konulardaki sorularÄ±nÄ± sorarak yanÄ±t
+bulabileceÄŸi e-posta listelerine ve Ã¼lkemizdeLinux konusunda
+eÄŸitim ve destek hizmeti veren firmalarÄ±n bir listesine
+ulaÅŸabilirsiniz. </td>
           </tr>
         </tbody>
       </table>
@@ -114,9 +114,9 @@ else {
 
         <tbody>
           <tr>
-            <td style="vertical-align: top;"><img src="..//templates/resimler/firmalar/tbd_resim_02_02.gif" alt="Bilişim'06" align="left" border="0"></td>
-            <td>23 yıldır ülke bilişim sorunlarının tartışıldığı ve sektöre büyük açılımlar ve vizyon çizen TBD Ulusal Bilişim Kurultayı'nı da içinde barındıran  ve yeni yaklaşımlarla zengin bir içeriğe kavuşarak ana teması "Ortak Akıl" olarak belirlenen Bilişim'06 etkinliğimiz 8-10 Kasım 2006 tarihlerinde Sheraton Kongre Merkezi ? Ankara'da gerçekleştirildi.<br>
-            LKD olarak bizim de aktif katılım sağladığımız toplantılarda, ülke gündeminde bulunan konular görüşüldü ve fikir alış verişlerinde bulunuldu.
+            <td style="vertical-align: top;"><img src="..//templates/resimler/firmalar/tbd_resim_02_02.gif" alt="BiliÅŸim'06" align="left" border="0"></td>
+            <td>23 yÄ±ldÄ±r Ã¼lke biliÅŸim sorunlarÄ±nÄ±n tartÄ±ÅŸÄ±ldÄ±ÄŸÄ± ve sektÃ¶re bÃ¼yÃ¼k aÃ§Ä±lÄ±mlar ve vizyon Ã§izen TBD Ulusal BiliÅŸim KurultayÄ±'nÄ± da iÃ§inde barÄ±ndÄ±ran  ve yeni yaklaÅŸÄ±mlarla zengin bir iÃ§eriÄŸe kavuÅŸarak ana temasÄ± "Ortak AkÄ±l" olarak belirlenen BiliÅŸim'06 etkinliÄŸimiz 8-10 KasÄ±m 2006 tarihlerinde Sheraton Kongre Merkezi ? Ankara'da gerÃ§ekleÅŸtirildi.<br>
+            LKD olarak bizim de aktif katÄ±lÄ±m saÄŸladÄ±ÄŸÄ±mÄ±z toplantÄ±larda, Ã¼lke gÃ¼ndeminde bulunan konular gÃ¶rÃ¼ÅŸÃ¼ldÃ¼ ve fikir alÄ±ÅŸ veriÅŸlerinde bulunuldu.
             </td>
           </tr>
 
@@ -126,14 +126,14 @@ else {
           </tr>
           <tr class="section">
             <td><img src="..//templates/resimler/extras/lkd.png"
- alt="4. Linux ve &Ouml;zg&uuml;r Yazılım şenliği" align="left" border="0"></td>
+ alt="4. Linux ve &Ouml;zg&uuml;r YazÄ±lÄ±m ÅŸenliÄŸi" align="left" border="0"></td>
             <td><strong>5.
-Linux ve &Ouml;zg&uuml;r Yazılım şenliği</strong><br>
-Her sene yapılan ve bu sene beşincisi d&uuml;zenlenen "Linux ve
-&Ouml;zg&uuml;r Yazılım şenliği" ODTU BıM'in katkıları ile 11-14 Mayıs
+Linux ve &Ouml;zg&uuml;r YazÄ±lÄ±m ÅŸenliÄŸi</strong><br>
+Her sene yapÄ±lan ve bu sene beÅŸincisi d&uuml;zenlenen "Linux ve
+&Ouml;zg&uuml;r YazÄ±lÄ±m ÅŸenliÄŸi" ODTU BÄ±M'in katkÄ±larÄ± ile 11-14 MayÄ±s
 2006 tarihleri
-arasında, ODTU Kongre ve K&uuml;lt&uuml;r Merkezinde yapıldı [
-            <a href="http://senlik.linux.org.tr">Ayrıntılı Bilgi</a>
+arasÄ±nda, ODTU Kongre ve K&uuml;lt&uuml;r Merkezinde yapÄ±ldÄ± [
+            <a href="http://senlik.linux.org.tr">AyrÄ±ntÄ±lÄ± Bilgi</a>
 ]</td>
           </tr>
         </tbody>
@@ -142,7 +142,7 @@ arasında, ODTU Kongre ve K&uuml;lt&uuml;r Merkezinde yapıldı [
       <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="border-collapse: collapse;">
         <tbody>
           <tr>
-            <td height="20" class="ModulBaslik">ıpucu</td>
+            <td height="20" class="ModulBaslik">Ä±pucu</td>
           </tr>
           <tr>
             <td>
@@ -152,8 +152,8 @@ arasında, ODTU Kongre ve K&uuml;lt&uuml;r Merkezinde yapıldı [
                   <td width="12" valign="middle"><img align="middle" src="..//templates/resimler/penguen_ipucu.png"/></td>
                   <td valign="top">LKD
                   <a href="http://liste.linux.org.tr" target="_blank">e-posta
-arşivleri</a>nde arama yapmak
-için soldaki arama kutusunu kullanabilirsiniz.</td>
+arÅŸivleri</a>nde arama yapmak
+iÃ§in soldaki arama kutusunu kullanabilirsiniz.</td>
                 </tr>
               </tbody>
             </table>

@@ -13,23 +13,23 @@
 <P>
 
 <P>
-<H1 ALIGN="CENTER">Linux Dağıtımları Belgesi</H1>
+<H1 ALIGN="CENTER">Linux DaÄŸÄ±tÄ±mlarÄ± Belgesi</H1>
 <P ALIGN="CENTER"><STRONG>A. Murat Eren
 <BR>(meren at pardus org tr
 <BR><TT><A NAME="tex2html1"
   HREF="http://meren.org/">http://meren.org/</A></TT>)</STRONG></P>
 <P ALIGN="CENTER"><STRONG>v1.1, 15.11.2008</STRONG></P>
 
-<H3>Özet:</H3>
+<H3>Ã–zet:</H3>
 <DIV>
-Bu belgede, çok kullanılan kimi Linux dağıtımları hakkında, özellikle
-başlangıç son kullanıcılarının tercih yaparken önceden bir miktar
-fikir sahibi olabilmeleri için bilgi verilmeye çalışılmıştır. Mümkün
-olduğunca objektif kalmaya çalışılarak verilmiş bilgilerin ardından
-yer yer bahsi geçen dağıtımları uzun süredir kullanan kişilerin, bu
-dağıtımlar ile ilgili -taraflı :)- yorumlarına da yer verilmiştir.
-Siz de yorumlarınızı belge geliştiricisine ulaştırarak potansiyel
-kullanıcıların yön bulmasını kolaylaştırabilirsiniz.
+Bu belgede, Ã§ok kullanÄ±lan kimi Linux daÄŸÄ±tÄ±mlarÄ± hakkÄ±nda, Ã¶zellikle
+baÅŸlangÄ±Ã§ son kullanÄ±cÄ±larÄ±nÄ±n tercih yaparken Ã¶nceden bir miktar
+fikir sahibi olabilmeleri iÃ§in bilgi verilmeye Ã§alÄ±ÅŸÄ±lmÄ±ÅŸtÄ±r. MÃ¼mkÃ¼n
+olduÄŸunca objektif kalmaya Ã§alÄ±ÅŸÄ±larak verilmiÅŸ bilgilerin ardÄ±ndan
+yer yer bahsi geÃ§en daÄŸÄ±tÄ±mlarÄ± uzun sÃ¼redir kullanan kiÅŸilerin, bu
+daÄŸÄ±tÄ±mlar ile ilgili -taraflÄ± :)- yorumlarÄ±na da yer verilmiÅŸtir.
+Siz de yorumlarÄ±nÄ±zÄ± belge geliÅŸtiricisine ulaÅŸtÄ±rarak potansiyel
+kullanÄ±cÄ±larÄ±n yÃ¶n bulmasÄ±nÄ± kolaylaÅŸtÄ±rabilirsiniz.
 
 <P>
 </DIV>
@@ -37,27 +37,27 @@ kullanıcıların yön bulmasını kolaylaştırabilirsiniz.
 <BR>
 
 <H2><A NAME="SECTION00010000000000000000">
-İçindekiler</A>
+Ä°Ã§indekiler</A>
 </H2>
-<!--Table of İçindekiler-->
+<!--Table of Ä°Ã§indekiler-->
 
 <UL>
 <LI><A NAME="tex2html74"
-  HREF="dagitimlar.html">1 Giriş</A>
+  HREF="dagitimlar.html">1 GiriÅŸ</A>
 <LI><A NAME="tex2html75"
-  HREF="#SECTION00030000000000000000">2 Linux Dağıtımları</A>
+  HREF="#SECTION00030000000000000000">2 Linux DaÄŸÄ±tÄ±mlarÄ±</A>
 <UL>
 <LI><A NAME="tex2html76"
   HREF="#SECTION00031000000000000000">2.1 Arch Linux</A>
 <UL>
 <LI><A NAME="tex2html77"
-  HREF="#SECTION00031100000000000000">2.1.1 Alper Kanat'ın Arch Linux Hakkındaki Yorumu</A>
+  HREF="#SECTION00031100000000000000">2.1.1 Alper Kanat'Ä±n Arch Linux HakkÄ±ndaki Yorumu</A>
 </UL>
 <LI><A NAME="tex2html78"
   HREF="#SECTION00032000000000000000">2.2 Debian</A>
 <UL>
 <LI><A NAME="tex2html79"
-  HREF="#SECTION00032100000000000000">2.2.1 Enver Altın'ın Debian hakkındaki yorumu</A>
+  HREF="#SECTION00032100000000000000">2.2.1 Enver AltÄ±n'Ä±n Debian hakkÄ±ndaki yorumu</A>
 </UL>
 <LI><A NAME="tex2html80"
   HREF="#SECTION00033000000000000000">2.3 Fedora</A>
@@ -65,15 +65,15 @@ kullanıcıların yön bulmasını kolaylaştırabilirsiniz.
   HREF="#SECTION00034000000000000000">2.4 Gentoo</A>
 <UL>
 <LI><A NAME="tex2html82"
-  HREF="#SECTION00034100000000000000">2.4.1 S. Çağlar Onur'un Gentoo Hakkındaki Yorumu</A>
+  HREF="#SECTION00034100000000000000">2.4.1 S. Ã‡aÄŸlar Onur'un Gentoo HakkÄ±ndaki Yorumu</A>
 <LI><A NAME="tex2html83"
-  HREF="#SECTION00034200000000000000">2.4.2 A. Murat Eren'in Gentoo Hakkındaki Yorumu</A>
+  HREF="#SECTION00034200000000000000">2.4.2 A. Murat Eren'in Gentoo HakkÄ±ndaki Yorumu</A>
 </UL>
 <LI><A NAME="tex2html84"
   HREF="#SECTION00035000000000000000">2.5 Gobolinux</A>
 <UL>
 <LI><A NAME="tex2html85"
-  HREF="#SECTION00035100000000000000">2.5.1 Fatih Altınok'un Gobolinux Hakkındaki Yorumu</A>
+  HREF="#SECTION00035100000000000000">2.5.1 Fatih AltÄ±nok'un Gobolinux HakkÄ±ndaki Yorumu</A>
 </UL>
 <LI><A NAME="tex2html86"
   HREF="#SECTION00036000000000000000">2.6 Mandrake</A>
@@ -83,7 +83,7 @@ kullanıcıların yön bulmasını kolaylaştırabilirsiniz.
   HREF="#SECTION00038000000000000000">2.8 openSUSE</A>
 <UL>
 <LI><A NAME="tex2html89"
-  HREF="#SECTION00038100000000000000">2.8.1 T. Koray Peksayar'ın openSuSe Hakkındaki Yorumu</A>
+  HREF="#SECTION00038100000000000000">2.8.1 T. Koray Peksayar'Ä±n openSuSe HakkÄ±ndaki Yorumu</A>
 </UL>
 <LI><A NAME="tex2html90"
   HREF="#SECTION00039000000000000000">2.9 Pardus</A>
@@ -91,108 +91,108 @@ kullanıcıların yön bulmasını kolaylaştırabilirsiniz.
   HREF="#SECTION000310000000000000000">2.10 Slackware</A>
 <UL>
 <LI><A NAME="tex2html92"
-  HREF="#SECTION000310100000000000000">2.10.1 Doruk Fişek'in Slackware Hakkındaki Yorumu</A>
+  HREF="#SECTION000310100000000000000">2.10.1 Doruk FiÅŸek'in Slackware HakkÄ±ndaki Yorumu</A>
 </UL>
 <LI><A NAME="tex2html93"
   HREF="#SECTION000311000000000000000">2.11 Ubuntu</A>
 <UL>
 <LI><A NAME="tex2html94"
-  HREF="#SECTION000311100000000000000">2.11.1 D. Uğur Karatay'ın Ubuntu Hakkındaki Yorumu</A>
+  HREF="#SECTION000311100000000000000">2.11.1 D. UÄŸur Karatay'Ä±n Ubuntu HakkÄ±ndaki Yorumu</A>
 </UL>
 </UL>
 <LI><A NAME="tex2html95"
-  HREF="#SECTION00040000000000000000">3 Teşekkürler</A>
+  HREF="#SECTION00040000000000000000">3 TeÅŸekkÃ¼rler</A>
 <LI><A NAME="tex2html96"
-  HREF="#SECTION00050000000000000000">4 Yasal Açıklamalar</A>
+  HREF="#SECTION00050000000000000000">4 Yasal AÃ§Ä±klamalar</A>
 <UL>
 <LI><A NAME="tex2html97"
-  HREF="#SECTION00051000000000000000">4.1 Telif Hakkı ve Lisans</A>
+  HREF="#SECTION00051000000000000000">4.1 Telif HakkÄ± ve Lisans</A>
 <LI><A NAME="tex2html98"
   HREF="#SECTION00052000000000000000">4.2 Feragatname</A>
 </UL>
 </UL>
-<!--End of Table of İçindekiler-->
+<!--End of Table of Ä°Ã§indekiler-->
 
 <P>
 
 <H1><A NAME="SECTION00020000000000000000">
-1 Giriş</A>
+1 GiriÅŸ</A>
 </H1>
 
 <P>
-Belgeye başlamadan önce GNU, GPL, Linux, Linux Dağıtımı gibi kavramların
-üzerinden bir kez daha geçmek, kavramlardan aynı anlamlarını anladığımızdan
-emin olmak ve muhtemel yanlış anlamışlıkları düzeltmek için iyi ve
+Belgeye baÅŸlamadan Ã¶nce GNU, GPL, Linux, Linux DaÄŸÄ±tÄ±mÄ± gibi kavramlarÄ±n
+Ã¼zerinden bir kez daha geÃ§mek, kavramlardan aynÄ± anlamlarÄ±nÄ± anladÄ±ÄŸÄ±mÄ±zdan
+emin olmak ve muhtemel yanlÄ±ÅŸ anlamÄ±ÅŸlÄ±klarÄ± dÃ¼zeltmek iÃ§in iyi ve
 gerekli bir yol.
 
 <P>
 <DL>
 <DT><STRONG>GNU:</STRONG></DT>
-<DD>GNU'nun açılımı, 'GNU is Not Unix'tir. Yani GNU, 'GNU, Unix
-değildir' anlamına gelmekte olan özyinelemeli (recursive) bir kelimedir.
-1984 yılında tamamen özgür yazılımların meydana getirdiği bir işletim
-sistemi ve işletim sisteminin araçlarının geliştirilmesi çalışmasının
-adıdır. GNU, özgür yazılım camiasının felsefesini ve görüşünü bünyesinde
-barındıran bir akımdır.
+<DD>GNU'nun aÃ§Ä±lÄ±mÄ±, 'GNU is Not Unix'tir. Yani GNU, 'GNU, Unix
+deÄŸildir' anlamÄ±na gelmekte olan Ã¶zyinelemeli (recursive) bir kelimedir.
+1984 yÄ±lÄ±nda tamamen Ã¶zgÃ¼r yazÄ±lÄ±mlarÄ±n meydana getirdiÄŸi bir iÅŸletim
+sistemi ve iÅŸletim sisteminin araÃ§larÄ±nÄ±n geliÅŸtirilmesi Ã§alÄ±ÅŸmasÄ±nÄ±n
+adÄ±dÄ±r. GNU, Ã¶zgÃ¼r yazÄ±lÄ±m camiasÄ±nÄ±n felsefesini ve gÃ¶rÃ¼ÅŸÃ¼nÃ¼ bÃ¼nyesinde
+barÄ±ndÄ±ran bir akÄ±mdÄ±r.
 </DD>
 <DT><STRONG>GPL:</STRONG></DT>
-<DD>Yazılan özgür yazılımların bir şemsiye altında toplanması
-için 1985 yılında yine Stallman tarafından FSF (Free Software Foundation)
+<DD>YazÄ±lan Ã¶zgÃ¼r yazÄ±lÄ±mlarÄ±n bir ÅŸemsiye altÄ±nda toplanmasÄ±
+iÃ§in 1985 yÄ±lÄ±nda yine Stallman tarafÄ±ndan FSF (Free Software Foundation)
 kuruldu, GPL (General Public Licence), GNU<A NAME="tex2html2"
-  HREF="#foot320"><SUP>1</SUP></A> yazılımların özgürlüklerini korumak üzere FSF tarafından duyurulmuş
-bir yazılım lisansıdır.
+  HREF="#foot320"><SUP>1</SUP></A> yazÄ±lÄ±mlarÄ±n Ã¶zgÃ¼rlÃ¼klerini korumak Ã¼zere FSF tarafÄ±ndan duyurulmuÅŸ
+bir yazÄ±lÄ±m lisansÄ±dÄ±r.
 </DD>
 <DT><STRONG>Linux:</STRONG></DT>
-<DD>Linux, Linus Torvalds adında Finlandiya'lı bir bilgisyar
-mühendisinin 1991 yılında Helsinki Üniversitesi'nde bir öğrenci iken
-kişisel bilgisayarında kullanmak üzere geliştirmeye başladığı bir
-işletim sistemi çekirdeğidir (işletim sisteminin çekirdeği, işletim
-sisteminin beyni diye tabir edebileceğimiz kısmıdır). İnternet'te
-yaptığı duyuru sonucunda tüm dünyadan bir çok programcının da desteği
-ile hızla gelişmiş ve halen aynı destek ile gelişmekte olan açık kaynak
-kodlu, özgür bir yazılımdır (Linux, Linus Torvalds tarafından &#34;Linuks&#34;
-şeklinde telaffuz edilmektedir, ilgili ses dosyasına <A NAME="tex2html4"
-  HREF="#foot321"><SUP>2</SUP></A> adresinden ulaşabilirsiniz.
+<DD>Linux, Linus Torvalds adÄ±nda Finlandiya'lÄ± bir bilgisyar
+mÃ¼hendisinin 1991 yÄ±lÄ±nda Helsinki Ãœniversitesi'nde bir Ã¶ÄŸrenci iken
+kiÅŸisel bilgisayarÄ±nda kullanmak Ã¼zere geliÅŸtirmeye baÅŸladÄ±ÄŸÄ± bir
+iÅŸletim sistemi Ã§ekirdeÄŸidir (iÅŸletim sisteminin Ã§ekirdeÄŸi, iÅŸletim
+sisteminin beyni diye tabir edebileceÄŸimiz kÄ±smÄ±dÄ±r). Ä°nternet'te
+yaptÄ±ÄŸÄ± duyuru sonucunda tÃ¼m dÃ¼nyadan bir Ã§ok programcÄ±nÄ±n da desteÄŸi
+ile hÄ±zla geliÅŸmiÅŸ ve halen aynÄ± destek ile geliÅŸmekte olan aÃ§Ä±k kaynak
+kodlu, Ã¶zgÃ¼r bir yazÄ±lÄ±mdÄ±r (Linux, Linus Torvalds tarafÄ±ndan &#34;Linuks&#34;
+ÅŸeklinde telaffuz edilmektedir, ilgili ses dosyasÄ±na <A NAME="tex2html4"
+  HREF="#foot321"><SUP>2</SUP></A> adresinden ulaÅŸabilirsiniz.
 </DD>
-<DT><STRONG>Linux&nbsp;Dağıtımı:</STRONG></DT>
-<DD>GNU yazılımlarını ve diğer özgür yazılımları
-bir araya getiren ve tüm bunları bir Linux çekirdeği ile beraber toplu,
-derlenmiş ve kurulumu kolay bir işletim sistemi olarak kullanıcılara
-sunmayı amaçlamış olan yazılım birlikteliklerine denir.
+<DT><STRONG>Linux&nbsp;DaÄŸÄ±tÄ±mÄ±:</STRONG></DT>
+<DD>GNU yazÄ±lÄ±mlarÄ±nÄ± ve diÄŸer Ã¶zgÃ¼r yazÄ±lÄ±mlarÄ±
+bir araya getiren ve tÃ¼m bunlarÄ± bir Linux Ã§ekirdeÄŸi ile beraber toplu,
+derlenmiÅŸ ve kurulumu kolay bir iÅŸletim sistemi olarak kullanÄ±cÄ±lara
+sunmayÄ± amaÃ§lamÄ±ÅŸ olan yazÄ±lÄ±m birlikteliklerine denir.
 </DD>
 </DL>
-GNU Felsefesi ve Linux İşletim Sistemi hakkında daha fazla bilgiye
+GNU Felsefesi ve Linux Ä°ÅŸletim Sistemi hakkÄ±nda daha fazla bilgiye
 <A NAME="tex2html6"
-  HREF="#foot322"><SUP>3</SUP></A> adresinden ulaşabilirsiniz.
+  HREF="#foot322"><SUP>3</SUP></A> adresinden ulaÅŸabilirsiniz.
 
 <P>
-Dağıtımlar, kullanıcılara sundukları uygulamalar noktasında birbirlerinden
-çok farklı değillerdir, nihayetinde hepsinin ortak gayesi kullanılabilir
-olmak ve kullanıcı ihtiyaçlarına en iyi şekilde cevap verebilmektir.
-Genel olarak aynı masaüstü yönetim yazılımları, aynı multimedia araçları
-ve aynı ofis uygulamaları ile beraber gelirler. Onları birbirinden
-ayıran temel özelliklerden en önemlileri yazılım kurulması, kaldırılması
-ve sorgulanmasında kullandıkları paket yöneticileri, kurulum arayüzleri
-ve dağıtım içerisine entegre ettikleri konfigürasyon araçları ve kullanıcıya
-yaşattıkları hissiyattır. Bu bağlamda Linux ile yeni tanışan bir kullanıcının
-&#34;hangi dağıtım?&#34; sorusuna çok net bir yanıt vermek
-kolay değildir. Bu belge, hangi dağıtım ile Linux dünyasına adım atmanızı
-tam olarak söylemeye çalışmak yerine dağıtımların belirgin özelliklerini
-ön plana çıkarıp, kararınızı verme sürecinizde size dağıtımlar ile
-iligili daha fazla görüş kazanırmayı amaçlamıştır.
+DaÄŸÄ±tÄ±mlar, kullanÄ±cÄ±lara sunduklarÄ± uygulamalar noktasÄ±nda birbirlerinden
+Ã§ok farklÄ± deÄŸillerdir, nihayetinde hepsinin ortak gayesi kullanÄ±labilir
+olmak ve kullanÄ±cÄ± ihtiyaÃ§larÄ±na en iyi ÅŸekilde cevap verebilmektir.
+Genel olarak aynÄ± masaÃ¼stÃ¼ yÃ¶netim yazÄ±lÄ±mlarÄ±, aynÄ± multimedia araÃ§larÄ±
+ve aynÄ± ofis uygulamalarÄ± ile beraber gelirler. OnlarÄ± birbirinden
+ayÄ±ran temel Ã¶zelliklerden en Ã¶nemlileri yazÄ±lÄ±m kurulmasÄ±, kaldÄ±rÄ±lmasÄ±
+ve sorgulanmasÄ±nda kullandÄ±klarÄ± paket yÃ¶neticileri, kurulum arayÃ¼zleri
+ve daÄŸÄ±tÄ±m iÃ§erisine entegre ettikleri konfigÃ¼rasyon araÃ§larÄ± ve kullanÄ±cÄ±ya
+yaÅŸattÄ±klarÄ± hissiyattÄ±r. Bu baÄŸlamda Linux ile yeni tanÄ±ÅŸan bir kullanÄ±cÄ±nÄ±n
+&#34;hangi daÄŸÄ±tÄ±m?&#34; sorusuna Ã§ok net bir yanÄ±t vermek
+kolay deÄŸildir. Bu belge, hangi daÄŸÄ±tÄ±m ile Linux dÃ¼nyasÄ±na adÄ±m atmanÄ±zÄ±
+tam olarak sÃ¶ylemeye Ã§alÄ±ÅŸmak yerine daÄŸÄ±tÄ±mlarÄ±n belirgin Ã¶zelliklerini
+Ã¶n plana Ã§Ä±karÄ±p, kararÄ±nÄ±zÄ± verme sÃ¼recinizde size daÄŸÄ±tÄ±mlar ile
+iligili daha fazla gÃ¶rÃ¼ÅŸ kazanÄ±rmayÄ± amaÃ§lamÄ±ÅŸtÄ±r.
 
 <P>
-Sorularınızı doğrudan belge geliştiricisine ya da katkıda bulunanlara
-sorabileceğiniz sorabileceğiniz gibi, kolayca üye olabileceğiniz Linux
-Kullanıcıları Derneği<A NAME="tex2html8"
+SorularÄ±nÄ±zÄ± doÄŸrudan belge geliÅŸtiricisine ya da katkÄ±da bulunanlara
+sorabileceÄŸiniz sorabileceÄŸiniz gibi, kolayca Ã¼ye olabileceÄŸiniz Linux
+KullanÄ±cÄ±larÄ± DerneÄŸi<A NAME="tex2html8"
   HREF="#foot323"><SUP>4</SUP></A> posta listelerine<A NAME="tex2html10"
-  HREF="#foot324"><SUP>5</SUP></A> sormanız daha hızlı yanıt almanız için yerinde bir davranış olacaktır
-:) Aynı listelerde, dağıtımları kullanırken rastladığınız diğer sorunlarınıza
-da yanıt arayabilirsiniz.
+  HREF="#foot324"><SUP>5</SUP></A> sormanÄ±z daha hÄ±zlÄ± yanÄ±t almanÄ±z iÃ§in yerinde bir davranÄ±ÅŸ olacaktÄ±r
+:) AynÄ± listelerde, daÄŸÄ±tÄ±mlarÄ± kullanÄ±rken rastladÄ±ÄŸÄ±nÄ±z diÄŸer sorunlarÄ±nÄ±za
+da yanÄ±t arayabilirsiniz.
 
 <P>
-Ayrıca bu belge en son güncellendiğinde en çok kullanılan ilk bir
-kaç dağıtım DistroWatch verilerine göre şu şekilde idi: Ubuntu, openSUSE,
+AyrÄ±ca bu belge en son gÃ¼ncellendiÄŸinde en Ã§ok kullanÄ±lan ilk bir
+kaÃ§ daÄŸÄ±tÄ±m DistroWatch verilerine gÃ¶re ÅŸu ÅŸekilde idi: Ubuntu, openSUSE,
 Fedora, Mint, PCLinuxOS, Debian, Mandriva.
 
 <P>
@@ -201,7 +201,7 @@ Fedora, Mint, PCLinuxOS, Debian, Mandriva.
 <P>
 
 <H1><A NAME="SECTION00030000000000000000">
-2 Linux Dağıtımları</A>
+2 Linux DaÄŸÄ±tÄ±mlarÄ±</A>
 </H1>
 
 <P>
@@ -220,119 +220,119 @@ Fedora, Mint, PCLinuxOS, Debian, Mandriva.
  >
 
 <P>
-Arch Linux basitlik ve hafiflik göz önünde bulundurularak geliştirilen
-bir Linux dağıtımıdır. Burada 'basitlik', Arch geliştiricileri tarafından
-'gerekli olmayan eklentiler ve değişiklikler olmaksızın' anlamına
-gelmekte ve bu felsefe son kullanıcıdan ziyade geliştirici bakış açısını
-yansıtmaktadır. Geliştirici ekibin Arch'ın dizaynı ile ilgili yaklaşımı
-minimalizm, kod doğruluğu ve kod zerafeti çerçevesindedir. 
+Arch Linux basitlik ve hafiflik gÃ¶z Ã¶nÃ¼nde bulundurularak geliÅŸtirilen
+bir Linux daÄŸÄ±tÄ±mÄ±dÄ±r. Burada 'basitlik', Arch geliÅŸtiricileri tarafÄ±ndan
+'gerekli olmayan eklentiler ve deÄŸiÅŸiklikler olmaksÄ±zÄ±n' anlamÄ±na
+gelmekte ve bu felsefe son kullanÄ±cÄ±dan ziyade geliÅŸtirici bakÄ±ÅŸ aÃ§Ä±sÄ±nÄ±
+yansÄ±tmaktadÄ±r. GeliÅŸtirici ekibin Arch'Ä±n dizaynÄ± ile ilgili yaklaÅŸÄ±mÄ±
+minimalizm, kod doÄŸruluÄŸu ve kod zerafeti Ã§erÃ§evesindedir. 
 
 <P>
-2002 yılının başlarından bu yana geliştirilmekte olan Arch Linux,
-güncel halini birbirinden bağımsız sürümler ile kullanıcılara ulaştırmak
-yerine günlük yeni paket ve güncelleme yayınları ile kullanıcılarının
-sistemlerini paket yöneticisi yardımı ile güncel tutmalarını kolaylaştıran
-bir yapı sunmaktadır.
+2002 yÄ±lÄ±nÄ±n baÅŸlarÄ±ndan bu yana geliÅŸtirilmekte olan Arch Linux,
+gÃ¼ncel halini birbirinden baÄŸÄ±msÄ±z sÃ¼rÃ¼mler ile kullanÄ±cÄ±lara ulaÅŸtÄ±rmak
+yerine gÃ¼nlÃ¼k yeni paket ve gÃ¼ncelleme yayÄ±nlarÄ± ile kullanÄ±cÄ±larÄ±nÄ±n
+sistemlerini paket yÃ¶neticisi yardÄ±mÄ± ile gÃ¼ncel tutmalarÄ±nÄ± kolaylaÅŸtÄ±ran
+bir yapÄ± sunmaktadÄ±r.
 
 <P>
-Arch Linux son dönemlerde sayısı hızla artan, gayesi 'kullanıcı dostu'
-olmak olan dağıtımlardan birisi değildir ve Linux ile yeni tanışacak
-kişilerden ziyade uzun süredir Linux kullanan kişilere hitap etmektedir.
+Arch Linux son dÃ¶nemlerde sayÄ±sÄ± hÄ±zla artan, gayesi 'kullanÄ±cÄ± dostu'
+olmak olan daÄŸÄ±tÄ±mlardan birisi deÄŸildir ve Linux ile yeni tanÄ±ÅŸacak
+kiÅŸilerden ziyade uzun sÃ¼redir Linux kullanan kiÅŸilere hitap etmektedir.
 
 <P>
 <DL>
 <DT><STRONG>(+)</STRONG></DT>
-<DD>Hızlı, kararlı ve son derece güncel bir dağıtım, basit yapısı
-ile kolay yönetilebilir, hızlı işleyen hata takip sistemi, iyi belgelendirme,
+<DD>HÄ±zlÄ±, kararlÄ± ve son derece gÃ¼ncel bir daÄŸÄ±tÄ±m, basit yapÄ±sÄ±
+ile kolay yÃ¶netilebilir, hÄ±zlÄ± iÅŸleyen hata takip sistemi, iyi belgelendirme,
 aktif topluluk. 
 </DD>
 <DT><STRONG>(-)</STRONG></DT>
-<DD>Yalnızca İnternet'ten kurulum, grafiksiz kurulum arabirimi,
-yapılandırma araçlarının olmayışı.
+<DD>YalnÄ±zca Ä°nternet'ten kurulum, grafiksiz kurulum arabirimi,
+yapÄ±landÄ±rma araÃ§larÄ±nÄ±n olmayÄ±ÅŸÄ±.
 </DD>
 <DT><STRONG>(PYS)</STRONG></DT>
 <DD>Pacman (pkg.tar.gz) 
 </DD>
 <DT><STRONG>(Internet)</STRONG></DT>
-<DD>Bir çok ülkedeki yansıları ile yüksek erişilebilirlikte.
+<DD>Bir Ã§ok Ã¼lkedeki yansÄ±larÄ± ile yÃ¼ksek eriÅŸilebilirlikte.
 </DD>
 </DL>
 
 <P>
 
 <h3><a class="dagitim" NAME="SECTION00031100000000000000">
-2.1.1 Alper Kanat'ın Arch Linux Hakkındaki Yorumu</A>
+2.1.1 Alper Kanat'Ä±n Arch Linux HakkÄ±ndaki Yorumu</A>
 </H3>
 
 <P>
 <BLOCKQUOTE>
-Arch Linux basit, kolay kurulabilir ve kullanılabilir bir Linux dağıtımıdır.
-Herhangi bir dağıtımı taban olarak almamış ve sıfırdan geliştirilmiştir.
-KISS (Keep It Simple, Stupid); yani her şeyin olabilecek en basit
-ve &#34;güncel&#34; haliyle dağıtımda yer alması ana felsefedir.
-Alışılagelmiş bir çok yapılandırma aracı Arch Linux'da bulunmamakta,
-bunun yerine basit yapılandırma dosyalarında bir kaç satırı değiştirmek
-yeterli olmaktadır. Dağıtımda, BSD'ye benzer açılış betikleri tercih
+Arch Linux basit, kolay kurulabilir ve kullanÄ±labilir bir Linux daÄŸÄ±tÄ±mÄ±dÄ±r.
+Herhangi bir daÄŸÄ±tÄ±mÄ± taban olarak almamÄ±ÅŸ ve sÄ±fÄ±rdan geliÅŸtirilmiÅŸtir.
+KISS (Keep It Simple, Stupid); yani her ÅŸeyin olabilecek en basit
+ve &#34;gÃ¼ncel&#34; haliyle daÄŸÄ±tÄ±mda yer almasÄ± ana felsefedir.
+AlÄ±ÅŸÄ±lagelmiÅŸ bir Ã§ok yapÄ±landÄ±rma aracÄ± Arch Linux'da bulunmamakta,
+bunun yerine basit yapÄ±landÄ±rma dosyalarÄ±nda bir kaÃ§ satÄ±rÄ± deÄŸiÅŸtirmek
+yeterli olmaktadÄ±r. DaÄŸÄ±tÄ±mda, BSD'ye benzer aÃ§Ä±lÄ±ÅŸ betikleri tercih
 edilmektedir.
 </BLOCKQUOTE><DL>
-<DT><STRONG>Sürüm&nbsp;Yapısı:</STRONG></DT>
-<DD>Diğer bir çok dağıtımın aksine Arch Linux, sürekli
-devam edebilen bir yapıya sahiptir. Bunun anlamı, eğer güncellemeleri
-takip ediyorsanız ve eğer yeni bir sürüm çıkarıldıysa, siz zaten o
-sürüme sahipsiniz demektir. Her yeni sürümle birlikte sisteminizde
-bir şeyler değiştirmek ya da baştan kurmak zorunda değilsiniz!
+<DT><STRONG>SÃ¼rÃ¼m&nbsp;YapÄ±sÄ±:</STRONG></DT>
+<DD>DiÄŸer bir Ã§ok daÄŸÄ±tÄ±mÄ±n aksine Arch Linux, sÃ¼rekli
+devam edebilen bir yapÄ±ya sahiptir. Bunun anlamÄ±, eÄŸer gÃ¼ncellemeleri
+takip ediyorsanÄ±z ve eÄŸer yeni bir sÃ¼rÃ¼m Ã§Ä±karÄ±ldÄ±ysa, siz zaten o
+sÃ¼rÃ¼me sahipsiniz demektir. Her yeni sÃ¼rÃ¼mle birlikte sisteminizde
+bir ÅŸeyler deÄŸiÅŸtirmek ya da baÅŸtan kurmak zorunda deÄŸilsiniz!
 <BR>
 <BR>
-Dağıtıma ait &#34;core&#34; ve &#34;ftp&#34; olmak
-üzere iki sürüm bulunmaktadır. Her ikisi de internet'ten kurulmak
-ve güncellenmek üzere tasarlanmıştır. Bu nedenle &#34;core&#34;
-sürümünün boyutu yaklaşık 290 MB'ken, &#34;ftp&#34; sürümünün
-boyutu yaklaşık 140 MB'tır. Aralarındaki temel fark, içerdikleri paketler
-ve sonrasındaki kurulumun nasıl olacağıdır (ki bu adım kullanıcıya
-kalmaktadır). Son zamanlarda USB diskler üzerinde çalışabilen sürüm
-üzerinde çalışmalar da devam etmektedir.
+DaÄŸÄ±tÄ±ma ait &#34;core&#34; ve &#34;ftp&#34; olmak
+Ã¼zere iki sÃ¼rÃ¼m bulunmaktadÄ±r. Her ikisi de internet'ten kurulmak
+ve gÃ¼ncellenmek Ã¼zere tasarlanmÄ±ÅŸtÄ±r. Bu nedenle &#34;core&#34;
+sÃ¼rÃ¼mÃ¼nÃ¼n boyutu yaklaÅŸÄ±k 290 MB'ken, &#34;ftp&#34; sÃ¼rÃ¼mÃ¼nÃ¼n
+boyutu yaklaÅŸÄ±k 140 MB'tÄ±r. AralarÄ±ndaki temel fark, iÃ§erdikleri paketler
+ve sonrasÄ±ndaki kurulumun nasÄ±l olacaÄŸÄ±dÄ±r (ki bu adÄ±m kullanÄ±cÄ±ya
+kalmaktadÄ±r). Son zamanlarda USB diskler Ã¼zerinde Ã§alÄ±ÅŸabilen sÃ¼rÃ¼m
+Ã¼zerinde Ã§alÄ±ÅŸmalar da devam etmektedir.
 </DD>
-<DT><STRONG>Paket&nbsp;Yönetim&nbsp;Sistemi:</STRONG></DT>
-<DD>Arch Linux, pacman adı verilen bir paket
-yöneticisine sahiptir. Dağıtıma ait depolar &#34;core&#34;,
+<DT><STRONG>Paket&nbsp;YÃ¶netim&nbsp;Sistemi:</STRONG></DT>
+<DD>Arch Linux, pacman adÄ± verilen bir paket
+yÃ¶neticisine sahiptir. DaÄŸÄ±tÄ±ma ait depolar &#34;core&#34;,
 &#34;extra&#34;, &#34;testing&#34;, &#34;unstable&#34;
-ve &#34;community&#34; olarak ayrılmıştır. &#34;core&#34;
-deposu Arch Linux CD'si ile kurabileceğiniz paketlerin bütününden
-ibarettir. pacman ile yalnızca istenen depolardan paket kurulabilirken,
-istenen paketlerin belli bir depodan indirilip sabitlenmesi de sağlanabilir.
-Dağıtımdaki tüm paketler, i686 ve x86-64 mimarilerine göre derlenmiştir.
+ve &#34;community&#34; olarak ayrÄ±lmÄ±ÅŸtÄ±r. &#34;core&#34;
+deposu Arch Linux CD'si ile kurabileceÄŸiniz paketlerin bÃ¼tÃ¼nÃ¼nden
+ibarettir. pacman ile yalnÄ±zca istenen depolardan paket kurulabilirken,
+istenen paketlerin belli bir depodan indirilip sabitlenmesi de saÄŸlanabilir.
+DaÄŸÄ±tÄ±mdaki tÃ¼m paketler, i686 ve x86-64 mimarilerine gÃ¶re derlenmiÅŸtir.
 <BR>
 <BR>
-Arch Linux, sıklıkla Gentoo dağıtımına benzetilir. Bunun sebeplerinden
-biri kullanıcı topluluğunun önemli bir kısmının Gentoo'dan gelmiş
-olması olabilir. Oysa Gentoo ile arasında önemli farklılıklar da vardır.
-Arch Linux'da yazılımlar, &#34;derlenmiş&#34; ve &#34;kaynak
-kodundan&#34; derlenecek olmak üzere iki farklı şekilde kurulabilirler.
-Resmi depolarda bulunan derlenmiş paketlerin yanısıra, AUR adı verilen
-sistem sayesinde çok daha geniş bir yazılım yelpazesi de kullanıcıların
-ellerinin altındadır. Resmi depolarda bulunan yazılımların bir özelliğini
-beğenmediğinizde ya da eksik bulduğunuzda, ABS adı verilen bir diğer
-sistem ile paket dosyalarını indirip çok kısa bir sürede istediğiniz
-şekilde derleyip yeni paketler oluşturabiliyorsunuz.
+Arch Linux, sÄ±klÄ±kla Gentoo daÄŸÄ±tÄ±mÄ±na benzetilir. Bunun sebeplerinden
+biri kullanÄ±cÄ± topluluÄŸunun Ã¶nemli bir kÄ±smÄ±nÄ±n Gentoo'dan gelmiÅŸ
+olmasÄ± olabilir. Oysa Gentoo ile arasÄ±nda Ã¶nemli farklÄ±lÄ±klar da vardÄ±r.
+Arch Linux'da yazÄ±lÄ±mlar, &#34;derlenmiÅŸ&#34; ve &#34;kaynak
+kodundan&#34; derlenecek olmak Ã¼zere iki farklÄ± ÅŸekilde kurulabilirler.
+Resmi depolarda bulunan derlenmiÅŸ paketlerin yanÄ±sÄ±ra, AUR adÄ± verilen
+sistem sayesinde Ã§ok daha geniÅŸ bir yazÄ±lÄ±m yelpazesi de kullanÄ±cÄ±larÄ±n
+ellerinin altÄ±ndadÄ±r. Resmi depolarda bulunan yazÄ±lÄ±mlarÄ±n bir Ã¶zelliÄŸini
+beÄŸenmediÄŸinizde ya da eksik bulduÄŸunuzda, ABS adÄ± verilen bir diÄŸer
+sistem ile paket dosyalarÄ±nÄ± indirip Ã§ok kÄ±sa bir sÃ¼rede istediÄŸiniz
+ÅŸekilde derleyip yeni paketler oluÅŸturabiliyorsunuz.
 <BR>
 <BR>
-Arch Linux paketleri gerçekte PKGBUILD adı verilen metin dosyalarının
-ve paketi etkileyecek yama dosyalarının bulunduğu küçük yapılardır.
-PKGBUILD dosyası oldukça basit bir yapıya sahiptir ve herhangi bir
-kullanıcının son derece rahat paket hazırlamasına olanak verir. AUR'da
-kullanıcılar, kendi PKGBUILD dosyalarını ve (varsa) yamaları içeren
-sıkıştırılmış bir paketi sisteme yükleyerek diğer kullanıcılarla paylaşırlar.
-Yine AUR'da paylaşılan bazı yazılımlar ile AUR'dan herhangi bir yazılımı
-bağımlılıklarıyla birlikte indirip kurmak bir komuta indirgenebilmektedir.
+Arch Linux paketleri gerÃ§ekte PKGBUILD adÄ± verilen metin dosyalarÄ±nÄ±n
+ve paketi etkileyecek yama dosyalarÄ±nÄ±n bulunduÄŸu kÃ¼Ã§Ã¼k yapÄ±lardÄ±r.
+PKGBUILD dosyasÄ± oldukÃ§a basit bir yapÄ±ya sahiptir ve herhangi bir
+kullanÄ±cÄ±nÄ±n son derece rahat paket hazÄ±rlamasÄ±na olanak verir. AUR'da
+kullanÄ±cÄ±lar, kendi PKGBUILD dosyalarÄ±nÄ± ve (varsa) yamalarÄ± iÃ§eren
+sÄ±kÄ±ÅŸtÄ±rÄ±lmÄ±ÅŸ bir paketi sisteme yÃ¼kleyerek diÄŸer kullanÄ±cÄ±larla paylaÅŸÄ±rlar.
+Yine AUR'da paylaÅŸÄ±lan bazÄ± yazÄ±lÄ±mlar ile AUR'dan herhangi bir yazÄ±lÄ±mÄ±
+baÄŸÄ±mlÄ±lÄ±klarÄ±yla birlikte indirip kurmak bir komuta indirgenebilmektedir.
 </DD>
 <DT><STRONG>Topluluk&nbsp;ve&nbsp;Belgelendirme:</STRONG></DT>
-<DD>Arch Linux'un sitesinden erişilebilen
-Wiki ve forumlar, son derece iyi ve güncel belgelere sahiptir. Topluluk
-bu bakımdan Gentoo'dan sonra en aktif ikinci topluluk olarak anılmaktadır.
+<DD>Arch Linux'un sitesinden eriÅŸilebilen
+Wiki ve forumlar, son derece iyi ve gÃ¼ncel belgelere sahiptir. Topluluk
+bu bakÄ±mdan Gentoo'dan sonra en aktif ikinci topluluk olarak anÄ±lmaktadÄ±r.
 <BR>
-<BR>Ülkemizde henüz kurulan Arch Linux Türkiye topluluğu<A NAME="tex2html12"
-  HREF="#foot325"><SUP>6</SUP></A> özellikle Wiki'de, dağıtıma Türkçe belgeler kazandırmaya ve mümkün
-olduğunda pacman vb. yazılımları çevirmeye çalışmaktadır.
+<BR>Ãœlkemizde henÃ¼z kurulan Arch Linux TÃ¼rkiye topluluÄŸu<A NAME="tex2html12"
+  HREF="#foot325"><SUP>6</SUP></A> Ã¶zellikle Wiki'de, daÄŸÄ±tÄ±ma TÃ¼rkÃ§e belgeler kazandÄ±rmaya ve mÃ¼mkÃ¼n
+olduÄŸunda pacman vb. yazÄ±lÄ±mlarÄ± Ã§evirmeye Ã§alÄ±ÅŸmaktadÄ±r.
 </DD>
 </DL>
 
@@ -352,267 +352,267 @@ olduğunda pacman vb. yazılımları çevirmeye çalışmaktadır.
  >
 
 <P>
-Belki de Özgür Yazılım Hareketi'nin en saf öğelerinden biri olan Debian
+Belki de Ã–zgÃ¼r YazÄ±lÄ±m Hareketi'nin en saf Ã¶ÄŸelerinden biri olan Debian
 GNU/Linux<A NAME="tex2html14"
-  HREF="#foot326"><SUP>7</SUP></A>, 1993'de Ian Murdock tarafından ticari olmayan bir proje olarak başlatılmıştır
--ve hala da öyledir. Dünyanın her yanından binlerce geliştiricinin
-katkıları ve kaliteli proje yönetimi ile oluşturulmaktadır.
+  HREF="#foot326"><SUP>7</SUP></A>, 1993'de Ian Murdock tarafÄ±ndan ticari olmayan bir proje olarak baÅŸlatÄ±lmÄ±ÅŸtÄ±r
+-ve hala da Ã¶yledir. DÃ¼nyanÄ±n her yanÄ±ndan binlerce geliÅŸtiricinin
+katkÄ±larÄ± ve kaliteli proje yÃ¶netimi ile oluÅŸturulmaktadÄ±r.
 
 <P>
-Debian'ın kullanıcı karşısına 3 ana kol ile çıkmaktadır: &#34;kararlı&#34;,
-&#34;test&#34; ve &#34;kararsız&#34;. Bir paketin
-yeni bir versiyonu çıktığında, ilk önce &#34;kararsız (unstable)&#34;
-deposu altına alınır. Sonra daha derinlemesine ve uzun süreli testlerden
-geçirilmesi için &#34;test (testing)&#34; deposuna alınır.
-Eğer paket ayrıntılı test aşamasından geçecek kararlılıkta ve uyumda
-olduğuna karar verildiğinde &#34;kararlı (stable)&#34; deposuna
-alınır. Bunun sonucu olarak Debian'ın stable deposu çok yüksek kararlılıkta
-ve uyumda çalışan bir dağıtım sunar. Stable deposundaki yazılımlar
-görev kritik uygulamalar ve sunucular için harika bir alternatifse
-de genellikle yazılımların çok eski versiyonlarından oluştuğu için
-son kullanıcılar tarafından tercih edilmezler. Son kullanıcılar yazılımlarını
-daha çok testing ve unstable depolarından temin etmeyi tercih ederler.
+Debian'Ä±n kullanÄ±cÄ± karÅŸÄ±sÄ±na 3 ana kol ile Ã§Ä±kmaktadÄ±r: &#34;kararlÄ±&#34;,
+&#34;test&#34; ve &#34;kararsÄ±z&#34;. Bir paketin
+yeni bir versiyonu Ã§Ä±ktÄ±ÄŸÄ±nda, ilk Ã¶nce &#34;kararsÄ±z (unstable)&#34;
+deposu altÄ±na alÄ±nÄ±r. Sonra daha derinlemesine ve uzun sÃ¼reli testlerden
+geÃ§irilmesi iÃ§in &#34;test (testing)&#34; deposuna alÄ±nÄ±r.
+EÄŸer paket ayrÄ±ntÄ±lÄ± test aÅŸamasÄ±ndan geÃ§ecek kararlÄ±lÄ±kta ve uyumda
+olduÄŸuna karar verildiÄŸinde &#34;kararlÄ± (stable)&#34; deposuna
+alÄ±nÄ±r. Bunun sonucu olarak Debian'Ä±n stable deposu Ã§ok yÃ¼ksek kararlÄ±lÄ±kta
+ve uyumda Ã§alÄ±ÅŸan bir daÄŸÄ±tÄ±m sunar. Stable deposundaki yazÄ±lÄ±mlar
+gÃ¶rev kritik uygulamalar ve sunucular iÃ§in harika bir alternatifse
+de genellikle yazÄ±lÄ±mlarÄ±n Ã§ok eski versiyonlarÄ±ndan oluÅŸtuÄŸu iÃ§in
+son kullanÄ±cÄ±lar tarafÄ±ndan tercih edilmezler. Son kullanÄ±cÄ±lar yazÄ±lÄ±mlarÄ±nÄ±
+daha Ã§ok testing ve unstable depolarÄ±ndan temin etmeyi tercih ederler.
 
 <P>
-Debian'ın ününün bir diğer nedeni ise DEB paket yöneticisi ve bu paket
-yöneticisi üzerindeki apt yazılımıdır. apt ile Internet üzerindeki
-depolardan istediğiniz bir uygulamanın tüm bağımlılıkları ile beraber
-sisteminize kurulmasını sağlamanız son derece kolaydır. Ayrıca Debian'ın
-tüm güncellemeleri de apt tarafından gerçekleştirilebilir. Debian'ın
-depolarında yer vermediği (bunlar gerçekten çok az sayıdadır) yazılımlara
-da apt yardımı ile resmi olmayan depolardan sahip olabilirsiniz.
+Debian'Ä±n Ã¼nÃ¼nÃ¼n bir diÄŸer nedeni ise DEB paket yÃ¶neticisi ve bu paket
+yÃ¶neticisi Ã¼zerindeki apt yazÄ±lÄ±mÄ±dÄ±r. apt ile Internet Ã¼zerindeki
+depolardan istediÄŸiniz bir uygulamanÄ±n tÃ¼m baÄŸÄ±mlÄ±lÄ±klarÄ± ile beraber
+sisteminize kurulmasÄ±nÄ± saÄŸlamanÄ±z son derece kolaydÄ±r. AyrÄ±ca Debian'Ä±n
+tÃ¼m gÃ¼ncellemeleri de apt tarafÄ±ndan gerÃ§ekleÅŸtirilebilir. Debian'Ä±n
+depolarÄ±nda yer vermediÄŸi (bunlar gerÃ§ekten Ã§ok az sayÄ±dadÄ±r) yazÄ±lÄ±mlara
+da apt yardÄ±mÄ± ile resmi olmayan depolardan sahip olabilirsiniz.
 
 <P>
 <DL>
 <DT><STRONG>(+)</STRONG></DT>
-<DD>%100 özgür, çok iyi hata takip sistemi ve topluluk çözümleri,
-stable sürümü çok iyi test edilmiş ve neredeyse %100 güvenli, apt
-yardımıyla çok kolay program kurma.
+<DD>%100 Ã¶zgÃ¼r, Ã§ok iyi hata takip sistemi ve topluluk Ã§Ã¶zÃ¼mleri,
+stable sÃ¼rÃ¼mÃ¼ Ã§ok iyi test edilmiÅŸ ve neredeyse %100 gÃ¼venli, apt
+yardÄ±mÄ±yla Ã§ok kolay program kurma.
 </DD>
 <DT><STRONG>(-)</STRONG></DT>
-<DD>Grafiksiz kurulum arabirimi, güncel olmayan kararlı sürüm,
-yetersiz konfigürasyon araçları.
+<DD>Grafiksiz kurulum arabirimi, gÃ¼ncel olmayan kararlÄ± sÃ¼rÃ¼m,
+yetersiz konfigÃ¼rasyon araÃ§larÄ±.
 </DD>
 <DT><STRONG>(PYS)</STRONG></DT>
 <DD>DEB
 </DD>
 <DT><STRONG>(Internet)</STRONG></DT>
-<DD>Bir çok ülkedeki yansıları ile yüksek erişilebilirlikte.
+<DD>Bir Ã§ok Ã¼lkedeki yansÄ±larÄ± ile yÃ¼ksek eriÅŸilebilirlikte.
 </DD>
 </DL>
 
 <P>
 
 <h3><a class="dagitim" NAME="SECTION00032100000000000000">
-2.2.1 Enver Altın'ın Debian hakkındaki yorumu</A>
+2.2.1 Enver AltÄ±n'Ä±n Debian hakkÄ±ndaki yorumu</A>
 </H3>
 
 <P>
 <BLOCKQUOTE>
-Bu dağıtımı kullanıyor olmamın önemli bazı nedenleri:
+Bu daÄŸÄ±tÄ±mÄ± kullanÄ±yor olmamÄ±n Ã¶nemli bazÄ± nedenleri:
 <BR></BLOCKQUOTE>
 <P><DL>
-<DT><STRONG>Genel&nbsp;amaçlı:</STRONG></DT>
-<DD>Sunucu için ayrı, masaüstü için ayrı, gömülü sistemler
-için ayrı sürümleri yok.
+<DT><STRONG>Genel&nbsp;amaÃ§lÄ±:</STRONG></DT>
+<DD>Sunucu iÃ§in ayrÄ±, masaÃ¼stÃ¼ iÃ§in ayrÄ±, gÃ¶mÃ¼lÃ¼ sistemler
+iÃ§in ayrÄ± sÃ¼rÃ¼mleri yok.
 </DD>
-<DT><STRONG>Kapsamlı:</STRONG></DT>
-<DD>3 farklı Debian paket arşivi, her türden kullanıcıyı
-tatmin edecek çok sayıda ve dikkatle paketlenmiş kullanıma hazır yazılım
-içeriyor. 
+<DT><STRONG>KapsamlÄ±:</STRONG></DT>
+<DD>3 farklÄ± Debian paket arÅŸivi, her tÃ¼rden kullanÄ±cÄ±yÄ±
+tatmin edecek Ã§ok sayÄ±da ve dikkatle paketlenmiÅŸ kullanÄ±ma hazÄ±r yazÄ±lÄ±m
+iÃ§eriyor. 
 </DD>
 <DT><STRONG>Yetenekli:</STRONG></DT>
-<DD>Dağıtımın sağlam, düzenli, yüksek performanslı ve
-güvenilir kalabilmesini sağlayan çok sayıda araca sahip. Özgür: Debian
-GNU/Linux projesi kar amacı gütmeyen bir dernek tarafından korunuyor
-ve destekleniyor, fakat kişi-kurum-kuruluşların kararlarından bağımsız. 
+<DD>DaÄŸÄ±tÄ±mÄ±n saÄŸlam, dÃ¼zenli, yÃ¼ksek performanslÄ± ve
+gÃ¼venilir kalabilmesini saÄŸlayan Ã§ok sayÄ±da araca sahip. Ã–zgÃ¼r: Debian
+GNU/Linux projesi kar amacÄ± gÃ¼tmeyen bir dernek tarafÄ±ndan korunuyor
+ve destekleniyor, fakat kiÅŸi-kurum-kuruluÅŸlarÄ±n kararlarÄ±ndan baÄŸÄ±msÄ±z. 
 </DD>
-<DT><STRONG>Yaygın:</STRONG></DT>
-<DD>En çok kullanılan birkaç dağıtımdan biri.
+<DT><STRONG>YaygÄ±n:</STRONG></DT>
+<DD>En Ã§ok kullanÄ±lan birkaÃ§ daÄŸÄ±tÄ±mdan biri.
 <BR>
 <P>
 </DD>
 </DL><BLOCKQUOTE>
-Bence Debian GNU/Linux projesinin diğer tüm dağıtım projelerinden
-en büyük farkı; köklü, tam ve bütün bir özgür yazılım topluluğu projesi
-olarak yoluna devam etmiş ve edecek olması. Debian hiçbir zaman kar
-amacı güden bir şirket haline gelmeyecek, daima açık kaynak kodlu
-özgür bir işletim sistemi olarak kalacak. Debian projesinin kurucusu
-Ian Murdock'in da belirttiği gibi Debian projesi, projede aktif çalışan
-binlerce geliştirici tarafından öylesine korunuyor ve destekleniyor
-ki, durdurulması mümkün değil. Bu projeyi Debian yapan asıl gerçek,
-dünyanın her yerinden katılan çok sayıda geliştiricinin yadsınamaz
-motivasyonu ve birlikteliğidir.
+Bence Debian GNU/Linux projesinin diÄŸer tÃ¼m daÄŸÄ±tÄ±m projelerinden
+en bÃ¼yÃ¼k farkÄ±; kÃ¶klÃ¼, tam ve bÃ¼tÃ¼n bir Ã¶zgÃ¼r yazÄ±lÄ±m topluluÄŸu projesi
+olarak yoluna devam etmiÅŸ ve edecek olmasÄ±. Debian hiÃ§bir zaman kar
+amacÄ± gÃ¼den bir ÅŸirket haline gelmeyecek, daima aÃ§Ä±k kaynak kodlu
+Ã¶zgÃ¼r bir iÅŸletim sistemi olarak kalacak. Debian projesinin kurucusu
+Ian Murdock'in da belirttiÄŸi gibi Debian projesi, projede aktif Ã§alÄ±ÅŸan
+binlerce geliÅŸtirici tarafÄ±ndan Ã¶ylesine korunuyor ve destekleniyor
+ki, durdurulmasÄ± mÃ¼mkÃ¼n deÄŸil. Bu projeyi Debian yapan asÄ±l gerÃ§ek,
+dÃ¼nyanÄ±n her yerinden katÄ±lan Ã§ok sayÄ±da geliÅŸtiricinin yadsÄ±namaz
+motivasyonu ve birlikteliÄŸidir.
 <BR></BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Bir başka önemli yanı, dağıtımın güvenilir ve kararlılığının sağlanabilmesi
-için 3 farklı koldan geliştiriliyor olması:
+<BLOCKQUOTE>Bir baÅŸka Ã¶nemli yanÄ±, daÄŸÄ±tÄ±mÄ±n gÃ¼venilir ve kararlÄ±lÄ±ÄŸÄ±nÄ±n saÄŸlanabilmesi
+iÃ§in 3 farklÄ± koldan geliÅŸtiriliyor olmasÄ±:
 <BR></BLOCKQUOTE>
 <P><DL>
 <DT><STRONG>Stable:</STRONG></DT>
-<DD>Sağlamlığını ve güvenilirliğini zaman içerisinde ispatlamış
-ve uzun süre test edilmiş paketler Stable dağıtımı içerisinde yer
-alır. Stable, genellikle güvenliğin önemli olduğu ve bakım maliyetlerinin
-düşük olması gereken; kısaca çalışması ve unutulması gereken sistemler
-(örneğin sunucular) üzerinde kullanılır. Stable dağıtımı içerisindeki
-paketler, genellikle güncel değildir, biraz eskimişlerdir. Bu yazılımlarla
-ilgili bir güvenlik güncelleştirmesi derhal yüksek önem derecesi ile
-duyurulur; fakat yeni sürümlerine güncellenmez, yalnızca eski sürüm
-içerisindeki hatalar giderilir. Stable sürüm genellikle 2 yada 3 yılda
-bir, içerisindeki tüm paketler yeni sürümlerine güncellenmiş biçimde
+<DD>SaÄŸlamlÄ±ÄŸÄ±nÄ± ve gÃ¼venilirliÄŸini zaman iÃ§erisinde ispatlamÄ±ÅŸ
+ve uzun sÃ¼re test edilmiÅŸ paketler Stable daÄŸÄ±tÄ±mÄ± iÃ§erisinde yer
+alÄ±r. Stable, genellikle gÃ¼venliÄŸin Ã¶nemli olduÄŸu ve bakÄ±m maliyetlerinin
+dÃ¼ÅŸÃ¼k olmasÄ± gereken; kÄ±saca Ã§alÄ±ÅŸmasÄ± ve unutulmasÄ± gereken sistemler
+(Ã¶rneÄŸin sunucular) Ã¼zerinde kullanÄ±lÄ±r. Stable daÄŸÄ±tÄ±mÄ± iÃ§erisindeki
+paketler, genellikle gÃ¼ncel deÄŸildir, biraz eskimiÅŸlerdir. Bu yazÄ±lÄ±mlarla
+ilgili bir gÃ¼venlik gÃ¼ncelleÅŸtirmesi derhal yÃ¼ksek Ã¶nem derecesi ile
+duyurulur; fakat yeni sÃ¼rÃ¼mlerine gÃ¼ncellenmez, yalnÄ±zca eski sÃ¼rÃ¼m
+iÃ§erisindeki hatalar giderilir. Stable sÃ¼rÃ¼m genellikle 2 yada 3 yÄ±lda
+bir, iÃ§erisindeki tÃ¼m paketler yeni sÃ¼rÃ¼mlerine gÃ¼ncellenmiÅŸ biÃ§imde
 duyurulur. 
 </DD>
 <DT><STRONG>Testing:</STRONG></DT>
-<DD>Stable dağıtımına kıyasla bir hayli daha güncel bir
-sürümdür, bu sürüm içerisine yerleştirilen paketler Debian geliştiricileri
-ve diğer gönüllüler tarafından kısa bir süre (15 gün, 1 ay gibi) test
-edilmişlerdir, temel fonksiyonlarının çalıştığı görülmüştür. Birçok
-açıdan sağlamdır ve çoğunlukla sorunsuz çalışacaktır. Fakat bu sürüm
-içerisindeki tüm paketlerin tamamıyla güvenilir oldukları söylenmez.
-Testing sürümü içerisinde uzunca bir dönem test edilen ve tüm hataları
-ayıklanabilen paketler, birkaç yıllık aralıklarla alınarak Stable
-sürüm haline getirilir. Bence testing sürümü, genellikle gündelik
-işleri bilgisayarla ilgili olmayan insanlar tarafından tercih edilmelidir. 
+<DD>Stable daÄŸÄ±tÄ±mÄ±na kÄ±yasla bir hayli daha gÃ¼ncel bir
+sÃ¼rÃ¼mdÃ¼r, bu sÃ¼rÃ¼m iÃ§erisine yerleÅŸtirilen paketler Debian geliÅŸtiricileri
+ve diÄŸer gÃ¶nÃ¼llÃ¼ler tarafÄ±ndan kÄ±sa bir sÃ¼re (15 gÃ¼n, 1 ay gibi) test
+edilmiÅŸlerdir, temel fonksiyonlarÄ±nÄ±n Ã§alÄ±ÅŸtÄ±ÄŸÄ± gÃ¶rÃ¼lmÃ¼ÅŸtÃ¼r. BirÃ§ok
+aÃ§Ä±dan saÄŸlamdÄ±r ve Ã§oÄŸunlukla sorunsuz Ã§alÄ±ÅŸacaktÄ±r. Fakat bu sÃ¼rÃ¼m
+iÃ§erisindeki tÃ¼m paketlerin tamamÄ±yla gÃ¼venilir olduklarÄ± sÃ¶ylenmez.
+Testing sÃ¼rÃ¼mÃ¼ iÃ§erisinde uzunca bir dÃ¶nem test edilen ve tÃ¼m hatalarÄ±
+ayÄ±klanabilen paketler, birkaÃ§ yÄ±llÄ±k aralÄ±klarla alÄ±narak Stable
+sÃ¼rÃ¼m haline getirilir. Bence testing sÃ¼rÃ¼mÃ¼, genellikle gÃ¼ndelik
+iÅŸleri bilgisayarla ilgili olmayan insanlar tarafÄ±ndan tercih edilmelidir. 
 </DD>
 <DT><STRONG>Unstable:</STRONG></DT>
-<DD>Herhangi bir özgür yazılımın duyurulmuş olan en son
-sürümüne ait derlenmiş ve kullanıma hazır paketi Unstable içerisinde
-kolaylıkla bulabilirsiniz. Bu paketler genellikle 1 yada 2 kez birkaç
-kişi tarafından test edilmişlerdir, çeşitli özellikleri düzgün çalışmıştır
-ve bu sayede Unstable içerisine eklenmişlerdir. Fakat unstable içerisindeki
-yazılımların kararlı olması beklenmez. Bir sonraki güncellemede çalışmayabilir,
-hiç çalışmayabilir, çalışması sırasında çeşitli hatalar verebilir;
-veya mucizevi biçimde (!) çalışabilir de. Belirtmeliyim ki bu metni,
-1 yıldan uzun süre önce kurduğum ve (dizüstü bilgisayarıma taşımış
-olduğum halde) şimdiye kadar pek de fazla sorun yaşamadığım unstable
-sistemim üzerinde yazıyorum. Unstable sürüm içerisinde 15 gün, 1 ay
-gibi bir süre ile test edilen paketler Testing sürümüne aktarılır
-ve daha uzun bir test süreci için sürüm numarası sabitlenmiş olur.
-Unstable sürüm IT profesyonelleri, yazılım geliştiriciler ve bu sistemleri
-kurcalayıp bozmaktan zevk alan kişiler tarafından daha çok tercih
+<DD>Herhangi bir Ã¶zgÃ¼r yazÄ±lÄ±mÄ±n duyurulmuÅŸ olan en son
+sÃ¼rÃ¼mÃ¼ne ait derlenmiÅŸ ve kullanÄ±ma hazÄ±r paketi Unstable iÃ§erisinde
+kolaylÄ±kla bulabilirsiniz. Bu paketler genellikle 1 yada 2 kez birkaÃ§
+kiÅŸi tarafÄ±ndan test edilmiÅŸlerdir, Ã§eÅŸitli Ã¶zellikleri dÃ¼zgÃ¼n Ã§alÄ±ÅŸmÄ±ÅŸtÄ±r
+ve bu sayede Unstable iÃ§erisine eklenmiÅŸlerdir. Fakat unstable iÃ§erisindeki
+yazÄ±lÄ±mlarÄ±n kararlÄ± olmasÄ± beklenmez. Bir sonraki gÃ¼ncellemede Ã§alÄ±ÅŸmayabilir,
+hiÃ§ Ã§alÄ±ÅŸmayabilir, Ã§alÄ±ÅŸmasÄ± sÄ±rasÄ±nda Ã§eÅŸitli hatalar verebilir;
+veya mucizevi biÃ§imde (!) Ã§alÄ±ÅŸabilir de. Belirtmeliyim ki bu metni,
+1 yÄ±ldan uzun sÃ¼re Ã¶nce kurduÄŸum ve (dizÃ¼stÃ¼ bilgisayarÄ±ma taÅŸÄ±mÄ±ÅŸ
+olduÄŸum halde) ÅŸimdiye kadar pek de fazla sorun yaÅŸamadÄ±ÄŸÄ±m unstable
+sistemim Ã¼zerinde yazÄ±yorum. Unstable sÃ¼rÃ¼m iÃ§erisinde 15 gÃ¼n, 1 ay
+gibi bir sÃ¼re ile test edilen paketler Testing sÃ¼rÃ¼mÃ¼ne aktarÄ±lÄ±r
+ve daha uzun bir test sÃ¼reci iÃ§in sÃ¼rÃ¼m numarasÄ± sabitlenmiÅŸ olur.
+Unstable sÃ¼rÃ¼m IT profesyonelleri, yazÄ±lÄ±m geliÅŸtiriciler ve bu sistemleri
+kurcalayÄ±p bozmaktan zevk alan kiÅŸiler tarafÄ±ndan daha Ã§ok tercih
 edilir.
 <BR>
 <P>
 </DD>
 </DL><BLOCKQUOTE>
-Ayrıca experimental adında bir alt dağıtım daha Debian tarafından
-oluşturulmakta, fakat bu alt dağıtım tam ve bütün bir sistem değil,
-yalnızca bazı deneysel paketleri de içermesi amacıyla kullanılmakta.
+AyrÄ±ca experimental adÄ±nda bir alt daÄŸÄ±tÄ±m daha Debian tarafÄ±ndan
+oluÅŸturulmakta, fakat bu alt daÄŸÄ±tÄ±m tam ve bÃ¼tÃ¼n bir sistem deÄŸil,
+yalnÄ±zca bazÄ± deneysel paketleri de iÃ§ermesi amacÄ±yla kullanÄ±lmakta.
 <BR></BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Debian GNU/Linux projesi çeşitli teknik yönleri ile de diğer bazı
-dağıtımlara kıyasla daha yeteneklidir:
+<BLOCKQUOTE>Debian GNU/Linux projesi Ã§eÅŸitli teknik yÃ¶nleri ile de diÄŸer bazÄ±
+daÄŸÄ±tÄ±mlara kÄ±yasla daha yeteneklidir:
 <BR></BLOCKQUOTE>
 <P><DL>
-<DT><STRONG>Gelişkin&nbsp;paket&nbsp;yönetimi&nbsp;sistemi:</STRONG></DT>
+<DT><STRONG>GeliÅŸkin&nbsp;paket&nbsp;yÃ¶netimi&nbsp;sistemi:</STRONG></DT>
 <DD>APT (Advanced Package Tool)
-ve DPKG (Debian Package Manager), sistemdeki paketler arasındaki bağımlılıkları,
-olası sorunların çözülmesini ve sistemdeki tüm/bazı paketlerin güncellenmesini
-mümkün olduğunca basit, otomatik, anlaşılır ve kolay hale getirir.
-Fakat bu işlemi yaparken, örneğin kullanıcıların elle değiştirdikleri
-yapılandırma dosyaları arasındaki farkları otomatik birleştirebilir,
-eksik/yarım kurulmuş (genellikle böyle bir hata olmaz) paketleri düzeltebilir
-ve paket ekleme/kaldırma işlemleri sırasında sistemin bütünlüğünü
-ve çalışabilirliğini sağlamaya yardımcı olur. APT, bir süredir RedHat
-tabanlı sistemlerde (SuSE, Fedora, Mandrake gibi) de APT-RPM yapısı
-sayesinde kullanılmakta. 
+ve DPKG (Debian Package Manager), sistemdeki paketler arasÄ±ndaki baÄŸÄ±mlÄ±lÄ±klarÄ±,
+olasÄ± sorunlarÄ±n Ã§Ã¶zÃ¼lmesini ve sistemdeki tÃ¼m/bazÄ± paketlerin gÃ¼ncellenmesini
+mÃ¼mkÃ¼n olduÄŸunca basit, otomatik, anlaÅŸÄ±lÄ±r ve kolay hale getirir.
+Fakat bu iÅŸlemi yaparken, Ã¶rneÄŸin kullanÄ±cÄ±larÄ±n elle deÄŸiÅŸtirdikleri
+yapÄ±landÄ±rma dosyalarÄ± arasÄ±ndaki farklarÄ± otomatik birleÅŸtirebilir,
+eksik/yarÄ±m kurulmuÅŸ (genellikle bÃ¶yle bir hata olmaz) paketleri dÃ¼zeltebilir
+ve paket ekleme/kaldÄ±rma iÅŸlemleri sÄ±rasÄ±nda sistemin bÃ¼tÃ¼nlÃ¼ÄŸÃ¼nÃ¼
+ve Ã§alÄ±ÅŸabilirliÄŸini saÄŸlamaya yardÄ±mcÄ± olur. APT, bir sÃ¼redir RedHat
+tabanlÄ± sistemlerde (SuSE, Fedora, Mandrake gibi) de APT-RPM yapÄ±sÄ±
+sayesinde kullanÄ±lmakta. 
 </DD>
-<DT><STRONG>Güncellik:</STRONG></DT>
-<DD>Testing ve unstable sürümleri içerisindeki paketlerin
-güncel sürümlerine ulaşabilmeleri için büyük çabalar sarfedilir. 
+<DT><STRONG>GÃ¼ncellik:</STRONG></DT>
+<DD>Testing ve unstable sÃ¼rÃ¼mleri iÃ§erisindeki paketlerin
+gÃ¼ncel sÃ¼rÃ¼mlerine ulaÅŸabilmeleri iÃ§in bÃ¼yÃ¼k Ã§abalar sarfedilir. 
 </DD>
-<DT><STRONG>Zengin&nbsp;yazılım&nbsp;depoları:</STRONG></DT>
-<DD>Testing içerisinde 30.000 civarında,
-unstable içerisinde 70.000 civarında derlenmiş ve kullanıma hazır
-durumda yazılım paketi bulunur. Debian dışındaki tüm dağıtımların
-paket sayılarının toplamından fazla bir rakam olduğu açık sanırım.
-Herhangi bir yazılımı, nispeten hızlı bir internet bağlantınız varsa
-sisteminize kurmanız için genellikle birkaç dakika yeterlidir. Derlemek,
-yapılandırmak gibi işlerle çoğunlukla uğraşmazsınız.
+<DT><STRONG>Zengin&nbsp;yazÄ±lÄ±m&nbsp;depolarÄ±:</STRONG></DT>
+<DD>Testing iÃ§erisinde 30.000 civarÄ±nda,
+unstable iÃ§erisinde 70.000 civarÄ±nda derlenmiÅŸ ve kullanÄ±ma hazÄ±r
+durumda yazÄ±lÄ±m paketi bulunur. Debian dÄ±ÅŸÄ±ndaki tÃ¼m daÄŸÄ±tÄ±mlarÄ±n
+paket sayÄ±larÄ±nÄ±n toplamÄ±ndan fazla bir rakam olduÄŸu aÃ§Ä±k sanÄ±rÄ±m.
+Herhangi bir yazÄ±lÄ±mÄ±, nispeten hÄ±zlÄ± bir internet baÄŸlantÄ±nÄ±z varsa
+sisteminize kurmanÄ±z iÃ§in genellikle birkaÃ§ dakika yeterlidir. Derlemek,
+yapÄ±landÄ±rmak gibi iÅŸlerle Ã§oÄŸunlukla uÄŸraÅŸmazsÄ±nÄ±z.
 </DD>
-<DT><STRONG>x86&nbsp;dışındaki&nbsp;platformlara&nbsp;destek:</STRONG></DT>
+<DT><STRONG>x86&nbsp;dÄ±ÅŸÄ±ndaki&nbsp;platformlara&nbsp;destek:</STRONG></DT>
 <DD>Debian GNU/Linux projesi
-x86 sistemlerin yanı sıra hemen sayabileceğim m68k, alpha, ppc, ppc64,
-AMD x86-64, sparc, sparc64 vb. gibi çok sayıda donanım mimarisine
-de (en azından stable sürüm içerisinde) destek sağlar ve bu sistemler
-üzerine de kolaylıkla kurulabilir.
+x86 sistemlerin yanÄ± sÄ±ra hemen sayabileceÄŸim m68k, alpha, ppc, ppc64,
+AMD x86-64, sparc, sparc64 vb. gibi Ã§ok sayÄ±da donanÄ±m mimarisine
+de (en azÄ±ndan stable sÃ¼rÃ¼m iÃ§erisinde) destek saÄŸlar ve bu sistemler
+Ã¼zerine de kolaylÄ±kla kurulabilir.
 </DD>
-<DT><STRONG>Dikkatle&nbsp;hazırlanmış,&nbsp;kaliteli&nbsp;paketler:</STRONG></DT>
-<DD>Tüm Debian paketleri,
-önceden belirlenmiş çok sayıda kural ve kriterden geçmişlerdir, dikkatle
-hazırlanmışlardır ve sistemin bütünlüğünü bozmazlar. apt-get install
-postgresql komutunu verdiğinizde, Debian sisteminiz PostgreSQL sunucu
-kurulumu için gerekli olan tüm diğer paketlerle birlikte PostgreSQL'i
-sisteminize kurar, yapılandırır ve sizin için kullanıma hazır hale
-getirerek PostgreSQL servisini başlatır. Çoğunlukla sadece izlersiniz.
-Eğer paketlerin çalışabilmesi için bir yapılandırma gerekiyorsa, basit
-diyaloglarla fikriniz alınır, bu şekilde isterseniz kuruluma müdahale
-edebilirsiniz ancak çoğunlukla öntanımlı ayarlar sorunsuz çalışır.
-Tüm Debian paketleri, az da olsa çeşitli belgelerle birlikte sisteme
-kurulur (man/info sayfaları, HOWTO/README belgeleri veya hiçbiri yoksa
-en azından ChangeLog dosyaları, o da yoksa paketi hazırlayan kişinin
-tecrübelerini yazdığı çeşitli dosyalar mutlaka /usr/share/doc/paketadi
-altında yer alır).
+<DT><STRONG>Dikkatle&nbsp;hazÄ±rlanmÄ±ÅŸ,&nbsp;kaliteli&nbsp;paketler:</STRONG></DT>
+<DD>TÃ¼m Debian paketleri,
+Ã¶nceden belirlenmiÅŸ Ã§ok sayÄ±da kural ve kriterden geÃ§miÅŸlerdir, dikkatle
+hazÄ±rlanmÄ±ÅŸlardÄ±r ve sistemin bÃ¼tÃ¼nlÃ¼ÄŸÃ¼nÃ¼ bozmazlar. apt-get install
+postgresql komutunu verdiÄŸinizde, Debian sisteminiz PostgreSQL sunucu
+kurulumu iÃ§in gerekli olan tÃ¼m diÄŸer paketlerle birlikte PostgreSQL'i
+sisteminize kurar, yapÄ±landÄ±rÄ±r ve sizin iÃ§in kullanÄ±ma hazÄ±r hale
+getirerek PostgreSQL servisini baÅŸlatÄ±r. Ã‡oÄŸunlukla sadece izlersiniz.
+EÄŸer paketlerin Ã§alÄ±ÅŸabilmesi iÃ§in bir yapÄ±landÄ±rma gerekiyorsa, basit
+diyaloglarla fikriniz alÄ±nÄ±r, bu ÅŸekilde isterseniz kuruluma mÃ¼dahale
+edebilirsiniz ancak Ã§oÄŸunlukla Ã¶ntanÄ±mlÄ± ayarlar sorunsuz Ã§alÄ±ÅŸÄ±r.
+TÃ¼m Debian paketleri, az da olsa Ã§eÅŸitli belgelerle birlikte sisteme
+kurulur (man/info sayfalarÄ±, HOWTO/README belgeleri veya hiÃ§biri yoksa
+en azÄ±ndan ChangeLog dosyalarÄ±, o da yoksa paketi hazÄ±rlayan kiÅŸinin
+tecrÃ¼belerini yazdÄ±ÄŸÄ± Ã§eÅŸitli dosyalar mutlaka /usr/share/doc/paketadi
+altÄ±nda yer alÄ±r).
 </DD>
-<DT><STRONG>Güvenilir&nbsp;güncelleme&nbsp;prosedürü:</STRONG></DT>
+<DT><STRONG>GÃ¼venilir&nbsp;gÃ¼ncelleme&nbsp;prosedÃ¼rÃ¼:</STRONG></DT>
 <DD>apt-get dist-upgrade -u gibi
-basit bir komutla, veya Synaptic gibi grafik arayüz yazılımlarıyla
-birkaç tıklama ile tüm sisteminizi kolaylıkla güncelleyebilirsiniz.
-Sisteminizi güncellediğinizde genellikle yeni sürüme güncellendikten
-sonra (en azından testing ve stable için) yazılımlar sorunsuz çalışacaktır.
-Eğer, örneğin PostgreSQL güncellemesinden sonra, bu sunucuya ait veritabanı
-dosyalarının da yeni sürüme güncellenmesi gerekiyorsa, genellikle
-bu işlem otomatik olarak yapılır veya nasıl yapılacağı açık biçimde
-belirtilir. Güncelleme sırasında asla veri kaybedilmez...
+basit bir komutla, veya Synaptic gibi grafik arayÃ¼z yazÄ±lÄ±mlarÄ±yla
+birkaÃ§ tÄ±klama ile tÃ¼m sisteminizi kolaylÄ±kla gÃ¼ncelleyebilirsiniz.
+Sisteminizi gÃ¼ncellediÄŸinizde genellikle yeni sÃ¼rÃ¼me gÃ¼ncellendikten
+sonra (en azÄ±ndan testing ve stable iÃ§in) yazÄ±lÄ±mlar sorunsuz Ã§alÄ±ÅŸacaktÄ±r.
+EÄŸer, Ã¶rneÄŸin PostgreSQL gÃ¼ncellemesinden sonra, bu sunucuya ait veritabanÄ±
+dosyalarÄ±nÄ±n da yeni sÃ¼rÃ¼me gÃ¼ncellenmesi gerekiyorsa, genellikle
+bu iÅŸlem otomatik olarak yapÄ±lÄ±r veya nasÄ±l yapÄ±lacaÄŸÄ± aÃ§Ä±k biÃ§imde
+belirtilir. GÃ¼ncelleme sÄ±rasÄ±nda asla veri kaybedilmez...
 <BR>
 <P>
 </DD>
 </DL><BLOCKQUOTE>
-Görsel arayüze sahip ve yeni başlayan kullanıcılara hitab edebilen
-bir kurulum sistemine sahip olmayışımız bir dezavantaj, fakat bu sorunun
-çözülebilmesi için bazı projeler üzerinde çalışılmakta. Sistem yapılandırma
-araçları konusunda yetersizlik mevcut.
+GÃ¶rsel arayÃ¼ze sahip ve yeni baÅŸlayan kullanÄ±cÄ±lara hitab edebilen
+bir kurulum sistemine sahip olmayÄ±ÅŸÄ±mÄ±z bir dezavantaj, fakat bu sorunun
+Ã§Ã¶zÃ¼lebilmesi iÃ§in bazÄ± projeler Ã¼zerinde Ã§alÄ±ÅŸÄ±lmakta. Sistem yapÄ±landÄ±rma
+araÃ§larÄ± konusunda yetersizlik mevcut.
 <BR></BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Debian içerisinde Debian projesi içerisinde geliştirilmiş olan yapılandırma
-araçları yoktur. Debian, sistemdeki çeşitli yazılımların kurulum sırasında
-otomatik olarak yapılandırılmasını sağlamaya çalışır, fakat, örneğin
-PostgreSQL veya Apache için görsel bir yapılandırma aracı barındırmaz.
-Eğer isterseniz, mesela Webmin'i apt-get install webmin komutu ile
-kolaylıkla kurabilirsiniz. Bu gibi çok sayıda genel amaçlı yapılandırma
-aracı Debian üzerinde sorunsuz çalışacaktır, fakat SuSE'deki YaST
-veya RedHat'in yapılandırma araçları gibi renkli yazılımlar Debian'da
-kullanılmaz.
+<BLOCKQUOTE>Debian iÃ§erisinde Debian projesi iÃ§erisinde geliÅŸtirilmiÅŸ olan yapÄ±landÄ±rma
+araÃ§larÄ± yoktur. Debian, sistemdeki Ã§eÅŸitli yazÄ±lÄ±mlarÄ±n kurulum sÄ±rasÄ±nda
+otomatik olarak yapÄ±landÄ±rÄ±lmasÄ±nÄ± saÄŸlamaya Ã§alÄ±ÅŸÄ±r, fakat, Ã¶rneÄŸin
+PostgreSQL veya Apache iÃ§in gÃ¶rsel bir yapÄ±landÄ±rma aracÄ± barÄ±ndÄ±rmaz.
+EÄŸer isterseniz, mesela Webmin'i apt-get install webmin komutu ile
+kolaylÄ±kla kurabilirsiniz. Bu gibi Ã§ok sayÄ±da genel amaÃ§lÄ± yapÄ±landÄ±rma
+aracÄ± Debian Ã¼zerinde sorunsuz Ã§alÄ±ÅŸacaktÄ±r, fakat SuSE'deki YaST
+veya RedHat'in yapÄ±landÄ±rma araÃ§larÄ± gibi renkli yazÄ±lÄ±mlar Debian'da
+kullanÄ±lmaz.
 <BR></BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Debian projesi bu yönüyle, sistemde neler olup bittiğini ve kurduğunuz
-yazılımları nasıl kullanacağınızı bildiğinizi (yahut öğreneceğinizi)
-varsayar. Kendi adıma bu konuda GNOME System Tools, Utopia projesi
-gibi çeşitli projelerin zaman içerisinde bu açığı kapatacağını düşünüyorum.
+<BLOCKQUOTE>Debian projesi bu yÃ¶nÃ¼yle, sistemde neler olup bittiÄŸini ve kurduÄŸunuz
+yazÄ±lÄ±mlarÄ± nasÄ±l kullanacaÄŸÄ±nÄ±zÄ± bildiÄŸinizi (yahut Ã¶ÄŸreneceÄŸinizi)
+varsayar. Kendi adÄ±ma bu konuda GNOME System Tools, Utopia projesi
+gibi Ã§eÅŸitli projelerin zaman iÃ§erisinde bu aÃ§Ä±ÄŸÄ± kapatacaÄŸÄ±nÄ± dÃ¼ÅŸÃ¼nÃ¼yorum.
 <BR></BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Debian kullanmaya başlayabilmek için gerçekten bir engeller dizisi
-olduğu doğrudur. Kurmayı beceremeyebilirsiniz, bazı donanımlarınızı
-çalıştıramayabilirsiniz, yapılandırmayı beceremeyebilirsiniz, renkli
-bir masaüstü ortamına geçmeyi beceremeyebilirsiniz, ekran çözünürlüğünüzü
-değiştirmeyi yada farenizin tekerleğini aktif hale getirmeyi de beceremeyebilirsiniz.
-Hepimiz bu yollardan geçtik. Öncelikle belirtmeliyim ki, gelecekte
-bu sorunları yaşadığınız ve gördüğünüz için şanslı olduğunuzu düşüneceksiniz;
-çünkü sizden sonraki &#34;yeni yetmeler&#34; bu sorunları
-hiç görmemiş ve nasıl çözüldüğünü bilmiyor olacaklar, sizden daha
-az tecrübe sahibi olacaklar.
+<BLOCKQUOTE>Debian kullanmaya baÅŸlayabilmek iÃ§in gerÃ§ekten bir engeller dizisi
+olduÄŸu doÄŸrudur. KurmayÄ± beceremeyebilirsiniz, bazÄ± donanÄ±mlarÄ±nÄ±zÄ±
+Ã§alÄ±ÅŸtÄ±ramayabilirsiniz, yapÄ±landÄ±rmayÄ± beceremeyebilirsiniz, renkli
+bir masaÃ¼stÃ¼ ortamÄ±na geÃ§meyi beceremeyebilirsiniz, ekran Ã§Ã¶zÃ¼nÃ¼rlÃ¼ÄŸÃ¼nÃ¼zÃ¼
+deÄŸiÅŸtirmeyi yada farenizin tekerleÄŸini aktif hale getirmeyi de beceremeyebilirsiniz.
+Hepimiz bu yollardan geÃ§tik. Ã–ncelikle belirtmeliyim ki, gelecekte
+bu sorunlarÄ± yaÅŸadÄ±ÄŸÄ±nÄ±z ve gÃ¶rdÃ¼ÄŸÃ¼nÃ¼z iÃ§in ÅŸanslÄ± olduÄŸunuzu dÃ¼ÅŸÃ¼neceksiniz;
+Ã§Ã¼nkÃ¼ sizden sonraki &#34;yeni yetmeler&#34; bu sorunlarÄ±
+hiÃ§ gÃ¶rmemiÅŸ ve nasÄ±l Ã§Ã¶zÃ¼ldÃ¼ÄŸÃ¼nÃ¼ bilmiyor olacaklar, sizden daha
+az tecrÃ¼be sahibi olacaklar.
 <BR></BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Eğer sistemleri kurcalamayı ve karıştırmayı seviyorsanız, örneğin
-RedHat veya SuSE gibi bir dağıtımı kendinize uydurmak için bir miktar
-zaman harcamışsanız ve Debian'a geçmeyi düşünüyorsanız, belki kısa
-bir süre Slackware veya Gentoo gibi dağıtımlarla oynamak isteyebilirsiniz.
-Size yeterli altyapı sağlayacaktır.
+<BLOCKQUOTE>EÄŸer sistemleri kurcalamayÄ± ve karÄ±ÅŸtÄ±rmayÄ± seviyorsanÄ±z, Ã¶rneÄŸin
+RedHat veya SuSE gibi bir daÄŸÄ±tÄ±mÄ± kendinize uydurmak iÃ§in bir miktar
+zaman harcamÄ±ÅŸsanÄ±z ve Debian'a geÃ§meyi dÃ¼ÅŸÃ¼nÃ¼yorsanÄ±z, belki kÄ±sa
+bir sÃ¼re Slackware veya Gentoo gibi daÄŸÄ±tÄ±mlarla oynamak isteyebilirsiniz.
+Size yeterli altyapÄ± saÄŸlayacaktÄ±r.
 <BR></BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Ama itiraf etmeliyim ki, bu iş gerçekten birazcık sabır ve çaba gerektirecek.
-Hazır hissetmiyorsanız, daha kolay birşeyler deneyin. Buraya tekrar
-gelmek için vaktiniz olacak.
+<BLOCKQUOTE>Ama itiraf etmeliyim ki, bu iÅŸ gerÃ§ekten birazcÄ±k sabÄ±r ve Ã§aba gerektirecek.
+HazÄ±r hissetmiyorsanÄ±z, daha kolay birÅŸeyler deneyin. Buraya tekrar
+gelmek iÃ§in vaktiniz olacak.
 
 </BLOCKQUOTE>
 
@@ -632,55 +632,55 @@ gelmek için vaktiniz olacak.
  >
 
 <P>
-Uzun bir süre bir çok kişiye Red Hat<A NAME="tex2html16"
-  HREF="#foot327"><SUP>8</SUP></A>, Linux'u, Linux da Red Hat'ı çağrıştırmıştır. Bunu en büyük sebebi
-Red Hat'ın dünya çapında en tanınmış Linux firmalarından birisi olmasıdır.
-Red Hat Inc., 1995'te Bob Young ve Marc Ewing tarafından kurulmuştur.
-Yakın zamana dek kâr amacı gütmeyen şirket, özellikle sağladığı teknik
-destek ve Red Hat Enterprise ürünleriyle bu tavrını değiştirmiştir.
-Red Hat Linux 9, Red Hat Linux ürün zincirinin son halkasıdır, 2003
-yılına gelindiğinde Fedora Core sürümü onun yerini almıştır. Red Hat
-tarafından resmi olarak desteklense de, Fedora<A NAME="tex2html18"
-  HREF="#foot328"><SUP>9</SUP></A> özgür yazılım geliştiricilerinin katılımıyla varlığını sürdürmektedir,
-ve aynı zamanada Red Hat Enterprise Linux ürünü için bir test ortamı
-görevi görmektedir.
+Uzun bir sÃ¼re bir Ã§ok kiÅŸiye Red Hat<A NAME="tex2html16"
+  HREF="#foot327"><SUP>8</SUP></A>, Linux'u, Linux da Red Hat'Ä± Ã§aÄŸrÄ±ÅŸtÄ±rmÄ±ÅŸtÄ±r. Bunu en bÃ¼yÃ¼k sebebi
+Red Hat'Ä±n dÃ¼nya Ã§apÄ±nda en tanÄ±nmÄ±ÅŸ Linux firmalarÄ±ndan birisi olmasÄ±dÄ±r.
+Red Hat Inc., 1995'te Bob Young ve Marc Ewing tarafÄ±ndan kurulmuÅŸtur.
+YakÄ±n zamana dek kÃ¢r amacÄ± gÃ¼tmeyen ÅŸirket, Ã¶zellikle saÄŸladÄ±ÄŸÄ± teknik
+destek ve Red Hat Enterprise Ã¼rÃ¼nleriyle bu tavrÄ±nÄ± deÄŸiÅŸtirmiÅŸtir.
+Red Hat Linux 9, Red Hat Linux Ã¼rÃ¼n zincirinin son halkasÄ±dÄ±r, 2003
+yÄ±lÄ±na gelindiÄŸinde Fedora Core sÃ¼rÃ¼mÃ¼ onun yerini almÄ±ÅŸtÄ±r. Red Hat
+tarafÄ±ndan resmi olarak desteklense de, Fedora<A NAME="tex2html18"
+  HREF="#foot328"><SUP>9</SUP></A> Ã¶zgÃ¼r yazÄ±lÄ±m geliÅŸtiricilerinin katÄ±lÄ±mÄ±yla varlÄ±ÄŸÄ±nÄ± sÃ¼rdÃ¼rmektedir,
+ve aynÄ± zamanada Red Hat Enterprise Linux Ã¼rÃ¼nÃ¼ iÃ§in bir test ortamÄ±
+gÃ¶revi gÃ¶rmektedir.
 
 <P>
-Red Hat Linux ve dolayısıyla Fedora Core'u özel yapan şey kararlı
-ve bilinen paketlerin, sağlam bilgi ile biraraya getirilmesidir. Paketler
-güncel değildir; güvenlik güncellemeleri dışında, yeni bir beta versiyon
-çıktığında paket versiyonları dondurulmaktadır. Sonuç, iyi test edilmiş,
-nispeten kararlı bir Linux dağıtımıdır. Bug rapor etme ve beta programlar
-kullanıcılara açıktır ve çok sayıda e-posta listesi bulunmaktadır.
-Bu özellikleriyle Red Hat Linux, dünya çapındaki sunucuların bir çoğunda
-tercih edilmektedir. Ayrıca RPM paket yöneticisi, Red Hat'ın Linux'a
-katkılarından birisidir ve Fedora da dağıtımların en çok tercih ettikleri
-paket yöneticisi olan RPM üzerine inşa edilmiştir.
+Red Hat Linux ve dolayÄ±sÄ±yla Fedora Core'u Ã¶zel yapan ÅŸey kararlÄ±
+ve bilinen paketlerin, saÄŸlam bilgi ile biraraya getirilmesidir. Paketler
+gÃ¼ncel deÄŸildir; gÃ¼venlik gÃ¼ncellemeleri dÄ±ÅŸÄ±nda, yeni bir beta versiyon
+Ã§Ä±ktÄ±ÄŸÄ±nda paket versiyonlarÄ± dondurulmaktadÄ±r. SonuÃ§, iyi test edilmiÅŸ,
+nispeten kararlÄ± bir Linux daÄŸÄ±tÄ±mÄ±dÄ±r. Bug rapor etme ve beta programlar
+kullanÄ±cÄ±lara aÃ§Ä±ktÄ±r ve Ã§ok sayÄ±da e-posta listesi bulunmaktadÄ±r.
+Bu Ã¶zellikleriyle Red Hat Linux, dÃ¼nya Ã§apÄ±ndaki sunucularÄ±n bir Ã§oÄŸunda
+tercih edilmektedir. AyrÄ±ca RPM paket yÃ¶neticisi, Red Hat'Ä±n Linux'a
+katkÄ±larÄ±ndan birisidir ve Fedora da daÄŸÄ±tÄ±mlarÄ±n en Ã§ok tercih ettikleri
+paket yÃ¶neticisi olan RPM Ã¼zerine inÅŸa edilmiÅŸtir.
 
 <P>
-Fedora, Red Hat'ın enterprise olmasının ardından fork eden devamı
-niteliğindeki bir dağıtım olarak özgür yazılım camiası tarafından
-desteklenmekte ve gelişimine devam etmektedir. Red Hat'ın eski sürümlerine
-nazaran daha unstable ve yeniliğe açık bir profil sergilemekte ve
-son kullanıcılara Red Hat'ın eski haline nazaran daha fazla hitap
-etme gayreti içerisindedir.
+Fedora, Red Hat'Ä±n enterprise olmasÄ±nÄ±n ardÄ±ndan fork eden devamÄ±
+niteliÄŸindeki bir daÄŸÄ±tÄ±m olarak Ã¶zgÃ¼r yazÄ±lÄ±m camiasÄ± tarafÄ±ndan
+desteklenmekte ve geliÅŸimine devam etmektedir. Red Hat'Ä±n eski sÃ¼rÃ¼mlerine
+nazaran daha unstable ve yeniliÄŸe aÃ§Ä±k bir profil sergilemekte ve
+son kullanÄ±cÄ±lara Red Hat'Ä±n eski haline nazaran daha fazla hitap
+etme gayreti iÃ§erisindedir.
 
 <P>
 <DL>
 <DT><STRONG>(+)</STRONG></DT>
-<DD>Geniş kullanım alanı, iyi topluluk desteği, yenilikler, yetersiz
-olmayan yapılandırma araçları, yılların deneyimini miras almış olan
-kararlı altyapı. 
+<DD>GeniÅŸ kullanÄ±m alanÄ±, iyi topluluk desteÄŸi, yenilikler, yetersiz
+olmayan yapÄ±landÄ±rma araÃ§larÄ±, yÄ±llarÄ±n deneyimini miras almÄ±ÅŸ olan
+kararlÄ± altyapÄ±. 
 </DD>
 <DT><STRONG>(-)</STRONG></DT>
-<DD>Nispeten kararsız, hatalarla karşılaşma olasılığı nispeten
-yüksek, CD tabanlı dağıtım. 
+<DD>Nispeten kararsÄ±z, hatalarla karÅŸÄ±laÅŸma olasÄ±lÄ±ÄŸÄ± nispeten
+yÃ¼ksek, CD tabanlÄ± daÄŸÄ±tÄ±m. 
 </DD>
 <DT><STRONG>(PYS)</STRONG></DT>
 <DD>RPM 
 </DD>
 <DT><STRONG>(Internet)</STRONG></DT>
-<DD>Bir çok ülkedeki yansıları ile yüksek erişilebilirlikte. 
+<DD>Bir Ã§ok Ã¼lkedeki yansÄ±larÄ± ile yÃ¼ksek eriÅŸilebilirlikte. 
 </DD>
 </DL>
 
@@ -701,212 +701,212 @@ yüksek, CD tabanlı dağıtım.
 
 <P>
 Gentoo Linux<A NAME="tex2html20"
-  HREF="#foot329"><SUP>10</SUP></A>, eski bir Stampede Linux ve FreeBSD geliştiricisi olan Daniel Robbins
-tarafından yaratılmıştır. FreeBSD'de bulunan otomatik kurulum sistemi
-&#34;ports&#34;dan esinlenilerek, Gentoo altında &#34;portage&#34;
-oluşturulmuştur. Bu konuda detaylı bilgi Daniel Robbins'in <A NAME="tex2html22"
-  HREF="#foot330"><SUP>11</SUP></A> adresindeki &#34;Making the Distribution&#34; isimli yazısında
-bulunabilir. Gentoo'nun ilk kararlı sürümü 2002 Mart'ında çıkarılmıştır. 
+  HREF="#foot329"><SUP>10</SUP></A>, eski bir Stampede Linux ve FreeBSD geliÅŸtiricisi olan Daniel Robbins
+tarafÄ±ndan yaratÄ±lmÄ±ÅŸtÄ±r. FreeBSD'de bulunan otomatik kurulum sistemi
+&#34;ports&#34;dan esinlenilerek, Gentoo altÄ±nda &#34;portage&#34;
+oluÅŸturulmuÅŸtur. Bu konuda detaylÄ± bilgi Daniel Robbins'in <A NAME="tex2html22"
+  HREF="#foot330"><SUP>11</SUP></A> adresindeki &#34;Making the Distribution&#34; isimli yazÄ±sÄ±nda
+bulunabilir. Gentoo'nun ilk kararlÄ± sÃ¼rÃ¼mÃ¼ 2002 Mart'Ä±nda Ã§Ä±karÄ±lmÄ±ÅŸtÄ±r. 
 
 <P>
-Gentoo Linux, kaynak kod temelli bir dağıtımdır. Kurulum ortamları,
-önceden derlenmiş paketler sunsa da, Gentoo'nun dayanağı, kullanıcının
-kaynak kodundan derleme ve kurulum yapmasıdır. Bunun en önemli avantajı,
-kullanılan yazılımların, kullanıcının bilgisayarının mimarisine göre
-optimize ediliyor olmasıdır. Ayrıca, kullanılan yazılımların üst versiyonlarına
-güncellenmesi tek bir komutla sağlanacak kadar kolaydır. Çoğu Gentoo
-kullanıcısı için, yazılımların tamamen güncel olması, hatta bazen
-saatler içinde güncellenmesi büyük bir kolaylıktır. Diğer taraftan,
-Gentoo'nun kurulması ve tamamen işlevsel, en yeni grafik arabirimlerine
-sahip bir dağıtım haline getirilmesi, programlar kaynak koddan derlendiğinden
-uzun bir süreçtir; hızlı bir işlemciye sahip bir bilgisayar için bile
-birkaç gün sürebilmektedir.
+Gentoo Linux, kaynak kod temelli bir daÄŸÄ±tÄ±mdÄ±r. Kurulum ortamlarÄ±,
+Ã¶nceden derlenmiÅŸ paketler sunsa da, Gentoo'nun dayanaÄŸÄ±, kullanÄ±cÄ±nÄ±n
+kaynak kodundan derleme ve kurulum yapmasÄ±dÄ±r. Bunun en Ã¶nemli avantajÄ±,
+kullanÄ±lan yazÄ±lÄ±mlarÄ±n, kullanÄ±cÄ±nÄ±n bilgisayarÄ±nÄ±n mimarisine gÃ¶re
+optimize ediliyor olmasÄ±dÄ±r. AyrÄ±ca, kullanÄ±lan yazÄ±lÄ±mlarÄ±n Ã¼st versiyonlarÄ±na
+gÃ¼ncellenmesi tek bir komutla saÄŸlanacak kadar kolaydÄ±r. Ã‡oÄŸu Gentoo
+kullanÄ±cÄ±sÄ± iÃ§in, yazÄ±lÄ±mlarÄ±n tamamen gÃ¼ncel olmasÄ±, hatta bazen
+saatler iÃ§inde gÃ¼ncellenmesi bÃ¼yÃ¼k bir kolaylÄ±ktÄ±r. DiÄŸer taraftan,
+Gentoo'nun kurulmasÄ± ve tamamen iÅŸlevsel, en yeni grafik arabirimlerine
+sahip bir daÄŸÄ±tÄ±m haline getirilmesi, programlar kaynak koddan derlendiÄŸinden
+uzun bir sÃ¼reÃ§tir; hÄ±zlÄ± bir iÅŸlemciye sahip bir bilgisayar iÃ§in bile
+birkaÃ§ gÃ¼n sÃ¼rebilmektedir.
 
 <P>
 <DL>
 <DT><STRONG>(+)</STRONG></DT>
-<DD>Yazılım paketlerinin sorunsuz kurulumu, çok güncel olması,
-çok iyi dokumantasyon, kullanıcının ihtiyaçlarına göre şekillendirilebilirlik,
-çok iyi komunite desteği.
+<DD>YazÄ±lÄ±m paketlerinin sorunsuz kurulumu, Ã§ok gÃ¼ncel olmasÄ±,
+Ã§ok iyi dokumantasyon, kullanÄ±cÄ±nÄ±n ihtiyaÃ§larÄ±na gÃ¶re ÅŸekillendirilebilirlik,
+Ã§ok iyi komunite desteÄŸi.
 </DD>
 <DT><STRONG>(-)</STRONG></DT>
-<DD>Uzun süren sistem kurulumu ve güncellemeler, konfigürasyon
-aracı yetersizliği, kurulumun zor olması, daha çok linux'u iyi bilen
-ya da araştırmaktan yorulmayacak kullanıcılara hitap ediyor olması,
-hızlı Internet erişimi gerektirmesi.
+<DD>Uzun sÃ¼ren sistem kurulumu ve gÃ¼ncellemeler, konfigÃ¼rasyon
+aracÄ± yetersizliÄŸi, kurulumun zor olmasÄ±, daha Ã§ok linux'u iyi bilen
+ya da araÅŸtÄ±rmaktan yorulmayacak kullanÄ±cÄ±lara hitap ediyor olmasÄ±,
+hÄ±zlÄ± Internet eriÅŸimi gerektirmesi.
 </DD>
 <DT><STRONG>(PYS)</STRONG></DT>
-<DD>ebuild'ler ile portage yazılımları aracılığı ile kaynak
+<DD>ebuild'ler ile portage yazÄ±lÄ±mlarÄ± aracÄ±lÄ±ÄŸÄ± ile kaynak
 koddan derleme.
 </DD>
 <DT><STRONG>(Internet)</STRONG></DT>
-<DD>Bir çok ülkedeki yansıları ile yüksek erişilebilirlikte.
+<DD>Bir Ã§ok Ã¼lkedeki yansÄ±larÄ± ile yÃ¼ksek eriÅŸilebilirlikte.
 </DD>
 </DL>
 
 <P>
 
 <h3><a class="dagitim" NAME="SECTION00034100000000000000">
-2.4.1 S. Çağlar Onur'un Gentoo Hakkındaki Yorumu</A>
+2.4.1 S. Ã‡aÄŸlar Onur'un Gentoo HakkÄ±ndaki Yorumu</A>
 </H3>
 
 <P>
 <BLOCKQUOTE>
-Gentoo Linux bir LFS projesidir, başka bir dağıtım tabanlı yapay bir
-dağıtım değildir. İçinde barındırdığı yenilikler, getirdiği yeni kavramlar
-ile tam bir Özgür Yazılım projesidir.Kar amacı gütmeyen bir organizasyon
-olarak hayatına devam etmektedir. Yönetim yapısı ile bir dernek gibi
-yönetilen, hiyerarşik bir düzen ile tabana dağılan ve her geliştirici/kulanıcının
-fikirlerinin dinlendiği/uygulandığı bir yapıya sahiptir. Gentoo tamamen
-internet'ten kurulan / güncellenen bir yapıya sahiptir. Bu sebep ile
-belli zamanlarda diğer dağıtımların yaptığı gibi CD'ler ile güncellemek
+Gentoo Linux bir LFS projesidir, baÅŸka bir daÄŸÄ±tÄ±m tabanlÄ± yapay bir
+daÄŸÄ±tÄ±m deÄŸildir. Ä°Ã§inde barÄ±ndÄ±rdÄ±ÄŸÄ± yenilikler, getirdiÄŸi yeni kavramlar
+ile tam bir Ã–zgÃ¼r YazÄ±lÄ±m projesidir.Kar amacÄ± gÃ¼tmeyen bir organizasyon
+olarak hayatÄ±na devam etmektedir. YÃ¶netim yapÄ±sÄ± ile bir dernek gibi
+yÃ¶netilen, hiyerarÅŸik bir dÃ¼zen ile tabana daÄŸÄ±lan ve her geliÅŸtirici/kulanÄ±cÄ±nÄ±n
+fikirlerinin dinlendiÄŸi/uygulandÄ±ÄŸÄ± bir yapÄ±ya sahiptir. Gentoo tamamen
+internet'ten kurulan / gÃ¼ncellenen bir yapÄ±ya sahiptir. Bu sebep ile
+belli zamanlarda diÄŸer daÄŸÄ±tÄ±mlarÄ±n yaptÄ±ÄŸÄ± gibi CD'ler ile gÃ¼ncellemek
 / sistemi yeniden kurmak gibi problemleri yoktur.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Gentoo'nun asıl amacı özelleştirilmiş (işlemci için, kullanım amacı
-için, kullanıcı için), optimize edilmiş bir dağıtım olmaktır. Herşeyi
-&#34;Portage Tree&#34; denilen paket kurulum dosyaları deposunu
-kullanarak derler, ayarlar, sisteme kurar, kaldırır, kullanılan sisteme
-özel optimize edilmiş hale getirir. Herşeyi derlemek istemeyen kullanıcılar
-için 6 ayda bir çıkan düzenli binary paketler ile sistemi kurmak/güncellemek,
-gentoo için üretilmiş binary dosyaları kullanmak, kurulu sistemden
-binary paketleri almak bunları eşlenek mimarideki başka bir sisteme
-kurmak kendilerinin diğer yetenekleri arasında sayılabilir.
+<BLOCKQUOTE>Gentoo'nun asÄ±l amacÄ± Ã¶zelleÅŸtirilmiÅŸ (iÅŸlemci iÃ§in, kullanÄ±m amacÄ±
+iÃ§in, kullanÄ±cÄ± iÃ§in), optimize edilmiÅŸ bir daÄŸÄ±tÄ±m olmaktÄ±r. HerÅŸeyi
+&#34;Portage Tree&#34; denilen paket kurulum dosyalarÄ± deposunu
+kullanarak derler, ayarlar, sisteme kurar, kaldÄ±rÄ±r, kullanÄ±lan sisteme
+Ã¶zel optimize edilmiÅŸ hale getirir. HerÅŸeyi derlemek istemeyen kullanÄ±cÄ±lar
+iÃ§in 6 ayda bir Ã§Ä±kan dÃ¼zenli binary paketler ile sistemi kurmak/gÃ¼ncellemek,
+gentoo iÃ§in Ã¼retilmiÅŸ binary dosyalarÄ± kullanmak, kurulu sistemden
+binary paketleri almak bunlarÄ± eÅŸlenek mimarideki baÅŸka bir sisteme
+kurmak kendilerinin diÄŸer yetenekleri arasÄ±nda sayÄ±labilir.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Gentoo Linux rahatlıkla özelleştirilebilmesi sebebi ile sunucu / masaüstü
-her sistemde rahatlıkla kullanılabilir.
+<BLOCKQUOTE>Gentoo Linux rahatlÄ±kla Ã¶zelleÅŸtirilebilmesi sebebi ile sunucu / masaÃ¼stÃ¼
+her sistemde rahatlÄ±kla kullanÄ±labilir.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Gentoo Linux çok farklı mimari [ alpha, amd64, arm, hppa, ia64,
-macos, mips, ppc, ppc64, s390, sparc, x86, x86-obsd, x86-fbsd ] desteği
-içerir. Bunların dışında MacOS, FreeBSD ve OpenBSD gibi platformlara
-da &#34;Portage&#34; adı verilen paket yöenticisi ve paket
-veritabanı desteği de verir. Gentoo Linux 38 farklı çekirdek arasından
-seçimi gene kullanıcıya bırakır, kullanıcı istediği özelliklere sahip
-çekirdeği seçer ve kurar [ kendi veya genkernel aracı ile ]. Sistem
-altyapısını oluşturan paketler [ glibc, binutils, coreutils v.s
-v.s ] özenle seçilir ve diğer paketler bu altyapıyı kullanarak üzerine
-kurulur. Çekirdek tarafından desteği verilmeyen donanımlar için hazır
-paketlere sahiptir. Nvidia, ATI yada benzeri ekran kartı sahiplerinin
-sürücüleri, Intel Centrino'lar için kablosuz ağ sürücüleri gibi paketleri
-kurmak Gentoo ile çocuk oyuncağıdır. Çünkü Gentoo bunları kurduktan
-sonra sistemide bunlar için ayarlar.
+<BLOCKQUOTE>Gentoo Linux Ã§ok farklÄ± mimari [ alpha, amd64, arm, hppa, ia64,
+macos, mips, ppc, ppc64, s390, sparc, x86, x86-obsd, x86-fbsd ] desteÄŸi
+iÃ§erir. BunlarÄ±n dÄ±ÅŸÄ±nda MacOS, FreeBSD ve OpenBSD gibi platformlara
+da &#34;Portage&#34; adÄ± verilen paket yÃ¶enticisi ve paket
+veritabanÄ± desteÄŸi de verir. Gentoo Linux 38 farklÄ± Ã§ekirdek arasÄ±ndan
+seÃ§imi gene kullanÄ±cÄ±ya bÄ±rakÄ±r, kullanÄ±cÄ± istediÄŸi Ã¶zelliklere sahip
+Ã§ekirdeÄŸi seÃ§er ve kurar [ kendi veya genkernel aracÄ± ile ]. Sistem
+altyapÄ±sÄ±nÄ± oluÅŸturan paketler [ glibc, binutils, coreutils v.s
+v.s ] Ã¶zenle seÃ§ilir ve diÄŸer paketler bu altyapÄ±yÄ± kullanarak Ã¼zerine
+kurulur. Ã‡ekirdek tarafÄ±ndan desteÄŸi verilmeyen donanÄ±mlar iÃ§in hazÄ±r
+paketlere sahiptir. Nvidia, ATI yada benzeri ekran kartÄ± sahiplerinin
+sÃ¼rÃ¼cÃ¼leri, Intel Centrino'lar iÃ§in kablosuz aÄŸ sÃ¼rÃ¼cÃ¼leri gibi paketleri
+kurmak Gentoo ile Ã§ocuk oyuncaÄŸÄ±dÄ±r. Ã‡Ã¼nkÃ¼ Gentoo bunlarÄ± kurduktan
+sonra sistemide bunlar iÃ§in ayarlar.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Geniş paket veritabanındaki paketler önce unstable halde tutularak
-sistem bütünlüğünü etkileyecek bir problem olup olmadığı test edilir.
+<BLOCKQUOTE>GeniÅŸ paket veritabanÄ±ndaki paketler Ã¶nce unstable halde tutularak
+sistem bÃ¼tÃ¼nlÃ¼ÄŸÃ¼nÃ¼ etkileyecek bir problem olup olmadÄ±ÄŸÄ± test edilir.
 Belirli bir zaman periyodunda kritik bir hata bildirimi olmazsa ve
-paket sorunsuzca çalışıyorsa paket geliştiricisi tarafından kararlı
-halde kuruluma hazır olarak işaretlenir.
+paket sorunsuzca Ã§alÄ±ÅŸÄ±yorsa paket geliÅŸtiricisi tarafÄ±ndan kararlÄ±
+halde kuruluma hazÄ±r olarak iÅŸaretlenir.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Paket kurulması/kaldırılması/güncellenmesi için &#34;emerge&#34;
-adı verilen araç kullanılır. Emerge paket bağımlılıklarını çözer,
-sisteme paketlerin hangi sıra ile kurulacağını bilir, paket veritabanında
-arama yapabilir. Yani siz yeni kurulmuş bir sistemde &#34;emerge
-kde&#34; derseniz, Gentoo bağımlılık sırasına göre X'i kurmak
-için gerekli kütüphaneleri/yazılımları kurar, bunların üzerine X'i
-kurar sonrada kde'yi kurar. Her paket &#34;USE&#34; bayrakları
-denilen parametreler ile özelleştirilebilir. Örneğin bluetooth desteği
-olmayan bir bilgisayarda her pakete bluetooth desteği vermek gereksizdir
-çünkü o özellikler asla kullanılmayacaktır yada destekleyen her pakete
-SSL desteği vermek böylece SSL kütüphanelerinin metodlarının kullanılması
-istenebilir. Böyle durumlarda &#34;USE&#34; bayrakları ile
-sisteme kurulacak paketlerin hangi destekleri içereceği dinamik olarak
-belirlenebilir/değiştirilebilir.
+<BLOCKQUOTE>Paket kurulmasÄ±/kaldÄ±rÄ±lmasÄ±/gÃ¼ncellenmesi iÃ§in &#34;emerge&#34;
+adÄ± verilen araÃ§ kullanÄ±lÄ±r. Emerge paket baÄŸÄ±mlÄ±lÄ±klarÄ±nÄ± Ã§Ã¶zer,
+sisteme paketlerin hangi sÄ±ra ile kurulacaÄŸÄ±nÄ± bilir, paket veritabanÄ±nda
+arama yapabilir. Yani siz yeni kurulmuÅŸ bir sistemde &#34;emerge
+kde&#34; derseniz, Gentoo baÄŸÄ±mlÄ±lÄ±k sÄ±rasÄ±na gÃ¶re X'i kurmak
+iÃ§in gerekli kÃ¼tÃ¼phaneleri/yazÄ±lÄ±mlarÄ± kurar, bunlarÄ±n Ã¼zerine X'i
+kurar sonrada kde'yi kurar. Her paket &#34;USE&#34; bayraklarÄ±
+denilen parametreler ile Ã¶zelleÅŸtirilebilir. Ã–rneÄŸin bluetooth desteÄŸi
+olmayan bir bilgisayarda her pakete bluetooth desteÄŸi vermek gereksizdir
+Ã§Ã¼nkÃ¼ o Ã¶zellikler asla kullanÄ±lmayacaktÄ±r yada destekleyen her pakete
+SSL desteÄŸi vermek bÃ¶ylece SSL kÃ¼tÃ¼phanelerinin metodlarÄ±nÄ±n kullanÄ±lmasÄ±
+istenebilir. BÃ¶yle durumlarda &#34;USE&#34; bayraklarÄ± ile
+sisteme kurulacak paketlerin hangi destekleri iÃ§ereceÄŸi dinamik olarak
+belirlenebilir/deÄŸiÅŸtirilebilir.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Sisteme paketler &#34;emerge paketadı&#34; ile kurulup &#34;emerge
-unmerge paketadı&#34; ile kaldırılabilir. Kurulum sırasında bağımlılıklar
-otomatik olarak çözülür ve gerekli diğer paketler sisteme kurulur.
+<BLOCKQUOTE>Sisteme paketler &#34;emerge paketadÄ±&#34; ile kurulup &#34;emerge
+unmerge paketadÄ±&#34; ile kaldÄ±rÄ±labilir. Kurulum sÄ±rasÄ±nda baÄŸÄ±mlÄ±lÄ±klar
+otomatik olarak Ã§Ã¶zÃ¼lÃ¼r ve gerekli diÄŸer paketler sisteme kurulur.
 &#34;emerge sync&#34; ile &#34;Portage Tree&#34;
-adı verilen paketveritabanı rsync kullanılarak Gentoo sunucuları ile
+adÄ± verilen paketveritabanÄ± rsync kullanÄ±larak Gentoo sunucularÄ± ile
 senkronlanabilir. &#34;emerge -Du system&#34; ile sistemdeki
-kütüphaneler gibi sistem altyapısını içeren paketler güncellenebilir.
-&#34;emerge -Du world&#34; ile sistemdeki kurulu tüm paketler
-güncellenebilir. Aynı Debian'daki gibi güncelleme sonrasında yapılması
-gereken işlemler var ise Gentoo bunları ya otomatik yapar ya da kullanıcıyı
-gerekli işlemleri yapması için uyarır. Güncelleme sonrası ayar dosyalarındaki
-değişiklikleri etc-update yada dispatch-conf adı verilen araçlar ile
-kullanıcıya gösterir, değişiklikleri yaptırır. &#34;emerge&#34;
-aracını konsoldan kullanmak istemeyenler için çok farklı, çeşit çeşit
-arayüzler mevcuttur.
+kÃ¼tÃ¼phaneler gibi sistem altyapÄ±sÄ±nÄ± iÃ§eren paketler gÃ¼ncellenebilir.
+&#34;emerge -Du world&#34; ile sistemdeki kurulu tÃ¼m paketler
+gÃ¼ncellenebilir. AynÄ± Debian'daki gibi gÃ¼ncelleme sonrasÄ±nda yapÄ±lmasÄ±
+gereken iÅŸlemler var ise Gentoo bunlarÄ± ya otomatik yapar ya da kullanÄ±cÄ±yÄ±
+gerekli iÅŸlemleri yapmasÄ± iÃ§in uyarÄ±r. GÃ¼ncelleme sonrasÄ± ayar dosyalarÄ±ndaki
+deÄŸiÅŸiklikleri etc-update yada dispatch-conf adÄ± verilen araÃ§lar ile
+kullanÄ±cÄ±ya gÃ¶sterir, deÄŸiÅŸiklikleri yaptÄ±rÄ±r. &#34;emerge&#34;
+aracÄ±nÄ± konsoldan kullanmak istemeyenler iÃ§in Ã§ok farklÄ±, Ã§eÅŸit Ã§eÅŸit
+arayÃ¼zler mevcuttur.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Sadece güvenlik güncellemelerinin yapılması diğer versiyon güncellemesi/yeni
-özellik güncellemelerinin yapılmaması için &#34;glsa_check&#34;
-komut kullanılabilir. &#34;glsa_check&#34; sistemi bilinen
-güvenlik problemleri için test eder ve sistemi etkileyen paketleri
-günceller.
+<BLOCKQUOTE>Sadece gÃ¼venlik gÃ¼ncellemelerinin yapÄ±lmasÄ± diÄŸer versiyon gÃ¼ncellemesi/yeni
+Ã¶zellik gÃ¼ncellemelerinin yapÄ±lmamasÄ± iÃ§in &#34;glsa_check&#34;
+komut kullanÄ±labilir. &#34;glsa_check&#34; sistemi bilinen
+gÃ¼venlik problemleri iÃ§in test eder ve sistemi etkileyen paketleri
+gÃ¼nceller.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Gentoo kurulum sırasında henüz bir kurulum arayüzüne sahip değildir.
-Fakat Gentoo sahip olduğu mevcut projeler arasında, kurulum sihirbazıda
-yer almaktadır. Bunun dışında &#34;catalyst&#34; denilen
-aracı ile kullanıcıların kendi dağıtımlarını kendilerinin oluşturmasına
-olanak verir. Aynı araç ile dağıtım dışında Gentoo tabanlı LiveCD
-üretmek içinde kullanılabilir.
+<BLOCKQUOTE>Gentoo kurulum sÄ±rasÄ±nda henÃ¼z bir kurulum arayÃ¼zÃ¼ne sahip deÄŸildir.
+Fakat Gentoo sahip olduÄŸu mevcut projeler arasÄ±nda, kurulum sihirbazÄ±da
+yer almaktadÄ±r. Bunun dÄ±ÅŸÄ±nda &#34;catalyst&#34; denilen
+aracÄ± ile kullanÄ±cÄ±larÄ±n kendi daÄŸÄ±tÄ±mlarÄ±nÄ± kendilerinin oluÅŸturmasÄ±na
+olanak verir. AynÄ± araÃ§ ile daÄŸÄ±tÄ±m dÄ±ÅŸÄ±nda Gentoo tabanlÄ± LiveCD
+Ã¼retmek iÃ§inde kullanÄ±labilir.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Gentoo yeni başlayan kullanıcılar için kurulum sırasında pek dost
-değildir. Ayrıca genel olarak Gentoo'daki paket derleme süreçleri
-temel kullanıcılar için iyi bir yöntem olmayabilir. Fakat Gentoo optimizasyonları,
-özelleştirilebilmesi, içinde barındırdığı araçlar ile ne yaptığını
-bilen, tecrübeli kullanıcıya çok şey katacak bir dağıtımdır. Gentıı
-yeni/eski kullanıcıları için sahip olduğu geniş dökümantasyonu, e-posta
-listeleri, forumlarında aranılanı bulamamak/yardım alamamak diye bir
-kavrama sahip değildir.
+<BLOCKQUOTE>Gentoo yeni baÅŸlayan kullanÄ±cÄ±lar iÃ§in kurulum sÄ±rasÄ±nda pek dost
+deÄŸildir. AyrÄ±ca genel olarak Gentoo'daki paket derleme sÃ¼reÃ§leri
+temel kullanÄ±cÄ±lar iÃ§in iyi bir yÃ¶ntem olmayabilir. Fakat Gentoo optimizasyonlarÄ±,
+Ã¶zelleÅŸtirilebilmesi, iÃ§inde barÄ±ndÄ±rdÄ±ÄŸÄ± araÃ§lar ile ne yaptÄ±ÄŸÄ±nÄ±
+bilen, tecrÃ¼beli kullanÄ±cÄ±ya Ã§ok ÅŸey katacak bir daÄŸÄ±tÄ±mdÄ±r. GentÄ±Ä±
+yeni/eski kullanÄ±cÄ±larÄ± iÃ§in sahip olduÄŸu geniÅŸ dÃ¶kÃ¼mantasyonu, e-posta
+listeleri, forumlarÄ±nda aranÄ±lanÄ± bulamamak/yardÄ±m alamamak diye bir
+kavrama sahip deÄŸildir.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Sonuç olarak yeni başlayan tecrübesiz kullanıcıların CD'yi al, tak,
-tıkla, kur dağıtımı Gentoo değildir. Gentoo yeni başlayan kullanıcıların
-&#34;kolay kullanılan&#34; dağıtımıdır, &#34;kolay
-kurulan&#34; değil. Sahip olduğu paket ve sistem yönetim araçları,
-dökümanları ve gönüllü kitlesi ile Gentoo geleceğin yeni nesil dağıtımı
-olmuştur. Yeni kullanıcı için mevcut tek zorluk Gentoo kurmaktır,
-Gentoo bir kere kurulduktan sonra güncellemesi, paket kurması yeni
-başlayan ve tecrübesiz bir kullanıcı için sorun olmayacak hatta son
-kullanıcıya zevkli gelecektir. Tecrübesiz kullanıcı Gentoo kullandıkça
-başka hiçbir dağıtımı kullanarak elde edemeyeceği bilgi ve tecrübeye
-kavuşacaktır.
+<BLOCKQUOTE>SonuÃ§ olarak yeni baÅŸlayan tecrÃ¼besiz kullanÄ±cÄ±larÄ±n CD'yi al, tak,
+tÄ±kla, kur daÄŸÄ±tÄ±mÄ± Gentoo deÄŸildir. Gentoo yeni baÅŸlayan kullanÄ±cÄ±larÄ±n
+&#34;kolay kullanÄ±lan&#34; daÄŸÄ±tÄ±mÄ±dÄ±r, &#34;kolay
+kurulan&#34; deÄŸil. Sahip olduÄŸu paket ve sistem yÃ¶netim araÃ§larÄ±,
+dÃ¶kÃ¼manlarÄ± ve gÃ¶nÃ¼llÃ¼ kitlesi ile Gentoo geleceÄŸin yeni nesil daÄŸÄ±tÄ±mÄ±
+olmuÅŸtur. Yeni kullanÄ±cÄ± iÃ§in mevcut tek zorluk Gentoo kurmaktÄ±r,
+Gentoo bir kere kurulduktan sonra gÃ¼ncellemesi, paket kurmasÄ± yeni
+baÅŸlayan ve tecrÃ¼besiz bir kullanÄ±cÄ± iÃ§in sorun olmayacak hatta son
+kullanÄ±cÄ±ya zevkli gelecektir. TecrÃ¼besiz kullanÄ±cÄ± Gentoo kullandÄ±kÃ§a
+baÅŸka hiÃ§bir daÄŸÄ±tÄ±mÄ± kullanarak elde edemeyeceÄŸi bilgi ve tecrÃ¼beye
+kavuÅŸacaktÄ±r.
 
 </BLOCKQUOTE>
 
 <P>
 
 <h3><a class="dagitim" NAME="SECTION00034200000000000000">
-2.4.2 A. Murat Eren'in Gentoo Hakkındaki Yorumu</A>
+2.4.2 A. Murat Eren'in Gentoo HakkÄ±ndaki Yorumu</A>
 </H3>
 
 <P>
 <BLOCKQUOTE>
-Gentoo'nun sunduğu yeni nesi paket derleme ortamının yanında Linux
-kullanıcılarına sunduğu en büyük nimetlerden birisi yarattığı bilgi
-ambarıdır. Gentoo'nun offical forumları<A NAME="tex2html24"
-  HREF="#foot331"><SUP>12</SUP></A> sadece Gentoo değil tüm Linux kullanıcıları için mükemmel bir bilgi
-kaynağıdır. Çok spesifik dahi olsa rastladığınız bir sorunun çözümünü
-bu forumlarda bulmanız işten bile değildir. Aynı zamanda sadece bu
-forumlarda dolaşıp tips&amp;tricks formatındaki forum yazılarını okumak
-ya da daha önceden yapılmış anketler ve bunlarla ilgili yorumları
-okumak dahi son derece eğitici ve keyiflidir.
+Gentoo'nun sunduÄŸu yeni nesi paket derleme ortamÄ±nÄ±n yanÄ±nda Linux
+kullanÄ±cÄ±larÄ±na sunduÄŸu en bÃ¼yÃ¼k nimetlerden birisi yarattÄ±ÄŸÄ± bilgi
+ambarÄ±dÄ±r. Gentoo'nun offical forumlarÄ±<A NAME="tex2html24"
+  HREF="#foot331"><SUP>12</SUP></A> sadece Gentoo deÄŸil tÃ¼m Linux kullanÄ±cÄ±larÄ± iÃ§in mÃ¼kemmel bir bilgi
+kaynaÄŸÄ±dÄ±r. Ã‡ok spesifik dahi olsa rastladÄ±ÄŸÄ±nÄ±z bir sorunun Ã§Ã¶zÃ¼mÃ¼nÃ¼
+bu forumlarda bulmanÄ±z iÅŸten bile deÄŸildir. AynÄ± zamanda sadece bu
+forumlarda dolaÅŸÄ±p tips&amp;tricks formatÄ±ndaki forum yazÄ±larÄ±nÄ± okumak
+ya da daha Ã¶nceden yapÄ±lmÄ±ÅŸ anketler ve bunlarla ilgili yorumlarÄ±
+okumak dahi son derece eÄŸitici ve keyiflidir.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Öte yandan Gentoo diğer Linux dağıtımlarının hiç yakalayamadığı bir
-yardımlaşma ağını, bir komünite beraberliğini yakalamıştır. <A NAME="tex2html26"
-  HREF="#foot332"><SUP>13</SUP></A> adresinden bir listesine göz atabileceğiniz irc kanallarından #gentoo
-kanalı her an ortalama 800 kişidir, ve sorduğunuz bir soruya çok hızlı
-yanıt alabilirsiniz.
+<BLOCKQUOTE>Ã–te yandan Gentoo diÄŸer Linux daÄŸÄ±tÄ±mlarÄ±nÄ±n hiÃ§ yakalayamadÄ±ÄŸÄ± bir
+yardÄ±mlaÅŸma aÄŸÄ±nÄ±, bir komÃ¼nite beraberliÄŸini yakalamÄ±ÅŸtÄ±r. <A NAME="tex2html26"
+  HREF="#foot332"><SUP>13</SUP></A> adresinden bir listesine gÃ¶z atabileceÄŸiniz irc kanallarÄ±ndan #gentoo
+kanalÄ± her an ortalama 800 kiÅŸidir, ve sorduÄŸunuz bir soruya Ã§ok hÄ±zlÄ±
+yanÄ±t alabilirsiniz.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Aynı zamanda e-posta listeleri de son derece aktiftir. Öyle ki <A NAME="tex2html28"
-  HREF="#foot333"><SUP>14</SUP></A> adresinden göz atabileceğiniz e-posta listelerinin kullanıcılar için
-olanında günde ortalama N adet mesaj dönmektedir, öyle ki ``N &gt;&gt;200''.
+<BLOCKQUOTE>AynÄ± zamanda e-posta listeleri de son derece aktiftir. Ã–yle ki <A NAME="tex2html28"
+  HREF="#foot333"><SUP>14</SUP></A> adresinden gÃ¶z atabileceÄŸiniz e-posta listelerinin kullanÄ±cÄ±lar iÃ§in
+olanÄ±nda gÃ¼nde ortalama N adet mesaj dÃ¶nmektedir, Ã¶yle ki ``N &gt;&gt;200''.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Çağlar'ın da yorumunda üstü kapalı olarak belirttiği gibi Gentoo Linux
-ile tanışmak için çok iyi bir alternatif olmayabilir, fakat Gentoo
-bilgi ve tecrübe kazanmanız için size en iyi platformu sunar.
+<BLOCKQUOTE>Ã‡aÄŸlar'Ä±n da yorumunda Ã¼stÃ¼ kapalÄ± olarak belirttiÄŸi gibi Gentoo Linux
+ile tanÄ±ÅŸmak iÃ§in Ã§ok iyi bir alternatif olmayabilir, fakat Gentoo
+bilgi ve tecrÃ¼be kazanmanÄ±z iÃ§in size en iyi platformu sunar.
 
 </BLOCKQUOTE>
 
@@ -926,65 +926,65 @@ bilgi ve tecrübe kazanmanız için size en iyi platformu sunar.
  >
 
 <P>
-GoboLinux masaüstü kullanıcılar için tasarlanmış, kurulumu ve kullanımı
-kolay bir dağıtımdır. GoboLinux'u diğer dağıtımlardan ayıran en temel
-yanı yenilikçi dizin yapısıdır. Klasik UNIX tarzı dizin ağacının aksine
-Gobo'da her uygulama kendi dizinine sahip olur. Bu, yeni kullanıcılar
-için görünürde pek bir şey değiştirmese de daha kararlı ve kolay anlaşılır
-bir dizin yapısı sunmaktadır.
+GoboLinux masaÃ¼stÃ¼ kullanÄ±cÄ±lar iÃ§in tasarlanmÄ±ÅŸ, kurulumu ve kullanÄ±mÄ±
+kolay bir daÄŸÄ±tÄ±mdÄ±r. GoboLinux'u diÄŸer daÄŸÄ±tÄ±mlardan ayÄ±ran en temel
+yanÄ± yenilikÃ§i dizin yapÄ±sÄ±dÄ±r. Klasik UNIX tarzÄ± dizin aÄŸacÄ±nÄ±n aksine
+Gobo'da her uygulama kendi dizinine sahip olur. Bu, yeni kullanÄ±cÄ±lar
+iÃ§in gÃ¶rÃ¼nÃ¼rde pek bir ÅŸey deÄŸiÅŸtirmese de daha kararlÄ± ve kolay anlaÅŸÄ±lÄ±r
+bir dizin yapÄ±sÄ± sunmaktadÄ±r.
 
 <P>
 <DL>
 <DT><STRONG>(+)</STRONG></DT>
-<DD>Hem yeni hem de deneyimli kullanıcılar için rahat, farklı
-dizin yapısı ve başlangıç betikleri sayesinde kolay yönetilir.
+<DD>Hem yeni hem de deneyimli kullanÄ±cÄ±lar iÃ§in rahat, farklÄ±
+dizin yapÄ±sÄ± ve baÅŸlangÄ±Ã§ betikleri sayesinde kolay yÃ¶netilir.
 </DD>
 <DT><STRONG>(-)</STRONG></DT>
-<DD>Çok popüler bir dağıtım olmadığı için derlenmiş paket ve
-yardım belgesi eksiklikleri. 
+<DD>Ã‡ok popÃ¼ler bir daÄŸÄ±tÄ±m olmadÄ±ÄŸÄ± iÃ§in derlenmiÅŸ paket ve
+yardÄ±m belgesi eksiklikleri. 
 </DD>
 <DT><STRONG>(PYS)</STRONG></DT>
 <DD>InstallPackage, Compile (tar.gz) 
 </DD>
 <DT><STRONG>(Internet)</STRONG></DT>
-<DD>Birçok ülkedeki yansıları sayesinde yüksek erişilebilirlikte.
+<DD>BirÃ§ok Ã¼lkedeki yansÄ±larÄ± sayesinde yÃ¼ksek eriÅŸilebilirlikte.
 </DD>
 </DL>
 
 <P>
 
 <h3><a class="dagitim" NAME="SECTION00035100000000000000">
-2.5.1 Fatih Altınok'un Gobolinux Hakkındaki Yorumu</A>
+2.5.1 Fatih AltÄ±nok'un Gobolinux HakkÄ±ndaki Yorumu</A>
 </H3>
 
 <P>
 <BLOCKQUOTE>
-GoboLinux'un dizin yapısında uygulamalar kendi dizinlerine sahiptir.
-Böylece bir uygulama yüklemek kadar kaldırmak da herhangi bir dosyayı
-silmek kadar kolaydır. Peki eski dizin yapısına ne oldu, bu sistem
-nasıl çalışıyor? Aslında bunun cevabı oldukça basit, simgesel bağlar.
-Eski dizin yapısı da bu dizin yapısının yanında durmakta -GoboHide
-çekirdek modülü sayesinde bunlar gizleniyor- ve gerekli yerlere simgesel
-bağlar bulunmaktadır. Bu sayede aynı zamanda Gobo'yu köksüz (rootless)
-olarak bir ev dizini altına kurmak da gayet basittir.
+GoboLinux'un dizin yapÄ±sÄ±nda uygulamalar kendi dizinlerine sahiptir.
+BÃ¶ylece bir uygulama yÃ¼klemek kadar kaldÄ±rmak da herhangi bir dosyayÄ±
+silmek kadar kolaydÄ±r. Peki eski dizin yapÄ±sÄ±na ne oldu, bu sistem
+nasÄ±l Ã§alÄ±ÅŸÄ±yor? AslÄ±nda bunun cevabÄ± oldukÃ§a basit, simgesel baÄŸlar.
+Eski dizin yapÄ±sÄ± da bu dizin yapÄ±sÄ±nÄ±n yanÄ±nda durmakta -GoboHide
+Ã§ekirdek modÃ¼lÃ¼ sayesinde bunlar gizleniyor- ve gerekli yerlere simgesel
+baÄŸlar bulunmaktadÄ±r. Bu sayede aynÄ± zamanda Gobo'yu kÃ¶ksÃ¼z (rootless)
+olarak bir ev dizini altÄ±na kurmak da gayet basittir.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>GoboLinux'un dizin yapısı sayesinde paket yöneticisine daha az iş
-düşmektedir. Her uygulama kendi dizininde bulunduğu için bunları doğru
-yerlere açmak ve yerlerinin izini takip etmek zorunda değildir. Bir
-paket kaldırılacağı zaman da basitçe uygulamanın dizini silinir ve
-simgesel bağlar onarılır. Paket yöneticisi ayrıca FreeBSD ve Gentoo'dakine
+<BLOCKQUOTE>GoboLinux'un dizin yapÄ±sÄ± sayesinde paket yÃ¶neticisine daha az iÅŸ
+dÃ¼ÅŸmektedir. Her uygulama kendi dizininde bulunduÄŸu iÃ§in bunlarÄ± doÄŸru
+yerlere aÃ§mak ve yerlerinin izini takip etmek zorunda deÄŸildir. Bir
+paket kaldÄ±rÄ±lacaÄŸÄ± zaman da basitÃ§e uygulamanÄ±n dizini silinir ve
+simgesel baÄŸlar onarÄ±lÄ±r. Paket yÃ¶neticisi ayrÄ±ca FreeBSD ve Gentoo'dakine
 benzer bir &#34;port&#34; sistemi kullanabilmektedir, tarif
 (recipe) denilen paket derleme tariflerini kullanarak paketleri proje
-sayfasından indirdiği kaynak koddan da derleyebilir (son sürümüyle
-paket yöneticisine Gentoo benzeri bir USE bayrağı (USE flag) sistemi
+sayfasÄ±ndan indirdiÄŸi kaynak koddan da derleyebilir (son sÃ¼rÃ¼mÃ¼yle
+paket yÃ¶neticisine Gentoo benzeri bir USE bayraÄŸÄ± (USE flag) sistemi
 de eklendi).
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Son kullanıcılar için bunlar çok önemli rol oynamıyor tabii. GoboLinux
-grafiksel kurulum aracıyla, KDE masaüstüyle ve yine grafiksel bir
-paket yönetici önyüzüyle geliyor. Daha fazla bilgi için tarafından
-Türkçeleştirilmiş GoboLinux.org'u inceleyebilirsiniz.
+<BLOCKQUOTE>Son kullanÄ±cÄ±lar iÃ§in bunlar Ã§ok Ã¶nemli rol oynamÄ±yor tabii. GoboLinux
+grafiksel kurulum aracÄ±yla, KDE masaÃ¼stÃ¼yle ve yine grafiksel bir
+paket yÃ¶netici Ã¶nyÃ¼zÃ¼yle geliyor. Daha fazla bilgi iÃ§in tarafÄ±ndan
+TÃ¼rkÃ§eleÅŸtirilmiÅŸ GoboLinux.org'u inceleyebilirsiniz.
 
 </BLOCKQUOTE>
 
@@ -1004,50 +1004,50 @@ Türkçeleştirilmiş GoboLinux.org'u inceleyebilirsiniz.
  >
 
 <P>
-1998 Temmuz'unda ilk sürümü çıkan, Gaël Duval tarafından başlatılan
+1998 Temmuz'unda ilk sÃ¼rÃ¼mÃ¼ Ã§Ä±kan, GaÃ«l Duval tarafÄ±ndan baÅŸlatÄ±lan
 Mandrakelinux projesi<A NAME="tex2html30"
-  HREF="#foot334"><SUP>15</SUP></A>, günümüzde ciddi bir popülariteye sahiptir. Geliştiriciler, Red Hat
-dağıtımından yola çıkmış, varsayılan masaüstünü KDE'ye çevirmiş, kullanımı
-çok kolay bir kurulum ekleyerek &#34;Linux'un kurulumu zordur&#34;
-düşüncesini bertaraf etmişlerdir. Mandrake'nin donanım tanıma ve disk
-bölümleme araçları, çoğu kişi tarafından piyasanın en iyisi olarak
-görülmekte, ve bu nedenle birçok kullanıcı, diğer dağıtımlardan çok
-Mandrake'ye yönelmektedir.
+  HREF="#foot334"><SUP>15</SUP></A>, gÃ¼nÃ¼mÃ¼zde ciddi bir popÃ¼lariteye sahiptir. GeliÅŸtiriciler, Red Hat
+daÄŸÄ±tÄ±mÄ±ndan yola Ã§Ä±kmÄ±ÅŸ, varsayÄ±lan masaÃ¼stÃ¼nÃ¼ KDE'ye Ã§evirmiÅŸ, kullanÄ±mÄ±
+Ã§ok kolay bir kurulum ekleyerek &#34;Linux'un kurulumu zordur&#34;
+dÃ¼ÅŸÃ¼ncesini bertaraf etmiÅŸlerdir. Mandrake'nin donanÄ±m tanÄ±ma ve disk
+bÃ¶lÃ¼mleme araÃ§larÄ±, Ã§oÄŸu kiÅŸi tarafÄ±ndan piyasanÄ±n en iyisi olarak
+gÃ¶rÃ¼lmekte, ve bu nedenle birÃ§ok kullanÄ±cÄ±, diÄŸer daÄŸÄ±tÄ±mlardan Ã§ok
+Mandrake'ye yÃ¶nelmektedir.
 
 <P>
-Mandrakelinux, özellikle Linux'a yeni başlayan, ya da alternatif bir
-işletim sistemi denemek isteyen ev kullanıcıları arasında oldukça
-popülerdir. Mandrake, tamamen özgür ve şeffaf bir geliştirme ortamı
-sunmaktadır. Günlük olarak güncellenen &#34;cooker&#34;
-depolarında yazılımların güncel paketleri bulmak mümkündür.
+Mandrakelinux, Ã¶zellikle Linux'a yeni baÅŸlayan, ya da alternatif bir
+iÅŸletim sistemi denemek isteyen ev kullanÄ±cÄ±larÄ± arasÄ±nda oldukÃ§a
+popÃ¼lerdir. Mandrake, tamamen Ã¶zgÃ¼r ve ÅŸeffaf bir geliÅŸtirme ortamÄ±
+sunmaktadÄ±r. GÃ¼nlÃ¼k olarak gÃ¼ncellenen &#34;cooker&#34;
+depolarÄ±nda yazÄ±lÄ±mlarÄ±n gÃ¼ncel paketleri bulmak mÃ¼mkÃ¼ndÃ¼r.
 
 <P>
-Mandrake yüksek oranda güncel bir Linux dağıtımıdır. Bunun ters bir
-etkisi olarak, kullanıcılar diğer dağıtımlara nazaran daha fazla hata
-ile karşılaşabilmekte, sistemin kararlılık oranı da diğer dağıtımlara
-göre daha düşük olabilmektedir. Çoğu kullanıcı, en son sürüm programları
-kullanmak adına, bazı olası program kilitlenmelerini, ve ufak hataları
-kendi masaüstü sistemlerinde kabul etmektedirler.
+Mandrake yÃ¼ksek oranda gÃ¼ncel bir Linux daÄŸÄ±tÄ±mÄ±dÄ±r. Bunun ters bir
+etkisi olarak, kullanÄ±cÄ±lar diÄŸer daÄŸÄ±tÄ±mlara nazaran daha fazla hata
+ile karÅŸÄ±laÅŸabilmekte, sistemin kararlÄ±lÄ±k oranÄ± da diÄŸer daÄŸÄ±tÄ±mlara
+gÃ¶re daha dÃ¼ÅŸÃ¼k olabilmektedir. Ã‡oÄŸu kullanÄ±cÄ±, en son sÃ¼rÃ¼m programlarÄ±
+kullanmak adÄ±na, bazÄ± olasÄ± program kilitlenmelerini, ve ufak hatalarÄ±
+kendi masaÃ¼stÃ¼ sistemlerinde kabul etmektedirler.
 
 <P>
 <DL>
 <DT><STRONG>(+)</STRONG></DT>
-<DD>Kullanıcı dostu kurulum arayüzü, grafik destekli ve başarılı
-konfigürasyon araçları, çok büyük topluluk desteği, kullanıcı dostu
-masaüstü görünümü, grafik açıdan etkileyici arayüz, yazılımlara son
-kullanıcı ihtiyaçları ön planda tutularak yapılan yamalar. 
+<DD>KullanÄ±cÄ± dostu kurulum arayÃ¼zÃ¼, grafik destekli ve baÅŸarÄ±lÄ±
+konfigÃ¼rasyon araÃ§larÄ±, Ã§ok bÃ¼yÃ¼k topluluk desteÄŸi, kullanÄ±cÄ± dostu
+masaÃ¼stÃ¼ gÃ¶rÃ¼nÃ¼mÃ¼, grafik aÃ§Ä±dan etkileyici arayÃ¼z, yazÄ±lÄ±mlara son
+kullanÄ±cÄ± ihtiyaÃ§larÄ± Ã¶n planda tutularak yapÄ±lan yamalar. 
 </DD>
 <DT><STRONG>(-)</STRONG></DT>
-<DD>Sürümlerinde bolca hata ile karşılaşılabilmesi, sürümlerin
-önce MandrakeClub üyelerine sunulması, yazılımlara çok fazla test
-edilmeden yapılan yamalar. 
+<DD>SÃ¼rÃ¼mlerinde bolca hata ile karÅŸÄ±laÅŸÄ±labilmesi, sÃ¼rÃ¼mlerin
+Ã¶nce MandrakeClub Ã¼yelerine sunulmasÄ±, yazÄ±lÄ±mlara Ã§ok fazla test
+edilmeden yapÄ±lan yamalar. 
 </DD>
 <DT><STRONG>(PYS)</STRONG></DT>
 <DD>RPM 
 </DD>
 <DT><STRONG>(Internet)</STRONG></DT>
-<DD>Yeni sürüm çıktıktan hemen sonra FTP kurulumuna sunuluyor,
-birkaç hafta içinde ISO'ları sunuluyor. 
+<DD>Yeni sÃ¼rÃ¼m Ã§Ä±ktÄ±ktan hemen sonra FTP kurulumuna sunuluyor,
+birkaÃ§ hafta iÃ§inde ISO'larÄ± sunuluyor. 
 </DD>
 </DL>
 
@@ -1067,46 +1067,46 @@ birkaç hafta içinde ISO'ları sunuluyor.
  >
 
 <P>
-Almanya'da Klaus Knopper tarafından geliştirilen ve Debian tabanlı
-olan Knoppix'in, özellikle otomatik donanım tanıma konusunda çıtayı
-yükseğe çektiğini söylemek yanlış olmaz. Rahat açılışı, sunduğu yazılımların
-çeşitliliği, on-the-fly sıkıştırma tekniği ve sabit dist üzerine kurulum
-yapabilmesi özellikleri Knoppix'i bir Linux dağıtımı olmanın ötesinde
-vazgeçilmez bir araç haline getirmiştir. Bir kurtarma diski olarak,
-Linux'u daha görmemiş olanlara sunmak amacıyla, ya da satın almadan
-önce bir bilgisayarı denemek amacıyla kullanılabilmektedir. Bunların
-dışında, günlük işleri görmek amacıyla kullanılabilecek bir Linux
-dağıtımıdır.
+Almanya'da Klaus Knopper tarafÄ±ndan geliÅŸtirilen ve Debian tabanlÄ±
+olan Knoppix'in, Ã¶zellikle otomatik donanÄ±m tanÄ±ma konusunda Ã§Ä±tayÄ±
+yÃ¼kseÄŸe Ã§ektiÄŸini sÃ¶ylemek yanlÄ±ÅŸ olmaz. Rahat aÃ§Ä±lÄ±ÅŸÄ±, sunduÄŸu yazÄ±lÄ±mlarÄ±n
+Ã§eÅŸitliliÄŸi, on-the-fly sÄ±kÄ±ÅŸtÄ±rma tekniÄŸi ve sabit dist Ã¼zerine kurulum
+yapabilmesi Ã¶zellikleri Knoppix'i bir Linux daÄŸÄ±tÄ±mÄ± olmanÄ±n Ã¶tesinde
+vazgeÃ§ilmez bir araÃ§ haline getirmiÅŸtir. Bir kurtarma diski olarak,
+Linux'u daha gÃ¶rmemiÅŸ olanlara sunmak amacÄ±yla, ya da satÄ±n almadan
+Ã¶nce bir bilgisayarÄ± denemek amacÄ±yla kullanÄ±labilmektedir. BunlarÄ±n
+dÄ±ÅŸÄ±nda, gÃ¼nlÃ¼k iÅŸleri gÃ¶rmek amacÄ±yla kullanÄ±labilecek bir Linux
+daÄŸÄ±tÄ±mÄ±dÄ±r.
 
 <P>
-Knoppix'in yeni sürümleri, ortalama 2-6 hafta aralıklarla sunulmaktadır.
-Yeni sürümlerde, hatalardan arındırılmış yazılımlar ve Debian'ın &#34;kararsız&#34;
-deposundaki son yazılımlar bulunmaktadır.
+Knoppix'in yeni sÃ¼rÃ¼mleri, ortalama 2-6 hafta aralÄ±klarla sunulmaktadÄ±r.
+Yeni sÃ¼rÃ¼mlerde, hatalardan arÄ±ndÄ±rÄ±lmÄ±ÅŸ yazÄ±lÄ±mlar ve Debian'Ä±n &#34;kararsÄ±z&#34;
+deposundaki son yazÄ±lÄ±mlar bulunmaktadÄ±r.
 
 <P>
 Knoppix<A NAME="tex2html32"
-  HREF="#foot335"><SUP>16</SUP></A>, Linux medyası tarafından da yakından takip edilmektedir. Klaus Knopper'la
-yapılmış bir ropörtaj'a <A NAME="tex2html34"
-  HREF="#foot336"><SUP>17</SUP></A> adresinden ulaşabilirsiniz. Ayrıca Knoppix hakkında daha fazla bilgiye
-ulaşmak için, Knoppix-the Great Linux Advocate<A NAME="tex2html36"
+  HREF="#foot335"><SUP>16</SUP></A>, Linux medyasÄ± tarafÄ±ndan da yakÄ±ndan takip edilmektedir. Klaus Knopper'la
+yapÄ±lmÄ±ÅŸ bir ropÃ¶rtaj'a <A NAME="tex2html34"
+  HREF="#foot336"><SUP>17</SUP></A> adresinden ulaÅŸabilirsiniz. AyrÄ±ca Knoppix hakkÄ±nda daha fazla bilgiye
+ulaÅŸmak iÃ§in, Knoppix-the Great Linux Advocate<A NAME="tex2html36"
   HREF="#foot337"><SUP>18</SUP></A> ve Knoppix 3.4 Has Landed<A NAME="tex2html38"
-  HREF="#foot338"><SUP>19</SUP></A> yazılarına linklerden ulaşabilirsiniz.
+  HREF="#foot338"><SUP>19</SUP></A> yazÄ±larÄ±na linklerden ulaÅŸabilirsiniz.
 
 <P>
 <DL>
 <DT><STRONG>(+)</STRONG></DT>
-<DD>Çok iyi donanım tanıma, sabit disk kurulumu olmadan CD'den
-çalışması ve sabit disklere özellikle istenmediği taktirde dokunmaması,
-sistem kurtarma aracı olarak kullanılabilmesi. 
+<DD>Ã‡ok iyi donanÄ±m tanÄ±ma, sabit disk kurulumu olmadan CD'den
+Ã§alÄ±ÅŸmasÄ± ve sabit disklere Ã¶zellikle istenmediÄŸi taktirde dokunmamasÄ±,
+sistem kurtarma aracÄ± olarak kullanÄ±labilmesi. 
 </DD>
 <DT><STRONG>(-)</STRONG></DT>
-<DD>Sadece CD'den çalıştığı takdirde hızda ve performansda azalma. 
+<DD>Sadece CD'den Ã§alÄ±ÅŸtÄ±ÄŸÄ± takdirde hÄ±zda ve performansda azalma. 
 </DD>
 <DT><STRONG>(PYS)</STRONG></DT>
 <DD>DEB 
 </DD>
 <DT><STRONG>(Internet)</STRONG></DT>
-<DD>Bir çok ülkedeki yansıları ile yüksek erişilebilirlikte.. 
+<DD>Bir Ã§ok Ã¼lkedeki yansÄ±larÄ± ile yÃ¼ksek eriÅŸilebilirlikte.. 
 </DD>
 </DL>
 
@@ -1126,134 +1126,134 @@ sistem kurtarma aracı olarak kullanılabilmesi.
  >
 
 <P>
-openSUSE Projesi, Novell tarafından desteklenen ve Linux'un heryerde
-kullanılmasını amaçlayan dünya çapında bir topluluk programıdır ve
-openSuSe'ye kolayca erişimi amaçlamaktadır. Dünyanın en kullanılabilir
-Linux'unu yaratmak ve dağıtmak için openSUSE, aynı zamanda Novell'in
-ödüllü SuSe Linux Enterprise ürünlerinide sağlamaktadır.
+openSUSE Projesi, Novell tarafÄ±ndan desteklenen ve Linux'un heryerde
+kullanÄ±lmasÄ±nÄ± amaÃ§layan dÃ¼nya Ã§apÄ±nda bir topluluk programÄ±dÄ±r ve
+openSuSe'ye kolayca eriÅŸimi amaÃ§lamaktadÄ±r. DÃ¼nyanÄ±n en kullanÄ±labilir
+Linux'unu yaratmak ve daÄŸÄ±tmak iÃ§in openSUSE, aynÄ± zamanda Novell'in
+Ã¶dÃ¼llÃ¼ SuSe Linux Enterprise Ã¼rÃ¼nlerinide saÄŸlamaktadÄ±r.
 
 <P>
-Daha önceden ismi S.u.S.E. GmBH (Software und System-Entwicklung (Yazılım
-ve Sistem Geliştirme)) olan SuSe AG, önce Almanya daha sonra ABD'de
-kayıtlı bir firma olarak Peter MacDonald tarafından 1992'de kurulmuştur
-ve SuSe Linux bu firma çatısında geliştirilmiş bir dağıtımdır (daha
-sonradan SuSE AG firmasının Novell'e satılması sonucunda SuSe Linux,
-openSUSE adını almıştır. Bu gün openSUSE, Novell'in SUSE Linux Enterprise
-Server ve SUSE Linux Enterprise Desktop isimli ücretli desteğe sahip
-2 dağıtımının kod tabanını oluşturur).
+Daha Ã¶nceden ismi S.u.S.E. GmBH (Software und System-Entwicklung (YazÄ±lÄ±m
+ve Sistem GeliÅŸtirme)) olan SuSe AG, Ã¶nce Almanya daha sonra ABD'de
+kayÄ±tlÄ± bir firma olarak Peter MacDonald tarafÄ±ndan 1992'de kurulmuÅŸtur
+ve SuSe Linux bu firma Ã§atÄ±sÄ±nda geliÅŸtirilmiÅŸ bir daÄŸÄ±tÄ±mdÄ±r (daha
+sonradan SuSE AG firmasÄ±nÄ±n Novell'e satÄ±lmasÄ± sonucunda SuSe Linux,
+openSUSE adÄ±nÄ± almÄ±ÅŸtÄ±r. Bu gÃ¼n openSUSE, Novell'in SUSE Linux Enterprise
+Server ve SUSE Linux Enterprise Desktop isimli Ã¼cretli desteÄŸe sahip
+2 daÄŸÄ±tÄ±mÄ±nÄ±n kod tabanÄ±nÄ± oluÅŸturur).
 
 <P>
-İlk yıllarında Slackware Linux'un Almanca çevirisini yeni bir dağıtım
-haline getirmeyi amaçlayan MacDonald 1992 yılının ortalarında ilk
-kolay kullanılır Linux dağıtımı amacına SLS (Softlanding Linux System)
-dağıtımı ile ulaştı. Bu dağıtım, Linux çekirdeği, X ve TCP/IP'nin
-zamanına göre oldukça gelişmiş entegrasyonunu kullanıcıya sunmayı
-başarmıştı. 1992 yılında şirketleşme kararı verildikten hemen sonra
-SLS ve Slackware için yazılım paketleri çıkartmaya başlayarak geliştiricilerin
-dikkatini çekti. Ardından 1994 yılında SLS adının S.u.S.E Linux olarak
-değiştirilmesiyle ilk CD sürümü olan 1.0 yayınlandı. 1996 yılında
-Florian La Roche'un Jurix dağtımıyla birleşti ve ilk gelişmiş S.u.S.E
-Linux sürümü olan 4.2 yayınlandı; bu yıllarda S.u.S.E Linux, Red Hat
-Linux tarafından yaygınlaştırılan birçok öğeyi bünyesinde topladı
-(Örn. RPM, ve /etc/sysconfig).
+Ä°lk yÄ±llarÄ±nda Slackware Linux'un Almanca Ã§evirisini yeni bir daÄŸÄ±tÄ±m
+haline getirmeyi amaÃ§layan MacDonald 1992 yÄ±lÄ±nÄ±n ortalarÄ±nda ilk
+kolay kullanÄ±lÄ±r Linux daÄŸÄ±tÄ±mÄ± amacÄ±na SLS (Softlanding Linux System)
+daÄŸÄ±tÄ±mÄ± ile ulaÅŸtÄ±. Bu daÄŸÄ±tÄ±m, Linux Ã§ekirdeÄŸi, X ve TCP/IP'nin
+zamanÄ±na gÃ¶re oldukÃ§a geliÅŸmiÅŸ entegrasyonunu kullanÄ±cÄ±ya sunmayÄ±
+baÅŸarmÄ±ÅŸtÄ±. 1992 yÄ±lÄ±nda ÅŸirketleÅŸme kararÄ± verildikten hemen sonra
+SLS ve Slackware iÃ§in yazÄ±lÄ±m paketleri Ã§Ä±kartmaya baÅŸlayarak geliÅŸtiricilerin
+dikkatini Ã§ekti. ArdÄ±ndan 1994 yÄ±lÄ±nda SLS adÄ±nÄ±n S.u.S.E Linux olarak
+deÄŸiÅŸtirilmesiyle ilk CD sÃ¼rÃ¼mÃ¼ olan 1.0 yayÄ±nlandÄ±. 1996 yÄ±lÄ±nda
+Florian La Roche'un Jurix daÄŸtÄ±mÄ±yla birleÅŸti ve ilk geliÅŸmiÅŸ S.u.S.E
+Linux sÃ¼rÃ¼mÃ¼ olan 4.2 yayÄ±nlandÄ±; bu yÄ±llarda S.u.S.E Linux, Red Hat
+Linux tarafÄ±ndan yaygÄ±nlaÅŸtÄ±rÄ±lan birÃ§ok Ã¶ÄŸeyi bÃ¼nyesinde topladÄ±
+(Ã–rn. RPM, ve /etc/sysconfig).
 
 <P>
-S.u.S.E Linux 5.2 sürümüyle dağıtım yarışında açık arayla öne çıktı.
-Bu dağıtım, gelişmiş yönetim ve kurulum araçları olan YaST (<B>Y</B>et
-<B>a</B>nother <B>S</B>etup <B>T</B>ool (<B>B</B>ir <B>d</B>iğer
-<B>K</B>urulum <B>A</B>racı)) ve SaX'ı (SuSE advanced X setup)
-içeriyordu. Bu araçlar sayesinde geniş bir donanım yelpazesinin desteklenmesi
-ve X'in kolay kurulumu hedefleri başarılı oldu.
+S.u.S.E Linux 5.2 sÃ¼rÃ¼mÃ¼yle daÄŸÄ±tÄ±m yarÄ±ÅŸÄ±nda aÃ§Ä±k arayla Ã¶ne Ã§Ä±ktÄ±.
+Bu daÄŸÄ±tÄ±m, geliÅŸmiÅŸ yÃ¶netim ve kurulum araÃ§larÄ± olan YaST (<B>Y</B>et
+<B>a</B>nother <B>S</B>etup <B>T</B>ool (<B>B</B>ir <B>d</B>iÄŸer
+<B>K</B>urulum <B>A</B>racÄ±)) ve SaX'Ä± (SuSE advanced X setup)
+iÃ§eriyordu. Bu araÃ§lar sayesinde geniÅŸ bir donanÄ±m yelpazesinin desteklenmesi
+ve X'in kolay kurulumu hedefleri baÅŸarÄ±lÄ± oldu.
 
 <P>
-İlerleyen yıllarda S.u.S.E'nin geliştirici paylaşımı programı Xfree86'nın
-(X.org) gelişiminde çok önemli etkilere sebep oldu.
+Ä°lerleyen yÄ±llarda S.u.S.E'nin geliÅŸtirici paylaÅŸÄ±mÄ± programÄ± Xfree86'nÄ±n
+(X.org) geliÅŸiminde Ã§ok Ã¶nemli etkilere sebep oldu.
 
 <P>
-Günümüzde openSUSE 11.0 sürümüyle halen kolay kurulum ve yönetime
-sahip Linux dağıtımlarından biri olarak tutunmayı başarmıştır. YaST
-gelişerek yeni sürümünün ismi YaST2 olarak değişmiştir ve YaST2 2006
-yılında GPL lisansı ile dağıtılmaya başlanmıştır.
+GÃ¼nÃ¼mÃ¼zde openSUSE 11.0 sÃ¼rÃ¼mÃ¼yle halen kolay kurulum ve yÃ¶netime
+sahip Linux daÄŸÄ±tÄ±mlarÄ±ndan biri olarak tutunmayÄ± baÅŸarmÄ±ÅŸtÄ±r. YaST
+geliÅŸerek yeni sÃ¼rÃ¼mÃ¼nÃ¼n ismi YaST2 olarak deÄŸiÅŸmiÅŸtir ve YaST2 2006
+yÄ±lÄ±nda GPL lisansÄ± ile daÄŸÄ±tÄ±lmaya baÅŸlanmÄ±ÅŸtÄ±r.
 
 <P>
 <DL>
 <DT><STRONG>(+)</STRONG></DT>
-<DD>Kolay kurulum ve yönetim, SaX2 ile neredeyse otomatikleşmiş
-X kurulumu, YaST2 sayesinde kolay sistem kurulum ve yönetimi, geniş
+<DD>Kolay kurulum ve yÃ¶netim, SaX2 ile neredeyse otomatikleÅŸmiÅŸ
+X kurulumu, YaST2 sayesinde kolay sistem kurulum ve yÃ¶netimi, geniÅŸ
 paket deposu .
 </DD>
 <DT><STRONG>(-)</STRONG></DT>
-<DD>Tüm paketlerin yerelleştirme özellikleri için ek CD gereksinimi,
-belirsiz sürüm yenileme periyodu, bir önceki sürümden yeni sürüme
-sistemi kapatmadan güncelleme yapılamaması, önceki sürümlerde varolan
-paketlerin sonraki sürümlerden kaldırılması riski, bazı paketlerin
-elle derlenmesinde karşılaşılan bağımlılık problemleri, topluluk destekli
-paket depolarının azalması, Novell'in ticari ilişkileri yüzünden dağıtımın
-geliştirici kadrosunda eksilmeler.
+<DD>TÃ¼m paketlerin yerelleÅŸtirme Ã¶zellikleri iÃ§in ek CD gereksinimi,
+belirsiz sÃ¼rÃ¼m yenileme periyodu, bir Ã¶nceki sÃ¼rÃ¼mden yeni sÃ¼rÃ¼me
+sistemi kapatmadan gÃ¼ncelleme yapÄ±lamamasÄ±, Ã¶nceki sÃ¼rÃ¼mlerde varolan
+paketlerin sonraki sÃ¼rÃ¼mlerden kaldÄ±rÄ±lmasÄ± riski, bazÄ± paketlerin
+elle derlenmesinde karÅŸÄ±laÅŸÄ±lan baÄŸÄ±mlÄ±lÄ±k problemleri, topluluk destekli
+paket depolarÄ±nÄ±n azalmasÄ±, Novell'in ticari iliÅŸkileri yÃ¼zÃ¼nden daÄŸÄ±tÄ±mÄ±n
+geliÅŸtirici kadrosunda eksilmeler.
 </DD>
 <DT><STRONG>(PYS)</STRONG></DT>
 <DD>RPM
 </DD>
 <DT><STRONG>(Internet)</STRONG></DT>
-<DD>Bir çok ülkedeki yansıları ile yüksek erişilebilirlikte..
+<DD>Bir Ã§ok Ã¼lkedeki yansÄ±larÄ± ile yÃ¼ksek eriÅŸilebilirlikte..
 </DD>
 </DL>
 
 <P>
 
 """""""<h3><a class="dagitim" NAME="SECTION00038100000000000000">
-2.8.1 T. Koray Peksayar'ın openSuSe Hakkındaki Yorumu</A>
+2.8.1 T. Koray Peksayar'Ä±n openSuSe HakkÄ±ndaki Yorumu</A>
 </H3>
 
 <P>
 <BLOCKQUOTE>
-openSUSE, Novell'in Microsoft'a hisse satışı sonucunda geliştirici
-kadrosunda kayıplar yaşadı.
+openSUSE, Novell'in Microsoft'a hisse satÄ±ÅŸÄ± sonucunda geliÅŸtirici
+kadrosunda kayÄ±plar yaÅŸadÄ±.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Sonrasında Microsoft SAMBA projesinin patentli SMB/CIFS kodunu kullandığı
-gerekçesiyle ve SAMBA'nın Novell tarafından openSUSE ile dağıtılması
-gerekçesiyle Novell üzerinde baskı kurdu.
+<BLOCKQUOTE>SonrasÄ±nda Microsoft SAMBA projesinin patentli SMB/CIFS kodunu kullandÄ±ÄŸÄ±
+gerekÃ§esiyle ve SAMBA'nÄ±n Novell tarafÄ±ndan openSUSE ile daÄŸÄ±tÄ±lmasÄ±
+gerekÃ§esiyle Novell Ã¼zerinde baskÄ± kurdu.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Bu baskı daha sonradan gerekçe değiştirerek SMB/CIFS kullanılan dosya
-sunucularında Windows yerine Linux kullanımının artmasını ticari tehdit
-olarak gören bir bakış açısıyla Microsoft baskılara devam etti.
+<BLOCKQUOTE>Bu baskÄ± daha sonradan gerekÃ§e deÄŸiÅŸtirerek SMB/CIFS kullanÄ±lan dosya
+sunucularÄ±nda Windows yerine Linux kullanÄ±mÄ±nÄ±n artmasÄ±nÄ± ticari tehdit
+olarak gÃ¶ren bir bakÄ±ÅŸ aÃ§Ä±sÄ±yla Microsoft baskÄ±lara devam etti.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Bu baskılar sonucunda Novell Microsoft'la Linux-Windows kod paylaşımı
-sağlayan bir anlaşma imzalayarak bu gerilimi azaltmaya çalıştı.
+<BLOCKQUOTE>Bu baskÄ±lar sonucunda Novell Microsoft'la Linux-Windows kod paylaÅŸÄ±mÄ±
+saÄŸlayan bir anlaÅŸma imzalayarak bu gerilimi azaltmaya Ã§alÄ±ÅŸtÄ±.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Bu anlaşmayla Novell Linux ile Windows arasında eş kullanılabilirlik
-ve uyumluluk sağlanmasının amaçlandığını söylese de Linux topluluğu
-bu girişime tepki duydu.
+<BLOCKQUOTE>Bu anlaÅŸmayla Novell Linux ile Windows arasÄ±nda eÅŸ kullanÄ±labilirlik
+ve uyumluluk saÄŸlanmasÄ±nÄ±n amaÃ§landÄ±ÄŸÄ±nÄ± sÃ¶ylese de Linux topluluÄŸu
+bu giriÅŸime tepki duydu.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Bu sözleşme kimsenin öz varlığı olmayan, herkese açık özgür yazılımın
-üzerinde denetim oluşturulması olarak görüldü. Bu kod paylaşımı konusunun
-GPL sayesinde sağlanan özgürlük unsurlarının korunması mantığıyla
-çelişmesi de Linux'un gelişimine hiçbir katkı sağlamayacağı yoğun
-olarak tartışıldı ve topluluk tarafından kabul gördü.
+<BLOCKQUOTE>Bu sÃ¶zleÅŸme kimsenin Ã¶z varlÄ±ÄŸÄ± olmayan, herkese aÃ§Ä±k Ã¶zgÃ¼r yazÄ±lÄ±mÄ±n
+Ã¼zerinde denetim oluÅŸturulmasÄ± olarak gÃ¶rÃ¼ldÃ¼. Bu kod paylaÅŸÄ±mÄ± konusunun
+GPL sayesinde saÄŸlanan Ã¶zgÃ¼rlÃ¼k unsurlarÄ±nÄ±n korunmasÄ± mantÄ±ÄŸÄ±yla
+Ã§eliÅŸmesi de Linux'un geliÅŸimine hiÃ§bir katkÄ± saÄŸlamayacaÄŸÄ± yoÄŸun
+olarak tartÄ±ÅŸÄ±ldÄ± ve topluluk tarafÄ±ndan kabul gÃ¶rdÃ¼.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>10.0 sürümünden önce varolan apt4rpm ile sağlanan apt-get ile alternatif
-güncelleme ve paket kurulumundan 10.0 sürümünde vazgeçilmesi büyük
-tepki gördü.
+<BLOCKQUOTE>10.0 sÃ¼rÃ¼mÃ¼nden Ã¶nce varolan apt4rpm ile saÄŸlanan apt-get ile alternatif
+gÃ¼ncelleme ve paket kurulumundan 10.0 sÃ¼rÃ¼mÃ¼nde vazgeÃ§ilmesi bÃ¼yÃ¼k
+tepki gÃ¶rdÃ¼.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>openSUSE 10.0 sürümünde YaST ile sağlanan, zypper ve yum ile paket
-güncellemede karşılaşılan problemler 10.0 sürümü kullanıcılarını zor
-durumda bıraktı. 11.0 sürümünün de gecikmesiyle kullanıcıların tepkisi
-giderek arttı.
+<BLOCKQUOTE>openSUSE 10.0 sÃ¼rÃ¼mÃ¼nde YaST ile saÄŸlanan, zypper ve yum ile paket
+gÃ¼ncellemede karÅŸÄ±laÅŸÄ±lan problemler 10.0 sÃ¼rÃ¼mÃ¼ kullanÄ±cÄ±larÄ±nÄ± zor
+durumda bÄ±raktÄ±. 11.0 sÃ¼rÃ¼mÃ¼nÃ¼n de gecikmesiyle kullanÄ±cÄ±larÄ±n tepkisi
+giderek arttÄ±.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Yukarıdaki sorunlar, openSUSE'den diğer dağıtımlara geçişin yolunu
-açtı ve openSUSE bu dönemde oldukça büyük rakamlarda destek kaybetti.
+<BLOCKQUOTE>YukarÄ±daki sorunlar, openSUSE'den diÄŸer daÄŸÄ±tÄ±mlara geÃ§iÅŸin yolunu
+aÃ§tÄ± ve openSUSE bu dÃ¶nemde oldukÃ§a bÃ¼yÃ¼k rakamlarda destek kaybetti.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Tüm bu olumsuzluklara rağmen openSUSE halen rağbet gören dağıtımların
-başında geliyor.
+<BLOCKQUOTE>TÃ¼m bu olumsuzluklara raÄŸmen openSUSE halen raÄŸbet gÃ¶ren daÄŸÄ±tÄ±mlarÄ±n
+baÅŸÄ±nda geliyor.
 
 </BLOCKQUOTE>
 
@@ -1274,59 +1274,59 @@ başında geliyor.
 
 <P>
 Pardus<A NAME="tex2html40"
-  HREF="#foot339"><SUP>20</SUP></A>, 2003 yılından bu yana Tübitak/UEKAE bünyesinde geliştirilmekte olan,
-öncelikli hedefi olarak, bilişim okur-yazarlığına sahip bilgisayar
-kullanıcılarının temel masaüstü ihtiyaçlarını belirlemiş, proje kapsamında
-geliştirilen araçları ile kurulum, yapılandırma ve kullanım kolaylığı
-sunan bir GNU/Linux dağıtımıdır.
+  HREF="#foot339"><SUP>20</SUP></A>, 2003 yÄ±lÄ±ndan bu yana TÃ¼bitak/UEKAE bÃ¼nyesinde geliÅŸtirilmekte olan,
+Ã¶ncelikli hedefi olarak, biliÅŸim okur-yazarlÄ±ÄŸÄ±na sahip bilgisayar
+kullanÄ±cÄ±larÄ±nÄ±n temel masaÃ¼stÃ¼ ihtiyaÃ§larÄ±nÄ± belirlemiÅŸ, proje kapsamÄ±nda
+geliÅŸtirilen araÃ§larÄ± ile kurulum, yapÄ±landÄ±rma ve kullanÄ±m kolaylÄ±ÄŸÄ±
+sunan bir GNU/Linux daÄŸÄ±tÄ±mÄ±dÄ±r.
 
 <P>
-Pardus sürümleri &#34;Kurulan&#34; ve &#34;Çalışan&#34;
-olmak üzere iki farklı CD halinde yayınlanmaktadır. Yaklaşık 3 aylık
-aralıklarla ara sürümler ve yılda bir kez de yeni sürüm sunulmaktadır.
-Bu yazının yazıldığı tarih itibariyle Pardus'un son sürümü 2008.1
-Hyaena Hyaena'dır.
+Pardus sÃ¼rÃ¼mleri &#34;Kurulan&#34; ve &#34;Ã‡alÄ±ÅŸan&#34;
+olmak Ã¼zere iki farklÄ± CD halinde yayÄ±nlanmaktadÄ±r. YaklaÅŸÄ±k 3 aylÄ±k
+aralÄ±klarla ara sÃ¼rÃ¼mler ve yÄ±lda bir kez de yeni sÃ¼rÃ¼m sunulmaktadÄ±r.
+Bu yazÄ±nÄ±n yazÄ±ldÄ±ÄŸÄ± tarih itibariyle Pardus'un son sÃ¼rÃ¼mÃ¼ 2008.1
+Hyaena Hyaena'dÄ±r.
 
 <P>
-Pardus, grafik arayüze sahip kurulum aracı YALI sayesinde, her düzeydeki
-kullanıcılar tarafından birkaç basit adımda kolayca kurulabilir.
+Pardus, grafik arayÃ¼ze sahip kurulum aracÄ± YALI sayesinde, her dÃ¼zeydeki
+kullanÄ±cÄ±lar tarafÄ±ndan birkaÃ§ basit adÄ±mda kolayca kurulabilir.
 
 <P>
-Pardus projesi kapsamında geliştirilen PiSi paket yöneticisini kullanan
-Pardus, deposundaki yazılımları sistem kararlılığını bozmayacak düzeyde
-güncel tutarak kullanıcılarına &#34;güncel&#34; ve &#34;kararlı&#34;
-bir yapı sunmaktadır. Güvenlik güncellemeleri dışındaki güncellemeler,
-öncelikle &#34;test&#34; deposuna alınarak, paket özelinde
-ve depo genelinde oluşabilecek olumsuz durumlara karşı bir dizi teste
-tabi tutulur, sorunsuz olduğuna karar verilen paketler kararlı depoya
-aktarılır.
+Pardus projesi kapsamÄ±nda geliÅŸtirilen PiSi paket yÃ¶neticisini kullanan
+Pardus, deposundaki yazÄ±lÄ±mlarÄ± sistem kararlÄ±lÄ±ÄŸÄ±nÄ± bozmayacak dÃ¼zeyde
+gÃ¼ncel tutarak kullanÄ±cÄ±larÄ±na &#34;gÃ¼ncel&#34; ve &#34;kararlÄ±&#34;
+bir yapÄ± sunmaktadÄ±r. GÃ¼venlik gÃ¼ncellemeleri dÄ±ÅŸÄ±ndaki gÃ¼ncellemeler,
+Ã¶ncelikle &#34;test&#34; deposuna alÄ±narak, paket Ã¶zelinde
+ve depo genelinde oluÅŸabilecek olumsuz durumlara karÅŸÄ± bir dizi teste
+tabi tutulur, sorunsuz olduÄŸuna karar verilen paketler kararlÄ± depoya
+aktarÄ±lÄ±r.
 
 <P>
-Ulusal bir dağıtım olma hedefinin yanı sıra Türkiye'de özgür yazılımın
-yayılmasını ve bir özgür yazılım ekosistemi oluşmasını da amaçlayan
-Pardus, bu amaç doğrultusunda oluşturduğu e-posta listeleri, kullanıcı
-forumları, belgeleme sistemi ve benzeri yapılarla Türkiye'deki kullanıcıların
-kendi dillerinde daha çok belge bulabilmelerini ve destek alabilmelerini
-sağlamaktadır. Bunun yanında çeşitli gönüllü girişimler de Pardus
-kullanıcılarına ek paket depoları ve yardım kanalları sunmaktadır.
+Ulusal bir daÄŸÄ±tÄ±m olma hedefinin yanÄ± sÄ±ra TÃ¼rkiye'de Ã¶zgÃ¼r yazÄ±lÄ±mÄ±n
+yayÄ±lmasÄ±nÄ± ve bir Ã¶zgÃ¼r yazÄ±lÄ±m ekosistemi oluÅŸmasÄ±nÄ± da amaÃ§layan
+Pardus, bu amaÃ§ doÄŸrultusunda oluÅŸturduÄŸu e-posta listeleri, kullanÄ±cÄ±
+forumlarÄ±, belgeleme sistemi ve benzeri yapÄ±larla TÃ¼rkiye'deki kullanÄ±cÄ±larÄ±n
+kendi dillerinde daha Ã§ok belge bulabilmelerini ve destek alabilmelerini
+saÄŸlamaktadÄ±r. Bunun yanÄ±nda Ã§eÅŸitli gÃ¶nÃ¼llÃ¼ giriÅŸimler de Pardus
+kullanÄ±cÄ±larÄ±na ek paket depolarÄ± ve yardÄ±m kanallarÄ± sunmaktadÄ±r.
 
 <P>
 <DL>
 <DT><STRONG>(+)</STRONG></DT>
-<DD>Kolay kurulum, kolay kullanımlı sistem araçları, güncel paket
-deposu, hızlı ve pratik paket yönetim sistemi
+<DD>Kolay kurulum, kolay kullanÄ±mlÄ± sistem araÃ§larÄ±, gÃ¼ncel paket
+deposu, hÄ±zlÄ± ve pratik paket yÃ¶netim sistemi
 </DD>
 <DT><STRONG>(-)</STRONG></DT>
-<DD>Yansı sayısının azlığı, Pardus araçları ile ilgili dokümanların
-az olması, 64 bit sürümünün bulunmaması, sadece standart kurulumu
+<DD>YansÄ± sayÄ±sÄ±nÄ±n azlÄ±ÄŸÄ±, Pardus araÃ§larÄ± ile ilgili dokÃ¼manlarÄ±n
+az olmasÄ±, 64 bit sÃ¼rÃ¼mÃ¼nÃ¼n bulunmamasÄ±, sadece standart kurulumu
 desteklemesi
 </DD>
 <DT><STRONG>(PYS)</STRONG></DT>
 <DD>PiSi
 </DD>
-<DT><STRONG>(İnternet)</STRONG></DT>
-<DD>ISO'ları Türkiye'deki bir çok yansı ve yurt dışındaki
-birkaç yansı tarafından sunuluyor.
+<DT><STRONG>(Ä°nternet)</STRONG></DT>
+<DD>ISO'larÄ± TÃ¼rkiye'deki bir Ã§ok yansÄ± ve yurt dÄ±ÅŸÄ±ndaki
+birkaÃ§ yansÄ± tarafÄ±ndan sunuluyor.
 </DD>
 </DL>
 
@@ -1347,91 +1347,91 @@ birkaç yansı tarafından sunuluyor.
 
 <P>
 Slackware Linux<A NAME="tex2html42"
-  HREF="#foot340"><SUP>21</SUP></A>, Patrick Volkerding tarafından 1992 de yaratılmış olan en eski Linux
-dağıtımıdır. Grafiksel konfigürasyon araçları ve basit arayüzler sunmaktan
-ziyade, sizin Linux'a aşina olmanızı bekleyen bir yapıya sahiptir.
-Diğer dağıtımlar geliştirmesi zor fakat kullanması kolay arayüzler
-sunarken, Slackware'de her şeyi konfigürasyon dosyalarına bizzat el
-atarak halletmeniz gerekir. Bundan dolayı Slackware kullanmayı düşünen
-acemiler Linux öğrenmek için zaman harcamaya hazır olmalıdırlar.
+  HREF="#foot340"><SUP>21</SUP></A>, Patrick Volkerding tarafÄ±ndan 1992 de yaratÄ±lmÄ±ÅŸ olan en eski Linux
+daÄŸÄ±tÄ±mÄ±dÄ±r. Grafiksel konfigÃ¼rasyon araÃ§larÄ± ve basit arayÃ¼zler sunmaktan
+ziyade, sizin Linux'a aÅŸina olmanÄ±zÄ± bekleyen bir yapÄ±ya sahiptir.
+DiÄŸer daÄŸÄ±tÄ±mlar geliÅŸtirmesi zor fakat kullanmasÄ± kolay arayÃ¼zler
+sunarken, Slackware'de her ÅŸeyi konfigÃ¼rasyon dosyalarÄ±na bizzat el
+atarak halletmeniz gerekir. Bundan dolayÄ± Slackware kullanmayÄ± dÃ¼ÅŸÃ¼nen
+acemiler Linux Ã¶ÄŸrenmek iÃ§in zaman harcamaya hazÄ±r olmalÄ±dÄ±rlar.
 
 <P>
-Bununla birlikte, Slackware'in bir çok kullanıcı üzerinde karşı konulmaz
-bir büyüsü vardır. Yüksek düzeyde kararlı ve güvenli bir yapısı vardır
-- sunucu olarak kullanmaya son derece uygundur. Deneyimli Linux yöneticileri
-onu, dağıtım üreticilerinin çeşitli yamaları ve eklentilerinin azlığından
-dolayı hatasız ve kararlı bulurlar. Yeni versiyonlarının dağıtım sıklığı
-düşüktür (yaklaşık yılda bir kez ), ancak güncel paketleri her zaman
+Bununla birlikte, Slackware'in bir Ã§ok kullanÄ±cÄ± Ã¼zerinde karÅŸÄ± konulmaz
+bir bÃ¼yÃ¼sÃ¼ vardÄ±r. YÃ¼ksek dÃ¼zeyde kararlÄ± ve gÃ¼venli bir yapÄ±sÄ± vardÄ±r
+- sunucu olarak kullanmaya son derece uygundur. Deneyimli Linux yÃ¶neticileri
+onu, daÄŸÄ±tÄ±m Ã¼reticilerinin Ã§eÅŸitli yamalarÄ± ve eklentilerinin azlÄ±ÄŸÄ±ndan
+dolayÄ± hatasÄ±z ve kararlÄ± bulurlar. Yeni versiyonlarÄ±nÄ±n daÄŸÄ±tÄ±m sÄ±klÄ±ÄŸÄ±
+dÃ¼ÅŸÃ¼ktÃ¼r (yaklaÅŸÄ±k yÄ±lda bir kez ), ancak gÃ¼ncel paketleri her zaman
 bulunabilmektedir. Slackware, Linux ile ilgili derinlemesine bilgi
-sahibi olmak isteyenler için ideal bir dağıtımdır.
+sahibi olmak isteyenler iÃ§in ideal bir daÄŸÄ±tÄ±mdÄ±r.
 
 <P>
 <DL>
 <DT><STRONG>(+)</STRONG></DT>
-<DD>Yüksek kararlılık, daha az hata, UNIX prensiplerine sıkı
-bağlılık. 
+<DD>YÃ¼ksek kararlÄ±lÄ±k, daha az hata, UNIX prensiplerine sÄ±kÄ±
+baÄŸlÄ±lÄ±k. 
 </DD>
 <DT><STRONG>(-)</STRONG></DT>
-<DD>Neredeyse hiç konfigürasyon aracı olmaması, yeni kullanıcılar
-için zor kurulum. 
+<DD>Neredeyse hiÃ§ konfigÃ¼rasyon aracÄ± olmamasÄ±, yeni kullanÄ±cÄ±lar
+iÃ§in zor kurulum. 
 </DD>
 <DT><STRONG>(PYS)</STRONG></DT>
 <DD>TGZ 
 </DD>
 <DT><STRONG>(Internet)</STRONG></DT>
-<DD>Bir çok ülkedeki yansıları ile yüksek erişilebilirlikte..
+<DD>Bir Ã§ok Ã¼lkedeki yansÄ±larÄ± ile yÃ¼ksek eriÅŸilebilirlikte..
 </DD>
 </DL>
 
 <P>
 
 <h3><a class="dagitim" NAME="SECTION000310100000000000000">
-2.10.1 Doruk Fişek'in Slackware Hakkındaki Yorumu</A>
+2.10.1 Doruk FiÅŸek'in Slackware HakkÄ±ndaki Yorumu</A>
 </H3>
 
 <P>
 <BLOCKQUOTE>
-Nisan 1993'te yayınlanan ilk sürümünden beri Slackware, en UNIX-vari
-Linux dağıtımı olmayı hedefliyor.
+Nisan 1993'te yayÄ±nlanan ilk sÃ¼rÃ¼mÃ¼nden beri Slackware, en UNIX-vari
+Linux daÄŸÄ±tÄ±mÄ± olmayÄ± hedefliyor.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Slackware'i bir dağıtım olarak tek bir kelimeyle tanımlamak gerekseydi,
-bu herhalde &#34;basit&#34; olurdu. Koruduğu basit yapısı;
-kavranmasını, hakim olunmasını ve yönetilmesini kolaylaştırır.
+<BLOCKQUOTE>Slackware'i bir daÄŸÄ±tÄ±m olarak tek bir kelimeyle tanÄ±mlamak gerekseydi,
+bu herhalde &#34;basit&#34; olurdu. KoruduÄŸu basit yapÄ±sÄ±;
+kavranmasÄ±nÄ±, hakim olunmasÄ±nÄ±Â ve yÃ¶netilmesini kolaylaÅŸtÄ±rÄ±r.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Genellikle popüler dağıtımlar, kendi kullanıcılarının arzularını karşılayabilmek
-için arka planda ciddi anlamda karmaşık yapılara yönelirler. Sistemi
-gerçek anlamda tanıyarak dağıtımın kendi yönetim araçları dışında
-sisteme müdahale edebilmek için ciddi bir efor ve zaman gerekebilir.
-Üstelik kendilerine özgü oluşturdukları karmaşık yapılarına özgür
-yazılımların geliştirildikleri gibi monte edilebilmesi de oldukça
-zordur. Bu nedenle yazılımlarda dağıtıma özgü ciddi değişiklikler
-(yamalar) yapmak durumunda kalırlar.
+<BLOCKQUOTE>Genellikle popÃ¼ler daÄŸÄ±tÄ±mlar, kendi kullanÄ±cÄ±larÄ±nÄ±n arzularÄ±nÄ±Â karÅŸÄ±layabilmek
+iÃ§in arka planda ciddi anlamda karmaÅŸÄ±k yapÄ±lara yÃ¶nelirler. Sistemi
+gerÃ§ek anlamda tanÄ±yarak daÄŸÄ±tÄ±mÄ±n kendi yÃ¶netim araÃ§larÄ± dÄ±ÅŸÄ±nda
+sisteme mÃ¼dahale edebilmek iÃ§in ciddi bir efor ve zaman gerekebilir.
+Ãœstelik kendilerine Ã¶zgÃ¼ oluÅŸturduklarÄ± karmaÅŸÄ±k yapÄ±larÄ±na Ã¶zgÃ¼r
+yazÄ±lÄ±mlarÄ±n geliÅŸtirildikleri gibi monte edilebilmesi de oldukÃ§a
+zordur. Bu nedenle yazÄ±lÄ±mlarda daÄŸÄ±tÄ±ma Ã¶zgÃ¼ ciddi deÄŸiÅŸiklikler
+(yamalar) yapmak durumunda kalÄ±rlar.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Slackware ise tüm bu karmaşadan uzak durarak, gelişimini özgür yazılımların
-gelişimine paralel olarak devam ettirir. Her derde deva olmaya çalışmak
-yerine özgür yazılım dünyasının bir 'ayna'sı görevi görür - ne eksiğini,
-ne de fazlasını yansıtır. Basit yapısı sayesinde yazılımların yeni
-sürümleri kolaylıkla dağıtıma katılır. Slackware'in en güncel sürümünü
-içeren -current ağacı, birçok dağıtımdan daha güncel yazılımlar içerir.
+<BLOCKQUOTE>Slackware ise tÃ¼m bu karmaÅŸadan uzak durarak, geliÅŸimini Ã¶zgÃ¼r yazÄ±lÄ±mlarÄ±n
+geliÅŸimine paralel olarak devam ettirir. Her derde deva olmaya Ã§alÄ±ÅŸmak
+yerine Ã¶zgÃ¼r yazÄ±lÄ±m dÃ¼nyasÄ±nÄ±n bir 'ayna'sÄ± gÃ¶revi gÃ¶rÃ¼r - ne eksiÄŸini,
+ne de fazlasÄ±nÄ± yansÄ±tÄ±r. Basit yapÄ±sÄ± sayesinde yazÄ±lÄ±mlarÄ±n yeni
+sÃ¼rÃ¼mleri kolaylÄ±kla daÄŸÄ±tÄ±ma katÄ±lÄ±r. Slackware'in en gÃ¼ncel sÃ¼rÃ¼mÃ¼nÃ¼
+iÃ§eren -current aÄŸacÄ±, birÃ§ok daÄŸÄ±tÄ±mdan daha gÃ¼ncel yazÄ±lÄ±mlar iÃ§erir.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Slackware'de sürümler arasında dağıtımın yapısında ciddi değişiklikler
-olmaz. Dağıtımın yapısının sürekliliği, kullanıcının dağıtım ile uğraşmak
-yerine yazılımların yeni sürümlerine ve özelliklerine odaklanmasına
-olanak tanır. 
+<BLOCKQUOTE>Slackware'de sÃ¼rÃ¼mler arasÄ±nda daÄŸÄ±tÄ±mÄ±n yapÄ±sÄ±nda ciddi deÄŸiÅŸiklikler
+olmaz. DaÄŸÄ±tÄ±mÄ±n yapÄ±sÄ±nÄ±n sÃ¼rekliliÄŸi, kullanÄ±cÄ±nÄ±n daÄŸÄ±tÄ±m ile uÄŸraÅŸmak
+yerine yazÄ±lÄ±mlarÄ±n yeni sÃ¼rÃ¼mlerine ve Ã¶zelliklerine odaklanmasÄ±na
+olanak tanÄ±r. 
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Slackware size sistemi arada başka bir katman olmaksızın kontrol etmenize
-ve kendi işinizi kendinizin yapmasına olanak tanır. Öte yandan bu,
-ne yaptığınızı biliyor olmanızı ya da öğrenmenizi de gerektirir.
+<BLOCKQUOTE>Slackware size sistemi arada baÅŸka bir katman olmaksÄ±zÄ±n kontrol etmenize
+ve kendi iÅŸinizi kendinizin yapmasÄ±na olanak tanÄ±r. Ã–te yandan bu,
+ne yaptÄ±ÄŸÄ±nÄ±zÄ± biliyor olmanÄ±zÄ± ya da Ã¶ÄŸrenmenizi de gerektirir.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Linux'un günümüzdeki kadar kitleselleşmediği bir dönemin en yaygın
-dağıtımlarından olan Slackware, hala UNIX köklerine bağlı kalmayı
-tercih eden Linux kullanıcıları tarafından tercih edilmeye devam ediliyor.
+<BLOCKQUOTE>Linux'un gÃ¼nÃ¼mÃ¼zdeki kadar kitleselleÅŸmediÄŸi bir dÃ¶nemin en yaygÄ±n
+daÄŸÄ±tÄ±mlarÄ±ndanÂ olan Slackware, hala UNIX kÃ¶klerine baÄŸlÄ± kalmayÄ±
+tercih eden Linux kullanÄ±cÄ±larÄ± tarafÄ±ndan tercih edilmeye devam ediliyor.
 
 </BLOCKQUOTE>
 
@@ -1451,150 +1451,150 @@ tercih eden Linux kullanıcıları tarafından tercih edilmeye devam ediliyor.
  >
 
 <P>
-Ubuntu Canonical Ltd. Tarafından başlatılan ve finanse edilen bir
-açık kaynak işletim sistemi projesidir. İlk sürümü Ubuntu 4.10 Warty
-Warthog 2004 Kasım ayında dağıtılmaya başlanmıştır.
-Ayrıca kurulum medyalarını posta yoluyla ücretsiz olarak son kullanıcıya
-ulaştıran ilk dağıtımdır. 
+Ubuntu Canonical Ltd. TarafÄ±ndan baÅŸlatÄ±lan ve finanse edilen bir
+aÃ§Ä±k kaynak iÅŸletim sistemi projesidir. Ä°lk sÃ¼rÃ¼mÃ¼ Ubuntu 4.10 Warty
+Warthog 2004 KasÄ±m ayÄ±nda daÄŸÄ±tÄ±lmaya baÅŸlanmÄ±ÅŸtÄ±r.
+AyrÄ±ca kurulum medyalarÄ±nÄ± posta yoluyla Ã¼cretsiz olarak son kullanÄ±cÄ±ya
+ulaÅŸtÄ±ran ilk daÄŸÄ±tÄ±mdÄ±r. 
 
 <P>
-Güney Afrikalı bir şirket tarafından yürütüldüğü halde açık kaynak
-olan bu dağıtım, arkasına aldığı bu güçle beraber bir çok son kullanıcının
-bilgisayarında tercih ettiği dağıtım olmuştur. 2007 yılında yapılmış
-olan bir araştırmanın sonucuna göre<A NAME="tex2html44"
-  HREF="#foot341"><SUP>22</SUP></A> GNU/Linux kullanıcılarının %30 gibi büyük bir kısmı bilgisayarlarında
-Ubuntu kullanmaktadır. 
+GÃ¼ney AfrikalÄ± bir ÅŸirket tarafÄ±ndan yÃ¼rÃ¼tÃ¼ldÃ¼ÄŸÃ¼ halde aÃ§Ä±k kaynak
+olan bu daÄŸÄ±tÄ±m, arkasÄ±na aldÄ±ÄŸÄ± bu gÃ¼Ã§le beraber bir Ã§ok son kullanÄ±cÄ±nÄ±n
+bilgisayarÄ±nda tercih ettiÄŸi daÄŸÄ±tÄ±m olmuÅŸtur. 2007 yÄ±lÄ±nda yapÄ±lmÄ±ÅŸ
+olan bir araÅŸtÄ±rmanÄ±n sonucuna gÃ¶re<A NAME="tex2html44"
+  HREF="#foot341"><SUP>22</SUP></A> GNU/Linux kullanÄ±cÄ±larÄ±nÄ±n %30 gibi bÃ¼yÃ¼k bir kÄ±smÄ± bilgisayarlarÄ±nda
+Ubuntu kullanmaktadÄ±r. 
 
 <P>
-Ubuntu genel olarak basit ve kullanışlıdır. Son kullanıcı hiç bir
-sıkıntı çekmeden bilgisayarına kurup sorun yaşamadan kullanmaya başlayabilir.
+Ubuntu genel olarak basit ve kullanÄ±ÅŸlÄ±dÄ±r. Son kullanÄ±cÄ± hiÃ§ bir
+sÄ±kÄ±ntÄ± Ã§ekmeden bilgisayarÄ±na kurup sorun yaÅŸamadan kullanmaya baÅŸlayabilir.
 
 <P>
 <DL>
 <DT><STRONG>(+)</STRONG></DT>
-<DD>Geniş kullanım alanı, kararlı ve güncel olması , grafiksel
-kurulum, grafiksel yapılandırma araçları, iyi belgelendirme, her dilde
-yeterli miktarda kaynak sunması, aktif topluluk.
+<DD>GeniÅŸ kullanÄ±m alanÄ±, kararlÄ± ve gÃ¼ncel olmasÄ± , grafiksel
+kurulum, grafiksel yapÄ±landÄ±rma araÃ§larÄ±, iyi belgelendirme, her dilde
+yeterli miktarda kaynak sunmasÄ±, aktif topluluk.
 </DD>
 <DT><STRONG>(-)</STRONG></DT>
-<DD>İleri düzey kullanıcılara hitap etmiyor olması, sürüm güncellemelerinde
-hatalar yaşanması.
+<DD>Ä°leri dÃ¼zey kullanÄ±cÄ±lara hitap etmiyor olmasÄ±, sÃ¼rÃ¼m gÃ¼ncellemelerinde
+hatalar yaÅŸanmasÄ±.
 </DD>
 <DT><STRONG>(PYS)</STRONG></DT>
 <DD>DEB
 </DD>
 <DT><STRONG>(Internet)</STRONG></DT>
-<DD>Birçok ülkede ve birçok şehirde yansıları ile yüksek
-erişilebilirlik.
+<DD>BirÃ§ok Ã¼lkede ve birÃ§ok ÅŸehirde yansÄ±larÄ± ile yÃ¼ksek
+eriÅŸilebilirlik.
 </DD>
 </DL>
 
 <P>
 
 <h3><a class="dagitim" NAME="SECTION000311100000000000000">
-2.11.1 D. Uğur Karatay'ın Ubuntu Hakkındaki Yorumu</A>
+2.11.1 D. UÄŸur Karatay'Ä±n Ubuntu HakkÄ±ndaki Yorumu</A>
 </H3>
 
 <P>
 <BLOCKQUOTE>
-Ubuntu ile ilk tanışmam 2004 yılındaki sürümle başlamıştır. O zamana
-kadar GNU/Linux kullanmamıştım. İlk sürümüyle bile son kullanıcı dostu
-olması beni çok etkilemiştir. Ayrıca işi bilgisayarlarla alakalı olmayan
-ama bilgisayarında özgür yazılımlar kullanmak isteyen son kullanıcılar
-için çok az uğraş ile kararlı ve kullanılabilir hale gelen bir dağıtım
-olması da daha sonra denediğim diğer dağıtımlardan vazgeçip Ubuntu'ya
-dönmemi sağladı. 2004 yılının Kasım ayından beri bilgisayarımda sadece
-GNU/Linux kullanıyorum, genel olarakta Ubuntu ve türevlerini kullandım.
-Buna rağmen başka bir işletim sistemine hiç ihtiyaç duymadığımı rahatlıkla
-söyleyebilirim. Dışarıda bilgisayar kullanmam gerektiği zaman taşınabilir
-belleğime kurduğum Ubuntu ile işlerimi rahatlıkla hallediyorum.
+Ubuntu ile ilk tanÄ±ÅŸmam 2004 yÄ±lÄ±ndaki sÃ¼rÃ¼mle baÅŸlamÄ±ÅŸtÄ±r. O zamana
+kadar GNU/Linux kullanmamÄ±ÅŸtÄ±m. Ä°lk sÃ¼rÃ¼mÃ¼yle bile son kullanÄ±cÄ± dostu
+olmasÄ± beni Ã§ok etkilemiÅŸtir. AyrÄ±ca iÅŸi bilgisayarlarla alakalÄ± olmayan
+ama bilgisayarÄ±nda Ã¶zgÃ¼r yazÄ±lÄ±mlar kullanmak isteyen son kullanÄ±cÄ±lar
+iÃ§in Ã§ok az uÄŸraÅŸ ile kararlÄ± ve kullanÄ±labilir hale gelen bir daÄŸÄ±tÄ±m
+olmasÄ± da daha sonra denediÄŸim diÄŸer daÄŸÄ±tÄ±mlardan vazgeÃ§ip Ubuntu'ya
+dÃ¶nmemi saÄŸladÄ±. 2004 yÄ±lÄ±nÄ±n KasÄ±m ayÄ±ndan beri bilgisayarÄ±mda sadece
+GNU/Linux kullanÄ±yorum, genel olarakta Ubuntu ve tÃ¼revlerini kullandÄ±m.
+Buna raÄŸmen baÅŸka bir iÅŸletim sistemine hiÃ§ ihtiyaÃ§ duymadÄ±ÄŸÄ±mÄ± rahatlÄ±kla
+sÃ¶yleyebilirim. DÄ±ÅŸarÄ±da bilgisayar kullanmam gerektiÄŸi zaman taÅŸÄ±nabilir
+belleÄŸime kurduÄŸum Ubuntu ile iÅŸlerimi rahatlÄ±kla hallediyorum.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Biraz teknik özelliklerden bahsetmek gerekirse, Sunucu ve masaüstü
-sürümleri olarak iki farklı şekilde ulaşabilir durumda Ubuntu. Bunun
-yararı ise kullanıcıyı gereksiz paketleri yükleme ve onları kaldırma
-işinden uzak tutması. Bir nevi ihtiyaç duyulanı ihtiyaç duyana vermesi
-ve fazlasını yapmak için özel bir çaba göstermemesi de artı puan olarak
-geri dönüyor. Ayrıca 18 ayda bir çıkan LTS sürümleri kullanıcıların
-gerekli gördükleri takdirde 18 ay boyunca sistemlerini hiç değiştirmeden
-güncellemeleri ve yardım almalarını sağlıyor. Çok yaygın olması ekstra
-puan kazandırıyor. 55 dilde kullanıcılarına destek sunması ve topluluk
-desteğinin çok güçlü olması Ubuntu'yu yeni başlayan ve sadece işini
-görmek isteyen son kullanıcılar için vazgeçilmez yapıyor. Debian tabanlı
-bir dağıtım olması nedeniyle paket yönetim sistemi olarak APT kullanıyor
-ve bu son kullanıcı için çok büyük kolaylıklar sunuyor. Lazım olan
-herhangi bir paketi kurmak için paket yöneticisinden seçmek ve kur
-demek yeterli oluyor. Eğer terminale alışıksanız yine tek bir komut
-işinizi hallediyor. 6.06 sürümüne kadar PPC ve Sparc mimarilerine
-de destek veren Ubuntu artık sadece x86 ve amd64 mimarilerine destek
-vermekte ama bu bir eksi puan kazandırmıyor. Nedeni ise hedeflenen
-masaüstü kullanıcısının zaten bu iki mimariden birine sahip olması.
+<BLOCKQUOTE>Biraz teknik Ã¶zelliklerden bahsetmek gerekirse, Sunucu ve masaÃ¼stÃ¼
+sÃ¼rÃ¼mleri olarak iki farklÄ± ÅŸekilde ulaÅŸabilir durumda Ubuntu. Bunun
+yararÄ± ise kullanÄ±cÄ±yÄ± gereksiz paketleri yÃ¼kleme ve onlarÄ± kaldÄ±rma
+iÅŸinden uzak tutmasÄ±. Bir nevi ihtiyaÃ§ duyulanÄ± ihtiyaÃ§ duyana vermesi
+ve fazlasÄ±nÄ± yapmak iÃ§in Ã¶zel bir Ã§aba gÃ¶stermemesi de artÄ± puan olarak
+geri dÃ¶nÃ¼yor. AyrÄ±ca 18 ayda bir Ã§Ä±kan LTS sÃ¼rÃ¼mleri kullanÄ±cÄ±larÄ±n
+gerekli gÃ¶rdÃ¼kleri takdirde 18 ay boyunca sistemlerini hiÃ§ deÄŸiÅŸtirmeden
+gÃ¼ncellemeleri ve yardÄ±m almalarÄ±nÄ± saÄŸlÄ±yor. Ã‡ok yaygÄ±n olmasÄ± ekstra
+puan kazandÄ±rÄ±yor. 55 dilde kullanÄ±cÄ±larÄ±na destek sunmasÄ± ve topluluk
+desteÄŸinin Ã§ok gÃ¼Ã§lÃ¼ olmasÄ± Ubuntu'yu yeni baÅŸlayan ve sadece iÅŸini
+gÃ¶rmek isteyen son kullanÄ±cÄ±lar iÃ§in vazgeÃ§ilmez yapÄ±yor. Debian tabanlÄ±
+bir daÄŸÄ±tÄ±m olmasÄ± nedeniyle paket yÃ¶netim sistemi olarak APT kullanÄ±yor
+ve bu son kullanÄ±cÄ± iÃ§in Ã§ok bÃ¼yÃ¼k kolaylÄ±klar sunuyor. LazÄ±m olan
+herhangi bir paketi kurmak iÃ§in paket yÃ¶neticisinden seÃ§mek ve kur
+demek yeterli oluyor. EÄŸer terminale alÄ±ÅŸÄ±ksanÄ±z yine tek bir komut
+iÅŸinizi hallediyor. 6.06 sÃ¼rÃ¼mÃ¼ne kadar PPC ve Sparc mimarilerine
+de destek veren Ubuntu artÄ±k sadece x86 ve amd64 mimarilerine destek
+vermekte ama bu bir eksi puan kazandÄ±rmÄ±yor. Nedeni ise hedeflenen
+masaÃ¼stÃ¼ kullanÄ±cÄ±sÄ±nÄ±n zaten bu iki mimariden birine sahip olmasÄ±.
 </BLOCKQUOTE>
 <P>
-<BLOCKQUOTE>Sonuç olarak son kullanıcıyı hedefleyen bir dağıtım olması sebebiyle
-ileri düzey kullanıcılara hitap etmeyen, hızlı ve kolay kurulum, yüksek
-kullanılabilirlikle evlerimizde ve iş yerlerimizde düzenli olarak
-kullanabileceğimiz bir dağıtım olarak size iyi bir ortam sunar.
+<BLOCKQUOTE>SonuÃ§ olarak son kullanÄ±cÄ±yÄ± hedefleyen bir daÄŸÄ±tÄ±m olmasÄ± sebebiyle
+ileri dÃ¼zey kullanÄ±cÄ±lara hitap etmeyen, hÄ±zlÄ± ve kolay kurulum, yÃ¼ksek
+kullanÄ±labilirlikle evlerimizde ve iÅŸ yerlerimizde dÃ¼zenli olarak
+kullanabileceÄŸimiz bir daÄŸÄ±tÄ±m olarak size iyi bir ortam sunar.
 
 </BLOCKQUOTE>
 
 <P>
 
 <H1><A NAME="SECTION00040000000000000000">
-3 Teşekkürler</A>
+3 TeÅŸekkÃ¼rler</A>
 </H1>
 
 <P>
 
 <UL>
-<LI>Alp Öztarhan
+<LI>Alp Ã–ztarhan
 </LI>
 <LI>Alper Kanat
 </LI>
-<LI>Doruk Fişek
+<LI>Doruk FiÅŸek
 </LI>
-<LI>D. Uğur Karatay
+<LI>D. UÄŸur Karatay
 </LI>
-<LI>Engin İlkiz
+<LI>Engin Ä°lkiz
 </LI>
-<LI>Enver Altın
+<LI>Enver AltÄ±n
 </LI>
-<LI>Fatih Altınok
+<LI>Fatih AltÄ±nok
 </LI>
-<LI>Murat Koç
+<LI>Murat KoÃ§
 </LI>
-<LI>S. Çağlar Onur
+<LI>S. Ã‡aÄŸlar Onur
 </LI>
-<LI>Serbülent Ünsal 
+<LI>SerbÃ¼lent Ãœnsal 
 </LI>
 <LI>T. Koray Peksayar
 </LI>
-<LI>Türker Sezer
+<LI>TÃ¼rker Sezer
 </LI>
 </UL>
 
 <P>
 
 <H1><A NAME="SECTION00050000000000000000">
-4 Yasal Açıklamalar</A>
+4 Yasal AÃ§Ä±klamalar</A>
 </H1>
 
 <P>
 
 <H2><A NAME="SECTION00051000000000000000">
-4.1 Telif Hakkı ve Lisans</A>
+4.1 Telif HakkÄ± ve Lisans</A>
 </H2>
 
 <P>
-Bu belgenin telif hakkı 2004-2008 A. Murat EREN'e aittir. Bu belgeyi,
-Free Software Foundation tarafından yayınlanmış bulunan GNU Özgür
-Belgeleme Lisansının 1.1 ya da daha sonraki sürümünün koşullarına
-bağlı kalarak kopyalayabilir, dağıtabilir ve/veya değiştirebilirsiniz.
-Bu Lisansın bir kopyasını <TT><A NAME="tex2html46"
+Bu belgenin telif hakkÄ± 2004-2008 A. Murat EREN'e aittir. Bu belgeyi,
+Free Software Foundation tarafÄ±ndan yayÄ±nlanmÄ±ÅŸ bulunan GNU Ã–zgÃ¼r
+Belgeleme LisansÄ±nÄ±n 1.1 ya da daha sonraki sÃ¼rÃ¼mÃ¼nÃ¼n koÅŸullarÄ±na
+baÄŸlÄ± kalarak kopyalayabilir, daÄŸÄ±tabilir ve/veya deÄŸiÅŸtirebilirsiniz.
+Bu LisansÄ±n bir kopyasÄ±nÄ± <TT><A NAME="tex2html46"
   HREF="http://www.gnu.org/copyleft/fdl.html">http://www.gnu.org/copyleft/fdl.html</A></TT>adresinde bulabilirsiniz.
 
 <P>
-Linux, Linus Torvalds adına kayıtlı bir ticarî isimdir.
+Linux, Linus Torvalds adÄ±na kayÄ±tlÄ± bir ticarÃ® isimdir.
 
 <P>
 
@@ -1603,26 +1603,26 @@ Linux, Linus Torvalds adına kayıtlı bir ticarî isimdir.
 </H2>
 
 <P>
-Bu belgedeki bilgilerin kullanımından doğacak sorumluluklar, ve olası
-zararlardan belge yazarı sorumlu tutulamaz. Bu belgedeki bilgileri
-uygulama sorumluluğu uygulayana aittir.
+Bu belgedeki bilgilerin kullanÄ±mÄ±ndan doÄŸacak sorumluluklar, ve olasÄ±
+zararlardan belge yazarÄ± sorumlu tutulamaz. Bu belgedeki bilgileri
+uygulama sorumluluÄŸu uygulayana aittir.
 
 <P>
-Tüm telif hakları aksi özellikle belirtilmediği sürece sahibine aittir.
-Belge içinde geçen herhangi bir terim bir ticarî isim ya da kuruma
-itibar kazandırma olarak algılanmamalıdır. Bir ürün ya da markanın
-kullanılmış olması ona onay verildiği anlamında görülmemelidir. 
+TÃ¼m telif haklarÄ± aksi Ã¶zellikle belirtilmediÄŸi sÃ¼rece sahibine aittir.
+Belge iÃ§inde geÃ§en herhangi bir terim bir ticarÃ® isim ya da kuruma
+itibar kazandÄ±rma olarak algÄ±lanmamalÄ±dÄ±r. Bir Ã¼rÃ¼n ya da markanÄ±n
+kullanÄ±lmÄ±ÅŸ olmasÄ± ona onay verildiÄŸi anlamÄ±nda gÃ¶rÃ¼lmemelidir. 
 
 <BR><HR><H4>Dipnotlar</H4>
 <DL>
 <DT><A NAME="foot320"
  HREF="dagitimlar.html#tex2html2"><SUP>1</SUP></A>
-<DD>GNU Web Sayfası <TT><A NAME="tex2html3"
+<DD>GNU Web SayfasÄ± <TT><A NAME="tex2html3"
   HREF="http://www.gnu.org">http://www.gnu.org</A></TT>
 
 <DT><A NAME="foot321"
  HREF="dagitimlar.html#tex2html4"><SUP>2</SUP></A>
-<DD>Linus Torvalds'ın Linux telaffuzu <TT><A NAME="tex2html5"
+<DD>Linus Torvalds'Ä±n Linux telaffuzu <TT><A NAME="tex2html5"
   HREF="http://www.paul.sladen.org/pronunciation/torvalds-says-linux.wav">http://www.paul.sladen.org/pronunciation/torvalds-says-linux.wav</A></TT>
 
 <DT><A NAME="foot322"
@@ -1632,37 +1632,37 @@ kullanılmış olması ona onay verildiği anlamında görülmemelidir.
 
 <DT><A NAME="foot323"
  HREF="dagitimlar.html#tex2html8"><SUP>4</SUP></A>
-<DD>LKD Web Sayfası <TT><A NAME="tex2html9"
+<DD>LKD Web SayfasÄ± <TT><A NAME="tex2html9"
   HREF="http://www.lkd.org.tr">http://www.lkd.org.tr</A></TT>
 
 <DT><A NAME="foot324"
  HREF="dagitimlar.html#tex2html10"><SUP>5</SUP></A>
-<DD>LKD E-posta Listeci Arayüzü <TT><A NAME="tex2html11"
+<DD>LKD E-posta Listeci ArayÃ¼zÃ¼ <TT><A NAME="tex2html11"
   HREF="http://liste.linux.org.tr">http://liste.linux.org.tr</A></TT>
 
 <DT><A NAME="foot325"
  HREF="dagitimlar.html#tex2html12"><SUP>6</SUP></A>
-<DD>Arch Linux Türkiye Topluluğu <TT><A NAME="tex2html13"
+<DD>Arch Linux TÃ¼rkiye TopluluÄŸu <TT><A NAME="tex2html13"
   HREF="http://www.archlinuxtr.org">http://www.archlinuxtr.org</A></TT>
 
 <DT><A NAME="foot326"
  HREF="dagitimlar.html#tex2html14"><SUP>7</SUP></A>
-<DD>Debian Linux Ana Sayfası <TT><A NAME="tex2html15"
+<DD>Debian Linux Ana SayfasÄ± <TT><A NAME="tex2html15"
   HREF="http://www.debian.org">http://www.debian.org</A></TT>
 
 <DT><A NAME="foot327"
  HREF="dagitimlar.html#tex2html16"><SUP>8</SUP></A>
-<DD>RedHat'ın Web Sayfası <TT><A NAME="tex2html17"
+<DD>RedHat'Ä±n Web SayfasÄ± <TT><A NAME="tex2html17"
   HREF="http://www.redhat.com">http://www.redhat.com</A></TT>
 
 <DT><A NAME="foot328"
  HREF="dagitimlar.html#tex2html18"><SUP>9</SUP></A>
-<DD>Fedora Projesi Web Sayfası <TT><A NAME="tex2html19"
+<DD>Fedora Projesi Web SayfasÄ± <TT><A NAME="tex2html19"
   HREF="http://fedora.redhat.com">http://fedora.redhat.com</A></TT>
 
 <DT><A NAME="foot329"
  HREF="dagitimlar.html#tex2html20"><SUP>10</SUP></A>
-<DD>Gentoo Linux Web Sayfası <TT><A NAME="tex2html21"
+<DD>Gentoo Linux Web SayfasÄ± <TT><A NAME="tex2html21"
   HREF="http://www.gentoo.org">http://www.gentoo.org</A></TT>
 
 <DT><A NAME="foot330"
@@ -1672,7 +1672,7 @@ kullanılmış olması ona onay verildiği anlamında görülmemelidir.
 
 <DT><A NAME="foot331"
  HREF="dagitimlar.html#tex2html24"><SUP>12</SUP></A>
-<DD>Gentoo Forumları <TT><A NAME="tex2html25"
+<DD>Gentoo ForumlarÄ± <TT><A NAME="tex2html25"
   HREF="http://forums.gentoo.org">http://forums.gentoo.org</A></TT>
 
 <DT><A NAME="foot332"
@@ -1692,37 +1692,37 @@ kullanılmış olması ona onay verildiği anlamında görülmemelidir.
 
 <DT><A NAME="foot335"
  HREF="dagitimlar.html#tex2html32"><SUP>16</SUP></A>
-<DD>Knoppix'in Web Sayfası <TT><A NAME="tex2html33"
+<DD>Knoppix'in Web SayfasÄ± <TT><A NAME="tex2html33"
   HREF="http://www.knoppix.de">http://www.knoppix.de</A></TT>
 
 <DT><A NAME="foot336"
  HREF="dagitimlar.html#tex2html34"><SUP>17</SUP></A>
-<DD>Klaus Knopper Ropörtajı <TT><A NAME="tex2html35"
+<DD>Klaus Knopper RopÃ¶rtajÄ± <TT><A NAME="tex2html35"
   HREF="http://www.osnews.com/story.php?news_id=2305">http://www.osnews.com/story.php?news_id=2305</A></TT>
 
 <DT><A NAME="foot337"
  HREF="dagitimlar.html#tex2html36"><SUP>18</SUP></A>
-<DD>Knoppix Hakkında bir diğer Makale <TT><A NAME="tex2html37"
+<DD>Knoppix HakkÄ±nda bir diÄŸer Makale <TT><A NAME="tex2html37"
   HREF="http://lwn.net/Articles/31458/">http://lwn.net/Articles/31458/</A></TT>
 
 <DT><A NAME="foot338"
  HREF="dagitimlar.html#tex2html38"><SUP>19</SUP></A>
-<DD>Knoppix Hakkında bir diğer Makale <TT><A NAME="tex2html39"
+<DD>Knoppix HakkÄ±nda bir diÄŸer Makale <TT><A NAME="tex2html39"
   HREF="http://lwn.net/Articles/84851/">http://lwn.net/Articles/84851/</A></TT>
 
 <DT><A NAME="foot339"
  HREF="dagitimlar.html#tex2html40"><SUP>20</SUP></A>
-<DD>Pardus Projesi Web Sayfası <TT><A NAME="tex2html41"
+<DD>Pardus Projesi Web SayfasÄ± <TT><A NAME="tex2html41"
   HREF="http://www.pardus.org.tr">http://www.pardus.org.tr</A></TT>
 
 <DT><A NAME="foot340"
  HREF="dagitimlar.html#tex2html42"><SUP>21</SUP></A>
-<DD>Slackware'in Web Sayfası <TT><A NAME="tex2html43"
+<DD>Slackware'in Web SayfasÄ± <TT><A NAME="tex2html43"
   HREF="http://www.slackware.org">http://www.slackware.org</A></TT>
 
 <DT><A NAME="foot341"
  HREF="dagitimlar.html#tex2html44"><SUP>22</SUP></A>
-<DD>2007 yılında yapılmış bir araştırması <TT><A NAME="tex2html45"
+<DD>2007 yÄ±lÄ±nda yapÄ±lmÄ±ÅŸ bir araÅŸtÄ±rmasÄ± <TT><A NAME="tex2html45"
   HREF="http://www.desktoplinux.com/cgi-bin/survey/survey.cgi?view=archive&amp;id=0813200712407">http://www.desktoplinux.com/cgi-bin/survey/survey.cgi?view=archive&amp;id=0813200712407</A></TT>
 
 </DL>

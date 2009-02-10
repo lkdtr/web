@@ -29,11 +29,11 @@
 <a class="beyaz" href="/">Ana Sayfa</a>
 </td>
 <td align="center"> | </td>
-<td align="center">  <a class="beyaz" href="/iletisim.html">İletişim</a>
+<td align="center">  <a class="beyaz" href="/iletisim.html">Ä°letiÅŸim</a>
 </td>
 <td align="center"> | </td>
 <td align="center">
-<a class="beyaz" target="_blank" href="http://www.lkd.org.tr/">LKD Hakkında</a>
+<a class="beyaz" target="_blank" href="http://www.lkd.org.tr/">LKD HakkÄ±nda</a>
 </td>
 <td width="20%" align="right">
 <a class="beyaz" target="_blank" href="http://www.lkd.org.tr/hakkinda/tarihce">About Us</a>

@@ -1,0 +1,5 @@
+<td width="508" valign="top"><div style="padding-left: 5px;"><h1>Linux Kullanýcýlarý Derneði FTP Sunucusu</h1><a href="ftp://ftp.linux.org.tr/pub/">ftp.linux.org.tr</a> adresinden eriþebileceðiniz ftp sunucumuzdan birçok Linux daðýtýmýna ve özgür yazýlýmýna hýzlý biçimde eriþebilirsiniz. Ftp sunucumuz ile ilgili isteklerinizi ve önerilerinizi <a href="mailto:ftp@linux.org.tr">ftp@linux.org.tr</a> adresine gonderebilirsiniz.<br/> <br/><iframe height="1000" width="100%" src="ftp://ftp.linux.org.tr/pub/">iframe</iframe></div>
+      <table width="100%">
+        <tbody><tr><td align="center"><a target="_NEW" title="OpenOffice.org Türkçe" href="http://tr.openoffice.org/"><img border="0" src="../<?php echo $path; ?><?php echo $resimler; ?>banners/BannerGenel_OpenOfis.gif"/></a></td></tr>
+      </tbody></table>
+    </td>

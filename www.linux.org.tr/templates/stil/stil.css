@@ -1,0 +1,438 @@
+BODY
+{
+    FONT-SIZE: small;
+    FONT-FAMILY: Verdana, sans-serif
+}
+TD
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: verdana, sans-serif
+}
+P
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: verdana, sans-serif;
+    TEXT-ALIGN: justify
+}
+.normal
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: verdana, sans-serif;
+    TEXT-ALIGN: justify
+}
+.sayi
+{
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-ALIGN: right
+}
+.cizgi
+{
+    WIDTH: 1px;
+    BACKGROUND-COLOR: #993333
+}
+.menubaslik
+{
+    PADDING-LEFT: 2.5em;
+    FONT-WEIGHT: 700;
+    FONT-SIZE: x-small;
+    BACKGROUND-IMAGE: url(resimler/baslik_bg.png);
+    VERTICAL-ALIGN: top;
+    COLOR: #666;
+    PADDING-TOP: 3px;
+    FONT-FAMILY: verdana, sans-serif;
+    HEIGHT: 34px
+}
+A:link
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: underline
+}
+A:visited
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: underline
+}
+A:active
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: none
+}
+A.dagitim:hover
+{
+    FONT-SIZE: 11pt;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: none
+}
+H1
+{
+    PADDING-BOTTOM: 1em;
+    COLOR: #333333;
+    PADDING-TOP: 0.5em;
+    BORDER-BOTTOM: #cccccc 1px solid;
+    FONT-FAMILY: Verdana, sans-serif
+}
+H2
+{
+    PADDING-BOTTOM: 1em;
+    COLOR: #666666;
+    PADDING-TOP: 0.5em;
+
+    FONT-FAMILY: Verdana, sans-serif
+}
+
+H3
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11pt;
+    COLOR: #993333;
+    PADDING-TOP: 20px;
+    FONT-FAMILY: Verdana, sans-serif;
+    LETTER-SPACING: 1px
+}
+.cite
+{
+    FONT-SIZE: xx-small;
+    COLOR: #666666;
+    TEXT-ALIGN: right
+}
+.box
+{
+    BORDER-RIGHT: 1px dashed;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: 1px dashed;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: x-small;
+    FLOAT: right;
+    PADDING-BOTTOM: 5px;
+    MARGIN: 10px;
+    BORDER-LEFT: 1px dashed;
+    COLOR: #333333;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: 1px dashed;
+    BACKGROUND-COLOR: #fdfee0;
+    TEXT-ALIGN: left
+}
+.box2
+{
+    BORDER-RIGHT: 1px dashed;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: 1px dashed;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: x-small;
+    FLOAT: left;
+    PADDING-BOTTOM: 5px;
+    MARGIN: 10px;
+    BORDER-LEFT: 1px dashed;
+    COLOR: #333333;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: 1px dashed;
+    BACKGROUND-COLOR: #f4f4f4;
+    TEXT-ALIGN: left
+}
+INPUT.radio
+{
+    BORDER-TOP-WIDTH: 0px;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: x-small;
+    BORDER-BOTTOM-WIDTH: 0px;
+    FONT-FAMILY: Verdana;
+    BORDER-RIGHT-WIDTH: 0px
+}
+INPUT.checkbox
+{
+    BORDER-TOP-WIDTH: 0px;
+    BORDER-LEFT-WIDTH: 0px;
+    FONT-SIZE: x-small;
+    BORDER-BOTTOM-WIDTH: 0px;
+    FONT-FAMILY: Verdana;
+    BORDER-RIGHT-WIDTH: 0px
+}
+INPUT.button
+{
+    BORDER-RIGHT: #666 1px solid;
+    BORDER-TOP: #bababa 1px solid;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9px;
+    BORDER-LEFT: #141414 1px solid;
+    WIDTH: 100%;
+    COLOR: #fff;
+    BORDER-BOTTOM: #141414 1px solid;
+    FONT-FAMILY: verdana, sans-serif;
+    BACKGROUND-COLOR: #4e4e4e
+}
+INPUT.searchBox
+{
+    BORDER-RIGHT: #333333 1px solid;
+    BORDER-TOP: #333333 1px solid;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9px;
+    BORDER-LEFT: #333333 1px solid;
+    BORDER-BOTTOM: #333333 1px solid;
+    FONT-FAMILY: verdana, sans-serif;
+    voice-family: inherit
+}
+INPUT
+{
+    BORDER-RIGHT: #655c52 1px solid;
+    BORDER-TOP: #655c52 1px solid;
+    PADDING-LEFT: 1px;
+    FONT-SIZE: x-small;
+    BORDER-LEFT: #655c52 1px solid;
+    COLOR: #655c52;
+    BORDER-BOTTOM: #655c52 1px solid;
+    FONT-FAMILY: Verdana, sans-serif;
+    BACKGROUND-COLOR: #fefefe
+}
+TEXTAREA
+{
+    BORDER-RIGHT: #655c52 1px solid;
+    BORDER-TOP: #655c52 1px solid;
+    PADDING-LEFT: 1px;
+    FONT-SIZE: x-small;
+    BORDER-LEFT: #655c52 1px solid;
+    COLOR: #655c52;
+    BORDER-BOTTOM: #655c52 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #fefefe
+}
+SELECT
+{
+    BORDER-RIGHT: #655c52 1px solid;
+    BORDER-TOP: #655c52 1px solid;
+    PADDING-LEFT: 1px;
+    FONT-SIZE: x-small;
+    BORDER-LEFT: #655c52 1px solid;
+    COLOR: #655c52;
+    BORDER-BOTTOM: #655c52 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #fefefe
+}
+A.menu:link
+{
+    FONT-SIZE: x-small;
+    COLOR: #666;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: none
+}
+A.menu:visited
+{
+    FONT-SIZE: x-small;
+    COLOR: #666;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: none
+}
+A.menu:active
+{
+    FONT-SIZE: x-small;
+    COLOR: #990000;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: none
+}
+A.menu:hover
+{
+    FONT-SIZE: x-small;
+    COLOR: #660;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: underline
+}
+.section
+{
+    FONT-SIZE: 11px;
+    BORDER-BOTTOM: #993333 6px solid;
+    TEXT-ALIGN: justify
+}
+.haberbaslik
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #009900;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-ALIGN: left
+}
+.urunyesil
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #009900;
+    FONT-FAMILY: Verdana, sans-serif
+}
+A.urun:link
+{
+    FONT-SIZE: 10pt;
+    COLOR: #314918;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: none
+}
+A.urun:visited
+{
+    FONT-SIZE: 10pt;
+    COLOR: #314918;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: none
+}
+A.urun:active
+{
+    FONT-SIZE: 10pt;
+    COLOR: #990000;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: none
+}
+A.urun:hover
+{
+    FONT-SIZE: 10pt;
+    COLOR: #990000;
+    FONT-FAMILY: Verdana, sans-serif;
+    TEXT-DECORATION: underline
+}
+A.beyaz:link
+{
+    FONT-SIZE: x-small;
+    COLOR: #f4f4f4;
+    FONT-FAMILY: Verdana, sans-serif;
+    LETTER-SPACING: 1px;
+    TEXT-DECORATION: none
+}
+A.beyaz:visited
+{
+    FONT-SIZE: x-small;
+    COLOR: #f4f4f4;
+    FONT-FAMILY: Verdana, sans-serif;
+    LETTER-SPACING: 1px;
+    TEXT-DECORATION: none
+}
+A.beyaz:active
+{
+    FONT-SIZE: x-small;
+    COLOR: #f4f4f4;
+    FONT-FAMILY: Verdana, sans-serif;
+    LETTER-SPACING: 1px;
+    TEXT-DECORATION: none
+}
+A.beyaz:hover
+{
+    FONT-SIZE: x-small;
+    COLOR: #ffcc00;
+    FONT-FAMILY: Verdana, sans-serif;
+    LETTER-SPACING: 1px;
+    TEXT-DECORATION: none
+}
+.beyaz
+{
+    FONT-SIZE: x-small;
+    COLOR: #f4f4f4;
+    FONT-FAMILY: Verdana, sans-serif;
+    LETTER-SPACING: 1px;
+    TEXT-DECORATION: none
+}
+.beyaz2
+{
+    FONT-SIZE: 10pt;
+    COLOR: #ffffff;
+    FONT-STYLE: italic;
+    FONT-FAMILY: "Times New Roman", Times, serif
+}
+A.amenu:link
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 7.5pt;
+    COLOR: #aa0000;
+    FONT-FAMILY: Verdana, Arial, sans-serif, sans-serif;
+    TEXT-DECORATION: none
+}
+A.amenu:visited
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 7.5pt;
+    COLOR: #aa0000;
+    FONT-FAMILY: Verdana, Arial, sans-serif, sans-serif;
+    TEXT-DECORATION: none
+}
+A.amenu:active
+{
+    FONT-SIZE: 7.5pt;
+    COLOR: #990000;
+    FONT-FAMILY: Verdana, Arial, sans-serif, sans-serif;
+    TEXT-DECORATION: none
+}
+A.amenu:hover
+{
+    FONT-SIZE: 7.5pt;
+    COLOR: #21261c;
+    FONT-FAMILY: Verdana, Arial, sans-serif, sans-serif;
+    TEXT-DECORATION: underline
+}
+.yesil
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    COLOR: #009900;
+    FONT-FAMILY: Verdana
+}
+.uyari
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #cc0000;
+    FONT-FAMILY: Verdana, sans-serif;
+    LETTER-SPACING: 1px
+}
+.tabbas1
+{
+    BORDER-RIGHT: #93a1be 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: #93a1be 1px solid;
+    PADDING-LEFT: 3px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: x-small;
+    PADDING-BOTTOM: 3px;
+    MARGIN: 1px;
+    BORDER-LEFT: #93a1be 1px solid;
+    COLOR: #333333;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #93a1be 1px solid;
+    BACKGROUND-COLOR: #fedba4;
+    TEXT-DECORATION: none
+}
+.tabloliste1
+{
+    BACKGROUND-COLOR: #eeeeee
+}
+.tabloliste2
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.ModulBaslik
+{
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 3px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: x-small;
+    PADDING-BOTTOM: 3px;
+    MARGIN: 1px;
+    COLOR: #ff9900;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #993300 1px solid;
+    LETTER-SPACING: 1pt;
+    HEIGHT: 24px;
+    TEXT-DECORATION: none
+}
+H2 .yazilim
+{
+    PADDING-BOTTOM: 1em;
+    COLOR: #666666;
+    PADDING-TOP: 0.5em;
+    FONT-FAMILY: Verdana, sans-serif;
+	BORDER-BOTTOM: 0px solid;
+
+}
+.boyut
+{FONT-SIZE: small;}

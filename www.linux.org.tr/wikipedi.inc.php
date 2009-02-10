@@ -1,0 +1,14 @@
+<td width="508" valign="top">
+<p />
+<p />
+<p />
+<p />
+    <table width="500" border="0" align="center">
+      <tbody><tr>
+	  <td colspan="2">
+        <?php //<div style="padding-left:5px;" class=normal> ?>
+<h1>Wikipedia/Vikipedi nedir?</h1><br><a href="http://tr.wikipedia.org" target="_blank">http://tr.wikipedia.org</a><p>Vikipedi açýk kaynaklý olan ve dünyanýn heryerinden gönüllü olarak katýlýmcýlarýn yazdýklarý ile oluþturduklarý Wikipedia ansiklopedisi projesinin Türkçe koludur. Vikipedi bir wiki sitesidir, yani herkes her sayfayý kayýt olmasýna gerek bile olmadan oluþturabilir ve/veya deðiþtirebilir. Yapýlan deðiþiklikler &quot;anýnda&quot; yayýnlanýr.<br>Tarafsýzdýr. Kurallarý tüm kullanýcýlar birlikte koyar.</p><p>Vikipedi'de bütün yazýlar &quot;GNU Özgür Belgeleme Lisansý&quot; altýndadýr.<br>Katkýlar üreticilerine ait olmaya devam etmekle birlikte, &quot;copyleft&quot;lisansý içeriðin serbestçe daðýtýmýna olanak saðlamaktadýr. Tamamen bedava ve tamamen reklamsýzdýr. Google, Yahoo! gibi dünyanýn önde gelen birçok þirketi tarafýndan desteklenmektedir.</p><p>Ýlk olarak Ýngilizce olarak 15 Ocak 2001'de baþlayan wikipedia projesi þu andan 200 yakýn deðiþik dilde toplam 2 milyona yakýn makale içermektedir. Türkçesi teknik olarak 5 Aralýk 2002 tarihinde baþlamýþ olsa da, ilk makale eklemelerinin baþlamasý 2004 yýlý baþlarýný bulmuþtur. 1 Temmuz 2005 itibariyle 3649 Türkçe sayfanýn üzerinde çalýþýlmaktadýr. Bu sayý Ýngilizce Wikipedia'da 600 binin üzerindedir.</p><p>Þu anda Türkçe Vikipedi diðer dillerle karþýlaþtýrýldýðýnda çok yavaþ ilerlemektedir. Bunun en büyük sebebi de çok az katýlýmcýnýn olmasýdýr. Her geçen gün katýlýmcýlar artsa da, diðer dilleri yakalayabilmek için daha çok katýlýmcýlara (size) ihtiyaç duymaktadýr.</p><p><strong>Belli baþlý özellikleri</strong><br>*Okumak ve deðiþiklik yapma için özel yazýlým gerektirmez. Ýnternet tarayýcýnýzýn olmasý yeterlidir.<br>*Çok basit olarak düz yazýlar eklenebildiði gibi, resimlerle, tablolarla, grafiklerle özgün sayfa dizaynlarýna olanak tanýr.<br>*Diller arasý baðlantý saðlayarak, okuduðunuz makaleyi diðer dillerde görme imkaný sunar.<br>*Sayfalar üzerinde yapýlan tüm deðiþikliklerin kronolojisine ulaþma imkaný verir ve böylece kullanýcýya sayfanýn nasýl bir deðiþimden geçtiðini görme fýrsatý tanýr.<br>*Sayfalar kategorilere eklenip konuyla ilgili diðer makalelere kolayca ulaþma imkaný verir.<br>*Þablon oluþturabilme özelliði ile birçok sayfada tekrarlanan içeriðin ayný þekile sahip olmasýný saðlar.<br>*Her baþlýðýn birde tatýþma sayfasý vardýr. Böylece isteyenlere makale ile ilgili yorum yapma, soru sorma, konuyla ilgili sohbet etme imkaný verir. Bir topluluk ortamý yaratýr.<br></p>
+<?php//</div><br><br>
+?>
+</td>
+    </tbody></table></td>

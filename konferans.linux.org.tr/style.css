@@ -1,0 +1,118 @@
+﻿/* Bu css umuthan tarafından satır satır yazıldı. :) */
+
+body {
+	background:#FFFFFF url(images/arka.jpg) repeat-x bottom center fixed;
+	padding:0 auto;
+	margin:0 auto;
+	font-family:Arial, Helvetica, sans-serif;
+}
+tr, td, table{
+	border:dashed; border-width:1px; border-color:#eaab91;
+}
+#orta {
+	background:url(images/orta.png) repeat-y center center;
+	width:829px;
+	margin:0 auto;
+	padding:0 auto;
+}
+#ust {
+	background:url(images/ust.png) repeat-y center center;
+	width:829px;
+	height:178px;
+	margin:0 auto;
+	padding:0 auto;
+}
+#alt {
+	background:url(images/alt.png) repeat-y center center;
+	width:829px;
+	height:34px;
+	margin:0 auto;
+	padding:0 auto;
+}
+#genislik {
+	width:780px;
+	margin:0 auto;
+	padding:0 auto;
+}
+#sol{
+	width:210px;
+	float:left;
+	text-align:left;
+}
+.menu {
+	margin-top:20px;
+}
+.menu a {
+	text-transform:uppercase;
+	color:#d45821;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	background:transparent;
+}
+.menu a:hover {
+	background:transparent url('images/menusol.jpg') no-repeat bottom left;
+	padding-left:17px;
+	padding-top:10px;
+}
+#sag{
+	float:right;
+	width:560px;
+	text-align:left;
+}
+img {
+	border:none;
+	}
+.yazi {
+	font-size:12px;
+	}
+table, tr, td {
+	font-size:12px;
+	}
+h1 {
+	color:#d45821;
+	text-align:right;
+	float:right;
+	margin-right:10px;
+	margin-top:25px;
+	font-size:24px;
+	}
+h2 {
+	color:#d45821;
+	text-align:left;
+	font-size:14px;
+	}
+.h1arka {
+	margin-top:10px;
+	background:url(images/h1arka.jpg) no-repeat left bottom;
+	height:65px;
+	width:90px;
+	}
+strong {
+	color:#d45821;
+	}
+a {
+	color:#d45821;
+	text-decoration:underline;
+}
+a:hover {
+	color:#d45821;
+	text-decoration:none;
+}
+a:visited {
+	color:#d45821;
+	text-decoration:none;
+}
+
+code { 
+	text-align: right;
+	display: block;
+	border: solid 1px #eaab91;
+	font-size: 11px; 
+	margin: 10px; 
+	padding:10px; 
+ 	color: black; 
+	background:#f4d5c1;
+	overflow:auto;
+	font-family:Arial, Helvetica, sans-serif;
+}

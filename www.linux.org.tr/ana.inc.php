@@ -27,7 +27,7 @@ Bulabilirim?</strong><br/>
 Linux, diğer birçok özgür yazılım
 ürünü gibi ücretsiz olarak
 edinilebilmektedir. Çeşitli Linux dağıtımlarının yansılarını
-Dosya Alani bölümünü oluşturan FTP
+Dosya Alanı bölümünü oluşturan FTP
 sunucumuzda bulabilirsiniz. LKD'nin katıldığı çeşitli
 fuarlarda, standımızda Linux CD'leri bulabilirsiniz. Bunun yanı sıra CD
 satan yerlere de başvurabilirsiniz.<br/>
@@ -36,7 +36,7 @@ Alabilirim?</strong><br/>
 LKD, kar amacı gütmeyen bir organizasyon olduğundan bireysel
 yada kurumsal Linux desteği vermemektedir. Buna karşın, herkesin Linux
 ile ilgili çeşitli konulardaki sorularını sorarak yanıt
-bulabileceği e-posta listelerine ve ülkemizdeLinux konusunda
+bulabileceği e-posta listelerine ve ülkemizde Linux konusunda
 eğitim ve destek hizmeti veren firmaların bir listesine
 ulaşabilirsiniz. </td>
           </tr>
@@ -142,7 +142,7 @@ arasında, ODTU Kongre ve K&uuml;lt&uuml;r Merkezinde yapıldı [
       <table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="border-collapse: collapse;">
         <tbody>
           <tr>
-            <td height="20" class="ModulBaslik">ıpucu</td>
+            <td height="20" class="ModulBaslik">İpucu</td>
           </tr>
           <tr>
             <td>

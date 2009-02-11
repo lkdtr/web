@@ -8,3 +8,5 @@ cp ${fn} ${fn}.iso
 $ICONV < ${fn}.iso > ${fn}
 rm ${fn}.iso
 done 
+LC_ALL=C rpl -iR charset\=iso-8859-9 charset\=utf-8 *.php
+LC_ALL=C rpl -iR charset\=iso-8859-9 charset\=utf-8 *.html

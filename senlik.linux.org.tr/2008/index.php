@@ -32,7 +32,7 @@
     header('Location: indexeb03.html');
     exit;
    case 'iletisim.php':
-    header('Location: index643.html');
+    header('Location: indexd643.html');
     exit;
    default :
     header('Location: index.html');    

@@ -1,0 +1,20 @@
+functions.php için deðiþim kaydý dosyasýdýr.
+
+ilk sürüm:
+ - functions.1.php
+ - bol bol hata barýndýran ilk sürüm.
+ 
+ikinci sürüm:
+ - functions.2.php
+ - burayý DF dolduracak.
+ 
+üçüncü sürüm:
+ - functions.php
+ - kategori ayrýntý sayfasýnda adaylar alfabetik sýralandý
+ - kategori ayrýntý sayfasýnda ödül alan adaylar senelere göre artan sýralandý
+ - adaylar sayfasýnda adaylar alfabetik sýralandý
+ - yönetim/yorum onayla sayfasýnda gösterimdeki yorumlar eklendi, yorum id'sine göre sýralandý
+ - yönetim/aday onayla sayfasýnda gösterimdeki adaylar eklendi, aday adýna göre sýralandý
+ - yönetim/aday ve yönetim/yorum sayfalarýna düzenleme seçeneði eklendi
+ - yorum_ekle2.php'deki ufak bir hata giderildi
+ - aday ve yorum eklendiðinde yöneticiye e-posta gönderme eklendi

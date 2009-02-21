@@ -151,7 +151,7 @@ arasında, ODTU Kongre ve K&uuml;lt&uuml;r Merkezinde yapıldı [
                 <tr>
                   <td width="12" valign="middle"><img align="middle" src="..//templates/resimler/penguen_ipucu.png"/></td>
                   <td valign="top">LKD
-                  <a href="http://liste.linux.org.tr" target="_blank">e-posta
+                  <a href="http://liste.linux.org.tr" target="_blank">e-posta liste
 arşivleri</a>nde arama yapmak
 için soldaki arama kutusunu kullanabilirsiniz.</td>
                 </tr>

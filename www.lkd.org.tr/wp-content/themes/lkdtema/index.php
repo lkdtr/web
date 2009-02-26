@@ -4,6 +4,8 @@
  * @subpackage Default_Theme
  */
 
+ini_set('error_reporting', E_ALL);
+
 get_header(); ?>
 
 	<div id="orta">

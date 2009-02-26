@@ -1,0 +1,247 @@
+/*
+Theme Name: LKD tema
+Theme URI: http://lkd.org.tr/
+Description: Lkd.org.tr için web-cg tarafından tapılmış tema.
+Version: 0.1
+Author: LKD Web-cg
+Author URI: http://www.lkd.org.tr/
+Tags: lkd, linux kullanıcılar derneği, mavi, siyah
+
+*/
+
+/* basliyoruz :) - umuthan */
+* {
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+}
+
+body {
+	background:#f3f5f6 url(images/arka.jpg) repeat-x top left;
+	font-size:12px;
+}
+
+.temizle {
+	clear:both;
+}
+
+#genislik {
+	width:890px;
+	margin:auto;
+}
+
+#ust {
+	background:url(images/ustarka.jpg) no-repeat;
+	width:890px;
+	height:194px;
+}
+
+#ust #sol {
+	float:left;
+}
+
+#ust #sag {
+	float:right;
+	width:468px;
+	margin:0px;
+}
+
+#ust #sag #banner {
+	width:468px;
+	height:60px;
+	background:#0F3;
+}
+
+#ust #sag #searchform {
+	float:right;
+}
+
+#searchform {
+	padding:8px;
+	margin-bottom:50px;
+}
+
+#s {
+	border:none;
+	background:url(images/araarka.gif) no-repeat;
+	width:145px;
+	height:25px;
+	padding:5px 3px 0 5px;
+	float:left;
+}
+
+.hidden {
+	visibility:hidden;
+	display:none;
+}
+
+#searchsubmit {
+	background:url(images/arabuton.gif) no-repeat;
+	width:28px;
+	height:25px;
+	border:none;
+	float:left;
+	text-indent:-100px;
+	overflow:hidden;
+}
+
+ul#ustmenu {
+	list-style:none;
+	margin:5px 0 0 0;
+	float:right;
+}
+
+ul#ustmenu li {
+	float:left;
+	margin:0 8px 0 0;
+}
+
+ul#ustmenu li a {
+	color:#75746b;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:10px;
+}
+
+ul#menu {
+	list-style:none;
+}
+
+ul#menu li {
+	float:left;
+	margin:3px 16px 0 0;
+}
+
+ul#menu li a {
+	color:#FFFFFF;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-size:10px;
+}
+
+#orta {
+	width:620px;
+	margin:40px 0 40px 20px;
+	float:left;
+}
+
+#orta h1 {
+	font-weight:bold;
+	font-size:14px;
+	padding:5px;
+}
+
+#sag {
+	width:176px;
+	float:right;
+	margin:40px 20px 0 0;
+}
+
+#sag .blok {
+	width:176px;
+	border-right:1px solid #818181;
+	border-left:1px solid #818181;
+	border-bottom:1px solid #818181;
+	margin-bottom:10px;
+}
+
+#sag .blok .icerik {
+	padding:0 5px 5px 5px;
+}
+
+#sag .blok h1 {
+	background:url(images/sagh1.jpg) no-repeat top left;
+	width:141px;
+	height:24px;
+	overflow:hidden;
+	padding:5px 0 0 35px;
+	color:#FFF;
+	font-size:14px;
+}
+
+#sag .blok ul {
+	list-style:none;
+}
+
+#sag .blok ul li {
+	list-style:none;
+	background:url(images/listeyani.jpg) no-repeat left center;
+	padding:3px 0 3px 20px;
+	margin:0 0 0 5px;
+}
+
+.categories {
+	list-style:none;
+}
+
+.pagenav {
+	list-style:none;
+}
+
+.linkcat {
+	width:176px;
+	border-right:1px solid #818181;
+	border-left:1px solid #818181;
+	border-bottom:1px solid #818181;
+	margin-bottom:10px;
+	list-style:none;
+}
+
+.linkcat h2 {
+	background:url(images/sagh1.jpg) no-repeat top left;
+	width:141px;
+	height:24px;
+	overflow:hidden;
+	padding:5px 0 0 35px;
+	color:#FFF;
+	font-size:14px;
+}
+
+.linkcat ul {
+	list-style:none;
+}
+
+.linkcat ul li {
+	list-style:none;
+	background:url(images/listeyani.jpg) no-repeat left center;
+	padding:3px 0 3px 20px;
+	margin:0 0 0 5px;
+}
+
+#alt {
+	background:url(images/altarka.gif) repeat-x bottom;
+	height:91px;
+}
+
+#alt .icerik {
+	width:800px;
+	margin:auto;
+}
+
+#alt #altlogo {
+	float:right;
+	width:100px;
+	margin:30px 0 0 0;
+}
+
+#alt #altbilgiler {
+	float:left;
+	width:600px;
+	font-size:10px;
+	color:#999;
+	margin:40px 0 0 0;
+}
+
+#alt #altbilgiler a {
+	color:#999;
+	font-size:10px;
+	text-decoration:none;
+}
+
+#alt #altbilgiler a:hover {
+	color:#999;
+	font-size:10px;
+	text-decoration:underline;
+}

@@ -1,8 +1,4 @@
 <?php
-Header("Location:http://odul.linux.org.tr/2008/");
-exit();
-
-
 include "tpl/header.php";
 
 ?>

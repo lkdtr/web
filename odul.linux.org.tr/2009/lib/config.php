@@ -7,7 +7,7 @@ define("DBPASS","XS3ijZaHwY");
 define("DBNAME","odul");
 define("DBCTYPE","p");
 define("VERSION","0.1b");
-define("YEAR","2008");
+define("YEAR","2009");
 define("SITEMAIL","web@linux.org.tr");
 //  define("SITEMAIL","senlik@linux.org.tr");
 define("ADMINMAIL", "web@linux.org.tr");

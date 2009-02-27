@@ -9,28 +9,11 @@
 <td width="11">&nbsp;</td>
 <td valign="top" bgcolor="#f7f7f7">
 <table cellpadding="0" cellspacing="6" width="100%" valign="top"><tr><td>
-<font>
-
-<font>Linux ve Özgür Yazılım Şenliği ile yaşıt olan Linux Kullancıları Derneği Yılın Penguenleri ödülleri bu yıl yedinci kez
-verildi.<br><br>
-Dernek üyeleri arasında yapılan oylama sonucunda verilen ödüller şöyle :
-
-<ul>
-<li>En Çalışkan Penguen: Necati Demir</li>
-
-<li>En İyi Kurumsal Kullanıcı: TSK Mehmetçik Vakfı</li>
-
-<li>En Başarılı Yerelleştirici: Çağatay Oltulu</li>
-
-<li>En İyi Basılı/Görsel İçerik Çalışması: www.ozgurlukicin.com</li>
-
-<li>En İyi Özgür Yazılım: Tekir ön muhasebe ve ticari otomasyon</li>
-
-<li>En Başarılı Özgür Yazılım Temelli Uygulama Projesi: Odul verilmemesi
-kabul edildi.</li>
-</ul>
-
+<font>Linux ve Özgür Yazılım Şenliği ile yaşıt olan Linux Kullancıları Derneği Yılın Penguenleri ödülleri bu yıl sekizinci kez verilecek.<br><br>
+Ödül alacak penguenler, sizlerin göstereceği adaylar arasından dernek üyelerimizin oylarıyla belirlenecek.
+<br><br>Belirlenen yöntem ile ilgili ayrıntılı bilgi için <a href="aciklamalar.php">tıklayın.</a>
 <br><br>Geçtiğimiz Yılların Ödülleri:<br><br>
+<img src="images/ok.jpg"> <a href="http://odul.linux.org.tr/2008" target="_blank">2008</a>
 <img src="images/ok.jpg"> <a href="http://odul.linux.org.tr/2007" target="_blank">2007</a>
 <img src="images/ok.jpg"> <a href="http://odul.linux.org.tr/2006" target="_blank">2006</a>
 <img src="images/ok.jpg"> <a href="http://odul.linux.org.tr/2005" target="_blank">2005</a>

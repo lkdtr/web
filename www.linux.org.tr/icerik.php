@@ -12,10 +12,11 @@ if ( empty($_GET))
 }
 else{
 	if ( file_exists("$goster.inc.php")){
-	include ("$goster.inc.php");
+		include ("$goster.inc.php");
 	}
-	else {include("hata.inc.php");}
-	//echo $_SERVER['REQUEST_URI'];
+	else {
+		include("hata.inc.php");
+	}
 }
 
 ?>

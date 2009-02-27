@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="
+http://www.sitemaps.org/schemas/sitemap/0.9
+http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  		<loc>http://www.linux.org.tr/iletisim.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/web-cg.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/gpl.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/yerellestirme.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/yerliyazilimlar.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/dagitimlar.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/linuxkitaplar.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/linuxfirmalar.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/linuxcdler.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/linuxdagitimlari.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/wikipedi.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/belgeler.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url><url>
+  		<loc>http://www.linux.org.tr/ftp.html</loc>
+  		<priority>0.5</priority>
+  		<lastmod>2009-02-27</lastmod>
+  		<changefreq>daily</changefreq>
+		</url></urlset>
+

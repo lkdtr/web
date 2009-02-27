@@ -53,10 +53,12 @@
 				<?php wp_get_archives('type=monthly'); ?>
 				</ul>
             </div>
+<?php { /* ?>
 <div class="blok">
-			<?php wp_list_categories('show_count=1&title_li=<h1>Kategoriler</h1>'); ?>
-</div>
-			<?php /* Eğer ön sayfaysa */ if ( is_home() || is_page() ) { ?>
+			<?php //wp_list_categories('show_count=1&title_li=<h1>Kategoriler</h1>'); ?>
+            </div>
+<?php */}?>
+			<?php /* Eğer ön sayfaysa */ /* if ( is_home() || is_page() ) { ?>
 				<?php wp_list_bookmarks(); ?>				
 				
                 <div class="blok">
@@ -67,11 +69,11 @@
 					<li><a href="http://validator.w3.org/check/referer" title="Bu sayfa XHTML 1.0 Transitional olarak geçerlidir">Geçerli <abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></li>
 					<li><a href="http://gmpg.org/xfn/"><abbr title="XHTML Friends Network">XFN</abbr></a></li>
 					<li><a href="http://wordpress.org/" title="Altyapı WordPress, kişisel yayımlama platformu.">WordPress</a></li>
-					<?php wp_meta(); ?>
+					<?php// wp_meta(); ?>
 				</ul>
 				</li>
                 </div>
-			<?php } ?>
+            <?php }*/ ?>
 
 			<?php endif; ?>
 	</div>

@@ -46,7 +46,7 @@
  function goster_kategori($id = ""){
     $sql = @mysql_query("SELECT * FROM kategori");
  	$sqla = @mysql_query("SELECT id,adi,aciklama FROM kategori WHERE id='{$id}'");
- 	$sqlb = @mysql_query("SELECT id,ad_soyad FROM 2008_aday WHERE kategori='{$id}' AND durum='1' ORDER by 'ad_soyad' ASC");
+ 	$sqlb = @mysql_query("SELECT id,ad_soyad FROM 2009_aday WHERE kategori='{$id}' AND durum='1' ORDER by 'ad_soyad' ASC");
  	$sqlc = @mysql_query("SELECT adi_soyadi,yil FROM kazananlar WHERE kat_id='{$id}' ORDER by 'yil' ASC");
  	
  	$bga = @mysql_fetch_assoc($sqla);
@@ -159,7 +159,7 @@
   $sql = @mysql_query("SELECT id,adi FROM kategori");
   
   while($bgs = @mysql_fetch_assoc($sql)){
-   $sqll = @mysql_query("SELECT * FROM 2008_aday WHERE kategori='{$bgs['id']}' AND durum='1' ORDER by 'ad_soyad' ASC");
+   $sqll = @mysql_query("SELECT * FROM 2009_aday WHERE kategori='{$bgs['id']}' AND durum='1' ORDER by 'ad_soyad' ASC");
    ?>
    <table align="center" border="0" cellpadding="4" cellspacing="1" width="96%">
       <tbody>
@@ -192,8 +192,8 @@
  }
  
  function goster_aday($id = ""){
-  $sql = @mysql_query("SELECT * FROM 2008_aday WHERE id='{$id}' AND durum='1'");
-  $sqlw = @mysql_query("SELECT * FROM 2008_aday_yorum WHERE aday_id='{$id}' AND aktif='1'");
+  $sql = @mysql_query("SELECT * FROM 2009_aday WHERE id='{$id}' AND durum='1'");
+  $sqlw = @mysql_query("SELECT * FROM 2009_aday_yorum WHERE aday_id='{$id}' AND aktif='1'");
   
   while($bg = @mysql_fetch_assoc($sql)){
    ?>
@@ -245,7 +245,7 @@
  
  function aday_ekle($aday,$kategori,$oneren,$oneren_eposta,$oneri_metni){
   if(isset($aday) AND isset($kategori) AND isset($oneren) AND isset($oneren_eposta) AND isset($oneri_metni)){
-   $sql = @mysql_query("INSERT INTO `2008_aday` (`id`,`ad_soyad`,`kategori`,`oneren_ad`,`oneren_eposta`,`oneri_metni`,`durum`) VALUES ('', '{$aday}', '{$kategori}', '{$oneren}', '{$oneren_eposta}', '".html($oneri_metni)."', '0')");
+   $sql = @mysql_query("INSERT INTO `2009_aday` (`id`,`ad_soyad`,`kategori`,`oneren_ad`,`oneren_eposta`,`oneri_metni`,`durum`) VALUES ('', '{$aday}', '{$kategori}', '{$oneren}', '{$oneren_eposta}', '".html($oneri_metni)."', '0')");
   }
   if($sql){$ok = "pl";}
   elseif(!$sql){$ok = "pll";}
@@ -265,7 +265,7 @@
  }
  
  function penguen_adi($id){
-  $sql = @mysql_query("SELECT id,ad_soyad FROM 2008_aday WHERE id='{$id}'");
+  $sql = @mysql_query("SELECT id,ad_soyad FROM 2009_aday WHERE id='{$id}'");
   while($b = @mysql_fetch_assoc($sql)){
    echo $b['ad_soyad'];
   }
@@ -273,7 +273,7 @@
  
  function yorum_ekle($penguen,$yorum_adi,$yorum_eposta,$yorum){
   if(isset($penguen) AND isset($yorum_adi) AND isset($yorum_eposta) AND isset($yorum)){
-   $sql = @mysql_query("INSERT INTO `2008_aday_yorum` (`id`,`aday_id`,`ekleyen_ad`,`ekleyen_eposta`,`yorum`,`tarih`,`aktif`) VALUES ('', '{$penguen}', '{$yorum_adi}', '{$yorum_eposta}', '".html($yorum)."', '', '0')");
+   $sql = @mysql_query("INSERT INTO `2009_aday_yorum` (`id`,`aday_id`,`ekleyen_ad`,`ekleyen_eposta`,`yorum`,`tarih`,`aktif`) VALUES ('', '{$penguen}', '{$yorum_adi}', '{$yorum_eposta}', '".html($yorum)."', '', '0')");
   }
   if($sql){$ok = "pl";}
   elseif(!$sql){$ok = "pll";}
@@ -309,7 +309,7 @@
                 <tr>
                   <td class="menu">
 <?php
-  $sqlw = @mysql_query("SELECT * FROM 2008_aday_yorum WHERE aktif='0'");
+  $sqlw = @mysql_query("SELECT * FROM 2009_aday_yorum WHERE aktif='0'");
   
   while($bgl = @mysql_fetch_assoc($sqlw)){
   ?>
@@ -337,7 +337,7 @@
                 <tr>
                   <td class="menu">
 <?php
-  $sqlw = @mysql_query("SELECT * FROM 2008_aday_yorum WHERE aktif='1' ORDER by 'id' ASC");
+  $sqlw = @mysql_query("SELECT * FROM 2009_aday_yorum WHERE aktif='1' ORDER by 'id' ASC");
   
   while($bgl = @mysql_fetch_assoc($sqlw)){
   ?>
@@ -359,15 +359,15 @@
  
  function onayla_yorum($id,$islem){
   if($islem == 1){
-   $sql = @mysql_query("UPDATE 2008_aday_yorum SET aktif='1' WHERE id='{$id}'");
+   $sql = @mysql_query("UPDATE 2009_aday_yorum SET aktif='1' WHERE id='{$id}'");
    ?><meta http-equiv="refresh" content="0;URL=onayla.php?tip=yorum"><?
   }
   elseif($islem == 0){
-   $sql = @mysql_query("DELETE FROM 2008_aday_yorum WHERE id='{$id}'");
+   $sql = @mysql_query("DELETE FROM 2009_aday_yorum WHERE id='{$id}'");
    ?><meta http-equiv="refresh" content="0;URL=onayla.php?tip=yorum"><?
   }
   elseif($islem == 2){
-   $sql = @mysql_query("UPDATE 2008_aday_yorum SET aktif='0' WHERE id='{$id}'");
+   $sql = @mysql_query("UPDATE 2009_aday_yorum SET aktif='0' WHERE id='{$id}'");
    ?><meta http-equiv="refresh" content="0;URL=onayla.php?tip=yorum"><?
   }
   else{
@@ -392,7 +392,7 @@
                 <tr>
                   <td class="menu">
 <?php
-  $sqlw = @mysql_query("SELECT * FROM 2008_aday WHERE durum='0'");
+  $sqlw = @mysql_query("SELECT * FROM 2009_aday WHERE durum='0'");
   
   while($bgl = @mysql_fetch_assoc($sqlw)){
   ?>
@@ -420,7 +420,7 @@
                 <tr>
                   <td class="menu">
 <?php
-  $sqlw = @mysql_query("SELECT * FROM 2008_aday WHERE durum='1' ORDER by 'ad_soyad' ASC");
+  $sqlw = @mysql_query("SELECT * FROM 2009_aday WHERE durum='1' ORDER by 'ad_soyad' ASC");
   
   while($bgl = @mysql_fetch_assoc($sqlw)){
   ?>
@@ -442,15 +442,15 @@
  
  function onayla_aday($id,$islem){
   if($islem == 1){
-   $sql = @mysql_query("UPDATE 2008_aday SET durum='1' WHERE id='{$id}'");
+   $sql = @mysql_query("UPDATE 2009_aday SET durum='1' WHERE id='{$id}'");
    ?><meta http-equiv="refresh" content="0;URL=onayla.php?tip=aday"><?
   }
   elseif($islem == 0){
-   $sql = @mysql_query("DELETE FROM 2008_aday WHERE id='{$id}'");
+   $sql = @mysql_query("DELETE FROM 2009_aday WHERE id='{$id}'");
    ?><meta http-equiv="refresh" content="0;URL=onayla.php?tip=aday"><?
   }
   elseif($islem == 2){
-   $sql = @mysql_query("UPDATE 2008_aday SET durum='0' WHERE id='{$id}'");
+   $sql = @mysql_query("UPDATE 2009_aday SET durum='0' WHERE id='{$id}'");
    ?><meta http-equiv="refresh" content="0;URL=onayla.php?tip=aday"><?
   }
   else{
@@ -459,20 +459,20 @@
  }
  
  function penguen_bilgi($id){
-  $sql = @mysql_query("SELECT * FROM 2008_aday WHERE id='{$id}'");
+  $sql = @mysql_query("SELECT * FROM 2009_aday WHERE id='{$id}'");
   $assoc = @mysql_fetch_assoc($sql);
   return $assoc;
  }
  
  function yorum_bilgi($id){
-  $sql = @mysql_query("SELECT * FROM 2008_aday_yorum WHERE id='{$id}'");
+  $sql = @mysql_query("SELECT * FROM 2009_aday_yorum WHERE id='{$id}'");
   $assoc = @mysql_fetch_assoc($sql);
   return $assoc;
  }
  
  function aday_duzenle($id,$aday,$kategori,$oneren,$oneren_eposta,$oneri_metni){
   if(isset($id) AND isset($aday) AND isset($kategori) AND isset($oneren) AND isset($oneren_eposta) AND isset($oneri_metni)){
-   $sql = @mysql_query("UPDATE `2008_aday` SET `ad_soyad`='{$aday}', `kategori`='{$kategori}', `oneren_ad`='{$oneren}', `oneren_eposta`='{$oneren_eposta}', `durum`='0', `oneri_metni`='".html($oneri_metni)."' WHERE `id`='{$id}'");
+   $sql = @mysql_query("UPDATE `2009_aday` SET `ad_soyad`='{$aday}', `kategori`='{$kategori}', `oneren_ad`='{$oneren}', `oneren_eposta`='{$oneren_eposta}', `durum`='0', `oneri_metni`='".html($oneri_metni)."' WHERE `id`='{$id}'");
   }
   
   if($sql){$ok = "pl";}
@@ -484,7 +484,7 @@
  
  function yorum_duzenle($id,$yorum_adi,$yorum_eposta,$yorum){
   if(isset($id) AND isset($yorum_adi) AND isset($yorum_eposta) AND isset($yorum)){
-   $sql = @mysql_query("UPDATE `2008_aday_yorum` SET `ekleyen_ad`='{$yorum_adi}', `ekleyen_eposta`='{$yorum_eposta}', `yorum`='".html($yorum)."', `aktif`='0' WHERE `id`='{$id}'");
+   $sql = @mysql_query("UPDATE `2009_aday_yorum` SET `ekleyen_ad`='{$yorum_adi}', `ekleyen_eposta`='{$yorum_eposta}', `yorum`='".html($yorum)."', `aktif`='0' WHERE `id`='{$id}'");
   }
   
   if($sql){$ok = "pl";}

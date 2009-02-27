@@ -54,11 +54,10 @@
 </div>
 
 <ul id="menu">
-<li><a href="#">Ana sayfa</a></li>
-<li><a href="#">Haberler</a></li>
-<li><a href="#">Etkinlikler</a></li>
-<li><a href="#">Çalışma Grupları</a></li>
-<li><a href="#">Ekipler</a></li>
-<li><a href="#">Bildirgeler</a></li>
-<li><a href="#">Hakkında</a></li>
+<li><a href="index.php">Ana sayfa</a></li>
+<li><a href="?page_id=20">Hakkında</a></li>
+<li><a href="?page_id=22">Çalışmalar</a></li>
+<li><a href="?page_id=24">Üyelik</a></li>
+<li><a href="http://www.linux.org.tr">www.linux.org.tr</a></li>
+<li><a href="?page_id=28">English</a></li>
 </ul>

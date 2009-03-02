@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:2.1
+TEL;PREF;WORK;VOICE;ENCODING=QUOTED-PRINTABLE:
+TEL;WORK;FAX;ENCODING=QUOTED-PRINTABLE:
+N:Formu;IV.;Linux ve Özgür Yazılım Şenliği İletişim;;
+FN:IV. Linux ve =C3=96zg=C3=BCr Yaz=C4=B1l=C4=B1m =C5=9Eenli=C4=9Fi =C4=B0leti=
+    =C5=9Fim Formu
+ADR;WORK;POSTAL;ENCODING=QUOTED-PRINTABLE:;;;;;
+EMAIL;INTERNET:senlik@linux.org.tr
+NOTE;ENCODING=QUOTED-PRINTABLE:
+URL;WORK:http://senlik.linux.org.tr/2005
+TITLE:
+ORG:.:: IV Linux ve Özgür Yazılım Şenliği ::.
+REV:2009-03-02T23:28:31Z
+MAILER: Mambo vCard for .:: IV Linux ve Özgür Yazılım Şenliği ::.
+END:VCARD

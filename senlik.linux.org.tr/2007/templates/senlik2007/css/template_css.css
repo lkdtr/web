@@ -1,0 +1,286 @@
+/* ---------------------
+basic layout
+--------------------- */
+
+* {
+  font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;
+}
+
+body {
+  margin:0px;
+  padding:0px;
+}
+
+div,
+td,
+p {
+  font-size:13px;
+  color:#333333;
+}
+
+a,
+a:link,
+a:active,
+a:visited {
+  text-decoration:none;
+  color:#000000;
+  border-bottom : 1px dotted #AAAAAA;
+}
+
+a:hover {
+  text-decoration:none;
+  border-bottom : 1px solid #FF9D04;
+  color:#3973AC;
+}
+
+ul {
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+  list-style-type: square;
+}
+
+li {
+  padding-left: 5px;
+  padding-top: 0px;
+  list-style-position: inside;
+}
+
+
+/*SENLIK STYLES*/
+/*------------------------------*/
+
+#head {
+  padding:0px;
+  margin:0px;
+  background-image:url(../images/lkd_03.jpg);
+  background-repeat:repeat-x;
+  height:160px;
+  display:block;
+}
+
+#head-sol{
+  background-image:url(../images/lkd_01.jpg);
+  background-repeat:no-repeat;
+  width:100px;
+  height:160px;
+  padding:0px;
+  margin:0px;
+  display:block;
+  float:left;
+}
+
+#head-logo{
+  padding:0px;
+  margin:0px;
+  float:left;
+  height:160px;
+  width:659px;
+  display:block;
+}
+
+#head-sag{
+  background-image:url(../images/lkd_05.jpg);
+  background-repeat:no-repeat;
+  width:199px;
+  height:160px;
+  padding:0px;
+  margin:0px;
+  display:block;
+  float:right;
+}
+
+#orta{
+  padding:0px;
+  margin:0px;
+  display:block;
+}
+
+#orta-sol{
+  background-image:url(../images/lkd_20.jpg);
+  background-repeat:repeat-y;
+  width:100px;
+}
+
+#orta-menu{
+  background-image:url(../images/lkd_11.jpg);
+  background-repeat:repeat-y;
+  width:169px;
+  padding:0px;
+  margin:0px;
+  height:100%;
+  font-size:12px;
+}
+
+#orta-menu #ara{
+  background-image:url(../images/lkd_07.jpg);
+  background-repeat:no-repeat;
+  width:149px;
+  height:25px;
+  display:block;
+  padding:10px;
+  margin:0px;
+}
+
+#orta-menu #ara input{
+  border:0px;
+  color:#FF9D04;
+  font-size:18px;
+  height:25px;
+  width:140px;
+}
+
+#orta-menu ul{
+  padding:0px;
+  margin:0px;
+}
+
+#orta-menu ul li{
+  padding:0px;
+  margin:0px;
+  list-style:none;
+}
+
+#orta-menu ul li a, .mainlevel{
+  background-image:url(../images/lkd_14.jpg);
+  background-repeat:no-repeat;
+  width:169px;
+  height:26px;
+  display:block;
+  color:#000000;
+  text-decoration:none;
+  text-indent:20px;
+  line-height:2em;
+  border:0px;
+}
+
+#orta-menu ul li a:hover, .mainlevel:hover{
+  background-image:url(../images/lkd_15.jpg);
+  background-repeat:no-repeat;
+  width:169px;
+  height:26px;
+  display:block;
+  color:#FFFFFF;
+  text-decoration:none;
+  border:0px;
+}
+
+#icerik{
+  padding:10px;
+  margin:0px;
+  width:auto;
+}
+
+#orta-sag-menu{
+  padding:0px;
+  margin:0px;
+  width:180px;
+  display:block;
+}
+
+#orta-sag-menu ul{
+  margin:0px;
+  padding:0px;
+}
+
+#orta-sag-menu ul li{
+  display:block;
+  margin:0px;
+  padding:0px;
+  margin-bottom: 10px;
+  text-align:center;
+  background-image:url(../images/lkd_09.jpg);
+  background-position:left top;
+  background-repeat:no-repeat;
+  list-style:none;
+  line-height:2.5em;
+  font-weight:bold;
+  color:#666666;
+}
+
+.moduletable {
+  width:100%;
+}
+
+#orta-sag{
+  background-image:url(../images/lkd_17.jpg);
+  background-repeat:repeat-y;
+  padding:0px;
+  margin:0px;
+  width:104px;
+}
+
+#alt-sag{
+  background-image:url(../images/lkd_17.jpg);
+  background-position:right;
+  background-repeat:repeat-y;
+}
+
+#alt-icerik{
+  background-image:url(../images/lkd_24.jpg);
+  background-position:bottom;
+  background-repeat:repeat-x;
+  padding:0px;
+  margin:0px;
+}
+
+/*------------------------------*/
+
+
+.contentheading, .componentheading {
+
+  font-size: 30px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #CCCCCC;
+  color: #e20a15;
+
+}
+
+.createdate {
+
+  font-size:12px;
+  color: #999999;
+
+}
+
+.sublevel {
+
+  display:block;
+  padding-top: 10px;
+  padding-left: 23px;
+  background: transparent url(../../../images/M_images/weblink.png) no-repeat 0px 10px;
+  margin-left: 15px;
+  list-type: none;
+  list-style-type: square;
+  border:0px;
+
+}
+
+.sublevel:hover { border: 0px; color: #FF0000; }
+
+.readon {
+  display:table;
+  margin-bottom: 25px;
+}
+
+.contentpane table {
+
+  margin-top: 10px;
+
+}
+
+.sectiontableheader {
+
+  font-weight: bold;
+  padding: 3px;
+  padding-top: 20px;
+  border-bottom: 2px solid #CCCCCC;
+
+}
+
+.sectiontableentry2 td, .sectiontableentry1 td {
+
+  padding:4px;
+  font-size:11px;
+
+}

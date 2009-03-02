@@ -1,0 +1,89 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.tablo-turuncusinir {
+	border: 2px solid #F6BD10;
+}
+.yazi-normal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+}
+.yazi-anormal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.yazi-anormal-kirmizi {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: red;
+	text-decoration: none;
+}
+.yazi-beyaz {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.yazi-siyah {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.yazi-beyazbold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 4px;
+
+}
+.yazi-fume {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.tablo-lacivertsinir {
+	border: 1px solid #4D5EAD;
+}
+.tablo-lacivertsinirust {
+	border-top: 1px solid #4D5EAD;
+	border-right: 1px solid #4D5EAD;
+	border-left: 1px solid #4D5EAD;
+
+}
+.link-menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #2B53A8;
+	text-decoration: none;
+}
+a.link-menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #2B53A8;
+	text-decoration: none;
+}
+a.link-menu:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #6D91DA;
+	text-decoration: none;
+}

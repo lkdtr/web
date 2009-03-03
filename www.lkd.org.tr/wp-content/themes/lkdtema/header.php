@@ -47,17 +47,17 @@
 
 <div class="temizle"></div>
 
-<img src="<?php bloginfo('stylesheet_directory'); ?>/images/banner.png" class="banner" />
+<!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/images/banner.png" class="banner" /> -->
 
 </div>
 
 </div>
 
 <ul id="menu">
-<li><a href="index.php">Ana sayfa</a></li>
-<li><a href="?page_id=20">Hakkında</a></li>
-<li><a href="?page_id=22">Çalışmalar</a></li>
-<li><a href="?page_id=24">Üyelik</a></li>
+<li><a href="/">Ana sayfa</a></li>
+<li><a href="/hakkinda">Hakkında</a></li>
+<li><a href="/calismalar">Çalışmalar</a></li>
+<li><a href="/nasil-uye-olabilirim">Üyelik</a></li>
 <li><a href="http://www.linux.org.tr">www.linux.org.tr</a></li>
-<li><a href="?page_id=28">English</a></li>
+<li><a href="/english">English</a></li>
 </ul>

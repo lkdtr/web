@@ -45,14 +45,14 @@
             
             </div><?php }?>
 <div class="blok">
-			<?php wp_list_pages('title_li=<h1>Sayfalar</h1>' ); ?>
+			<?php wp_list_pages('title_li=<h1>LKD</h1>' ); ?>
 </div>
-			<div class="blok">
+<!--			<div class="blok">
             <h1>Arşiv</h1>
 				<ul>
 				<?php wp_get_archives('type=monthly'); ?>
 				</ul>
-            </div>
+            </div>-->
 <?php { /* ?>
 <div class="blok">
 			<?php //wp_list_categories('show_count=1&title_li=<h1>Kategoriler</h1>'); ?>

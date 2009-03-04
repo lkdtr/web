@@ -1,0 +1,74 @@
+/* CSS Document */
+
+#technorati-rank {    /* background image block */
+width : 180px;
+height: 50px;
+background: url(images/technorati.png) top left no-repeat;
+}
+
+#wptra {    /* RSS Link */
+float: left;
+position:absolute;
+width : 19px;
+height: 19px;
+margin-left: 5px;
+margin-top: 4px;
+}
+
+#wptrb {    /* Information Link */
+float: left;
+position:absolute;
+width : 19px;
+height: 19px;
+margin-left: 26px;
+margin-top: 4px;
+}
+
+#wptrc {    /* Add to Favorites Link */
+float:left;
+position:absolute;
+width : 19px;
+height: 19px;
+margin-left: 3px;
+margin-top: 24px;
+}
+
+#wptrd {    /* WTF Link */
+float:left;
+position:absolute;
+width : 19px;
+height: 19px;
+margin-left: 26px;
+margin-top: 24px;
+}
+
+#wptre {    /* Rank */
+float:left;
+position:absolute;
+width : 125px;
+margin-left: 50px;
+margin-top: 10px;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:700;
+font-size: 10.5px;
+color:#000;
+}
+
+#wptrf {    /* Technorati Link */
+float:left;
+position:absolute;
+width : 75px;
+height: 15px;
+margin-left: 70px;
+margin-top: 30px;
+}
+
+#wptrg {    /* Information Link */
+float:left;
+position:absolute;
+width : 15px;
+height: 15px;
+margin-left: 160px;
+margin-top: 30px;
+}

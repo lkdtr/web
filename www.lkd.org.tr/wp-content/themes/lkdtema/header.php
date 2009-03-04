@@ -53,10 +53,10 @@
 </div>
 
 <ul id="menu">
-<li><a href="/">Ana sayfa</a></li>
-<li><a href="/hakkinda">Hakkında</a></li>
-<li><a href="/calismalar">Çalışmalar</a></li>
-<li><a href="/nasil-uye-olabilirim">Üyelik</a></li>
 <li><a href="http://www.linux.org.tr">www.linux.org.tr</a></li>
-<li><a href="/english">English</a></li>
+<li><a href="http://liste.linux.org.tr">E-posta Listeleri</a></li>
+<li><a href="http://seminer.linux.org.tr">Seminerler</a></li>
+<li><a href="http://senlik.linux.org.tr">Şenlik</a></li>
+<li><a href="http://haber.linux.org.tr">Haberler</a></li>
+<li><a href="http://gezegen.linux.org.tr">Linux Gezegeni</a></li>
 </ul>

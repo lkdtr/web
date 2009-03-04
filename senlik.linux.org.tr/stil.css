@@ -1,24 +1,24 @@
 @charset "utf-8";
-2/* CSS Document */
-3
-4* {
-5 margin:0px;
-6 padding:0px;
-7}
-8
-9body {
-10 background:url(images/arkasari.gif) center bottom no-repeat fixed;
-11}
-12
-13#istpenguenli {
-14 width:100%;
-15 height:211px;
-16 margin:auto;
-17 background:url(images/istsiluetpenguenli.gif) repeat-x bottom center;
-18}
-19
-20#yazi {
-21 background:url(images/yazi.gif) no-repeat;
-22 height:201px;
-23 width:887px;
-24}
+/* CSS Document */
+
+* {
+ margin:0px;
+ padding:0px;
+}
+
+body {
+0 background:url(images/arkasari.gif) center bottom no-repeat fixed;
+}
+
+#istpenguenli {
+ width:100%;
+ height:211px;
+ margin:auto;
+ background:url(images/istsiluetpenguenli.gif) repeat-x bottom center;
+}
+
+#yazi {
+ background:url(images/yazi.gif) no-repeat;
+ height:201px;
+ width:887px;
+}

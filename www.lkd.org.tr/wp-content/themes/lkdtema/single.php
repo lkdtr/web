@@ -60,7 +60,7 @@ get_header();
 			</div>
 		</div>
 
-	<?php comments_template(); ?>
+	<!--<?php comments_template(); ?>-->
 
 	<?php endwhile; else: ?>
 

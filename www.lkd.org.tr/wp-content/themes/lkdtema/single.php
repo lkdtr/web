@@ -17,7 +17,7 @@ get_header();
 		</div>-->
 
 		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<h2><?php the_title(); ?></h2>
+			<h1><?php the_title(); ?></h1>
 
 			<div class="entry">
 				<?php the_content('<p class="serif">Yazının tamamını okuyun &raquo;</p>'); ?>
@@ -67,6 +67,8 @@ get_header();
 		<p>Üzgünüz, kriterinize uygun yazı bulunamadı.</p>
 
 <?php endif; ?>
+
+</div></div>
 
 <?php get_sidebar(); ?>
 

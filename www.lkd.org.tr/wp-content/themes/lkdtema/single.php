@@ -6,7 +6,7 @@
 
 get_header();
 ?>
-lkd
+<div id="orta">
 	<div id="content" class="widecolumn">
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -68,6 +68,10 @@ lkd
 
 <?php endif; ?>
 
-	</div>
+<?php get_sidebar(); ?>
+
+</div>
+
+<div class="temizle"></div>
 
 <?php get_footer(); ?>

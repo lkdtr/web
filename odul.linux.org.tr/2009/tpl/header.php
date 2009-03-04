@@ -14,7 +14,7 @@ include "./lib/libmail.php";
 <head>
 <meta http-equiv="Content-Language" content="tr">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>LKD Yılın Penguenleri Ödülleri 2008</title>
+<title>LKD Yılın Penguenleri Ödülle<?php echo YEAR; ?></title>
 <link rel="stylesheet" type="text/css" href="stil.css">
 </head>
 <body marginwidth="0" marginheight="0">

@@ -36,9 +36,8 @@
 <div id="sag">
 
 <ul id="ustmenu">
-<li><a href="#">site haritası</a></li>
-<li><a href="#">erişilebilirlik</a></li>
-<li><a href="#">bize yazın</a></li>
+<!--<li><a href="#">site haritası</a></li>-->
+<li><a href="mailto:bilgi@linux.org.tr">bize yazın</a></li>
 </ul>
 
 <div class="temizle"></div>

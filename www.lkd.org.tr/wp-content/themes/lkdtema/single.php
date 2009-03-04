@@ -25,7 +25,7 @@ get_header();
 				<?php wp_link_pages(array('before' => '<p><strong>Sayfalar:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 				<?php the_tags( '<p>Etiketler: ', ', ', '</p>'); ?>
 
-				<p class="postmetadata alt">
+<!--				<p class="postmetadata alt">
 					<small>
 						Bu yazı
 						<?php /* Bu özellik kapalı çünkü kimi zaman küçük bir ayar gerektiriyor.
@@ -55,7 +55,7 @@ get_header();
 						<?php } edit_post_link('Yazıyı düzenleyin','','.'); ?>
 
 					</small>
-				</p>
+				</p>-->
 
 			</div>
 		</div>

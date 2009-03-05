@@ -16,12 +16,9 @@ Dosya Alanı</a><br/>
 - <a class="menu" href="http://seminer.linux.org.tr">Seminerler</a><br/>
 - <a class="menu" target="_blank" href="http://gezegen.linux.org.tr">Linux
 Gezegeni </a><br/>
-- <a class="menu" href="http://senlik.linux.org.tr">Linux ve
-Özgür Yazılım
-şenliği</a><br/>
+- <a class="menu" href="http://senlik.linux.org.tr">Linux ve Özgür Yazılım Şenliği</a><br/>
 - <a class="menu" href="http://liste.linux.org.tr">E-posta Listeleri</a><br/>
-- <a class="menu" href="/wikipedi.html">Wikipedia Özgür
-Ansiklopedi</a><br/>
+- <a class="menu" href="/wikipedi.html">Wikipedia Özgür Ansiklopedi</a><br/>
             </p>
             </td>
           </tr>

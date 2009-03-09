@@ -9,7 +9,7 @@
 
 <div id="afisbanner">
 <h1>Afiş & Banner</h1>
-<h2>Bloglarınızı, sitelerinizi süsleyecek birbirinden güzel afiş ve bannerlar için <a href="?page_id=2">tıklayın...</a></h2>
+<h2>Günlüklerinizi, sitelerinizi süsleyecek birbirinden güzel afiş ve bannerlar için <a href="afis-banner/">tıklayın...</a></h2>
 </div>
 
 <div id="yerzaman">

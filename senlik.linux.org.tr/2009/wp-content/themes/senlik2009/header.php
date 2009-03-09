@@ -26,11 +26,12 @@
 <div id="siluetarka">
 <div id="istanbulsiluet">
 <ul id="menu">
-<li><a href="http://senlik.linux.org.tr/2009/">HABERLER</a></li>
-<li><a href="http://senlik.linux.org.tr/2009/?page_id=11">ETKİNLİK PROGRAMI</a></li>
-<li><a href="http://senlik.linux.org.tr/2009/?page_id=16">SPONSORLAR</a></li>
-<li><a href="http://senlik.linux.org.tr/2009/?page_id=18">ULAŞIM</a></li>
-<li><a href="http://senlik.linux.org.tr/2009/?page_id=13">GEÇMİŞ ETKİNLİKLER</a></li>
+<li><a href="http://senlik.linux.org.tr/2009/etkinlik-programi/">ETKİNLİK PROGRAMI</a></li>
+<li><a href="http://senlik.linux.org.tr/2009/sponsorlar/">SPONSORLAR</a></li>
+<li><a href="http://senlik.linux.org.tr/2009/basin-bulteni/">BASIN BÜLTENİ</a></li>
+<li><a href="http://senlik.linux.org.tr/2009/ulasim/">ULAŞIM</a></li>
+<li><a href="http://open.bilgi.edu.tr/freedays/">FREE DAYS</a></li>
+<li><a href="http://senlik.linux.org.tr/2009/tarihce/">TARİHÇE</a></li>
 </ul>
 <div class="temizle"></div>
 </div>

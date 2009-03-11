@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "LKD Yılın Penguenleri Ödülleri Sitesi Yönetim Arabirimi"
-AuthUserFile "/var/www/vhosts/odul.linux.org.tr/2006/yonetim/.passwd"
-require valid-user

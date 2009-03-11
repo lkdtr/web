@@ -9,7 +9,7 @@
 <td width="11">&nbsp;</td>
 <td valign="top" bgcolor="#f7f7f7">
 <table cellpadding="0" cellspacing="6" width="100%" valign="top"><tr><td>
-<center><font>Penguen veritabanına eklenmiştir, ufak bir kontrolden sonra sitedeki yerini alacaktır.</font></center>
+<center><font>Penguen veritabanÄ±na eklenmiÅŸtir, ufak bir kontrolden sonra sitedeki yerini alacaktÄ±r.</font></center>
 </td></table>
 </td></table>
 </td>

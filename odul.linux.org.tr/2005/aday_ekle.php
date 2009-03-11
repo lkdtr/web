@@ -9,7 +9,7 @@
 <td width="11">&nbsp;</td>
 <td valign="top" bgcolor="#f7f7f7">
 <table cellpadding="0" cellspacing="6" width="100%" valign="top"><tr><td>
-<font>Linux Kullanıcıları Derneği Yılın Penguenleri Ödülleri Aday Gösterme Süreci tamamlanmıştır.<br><br>İlginiz için teşekkür ederiz.
+<font>Linux KullanÄ±cÄ±larÄ± DerneÄŸi YÄ±lÄ±n Penguenleri Ã–dÃ¼lleri Aday GÃ¶sterme SÃ¼reci tamamlanmÄ±ÅŸtÄ±r.<br><br>Ä°lginiz iÃ§in teÅŸekkÃ¼r ederiz.
 </font></td></table>
 </td></table>
 </td>

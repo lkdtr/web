@@ -9,7 +9,7 @@
 <td width="11">&nbsp;</td>
 <td valign="top" bgcolor="#f7f7f7">
 <table cellpadding="0" cellspacing="6" width="100%" valign="top"><tr><td>
-<center><font>Oylama tamamlanmýþtýr, dolayýsýyla bundan sonra yorum eklenmemektedir.</font></center>
+<center><font>Oylama tamamlanmÄ±ÅŸtÄ±r, dolayÄ±sÄ±yla bundan sonra yorum eklenmemektedir.</font></center>
 </td></table>
 </td></table>
 </td>

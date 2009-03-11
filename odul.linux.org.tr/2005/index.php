@@ -9,10 +9,10 @@
 <td width="11">&nbsp;</td>
 <td valign="top" bgcolor="#f7f7f7">
 <table cellpadding="0" cellspacing="6" width="100%" valign="top"><tr><td>
-<font>Linux ve Özgür Yazılım Şenliği ile yaşıt olan Linux Kullanıcıları Derneği Yılın Penguenleri Ödülleri bu yıl dördüncü kez verilecek.<br><br>
-Ödül alacak penguenler, sizlerin göstereceği adaylar arasından dernek üyelerimizin oylarıyla belirlenecek.
-<br><br>İzlenen yöntem ile ilgili ayrıntılı bilgi için <a href="aciklamalar.php">tıklayın.</a>
-<br><br>Geçmiş Yılların Ödülleri:<br><br>
+<font>Linux ve Ã–zgÃ¼r YazÄ±lÄ±m ÅenliÄŸi ile yaÅŸÄ±t olan Linux KullanÄ±cÄ±larÄ± DerneÄŸi YÄ±lÄ±n Penguenleri Ã–dÃ¼lleri bu yÄ±l dÃ¶rdÃ¼ncÃ¼ kez verilecek.<br><br>
+Ã–dÃ¼l alacak penguenler, sizlerin gÃ¶stereceÄŸi adaylar arasÄ±ndan dernek Ã¼yelerimizin oylarÄ±yla belirlenecek.
+<br><br>Ä°zlenen yÃ¶ntem ile ilgili ayrÄ±ntÄ±lÄ± bilgi iÃ§in <a href="aciklamalar.php">tÄ±klayÄ±n.</a>
+<br><br>GeÃ§miÅŸ YÄ±llarÄ±n Ã–dÃ¼lleri:<br><br>
 <img src="images/ok.jpg"> <a href="http://senlik.linux.org.tr/2004/yilinpenguenleri/" target="_blank">2004</a>
 <img src="images/ok.jpg"> <a href="http://senlik.linux.org.tr/yilin_penguenleri.php" target="_blank">2003</a>
 <img src="images/ok.jpg"> <a href="http://senlik.linux.org.tr/2002/yilinpenguenleri.php" target="_blank">2002</a>

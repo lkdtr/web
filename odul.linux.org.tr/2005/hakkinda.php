@@ -9,11 +9,11 @@
 <td width="11">&nbsp;</td>
 <td valign="top" bgcolor="#f7f7f7">
 <table cellpadding="0" cellspacing="6" width="100%" valign="top"><tr><td>
-<font class="baslik" color=#ff80000>LKD Yılın Penguenleri Ödülleri</font><br><br>
+<font class="baslik" color=#ff80000>LKD YÄ±lÄ±n Penguenleri Ã–dÃ¼lleri</font><br><br>
 
 <font>
 
-Linux ve Özgür Yazılım Şenliği ile yaşıt olan Linux Kullanıcıları Derneği Yılın Penguenleri Ödülleri bu yıl dördüncü kez verilecek. Ödül alacak penguenler, sizlerin göstereceği adaylar arasından dernek üyelerimizin oylarıyla belirlenecek. 
+Linux ve Ã–zgÃ¼r YazÄ±lÄ±m ÅenliÄŸi ile yaÅŸÄ±t olan Linux KullanÄ±cÄ±larÄ± DerneÄŸi YÄ±lÄ±n Penguenleri Ã–dÃ¼lleri bu yÄ±l dÃ¶rdÃ¼ncÃ¼ kez verilecek. Ã–dÃ¼l alacak penguenler, sizlerin gÃ¶stereceÄŸi adaylar arasÄ±ndan dernek Ã¼yelerimizin oylarÄ±yla belirlenecek. 
 
 <br><br>
 

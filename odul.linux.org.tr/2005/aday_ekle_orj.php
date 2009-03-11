@@ -20,7 +20,7 @@ include "./tpl/header.php";
           <td valign="top" width="33%"> <table border="0" cellpadding="2" cellspacing="0"> 
               <tbody> 
                 <tr> 
-                  <td bgcolor="#466176" height="35" width="100%"><font color="white" size="2px"><strong>Yılın Penguenleri Aday Gösterme Formu</strong></font></td> 
+                  <td bgcolor="#466176" height="35" width="100%"><font color="white" size="2px"><strong>YÄ±lÄ±n Penguenleri Aday GÃ¶sterme Formu</strong></font></td> 
                 </tr> 
                 <tr>
  	 	 <td height=2> </td>
@@ -29,7 +29,7 @@ include "./tpl/header.php";
                   <td><center>
                       <table width="100%" cellpadding="2" cellspacing="0" border="0"> 
                        <tr>
-                         <td class=uyari><font>Lütfen yeni bir aday göstermeden önce, ilgili dalda önceki yıllarda ödül alanları ve bu yıl gösterilen adayları "<a href=goster.php?tip=kategori>Ödül Kategorileri</a>" sayfasından kontrol etmeyi unutmayın!</font></td>
+                         <td class=uyari><font>LÃ¼tfen yeni bir aday gÃ¶stermeden Ã¶nce, ilgili dalda Ã¶nceki yÄ±llarda Ã¶dÃ¼l alanlarÄ± ve bu yÄ±l gÃ¶sterilen adaylarÄ± "<a href=goster.php?tip=kategori>Ã–dÃ¼l Kategorileri</a>" sayfasÄ±ndan kontrol etmeyi unutmayÄ±n!</font></td>
                        <tr>
                        <tr>
 			 <td height=2> </td>
@@ -38,36 +38,36 @@ include "./tpl/header.php";
                       <form name="aday_eklef" action="aday_ekle2.php" method="post"> 
                         <table width="100%" border="0" cellpadding="4" cellspacing="1" bgcolor="#FFFFFF"> 
                           <tr bgcolor="#f4f4f4"> 
-                            <td valign="top"><font color="#000000"><font size="-1">Aday göstermek istediğiniz kişi, kurum veya içerik </font>(Daha ayrıntılı bilgi için lütfen ödül kategorilerine bakınız.)</font></td> 
+                            <td valign="top"><font color="#000000"><font size="-1">Aday gÃ¶stermek istediÄŸiniz kiÅŸi, kurum veya iÃ§erik </font>(Daha ayrÄ±ntÄ±lÄ± bilgi iÃ§in lÃ¼tfen Ã¶dÃ¼l kategorilerine bakÄ±nÄ±z.)</font></td> 
                             <td><font size="-1"> 
                               <input type="text" name="aday_adi" size="20" maxlength="100" value=""> 
                               </font>&nbsp;</td> 
                           </tr> 
                           <tr> 
-                            <td valign="top"><font color="#000000"><font size="-1">Aday göstermek istediğiniz kategori</font></font></td> 
+                            <td valign="top"><font color="#000000"><font size="-1">Aday gÃ¶stermek istediÄŸiniz kategori</font></font></td> 
                             <td><?php chkb_gs($_GET['id']);?></td> 
                           </tr> 
                           <tr bgcolor="#f4f4f4"> 
-                            <td  valign="top"><font color="#000000"><font size="-1">Öneren ismi</font>&nbsp;(Öneren olarak sizin veya kurumunuzun adını yazınız)</font></td> 
+                            <td  valign="top"><font color="#000000"><font size="-1">Ã–neren ismi</font>&nbsp;(Ã–neren olarak sizin veya kurumunuzun adÄ±nÄ± yazÄ±nÄ±z)</font></td> 
                             <td ><font size="-1"> 
                               <input type="text" name="oneren_adi" size="20" maxlength="100" value=""> 
                               </font>&nbsp;</td> 
                           </tr> 
                           <tr> 
-                            <td  valign="top"><font color="#000000"><font size="-1">Öneren e-posta adresi</font>&nbsp;(Lütfen size ulaşabilmemiz için geçerli bir e-posta adresi giriniz.) </font></td> 
+                            <td  valign="top"><font color="#000000"><font size="-1">Ã–neren e-posta adresi</font>&nbsp;(LÃ¼tfen size ulaÅŸabilmemiz iÃ§in geÃ§erli bir e-posta adresi giriniz.) </font></td> 
                             <td ><font size="-1"> 
                               <input type="text" name="oneren_eposta" size="20" maxlength="150" value=""> 
                               </font>&nbsp;</td> 
                           </tr> 
                           <tr bgcolor="#f4f4f4"> 
-                            <td  valign="top"><font color="#000000"><font size="-1">Adayınız için açıklayıcı bir metin giriniz, "Neden aday olmalı?" açıklayınız. </font></font></td> 
+                            <td  valign="top"><font color="#000000"><font size="-1">AdayÄ±nÄ±z iÃ§in aÃ§Ä±klayÄ±cÄ± bir metin giriniz, "Neden aday olmalÄ±?" aÃ§Ä±klayÄ±nÄ±z. </font></font></td> 
                             <td ><font size="-1"> 
                               <textarea name="oneri_metni" cols="15" rows="20"></textarea> 
                               </font>&nbsp;</td> 
                           </tr> 
                           <tr bgcolor="#f4f4f4"> 
                             <td  valign="top">&nbsp;</td> 
-                            <td  align="right"><input type="submit" name="action" value="Aday Önerisini Gönder"></td> 
+                            <td  align="right"><input type="submit" name="action" value="Aday Ã–nerisini GÃ¶nder"></td> 
                           </tr> 
                         </table> 
                       </form> 

@@ -7,13 +7,13 @@
           <td valign="top" width="33%"> <table border="0" cellpadding="2" cellspacing="0"> 
               <tbody> 
                 <tr> 
-                  <td bgcolor="#466176" height="35" width="700"><font color="white" size="2px"><strong>Yorum Düzenleme Formu (2. Adım)</strong></font></td> 
+                  <td bgcolor="#466176" height="35" width="700"><font color="white" size="2px"><strong>Yorum DÃ¼zenleme Formu (2. AdÄ±m)</strong></font></td> 
                 </tr> 
                 <tr> 
                   <td> </td> 
                 </tr> 
                 <tr> 
-                  <td class="menu"><center>Kayıt eklenirken bir hata oluştu, lütfen tekrar deneyin.</center></td> 
+                  <td class="menu"><center>KayÄ±t eklenirken bir hata oluÅŸtu, lÃ¼tfen tekrar deneyin.</center></td> 
                 </tr> 
               </tbody> 
             </table></td> 

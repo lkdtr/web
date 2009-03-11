@@ -17,4 +17,6 @@ echo "Hata mesajı: <b>".mysql_error()."</b><br>";
 echo "Hata numarası: <b>".mysql_errno()."</b><br>";
 exit();
 }
+
+mysql_query("SET NAMES 'latin5'");
 ?>

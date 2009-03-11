@@ -215,7 +215,7 @@
  <?php
   }
   
-  echo "<hr size=\"7\" color=\"#466176\" /><strong><center><font size=\"2px\"><a href=\"yorum_ekle.php\">Yorum ekle</a></font></center></strong><br /><br />";
+  echo "<hr size=\"7\" color=\"#466176\" /><br /><br />";
   echo "<strong><center><font size=\"3px\">Yorumlar</font></center></strong><hr size=\"5\" color=\"#466176\" />\n";
   
   while($bgl = @mysql_fetch_assoc($sqlw)){

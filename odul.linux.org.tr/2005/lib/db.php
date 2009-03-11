@@ -18,5 +18,5 @@ echo "Hata numarası: <b>".mysql_errno()."</b><br>";
 exit();
 }
 
-mysql_query("SET NAMES 'latin5'");
+mysql_query("SET NAMES 'utf8'");
 ?>

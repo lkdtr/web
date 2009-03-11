@@ -10,16 +10,17 @@
 <td valign="top" bgcolor="#f7f7f7">
 <table cellpadding="0" cellspacing="6" width="100%" valign="top"><tr><td>
 <font>
-Dernek üyeleri arasında yapılan oylama sonucunda verilen ödüller şöyle :<br>
-- En Çalışkan Penguen : Necdet Yücel (Oy Oranı : %26.43)<br>
-- En İyi Kurumsal Kullanıcı : Çanakkale Onsekiz Mart Üniversitesi (Oy Oranı : %35.00)<br>
-- En Başarılı Özgür Yazılım Projesi : Pardus (Oy Oranı : %84.29)<br>
-- En Başarılı Yerelleştirici : Pınar Yanardağ (Oy Oranı : %36.43)<br>
-- En İyi Özgür Yazılım : PiSi (Oy Oranı : %30.71)<br>
-- En İyi Basılı/Görsel İçerik Çalışması : Belgeler.org (Oy Oranı : %54.29)<br><br>
+Dernek Ã¼yeleri arasÄ±nda yapÄ±lan oylama sonucunda verilen Ã¶dÃ¼ller ÅŸÃ¶yle :<br>
+- En Ã‡alÄ±ÅŸkan Penguen : Necdet YÃ¼cel (Oy OranÄ± : %26.43)<br>
+- En Ä°yi Kurumsal KullanÄ±cÄ± : Ã‡anakkale Onsekiz Mart Ãœniversitesi (Oy OranÄ± : %35.00)<br>
+- En BaÅŸarÄ±lÄ± Ã–zgÃ¼r YazÄ±lÄ±m Projesi : Pardus (Oy OranÄ± : %84.29)<br>
+- En BaÅŸarÄ±lÄ± YerelleÅŸtirici : PÄ±nar YanardaÄŸ (Oy OranÄ± : %36.43)<br>
+- En Ä°yi Ã–zgÃ¼r YazÄ±lÄ±m : PiSi (Oy OranÄ± : %30.71)<br>
+- En Ä°yi BasÄ±lÄ±/GÃ¶rsel Ä°Ã§erik Ã‡alÄ±ÅŸmasÄ± : Belgeler.org (Oy OranÄ± : %54.29)<br><br>
 
-ONEMLI NOT: Bu yılın En İyi Basılı/Görsel İçerik Çalışması seçilen Belgeler.org bu ödülü redderek LKD Yönetim'ine ödülü geri iade etmiştir.
+Not: Bu yÄ±lÄ±n En Ä°yi BasÄ±lÄ±/GÃ¶rsel Ä°Ã§erik Ã‡alÄ±ÅŸmasÄ± seÃ§ilen belgeler.org sahibi NilgÃ¼n Belma BugÃ¼ner bu Ã¶dÃ¼lÃ¼ reddetmiÅŸtir.
 </font>
+<p>&nbsp;</p>
 <img src="images/ok.jpg"> <a href="http://senlik.linux.org.tr/2002/yilinpenguenleri.php" target="_blank">2002</a>
 </font></td></table>
 </td></table>

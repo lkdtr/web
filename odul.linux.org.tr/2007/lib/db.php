@@ -17,4 +17,6 @@ echo "Hata mesaj: <b>".mysql_error()."</b><br>";
 echo "Hata numaras: <b>".mysql_errno()."</b><br>";
 exit();
 }
+
+mysql_query("SET NAMES 'utf8'");
 ?>

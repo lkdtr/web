@@ -9,7 +9,7 @@
 <td width="11">&nbsp;</td>
 <td valign="top" bgcolor="#f7f7f7">
 <table cellpadding="0" cellspacing="6" width="100%" valign="top"><tr><td>
-<center><font>Yorumunuz veritabanına eklenmiştir, ufak bir kontrolden sonra sitedeki yerini alacaktır.</font></center>
+<center><font>Yorumunuz veritabanÄ±na eklenmiÅŸtir, ufak bir kontrolden sonra sitedeki yerini alacaktÄ±r.</font></center>
 </td></table>
 </td></table>
 </td>

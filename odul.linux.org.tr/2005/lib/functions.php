@@ -112,7 +112,7 @@
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
               <tbody>
                 <tr>
-                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>Geçen senelerde ödül alan penguenler</strong></font></td>
+                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>GeÃ§en senelerde Ã¶dÃ¼l alan penguenler</strong></font></td>
                 </tr>
                 <tr>
                   <td> </td>
@@ -138,13 +138,13 @@
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
               <tbody>
                 <tr>
-                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>Aday göstermek istediğiniz penguenler mi var?</strong></font></td>
+                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>Aday gÃ¶stermek istediÄŸiniz penguenler mi var?</strong></font></td>
                 </tr>
                 <tr>
                   <td> </td>
                 </tr>
                 <tr>
-                  <td class="menu"><font>Eğer aday göstermek istediğiniz penguenler varsa, <strong><a href="aday_ekle.php?id=<?=$bga['id']?>">Aday Ekleme Formu</a></strong>'nu doldurarak aday listesine ekleyebilirsiniz.</font></td>
+                  <td class="menu"><font>EÄŸer aday gÃ¶stermek istediÄŸiniz penguenler varsa, <strong><a href="aday_ekle.php?id=<?=$bga['id']?>">Aday Ekleme Formu</a></strong>'nu doldurarak aday listesine ekleyebilirsiniz.</font></td>
                 </tr>
               </tbody>
           </table></td>
@@ -168,7 +168,7 @@
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
               <tbody>
                 <tr>
-                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong><?=$bgs['adi']?> Adayları</strong></font></td>
+                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong><?=$bgs['adi']?> AdaylarÄ±</strong></font></td>
                 </tr>
                 <tr>
                   <td> </td>
@@ -204,7 +204,7 @@
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
               <tbody>
                 <tr>
-                  <td bgcolor="#466176" height="35" class="menu"><font color="white" size="2px"><strong><?=$bg['ad_soyad']?> (<?=kat_adi($bg['kategori'])?> Adayı)</strong></font></td>
+                  <td bgcolor="#466176" height="35" class="menu"><font color="white" size="2px"><strong><?=$bg['ad_soyad']?> (<?=kat_adi($bg['kategori'])?> AdayÄ±)</strong></font></td>
                 </tr>
                 <tr>
                   <td> </td>
@@ -255,8 +255,8 @@
    $m= new Mail;
    $m->From(SITEMAIL);
    $m->To (ADMINMAIL);
-   $m->Subject ("Yılın Penguenleri Sitesi");
-   $m->Body ("Merhaba\n\nLKD Yılın Penguenleri Ödülleri Sitesi'ne [1] yeni bir aday eklendi, ilgilenebilirsen [2] sevinirim.\n\n[1] http://odul.linux.org.tr/2005/\n[2] http://odul.linux.org.tr/2005/yonetim/\n\nİyi çalışmalar");
+   $m->Subject ("YÄ±lÄ±n Penguenleri Sitesi");
+   $m->Body ("Merhaba\n\nLKD YÄ±lÄ±n Penguenleri Ã–dÃ¼lleri Sitesi'ne [1] yeni bir aday eklendi, ilgilenebilirsen [2] sevinirim.\n\n[1] http://odul.linux.org.tr/2005/\n[2] http://odul.linux.org.tr/2005/yonetim/\n\nÄ°yi Ã§alÄ±ÅŸmalar");
    $m->Priority (1);
    $m->Send ();
   }
@@ -283,8 +283,8 @@
    $m= new Mail;
    $m->From(SITEMAIL);
    $m->To (ADMINMAIL);
-   $m->Subject ("Yılın Penguenleri Sitesi");
-   $m->Body ("Merhaba\n\nLKD Yılın Penguenleri Ödülleri Sitesi'nde [1] yeni bir yorum eklendi, ilgilenebilirsen [2] sevinirim.\n\n[1] http://odul.linux.org.tr/2005/\n[2] http://odul.linux.org.tr/2005/yonetim/\n\nİyi çalışmalar");
+   $m->Subject ("YÄ±lÄ±n Penguenleri Sitesi");
+   $m->Body ("Merhaba\n\nLKD YÄ±lÄ±n Penguenleri Ã–dÃ¼lleri Sitesi'nde [1] yeni bir yorum eklendi, ilgilenebilirsen [2] sevinirim.\n\n[1] http://odul.linux.org.tr/2005/\n[2] http://odul.linux.org.tr/2005/yonetim/\n\nÄ°yi Ã§alÄ±ÅŸmalar");
    $m->Priority (1);
    $m->Send ();
   }
@@ -301,7 +301,7 @@
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
               <tbody>
                 <tr>
-                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>Onaylanmayı bekleyen yorumlar</strong></font></td>
+                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>OnaylanmayÄ± bekleyen yorumlar</strong></font></td>
                 </tr>
                 <tr>
                   <td> </td>
@@ -314,7 +314,7 @@
   while($bgl = @mysql_fetch_assoc($sqlw)){
   ?>
                   <strong><a href="mailto:<?php echo str_replace("@"," [at] ",$bgl['ekleyen_eposta']); ?>"><?=$bgl['ekleyen_ad']?></a>:</strong> <?php echo unhtmls($bgl['yorum']); ?>
-                  <br \><br \><strong><a href="onayla.php?tip=yorumb&islem=1&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">onayla</a> | <a href="duzenle.php?tip=yorum&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">düzenle</a> | <a href="onayla.php?tip=yorumb&islem=0&id=<?=$bgl['id']?>"  onclick="return confirm('Emin misiniz?');">sil</a></strong>
+                  <br \><br \><strong><a href="onayla.php?tip=yorumb&islem=1&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">onayla</a> | <a href="duzenle.php?tip=yorum&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">dÃ¼zenle</a> | <a href="onayla.php?tip=yorumb&islem=0&id=<?=$bgl['id']?>"  onclick="return confirm('Emin misiniz?');">sil</a></strong>
                   <hr size="2" color="#466176" />
   <?php
   }
@@ -329,7 +329,7 @@
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
               <tbody>
                 <tr>
-                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>Onaylanan (gösterimdeki) yorumlar</strong></font></td>
+                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>Onaylanan (gÃ¶sterimdeki) yorumlar</strong></font></td>
                 </tr>
                 <tr>
                   <td> </td>
@@ -342,7 +342,7 @@
   while($bgl = @mysql_fetch_assoc($sqlw)){
   ?>
                   <strong><a href="mailto:<?php echo str_replace("@"," [at] ",$bgl['ekleyen_eposta']); ?>"><?=$bgl['ekleyen_ad']?></a>:</strong> <?php echo unhtmls($bgl['yorum']); ?>
-                  <br \><br \><strong><a href="onayla.php?tip=yorumb&islem=2&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">beklemeye al</a> | <a href="duzenle.php?tip=yorum&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">düzenle</a> | <a href="onayla.php?tip=yorumb&islem=0&id=<?=$bgl['id']?>"  onclick="return confirm('Emin misiniz?');">sil</a></strong>
+                  <br \><br \><strong><a href="onayla.php?tip=yorumb&islem=2&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">beklemeye al</a> | <a href="duzenle.php?tip=yorum&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">dÃ¼zenle</a> | <a href="onayla.php?tip=yorumb&islem=0&id=<?=$bgl['id']?>"  onclick="return confirm('Emin misiniz?');">sil</a></strong>
                   <hr size="2" color="#466176" />
   <?php
   }
@@ -384,7 +384,7 @@
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
               <tbody>
                 <tr>
-                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>Onaylanmayı bekleyen adaylar</strong></font></td>
+                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>OnaylanmayÄ± bekleyen adaylar</strong></font></td>
                 </tr>
                 <tr>
                   <td> </td>
@@ -396,8 +396,8 @@
   
   while($bgl = @mysql_fetch_assoc($sqlw)){
   ?>
-                  <strong><?=$bgl['ad_soyad']?> adlı penguen "<a href="mailto:<?php echo str_replace("@"," [at] ",$bgl['oneren_eposta']); ?>"><?=$bgl['oneren_ad']?></a>" tarafından "<?php echo kat_adi($bgl['kategori']); ?>" kategorisinde öneriliyor:</strong><br /> <?php echo unhtmls($bgl['oneri_metni']); ?>
-                  <br \><br \><strong><a href="onayla.php?tip=adayb&islem=1&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">onayla</a> | <a href="duzenle.php?tip=aday&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">düzenle</a> | <a href="onayla.php?tip=adayb&islem=0&id=<?=$bgl['id']?>"  onclick="return confirm('Emin misiniz?');">sil</a></strong>
+                  <strong><?=$bgl['ad_soyad']?> adlÄ± penguen "<a href="mailto:<?php echo str_replace("@"," [at] ",$bgl['oneren_eposta']); ?>"><?=$bgl['oneren_ad']?></a>" tarafÄ±ndan "<?php echo kat_adi($bgl['kategori']); ?>" kategorisinde Ã¶neriliyor:</strong><br /> <?php echo unhtmls($bgl['oneri_metni']); ?>
+                  <br \><br \><strong><a href="onayla.php?tip=adayb&islem=1&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">onayla</a> | <a href="duzenle.php?tip=aday&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">dÃ¼zenle</a> | <a href="onayla.php?tip=adayb&islem=0&id=<?=$bgl['id']?>"  onclick="return confirm('Emin misiniz?');">sil</a></strong>
                   <hr size="2" color="#466176" />
   <?php
   }
@@ -412,7 +412,7 @@
             <table border="0" cellpadding="2" cellspacing="0" width="100%">
               <tbody>
                 <tr>
-                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>Onaylanmış (gösterimdeki) adaylar</strong></font></td>
+                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>OnaylanmÄ±ÅŸ (gÃ¶sterimdeki) adaylar</strong></font></td>
                 </tr>
                 <tr>
                   <td> </td>
@@ -424,8 +424,8 @@
   
   while($bgl = @mysql_fetch_assoc($sqlw)){
   ?>
-                  <strong><?=$bgl['ad_soyad']?> adlı penguen "<a href="mailto:<?php echo str_replace("@"," [at] ",$bgl['oneren_eposta']); ?>"><?=$bgl['oneren_ad']?></a>" tarafından "<?php echo kat_adi($bgl['kategori']); ?>" kategorisinde öneriliyor:</strong><br /> <?php echo unhtmls($bgl['oneri_metni']); ?>
-                  <br \><br \><strong><a href="onayla.php?tip=adayb&islem=2&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">beklemeye al</a> | <strong><a href="duzenle.php?tip=aday&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">düzenle</a> | <a href="onayla.php?tip=adayb&islem=0&id=<?=$bgl['id']?>"  onclick="return confirm('Emin misiniz?');">sil</a></strong>
+                  <strong><?=$bgl['ad_soyad']?> adlÄ± penguen "<a href="mailto:<?php echo str_replace("@"," [at] ",$bgl['oneren_eposta']); ?>"><?=$bgl['oneren_ad']?></a>" tarafÄ±ndan "<?php echo kat_adi($bgl['kategori']); ?>" kategorisinde Ã¶neriliyor:</strong><br /> <?php echo unhtmls($bgl['oneri_metni']); ?>
+                  <br \><br \><strong><a href="onayla.php?tip=adayb&islem=2&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">beklemeye al</a> | <strong><a href="duzenle.php?tip=aday&id=<?=$bgl['id']?>" onclick="return confirm('Emin misiniz?');">dÃ¼zenle</a> | <a href="onayla.php?tip=adayb&islem=0&id=<?=$bgl['id']?>"  onclick="return confirm('Emin misiniz?');">sil</a></strong>
                   <hr size="2" color="#466176" />
   <?php
   }

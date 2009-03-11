@@ -9,7 +9,7 @@
 <td width="11">&nbsp;</td>
 <td valign="top" bgcolor="#f7f7f7">
 <table cellpadding="0" cellspacing="6" width="100%" valign="top"><tr><td>
-<center><font>Kayıt eklenirken bir hata oluştu, lütfen tekrar deneyin. Sorunun devam etmesi halinde lütfen şenlik yönetimiyle irtibata geçin.</font></center>
+<center><font>KayÄ±t eklenirken bir hata oluÅŸtu, lÃ¼tfen tekrar deneyin. Sorunun devam etmesi halinde lÃ¼tfen ÅŸenlik yÃ¶netimiyle irtibata geÃ§in.</font></center>
 </td></table>
 </td></table>
 </td>

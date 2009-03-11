@@ -9,13 +9,13 @@
             <table border="0" cellpadding="2" cellspacing="0">
               <tbody>
                 <tr>
-                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>LKD Yılın Penguenleri Ödülleri Sitesi Yönetim Arabirimi</strong></font></td>
+                  <td bgcolor="#466176" height="35"><font color="white" size="2px"><strong>LKD YÄ±lÄ±n Penguenleri Ã–dÃ¼lleri Sitesi YÃ¶netim Arabirimi</strong></font></td>
                 </tr>
                 <tr>
                   <td> </td>
                 </tr>
                 <tr>
-                  <td class="menu">Sitenin yönetim arabirimine hoşgeldiniz. Yukarıdaki bağları kullanarak gerekli işlemleri yapabilirsiniz. Sonuç açıklama işlemini gerçekleştirirken lütfen dikkatli olunuz, bu işlemin geri dönüşü yoktur.</strong></td>
+                  <td class="menu">Sitenin yÃ¶netim arabirimine hoÅŸgeldiniz. YukarÄ±daki baÄŸlarÄ± kullanarak gerekli iÅŸlemleri yapabilirsiniz. SonuÃ§ aÃ§Ä±klama iÅŸlemini gerÃ§ekleÅŸtirirken lÃ¼tfen dikkatli olunuz, bu iÅŸlemin geri dÃ¶nÃ¼ÅŸÃ¼ yoktur.</strong></td>
                 </tr>
               </tbody>
           </table></td>

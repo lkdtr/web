@@ -12,13 +12,13 @@
 <center>                      <form name="yorum_eklef" action="yorum_ekle2.php" method="post"> 
                         <table width="100%" border="0" cellpadding="4" cellspacing="1" bgcolor="#FFFFFF"> 
                           <tr bgcolor="#f4f4f4"> 
-                            <td valign="top"><font color="#000000"><font size="-1">Hakkýnda yorum yapacaðýnýz penguen</font></font></td> 
+                            <td valign="top"><font color="#000000"><font size="-1">HakkÄ±nda yorum yapacaÄŸÄ±nÄ±z penguen</font></font></td> 
                             <td><font size="-1"> 
                               <input type="hidden" name="penguen" value="<?=$_GET['id']?>"> <?=penguen_adi($_GET['id'])?>
                               </font>&nbsp;</td> 
                           </tr>
                           <tr> 
-                            <td  valign="top"><font color="#000000"><font size="-1">Adýnýz Soyadýnýz</font>&nbsp;</font></td> 
+                            <td  valign="top"><font color="#000000"><font size="-1">AdÄ±nÄ±z SoyadÄ±nÄ±z</font>&nbsp;</font></td> 
                             <td ><font size="-1"> 
                               <input type="text" name="yorum_adi" size="20" maxlength="100" value="">
                               </font>&nbsp;</td> 
@@ -37,7 +37,7 @@
                           </tr> 
                           <tr bgcolor="#f4f4f4"> 
                             <td  valign="top">&nbsp;</td> 
-                            <td  align="right"><input type="submit" name="action" value="Yorumu Gönder"></td> 
+                            <td  align="right"><input type="submit" name="action" value="Yorumu GÃ¶nder"></td> 
                           </tr> 
                         </table> 
                       </form> </center>

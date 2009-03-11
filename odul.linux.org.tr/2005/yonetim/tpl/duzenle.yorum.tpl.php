@@ -10,7 +10,7 @@ $bg = yorum_bilgi($_GET['id']);
           <td valign="top" width="33%"> <table border="0" cellpadding="2" cellspacing="0"> 
               <tbody> 
                 <tr> 
-                  <td bgcolor="#466176" height="35" width="700"><font color="white" size="2px"><strong>Yorum Düzenleme Formu</strong></font></td> 
+                  <td bgcolor="#466176" height="35" width="700"><font color="white" size="2px"><strong>Yorum DÃ¼zenleme Formu</strong></font></td> 
                 </tr> 
                 <tr> 
                   <td> </td> 
@@ -20,7 +20,7 @@ $bg = yorum_bilgi($_GET['id']);
                       <form name="yorum_eklef" action="duzenle3.php" method="post"> 
                         <table width="100%" border="0" cellpadding="4" cellspacing="1" bgcolor="#FFFFFF"> 
                           <tr bgcolor="#f4f4f4"> 
-                            <td valign="top"><font color="#000000"><font size="-1">Hakkýnda yorum yapýlan penguen</font></font></td> 
+                            <td valign="top"><font color="#000000"><font size="-1">HakkÄ±nda yorum yapÄ±lan penguen</font></font></td> 
                             <td><font size="-1"> 
                               <?=penguen_adi($bg['aday_id'])?>
                               </font>&nbsp;</td> 
@@ -45,7 +45,7 @@ $bg = yorum_bilgi($_GET['id']);
                           </tr> 
                           <tr bgcolor="#f4f4f4"> 
                             <td  valign="top">&nbsp;</td><input type="hidden" name="id" value="<?=$_GET['id']?>">
-                            <td  align="right"><input type="submit" name="action" value="Gönder"></td> 
+                            <td  align="right"><input type="submit" name="action" value="GÃ¶nder"></td> 
                           </tr> 
                         </table> 
                       </form> 

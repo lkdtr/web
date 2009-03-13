@@ -5,6 +5,7 @@
 
 <tr><td>
 
+<center>
 <br>
 
 <!--/* OpenX Javascript Tag v2.6.3 */-->
@@ -45,7 +46,8 @@
 src='http://reklam.lkd.org.tr/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a16bac94' border='0' alt='' /></a></noscript>
 
 <br>
-
+<br>
+</center>
 
  <table cellspacing="0" cellpadding="5" border="0" bgcolor="#fffde2" width="100%">
         <tbody>

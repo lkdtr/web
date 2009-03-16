@@ -26,7 +26,7 @@
 <div id="siluetarka">
 <div id="istanbulsiluet">
 <ul id="menu">
-<li><a href="http://senlik.linux.org.tr/2009/">ANASAYFA</a></li>
+<li><a href="http://senlik.linux.org.tr/2009/">ANA SAYFA</a></li>
 <li><a href="http://senlik.linux.org.tr/2009/tarihce/">TARİHÇE</a></li>
 <li><a href="http://senlik.linux.org.tr/2009/etkinlik-programi/">ETKİNLİK PROGRAMI</a></li>
 <li><a href="http://senlik.linux.org.tr/2009/sponsorlar/">SPONSORLAR</a></li>

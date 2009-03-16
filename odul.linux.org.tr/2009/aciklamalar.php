@@ -47,7 +47,7 @@ LKD Yılın Penguenleri Ödülleri'nin belirlenmesinde uygulanacak yöntem aşa�
 * En İyi Basılı/Görsel İçerik Çalışması : Geçtiğimiz yıl içerisinde hazırlanan ve Türkiye'de özgür yazılımların yaygınlaştırılmasına en çok katkıda bulunmuş kitap, dergi, web sitesi, radyo/televizyon programı ve benzeri çalışma. Bu ödül projelere verilmektedir.
 
 <br><br>
-<img src="images/ok.jpg"> <a href="./">Ana Sayfa</a>
+<img src="images/ok.jpg"> <a href="index.php">Ana Sayfa</a>
 </font></td></table>
 </td></table>
 </td>

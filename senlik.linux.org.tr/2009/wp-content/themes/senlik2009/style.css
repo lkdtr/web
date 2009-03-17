@@ -147,9 +147,16 @@ ul#menu li a {
 	background:url(images/kimneden.jpg) no-repeat center;
 }
 
-.kod {
+.kod468 {
 	border:1px solid #000;
 	padding:5px;
+	width:475px;
+}
+
+.kod160 {
+	border:1px solid #000;
+	padding:5px;
+	width:175px;
 }
 
 #hizliulasim {

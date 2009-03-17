@@ -38,7 +38,19 @@ Dolapdere- İstanbul</h2>
 
 <div id="alt">
 <div id="icerik">
+<div id="solalt">
 <a href="http://www.lkd.org.tr/" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/tlkdlogo.gif" /></a>
+</div>
+<div id="sagalt">
+<a href="http://www.facebook.com/home.php#/event.php?eid=69688546404"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/facebook.gif" /></a>
+<img src="<?php bloginfo('stylesheet_directory'); ?>/images/altayrac.gif" />
+<a href="http://twitter.com/senlik2009"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/twitter.gif" /></a>
+<img src="<?php bloginfo('stylesheet_directory'); ?>/images/altayrac.gif" />
+<a href="http://twitter.com/senlik2009"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/xing.gif" /></a>
+<img src="<?php bloginfo('stylesheet_directory'); ?>/images/altayrac.gif" />
+<a href="http://twitter.com/senlik2009"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/linkedin.gif" /></a>
+</div>
+<div class="temizle"></div>
 </div>
 </div>
 

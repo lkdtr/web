@@ -46,9 +46,9 @@ Dolapdere- İstanbul</h2>
 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/altayrac.gif" />
 <a href="http://twitter.com/senlik2009"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/twitter.gif" /></a>
 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/altayrac.gif" />
-<a href="http://twitter.com/senlik2009"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/xing.gif" /></a>
+<a href="https://www.xing.com/events/317709"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/xing.gif" /></a>
 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/altayrac.gif" />
-<a href="http://twitter.com/senlik2009"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/linkedin.gif" /></a>
+<a href="http://events.linkedin.com/Linux-ve-Ozgur-Yazilim-Senligi-2009/pub/44633"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/linkedin.gif" /></a>
 </div>
 <div class="temizle"></div>
 </div>

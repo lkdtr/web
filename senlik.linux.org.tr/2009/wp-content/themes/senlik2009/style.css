@@ -80,6 +80,12 @@ ul#menu li a {
 	margin:auto;
 }
 
+.metin ul li {
+	list-style:none;
+	padding:2px 2px 2px 12px;
+	background:url(images/listeisareti.gif) no-repeat left top;
+}
+
 .metin a {
 	color:#000;
 	text-decoration:underline;
@@ -103,6 +109,42 @@ ul#menu li a {
 .metin textarea {
 	width:400px;
 	height:100px;
+}
+
+.metin .sol {
+	float:left;
+	text-align:left;
+	width:300px;
+}
+
+.metin .sol ul li {
+	list-style:none;
+	padding:2px 2px 2px 12px;
+	background:url(images/listeisareti.gif) no-repeat left top;
+}
+
+.metin .sag {
+	float:right;
+	text-align:right;
+	width:300px;
+}
+
+.metin .sag ul li {
+	list-style:none;
+	padding:2px 12px 2px 2px;
+	background:url(images/listeisareti.gif) no-repeat right top;
+}
+
+.metin .nedir {
+	background:url(images/nedir.jpg) no-repeat right;
+}
+
+.metin .nerede {
+	background:url(images/nerede.jpg) no-repeat center;
+}
+
+.metin .kimneden {
+	background:url(images/kimneden.jpg) no-repeat center;
 }
 
 .kod {
@@ -200,8 +242,19 @@ ul#menu li a {
 }
 
 #alt #icerik {
-	width:700px;
+	width:600px;
 	margin:auto;
 	padding:50px 0 10px 0;
 	text-align:center;
+}
+
+#alt #icerik #solalt {
+	width:108px;
+	float:left;
+}
+
+#alt #icerik #sagalt {
+	width:490px;
+	float:right;
+	text-align:right;
 }

@@ -28,9 +28,10 @@
 <ul id="menu">
 <li><a href="http://senlik.linux.org.tr/2009/">ANA SAYFA<a></li>
 <li><a href="http://senlik.linux.org.tr/2009/hakkinda/">HAKKINDA</a></li>
+<li><a href="http://senlik.linux.org.tr/2009/tarihce/">TARİHÇE</a></li>
 <li><a href="http://senlik.linux.org.tr/2009/etkinlik-programi/">ETKİNLİK PROGRAMI</a></li>
 <li><a href="http://senlik.linux.org.tr/2009/sponsorlar/">SPONSORLAR</a></li>
-<li><a href="http://open.bilgi.edu.tr/freedays/" target="_blank">FREE DAYS</a></li>
+<li class="son"><a href="http://open.bilgi.edu.tr/freedays/" target="_blank">FREE DAYS</a></li>
 </ul>
 <div class="temizle"></div>
 </div>

@@ -19,7 +19,7 @@
             <td align="center">  <a class="beyaz" href="/iletisim.html">ıletişim</a></td>
             <td align="center"> | </td>
             <td align="center"><a class="beyaz" target="_blank" href="http://www.lkd.org.tr/">LKD Hakkında</a></td>
-            <td width="20%" align="right"><a class="beyaz" target="_blank" href="http://www.lkd.org.tr/hakkinda/tarihce">About
+            <td width="20%" align="right"><a class="beyaz" target="_blank" href="http://www.lkd.org.tr/english/">About
 Us</a></td>
           </tr>
         </tbody>

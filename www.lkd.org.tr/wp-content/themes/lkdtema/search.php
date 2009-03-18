@@ -36,7 +36,7 @@ get_header(); ?>
 
 	<?php else : ?>
 
-		<h2 class="center">Hiç yazı bulunamadı.</h2>
+		<h2 class="center">Aradığınız ifadeyi içeren hiç yazı bulunamadı.</h2>
 
 	<?php endif; ?>
 

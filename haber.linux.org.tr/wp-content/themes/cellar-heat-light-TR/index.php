@@ -29,7 +29,7 @@
 <?php endwhile; ?>
 <br clear="all" />
 <?php else: ?>
-<div class="search-results"><span class="bigger">Arama Sonuçları...</span><br /><?php _e('Üzgünüz, kriterlerinize uygun yazı yok.'); ?></div>
+<div class="search-results"><span class="bigger">Arama Sonuçları :</span><br /><p>&nbsp;</p><?php _e('Üzgünüz, kriterlerinize uygun yazı yok.'); ?></div>
 <?php endif; ?>        
     <!-- post end -->
 <div id="page-nav"><span class="older"><?php next_posts_link('Önceki Yazılar') ?></span><span class="newer"><?php previous_posts_link('Sonraki Yazılar') ?></span></div>

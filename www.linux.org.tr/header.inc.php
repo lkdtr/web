@@ -36,7 +36,7 @@
 <a class="beyaz" target="_blank" href="http://www.lkd.org.tr/">LKD Hakkında</a>
 </td>
 <td width="20%" align="right">
-<a class="beyaz" target="_blank" href="http://www.lkd.org.tr/hakkinda/tarihce">About Us</a>
+<a class="beyaz" target="_blank" href="http://www.lkd.org.tr/english/">About Us</a>
 </td>
 </tr>
 </tbody>

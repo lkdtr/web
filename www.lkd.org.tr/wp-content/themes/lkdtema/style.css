@@ -126,6 +126,10 @@ ul#menu li a {
 	float:left;
 }
 
+#orta p {
+	padding:5px 0 5px 0;
+}
+
 #orta h1 {
 	font-weight:bold;
 	font-size:14px;

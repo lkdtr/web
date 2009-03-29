@@ -1,0 +1,5 @@
+#!/bin/bash
+
+TODAY=`date +%Y-%m-%d`
+
+mysql -u agora -pg0gurme -e "delete from confirmations where expiration < '$TODAY'" votedb

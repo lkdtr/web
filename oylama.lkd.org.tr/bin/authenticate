@@ -1,0 +1,19 @@
+#!/usr/bin/expect  -f
+
+#set env(TERM) vt100
+set env(SHELL) /bin/tcsh
+log_user 0
+
+spawn -noecho   /usr/local/bin/ssh2  [ lindex $argv 0]\@[lindex $argv 1]
+# spawn -noecho   /usr/local/bin/ssh2  [ lindex $argv 0]\@[lindex $argv 1] -s sftp 
+       # expect -re "sftp>"  {send "open [ lindex $argv 0]\@[lindex $argv 1]\r"} 
+     	expect   {
+	"[lindex $argv 0]'s password:" 
+		{ send  "[lindex $argv 2]\r";
+		expect  {
+			-re "[lindex $argv 0]'s password:" {send_user "0\n";exit}
+			-re "AUTHENTICATED YES" {send_user "1\n";exit}
+			}
+		}	
+	eof {send_user "0\n";exit} 
+	}

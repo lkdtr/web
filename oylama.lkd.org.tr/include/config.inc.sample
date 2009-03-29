@@ -1,0 +1,19 @@
+<?
+
+$binpath = "/var/www/html/agora/bin";
+
+$authcmd = "$binpath/authenticate";
+
+$main_url    = "SITEURL";
+$confirm_url = $main_url."/confirm.php";
+$login_url   = $main_url."/manager_login.html";
+$manager_url = $main_url."/manager.php";
+
+$agora_mail = "SYSTEMEMAIL";
+
+$dbhost = "SERVER";
+$dbname = "DATABASENAME";
+$dbuser = "DATEBASEUSER";
+$dbpass = "DATABASEPASS";
+
+?>

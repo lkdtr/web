@@ -10,6 +10,12 @@ get_header(); ?>
 
 <div id="genislik">
 
+<div class="solsponsorlar">
+
+
+
+</div>
+
 <div class="metin">
 
 	<?php if (have_posts()) : ?>
@@ -40,6 +46,14 @@ get_header(); ?>
 	<?php endif; ?>
 
 	</div>
+</div>
+
+<div class="sagsponsorlar">
+
+<h1>Sponsorlar</h1>
+
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/pardus.png" />
+
 </div>
 
 <?php get_footer(); ?>

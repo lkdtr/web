@@ -52,8 +52,10 @@ get_header(); ?>
 
 <h1>Sponsorlar</h1>
 
-<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/pardus.png" />
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/pardus.png" width="140" />
 
 </div>
+
+<div class="temizle"></div>
 
 <?php get_footer(); ?>

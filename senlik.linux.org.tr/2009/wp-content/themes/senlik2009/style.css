@@ -84,8 +84,12 @@ ul#menu li a {
 	float:left;
 }
 
+.solsponsorlar img {
+	padding:10px 0 10px 0;
+}
+
 .solsponsorlar h1 {
-	font-size:18px;
+	font-size:14px;
 	padding:5px 0 5px 0;
 }
 
@@ -102,8 +106,12 @@ ul#menu li a {
 	margin-left:10px;
 }
 
+.sagsponsorlar img {
+	padding:10px 0 10px 0;
+}
+
 .sagsponsorlar h1 {
-	font-size:18px;
+	font-size:14px;
 	padding:5px 0 5px 0;
 	text-align:right;
 }

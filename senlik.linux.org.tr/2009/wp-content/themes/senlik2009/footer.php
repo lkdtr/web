@@ -4,9 +4,6 @@
  * @subpackage Default_Theme
  */
 ?>
-<p>&nbsp;</p>
-<center><a href="http://senlik.linux.org.tr/2009/sponsorlar/"><img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/02/sponsorlar.jpg" alt="Sponsorlarımız" title="Sponsorlarımız" width="739" height="177" class="aligncenter size-full wp-image-151" /></a>
-</center>
 
 <div id="hizliulasim">
 
@@ -32,7 +29,6 @@ Dolapdere- İstanbul</h2>
 	</object>
 </div>
 </div>
-
 <div class="temizle"></div>
 
 </div>

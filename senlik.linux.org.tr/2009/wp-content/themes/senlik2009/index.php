@@ -58,25 +58,25 @@ get_header(); ?>
 
 <h1>Sponsorlar</h1>
 
-<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/ydn.png" width="120" />
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/ydn.png" width="110" />
 
-<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/pardus.png" width="120" />
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/pardus.png" width="110" />
 
 <h1>İçecek</h1>
 
-<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/sprite_logo1.jpg" width="120" />
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/sprite_logo1.jpg" width="110" />
 
 <h1>Eşantiyon</h1>
 
-<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/kartaca-11.png" width="120" />
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/kartaca-11.png" width="110" />
 
 <h1>Ödül</h1>
 
-<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/airties.png" width="120" />
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/airties.png" width="110" />
 
 <h1>Afiş Tasarım</h1>
 
-<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/akion.png" width="120" />
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/akion.png" width="80" />
 
 </div>
 

@@ -70,13 +70,13 @@ get_header(); ?>
 
 <img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/kartaca-11.png" width="130" />
 
-<h1>Afiş Tasarim</h1>
-
-<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/akion.png" width="130" />
-
-<h1>Odul</h1>
+<h1>Ödül</h1>
 
 <img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/airties.png" width="130" />
+
+<h1>Afiş Tasarım</h1>
+
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/akion.png" width="130" />
 
 </div>
 

@@ -16,6 +16,8 @@ get_header(); ?>
 
 <img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/istanbulbilgi.png" width="130" />
 
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/tlkdlogo.png" width="130" />
+
 </div>
 
 <div class="metin">
@@ -65,6 +67,14 @@ get_header(); ?>
 <h1>Eşantiyon</h1>
 
 <img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/kartaca-11.png" width="130" />
+
+<h1>Afiş Tasarim</h1>
+
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/akion.png" width="130" />
+
+<h1>Odul</h1>
+
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/airties.png" width="130" />
 
 </div>
 

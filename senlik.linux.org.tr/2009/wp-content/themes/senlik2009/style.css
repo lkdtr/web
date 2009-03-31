@@ -75,13 +75,34 @@ ul#menu li a {
 }
 
 #genislik {
-	width:700px;
+	width:900px;
 	margin:auto;
+}
+
+.solsponsorlar {
+	width:140px;
+	float:left;
+}
+
+.solsponsorlar h1 {
+	font-size:18px;
+	padding:5px 0 5px 0;
 }
 
 .metin {
 	width:600px;
 	margin:auto;
+	float:left;
+}
+
+.sagsponsorlar {
+	width:140px;
+	float:left;
+}
+
+.sagsponsorlar h1 {
+	font-size:18px;
+	padding:5px 0 5px 0;
 }
 
 .metin ul li {

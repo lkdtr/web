@@ -18,7 +18,7 @@ get_header(); ?>
 
 <a href="http://www.lkd.org.tr/" target="_blank"><img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/tlkdlogo.png" width="130" /></a>
 
-<br />
+<br /><br />
 
 <a href="http://senlik.linux.org.tr/2009/afis-banner/"><img src="http://senlik.linux.org.tr/2009/banner/banner160600-4.jpg" alt="" width="130" /></a>
 

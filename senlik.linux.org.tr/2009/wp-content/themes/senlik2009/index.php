@@ -14,7 +14,7 @@ get_header(); ?>
 
 <h1>Organizasyon</h1>
 
-<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/ydn.png" width="130" />
+<img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/istanbulbilgi.png" width="130" />
 
 </div>
 

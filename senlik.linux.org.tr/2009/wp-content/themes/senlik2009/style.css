@@ -82,6 +82,7 @@ ul#menu li a {
 .solsponsorlar {
 	width:130px;
 	float:left;
+	margin-right:20px;
 }
 
 .solsponsorlar img {
@@ -94,7 +95,6 @@ ul#menu li a {
 }
 
 .metin {
-	margin-left:20px;
 	width:600px;
 	margin:auto;
 	float:left;

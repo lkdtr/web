@@ -80,7 +80,7 @@ ul#menu li a {
 }
 
 .solsponsorlar {
-	width:140px;
+	width:130px;
 	float:left;
 }
 
@@ -94,16 +94,16 @@ ul#menu li a {
 }
 
 .metin {
-	margin-left:10px;
+	margin-left:20px;
 	width:600px;
 	margin:auto;
 	float:left;
 }
 
 .sagsponsorlar {
-	width:140px;
+	width:130px;
 	float:left;
-	margin-left:10px;
+	margin-left:20px;
 }
 
 .sagsponsorlar img {

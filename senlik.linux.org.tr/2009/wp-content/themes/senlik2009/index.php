@@ -18,6 +18,8 @@ get_header(); ?>
 
 <img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/tlkdlogo.png" width="130" />
 
+<a href="http://senlik.linux.org.tr/2009/afis-banner/"><img src="http://senlik.linux.org.tr/2009/banner/banner160600-2.gif" alt="" width="130" /></a>
+
 </div>
 
 <div class="metin">

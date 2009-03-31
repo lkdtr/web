@@ -66,7 +66,7 @@ get_header(); ?>
 
 <h1>İçecek</h1>
 
-<a href="#" target="_blank"><img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/sprite_logo1.jpg" align="right" width="110" /></a>
+<a href="http://www.sprite.com.tr/" target="_blank"><img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/sprite_logo1.jpg" align="right" width="110" /></a>
 
 <h1>Eşantiyon</h1>
 

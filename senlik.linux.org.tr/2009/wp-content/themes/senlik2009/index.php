@@ -14,9 +14,9 @@ get_header(); ?>
 
 <h1>Organizasyon</h1>
 
-<a href="http://www.bilgi.edu.tr/" target="_blank"><img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/istanbulbilgi.png" width="130" /></a>
+<a href="http://www.lkd.org.tr/" alt="Linux Kullanıcıları Derneği" target="_blank"><img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/tlkdlogo.png" width="130" /></a>
 
-<a href="http://www.lkd.org.tr/" target="_blank"><img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/tlkdlogo.png" width="130" /></a>
+<a href="http://www.bilgi.edu.tr/" alt="İstanbul Bilgi Üniversitesi" target="_blank"><img src="http://senlik.linux.org.tr/2009/wp-content/uploads/2009/03/istanbulbilgi.png" width="130" /></a>
 
 <br /><br />
 

@@ -1,0 +1,1 @@
+lusumsuz ise sil

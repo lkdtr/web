@@ -1,1 +1,1 @@
-lusumsuz ise siliniz
+lusumsuz ise sil

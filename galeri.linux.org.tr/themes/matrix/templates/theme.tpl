@@ -26,7 +26,7 @@
 	{include file="gallery:`$theme.moduleTemplate`" l10Domain=$theme.moduleL10Domain}
       {elseif $theme.pageType == 'progressbar'}
 	<div id="gsHeader">
-	  <img src="{g->url href="images/galleryLogo_sm.gif"}" width="107" height="48" alt=""/>
+	  <img src="{g->url href="images/galleryLogo_sm.gif"}" width="181" height="89" alt=""/>
 	</div>
 	{g->theme include="progressbar.tpl"}
       {else}

@@ -27,7 +27,7 @@
  */
 @ini_set('display_errors', 0);
 ini_set("memory_limit","32M");
-setlocale('LC_ALL', 'tr_TR');
+setlocale('LC_ALL', 'de_DE');
 
 /*
  * Prevent direct access to config.php.

@@ -82,7 +82,7 @@ table.gbDataTable th, table.gbDataTable td {
 
 /* LKD */
 
-#gsHeader a {
+#gsHeader{
 	clear:both;
 }
 

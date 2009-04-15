@@ -92,7 +92,9 @@ table.gbDataTable th, table.gbDataTable td {
 
 #gsHeader h1 {
 	float:left;
-
+	font-size:28px;
+	line-height:31px;
+	padding:10px;
 }
 
 /* ********************************************************************************

@@ -32,7 +32,7 @@
       {else}
       <div id="gsHeader">
 	<a href="{g->url}"><img src="{g->url href="images/galleryLogo_sm.gif"}"
-	 width="107" height="48" alt=""/></a>
+	 width="181" height="89" alt=""/></a>
       </div>
 
       <div id="gsNavBar" class="gcBorder1">

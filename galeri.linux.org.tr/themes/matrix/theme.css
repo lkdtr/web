@@ -80,6 +80,11 @@ table.gbDataTable th, table.gbDataTable td {
     padding: 0;
 }
 
+/* LKD */
+
+#gsHeader h1 {
+	float:right;
+}
 
 /* ********************************************************************************
  * Sections

@@ -144,6 +144,7 @@ function GalleryInitFirstPass($params=array()) {
 
     /* Initialize our translator */
     $language = GalleryUtilities::getRequestVariables('language');
+    $language = 'en_US';
     if (isset($params['activeLanguage']) || !empty($language)) {
 	GalleryCoreApi::requireOnce('modules/core/classes/GalleryTranslator.class');
 	list ($language) = GalleryTranslator::getSupportedLanguageCode(

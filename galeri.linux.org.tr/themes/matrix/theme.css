@@ -83,6 +83,10 @@ table.gbDataTable th, table.gbDataTable td {
 /* LKD */
 
 #gsHeader a {
+	clear:both;
+}
+
+#gsHeader a {
 	float:left;
 }
 

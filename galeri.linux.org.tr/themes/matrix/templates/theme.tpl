@@ -29,12 +29,14 @@
 	  <img src="{g->url href="images/galleryLogo_sm.gif"}" width="181" height="89" alt=""/>
 	  <h1>Linux Kullanıcıları Derneği</h1>
 	</div>
+	<div style="clear:both"></div>
 	{g->theme include="progressbar.tpl"}
       {else}
       <div id="gsHeader">
 	<a href="{g->url}"><img src="{g->url href="images/galleryLogo_sm.gif"}"
 	 width="181" height="89" alt=""/></a>
  	  <h1>Linux Kullanıcıları Derneği</h1>
+	<div style="clear:both"></div>
       </div>
 
       <div id="gsNavBar" class="gcBorder1">

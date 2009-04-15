@@ -27,12 +27,14 @@
       {elseif $theme.pageType == 'progressbar'}
 	<div id="gsHeader">
 	  <img src="{g->url href="images/galleryLogo_sm.gif"}" width="181" height="89" alt=""/>
+	  <h1>Linux Kullanýcýlarý Derneði</h1>
 	</div>
 	{g->theme include="progressbar.tpl"}
       {else}
       <div id="gsHeader">
 	<a href="{g->url}"><img src="{g->url href="images/galleryLogo_sm.gif"}"
 	 width="181" height="89" alt=""/></a>
+ 	  <h1>Linux Kullanýcýlarý Derneði</h1>
       </div>
 
       <div id="gsNavBar" class="gcBorder1">

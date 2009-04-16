@@ -26,7 +26,7 @@
  * PHP warnings and notices that are not covered in unit tests (e.g. template issues).
  */
 @ini_set('display_errors', 0);
-ini_set("memory_limit","32M");
+ini_set("memory_limit","128M");
 
 /*
  * Prevent direct access to config.php.

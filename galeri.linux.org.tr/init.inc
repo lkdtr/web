@@ -145,7 +145,7 @@ function GalleryInitFirstPass($params=array()) {
     /* Initialize our translator */
     $language = GalleryUtilities::getRequestVariables('language');
 
-    $language = 'en_US'; //dil turkceye cevrildikten sonra hata verirse, duzeltme icin
+   // $language = 'en_US'; //dil turkceye cevrildikten sonra hata verirse, duzeltme icin
 
     if (isset($params['activeLanguage']) || !empty($language)) {
 	GalleryCoreApi::requireOnce('modules/core/classes/GalleryTranslator.class');

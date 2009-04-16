@@ -134,7 +134,7 @@ $gallery->setConfig('storage.config', $storeConfig);
  * $gallery->setDebug('buffered');
  *
  */
-$gallery->setDebug(false);
+$gallery->setDebug('buffered');
 
 /*
  * Profiling mode.  You can enable profiling for different parts of G2 to get an

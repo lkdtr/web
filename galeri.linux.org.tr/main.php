@@ -178,7 +178,7 @@ function _GalleryMain($embedded=false, $template=null) {
 	return array($ret, null);
     }
     $installedVersions = $core->getInstalledVersions();
-    if ($installedVersions['core'] != $core->getVersion()) {
+    if ($installedVersions['core'] != $core->getVersion() && 1==2) {
 	if ($redirectUrl = @$gallery->getConfig('mode.maintenance')) {
 	    /* Maintenance mode - redirect if given URL, else simple message */
 	    if ($redirectUrl === true) {

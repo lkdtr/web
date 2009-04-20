@@ -149,6 +149,10 @@
 	  yaratacak derecede ise ileti sahibi özelden uyarı alabilir.
 	  <br /><br />
 	  </li>
+	  <li>
+          Listelere yazılan tüm mesajlar, olanaklar ölçüsünde arşivlenerek Internet'te herkesin ulaşabileceği bir biçimde yayınlanır.
+	  <br /><br />
+	  </li>
     </ol>
   </div>
 

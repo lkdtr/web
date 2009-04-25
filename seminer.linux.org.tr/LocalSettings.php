@@ -81,7 +81,8 @@ $wgMemCachedServers = array();
 $wgEnableUploads       = true;
 $wgUseImageMagick = true;
 $wgImageMagickConvertCommand = "/usr/bin/convert";
-
+$wgFileExtensions = array( 'png', 'gif', 'jpg', 'jpeg', 'odp', 'pdf', 'html');
+$wgMaxUploadSize = 1024*1024*100;
 ## If you use ImageMagick (or any other shell command) on a
 ## Linux server, this will need to be set to the name of an
 ## available UTF-8 locale

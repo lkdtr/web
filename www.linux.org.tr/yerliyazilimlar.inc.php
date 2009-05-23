@@ -900,6 +900,10 @@ evrilebilecek bir yapılandırma çerçevesi ve araçları ile kurulum,
 yapılandırma ve kullanım kolaylığı sağlamak üzere geliştirilen bir
 GNU/Linux dağıtımıdır. Pardus adını şu anda soyu tükenmiş olan Anadolu
 Pars'ından almaktadır.</td></tr>
+<tr><td><hr/></td></tr>
+
+<tr><td><h2>Magma Linux</h2></td></tr>
+<tr><td><b>Web Sayfası:</b> <a target="_blank" href="http://www.magmalinux.org/">http://www.magmalinux.org</a><br/>Magma Linux, Ceren Bilgisayar Ltd. Şti. tarafından çıkarılmakta olan, Debian temelli bir Linux dağıtımıdır. İlk kullanılabilir sürümü 9.3'ü 2009 yılının mart ayında duyuran Magma Linux ekibi, bünyesindeki güncel programları ve yeni teknolojileri takip etmek adına 2 ayda bir yeni sürüm çıkarmaktadır. 2 ayrı yapıya sahiptir (32 bit, 64 bit) ve 77 dilde kuruluma hazır olarak sunulmaktadır. Kolay ve görsel kuruluma sahip Magma, 4 ayrı sürümü (Home, office, server, developer) ile geniş yelpazede bir kullanıcı kitlesine hitap etmektedir. </td></tr>
 </tbody></table><br/>
 
 </center></td>

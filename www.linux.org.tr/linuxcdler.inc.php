@@ -4,11 +4,10 @@ Listede yer alan web siteleri LKD tarafından herhangi bir biçimde denetlenmeme
 LKD, bu sitelerden yapacağınız alışverişler için herhangi bir biçimde garanti veremez, kefil olamaz. Linux CD'si satan ancak 
 listede bulunmayan siteler için <a href="mailto:web-icerik@linux.org.tr">web-icerik@linux.org.tr</a> 
 adresine e-posta atarak bizi haberdar edebilirsiniz.
-<ul><li type="square">Linux34(<a target="_blank" href="http://www.linux34.com">www.linux34.com</a>)
-<!--<li>Linuxcuyuz.biz -Ücretsiz CD Dağıtımı (<a href="http://www.linuxcuyuz.biz" target="_blank">www.linuxcuyuz.biz</a>)-->
-<!--<li>MaviPortal - Gönüllü CD Dağıtımı (<a href="http://www.maviportal.com">www.maviportal.com</a>)                       -->
-<!--<li>Linuxcuolduk.biz - Tamamen Ücretsiz CD Dağıtımı (<a href="http://www.linuxcuolduk.biz">www.linuxcuolduk.biz</a> )      -->
-</li></ul>
+<ul>
+ <li type="square">Linux34 (<a target="_blank" href="http://www.linux34.com">www.linux34.com</a>)</li>
+ <li type="square">Penguenci.com (<a target="_blank" href="http://www.penguenci.com">www.penguenci.com</a>)</li>
+</ul>
 <br/><h2>Hangi Linux CD'sini almalıyım?</h2>Eğer ilk defa linux kuracak/kullanacaksanız önce <strong><a href="linuxdagitimlari.html">Linux Dağıtımları Kılavuzu</a></strong>'nu okuyunuz. Bu belge ilk defa kullanacak olanlar için de, daha önce linux kullanmış ama farklı dağıtımları denemek isteyenler için de önemli bir fikir verecektir.<br/><br/><br/> </div>
       <table width="100%">
         <tbody><tr><td align="center"><a target="_NEW" title="OpenOffice.org Türkçe" href="http://tr.openoffice.org/"><img border="0" src="<?php echo $path; ?><?php echo $resimler; ?>banners/BannerGenel_OpenOfis.gif"/></a></td></tr>

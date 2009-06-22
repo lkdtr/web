@@ -1,0 +1,341 @@
+/*
+Theme Name: Şenlik 2009
+Theme URI: http://lkd.org.tr/
+Description: Şenlik 2009 için web-cg tarafından tapılmış tema.
+Version: 0.1
+Author: LKD Web-cg
+Author URI: http://www.lkd.org.tr/
+Tags: lkd, linux kullanıcılar derneği, sari, siyah, şenlik
+
+*/
+
+/* basliyoruz :) - umuthan */
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+.temizle {
+	clear:both;
+}
+
+img {
+	border:none;
+}
+
+body {
+	font-size:12px;
+	background:#efd67f url(images/arka.gif) repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#istanbulsiluet {
+	background:url(images/istanbulsiluet.gif) repeat-x center center;
+	height:217px;
+	padding:150px 0 0 0;
+}
+
+#siluetarka {
+	background:url(images/siluetarka.jpg) no-repeat center top;
+	height:280px;
+}
+
+ul#menu {
+	list-style:none;
+	width:900px;
+	margin:auto;
+	padding:80px 0 0 0;
+}
+
+ul#menu li {
+	background:url(images/menu.gif) no-repeat center top;
+	width:140px;
+	height:23px;
+	overflow:hidden;
+	text-align:center;
+	padding:4px 0 0 0;
+	float:left;
+	margin-right:12px;
+}
+
+ul#menu li.son {
+	margin-right:0px;
+}
+
+ul#menu li a {
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#orta {
+	background:#FFF;
+}
+
+#genislik {
+	width:900px;
+	margin:auto;
+}
+
+.solsponsorlar {
+	width:130px;
+	float:left;
+	margin-right:30px;
+}
+
+.solsponsorlar img {
+	padding:10px 0 10px 0;
+}
+
+.solsponsorlar h1 {
+	font-size:14px;
+	padding:5px 0 5px 0;
+}
+
+.metin {
+	width:600px;
+	margin:auto;
+	float:left;
+}
+
+.sagsponsorlar {
+	width:110px;
+	float:left;
+	margin-left:20px;
+}
+
+.sagsponsorlar img {
+	padding:10px 0 10px 0;
+}
+
+.sagsponsorlar h1 {
+	font-size:14px;
+	padding:5px 0 5px 0;
+	text-align:right;
+}
+
+.metin ul li {
+	list-style:none;
+	padding:2px 2px 2px 12px;
+	background:url(images/listeisareti.gif) no-repeat left top;
+}
+
+.metin a {
+	color:#000;
+	text-decoration:underline;
+}
+
+.metin a:hover {
+	color:#000;
+	text-decoration:none;
+}
+
+.metin .altbaglantilar {
+	text-align:right;
+	padding:5px;
+}
+
+.metin h1 {
+	font-size:18px;
+	padding:5px 0 5px 0;
+}
+
+.metin textarea {
+	width:400px;
+	height:100px;
+}
+
+.metin .sol {
+	float:left;
+	text-align:left;
+	width:300px;
+}
+
+.metin .sol ul li {
+	list-style:none;
+	padding:2px 2px 2px 12px;
+	background:url(images/listeisareti.gif) no-repeat left top;
+}
+
+.metin .sag {
+	float:right;
+	text-align:right;
+	width:300px;
+}
+
+.metin .sag ul li {
+	list-style:none;
+	padding:2px 12px 2px 2px;
+	background:url(images/listeisareti.gif) no-repeat right top;
+}
+
+.metin .nedir {
+	background:url(images/nedir.jpg) no-repeat right;
+}
+
+.metin .nerede {
+	background:url(images/nerede.jpg) no-repeat center;
+}
+
+.metin .kimneden {
+	background:url(images/kimneden.jpg) no-repeat center;
+}
+
+.kod468 {
+	border:1px solid #000;
+	padding:5px;
+	width:475px;
+}
+
+.kod160 {
+	border:1px solid #000;
+	padding:5px;
+	width:175px;
+}
+
+.kod234 {
+	border:1px solid #000;
+	padding:5px;
+	width:255px;
+}
+
+.kod300 {
+	border:1px solid #000;
+	width:300px;
+}
+
+.kod125 {
+	border:1px solid #000;
+	width:125px;
+	overflow:hidden;
+}
+
+#hizliulasim {
+	width:728px;
+	margin:auto;
+	padding:30px 0 0 0;
+}
+
+#afisbanner {
+	background:url(images/afisbanner.jpg) no-repeat left top;
+	width:290px;
+	height:146px;
+	overflow:hidden;
+	float:left;
+	margin-right:5px;
+}
+
+#afisbanner h1 {
+	font-size:16px;
+	color:#FFF;
+	font-weight:bold;
+	width:130px;
+	margin:35px 0 0 150px;
+	text-align:right;
+}
+
+#afisbanner h2 {
+	font-size:10px;
+	color:#FFF;
+	font-weight:normal;
+	width:120px;
+	height:60px;
+	overflow:hidden;
+	text-align:right;
+	margin:5px 0 0 160px;
+}
+
+#afisbanner a {
+	font-size:10px;
+	color:#FFF;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+#senligekalan {
+	background:url(images/senligekalan.jpg) no-repeat left top;
+	width:290px;
+	height:146px;
+	overflow:hidden;
+	float:left;
+	margin-left:5px;
+}
+
+#senligekalan #gerisayim {
+	margin:33px 0 0 2px;
+}
+
+#yerzaman {
+	background:url(images/yerzaman.jpg) no-repeat left top;
+	width:138px;
+	height:146px;
+	overflow:hidden;
+	float:left;
+}
+
+#yerzaman h1 {
+	font-size:16px;
+	color:#FFF;
+	font-weight:bold;
+	width:120px;
+	margin:35px 0 0 10px;
+	text-align:center;
+}
+
+#yerzaman h2 {
+	font-size:10px;
+	color:#FFF;
+	font-weight:normal;
+	width:120px;
+	height:70px;
+	overflow:hidden;
+	text-align:center;
+	margin:5px 0 0 10px;
+}
+
+#alt {
+	background:url(images/alt.jpg) repeat-x top center;
+	width:100%;
+	height:50px;
+}
+
+#alt #icerik {
+	width:690px;
+	margin:auto;
+	padding:50px 0 10px 0;
+	text-align:center;
+}
+
+#alt #icerik #solalt {
+	width:108px;
+	float:left;
+}
+
+#alt #icerik #sagalt {
+	width:490px;
+	float:right;
+	text-align:right;
+}
+
+.gonulluafismerkezi {
+	background:url(images/gonulluafismerkezibuton.gif) no-repeat top center;
+	overflow:hidden;
+	width:400px;
+	height:50px;
+	margin:0 0 0 10px;
+}
+
+.gonulluafismerkezi h1 {
+	margin:0 0 0 115px;
+	font-size:16px;
+	padding:0px;
+}
+
+.gonulluafismerkezi h2 {
+	margin:0 0 0 125px;
+	font-size:10px;
+	padding:0px;
+	font-weight:normal;
+}

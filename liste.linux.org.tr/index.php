@@ -3,9 +3,9 @@
   <h1>Hoşgeldiniz</h1>
   
   <div class="ilk_aciklama">
-    Türkiye Linux camiası en başında linux@bilkent.edu.tr listesi etrafında toplanmıştı. LKD - Linux Kullancıları Derneği kurulduktan sonra kendi listecisini kurmuş ve Linux ve Özgür Yazılım camimasına hizmet için bir dizi liste açılmıştır. Gerektiginde LKD yönetimi yeni listeler açacaktır.<br />
+    Türkiye'de Linux ve özgür yazılım camiası ilk olarak 1992 sonlarında linux@bilkent.edu.tr listesi etrafında toplandı. Topluluk Linux Kullanıcıları Derneği'ni (LKD) kurduktan sonra kendi listecisine taşındı. Bugün farklı konularda birçok e-posta listesi bulunmaktadır.<br />
     <br />
-    LKD'nin genel amaçlı listeleri herkese açıktır. Listelere mesaj göndermek için listeye üye olmak gerekir. Mesaj gönderilen adesten üye degilseniz, mesajınız dağılmaz. Size bu yönde bir uyarı mesajı da gelmeyebilir.
+    LKD'nin genel amaçlı listeleri herkese açıktır. Listelere mesaj göndermek için listeye üye olmak gerekir. Mesaj gönderilen adresten üye değilseniz, mesajınız dağılmaz. Size bu yönde bir uyarı mesajı da gelmeyebilir.
   </div>
 
 <?php include("site_alt.php"); ?>

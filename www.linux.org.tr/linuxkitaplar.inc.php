@@ -7,7 +7,7 @@ FreeBSD 6 İşletim Sistemi</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789759809942.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789759809942<br/>
-				<b>Yaınevi: </b>Açık Akademi Yayınları<br/>
+				<b>Yayınevi: </b>Açık Akademi Yayınları<br/>
 				<b>Yazarlar: </b>İsmail Yenigül, Barış Şimşek, Atılım Boy<br/>
 				<br/>
 				Yeni FreeBSD, Yeni Kitap! Bu kitap, FreeBSD işletim sistemini geniş bir şekilde ele almakla birlikte FreeBSD 5 serisinden itibaren FreeBSD 6.2 ve FreeBSD 7 'de yer alan yenilikleri de içermektedir. Kitap sıfırdan yazılmış olup bazı konularda eski kitaptan yararlanılmıştır. Ayrıca FreeBSD ile doğrudan ilgisi olmayan veya eskimiş olan konular çıkartılarak daha verimli ve kullanışlı bir kitap ortaya çıkartılmaya çalışılmıştır.
@@ -18,7 +18,7 @@ Gelecek Bireysel Linux Kitabı</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/Gbl.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>-<br/>
-				<b>Yaınevi: </b>Gelecek Yayınları<br/>
+				<b>Yayınevi: </b>Gelecek Yayınları<br/>
 				<b>Yazarlar: </b> <br/>
 				<br/>
 				Linux'a kolay ve hızlı bir başlangıç için aradığınız her şey.
@@ -29,7 +29,7 @@ Gelecek Kurumsal Linux Kitabı</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/Gkl.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>-<br/>
-				<b>Yaınevi: </b>Gelecek Yayınları<br/>
+				<b>Yayınevi: </b>Gelecek Yayınları<br/>
 				<b>Yazarlar: </b> <br/>
 				<br/>
 				Gelecek A.Ş'nin sunucu çözümlerine yönelik ürettiği kurumsal linux ile ilgili kullanım ve yapılandırma kitabı.
@@ -40,7 +40,7 @@ GTK+/GNOME Programlama Linux Altında Görsel Program Geliştirme </h2></td></tr
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756797136.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756797136<br/>
-				<b>Yaınevi: </b>Papatya Yayıncılık<br/>
+				<b>Yayınevi: </b>Papatya Yayıncılık<br/>
 				<b>Yazarlar: </b>M. Ali Vardar<br/>
 				<br/>
 				GTK+/GNOME, Linux altında görsel program tasarım ortamı sunan yardımcı bir kütüphanedir. C bilen programcılar için GTK+/GNOME'ın öğrenilmesi ve onunla görsel program tasarlanması oldukça kolaydır.<br/>
@@ -53,7 +53,7 @@ Her yönüyle Pardus </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756477823.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756477823<br/>
-				<b>Yaınevi: </b>Pusula Yayıncılık<br/>
+				<b>Yayınevi: </b>Pusula Yayıncılık<br/>
 				<b>Yazarlar: </b>Talat Uyarer<br/>
 				<br/>
 				Pardus, Tübitak'ın desteği ile hayat bulan tamamen Türkçe bir Linux dağıtımıdır. Kullananların internet ortamında her türlü desteği bulduğu, kullanıcı dostu, ilk çıktığından bu yana bilgisayar kullanıcıları arasında hızla kullanılıp yaygınlaşan, ücretsiz bir işletim sistemidir. Bu kitapla, hiç Linux kullanmamış okuyucuları başlangıç seviyesinden alıp üst seviyelere getirmek amaç edinilmiştir. Yeni ve Pardus'un kendine özgü masaüstünü tanıtıp işletim sistemine olan aşinalığı artırmak, kullanımına yönelik ipuçlarıyla Pardus?u kullanmayı zevk haline getirmek, temel donanım ve yazılım konularında açık kapı bırakmamak amaç edinilmiştir. Halihazırda Linux kullanmakta olanların da faydalanacağı bu kitapta, <br/>
@@ -79,7 +79,7 @@ Linux</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789752979253.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789752979253<br/>
-				<b>Yaınevi: </b>Alfa Basım Yayım Dağıtım<br/>
+				<b>Yayınevi: </b>Alfa Basım Yayım Dağıtım<br/>
 				<b>Yazarlar: </b>Christopher Negus<br/>
 				<br/>
 				Linux'un temellerine ve ötesine derinlemesine hükmedin!<br/>
@@ -101,7 +101,7 @@ Linux Ağ Servisleri </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756477137.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756477137<br/>
-				<b>Yaınevi: </b>Pusula Yayıncılık<br/>
+				<b>Yayınevi: </b>Pusula Yayıncılık<br/>
 				<b>Yazarlar: </b>Mustafa Başer<br/>
 				<br/>
 				Bu kitap Linux'un ilk yıllarından (1992) beri kullanan birisinin bilgi birikimi ve tecrübesini aktarmayı hedeflediği yazılı bir metindir.<br/>
@@ -133,7 +133,7 @@ Linux Ağ Yönetimi </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9753472870.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9753472870<br/>
-				<b>Yaınevi: </b>Seçkin Yayıncılık<br/>
+				<b>Yayınevi: </b>Seçkin Yayıncılık<br/>
 				<b>Yazarlar: </b>Kaan Güneş Çelik, Görkem Çetin<br/>
 				<br/>
 				Linux ağ yönetimi kitabı, daha önce Linux işletim sistemi kitabını alarak giriş yapan, bu işletim sistemini temel olarak kavrayanlar için, Internet ve Intranet servislerini gösterir. Kitapta, bir kurumun ihtiyaç duyabileceği tüm İnternet servislerinin kurulumu, kullanımı ve detaylı açıklaması vardır.<br/>
@@ -163,7 +163,7 @@ Linux Ağ Yönetimi </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789753478984.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789753478984<br/>
-				<b>Yaınevi: </b>Seçkin Yayıncılık<br/>
+				<b>Yayınevi: </b>Seçkin Yayıncılık<br/>
 				<b>Yazarlar: </b>Kaan Güneş Çelik, Görkem Çetin, Barış Metin<br/>
 				<br/>
 				Görkem Çetin, Kaan Güneş Çelik ve Barış Metin tarafından kaleme alınan Linux Ağ Yönetimi isimli kitabın bu ikinci baskısında, dünyada olduğu kadar, ülkemizde de kullanımı günden güne yaygınlaşmakta olan Linux?un en güçlü olduğu alan, yani bilgisayar ağları konusu ele alınmaktadır. Güvenilir olması ve sistemin kolaylıkla çökmemesi nedenleriyle özellikle Internet Servis Sağlayıcıları tarafından tercih edilen Linux işletim sisteminde düzgün bir kurulum yapılmaması durumunda ağ yönetimi bir kabusa dönüşebilir. Böyle zor bir durumda kalmak istemeyen kullanıcılar için Türkçe?de hazırlanmış ilk ve tek kitap olan Linux Ağ Yönetimi  bilgisayar ağları, TCP/IP ve protokoller, ağ yönetimi, IP Masquerading, Apache web sunucu, DNS, Squid proxy, Sendmail, Samba, NFS, PPP, Listeciler, Sistem ağ yönetim araçları ve Linux?ta güvenlik konularıyla ilgili merak ettiğiniz her şeyi sunmaktadır....<br/>
@@ -187,7 +187,7 @@ Linux Altında Programlama</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756797341.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756797341<br/>
-				<b>Yaınevi: </b>Papatya Yayıncılık<br/>
+				<b>Yayınevi: </b>Papatya Yayıncılık<br/>
 				<b>Yazarlar: </b>M. Ali Vardar<br/>
 				<br/>
 				Linux İşletim Sistemi, kimileri için doğan bir güneş, kimileri için kanser, kimisi içinde işe yaramayan bir uygulamalar zinciri  kim ne derse desin Linux büyüyor, gelişiyor ve de gelişmesi engellenemiyor. Bu kitap ta, ilk önce, kullanıcı ve programcı açısından Linux İşletim Sisteminin kullanımı/mimari yapısı ele alınmakta ve ardından Linux altında program geliştirmeye yönelik uygulama geliştirme araçları: GTK+/GNOME, Qt/KDE, GTK-PHP İkilisi, Glade ile uygulama geliştirme, Anjuta ile uygulama geliştirme, Veritabanı uygulaması ve C dili, Ncursus kütüphanesi, TCP/IP soket programlama gibi konular gerçek yaşamdan örnekler verilerek açıklanmaktadır.<br/>
@@ -214,7 +214,7 @@ Linux Doktoru </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789753475792.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789753475792<br/>
-				<b>Yaınevi: </b>Seçkin Yayıncılık<br/>
+				<b>Yayınevi: </b>Seçkin Yayıncılık<br/>
 				<b>Yazarlar: </b>Görkem Çetin<br/>
 				<br/>
 				Linux, kararlı, güvenli ve özgür yapısı nedeniyle, 1992 yılından beri aranılan ve tercih edilen işletim sistemlerinin başında gelmiştir. Taşıdığı serbest yazılım potansiyeli ve dünya çapında oluşturduğu camiasıyla, geleceğin işletim sistemi adaylarının başında gelen Linux'u öğrenmeniz için hazırlanmış olan bu kitapta, her gün karşılaştığınız küçük, ancak bazen düşündürücü, bazen de zamanınızı alan ufak tefek sorunlara çözüm olmayı hedefliyor. Kitap, başlangıç ve orta seviyedeki kullanıcılara hitap ederken, sınıflandırılmış yaklaşık 300 soru ve cevapla, konuyla ilgilenenleri ileri götürmeyi amaçlıyor.
@@ -225,7 +225,7 @@ Linux Güvenliği </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756477489.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756477489<br/>
-				<b>Yaınevi: </b>Pusula Yayıncılık<br/>
+				<b>Yayınevi: </b>Pusula Yayıncılık<br/>
 				<b>Yazarlar: </b>Daniel J. Barrett, Richard E. Silverman, Robert G. Byrnes<br/>
 				<br/>
 				Bilgisayar güvenliği karmaşık bir süreçtir, ama bizim takip etmesi kolay reçetelerimiz herhangi bir Linux sisteminin güvenliğini geliştirmeye yardımcı olacaktır. Emacs ile şif- reli e-posta göndermek için kolay bir yola mı ihtiyacınız mı var? Günün belirli zamanlarında ağ servislerinize erişimi sınırlandırmak mı istiyorsunuz? Web sunucunuza firewall mı kurmak istiyorsunuz? Ağınız da koklama yapmak mı? SSH için açık anahtar ayarlamak mı? Linux Güvenliği bu önemli görevleri yerine getirmek için gerekli olan komutları ve yapılandırma dosyası girişlerini adım adım sunmaktadır, böylece manpage'ler arasında bocalamak zorunda kalmazsınız. Bu kitap orta seviyedeki Linux kullanıcıları ve sistem yöneticileri için pratik, güvenlikle ilgili reçetelerle doludur:<br/>
@@ -257,7 +257,7 @@ Linux Herkes İçin!</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789753167192.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789753167192<br/>
-				<b>Yaınevi: </b>Alfa Basım Yayım Dağıtım<br/>
+				<b>Yayınevi: </b>Alfa Basım Yayım Dağıtım<br/>
 				<b>Yazarlar: </b>Richard Petersen<br/>
 				<br/>
 				En Kapsamlı ve Yetkin Linux Kitabı!<br/>
@@ -298,7 +298,7 @@ Linux ile Robotik </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789752977754.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789752977754<br/>
-				<b>Yaınevi: </b>Alfa Basım Yayım Dağıtım<br/>
+				<b>Yayınevi: </b>Alfa Basım Yayım Dağıtım<br/>
 				<b>Yazarlar: </b>D. Jay Newman<br/>
 				<br/>
 				Robotlara meraklıysanız kaçırmamanız gereken bir kitap!<br/>
@@ -322,7 +322,7 @@ Linux İşletim Sistemi</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789752975590.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789752975590<br/>
-				<b>Yaınevi: </b>Alfa Basım Yayım Dağıtım<br/>
+				<b>Yayınevi: </b>Alfa Basım Yayım Dağıtım<br/>
 				<b>Yazarlar: </b>Yalçın Özkan<br/>
 				<br/>
 				- İşletim Sistemleri ve Linux Komut Yorumlayıcısı<br/>
@@ -336,7 +336,7 @@ Linux İşletim Sistemi</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789754869408.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789754869408<br/>
-				<b>Yaınevi: </b>Beta Basım Yayım Dağıtım A.Ş.<br/>
+				<b>Yayınevi: </b>Beta Basım Yayım Dağıtım A.Ş.<br/>
 				<b>Yazarlar: </b>Mithat Uysa<br/>
 				<br/>
 				-Linux'un Tarihçesi<br/>
@@ -358,7 +358,7 @@ Linux İşletim Sistemi </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789753477482.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789753477482<br/>
-				<b>Yaınevi: </b>Seçkin Yayıncılık<br/>
+				<b>Yayınevi: </b>Seçkin Yayıncılık<br/>
 				<b>Yazarlar: </b>Görkem Çetin<br/>
 				<br/>
 				Linux, internet bağlantısından programcılığa, ofis yazılımlarından çoklu ortama kadar çok geniş bir yelpazede kullanım alanı bulan kararlı, hızlı ve güvenilir bir işletim sistemi haline gelmiştir. Bu kitap, daha önce Linux kullanmamış, ama yeniliğe açık, okumayı seven bilgisayar meraklıları için hazırlanmıştır. Oldukça sade ve akıcı bir dille yazılan kitata bulunan konular, herhangi br kullanıcının Linux altında temel tüm masaüstü işlemlerini yapabilmesine olanak verecek şekilde sıralanmıştır. Zengin ekran görüntüleri, anlatılan konulara paralel ve uyumlu bir şekilde tasarlanmış ve kitaba eklenmiştir.<br/>
@@ -371,7 +371,7 @@ Linux Sistem Yönetimi </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789759809959.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789759809959<br/>
-				<b>Yaınevi: </b>Açık Akademi Yayınları<br/>
+				<b>Yayınevi: </b>Açık Akademi Yayınları<br/>
 				<b>Yazarlar: </b>Tom Adelstein, Bill Lubanovic<br/>
 				<br/>
 				İster Linux yeteneklerini geliştirmek isteyen bir sistem yöneticisi isterse de yeni sorunlar ile karşılasan Linux kullanıcısı olun, Linux Sistem Yönetimi size Linux sistem ve sunucularını yönetmeniz için gerekli olacak tüm pratik bilgileri sunacaktır. Kitap SOHO hub, web ve4 yerel ağ sunucularından yük-dengeleyici kümelemelere ve sanal sunuculara kadar büyük yelpazedeki sistemleri yapılandırmanıza yardımcı olacaktır. Bunun yanında aşamalar içinde öğreneceğiniz teknik ve keşfedeceğiniz yeni yazılımlar işinizi daha da kolaylaştıracaktır.<br/>
@@ -397,7 +397,7 @@ Network TCP/IP UNIX El Kitabı</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9799756797029.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9799756797029<br/>
-				<b>Yaınevi: </b>Papatya Yayıncılık<br/>
+				<b>Yayınevi: </b>Papatya Yayıncılık<br/>
 				<b>Yazarlar: </b>Rifat Çölkesen<br/>
 				<br/>
 				Elinizdeki eser, bilgisayar ağları ve Internet teknolojileri ile ilgili konuları yalın bir dille ele almakta ve okuyucuyu kısa zaman içerisinde, belirli bir düzeye getirmeyi hedeflemektedir. Network, TCP/IP ve Internet içice geçmiş kavramlardır  böylesi bir durumda, kurulan sistemlerden yüksek performans alınabilmesi, en uygun ağ cihazlarının/sistemlerinin seçilebilmesi ve optimum konfigürasyon yapılabilmesi bilinçli olmayı gerektirir. Belirli bir konuda bilinçli olmakda, ancak, o konuyla ilgili kavramların, teknolojilerin ve standartların bilinmesiyle mümkün olacaktır...<br/>
@@ -424,7 +424,7 @@ OpenOffice.org Kullanım Kitabı</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/Goo.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>-<br/>
-				<b>Yaınevi: </b>Gelecek Yayınları<br/>
+				<b>Yayınevi: </b>Gelecek Yayınları<br/>
 				<b>Yazarlar: </b> <br/>
 				<br/>
 				OpenOffice kullanımına yönelik rehberiniz.
@@ -435,7 +435,7 @@ Pardus </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789750204845.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789750204845<br/>
-				<b>Yaınevi: </b>Seçkin Yayıncılık<br/>
+				<b>Yayınevi: </b>Seçkin Yayıncılık<br/>
 				<b>Yazarlar: </b>Görkem Çetin<br/>
 				<br/>
 				# Pardus Kurulumu ve Kullanımı Konusuda Önemli Bilgiler<br/>
@@ -460,7 +460,7 @@ PHP ile Web Programcılığı </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789757092964.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789757092964<br/>
-				<b>Yaınevi: </b>Pusula Yayıncılık<br/>
+				<b>Yayınevi: </b>Pusula Yayıncılık<br/>
 				<b>Yazarlar: </b>Mehmet Şamlı<br/>
 				<br/>
 				Windows ve Linux işletim sistemlerinde PHP kurulumu<br/>
@@ -486,7 +486,7 @@ qmail E-Posta Sunucusu</h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9759809907.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9759809907<br/>
-				<b>Yaınevi: </b>Açık Akademi Yayınları<br/>
+				<b>Yayınevi: </b>Açık Akademi Yayınları<br/>
 				<b>Yazarlar: </b>İsmail Yenigül, Barış Şimşek, Huzeyfe Önal<br/>
 				<br/>
 				qmail konusunda e-posta listelerinin arşivi dışında herhangi bir Türkçe kaynak bulunmaması Türk kullanıcılar için sıkıntı verici bir durum oluşturmaktaydı. Bu kitap, başka kaynaklara ihtiyaç duymadan başlangıçtan ileri seviyeye her konuda kullanıcının bütün ihtiyaçlarının karşılanması amacıyla yazılmıştır.
@@ -497,7 +497,7 @@ Red Hat Linux 7 Kurulum Kılavuzu </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789753221481.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789753221481<br/>
-				<b>Yaınevi: </b>Sistem Yayıncılık<br/>
+				<b>Yayınevi: </b>Sistem Yayıncılık<br/>
 				<b>Yazarlar: </b>William von Hagen<br/>
 				<br/>
 				Red Hat Linux 7 Kurulum Kılavuzu adlı bu kitap, size Red Hat Linux 7 sisteminizi çalışır hale getirmek için ihtiyaç duyacağınız bilgileri sunuyor. Bu kılavuz sayesinde kurulum ve konfigürasyon süreçlerini hızlı ve problemsiz bir şekilde atlatacaksınız. Bu kılavuz, İnternet ve çeşitli sistem konfigürasyonlarını ayarlarken etkin bir şekilde çalışmanıza imkan veren bilgileri içeriyor.<br/>
@@ -519,7 +519,7 @@ SME Linux ile Kolay Linux Server </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789756477854.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789756477854<br/>
-				<b>Yaınevi: </b>Pusula Yayıncılık<br/>
+				<b>Yayınevi: </b>Pusula Yayıncılık<br/>
 				<b>Yazarlar: </b>Mehmet Eğitmen<br/>
 				<br/>
 				Ağ pazarının dünyadaki gerçek hakimi Linux Ağları sunduğu esnek, stabil çözümlerle her zamanki gibi yine gözde ve bu uzun süre devam edeceğe benziyor. Anahtar teslimi bir Linux Server kurmak için hazırlanan, küçük-orta ölçekli işletmelerin ve ev ağlarının her türlü sunucu ihtiyacını karşılayabilecek güç ve yeteneğe sahip ücretsiz olarak temin edilebilen bir Linux sürümün işlendiği bu kitapla sunucunuzu hızlı bir şekilde kurabilir, web temelli kolay kullanım ile yönetebilir, yüzlerce kullanıcıyı organize edebilir, açık kaynak olması nedeni ile ilave hizmetleri istediğiniz anda ekleyebilir, dünyanın herhangi bir yerinden dosya ve e-postalarınıza erişerek daha hızlı çalışabilir ve ağınızı etkin biçimde koruyabilirsiniz.<br/>
@@ -548,7 +548,7 @@ Windows İdarecileri İçin Linux </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789752974456.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789752974456<br/>
-				<b>Yaınevi: </b>Alfa Basım Yayım Dağıtım<br/>
+				<b>Yayınevi: </b>Alfa Basım Yayım Dağıtım<br/>
 				<b>Yazarlar: </b>Mark Minasi, Dan York<br/>
 				<br/>
 				Linux'un güçlü ve zayıf yanlarının anlaşılması<br/>
@@ -568,7 +568,7 @@ Yalnızca Eğlenmek İçin </h2></td></tr>
 			<td valign="top"><img class="box2" src="templates/resimler/kitaplar/9789752201361.gif"/></td>
 			<td valign="top">
 				<b>ISBN: </b>9789752201361<br/>
-				<b>Yaınevi: </b>Bilgi Yayınevi<br/>
+				<b>Yayınevi: </b>Bilgi Yayınevi<br/>
 				<b>Yazarlar: </b>Linus Torvalds<br/>
 				<br/>
 				Linus Torvalds çocukluğundan beri bilgisayarlarla oyalanmış, Helsinki'de dar bir grup içinde tanınan, şu can sıkıcı teknoloji takıntılılardan birisiydi. Sonra öncülük edecek bir işletim sistemi yazdı ve bunu Internet aracılığıyla bedelsiz olarak dağıttı. Torvalds bugün uluslararası bir halk kahramanı. Ve onun tarafından yaratılan LINUX, 12 milyonu aşkın insanın yanı sıra IBM gibi şirketlerce de kullanılıyor.<br/>

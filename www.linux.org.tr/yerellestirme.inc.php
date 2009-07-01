@@ -48,7 +48,14 @@ Masaüstü ortamı KDE, KDE Türkiye ekibi tarafından Türkçeye çevrilmektedi
 Linux dağıtımı Mandriva için gerek sistem araçları gerekse belgelendirme amacıyla kurulmuş olan Mandriva Türkiye grubu koordinasyonu <a href="http://www.mandrivaturkiye.com">http://www.mandrivaturkiye.com</a> sitesinde gerçekleştirmektedir.
 <br/>
 <hr noshade="" size="1"/>
+</li>  
+<li type="square">
+<strong>OpenOffice.org Türkiye:</strong>
+Özgür bir ofis platformu oluşturmayı amaçlayan OpenOffice.org yazılımı, OpenOffice.org Türkiye gönüllüleri tarafından yerelleştirilmektedir.<a href="http://www.openoffice.org.tr">http://www.openoffice.org.tr</a> sayfasında faaliyetlerini sürdüren Türkiye grubu, yerelleştirme çalışmaları ve bu çalışmaların koordinasyonunu<a href="http://tr.openoffice.org/servlets/SummarizeList?listName=ceviri">http://tr.openoffice.org/servlets/SummarizeList?listName=ceviri</a> adresi üzerinde bilgileri bulunan e-posta listesi üzerinden gerçekleştirmektedir.
+<br/>
+<hr noshade="" size="1"/>
 </li>
+
 <li type="square">
 <strong>Pardus:</strong>
 TÜBİTAK/UEKAE bünyesinde geliştirilen Pardus dağıtımı için genel bir yerelleştirme listesi ile birlikte farklı diller için de birer yerelleştirme listesi bulunmaktadır. Pardus araçlarının yerelleştirilmesiyle sorumlu çeviri grubu yerelleştirme koordinasyonu da liste üzerinden gerçekleştirmektedir.  Pardus yerelleştirme ekibi aynı zamanda KDE  ve KDE dokümanlarının Türkçeye çevrilmesi konusunda da çalışmalarını sürdürmektedir . Yerelleştirme çalışmalarına katılmak için <a href="http://liste.pardus.org.tr/mailman/listinfo/turkce">http://liste.pardus.org.tr/mailman/listinfo/turkce</a> liste adresinden gereken bilgi alınabilir. 

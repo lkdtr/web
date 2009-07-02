@@ -63,7 +63,7 @@ Linux dağıtımı Mandriva için gerek sistem araçları gerekse belgelendirme 
 </li>
 <li type="square">
 <strong>Mozilla Türkiye:</strong>
-Güvenilirliği ile kendini kanıtlamış, bugün bir çok dilde kullanılabilen tarayıcısı Firefox ile adından söz ettiren Mozilla'nın , Türkiye'deki yerelleştirme ekibi, www.mozilla.org.tr çatısı altında faaliyetlerini sürdürmektedir. Yerelleştirme ekibi popüler Mozilla araçları olan Firefox, Thunderbird, Seamonkey vb. yazılımları yerelleştirmektedir.
+Güvenilirliği ile kendini kanıtlamış, bugün bir çok dilde kullanılabilen tarayıcısı Firefox ile adından söz ettiren Mozilla'nın , Türkiye'deki yerelleştirme ekibi, <a href="http://www.mozilla.org.tr">www.mozilla.org.tr</a> çatısı altında faaliyetlerini sürdürmektedir. Yerelleştirme ekibi popüler Mozilla araçları olan Firefox, Thunderbird, Seamonkey vb. yazılımları yerelleştirmektedir.
 <br/>
 <hr noshade="" size="1"/>
 </li>

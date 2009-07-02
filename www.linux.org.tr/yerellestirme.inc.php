@@ -20,6 +20,12 @@ Arch Linux araçlarını Türkçe'ye çeviren Türkiye  topluluğu, aynı zamand
 <hr noshade="" size="1"/>
 </li>
 <li type="square">
+<strong>Belgeler.org Çevirileri:</strong>
+Linux Belgeler Çalışma Grubu tarafından faal olarak çalışmaları süren Apache HTTP Sunucusu Belgeleri ve PHP Kılavuzu çalışmalarına katılmak ve çalışmaları incelemek için <a href="http://ceviri.belgeler.gen.tr">http://ceviri.belgeler.gen.tr</a> adresini ziyaret edebilirsiniz. 
+<br/>
+<hr noshade="" size="1"/>
+</li>
+<li type="square">
 <strong>Debian:</strong>
 Debian Türkçe takımının çabalarıyla <a href="http://lists.debian.org/debian-l10n-turkish">http://lists.debian.org/debian-l10n-turkish</a> listesi üzerinden Debian'a has araç ve belgelerin Türkçeleştirmesi konusunda faaliyet gösterilmektedir. Ayrıca <a href="http://www.debian.org.tr">http://www.debian.org.tr</a> sayfasında da  Türkçe içerik çalışmaları tüm hızıyla devam etmektedir.
 <br/>
@@ -44,11 +50,24 @@ Masaüstü ortamı KDE, KDE Türkiye ekibi tarafından Türkçeye çevrilmektedi
 <hr noshade="" size="1"/>
 </li>
 <li type="square">
+<strong>Launchpad:</strong>
+Canonical Ltd. tarafından hizmete konulan Launch Pad, mümkün oldukça, web arabirimi üzerinden çeviriye olanak sağlamaktadır. <a href="https://launchpad.net">https://launchpad.net</a> adresinden kendinize bir hesap edinip, dilinizi Türkçe seçtikten sonra, Launchpad üzerinde kayıtlı, çeviri mümkün her projede Türkçeleştirme çalışmalarına katılabilirsiniz.
+<br/>
+<hr noshade="" size="1"/>
+</li>
+<li type="square">
 <strong>Mandriva:</strong>
 Linux dağıtımı Mandriva için gerek sistem araçları gerekse belgelendirme amacıyla kurulmuş olan Mandriva Türkiye grubu koordinasyonu <a href="http://www.mandrivaturkiye.com">http://www.mandrivaturkiye.com</a> sitesinde gerçekleştirmektedir.
 <br/>
 <hr noshade="" size="1"/>
-</li>  
+</li>
+<li type="square">
+<strong>Mozilla Türkiye:</strong>
+Güvenilirliği ile kendini kanıtlamış, bugün bir çok dilde kullanılabilen tarayıcısı Firefox ile adından söz ettiren Mozilla'nın , Türkiye'deki yerelleştirme ekibi, www.mozilla.org.tr çatısı altında faaliyetlerini sürdürmektedir. Yerelleştirme ekibi popüler Mozilla araçları olan Firefox, Thunderbird, Seamonkey vb. yazılımları yerelleştirmektedir.
+<br/>
+<hr noshade="" size="1"/>
+</li>
+
 <li type="square">
 <strong>OpenOffice.org Türkiye:</strong>
 Özgür bir ofis platformu oluşturmayı amaçlayan OpenOffice.org yazılımı, OpenOffice.org Türkiye gönüllüleri tarafından yerelleştirilmektedir.<a href="http://www.openoffice.org.tr">http://www.openoffice.org.tr</a> sayfasında faaliyetlerini sürdüren Türkiye grubu, yerelleştirme çalışmaları ve bu çalışmaların koordinasyonunu<a href="http://tr.openoffice.org/servlets/SummarizeList?listName=ceviri">http://tr.openoffice.org/servlets/SummarizeList?listName=ceviri</a> adresi üzerinde bilgileri bulunan e-posta listesi üzerinden gerçekleştirmektedir.

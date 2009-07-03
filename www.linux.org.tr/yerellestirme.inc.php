@@ -82,6 +82,12 @@ TÜBİTAK/UEKAE bünyesinde geliştirilen Pardus dağıtımı için genel bir ye
 <hr noshade="" size="1"/>
 </li>
 <li type="square">
+<strong>PostgreSQL:</strong>
+Gelişmiş veritabanı sunucusu PostgreSQL, çeşitli dillere çevrilebilmektedir. Bu diller arasında Türkçe yerelleştirilme oranı bakımından en başarılı diller arasında yer almaktadır. Çevirmenler için kılavuz <a href="http://wiki.postgresql.org/wiki/NLS">http://wiki.postgresql.org/wiki/NLS</a> adresinde yer alırken, çeviri için koordinasyon <a href="http://pgfoundry.org/mail/?group_id=1000064">e-posta listelerinde</a> sağlanmaktadır.  
+<br/>
+<hr noshade="" size="1"/>
+</li>
+<li type="square">
 <strong>Suse:</strong>
 Linux dağıtımı (Open)Suse için sistem araçlarının çevrilmesi ve belgelendirme amacıyla kurulmuş olan <a href="http://www.suse-tr.com">http://www.suse-tr.com</a> sitesinden yerelleştirme çalışmalarına katkıda bulunabilirsiniz.
 <br/>

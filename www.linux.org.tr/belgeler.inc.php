@@ -78,13 +78,13 @@ OpenOffice Türkiye ekibi tarafından belgelendirme çalışmalarını yürütme
 </li>
 <li type="square">
 <strong>Özgürlükİçin:</strong>
-TÜBİTAK/UEKAE bünyesinde geliştirilen Pardus dağıtımı için topluluk sitesi vasfını taşıyan Özgürlükİçin sitesinde, Pardus ve dolayısıyla Linux ile ilk defa tanışacak kişiler için İlk Adımlar sayfaları, çeşitli paket incelemelerinin yapıldığı ve uygulamaların tanıtıldığı Nasıl bölümü, GNU/Linux oyunları hakkında belgeler vb. nitelikte belgelendirme çalışmaları yürütülmektedir. Özgürlükİçin sitesine, <a href="http://www.ozgurlukicin.com">http://www.ozgurlukicin.com</a> adresinden ulaşabilirsiniz.
+Pardus dağıtımı için topluluk sitesi vasfını taşıyan Özgürlükİçin sitesinde, Pardus ve dolayısıyla Linux ile ilk defa tanışacak kişiler için İlk Adımlar sayfaları, çeşitli paket incelemelerinin yapıldığı ve uygulamaların tanıtıldığı Nasıl bölümü, GNU/Linux oyunları hakkında belgeler vb. nitelikte belgelendirme çalışmaları yürütülmektedir. Özgürlükİçin sitesine, <a href="http://www.ozgurlukicin.com">http://www.ozgurlukicin.com</a> adresinden ulaşabilirsiniz.
 <br/>
 <hr noshade="" size="1"/>
 </li>
 <li type="square">
 <strong>Pardus Wiki:</strong>
- TÜBİTAK/UEKAE bünyesinde geliştirilen Pardus dağıtımı için doküman havuzu niteliğini gören Pardus Wiki'de, Pardus konusunda oldukça fazla sayıda doküman, geliştirici kılavuzları,  Pardus hakkında teknik kılavuzlar vb. belge bulunmaktadır. Pardus Wiki'ye <a href="http://tr.pardus-wiki.org">http://tr.pardus-wiki.org</a> sitesinden ulaşabilirsiniz. 
+Pardus dağıtımı için doküman havuzu niteliğini gören Pardus Wiki'de, Pardus konusunda oldukça fazla sayıda doküman, geliştirici kılavuzları,  Pardus hakkında teknik kılavuzlar vb. belge bulunmaktadır. Pardus Wiki'ye <a href="http://tr.pardus-wiki.org">http://tr.pardus-wiki.org</a> sitesinden ulaşabilirsiniz. 
 <br/>
 <hr noshade="" size="1"/>
 </li>

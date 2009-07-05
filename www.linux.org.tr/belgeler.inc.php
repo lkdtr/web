@@ -78,7 +78,7 @@ OpenOffice Türkiye ekibi tarafından belgelendirme çalışmalarını yürütme
 </li>
 <li type="square">
 <strong>Özgürlükİçin:</strong>
-Pardus dağıtımı için topluluk sitesi vasfını taşıyan Özgürlükİçin sitesinde, Pardus ve dolayısıyla Linux ile ilk defa tanışacak kişiler için İlk Adımlar sayfaları, çeşitli paket incelemelerinin yapıldığı ve uygulamaların tanıtıldığı Nasıl bölümü, GNU/Linux oyunları hakkında belgeler vb. nitelikte belgelendirme çalışmaları yürütülmektedir. Özgürlükİçin sitesine, <a href="http://www.ozgurlukicin.com">http://www.ozgurlukicin.com</a> adresinden ulaşabilirsiniz.
+Pardus dağıtımı için içerik çalışmaları yapan Özgürlükİçin sitesinde, Pardus ve dolayısıyla Linux ile ilk defa tanışacak kişiler için İlk Adımlar sayfaları, çeşitli paket incelemelerinin yapıldığı ve uygulamaların tanıtıldığı Nasıl bölümü, GNU/Linux oyunları hakkında belgeler vb. nitelikte belgelendirme çalışmaları yürütülmektedir. Özgürlükİçin sitesine, <a href="http://www.ozgurlukicin.com">http://www.ozgurlukicin.com</a> adresinden ulaşabilirsiniz.
 <br/>
 <hr noshade="" size="1"/>
 </li>

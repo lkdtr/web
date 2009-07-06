@@ -1,7 +1,7 @@
 <td width="508" valign="top">
 <div style="padding-left: 5px;">
 <h1>Linux Nasıl Belgeleri ve Diğer Belgeler</h1>
-Geçtiğimiz yıllarda bu sayfada, ortak belge havuzu niteliği taşıyan belgeler.org üzerinde durulurken, günümüzde GNU/Linux dağıtımlarının ve diğer işletim sistemlerinin ülkemizde yaygınlık kazanması, dağıtımlara has kullanıcı grupları oluşması ve bu kullanıcı gruplarının çalışmaları sonucunda, çeşitli konumlarda bir çok doküman havuzu oluşturulmaya başlanmıştır. Bu sayfada, Türkiye'de GNU/Linux, diğer özgür işletim sistemleri ve çeşitli programlama dilleri hakkında çalışmaların yapıldığı doküman havuzlarının tanıtımı yapılmaktadır.
+Geçtiğimiz yıllarda bu sayfada, ortak belge havuzu niteliği taşıyan siteler üzerinde durulmuştu. Günümüzde GNU/Linux dağıtımlarının ve diğer özgür işletim sistemlerinin ülkemizde yaygınlık kazanması, dağıtımlara has kullanıcı grupları oluşması ve bu kullanıcı gruplarının çalışmaları sonucunda, birçok sitede doküman havuzu oluşturulmaya başlanmıştır. Bu sayfada, Türkiye'de GNU/Linux, diğer özgür işletim sistemleri ve çeşitli programlama dilleri hakkında çalışmaların yapıldığı doküman havuzlarına yer verilmektedir.
 <br/>
 <br/>
 <em>Alfabetik sıraya göre düzenlenmiştir.</em>

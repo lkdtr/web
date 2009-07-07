@@ -35,6 +35,7 @@ Fazla Linux</td>
             <a class="menu" href="/linuxcdler.html">Linux CD'leri</a><br/>
 - <a class="menu" href="/linuxfirmalar.html">Destek ve Eğitim Kurumları</a><br/>
 - <a class="menu" href="/linuxkitaplar.html">Kitaplar</a><br/>
+- <a class="menu" href="/linuxdergiler.html">Dergiler</a><br/>
 - <a class="menu" href="/dagitimlar.html">Dağıtımlar Kılavuzu</a><br/>
 - <a class="menu" href="/yerliyazilimlar.html">Yerel Özgür
 Yazılımlar</a><br/>

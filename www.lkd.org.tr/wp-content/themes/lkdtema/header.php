@@ -100,4 +100,5 @@ src='http://reklam.lkd.org.tr/www/delivery/avw.php?zoneid=4&amp;cb=INSERT_RANDOM
 <li><a target="_blank" href="http://senlik.linux.org.tr">Şenlik</a></li>
 <li><a target="_blank" href="http://haber.linux.org.tr">Haberler</a></li>
 <li><a target="_blank" href="http://gezegen.linux.org.tr">Linux Gezegeni</a></li>
+<li><a target="_blank" href="ftp://ftp.linux.org.tr">FTP Dosya Alanı</a></li>
 </ul>

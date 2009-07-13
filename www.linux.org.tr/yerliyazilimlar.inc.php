@@ -841,7 +841,11 @@ geliştirilen özgür yazılım dağıtımlarının bir listesini aşağıda
 bulabilirsiniz. Listede bulunmayan özgür yazılımlar dağıtımları için <a href="mailto:bilgi@linux.org.tr">bilgi@linux.org.tr</a> adresine e-posta atarak bizi haberdar edebilirsiniz.</td></tr></tbody></table>
 <table width="100%" cellpadding="2" border="0">
 
-<tbody><tr><td><h2>Boreas Linux</h2></td></tr>
+<tbody><tr><td><h2>Arnux Linux</h2></td></tr>
+<tr><td><b>Web Sayfası:</b><a target="_blank" href="http://arnux.sourceforge.net/">http://arnux.sourceforge.net</a><br/>Türkiye'nin ilk açık kaynak gömülü işletim sistemidir. ARNUX gömülü ve konsol tabanlı bir linux dağıtımıdır. Bu özelliğiyle geniş bir ürün yelpazesine (MID'ler, Netbook'lar, cep telefonları, internet bağlantısı olan herhangi bir cihaz) uyarlanabilir.</td></tr>
+<tr><td><hr/></td></tr>
+
+<tr><td><h2>Boreas Linux</h2></td></tr>
 <tr><td><b>Web Sayfası:</b> Mevcut değil<br/>Knoppix tabanlı, CD'den çalışan ve elektrik/elektronik geliştiricileri için hazırlanan yeni bir dağıtım.</td></tr>
 <tr><td><hr/></td></tr>
 
@@ -856,6 +860,23 @@ dağıtımı olmayı hedefliyor.</td></tr>
 <tr><td><b>Web Sayfası:</b> Mevcut değil<br/>Tamamen sıfırdan tasarlanan
 ve kendine özgü dosya sistemi dizilimi, yazılım yönetim sistemi ve
 yönetim araçları içeren bir işletim sistemi.</td></tr>
+<tr><td><hr/></td></tr>
+
+<tr><td><h2>Magma Linux</h2></td></tr>
+<tr><td><b>Web Sayfası:</b> <a target="_blank" href="http://www.magmalinux.org/">http://www.magmalinux.org</a><br/>Magma Linux, Ceren Bilgisayar Ltd. Şti. tarafından çıkarılmakta olan, Debian temelli bir Linux dağıtımıdır. İlk kullanılabilir sürümü 9.3'ü 2009 yılının mart ayında duyuran Magma Linux ekibi, bünyesindeki güncel programları ve yeni teknolojileri takip etmek adına 2 ayda bir yeni sürüm çıkarmaktadır. 2 ayrı yapıya sahiptir (32 bit, 64 bit) ve 77 dilde kuruluma hazır olarak sunulmaktadır. Kolay ve görsel kuruluma sahip Magma, 4 ayrı sürümü (Home, office, server, developer) ile geniş yelpazede bir kullanıcı kitlesine hitap etmektedir. </td></tr>
+<tr><td><hr/></td></tr>
+
+<tr><td><h2>Pardus Linux</h2></td></tr>
+<tr><td><b>Web Sayfası:</b> <a target="_blank" href="http://www.pardus.org.tr/">http://www.pardus.org.tr</a><br/>Uludağ,
+TÜBİTAK UEKAE tarafından Linux temelli Ulusal bir işletim sistemi
+geliştirme projesidir. Pardus, Uludağ kapsamında, bilişim
+okur-yazarlığına sahip bilgisayar kullanıcılarının temel masaüstü
+ihtiyaçlarını hedefleyerek; mevcut Linux dağıtımlarının üstün
+taraflarını kavram, mimari ya da kod olarak kullanan; otonom sisteme
+evrilebilecek bir yapılandırma çerçevesi ve araçları ile kurulum,
+yapılandırma ve kullanım kolaylığı sağlamak üzere geliştirilen bir
+GNU/Linux dağıtımıdır. Pardus adını şu anda soyu tükenmiş olan Anadolu
+Pars'ından almaktadır.</td></tr>
 <tr><td><hr/></td></tr>
 
  <tr><td><h2>Pratix Linux</h2></td></tr>
@@ -889,21 +910,7 @@ Turkuaz'da hazırlanan Türkçe desteğini resmi olarak ekledikten sonra
 dağıtımın yeni sürümü çıkmadı.</td></tr>
 <tr><td><hr/></td></tr>
 
-<tr><td><h2>Pardus Linux</h2></td></tr>
-<tr><td><b>Web Sayfası:</b> <a target="_blank" href="http://www.pardus.org.tr/">http://www.pardus.org.tr</a><br/>Uludağ,
-TÜBİTAK UEKAE tarafından Linux temelli Ulusal bir işletim sistemi
-geliştirme projesidir. Pardus, Uludağ kapsamında, bilişim
-okur-yazarlığına sahip bilgisayar kullanıcılarının temel masaüstü
-ihtiyaçlarını hedefleyerek; mevcut Linux dağıtımlarının üstün
-taraflarını kavram, mimari ya da kod olarak kullanan; otonom sisteme
-evrilebilecek bir yapılandırma çerçevesi ve araçları ile kurulum,
-yapılandırma ve kullanım kolaylığı sağlamak üzere geliştirilen bir
-GNU/Linux dağıtımıdır. Pardus adını şu anda soyu tükenmiş olan Anadolu
-Pars'ından almaktadır.</td></tr>
-<tr><td><hr/></td></tr>
 
-<tr><td><h2>Magma Linux</h2></td></tr>
-<tr><td><b>Web Sayfası:</b> <a target="_blank" href="http://www.magmalinux.org/">http://www.magmalinux.org</a><br/>Magma Linux, Ceren Bilgisayar Ltd. Şti. tarafından çıkarılmakta olan, Debian temelli bir Linux dağıtımıdır. İlk kullanılabilir sürümü 9.3'ü 2009 yılının mart ayında duyuran Magma Linux ekibi, bünyesindeki güncel programları ve yeni teknolojileri takip etmek adına 2 ayda bir yeni sürüm çıkarmaktadır. 2 ayrı yapıya sahiptir (32 bit, 64 bit) ve 77 dilde kuruluma hazır olarak sunulmaktadır. Kolay ve görsel kuruluma sahip Magma, 4 ayrı sürümü (Home, office, server, developer) ile geniş yelpazede bir kullanıcı kitlesine hitap etmektedir. </td></tr>
 </tbody></table><br/>
 
 </center></td>

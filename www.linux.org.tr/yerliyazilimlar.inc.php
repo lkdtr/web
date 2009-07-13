@@ -842,7 +842,7 @@ bulabilirsiniz. Listede bulunmayan özgür yazılımlar dağıtımları için <a
 <table width="100%" cellpadding="2" border="0">
 
 <tbody><tr><td><h2>Arnux Linux</h2></td></tr>
-<tr><td><b>Web Sayfası:</b> <a target="_blank" href="http://arnux.sourceforge.net/">http://arnux.sourceforge.net</a><br/>Türkiye'nin ilk açık kaynak gömülü işletim sistemidir. ARNUX gömülü ve konsol tabanlı bir linux dağıtımıdır. Bu özelliğiyle geniş bir ürün yelpazesine (MID'ler, Netbook'lar, cep telefonları, internet bağlantısı olan herhangi bir cihaz) uyarlanabilir.</td></tr>
+<tr><td><b>Web Sayfası:</b> <a target="_blank" href="http://arnux.sourceforge.net/">http://arnux.sourceforge.net</a><br/>Türkiye'nin ilk açık kaynak gömülü işletim sistemidir. Arnux, Tübitak Teknokent'te yeralan bir firma olan ARDIC(Applied Research and Innovation Center) tarafından geliştirilen gömülü ve konsol tabanlı bir Linux dağıtımıdır. Bu özelliğiyle geniş bir ürün yelpazesine (MID'ler, Netbook'lar, cep telefonları, internet bağlantısı olan herhangi bir cihaz) uyarlanabilir.</td></tr>
 <tr><td><hr/></td></tr>
 
 <tr><td><h2>Boreas Linux</h2></td></tr>

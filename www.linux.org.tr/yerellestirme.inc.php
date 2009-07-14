@@ -69,7 +69,7 @@ Güvenilirliği ile kendini kanıtlamış, bugün bir çok dilde kullanılabilen
 </li>
 <li type="square">
 <strong>NetBeans:</strong>
-Yazılım geliştirme amaçlı kullanılan NetBeans IDE, NetBeans IDE Türkçe Yerelleştirme Takımı tarafından Türkçeye çevrilmektedir. Yerelleştirme çalışmalarına katılmak isteyen kişiler için <a href="http://wiki.netbeans.org/TurkishTranslation">http://wiki.netbeans.org/TurkishTranslation</a> adresinden detaylı bilgi alınabilir. Yerelleştirme takımı, çeviri koordinasyonunu <a href="mailto:tr@translatedfiles.netbeans.org">tr@translatedfiles.netbeans.org</a> listesinde ve <a href="http://groups.google.com/group/netbeans-turkce">Google grubu</a> sayfasında gerçekleştirmektedir.
+Yazılım geliştirme amaçlı kullanılan NetBeans IDE, NetBeans IDE Türkçe Yerelleştirme Takımı tarafından Türkçeye çevrilmektedir. Yerelleştirme çalışmalarına katılmak isteyen kişiler <a href="http://wiki.netbeans.org/TurkishTranslation">http://wiki.netbeans.org/TurkishTranslation</a> adresinden detaylı bilgi alabilirler. Yerelleştirme takımı, çeviri koordinasyonunu <a href="mailto:tr@translatedfiles.netbeans.org">tr@translatedfiles.netbeans.org</a> listesinde ve <a href="http://groups.google.com/group/netbeans-turkce">Google grubu</a> sayfasında gerçekleştirmektedir.
 <br/>
 <hr noshade="" size="1"/>
 </li>

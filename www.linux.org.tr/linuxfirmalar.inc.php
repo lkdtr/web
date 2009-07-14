@@ -19,31 +19,38 @@ hizmetleri bulunmakta.<br/>
 <td align="right" width="100" valign="middle"><img style="width: 160px; height: 70px;" alt="" src="linuxfirmalar_files/logo-60px_2.png"/><br/>
 </td></tr>
 
-<tr bgcolor="#f4f4f4"><td><h3>Bimel Ltd.</h3>
+<tr bgcolor="#f4f4f4"><td><h3>ARDIC Ar-Ge</h3>
+<b>Özgür Yazılımla İlgili Hizmetleri :</b> Bilişim teknolojileri ve mobil internet cihazlarını destekleyecek Linux tabanlı işletim sistemi çalışmaları.<br/>
+<b>Web Sitesi :</b> <a href="http://www.ardictech.com/" target="_blank">http://www.ardictech.com</a></td>
+<td align="right" width="100" valign="middle"><img style="width: 95px; height: 65px;" alt="" src="linuxfirmalar_files/ardic_logo.png"/><br/>
+</td></tr>
+
+
+<tr><td><h3>Bimel Ltd.</h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Eğitim<br/>
 <b>Web Sitesi :</b> <a href="http://www.bimel.com.tr/egitim/linux.php" target="_blank">http://www.bimel.com.tr/egitim/linux.php</a><br/></td>
 <td align="right" valign="middle"><img style="width: 234px; height: 98px;" alt="" src="linuxfirmalar_files/bimel.png"/><br/> </td></tr>
 
-<tr><td><h3>BNTPRO Bilgi ve İletişim Hiz. Ltd. Şti.</h3>
+<tr bgcolor="#f4f4f4"><td><h3>BNTPRO Bilgi ve İletişim Hiz. Ltd. Şti.</h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Juniper ve Linux üzerine eğitimler vermektedir.<br/>
 <b>Web Sitesi :</b> <a href="http://www.bntpro.com/" target="_blank">http://www.bntpro.com/</a><br/></td>
 <td align="right" valign="middle"><img style="width: 120px; height: 73px;" alt="" src="linuxfirmalar_files/bnt_pro.gif"/><br/> </td></tr>
 
 
-<tr bgcolor="#f4f4f4"><td><h3>BT Eğitim</h3>
+<tr><td><h3>BT Eğitim</h3>
 <i>Morten Bilgi ve İletişim Hiz. Ltd. Şti.<br/></i>
 <b>İlgili Kişi :</b> Semih Yüksel - Gönül Ayan<br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> 2001 yılından beri Linux Redhat, Php, Java, Mysql ve Kabuk Programlama üzerine eğitimler vermektedir.<br/>
 <b>Web Sitesi :</b> <a href="http://www.btegitim.com/" target="_blank">http://www.btegitim.com/</a><br/></td>
 <td align="right" width="100" valign="middle"><img height="61" width="276" src="linuxfirmalar_files/BT20LOGO.jpg"/> </td></tr>
 
-<tr><td><h3>Devinim Yazılım</h3>
+<tr bgcolor="#f4f4f4"><td><h3>Devinim Yazılım</h3>
 <p> <b>İlgili Kişi :</b> Mengü Yazıcıoğlu<br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Eğitim, Danışmanlık, Yazılım ve Kurulum Hizmetleri<br/>
 <b>Web Sitesi :</b> <a href="http://www.devinim.com.tr/" target="_blank">http://www.devinim.com.tr</a><br/></p></td>
 <td align="right" width="100" valign="middle"><img src="linuxfirmalar_files/rd.jpg"/> </td></tr>
 
-<tr bgcolor="#f4f4f4"><td><h3>Endersys Danışmanlık ve Yazılım Ltd. Şti.</h3>
+<tr><td><h3>Endersys Danışmanlık ve Yazılım Ltd. Şti.</h3>
 <p> <b>İlgili Kişi :</b> Elif Şahin<br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> FreeBSD, OpenBSD ve Linux
 işletim sistemlerine destek, bu işletim sistemleri üzerinde proje
@@ -52,7 +59,7 @@ ve yüksek performans danışmanlığı.<br/>
 <b>Web Sitesi :</b> <a href="http://www.endersys.com.tr/" target="_blank">http://www.endersys.com.tr</a><br/></p></td>
 <td align="right" width="100" valign="middle"><img height="100" width="141" src="linuxfirmalar_files/logo-120x85_endersys.jpg"/> </td></tr>
 
-<tr><td><h3>Gelecek A.Ş.</h3>
+<tr bgcolor="#f4f4f4"><td><h3>Gelecek A.Ş.</h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Gelecek A.Ş. Türkiye'nin ilk
 Kurumsal Linux destek ve servis şirketidir. Linux eğitimleri, Linux
 donanımları ve yazılımları, Linux hizmetleri ve yayınlar, şirketin
@@ -60,7 +67,7 @@ donanımları ve yazılımları, Linux hizmetleri ve yayınlar, şirketin
 <b>Web Sitesi :</b> <a href="http://www.gelecek.com.tr/" target="_blank">http://www.gelecek.com.tr</a><br/><p/></td>
 <td align="right" width="100" valign="middle"><img height="33" width="200" src="linuxfirmalar_files/gelecek_logo2.jpg"/> </td></tr>
 
-<tr bgcolor="#f4f4f4"><td><h3>GNOFT Artware</h3><br/>
+<tr><td><h3>GNOFT Artware</h3><br/>
 <b>İlgili Kişi :</b> Namık Sarı<br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> İzmir'de bulunan firma 2003
 yılından bu yana açık kaynak kodlu özgür yazılım ürünleri ile web
@@ -73,27 +80,27 @@ yönetim hizmetleri vermektedir. <br/>
 <b>Web Sitesi :</b> <a href="http://www.gnoft.com.tr/" target="_blank">http://www.gnoft.com.tr</a><br/><p/></td>
 <td style="text-align: right;"><img style="width: 105px; height: 100px;" alt="" src="linuxfirmalar_files/GNOFT_ARTWARE_Logo.png"/></td></tr>
 
-<tr><td><h3>IBM Türkiye</h3>
+<tr bgcolor="#f4f4f4"><td><h3>IBM Türkiye</h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Linux Teknolojileri, Destek ve Eğitim.<br/>
 <b>Web Sitesi :</b> <a href="http://www-05.ibm.com/tr/products/linux/" target="_blank">http://www-05.ibm.com/tr/products/linux/</a><br/></td>
 <td align="right" width="100" valign="middle"><img style="width: 100px; height: 42px;" alt="" src="linuxfirmalar_files/IBM_logo.jpg"/> </td></tr>
 
-<tr bgcolor="#f4f4f4"><td><h3>Keys Danışmanlık</h3>
+<tr><td><h3>Keys Danışmanlık</h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Eğitim<br/>
 <b>Web Sitesi :</b> <a href="http://www.keys.com.tr/" target="_blank">http://www.keys.com.tr</a><br/></td>
 <td align="right" width="100" valign="middle"><img src="linuxfirmalar_files/keys_logo.jpg"/> </td></tr>
 
-<tr><td><h3>Koç Bryce</h3>
+<tr bgcolor="#f4f4f4"><td><h3>Koç Bryce</h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Eğitim<br/>
 <b>Web Sitesi :</b> <a href="http://www.kocbryce.com.tr/" target="_blank">http://www.kocbryce.com.tr</a><br/></td>
 <td align="right" width="100" valign="middle"><img style="width: 276px; height: 61px;" alt="" src="linuxfirmalar_files/kocsistemlogo.jpg"/> </td></tr>
 
-<tr bgcolor="#f4f4f4"><td><h3>Mayasoft</h3>
+<tr><td><h3>Mayasoft</h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Eğitim<br/>
 <b>Web Sitesi :</b> <a href="http://www.mayasoft.com.tr/" target="_blank">http://www.mayasoft.com.tr</a><br/></td>
 <td align="right" width="100" valign="middle"><img style="width: 276px; height: 69px;" alt="" src="linuxfirmalar_files/maya_01.jpg"/> </td></tr>
 
-<tr><td><h3>Novell</h3><br/>
+<tr bgcolor="#f4f4f4"><td><h3>Novell</h3><br/>
 <b>İlgili Kişiler :</b><br/>
  <i>Operasyon Müdürü :</i> Şebnem Aydemir<br/>
  <i>Pazarlama ve Halkla İlişkiler Müdürü :</i> Pınar Uylum<br/>
@@ -108,7 +115,7 @@ hizmeti sağlamaktadır. <br/>
 <b>Web Sitesi :</b> <a href="http://www.novell.com/" target="_blank">http://www.novell.com</a></td>
 <td style="text-align: right;"><img style="width: 198px; height: 47px;" alt="" src="linuxfirmalar_files/nov_red.gif"/></td></tr>
 
-<tr bgcolor="#f4f4f4"><td><h3>OBSS Açık Yazılım İş Çözümleri </h3>
+<tr><td><h3>OBSS Açık Yazılım İş Çözümleri </h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Linux Teknolojileri, Destek
 ve Eğitim. Firmanın geliştirmesini üstlendiği ve hizmet sunduğu Turquaz
 Muhasebe Paketi ve GrayMound uygulama geliştirme platformu adlı iki
@@ -116,13 +123,13 @@ açık kaynak kodlu projesi de bulunmaktadır. <br/>
 <b>Web Sitesi :</b> <a href="http://www.obss.com.tr/" target="_blank">http://www.obss.com.tr</a></td>
 <td align="right" valign="middle"><img style="width: 144px; height: 60px;" alt="" src="linuxfirmalar_files/obss_ek_06.gif"/></td></tr>
 
-<tr><td><h3>Para Bilgi Teknolojileri </h3>
+<tr bgcolor="#f4f4f4"><td><h3>Para Bilgi Teknolojileri </h3>
 <b>İlgili Kişi :</b> Murathan Bostancı<br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Destek, hosting <br/>
 <b>Web Sitesi :</b> <a href="http://www.para.com.tr/" target="_blank">http://www.para.com.tr</a></td>
 <td align="right" valign="middle"><img style="width: 248px; height: 88px;" alt="" src="linuxfirmalar_files/para_bilgi.png"/></td></tr>
 
-<tr bgcolor="#f4f4f4"><td><h3>Parkyeri İletişim Internet Pazarlama Tanıtım Hizmetleri Tic. Ve San. A.Ş</h3>
+<tr><td><h3>Parkyeri İletişim Internet Pazarlama Tanıtım Hizmetleri Tic. Ve San. A.Ş</h3>
 <b>İlgili Kişi :</b> Giray Pultar<br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Parkyeri A.Ş.'de platform
 bağımsız, şirketlerin ihtiyaçlarına göre özelleştirilebilir,
@@ -136,7 +143,7 @@ yazılımı desteklemektedir.<br/>
 <b>Web Sitesi :</b> <a href="http://www.parkyeri.com/" target="_blank">http://www.parkyeri.com</a></td>
 <td align="right" valign="middle"><img style="width: 277px; height: 100px;" alt="" src="linuxfirmalar_files/parkyeri_logo.bmp"/></td></tr>
 
-<tr><td><h3>Perception Eğitim ve Danışmanlık </h3>
+<tr bgcolor="#f4f4f4"><td><h3>Perception Eğitim ve Danışmanlık </h3>
 <b>İlgili Kişi :</b> Alpaslan Kaplan<br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Eğitim ve Danışmanlık
 Hizmetleri. Perception, Red Hat'in yetkili eğitim merkezidir. Aynı
@@ -144,7 +151,7 @@ zamanda Solaris ve HP adına HP-UX eğitimleri de sağlamaktadır.<br/>
 <b>Web Sitesi :</b><a href="http://perception.com.tr/" target="_blank">http://perception.com.tr</a> <p/></td>
 <td align="right" valign="middle"><span class="style1"><img height="100" width="241" src="linuxfirmalar_files/Perception_logo.jpg"/></span></td></tr>
 
-<tr bgcolor="#f4f4f4"><td><h3>PortakalTeknoloji</h3><br/>
+<tr><td><h3>PortakalTeknoloji</h3><br/>
 <b>İlgili Kişiler :</b><br/>
  <i>Şirket Yöneticisi :</i> Bora Güngören<br/>
  <i>Satış :</i> Armağan Elgezdi<br/>
@@ -162,7 +169,7 @@ müşterilerine sunmaktadır.<br/>
 <b>Web Sitesi :</b> <a href="http://www.portakalteknoloji.com/" target="_blank">http://www.portakalteknoloji.com</a><br/></td>
 <td align="right" width="100" valign="middle"> <img style="width: 140px; height: 180px;" alt="" src="linuxfirmalar_files/portologo.jpg"/></td></tr>
 
-<tr><td><h3>Pro-G Bilişim Güvenliği ve Araştırma Ltd. Şti.</h3>
+<tr bgcolor="#f4f4f4"><td><h3>Pro-G Bilişim Güvenliği ve Araştırma Ltd. Şti.</h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Bilişim Güvenliği alanında
 uzmanlaşmış şirket; Linux / Unix Teknolojileri, Ağ teknolojileri, Java
 ve Bilişim güvenliği konularında eğitim ve danışmanlık hizmetleri
@@ -170,19 +177,19 @@ vermektedir.<br/>
 <b>Web Sitesi :</b> <a href="http://www.pro-g.com.tr/egitim" target="_blank">http://www.pro-g.com.tr/egitim</a><br/></td>
 <td align="right" width="100" valign="middle"> <img style="width: 178px; height: 94px;" alt="" src="linuxfirmalar_files/pro-g_logo.gif"/></td></tr>
 
-<tr bgcolor="#f4f4f4"><td><h3>Probit Bilişim Teknolojileri Sanayi ve Ticaret Ltd. Şti.</h3>
+<tr><td><h3>Probit Bilişim Teknolojileri Sanayi ve Ticaret Ltd. Şti.</h3>
 <b>İlgili Kişi :</b> Erdoğan Bilgici <br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Linux Teknolojileri, Destek, Sunucu ve Hosting Hizmetleri.<br/>
 <b>Web Sitesi :</b> <a href="http://www.probit.com.tr/" target="_blank">http://www.probit.com.tr</a><br/></td>
 <td align="right" width="100" valign="middle"> <img style="width: 100px; height: 125px;" alt="" src="linuxfirmalar_files/probit.jpg"/></td></tr>
 
-<tr><td><h3>Profelis Bilişim ve Fikri Sınai Haklar Servis Hizmetleri Dan. Ltd. Şti.</h3>
+<tr bgcolor="#f4f4f4"><td><h3>Profelis Bilişim ve Fikri Sınai Haklar Servis Hizmetleri Dan. Ltd. Şti.</h3>
 <!--b>İlgili Kişi :</b><br-->
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Linux'a göç konusunda danışmanlık ve destek hizmetleri, genel Linux kullanımı ve güvenlik konularında eğitim ve danışmanlık, Sanallaştırma ve kümeleme konularında Linux tabanlı çözümler geliştirmek.<br/>
 <b>Web Sitesi :</b> <a href="http://www.profelis.com.tr/" target="_blank">http://www.profelis.com.tr</a><br/></td>
 <td align="right" width="100" valign="middle"> <img style="width: 150px; height: 67px;" alt="" src="linuxfirmalar_files/profelis_web.jpg"/></td></tr>
 
-<tr bgcolor="#f4f4f4"><td><h3>Uygun Teknoloji Bilişim Hiz. Tic. Ltd. Şti.</h3>
+<tr><td><h3>Uygun Teknoloji Bilişim Hiz. Tic. Ltd. Şti.</h3>
 <b>İlgili Kişi :</b> Hakan Uygun<br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Yazılım Geliştirme,
 Danışmanlık ve Destek hizmetleri veren firma, kendi geliştirdiği özgün

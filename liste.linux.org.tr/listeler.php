@@ -53,6 +53,9 @@
     .listeler .detay a.cik {
       background: url(resim/listeden_cik.png) no-repeat left top;
     }
+    .listeler .detay a.gmane {
+      background: url(resim/gmane.png) no-repeat left top;    
+    }
 
     .listeler hr {
       display: none;
@@ -70,7 +73,7 @@
       <br />
       <a class="gir" href="mailto:lkd-duyuru-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:lkd-duyuru-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
-      <a href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.duyuru">Web/RSS/NNTP ile Okuyun</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.duyuru">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
 
@@ -80,7 +83,7 @@
       <br />
       <a class="gir" href="mailto:linux-ik-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-ik-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
-      <a href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.insan-kaynaklari">Web/RSS/NNTP ile Okuyun</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.insan-kaynaklari">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -90,7 +93,7 @@
       <br />
       <a class="gir" href="mailto:linux-masaustu-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-masaustu-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
-      <a href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.masaustu">Web/RSS/NNTP ile Okuyun</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.masaustu">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -100,7 +103,7 @@
       <br />
       <a class="gir" href="mailto:linux-sunucu-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-sunucu-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
-      <a href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.sunucu">Web/RSS/NNTP ile Okuyun</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.sunucu">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -110,6 +113,7 @@
       <br />
       <a class="gir" href="mailto:linux-ag-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-ag-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.ag">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -119,6 +123,7 @@
       <br />
       <a class="gir" href="mailto:linux-programlama-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-programlama-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.programlama">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -128,6 +133,7 @@
       <br />
       <a class="gir" href="mailto:linux-guvenlik-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-guvenlik-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.guvenlik">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -137,6 +143,7 @@
       <br />
       <a class="gir" href="mailto:linux-donanim-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-donanim-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.donanim">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -146,6 +153,7 @@
       <br />
       <a class="gir" href="mailto:linux-yerellestirme-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-yerellestirme-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.yerellestirme">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -155,6 +163,7 @@
       <br />
       <a class="gir" href="mailto:linux-cekirdek-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-cekirdek-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.cekirdek">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -164,6 +173,7 @@
       <br />
       <a class="gir" href="mailto:bsd-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:bsd-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.bsd">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -173,6 +183,7 @@
       <br />
       <a class="gir" href="mailto:linux-kurulum-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-kurulum-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.kurulum">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -182,6 +193,7 @@
       <br />
       <a class="gir" href="mailto:linux-sohbet-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-sohbet-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.sohbet">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -191,6 +203,7 @@
       <br />
       <a class="gir" href="mailto:linux-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.linux">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
     
@@ -200,6 +213,7 @@
       <br />
       <a class="gir" href="mailto:deneme-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:deneme-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.deneme">Web/RSS/NNTP ile Okuyun</a>
     </div>
     
   </div>

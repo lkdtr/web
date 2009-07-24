@@ -43,10 +43,14 @@ Yazılımlar</a><br/>
             </td>
           </tr>
           <tr>
+            <td><br/>
+            </td>
+          </tr>
+          <tr>
             <td class="menubaslik"> Daha Fazla Özgürlük</td>
           </tr>
           <tr>
-            <td style="padding-left: 3em;">-
+            <td style="padding-left: 3em;">
 - <a class="menu" href="/wikipedi.html">Wikipedia Özgür Ansiklopedi</a><br/>
 - <a class="menu" href="/openstreetmap.html">Özgür Dünya Haritası</a><br/> 
             </td>

@@ -18,8 +18,6 @@ Dosya Alanı</a><br/>
 Gezegeni </a><br/>
 - <a class="menu" href="http://senlik.linux.org.tr">Linux ve Özgür Yazılım Şenliği</a><br/>
 - <a class="menu" href="http://liste.linux.org.tr">E-posta Listeleri</a><br/>
-- <a class="menu" href="/wikipedi.html">Wikipedia Özgür Ansiklopedi</a><br/>
-- <a class="menu" href="/openstreetmap.html">Özgür Dünya Haritası</a><br/> 
             </p>
             </td>
           </tr>
@@ -42,6 +40,15 @@ Fazla Linux</td>
 Yazılımlar</a><br/>
 - <a class="menu" href="/yerellestirme.html">Yerelleştirme
 Çalışmaları</a><br/>
+            </td>
+          </tr>
+          <tr>
+            <td class="menubaslik"> Daha Fazla Özgürlük</td>
+          </tr>
+          <tr>
+            <td style="padding-left: 3em;">-
+- <a class="menu" href="/wikipedi.html">Wikipedia Özgür Ansiklopedi</a><br/>
+- <a class="menu" href="/openstreetmap.html">Özgür Dünya Haritası</a><br/> 
             </td>
           </tr>
         </tbody>

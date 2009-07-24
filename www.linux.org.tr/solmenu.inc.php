@@ -19,6 +19,7 @@ Gezegeni </a><br/>
 - <a class="menu" href="http://senlik.linux.org.tr">Linux ve Özgür Yazılım Şenliği</a><br/>
 - <a class="menu" href="http://liste.linux.org.tr">E-posta Listeleri</a><br/>
 - <a class="menu" href="/wikipedi.html">Wikipedia Özgür Ansiklopedi</a><br/>
+- <a class="menu" href="/openstreetmap.html">Özgür Dünya Haritası</a><br/> 
             </p>
             </td>
           </tr>

@@ -31,6 +31,20 @@
 			</td>
 		</tr>
 <!-- /Enixma -->
+<!-- Erciyes Linux Dergisi -->
+<tr><td colspan="2"><h2>Erciyes Linux Dergisi</h2>
+</td></tr>
+		<tr>
+			<td valign="top"><img class="box2" src="templates/resimler/dergiler/erciyespardus.gif"/></td>
+			<td valign="top">
+				<b>Adres: </b><a href="http://www.enixma.org">http://pardus.erciyes.edu.tr</a><br/>
+				<b>Hazırlayanlar: </b>Erciyes Üniversitesi Linux Topluluğu<br/>
+				<b>Tema: </b>Pardus ve özgür yazılım ürünleri<br/> 
+				<br/>
+				Erciyes Üniversitesi Bilişim Kulübü çatısı altında faaliyet gösteren "Linux Topluluğunun" hazırlamış olduğu dergi düzenli periyotlarla yayınlanmaktadır. Pardus'u tanıtan ve kullanım alanını yaygınlaştırmak amacıyla hazırlanan dergide, Pardus incelemeleri, çeşitli konularda hazırlanmış rehberler ve özgür yazılımlarla ilgili içerik bulunmaktadır. 
+			</td>
+		</tr>
+<!-- /Erciyes Linux Dergisi -->
 <!-- Öİ edergi -->
 <tr><td colspan="2"><h2>Özgürlükİçin E-Dergi</h2>
 </td></tr>

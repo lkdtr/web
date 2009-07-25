@@ -37,7 +37,7 @@
 		<tr>
 			<td valign="top"><img class="box2" src="templates/resimler/dergiler/erciyespardus.gif"/></td>
 			<td valign="top">
-				<b>Adres: </b><a href="http://www.enixma.org">http://pardus.erciyes.edu.tr</a><br/>
+				<b>Adres: </b><a href="http://pardus.erciyes.edu.tr">http://pardus.erciyes.edu.tr</a><br/>
 				<b>Hazırlayanlar: </b>Erciyes Üniversitesi Linux Topluluğu<br/>
 				<b>Tema: </b>Pardus ve özgür yazılım ürünleri<br/> 
 				<br/>

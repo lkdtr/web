@@ -204,7 +204,7 @@ seviyesini yükseltmek için çalışan bilime ve gelecek nesillere bir mirastı
 <br>
 <br>
 <br>
-<br>Linkler:
+<br>Bağlantılar:
 <br>
 <br>
 <a href="http://www.lkd.org.tr/">
@@ -246,11 +246,7 @@ seviyesini yükseltmek için çalışan bilime ve gelecek nesillere bir mirastı
 </font>
 </a>
 </dt>
-<dd>Bahsi geçen röpotaj, 2000 yılı Aralık ayında Umut Gökbayrak tarafından gerçekleştirilmiştir. Ropörtajın tamamı,
-<a href="http://www.umutgokbayrak.com/showdoc.php?docid=12">
-<tt>http://www.umutgokbayrak.com/showdoc.php?docid=12
-</tt>
-</a> &nbsp;adresinde yer almaktadır.
+<dd>Bahsi geçen röportaj, 2000 yılı Aralık ayında Umut Gökbayrak tarafından gerçekleştirilmiştir.
 </dd>
 <dt>
 <a name="note2" href="linuxnedir.html#text2">
@@ -271,8 +267,8 @@ seviyesini yükseltmek için çalışan bilime ve gelecek nesillere bir mirastı
 </a>
 </dt>
 <dd>
-<a href="http://cekirdek.uludag.org.tr/%7Emeren/belgeler/dagitim_belgesi/dagitim_belgesi_single_html/">
-<tt>http://cekirdek.uludag.org.tr/~meren/belgeler/dagitim_belgesi/dagitim_belgesi_single_html/
+<a href="http://www.linux.org.tr/dagitimlar.html">
+<tt>http://www.linux.org.tr/dagitimlar.html
 </tt>
 </a>
 </dd>

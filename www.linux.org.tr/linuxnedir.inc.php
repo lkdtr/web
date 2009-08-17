@@ -186,8 +186,8 @@ Motors, Hyundai, Oracle, EToys gibi çok büyük kuruluşlar Linux kullanmakta v
 <li> En yakın üniversitenin bilgi işlem dairesine 3 adet boş CD ile gidip size tavsiye ettikleri bir Linux dağıtımını çekmelerini rica edin.
 </li>
 <li>
-<a href="http://liste.linux.org.tr/mailman/listinfo">
-<tt>http://liste.linux.org.tr/mailman/listinfo
+<a href="http://liste.linux.org.tr">
+<tt>http://liste.linux.org.tr
 </tt>
 </a> adresindeki e-posta listelerinden linux listesine üye olun ve 'ben linux kullanmak istiyorum, bana yardim edin' diyin.
 </li>

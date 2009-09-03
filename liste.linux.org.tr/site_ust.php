@@ -26,7 +26,7 @@ ini_set("default_charset", 'utf-8');
       <li><a href="nedir.php">E-Posta Listesi Nedir?</a></li>
       <li><a href="nasil.php">Nasıl Kaydolabilirim?</a></li>
       <li><a href="smart-questions.php">Soru Sorarken Dikkat Edilmesi Gerekenler</a></li>
-      <li><a href="sss.php">Sık Sorulan Sorular</a></li>
+<!--      <li><a href="sss.php">Sık Sorulan Sorular</a></li> -->
       <li><a href="mailto:listeyon@linux.org.tr">İletişim</a></li>
     </ul></div>
   </div>

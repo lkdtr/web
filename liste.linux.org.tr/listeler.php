@@ -213,7 +213,7 @@
 <br />
       <br />
       <a class="gir" href="mailto:elektronik-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
-      <a class="cik" href="mailto:elektroniklinux-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="cik" href="mailto:elektronik-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.elektronik">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>

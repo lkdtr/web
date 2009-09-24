@@ -181,7 +181,7 @@ vermektedir.<br/>
 <b>İlgili Kişi :</b> Erdoğan Bilgici <br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Linux Teknolojileri, Destek, Sunucu ve Hosting Hizmetleri.<br/>
 <b>Web Sitesi :</b> <a href="http://www.probit.com.tr/" target="_blank">http://www.probit.com.tr</a><br/></td>
-<td align="right" width="100" valign="middle"> <img style="width: 100px; height: 125px;" alt="" src="linuxfirmalar_files/probit.jpg"/></td></tr>
+<td align="right" width="100" valign="middle"> <img style="width: 222px; height: 100px;" alt="" src="linuxfirmalar_files/probit.jpg"/></td></tr>
 
 <tr bgcolor="#f4f4f4"><td><h3>Profelis Bilişim ve Fikri Sınai Haklar Servis Hizmetleri Dan. Ltd. Şti.</h3>
 <!--b>İlgili Kişi :</b><br-->

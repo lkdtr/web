@@ -207,7 +207,7 @@
     </div>
     <hr>
 
-    <div class="baslik">Linux-Elektronik <span>(linux-elektronik@liste.linux.org.tr)</span></div>
+    <div class="baslik">Elektronik <span>(linux-elektronik@liste.linux.org.tr)</span></div>
     <div class="detay">
 Özgür yazılım temelli elektronik, otomasyon, robotik, gömülü sistemler konuları konuşulur.
 <br />

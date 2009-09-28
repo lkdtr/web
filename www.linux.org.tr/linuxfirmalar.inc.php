@@ -200,6 +200,12 @@ gibi projeler bulunmaktadır.<br/>
 <b>Web Sitesi :</b> <a href="http://www.uygunteknoloji.com.tr/" target="_blank"> http://www.uygunteknoloji.com.tr<br/></a></td>
 <td align="right" width="100" valign="middle"><img style="width: 170px; height: 170px;" alt="" src="linuxfirmalar_files/ut.png"/><br/></td></tr>
 
+<tr bgcolor="#f4f4f4"><td><h3>Yörünge İletişim Hizmetleri</h3>
+<b>İlgili Kişi :</b> Fikri Dal<br/>
+<b>Özgür Yazılımla İlgili Hizmetleri :</b> 2001 yılından bu yana Linux İşletim Sistemleri, Network ve Dijital Güvenlik alanlarında kurumsal hizmetler sağlamaktadır.<br/>
+<b>Web Sitesi :</b> <a href="http://www.yorunge.com.tr/" target="_blank"> http://www.yorunge.com.tr<br/></a></td>
+<td align="right" width="100" valign="middle"><img style="width: 247px; height: 100px;" alt="" src="linuxfirmalar_files/yorunge.jpg"/><br/></td></tr>
+
 </tbody></table>
 <span class="box"><i>Not: Listeye sadece kurumlar alınmaktadır.
 Bireysel müracaatlar dikkate alınmamaktadır. Listeye eklenmesini

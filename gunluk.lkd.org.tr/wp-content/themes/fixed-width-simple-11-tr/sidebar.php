@@ -51,7 +51,6 @@
 		<?php wp_register(); ?>
 		<li><?php wp_loginout(); ?></li>
 		<li><a href="feed:<?php bloginfo('rss2_url'); ?>" title="<?php _e('Bu siteyi RSS ile izleyin.'); ?>"><?php _e('<abbr title="Really Simple Syndication">RSS</abbr>'); ?></a></li>
-		<li><a href="feed:<?php bloginfo('comments_rss2_url'); ?>" title="<?php _e('Tüm yazıların yorumlarını RSS ile izleyin.'); ?>"><?php _e('Comments <abbr title="Really Simple Syndication">RSS</abbr>'); ?></a></li>
 		<li><a href="http://validator.w3.org/check/referer" title="<?php _e('Bu sayfa XHTML 1.0 Transitional ile uyumludur.'); ?>"><?php _e('<abbr title="eXtensible HyperText Markup Language">XHTML</abbr> ile uyumlu'); ?></a></li>
 		<li><a href="http://gmpg.org/xfn/"><abbr title="XHTML Dostluk Ağı">XFN</abbr></a></li>
 		<li><a href="http://wordpress.org/" title="<?php _e('Gücünü WordPress kişisel yayın yazılımından almaktadır.'); ?>"><abbr title="WordPress">WP</abbr></a></li>

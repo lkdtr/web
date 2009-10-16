@@ -30,8 +30,6 @@ get_header();
 
 </div>
 
-<?php comments_template(); // Get wp-comments.php template ?>
-
 <?php endwhile; else: ?>
 <div class="storytitle"> Üzgünüm </div>
 <p><?php _e('Verdiğiniz kriterlere uygun yazı bulunamadı, lütfen tekrar deneyin.'); ?></p>

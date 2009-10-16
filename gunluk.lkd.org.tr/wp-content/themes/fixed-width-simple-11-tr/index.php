@@ -14,7 +14,7 @@ get_header();
 	</div>
 	
 	<div class="feedback">
-<?php comments_popup_link('Yorum yok', '1 Yorum', '% Yorum'); ?>   <?php edit_post_link('Düzenle','|',''); ?>
+                <?php edit_post_link('Düzenle','',''); ?>
 	</div>
 	
 	<!--

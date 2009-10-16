@@ -14,7 +14,7 @@ get_sidebar();
 			<br />
 			<a href="http://km.lqz.ca/fws/"title="km.lqz.com" rel="follow">Fixed Width Simple </a> temasını hazırlayan <a href="http://km.lqz.ca/" title="km.lqz.ca" rel="follow">lqz</a>
 			<br />
-			İzlemek için : <a href="<?php bloginfo('rss2_url'); ?>" title="<?php bloginfo('name'); ?> RSS 2.0 (XML)" rel="alternate" type="application/rss+xml">Yazılar RSS</a> &amp; <a href="<?php bloginfo('comments_rss2_url'); ?>" title="<?php bloginfo('name'); ?> Yorumlar RSS 2.0 (XML)" rel="alternate" type="application/rss+xml">Yorumlar RSS</a>
+			İzlemek için : <a href="<?php bloginfo('rss2_url'); ?>" title="<?php bloginfo('name'); ?> RSS 2.0 (XML)" rel="alternate" type="application/rss+xml">Yazılar RSS</a> &amp; <a href="<?php bloginfo('comments_rss2_url'); ?>" title="<?php bloginfo('name'); ?>
 		</div>
 
 </div> <!-- End Rap -->

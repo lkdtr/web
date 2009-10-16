@@ -1,0 +1,338 @@
+/*
+Theme Name: Fixed Width Simple
+Theme URI: http://lqz.ca/test/
+Description: A simple fixed width theme. 
+Version: 1.1.1
+Author: lqz
+Author URI: http://km.lqz.ca/
+
+Credit goes to <a href="http://www.plaintxt.org/themes/veryplaintxt/">veryplaintxt</a> for the look. The code base I started with came from the Anthosia theme designed by <a href="http://kaushalsheth.com">Kaushal Sheth</a> developed by <a href="http://www.frontierwebdesign.com">Chad Coleman</a>. 
+
+License -
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+
+/* ---------------- Body - Rap ------------  */
+
+
+
+body {
+    background: #ffffff;
+    color: #000000;
+    font-size: 11px;
+    text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: auto;
+	padding: 0px
+    }
+
+a:link {
+	color: #888888;
+	text-decoration: none;
+    }
+    
+a:visited {
+	color: #888888;
+	text-decoration: none;
+    }
+    
+a:hover {
+	color: #8a2be2;
+	text-decoration: none;
+    }
+
+#rap {
+	background: #ffffff;
+	text-align: center;
+	width: 700px;
+	margin: auto;
+	padding: 0px;
+    }
+h8 {
+font-weight: bold;
+}    
+    
+/*---------------- Blog Title and Description -----------*/
+
+#header {
+	text-align: center;
+	letter-spacing: 0px;
+	font-size: 38px;
+	font-style: italic;
+	font-family: Georgia, verdana, arial, helvetica;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 10px;
+    }
+
+#header a:link,  #header a:visited {
+	}
+
+#header a:hover {
+    }
+
+
+#description {
+    font-size: 35%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    font-family: Georgia, verdana, arial, helvetica;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+    border-top: 1px solid #000;
+	border-bottom: 1px solid #000;	
+    }
+
+#description a:link {
+    }
+
+#description a:visited {
+    }
+
+#description a:hover {
+    }
+    
+/* ----------------CONTENT------------  */
+
+
+#content {
+    font-size: 12px;
+    text-align: justify;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 500px;
+	height: auto;	
+	margin: 0px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-bottom: 10px;	
+	float: left;
+	
+    }    
+
+/* ---------------POST-------------------*/
+
+
+.storytitle {
+    text-align: left;
+	font-style: italic;
+	font-size: 23px;
+	margin-bottom: 5px;
+	padding-top: 23px;
+	border-bottom: 1px solid #000;
+	font-family: Georgia, verdana, arial, helvetica;
+    }
+    
+.storytitle a:link, .storytitle a:visited {
+	text-decoration: none;
+    }
+    
+.storytitle a:hover {
+    }
+    
+.meta {
+	font-size: 10px;
+	padding-right: 8px;
+	margin-bottom: 10px;
+	float: right;
+	
+    }
+    
+.feedback {
+	padding: 0px;
+	padding-top: 10px;
+	margin-bottom: 12px;
+	
+    }
+    
+.storycontent {
+	line-height: 130%;
+	padding-top: 10px;
+    }
+    
+blockquote {	
+font-style: italic;
+	color: #101d27;
+    }
+
+blockquote { 
+    border-top: 2px solid #c8c8c8; 
+    border-left: 2px solid #c8c8c8; 
+    margin: 0px; 
+    margin-left: 10px;
+   
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #f0f0f0;
+    }
+    
+h4 {
+	font-family: "Trebuchet MS", verdana, arial, helvetica;
+	font-size: 18px;
+	font-weight: normal;
+	
+    }
+  
+#comments  a{
+}
+    
+#comments a:hover {
+    }
+    
+cite {
+	font-size: 10px;
+	font-style: normal;
+	padding-bottom: 4px;
+    }
+
+.navigation {
+	margin-top: 23px;
+	margin-bottom: 10px;
+	}
+
+    
+
+/* ---------------- Sidebar ------------  */
+
+    
+#side {
+	text-align: left;
+    width: 130px;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 25px;
+	float: right;
+	position: relative;
+	
+    }
+
+#side h2 {
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-style: italic;
+	font-family: Georgia, verdana, arial, helvetica;
+	
+	margin: 0px;
+	padding: 0px;
+	}
+
+#side ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;
+	font-style: italic;
+	text-decoration: none;
+	}
+
+#side ul li {
+	font-size: 15px;
+	font-style: normal;
+	letter-spacing: 2px;
+	font-style: italic;
+	font-family: Georgia, verdana, arial, helvetica;
+	margin-top: 10px;
+	padding-bottom: 2px; 
+	}
+
+#side ul ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+
+#side ul ul li {
+	font-size: 12px;
+	font-style: normal;
+	letter-spacing: 0;
+	margin-top: 0;
+	padding: 0;
+	padding-left: 5px;
+	}
+
+
+
+/* ----------------FOOTER------------  */
+
+#footer {
+	text-align: center;
+	font-size: 10px;
+	margin: 0px;
+	margin-bottom: 8px;
+	padding: 0px;
+	padding-top: 8px;
+	padding-bottom: 3px;	
+	clear: both; 
+    border-top: 1px solid #000;
+	}
+
+
+
+/* ---------------FORM-------------------*/
+
+input {
+	background: #fdfdfd;
+	font-size: 10px;
+	font-variant: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 5px;
+	padding: 3px;
+	border: 1px solid #000000;
+	}
+
+input:hover {
+	background: #e8e8e8;
+	}
+	
+textarea {
+	background: #ffffff;
+	color: #333333;
+	font-size: 13px;
+	font-variant: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 3px;
+	width: 95%;
+	border: 1px solid #000000;
+	}
+
+textarea:hover {
+	background: #f8f8f8;
+	}
+	
+#submit {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	}
+	
+	
+#submit:hover {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	}	
+
+	
+select {
+	border: 1px solid #003300;
+	margin: 5px;
+	padding-left: 3px;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	
+	form {
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	}
+

@@ -201,7 +201,9 @@ gibi projeler bulunmaktadır.<br/>
 <td align="right" width="100" valign="middle"><img style="width: 170px; height: 170px;" alt="" src="linuxfirmalar_files/ut.png"/><br/></td></tr>
 
 <tr bgcolor="#f4f4f4"><td><h3>YeniHayat Bilişim Teknolojileri A.Ş.</h3>
-<b>İlgili Kişi :</b> <i>Genel Koordinatör:</i> H. Murat Şermet<br/>
+<b>İlgili Kişiler :</b><br/>
+ <i>Genel Koordinatör:</i> H. Murat Şermet<br/>
+ <i>Genel Müdür:</i> Murat Demirten<br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Gömülü Linux sistemleri alanında çok sayıda mimari (arm, mips, mipsel, sh4, blackfin, xscale, x86) üzerinde sistem ve uygulama geliştirme, danışmanlık ve kurumsal eğitimler hizmetleri vermektedir. Aynı zamanda sunucular için Debian Gnu/Linux desteği, entegrasyon çözümleri, ölçeklenebilir uygulama sunucu ve veri depolama hizmeti vermekte ve RubyOnRails projeleri için ölçeklendirme ve hosting çözümleri sağlamaktadır. Geliştirmekte olduğu YeniHayat Network (YHN) ağında beta yayını başlamış olan bir çok site bulunmaktadır. İş geliştirme ve içerik modelleme ile ilgili kurumsal destek de vermekte olan YHB A.Ş., çok yönlü içerik yönetim sistemleri (YH.sys) üretmekte ve ihtiyaç sahibi kurum ve kişilerle bu çözümleri paylaşmaktadır.<br/>
 <b>Web Sitesi :</b> <a href="http://yh.com.tr/" target="_blank"> http://yh.com.tr<br/></a></td>
 <td align="right" width="100" valign="middle"><img style="width: 122px; height: 100px;" alt="" src="linuxfirmalar_files/yhb_big.jpg"/><br/></td></tr>

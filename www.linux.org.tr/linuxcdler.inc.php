@@ -8,7 +8,7 @@ adresine e-posta atarak bizi haberdar edebilirsiniz.
  <li type="square">Linux34 (<a target="_blank" href="http://www.linux34.com">www.linux34.com</a>)</li>
  <li type="square">Penguenci.com (<a target="_blank" href="http://www.penguenci.com">www.penguenci.com</a>)</li>
 </ul>
-<br/><h2>Hangi Linux CD'sini almalıyım?</h2>Eğer ilk defa linux kuracak/kullanacaksanız önce <strong><a href="linuxdagitimlari.html">Linux Dağıtımları Kılavuzu</a></strong>'nu okuyunuz. Bu belge ilk defa kullanacak olanlar için de, daha önce linux kullanmış ama farklı dağıtımları denemek isteyenler için de önemli bir fikir verecektir.<br/><br/><br/> </div>
+<br/><h2>Hangi Linux CD'sini almalıyım?</h2>Eğer ilk defa linux kuracak/kullanacaksanız önce <strong><a href="dagitimlar.html">Linux Dağıtımları Kılavuzu</a></strong>'nu okuyunuz. Bu belge ilk defa kullanacak olanlar için de, daha önce linux kullanmış ama farklı dağıtımları denemek isteyenler için de önemli bir fikir verecektir.<br/><br/><br/> </div>
 <!--      <table width="100%">
         <tbody><tr><td align="center"><a target="_NEW" title="OpenOffice.org Türkçe" href="http://tr.openoffice.org/"><img border="0" src="<?php echo $path; ?><?php echo $resimler; ?>banners/BannerGenel_OpenOfis.gif"/></a></td></tr>
       </tbody></table>

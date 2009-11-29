@@ -12,8 +12,8 @@
 
 <html>
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
-   <title>Oylama �zeti</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Oylama ÃÂÃÂzeti</title>
 </head>
 <body text="#000080" bgcolor="#E8BF20">
 
@@ -32,13 +32,13 @@
 		/* we know that the result is unique */
 
         if ($result && ($r = mysql_fetch_array($result)))
-			echo "<strong>$address</strong> adresinden daha �nce bir oy verildi�inden bu adres ile bir daha oy at�lamaz.\n";
+			echo "<strong>$address</strong> adresinden daha ÃÂÃÂ¶nce bir oy verildiÃÂÃÂinden bu adres ile bir daha oy atÃÂÃÂ±lamaz.\n";
 		else { 
 			$qc = count($ans);
 			insert_nonce($address,$ans,$poll_id,$qc);
 	 	}
 	}
-	else echo "Ge�ersiz e-mail adresi\n";
+	else echo "GeÃÂÃÂ§ersiz e-mail adresi\n";
 ?>
 
 <hr>

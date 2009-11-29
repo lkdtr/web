@@ -1,11 +1,9 @@
 <?
 	session_start();
 
-print_r($_SESSION);
+	 $logged = $_SESSION['logged'];
+	 $manager_id = $_SESSION['manager_id'];
 
-exit;
-	session_register("manager_id");
-	session_register("logged");
         require 'include/config.inc';
 	if (!isset($logged) || !isset($manager_id)) { 
 		header("Location: $confirm_url");

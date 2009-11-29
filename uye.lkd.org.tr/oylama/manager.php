@@ -6,6 +6,9 @@
         
     require 'include/config.inc';
 
+$username = $_POST['username'];
+$password = $_POST['password'];
+
 	// ENTRANCE CHECK
 	if ( isset($username) && isset($password) ) { 
 

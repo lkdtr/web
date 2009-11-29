@@ -23,7 +23,8 @@ $password = $_POST['password'];
 		}
 		else {
 			mysql_connect($dbhost,$dbuser,$dbpass) or die ("Problem connecting to DataBase");	
-			$query = "select manager_id,information from managers where managers.information=\"$username\" and managers.password=password(\"$password\")";
+		echo	$query = "select manager_id,information from managers where 
+managers.information=\"$username\" and managers.password=password(\"$password\")";
 			$result = mysql_db_query($dbname, $query);
 		
 			$r = mysql_fetch_array($result);

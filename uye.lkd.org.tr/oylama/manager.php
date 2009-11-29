@@ -1,11 +1,12 @@
 <?
 	session_start();
-	session_register("manager_id");
-	session_register("logged");
-	session_register("manager_login");
+	//session_register("manager_id");
+	//session_register("logged");
+	//session_register("manager_login");
         
 	require 'include/config.inc';
 
+	$logged = $_SESSION['logged'];
 	$username = $_POST['username'];
 	$password = $_POST['password'];
 
@@ -32,9 +33,9 @@
 			//	echo ("<br><p align=\"center\">Wrong password or username<br>");
 			}
 			else { // AUTHENTICATED
-				$logged=1;
-				$manager_id=$r["manager_id"];
-				$manager_login=$r["information"];
+				$_SESSION['logged'] = $logged=1;
+				$_SESSION['manager_id'] = $manager_id= $r["manager_id"];
+				$_SESSION['manager_login'] = $manager_login=$r["information"];
 				$agora_errno = 0; // auth succeeded
 			}
 		}

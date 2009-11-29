@@ -4,10 +4,10 @@
 	session_register("logged");
 	session_register("manager_login");
         
-    require 'include/config.inc';
+	require 'include/config.inc';
 
-$username = $_POST['username'];
-$password = $_POST['password'];
+	$username = $_POST['username'];
+	$password = $_POST['password'];
 
 	// ENTRANCE CHECK
 	if ( isset($username) && isset($password) ) { 
@@ -23,8 +23,7 @@ $password = $_POST['password'];
 		}
 		else {
 			mysql_connect($dbhost,$dbuser,$dbpass) or die ("Problem connecting to DataBase");	
-		echo	$query = "select manager_id,information from managers where 
-managers.information=\"$username\" and managers.password=password(\"$password\")";
+			$query = "select manager_id,information from managers where managers.information=\"$username\" and managers.password=password(\"$password\")";
 			$result = mysql_db_query($dbname, $query);
 		
 			$r = mysql_fetch_array($result);

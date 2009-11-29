@@ -22,7 +22,7 @@
 			</head> 
 			<body bgcolor="#E8BF20" text="#000080">
 			<br><br><br>
-			<center><strong>HatalÃÂÃÂ± istek</strong></center>';
+			<center><strong>Hatalı istek</strong></center>';
 			
 		//echo "Poll does not exist";		
 	}
@@ -35,7 +35,7 @@
 			</head> 
 			<body bgcolor="#E8BF20" text="#000080">
 			<br><br><br>
-			<center><strong>HatalÃÂÃÂ± istek</strong></center>';			 
+			<center><strong>Hatalı istek</strong></center>';			 
 			
 		//echo "This poll is private";
 	}
@@ -97,7 +97,7 @@
 		echo "<center>
 	  		  <table border=\"1\">
   			  <tr>
-  			  <th>Oylama BaÃÂÃÂlÃÂÃÂ±ÃÂÃÂÃÂÃÂ±</th>
+  			  <th>Oylama Başlığı</th>
   			  <th>Oylama ID</th>
   			  <th>Baslangic Tarihi</th>
   			  <th>Bitis Tarihi</th>
@@ -109,7 +109,7 @@
 			  <td>$stop_date</td>
 			  </tr>
 			  <tr>
-			  <td align=center colspan=4>ÃÂÃÂu ana kadar bu oylamaya <strong>$numvoter</strong> kiÃÂÃÂi katÃÂÃÂ±lmÃÂÃÂ±ÃÂÃÂtÃÂÃÂ±r.</td>
+			  <td align=center colspan=4>Şu ana kadar bu oylamaya <strong>$numvoter</strong> kişi katılmıştır.</td>
 			  </tr>
 			  </table></center>";  		
 
@@ -173,11 +173,11 @@
 	
 	<center>
 		<table border="5" width=75%>
-		<tr><td>OylamamÃÂÃÂ±za katÃÂÃÂ±ldÃÂÃÂ±ÃÂÃÂÃÂÃÂ±nÃÂÃÂ±z iÃÂÃÂ§in teÃÂÃÂekkÃÂÃÂ¼r ederiz. Oyunuzun sayÃÂÃÂ±lmasÃÂÃÂ± iÃÂÃÂ§in e-mail adresinize bir mesaj gÃÂÃÂ¶nderilecektir. LÃÂÃÂ¼tfen e-mail adresinizi giriniz.</td></tr>
+		<tr><td>Oylamamıza katıldığınız için teşekkür ederiz. Oyunuzun sayılması için e-mail adresinize bir mesaj gönderilecektir. Lütfen e-mail adresinizi giriniz.</td></tr>
 		<tr><td align=center>E-mail: <input type="text" size="40" name="email"></td></tr>
     	</table>
     		
-    	<input type="submit" name="B1" value="GÃÂÃÂNDER">
+    	<input type="submit" name="B1" value="GÖNDER">
     </center>
 		</form>
 		
@@ -186,7 +186,7 @@
 	} // SWITCH
 
 	//BACK TO PRIVATE POLLS	
-	echo '<hr><a href="public_index.php">AÃÂÃÂ§ÃÂÃÂ±k Oylamalar SayfasÃÂÃÂ±</a>';
+	echo '<hr><a href="public_index.php">Açık Oylamalar Sayfası</a>';
 } // MAIN ELSE
 ?>
 
@@ -200,13 +200,13 @@ function checkForm(form,numQuestions) {
 			}
 		}
 		if (!isAnswered) {
-			alert("LÃÂÃÂ¼tfen tÃÂÃÂ¼m sorularÃÂÃÂ± cevaplayÃÂÃÂ±nÃÂÃÂ±z (CevapsÃÂÃÂ±z soru: "+j+" )");
+			alert("Lütfen tüm soruları cevaplayınız (Cevapsız soru: "+j+" )");
 			return false;			
 		}
 		isAnswered = false;
 	}
 	if (form.email.value == "") {
-			alert("LÃÂÃÂ¼tfen e-mail adresi giriniz");
+			alert("Lütfen e-mail adresi giriniz");
 			return false;					
 	}
 	return true;

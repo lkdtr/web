@@ -65,7 +65,7 @@
 <?
 	// INVALID USERNAME OR PASSWORD
 	if ($agora_errno == 1)
-		echo ("<br><p align=\"center\">GeÃÂÃÂ§ersiz kullanÃÂÃÂ±cÃÂÃÂ± ismi ya da ÃÂÃÂifre<br>");
+		echo ("<br><p align=\"center\">Geçersiz kullanıcı ismi ya da şifre<br>");
 	else { 
 	// AUTHENTICATED
 						
@@ -76,22 +76,22 @@
 ?>
 			<table border="1" width="100%">
 			<tr>
-				<td colspan=3 bgcolor="#FFF000" align=center>KullanÃÂÃÂ±cÃÂÃÂ±: <? echo $manager_login; ?></td>
+				<td colspan=3 bgcolor="#FFF000" align=center>Kullanıcı: <? echo $manager_login; ?></td>
 			</tr>
 			<tr>		
 				<td width=35% align=center><a href="create.php">Yeni Oylama</a></td>
-				<td width=30% align=center><a href="logout.php">ÃÂÃÂÃÂÃÂ±kÃÂÃÂ±ÃÂÃÂ</a></td>
-				<td width=35% align=center><a href="passwd.php">ÃÂÃÂifre DeÃÂÃÂiÃÂÃÂtir</a></td>
+				<td width=30% align=center><a href="logout.php">Çıkış</a></td>
+				<td width=35% align=center><a href="passwd.php">Şifre Değiştir</a></td>
 			</tr>
 			</table>
 <?
 
-			echo "<p align=\"center\"><font size=\"4\">YÃÂÃÂ¶nettiÃÂÃÂiniz Oylamalar</font></p>";
+			echo "<p align=\"center\"><font size=\"4\">Yönettiğiniz Oylamalar</font></p>";
 			if (mysql_num_rows($result) != 0) {
 		
 				echo "<center>
 				<table border=\"1\">
-  				<th>Oylama BaÃÂÃÂlÃÂÃÂ±ÃÂÃÂÃÂÃÂ±</th>
+  				<th>Oylama Başlığı</th>
   				<th>Oylama ID</th>
   				<th>Oylama Tipi</th>
 	  			<th>Baslangic Tarihi</th>
@@ -104,11 +104,11 @@
 					$stop_date  = $r["stop_date"];
 					
 					switch ($r["type"]) {
-						case 0: $poll_type = "AÃÂÃÂ§ÃÂÃÂ±k";break;
-						case 1: $poll_type = "ÃÂÃÂzel: lokal kimlik kanÃÂÃÂ±tlama";break;
-						case 2: $poll_type = "ÃÂÃÂzel: uzaktan sÃÂÃÂ±nÃÂÃÂ±rlÃÂÃÂ± kimlik kanÃÂÃÂ±tlama";break;
-						case 3: $poll_type = "ÃÂÃÂzel: uzaktan sÃÂÃÂ±nÃÂÃÂ±rsÃÂÃÂ±z kimlik kanÃÂÃÂ±tlama";break;
-						case 4: $poll_type = "ÃÂÃÂzel: e-mail adresi ile kimlik kanÃÂÃÂ±tlama";break;
+						case 0: $poll_type = "Açık";break;
+						case 1: $poll_type = "Özel: lokal kimlik kanıtlama";break;
+						case 2: $poll_type = "Özel: uzaktan sınırlı kimlik kanıtlama";break;
+						case 3: $poll_type = "Özel: uzaktan sınırsız kimlik kanıtlama";break;
+						case 4: $poll_type = "Özel: e-mail adresi ile kimlik kanıtlama";break;
 					}
 										
 					echo "<tr><td><a href=edit.php?id=$poll_id> $poll_title</a></td>
@@ -123,7 +123,7 @@
 				mysql_free_result($result);
 			}
 			else { 
-				echo "<center>ÃÂÃÂu anda yÃÂÃÂ¶nettiÃÂÃÂiniz oylama bulunmamaktadÃÂÃÂ±r</center>";
+				echo "<center>Şu anda yönettiğiniz oylama bulunmamaktadır</center>";
  			}		
 		} 
 	}//ELSE

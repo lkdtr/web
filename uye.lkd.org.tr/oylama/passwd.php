@@ -46,10 +46,10 @@
 		}
 		else {
 			if($newpass1 != $newpass2) {
-				echo ("<br><p align=\"center\">Yeni ÃÂÃÂifreniz tekrarÃÂÃÂ±yla aynÃÂÃÂ± deÃÂÃÂil<br>");
+				echo ("<br><p align=\"center\">Yeni şifreniz tekrarıyla aynı değil<br>");
 			}
 			elseif($newpass1 == "")
-				echo ("<br><p align=\"center\">BoÃÂÃÂ ÃÂÃÂifre giremezsiniz<br>");
+				echo ("<br><p align=\"center\">Boş şifre giremezsiniz<br>");
 			else {
 				mysql_connect($dbhost,$dbuser,$dbpass) or die ("Problem connecting to DataBase");	
 				$query = "select manager_id,information from managers where managers.information=\"$manager_login\" and managers.password=password(\"$oldpass\")";
@@ -65,8 +65,8 @@
 					if(!mysql_db_query($dbname,$query))
 						echo mysql_error();
 					$agora_errno = 0; // auth succeeded
-					echo "<center>ÃÂÃÂifreniz baÃÂÃÂarÃÂÃÂ±yla deÃÂÃÂiÃÂÃÂtirildi</center><br>";
-					echo "<br><center><a href=\"manager.php\">YÃÂÃÂ¶netici sayfasÃÂÃÂ±na dÃÂÃÂ¶n</a></center><br>";
+					echo "<center>Şifreniz başarıyla değiştirildi</center><br>";
+					echo "<br><center><a href=\"manager.php\">Yönetici sayfasına dön</a></center><br>";
 					echo "<hr>\n
 					<p><a href=\"index.html\"><font size=\"4\">Ana Sayfa</font></a></p>\n
 					</center>\n
@@ -86,27 +86,27 @@
 <tr><td>
     <table>
         <tr>
-            <td><font size="4">Eski ÃÂÃÂifre</font></td>
+            <td><font size="4">Eski Şifre</font></td>
             <td>:</td>
             <td><input type="password" size="20" name="oldpass"></td>
         </tr>
         <tr>
-            <td><font size="4">Yeni ÃÂÃÂifre</font></td>
+            <td><font size="4">Yeni Şifre</font></td>
             <td>:</td>
             <td><input type="password" size="20" name="newpass1"></td>
         </tr>
         <tr>
-            <td><font size="4">Yeni ÃÂÃÂifre(tekrar)</font></td>
+            <td><font size="4">Yeni Şifre(tekrar)</font></td>
             <td>:</td>
             <td><input type="password" size="20" name="newpass2"></td>
         </tr>
     </table>
-    <center><small><input type="Submit" name="submit" value="DEÃÂÃÂÃÂÃÂ°ÃÂÃÂTÃÂÃÂ°R"></small></center>
+    <center><small><input type="Submit" name="submit" value="DEĞİŞTİR"></small></center>
 </td></tr>
 </table>
 </form>
 </center>
-<br><center><a href="manager.php">YÃÂÃÂ¶netici sayfasÃÂÃÂ±na dÃÂÃÂ¶n</a></center><br>
+<br><center><a href="manager.php">Yönetici sayfasına dön</a></center><br>
 
 <hr>
 <p><a href="index.html"><font size="4">Ana Sayfa</font></a></p>

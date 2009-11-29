@@ -5,12 +5,12 @@
 
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<head><title>AÃÂÃÂ§ÃÂÃÂ±k Oylamalar</title>
+<head><title>Açık Oylamalar</title>
 </head> 
 
 <body bgcolor="#E8BF20" text="#000080">
 <p align="center"><font size="5">AGORA</font></p>
-<p align="center"><font size="5">AÃÂÃÂ§ÃÂÃÂ±k Oylamalar/Anketler</font></p>
+<p align="center"><font size="5">Açık Oylamalar/Anketler</font></p>
 <hr>
 
 
@@ -30,7 +30,7 @@
 		
 			echo "<center>
 			<table border=\"1\">
-  			<th>Oylama BaÃÂÃÂlÃÂÃÂ±ÃÂÃÂÃÂÃÂ±</th>
+  			<th>Oylama Başlığı</th>
   			<th>Oylama ID</th>
   			<th>Baslangic Tarihi</th>
   			<th>Bitis Tarihi</th>";
@@ -53,7 +53,7 @@
 			mysql_free_result($result);
 		} 
 		else { 
-			echo "<center>ÃÂÃÂu anda aktif oylama bulunmamaktadÃÂÃÂ±r</center>";
+			echo "<center>Şu anda aktif oylama bulunmamaktadır</center>";
  		}
  	}
 
@@ -65,12 +65,12 @@
 
 	if ($result) {
 		
-		echo "<p align=\"center\"><font size=\"4\">SonlanmÃÂÃÂ±ÃÂÃÂ Oylamalar</font></p>";
+		echo "<p align=\"center\"><font size=\"4\">Sonlanmış Oylamalar</font></p>";
 		if (mysql_num_rows($result) != 0) {
 		
 			echo "<center>
 			<table border=\"1\">
-  			<th>Oylama BaÃÂÃÂlÃÂÃÂ±ÃÂÃÂÃÂÃÂ±</th>
+  			<th>Oylama Başlığı</th>
   			<th>Oylama ID</th>
   			<th>Baslangic Tarihi</th>
   			<th>Bitis Tarihi</th>";
@@ -94,7 +94,7 @@
 		
 		}
 		else { 
-			echo "<center>ÃÂÃÂu anda sonlanmÃÂÃÂ±ÃÂÃÂ oylama bulunmamaktadÃÂÃÂ±r</center>";
+			echo "<center>Şu anda sonlanmış oylama bulunmamaktadır</center>";
  		}		
 	} 
 	
@@ -106,12 +106,12 @@
 
 	if ($result) {
 	
-		echo "<p align=\"center\"><font size=\"4\">BaÃÂÃÂlamamÃÂÃÂ±ÃÂÃÂ Oylamalar</font></p>";
+		echo "<p align=\"center\"><font size=\"4\">Başlamamış Oylamalar</font></p>";
 		if (mysql_num_rows($result) != 0) {
 		
 			echo "<center>
 			<table border=\"1\">
-  			<th>Oylama BaÃÂÃÂlÃÂÃÂ±ÃÂÃÂÃÂÃÂ±</th>
+  			<th>Oylama Başlığı</th>
   			<th>Oylama ID</th>
   			<th>Baslangic Tarihi</th>
   			<th>Bitis Tarihi</th>";
@@ -135,7 +135,7 @@
 		
 		}
 		else { 
-			echo "<center>ÃÂÃÂu anda baÃÂÃÂlamamÃÂÃÂ±ÃÂÃÂ oylama bulunmamaktadÃÂÃÂ±r</center>";
+			echo "<center>Şu anda başlamamış oylama bulunmamaktadır</center>";
  		}		
 	} 
 	

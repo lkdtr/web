@@ -10,7 +10,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>AGORA Oy DoÃÂÃÂrulamasÃÂÃÂ±</title>
+<title>AGORA Oy Doğrulaması</title>
 </head>
 <body bgcolor="#E8BF20" text="#000080">
 <p align="center"><font size="5">AGORA</font><br>
@@ -49,7 +49,7 @@
 			$delete_query = "delete from confirmations where (e_mail = '$address' and nonce = '$nonce')";
 			mysql_db_query($dbname,$delete_query);
     	    
-    	    		echo "<br><br>&nbsp;&nbsp;&nbsp;Oyunuz silinmiÃÂÃÂtir. Tekrar oy kullanmak iÃÂÃÂ§in <a href=\"public_polls.php?poll_id=$poll_id\">buraya</a> tÃÂÃÂ±klayÃÂÃÂ±nÃÂÃÂ±z.\n";
+    	    		echo "<br><br>&nbsp;&nbsp;&nbsp;Oyunuz silinmiştir. Tekrar oy kullanmak için <a href=\"public_polls.php?poll_id=$poll_id\">buraya</a> tıklayınız.\n";
 		}
 		else {
 
@@ -75,12 +75,12 @@
 			$delete_query ="delete from confirmations where (e_mail= '$address' and poll_id=$poll_id)";
 			mysql_db_query($dbname,$delete_query);
 	
-			echo "<br><br>&nbsp;&nbsp;&nbsp;Oyunuz sayÃÂÃÂ±lmÃÂÃÂ±ÃÂÃÂtÃÂÃÂ±r. OylamamÃÂÃÂ±za katÃÂÃÂ±ldÃÂÃÂ±ÃÂÃÂÃÂÃÂ±nÃÂÃÂ±z iÃÂÃÂ§in teÃÂÃÂekkÃÂÃÂ¼r ederiz.\n";
+			echo "<br><br>&nbsp;&nbsp;&nbsp;Oyunuz sayılmıştır. Oylamamıza katıldığınız için teşekkür ederiz.\n";
 
 		} 
 	}
 	else 
-		print "<br><br>&nbsp;&nbsp;&nbsp;GeÃÂÃÂ§ersiz onaylama<br>\n";
+		print "<br><br>&nbsp;&nbsp;&nbsp;Geçersiz onaylama<br>\n";
 ?>
 
 <hr>

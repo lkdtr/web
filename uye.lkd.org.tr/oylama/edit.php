@@ -47,12 +47,12 @@
 		$check_start=explode("-",$start_date);
 		$check_stop=explode("-",$stop_date);
 		if (!checkdate($check_start[1],$check_start[2],$check_start[0])||!checkdate($check_stop[1],$check_stop[2],$check_stop[0])){
-			echo ("Girilen tarihler geÃÂÃÂ§ersiz. LÃÂÃÂ¼tfen kontrol edip tekrar giriniz.");
+			echo ("Girilen tarihler geçersiz. Lütfen kontrol edip tekrar giriniz.");
 			exit();
 		}
 		
 		if ($start_date >= $stop_date) {
-			echo ("BitiÃÂÃÂ tarihi baÃÂÃÂlangÃÂÃÂ±ÃÂÃÂ§ tarihinden en az bir gÃÂÃÂ¼n sonra olmalÃÂÃÂ±dÃÂÃÂ±r.");
+			echo ("Bitiş tarihi başlangıç tarihinden en az bir gün sonra olmalıdır.");
 			exit();
 		}
 				
@@ -89,14 +89,14 @@
 					
 					$password = md5($token);
 					if (!mysql_db_query($dbname, "insert into voters (poll_id,user_id,password) values ($poll_id,\"$username\",\"$password\")"))
-						echo "<p>KullanÃÂÃÂ±cÃÂÃÂ± $username zaten listede</p>";
+						echo "<p>Kullanıcı $username zaten listede</p>";
 					else
-						echo "<p>KullanÃÂÃÂ±cÃÂÃÂ± : $username ÃÂÃÂifre: $token (eklendi)</p>";
+						echo "<p>Kullanıcı : $username Şifre: $token (eklendi)</p>";
 
 					
 					if ($notification) {
-						$subj= "\"$poll_name\" baÃÂÃÂlÃÂÃÂ±klÃÂÃÂ± oylamaya ÃÂÃÂ§aÃÂÃÂrÃÂÃÂ±";
-						$mess= "SayÃÂÃÂ±n oyveren,\n \"$poll_name\" baÃÂÃÂlÃÂÃÂ±klÃÂÃÂ± ÃÂÃÂ¶zel oylamada oy kullanmanÃÂÃÂ±z iÃÂÃÂ§in adÃÂÃÂ±nÃÂÃÂ±za bir hesap aÃÂÃÂ§ÃÂÃÂ±lmÃÂÃÂ±ÃÂÃÂtÃÂÃÂ±r\n Hesap bilgileri aÃÂÃÂaÃÂÃÂÃÂÃÂ±dadÃÂÃÂ±r.\n Oylama kodu: $poll_id\n Login: $username \n ÃÂÃÂifre: $token\n\nOylama sayfasi: ".$main_url."private_polls.php?poll_id=$poll_id\n\nAGORA Oylama ve Anket Servisi";
+						$subj= "\"$poll_name\" başlıklı oylamaya çağrı";
+						$mess= "Sayın oyveren,\n \"$poll_name\" başlıklı özel oylamada oy kullanmanız için adınıza bir hesap açılmıştır\n Hesap bilgileri aşağıdadır.\n Oylama kodu: $poll_id\n Login: $username \n Şifre: $token\n\nOylama sayfasi: ".$main_url."private_polls.php?poll_id=$poll_id\n\nAGORA Oylama ve Anket Servisi";
 						$header ="From:".$agora_mail."\nReply-to:".$agora_mail;
 						mail($username,$subj,$mess,$header);
 					}
@@ -110,14 +110,14 @@
 				while (($voter)&&(trim($voter)!="")){ // when you see an empty line, stop.
 					$username=trim($voter);
 					if (!mysql_db_query($dbname, "insert into voters (poll_id,user_id,password) values ($poll_id,\"$username\",\"-\")")) 	
-						echo "<p>KullanÃÂÃÂ±cÃÂÃÂ± $username zaten listede</p>";
+						echo "<p>Kullanıcı $username zaten listede</p>";
 					else
-						echo "<p>KullanÃÂÃÂ±cÃÂÃÂ± : $username (eklendi)</p>";
+						echo "<p>Kullanıcı : $username (eklendi)</p>";
 
 					
 					if ($notification) {
-						$subj= "\"$poll_name\" baÃÂÃÂlÃÂÃÂ±klÃÂÃÂ± oylamaya ÃÂÃÂ§aÃÂÃÂrÃÂÃÂ±";
-						$mess= "SayÃÂÃÂ±n oyveren,\n \"$poll_name\" baÃÂÃÂlÃÂÃÂ±klÃÂÃÂ± ÃÂÃÂ¶zel oylamada $remote_host ÃÂÃÂ¼zerinde bulunan telnet hesap bilgilerinizle oy kullanabilirsiniz.\n\nOylama sayfasi: ".$main_url."private_polls.php?poll_id=$poll_id\n\nAGORA Oylama ve Anket Servisi";
+						$subj= "\"$poll_name\" başlıklı oylamaya çağrı";
+						$mess= "Sayın oyveren,\n \"$poll_name\" başlıklı özel oylamada $remote_host üzerinde bulunan telnet hesap bilgilerinizle oy kullanabilirsiniz.\n\nOylama sayfasi: ".$main_url."private_polls.php?poll_id=$poll_id\n\nAGORA Oylama ve Anket Servisi";
 						$header ="From:".$agora_mail."\nReply-to:".$agora_mail;
 						mail($username."@".$remote_host,$subj,$mess,$header);
 					}
@@ -131,13 +131,13 @@
 				while (($voter)&&(trim($voter)!="")){ // when you see an empty line, stop.
 					$username=trim($voter);
 					if (!mysql_db_query($dbname, "insert into voters (poll_id,user_id,password) values ($poll_id,\"$username\",\"-\")")) 	
-						echo "<p>KullanÃÂÃÂ±cÃÂÃÂ± $username zaten listede</p>";
+						echo "<p>Kullanıcı $username zaten listede</p>";
 					else
-						echo "<p>KullanÃÂÃÂ±cÃÂÃÂ± : $username (eklendi)</p>";
+						echo "<p>Kullanıcı : $username (eklendi)</p>";
 
 					if ($notification) {
-						$subj= "\"$poll_name\" baÃÂÃÂlÃÂÃÂ±klÃÂÃÂ± oylamaya ÃÂÃÂ§aÃÂÃÂrÃÂÃÂ±";
-						$mess= "SayÃÂÃÂ±n oyveren,\n \"$poll_name\" baÃÂÃÂlÃÂÃÂ±klÃÂÃÂ± ÃÂÃÂ¶zel oylamada $username adresini kullanarak oy kullanabilirsiniz.\n\nOylama sayfasi: ".$main_url."private_polls.php?poll_id=$poll_id\n\nAGORA Oylama ve Anket Servisi";
+						$subj= "\"$poll_name\" başlıklı oylamaya çağrı";
+						$mess= "Sayın oyveren,\n \"$poll_name\" başlıklı özel oylamada $username adresini kullanarak oy kullanabilirsiniz.\n\nOylama sayfasi: ".$main_url."private_polls.php?poll_id=$poll_id\n\nAGORA Oylama ve Anket Servisi";
 						$header ="From:".$agora_mail."\nReply-to:".$agora_mail;	
 						mail($username,$subj,$mess,$header);
 					}
@@ -153,7 +153,7 @@
 
 ?>
 
-<center><p>Oylama baÃÂÃÂarÃÂÃÂ±yla gÃÂÃÂ¼ncellendi</p></center>
+<center><p>Oylama başarıyla güncellendi</p></center>
 		
 <center>
 
@@ -161,7 +161,7 @@
 <tr><td>
     <table>
         <tr>
-            <td><font size="4">Oylama ÃÂÃÂ°smi</font></td>
+            <td><font size="4">Oylama İsmi</font></td>
             <td>:</td>
 	    	<td><? echo $poll_name; ?></td>
         </tr>
@@ -180,11 +180,11 @@
         	     	//case 1:echo "Private Local";break;
               		//case 2:echo "Restricted Private Remote";break;
               		//case 3:echo "Unrestricted Private Remote";break;
-              			case 0:echo "AÃÂÃÂ§ÃÂÃÂ±k";break;
-        	     		case 1:echo "ÃÂÃÂzel(Lokal kimlik kanÃÂÃÂ±tlama)";break;
-              			case 2:echo "ÃÂÃÂzel(Uzaktan sÃÂÃÂ±nÃÂÃÂ±rlÃÂÃÂ± kimlik kanÃÂÃÂ±tlama)";break;
-              			case 3:echo "ÃÂÃÂzel(Uzaktan sÃÂÃÂ±nÃÂÃÂ±rsÃÂÃÂ±z kimlik kanÃÂÃÂ±tlama)";break;
-              			case 4:echo "ÃÂÃÂzel(E-mail adresi ile kimlik kanÃÂÃÂ±tlama)";break;
+              			case 0:echo "Açık";break;
+        	     		case 1:echo "Özel(Lokal kimlik kanıtlama)";break;
+              			case 2:echo "Özel(Uzaktan sınırlı kimlik kanıtlama)";break;
+              			case 3:echo "Özel(Uzaktan sınırsız kimlik kanıtlama)";break;
+              			case 4:echo "Özel(E-mail adresi ile kimlik kanıtlama)";break;
               		}
               	?>
             </td>
@@ -201,12 +201,12 @@
 ?>
         
         <tr>
-            <td><font size="4">BaÃÂÃÂlangÃÂÃÂ±ÃÂÃÂ§ Tarihi</font></td>
+            <td><font size="4">Başlangıç Tarihi</font></td>
             <td>:</td>
             <td><? echo $start_date; ?></td>
         </tr>
         <tr>
-            <td><font size="4">BitiÃÂÃÂ Tarihi</font></td>
+            <td><font size="4">Bitiş Tarihi</font></td>
             <td>:</td>
             <td><? echo $stop_date; ?></td>
         </tr>
@@ -216,14 +216,14 @@
 
 	<?        
 	if (($type==1 || $type==2 || $type==4) && $notification == "on")
-       		echo "<tr><td>Listede geÃÂÃÂ§erli adresi olan herkese oylamaya ÃÂÃÂ§aÃÂÃÂrÃÂÃÂ± mesajÃÂÃÂ± atÃÂÃÂ±lmÃÂÃÂ±ÃÂÃÂtÃÂÃÂ±r.</td></tr>";
+       		echo "<tr><td>Listede geçerli adresi olan herkese oylamaya çağrı mesajı atılmıştır.</td></tr>";
        		//echo "<tr><td>A notification mail has been sent to each voter</tr></td>";
     ?>
 
 </table></center>
 <br>
 <br>
-<center><p><strong>Bu sayfayÃÂÃÂ± saklayÃÂÃÂ±nÃÂÃÂ±z</strong></p></center>
+<center><p><strong>Bu sayfayı saklayınız</strong></p></center>
 
 <?		
 
@@ -253,7 +253,7 @@
 		}
 		else {
 			echo "Database error.";
-			echo "<br><hr><a href=\"manager.php\">YÃÂÃÂ¶netici SayfasÃÂÃÂ±</a>";
+			echo "<br><hr><a href=\"manager.php\">Yönetici Sayfası</a>";
 			echo "</body></html>";
 			exit();
 		}
@@ -276,7 +276,7 @@
 <tr><td>
     <table>
         <tr>
-            <td><font size="4">Oylama BaÃÂÃÂlÃÂÃÂ±ÃÂÃÂÃÂÃÂ±</font></td>
+            <td><font size="4">Oylama Başlığı</font></td>
             <td>:</td>			
 	    	<td><font size="4"><? echo $poll_title; ?></font></td>
 		<input type="hidden" size="20" name="poll_name" value="<? echo $poll_title; ?>">			
@@ -298,11 +298,11 @@
         	     	//case 1:echo "Private Local";break;
               		//case 2:echo "Restricted Private Remote";break;
               		//case 3:echo "Unrestricted Private Remote";break;
-              			case 0:echo "AÃÂÃÂ§ÃÂÃÂ±k";break;
-        	     		case 1:echo "ÃÂÃÂzel(Lokal kimlik kanÃÂÃÂ±tlama)";break;
-              			case 2:echo "ÃÂÃÂzel(Uzaktan sÃÂÃÂ±nÃÂÃÂ±rlÃÂÃÂ± kimlik kanÃÂÃÂ±tlama)";break;
-              			case 3:echo "ÃÂÃÂzel(Uzaktan sÃÂÃÂ±nÃÂÃÂ±rsÃÂÃÂ±z kimlik kanÃÂÃÂ±tlama)";break;
-              			case 4:echo "ÃÂÃÂzel(E-mail adresi ile kimlik kanÃÂÃÂ±tlama)";break;              			            			    
+              			case 0:echo "Açık";break;
+        	     		case 1:echo "Özel(Lokal kimlik kanıtlama)";break;
+              			case 2:echo "Özel(Uzaktan sınırlı kimlik kanıtlama)";break;
+              			case 3:echo "Özel(Uzaktan sınırsız kimlik kanıtlama)";break;
+              			case 4:echo "Özel(E-mail adresi ile kimlik kanıtlama)";break;              			            			    
               		}
 		?></font>
 		<input type="hidden" name="type" value=<? echo $type; ?>>			
@@ -324,12 +324,12 @@
 ?>
         
         <tr>
-            <td><font size="4">BaÃÂÃÂlangÃÂÃÂ±ÃÂÃÂ§ Tarihi(yyyy-aa-gg)</font></td>
+            <td><font size="4">Başlangıç Tarihi(yyyy-aa-gg)</font></td>
             <td>:</td>
             <td><input type="text" size="20" name="start_date" value="<? echo $start_date; ?>"></td>
         </tr>
         <tr>
-            <td><font size="4">BitiÃÂÃÂ Tarihi(yyyy-aa-gg)</font></td>
+            <td><font size="4">Bitiş Tarihi(yyyy-aa-gg)</font></td>
             <td>:</td>
             <td><input type="text" size="20" name="stop_date" value="<? echo $stop_date; ?>"></td>
         </tr>
@@ -338,7 +338,7 @@
 	<?        
 	if ($type==1 || $type==2 || $type==4){
 		echo "<tr>
-            	<td valign=\"top\"><font size=\"4\">Ek KatÃÂÃÂ±lÃÂÃÂ±mcÃÂÃÂ± Listesi(isim:ÃÂÃÂifre)</font><br>(ÃÂÃÂifre girilmezse ÃÂÃÂ¼retilecektir)</td>
+            	<td valign=\"top\"><font size=\"4\">Ek Katılımcı Listesi(isim:şifre)</font><br>(şifre girilmezse üretilecektir)</td>
             	<td valign=\"top\">:</td>
             	<td><textarea name=\"voter_list\" rows=\"5\" cols=\"45\">$voter_list</textarea></td>
         	</tr>";
@@ -357,7 +357,7 @@
 		echo "<tr><td><input type=\"checkbox\" name=\"notification\"";
     		if($notification == "on") echo " checked>";
        			else echo ">";
-    		echo "YukarÃÂÃÂ±daki listede bulunan herkese oylama ÃÂÃÂ§aÃÂÃÂrÃÂÃÂ±sÃÂÃÂ± gÃÂÃÂ¶ndermek istiyorum <br>(Bunun iÃÂÃÂ§in yukarÃÂÃÂ±daki listede isimler gerÃÂÃÂ§ek e-mail adresi olmalÃÂÃÂ±dÃÂÃÂ±r)";
+    		echo "Yukarıdaki listede bulunan herkese oylama çağrısı göndermek istiyorum <br>(Bunun için yukarıdaki listede isimler gerçek e-mail adresi olmalıdır)";
     		echo "</td></tr>";
 	}
     ?>
@@ -424,7 +424,7 @@
 <br><br>
 
 <center>
-<p><font size="5">Oylama SorularÃÂÃÂ±</font></p>
+<p><font size="5">Oylama Soruları</font></p>
 
 <table border="5">
 
@@ -446,7 +446,7 @@
 			while ($r = mysql_fetch_array($result2)) {
 				$ans_text = $r["text"];
 				$ans_id = $r["answer_id"];
-				echo "<tr><td>&nbsp;&nbsp;$ans_id. SeÃÂÃÂ§enek</td><td>:</td>";
+				echo "<tr><td>&nbsp;&nbsp;$ans_id. Seçenek</td><td>:</td>";
 				echo "<td>$ans_text</td></tr>";
 			}//WHILE
 			mysql_free_result($result2);
@@ -469,7 +469,7 @@
 
 
 <br><hr>
-<a href="manager.php">YÃÂÃÂ¶netici SayfasÃÂÃÂ±</a>
+<a href="manager.php">Yönetici Sayfası</a>
 
 </body>
 </html>

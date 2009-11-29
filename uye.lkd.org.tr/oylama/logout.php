@@ -15,8 +15,8 @@
 <html>
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
-<title>AGORA Y�netici ��k���</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>AGORA YÃÂÃÂ¶netici ÃÂÃÂÃÂÃÂ±kÃÂÃÂ±ÃÂÃÂÃÂÃÂ±</title>
 </head>
 
 <body bgcolor="#E8BF20" text="#000080">
@@ -25,7 +25,7 @@
 <hr>
 
 <br><br>
-<center>��k���n�z ba�ar�yla ger�ekle�mi�tir.</center>
+<center>ÃÂÃÂÃÂÃÂ±kÃÂÃÂ±ÃÂÃÂÃÂÃÂ±nÃÂÃÂ±z baÃÂÃÂarÃÂÃÂ±yla gerÃÂÃÂ§ekleÃÂÃÂmiÃÂÃÂtir.</center>
 <br><br>
 
 <hr>

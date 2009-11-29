@@ -5,13 +5,13 @@
 
 <html>
 <head> 
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
-<title>�zel Oylamalar</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ÃÂÃÂzel Oylamalar</title> 
 </head> 
 
 <body bgcolor="#E8BF20" text="#000080">
 <p align="center"><font size="5">AGORA</font></p>
-<p align="center"><font size="5">�zel Oylamalar/Anketler</font></p>
+<p align="center"><font size="5">ÃÂÃÂzel Oylamalar/Anketler</font></p>
 <hr>
 
 <?php
@@ -30,7 +30,7 @@
 		
 			echo "<center>
 			<table border=\"1\">
-  			<th>Oylama Ba�l���</th>
+  			<th>Oylama BaÃÂÃÂlÃÂÃÂ±ÃÂÃÂÃÂÃÂ±</th>
   			<th>Oylama ID</th>
   			<th>Baslangic Tarihi</th>
   			<th>Bitis Tarihi</th>";
@@ -53,7 +53,7 @@
  		
  		}
  		else {
-			echo "<center>�u anda devam eden oylama bulunmamaktad�r</center>";
+			echo "<center>ÃÂÃÂu anda devam eden oylama bulunmamaktadÃÂÃÂ±r</center>";
 		} 		
 	}
 	
@@ -65,13 +65,13 @@
 
 	if ($result) {
 		
-		echo '<p align="center"><font size="4">Sona Ermi� Oylamalar</font></p>';
+		echo '<p align="center"><font size="4">Sona ErmiÃÂÃÂ Oylamalar</font></p>';
 		if (mysql_num_rows($result) != 0) {
 
 			
 			echo "<center>
 			<table border=\"1\">
-  			<th>Oylama Ba�l���</th>
+  			<th>Oylama BaÃÂÃÂlÃÂÃÂ±ÃÂÃÂÃÂÃÂ±</th>
   			<th>Oylama ID</th>
   			<th>Baslangic Tarihi</th>
   			<th>Bitis Tarihi</th>";
@@ -92,7 +92,7 @@
  			mysql_free_result($result);
  		}
  		else {
- 			echo "<center>�u anda sona ermi� oylama bulunmamaktad�r</center>";
+ 			echo "<center>ÃÂÃÂu anda sona ermiÃÂÃÂ oylama bulunmamaktadÃÂÃÂ±r</center>";
  		}
 	} 
 
@@ -103,12 +103,12 @@
 
 	if ($result) {
 		
-		echo '<p align="center"><font size="4">Ba�lamam�� Oylamalar</font></p>';
+		echo '<p align="center"><font size="4">BaÃÂÃÂlamamÃÂÃÂ±ÃÂÃÂ Oylamalar</font></p>';
 		if (mysql_num_rows($result) != 0) {
 
 			echo "<center>
 			<table border=\"1\">
-  			<th>Oylama Ba�l���</th>
+  			<th>Oylama BaÃÂÃÂlÃÂÃÂ±ÃÂÃÂÃÂÃÂ±</th>
   			<th>Oylama ID</th>
   			<th>Baslangic Tarihi</th>
   			<th>Bitis Tarihi</th>";
@@ -129,7 +129,7 @@
  			mysql_free_result($result);
  		}
  		else {
- 			echo "<center>�u anda ba�lamam�� oylama bulunmamaktad�r</center>";
+ 			echo "<center>ÃÂÃÂu anda baÃÂÃÂlamamÃÂÃÂ±ÃÂÃÂ oylama bulunmamaktadÃÂÃÂ±r</center>";
  		}
 	}
 

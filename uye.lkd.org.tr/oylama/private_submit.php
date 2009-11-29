@@ -12,8 +12,8 @@
 
 <html>
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
-   <title>Oylama �zeti</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Oylama ÃÂÃÂzeti</title>
 </head>
 <body text="#000080" bgcolor="#E8BF20">
 
@@ -43,18 +43,18 @@
 
 	case -1: // poll not started yet
 		$tmp = explode("-",$start_date);
-		echo "Bu oylama $tmp[2]-$tmp[1]-$tmp[0] tarihinde ba�layacakt�r.";
+		echo "Bu oylama $tmp[2]-$tmp[1]-$tmp[0] tarihinde baÃÂÃÂlayacaktÃÂÃÂ±r.";
 		break;
 
 	case -2: // poll ended or stopped 
 		$tmp = explode("-",$stop_date);
-		echo "Bu oylama $tmp[2]-$tmp[1]-$tmp[0] tarihinde sona ermi�tir.";
+		echo "Bu oylama $tmp[2]-$tmp[1]-$tmp[0] tarihinde sona ermiÃÂÃÂtir.";
 		break;
 
 	case 0:		// public poll 
 	
 		// This is not public poll place. Is there a way to arrive here? Hmmm... anyway.
-		echo 'Ge�ersiz istek';
+		echo 'GeÃÂÃÂ§ersiz istek';
 		break;
 
 	case 1:		// local private poll
@@ -71,7 +71,7 @@
 			if ( empty($r) || (md5($passwd) != $passfromdb)) {     
 		// AUTH FAILED or NO SUCH USER! 
 				
-				echo "Ge�ersiz login ya da �ifre";
+				echo "GeÃÂÃÂ§ersiz login ya da ÃÂÃÂifre";
 			}
 			else {   // AUTHENTICATED
 
@@ -80,7 +80,7 @@
 				// CHECK FOR DOUBLE-VOTING
 				
 				if( $r["voted"] ) {
-					echo "Daha �nce oy kullanm��s�n�z. Her oyverenin sadece tek oy hakk� vard�r.<br>";
+					echo "Daha ÃÂÃÂ¶nce oy kullanmÃÂÃÂ±ÃÂÃÂsÃÂÃÂ±nÃÂÃÂ±z. Her oyverenin sadece tek oy hakkÃÂÃÂ± vardÃÂÃÂ±r.<br>";
 				}
 				else { 
 					//THIRD STEP: USER IS CLEAR, VOTE IS LEGAL. COUNTING THE VOTE
@@ -97,7 +97,7 @@
 						mysql_db_query ($dbname,$update_query);
 						//echo "answer to question $i is $ans[$i] updated <br>";
 	 				}
-					echo "Oyunuz say�lm��t�r. Kat�ld���n�z i�in te�ekk�r ederiz.";
+					echo "Oyunuz sayÃÂÃÂ±lmÃÂÃÂ±ÃÂÃÂtÃÂÃÂ±r. KatÃÂÃÂ±ldÃÂÃÂ±ÃÂÃÂÃÂÃÂ±nÃÂÃÂ±z iÃÂÃÂ§in teÃÂÃÂekkÃÂÃÂ¼r ederiz.";
 
 				} //ELSE 
 			}//ELSE
@@ -117,7 +117,7 @@
 			$authenticated = exec(EscapeShellCmd("$authcmd $username $hostid $passwd"));
 			
 			if ($authenticated == 0) {     // AUTH FAILED! 
-				echo "Ge�ersiz login ya da �ifre";				
+				echo "GeÃÂÃÂ§ersiz login ya da ÃÂÃÂifre";				
 			}
 			else {   // AUTHENTICATED
 	//SECOND STEP: CHECK FOR DUPLICATE VOTE
@@ -132,7 +132,7 @@
 					echo "You are not in the voter list for this poll";
 				}
 				elseif($r["voted"]) { 
-					echo "Daha �nce oy kullanm��s�n�z. Her oyverenin sadece tek oy hakk� vard�r.<br>";
+					echo "Daha ÃÂÃÂ¶nce oy kullanmÃÂÃÂ±ÃÂÃÂsÃÂÃÂ±nÃÂÃÂ±z. Her oyverenin sadece tek oy hakkÃÂÃÂ± vardÃÂÃÂ±r.<br>";
 				}
 				else {
 	//THIRD STEP: USER IS CLEAR, VOTE IS LEGAL. COUNTING THE VOTE
@@ -149,7 +149,7 @@
 						mysql_db_query ($dbname,$update_query);
 						echo "Answer to question $i is $ans[$i] updated <br>";
 	 				}
-					echo "Oyunuz say�lm��t�r. Kat�ld���n�z i�in te�ekk�r ederiz.";
+					echo "Oyunuz sayÃÂÃÂ±lmÃÂÃÂ±ÃÂÃÂtÃÂÃÂ±r. KatÃÂÃÂ±ldÃÂÃÂ±ÃÂÃÂÃÂÃÂ±nÃÂÃÂ±z iÃÂÃÂ§in teÃÂÃÂekkÃÂÃÂ¼r ederiz.";
 				}//ELSE
 			}//ELSE
 		break;
@@ -169,7 +169,7 @@
 	
 
 			if ($authenticated == 0) {     // AUTH FAILED! 
-				echo "Ge�ersiz login ya da �ifre";
+				echo "GeÃÂÃÂ§ersiz login ya da ÃÂÃÂifre";
 			}
 			else {   // AUTHENTICATED
 	//SECOND STEP: CHECK FOR DUPLICATE VOTE
@@ -179,7 +179,7 @@
 				$result = mysql_db_query($dbname, $query);
 				$r = mysql_fetch_array($result);
 				if(!empty($r)) {
-					echo "Daha �nce oy kullanm��s�n�z. Her oyverenin sadece tek oy hakk� vard�r.<br>";
+					echo "Daha ÃÂÃÂ¶nce oy kullanmÃÂÃÂ±ÃÂÃÂsÃÂÃÂ±nÃÂÃÂ±z. Her oyverenin sadece tek oy hakkÃÂÃÂ± vardÃÂÃÂ±r.<br>";
 				}
 				else {
 
@@ -197,7 +197,7 @@
 						mysql_db_query ($dbname,$query);
 						//echo "answer to question $i is $ans[$i] updated <br>";
 	 				}
-					echo "Oyunuz say�lm��t�r. Kat�ld���n�z i�in te�ekk�r ederiz.";
+					echo "Oyunuz sayÃÂÃÂ±lmÃÂÃÂ±ÃÂÃÂtÃÂÃÂ±r. KatÃÂÃÂ±ldÃÂÃÂ±ÃÂÃÂÃÂÃÂ±nÃÂÃÂ±z iÃÂÃÂ§in teÃÂÃÂekkÃÂÃÂ¼r ederiz.";
 				} //ELSE
 			}//ELSE
 		break;
@@ -216,7 +216,7 @@
 
 			if ( empty($r) ) {     
 			// AUTH FAILED or NO SUCH USER! 
-				echo "Kullan�c� listesinde verdi�iniz adres bulunamad�.";
+				echo "KullanÃÂÃÂ±cÃÂÃÂ± listesinde verdiÃÂÃÂiniz adres bulunamadÃÂÃÂ±.";
 			}
 			else {   // AUTHENTICATED
 
@@ -225,7 +225,7 @@
 				// CHECK FOR DOUBLE-VOTING
 				
 				if( $r["voted"] ) {
-					echo "Daha �nce oy kullanm��s�n�z. Her oyverenin sadece tek oy hakk� vard�r.<br>";
+					echo "Daha ÃÂÃÂ¶nce oy kullanmÃÂÃÂ±ÃÂÃÂsÃÂÃÂ±nÃÂÃÂ±z. Her oyverenin sadece tek oy hakkÃÂÃÂ± vardÃÂÃÂ±r.<br>";
 				}
 				else { 
 	
@@ -246,7 +246,7 @@
 </center>
 <hr>
 <a href="index.html">Ana Sayfa</a><br>
-<a href="private_polls.php?poll_id=<? echo $poll_id; ?>">Oylama Sayfas�</a>
+<a href="private_polls.php?poll_id=<? echo $poll_id; ?>">Oylama SayfasÃÂÃÂ±</a>
 
 </body>
 </html>

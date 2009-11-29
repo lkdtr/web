@@ -19,12 +19,12 @@
 	if (!($r = mysql_fetch_array($result))) {
 			echo '<html>
 			<head>
-			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 			<title>ERROR</title>
 			</head> 
 			<body bgcolor="#E8BF20" text="#000080">
 			<br><br><br>
-			<center><strong>Hatal� istek</strong></center>';
+			<center><strong>HatalÃÂÃÂ± istek</strong></center>';
 			
 		//echo "Poll does not exist";		
 	}
@@ -32,12 +32,12 @@
 	{
 			echo '<html>
 			<head>
-			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 			<title>ERROR</title>
 			</head> 
 			<body bgcolor="#E8BF20" text="#000080">
 			<br><br><br>
-			<center><strong>Hatal� istek</strong></center>';			 
+			<center><strong>HatalÃÂÃÂ± istek</strong></center>';			 
 			
 		//echo "This poll is public";
 	}
@@ -47,7 +47,7 @@
 		$poll_title = $r["poll_title"]; 
 		print '<html>
 			<head>
-			<meta http-equiv="content-type" content="text/html; charset=ISO-8859-9">
+			<meta http-equiv="content-type" content="text/html; charset=utf-8">
 			<meta http-equiv="content-type" content="text/html; charset=windows-1254">
 			<meta http-equiv="content-language" content="TR">
 			<title>' . $poll_title . '</title>
@@ -79,7 +79,7 @@
 		case -2: // poll ended or stopped 
 			
 			if ($poll_id == 9999) {
-				echo "<br><br><br><center> Bu oylaman�n sonu�lar� gizlidir. </center><br><br>";	
+				echo "<br><br><br><center> Bu oylamanÃÂÃÂ±n sonuÃÂÃÂ§larÃÂÃÂ± gizlidir. </center><br><br>";	
 			}
 			else {
 				print_poll();		
@@ -105,7 +105,7 @@
 		echo "<center>
 	  		  <table border=\"1\">
   			  <tr>
-  			  <th>Oylama Ba�l���</th>
+  			  <th>Oylama BaÃÂÃÂlÃÂÃÂ±ÃÂÃÂÃÂÃÂ±</th>
   			  <th>Oylama ID</th>
   			  <th>Baslangic Tarihi</th>
   			  <th>Bitis Tarihi</th>
@@ -117,7 +117,7 @@
 			  <td>$stop_date</td>
 			  </tr>
 			  <tr>
-			  <td align=center colspan=4>�u ana kadar bu oylamaya <strong>$numvoter</strong> ki�i kat�lm��t�r.</td>
+			  <td align=center colspan=4>ÃÂÃÂu ana kadar bu oylamaya <strong>$numvoter</strong> kiÃÂÃÂi katÃÂÃÂ±lmÃÂÃÂ±ÃÂÃÂtÃÂÃÂ±r.</td>
 			  </tr>
 			  </table></center>";  			 
   		
@@ -190,7 +190,7 @@
 	switch($poll_type) {
 	
 		case 1:
-			echo "A�a��da, size bu oylama i�in verilen login ve �ifre'yi giriniz";
+			echo "AÃÂÃÂaÃÂÃÂÃÂÃÂ±da, size bu oylama iÃÂÃÂ§in verilen login ve ÃÂÃÂifre'yi giriniz";
 			break;
 		case 2:
 		case 3:
@@ -198,10 +198,10 @@
 			$result = mysql_db_query($dbname, $query); 
 			$r = mysql_fetch_array($result);
 			$hostid = $r["host_id"];
-			echo "$hostid �zerinde bulunan hesab�n�z�n login ve �ifresini giriniz";
+			echo "$hostid ÃÂÃÂ¼zerinde bulunan hesabÃÂÃÂ±nÃÂÃÂ±zÃÂÃÂ±n login ve ÃÂÃÂifresini giriniz";
 			break;
 		case 4:
-			echo "<center>A�a��daki bo�lu�a email adresinizi giriniz</center>";
+			echo "<center>AÃÂÃÂaÃÂÃÂÃÂÃÂ±daki boÃÂÃÂluÃÂÃÂa email adresinizi giriniz</center>";
 			break;
 	}
 ?>
@@ -225,7 +225,7 @@
             <td><input type="text" size="20" name="username"></td>
         </tr>
         <tr>
-            <td><font size="4">�ifre</font></td>
+            <td><font size="4">ÃÂÃÂifre</font></td>
             <td>:</td>
             <td><input type="password" size="20" name="passwd"></td>
         </tr>
@@ -249,7 +249,7 @@
 
 </table>
 </center>
-		<center><p><input type="submit" name="B1" value="G�NDER"></p></center>
+		<center><p><input type="submit" name="B1" value="GÃÂÃÂNDER"></p></center>
 		</form>
 		
 <?
@@ -257,7 +257,7 @@
 	} // SWITCH
 	
 	//BACK TO PRIVATE POLLS
-	echo '<hr><a href="private_index.php">�zel Oylamalar Sayfas�</a>';
+	echo '<hr><a href="private_index.php">ÃÂÃÂzel Oylamalar SayfasÃÂÃÂ±</a>';
 	
 } // MAIN ELSE 
 ?>
@@ -273,13 +273,13 @@ function checkForm(form,numQuestions) {
 			}
 		}
 		if (!isAnswered) {
-			alert("L�tfen t�m sorular� cevaplay�n�z (Cevaps�z soru: "+j+" )");
+			alert("LÃÂÃÂ¼tfen tÃÂÃÂ¼m sorularÃÂÃÂ± cevaplayÃÂÃÂ±nÃÂÃÂ±z (CevapsÃÂÃÂ±z soru: "+j+" )");
 			return false;			
 		}
 		isAnswered = false;
 	}
 	if (form.username.value == "") {
-			alert("L�tfen kullan�c� ismi veya e-mail adresi giriniz");
+			alert("LÃÂÃÂ¼tfen kullanÃÂÃÂ±cÃÂÃÂ± ismi veya e-mail adresi giriniz");
 			return false;					
 	}
 	return true;

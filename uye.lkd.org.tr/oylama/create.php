@@ -1,5 +1,9 @@
 <?
 	session_start();
+
+print_r($_SESSION);
+
+exit;
 	session_register("manager_id");
 	session_register("logged");
         require 'include/config.inc';

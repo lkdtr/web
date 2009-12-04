@@ -1,4 +1,4 @@
-YARDIMLAŞMA NOKTALARI
+<td width="508" valign="top"><table width="100%" cellpadding="5" border="0"><tbody><tr><td>YARDIMLAŞMA NOKTALARI
 Özgür yazılım ekosisteminin bilindiği gibi en temel dayanağı, karşılıksız birbirine yardım etme prensibidir. Ülkemizde de dünyadaki özgür yazılım ekosistemine paralel olarak çeşitli dallarda yardımlaşma noktaları oluşturulmuştur ve her geçen gün bu yardımlaşma noktaları sayısı artmakta ve belirli nitelik kazanmaktadırlar.
 
 Yardımlaşma konusunda en temel ayrım, e-posta listeleri ve forumlar ve IRC (Internet Relay Chat) ve haber grupları olarak göze çarpmaktadır. Aşağıdaki listede GNU/Linux, *BSD işletim sistemleri ve diğer özgür yazılımlara ilişkin yardımlaşma noktalarının e-posta listeleri, forumları ve IRC kanalları ve haber grupları için gereken adresleri bulabilirsiniz. (Listeler alfabetik sıraya göre düzenlenmiştir)
@@ -81,4 +81,4 @@ Ubuntu: #ubuntu-tr
 HABER GRUPLARI
 
 news.newsturkiye.com bünyesindeki os.linux grubu da Türkçe yardım alınabilecek kaynaklar arasında yer almaktadır. 
-<td width="508" valign="top"><table width="100%" cellpadding="5" border="0"><tbody><tr><td></td></tr></tbody></table>
+</td></tr></tbody></table>

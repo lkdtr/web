@@ -1,11 +1,13 @@
-<td width="508" valign="top"><table width="100%" cellpadding="5" border="0"><tbody><tr><td>YARDIMLAŞMA NOKTALARI
+<td width="508" valign="top">
+<div style="padding-left: 5px;">
+<h2>YARDIMLAŞMA NOKTALARI</h2>
 Özgür yazılım ekosisteminin bilindiği gibi en temel dayanağı, karşılıksız birbirine yardım etme prensibidir. Ülkemizde de dünyadaki özgür yazılım ekosistemine paralel olarak çeşitli dallarda yardımlaşma noktaları oluşturulmuştur ve her geçen gün bu yardımlaşma noktaları sayısı artmakta ve belirli nitelik kazanmaktadırlar.
 
 Yardımlaşma konusunda en temel ayrım, e-posta listeleri ve forumlar ve IRC (Internet Relay Chat) ve haber grupları olarak göze çarpmaktadır. Aşağıdaki listede GNU/Linux, *BSD işletim sistemleri ve diğer özgür yazılımlara ilişkin yardımlaşma noktalarının e-posta listeleri, forumları ve IRC kanalları ve haber grupları için gereken adresleri bulabilirsiniz. (Listeler alfabetik sıraya göre düzenlenmiştir)
 
 Aşağıda listede yer almayan fakat listede yer almasını düşündüğünüz yardımlaşma noktalarını bilgi@linux.org.tr adresine e-posta atmak suretiyle bize bildirebilirsiniz.
 
-E-Posta Listeleri
+<h2>E-Posta Listeleri</h2>
 
 Yerelleştirmeye ilişkin e-posta listeleri, aşağıda gösterilmemektedir. Yerelleştirme listelerine, Yerelleştirme sayfasından ulaşabilirsiniz.
 
@@ -36,7 +38,7 @@ Ubuntu Kullanıcıları E-posta Listesi: Canonical Ltd. desteğiyle geliştirile
 Vikipedi Kullanıcıları E-posta Listesi: Özgür ansiklopedi Vikipedi'ye ilişkin yardımlaşma amacı güden e-posta listesi hakkında detaylı bilgiye https://lists.wikimedia.org/mailman/listinfo/wikitr-l adresinden ulaşabilirsiniz.
 
 
-Yardımlaşma Forumları
+<h2>Yardımlaşma Forumları</h2>
 
 Buradaki listede yer alan yardımlaşma forumları belirli amaca hizmet eden forumlar arasından seçilmiştir. Aşağı yukarı her forumda GNU/Linux ve diğer özgür yazılımlara ilişkin bölümler olduğu gerçeğini gözardı etmeksizin, her forumdan bahsetmek bu sayfayı amacı dışına çıkaracağı için, belirli forumların tanıtılması daha uygun olacaktır.
 
@@ -65,7 +67,7 @@ Truva Linux Forumu: Truva Linux dağıtımına ilişkin bir yardımlaşma platfo
 Ubuntu Türkiye Forumu: Canonical Ltd. desteğiyle geliştirilen Ubuntu dağıtımına ilişkin kapsamlı bir foruma sahip Ubuntu Türkiye forumlarına http://forum.ubuntu-tr.org adresinden ulaşabilirsiniz.
 
 
-IRC KANALLARI
+<h2>IRC KANALLARI</h2>
 
 Anlık yardımlaşma bakımından IRC'nin önemi şüphesiz tartışılmazdır. Özgür yazılım projeleri ve destek kanalları genellikle FreeNode ve OFTC sunucuları üzerinde yer almaktadır. Aşağıdaki liste, irc.freenode.org üzerinde yer alan Türkçe yardımlaşma kanallarına ilişkindir. Freenode sunucusuna herhangi bir IRC istemcisi kullanarak veya web üzerinden http://webchat.freenode.net/ adresinden girebilirsiniz.
 
@@ -78,7 +80,10 @@ Pardus-Linux.org: #pardus-linux.org, #pardus-destek
 Ubuntu: #ubuntu-tr
 
 
-HABER GRUPLARI
+<h2>HABER GRUPLARI</h2>
 
-news.newsturkiye.com bünyesindeki os.linux grubu da Türkçe yardım alınabilecek kaynaklar arasında yer almaktadır. 
-</td></tr></tbody></table>
+news.newsturkiye.com bünyesindeki os.linux grubu da Türkçe yardım alınabilecek kaynaklar arasında yer almaktadır.
+</div>
+<table width="100%">
+</table>
+</td

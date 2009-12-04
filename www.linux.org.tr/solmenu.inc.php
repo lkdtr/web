@@ -40,6 +40,7 @@ Fazla Linux</td>
 Yazılımlar</a><br/>
 - <a class="menu" href="/yerellestirme.html">Yerelleştirme
 Çalışmaları</a><br/>
+- <a class="menu" href="/yardim.html">Yardım</a><br/>
             </td>
           </tr>
           <tr>

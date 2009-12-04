@@ -43,7 +43,6 @@ Yerelleştirmeye ilişkin e-posta listeleri, aşağıda gösterilmemektedir. Yer
 <hr noshade="" size="1"/>
 </li>
 
-<ul>
 <li type="square">
 <strong>KDE Kullanıcıları Listesi: </strong> Popüler masaüstü yöneticisi KDE konusunda, KDE Türkiye bünyesinde bir yardımlaşma listesi olarak faaliyet gösteren ve KDE'ye ilişkin sorunların paylaşılabildiği e-posta listesi hakkında detaylı bilgiye <a href="http://www.kde.org.tr/mailman/listinfo/kde" target="_blank">http://www.kde.org.tr/mailman/listinfo/kde</a> adresinden ulaşabilirsiniz. 
 <br/>

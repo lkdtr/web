@@ -173,14 +173,20 @@ Buradaki listede yer alan yardımlaşma forumları belirli amaca hizmet eden for
 <h2>IRC KANALLARI</h2>
 
 Anlık yardımlaşma bakımından IRC'nin önemi şüphesiz tartışılmazdır. Özgür yazılım projeleri ve destek kanalları genellikle FreeNode ve OFTC sunucuları üzerinde yer almaktadır. Aşağıdaki liste, irc.freenode.org üzerinde yer alan Türkçe yardımlaşma kanallarına ilişkindir. Freenode sunucusuna herhangi bir IRC istemcisi kullanarak veya web üzerinden <a href="http://webchat.freenode.net/" target="_blank">http://webchat.freenode.net/</a> adresinden girebilirsiniz.
-<br/>
+<p> </p>
 
 Arch Linux: #archlinux.tr
+<br/>
 *BSD: #bsd-tr
+<br/>
 Debian: #debian.tr
+<br/>
 Özgürlükİçin: #ozgurlukicin
+<br/>
 Pardus: #pardus
+<br/>
 Pardus-Linux.org: #pardus-linux.org, #pardus-destek
+<br/>
 Ubuntu: #ubuntu-tr
 
 

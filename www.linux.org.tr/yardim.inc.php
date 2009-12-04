@@ -80,5 +80,5 @@ Ubuntu: #ubuntu-tr
 
 HABER GRUPLARI
 
-news.newsturkiye.com bünyesindeki os.linux grubu da Türkçe yardım alınabilecek kaynaklar arasında yer almaktadır.
-
+news.newsturkiye.com bünyesindeki os.linux grubu da Türkçe yardım alınabilecek kaynaklar arasında yer almaktadır. 
+<td width="508" valign="top"><table width="100%" cellpadding="5" border="0"><tbody><tr><td></td></tr></tbody></table>

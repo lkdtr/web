@@ -107,7 +107,7 @@ yönetim hizmetleri vermektedir. <br/>
 <td align="right" width="100" valign="middle"><img style="width: 276px; height: 61px;" alt="" src="linuxfirmalar_files/kocsistemlogo.jpg"/> </td></tr>
 
 <tr bgcolor="#f4f4f4"><td><h3>Marmara Bilişim</h3>
-<b>Özgür Yazılımla İlgili Hizmetleri :</b> Bilişim sektöründe danışmanlık, Özgür Yazılım, tasarım, proje yönetimi, kuruluş hizmetleri, entegrasyon hizmetleri, yazılım, web uygulamaları, satış sonrası teknik destek, çağrı bazlı veya sözleşmeli bakım ve destek hizmetleri konularında faaliyet göstermektedir.<br/>
+<b>Özgür Yazılımla İlgili Hizmetleri :</b> Özgür yazılım tabanlı danışmanlık, tasarım, proje yönetimi, kuruluş hizmetleri, entegrasyon hizmetleri, yazılım, web uygulamaları, satış sonrası teknik destek, çağrı bazlı veya sözleşmeli bakım ve destek hizmetleri konularında faaliyet göstermektedir.<br/>
 <b>Web Sitesi :</b> <a href="http://www.bilisimmarmara.com.tr/" target="_blank">http://www.bilisimmarmara.com.tr</a><br/></td>
 <td align="right" width="100" valign="middle"><img style="width: 150px; height: 75px;" alt="" src="linuxfirmalar_files/marmara_bilisim_logo.jpg"/> </td></tr>
 

@@ -26,14 +26,14 @@ hizmetleri bulunmakta.<br/>
 </td></tr>
 
 
-<tr><td><h3>Bimel Ltd.</h3>
+<!--tr><td><h3>Bimel Ltd.</h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Eğitim<br/>
 <b>Web Sitesi :</b> <a href="http://www.bimel.com.tr/egitim/linux.php" target="_blank">http://www.bimel.com.tr/egitim/linux.php</a><br/></td>
-<td align="right" valign="middle"><img style="width: 234px; height: 98px;" alt="" src="linuxfirmalar_files/bimel.png"/><br/> </td></tr>
+<td align="right" valign="middle"><img style="width: 234px; height: 98px;" alt="" src="linuxfirmalar_files/bimel.png"/><br/> </td></tr-->
 
 <tr bgcolor="#f4f4f4"><td><h3>BNTPRO Bilgi ve İletişim Hiz. Ltd. Şti.</h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Juniper ve Linux üzerine eğitimler vermektedir.<br/>
-<b>Web Sitesi :</b> <a href="http://www.bntpro.com/" target="_blank">http://www.bntpro.com/</a><br/></td>
+<b>Web Sitesi :</b> <a href="http://www.bntpro.com/" target="_blank">http://www.bntpro.com/</a> Site Bakım Aşamasındadır!<br/></td>
 <td align="right" valign="middle"><img style="width: 120px; height: 73px;" alt="" src="linuxfirmalar_files/bnt_pro.gif"/><br/> </td></tr>
 
 
@@ -182,7 +182,7 @@ birlikte yürüyen Linux eğitimleri bulunmakta olan firma Debian, Ubuntu,
 Fedora, Suse gibi bir çok sisteme dönük hizmetler de sağlamaktadır.
 Firma, kendi ürünü olan çeşitli özgür yazılım projelerini de
 müşterilerine sunmaktadır.<br/>
-<b>Web Sitesi :</b> <a href="http://www.portakalteknoloji.com/" target="_blank">http://www.portakalteknoloji.com</a><br/></td>
+<b>Web Sitesi :</b> <a href="http://www.portakalteknoloji.com/" target="_blank">http://www.portakalteknoloji.com</a> Site Bakım Aşamasındadır!<br/></td>
 <td align="right" width="100" valign="middle"> <img style="width: 140px; height: 180px;" alt="" src="linuxfirmalar_files/portologo.jpg"/></td></tr>
 
 <tr bgcolor="#f4f4f4"><td><h3>Pro-G Bilişim Güvenliği ve Araştırma Ltd. Şti.</h3>
@@ -228,7 +228,7 @@ gibi projeler bulunmaktadır.<br/>
 <tr><td><h3>Yörünge İletişim Hizmetleri A.Ş. </h3>
 <b>İlgili Kişi :</b> Fikri Dal<br/>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> 2001 yılından bu yana Linux İşletim Sistemleri, Network ve Dijital Güvenlik alanlarında kurumsal hizmetler sağlamaktadır.<br/>
-<b>Web Sitesi :</b> <a href="http://www.yorunge.com.tr/" target="_blank"> http://www.yorunge.com.tr<br/></a></td>
+<b>Web Sitesi :</b> <a href="http://www.yorunge.com.tr/" target="_blank"> http://www.yorunge.com.tr<br/> Site Bakım Aşamasındadır!</a></td>
 <td align="right" width="100" valign="middle"><img style="width: 247px; height: 100px;" alt="" src="linuxfirmalar_files/yorunge.jpg"/><br/></td></tr>
 
 </tbody></table>

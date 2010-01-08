@@ -101,9 +101,9 @@ yönetim hizmetleri vermektedir. <br/>
 <b>Web Sitesi :</b> <a href="http://www.keys.com.tr/" target="_blank">http://www.keys.com.tr</a><br/></td>
 <td align="right" width="100" valign="middle"><img src="linuxfirmalar_files/keys_logo.jpg"/> </td></tr>
 
-<tr><td><h3>Koç Bryce</h3>
+<tr><td><h3>Koç Sistem</h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Eğitim<br/>
-<b>Web Sitesi :</b> <a href="http://www.kocbryce.com.tr/" target="_blank">http://www.kocbryce.com.tr</a><br/></td>
+<b>Web Sitesi :</b> <a href="http://www.kocsistem.com.tr/tr/egitim_hizmetleri.asp" target="_blank">http://www.kocsistem.com.tr/tr/egitim_hizmetleri.asp</a><br/></td>
 <td align="right" width="100" valign="middle"><img style="width: 276px; height: 61px;" alt="" src="linuxfirmalar_files/kocsistemlogo.jpg"/> </td></tr>
 
 <tr bgcolor="#f4f4f4"><td><h3>Marmara Bilişim</h3>

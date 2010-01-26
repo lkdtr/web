@@ -258,6 +258,9 @@ Veri dosyaları 36000 kelimeden oluşmaktadır. Bir çok işletim sistemi ve da�
     <tr><td>   <b>Web Sayfası:</b> <a href="http://code.google.com/p/hatirlat/">http://code.google.com/p/hatirlat/</a> <br/>Hatırlamanız gereken verileri düzenlemenize yardımcı olur ve bunları tek bir yerden yönetebilmenizi sağlar. </td>
         </tr><tr><td><hr/></td></tr>
 
+    <tr><td><h2 class="yazilim">I2I</h2></td></tr>
+    <tr><td>   <b>Web Sayfası:</b> <a href="http://code.google.com/p/i2i/">http://code.google.com/p/i2i/</a> <br/>I2I, IMAP sunucularına bağlanıp, e-posta kutularını başka bir IMAP sunucusuna transfer etmeye yarar. MS Windows masaüstü programı olup GPL olarak dağıtılmaktadır. </td>
+        <tr><td><hr/></td></tr> 
     <tr><td><h2 class="yazilim">Iksemel</h2></td></tr>
     <tr><td>	<b>Web Sayfası:</b> <a target="_blank" href="http://iksemel.jabberstudio.org/">http://iksemel.jabberstudio.org/</a><br/>Jabber uygulamaları için bir XML kitaplığı. Özellikle gömülü ortamlar için yazılmış, hemen her platformu destekliyor.</td></tr>
         <tr><td><hr/></td></tr> 

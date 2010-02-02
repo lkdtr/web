@@ -124,6 +124,12 @@ Ubuntu hakkında Türkçe doküman havuzu hazırlamak üzere çalışmalarda bul
 <br/>
 <hr noshade="" size="1"/>
 </li>
+<li type="square">
+<strong>Ulaknet-CSIRT:</strong>
+Ulaknet dahilinde faaliyet gösteren CSIRT (Computer Security Incident Response Team) ekibi tarafından hazırlanan güvenlik dokümanlarına <a href="http://csirt.ulakbim.gov.tr/dokumanlar/">http://csirt.ulakbim.gov.tr/dokumanlar/</a> adresinden ulaşabilirsiniz. Doküman sayfasında yetkilendirme, ağ güvenliği ve yönlendirme gibi konularda çeşitli belgeler bulunmaktadır ve sayfada yer alan belgeler periyodik olarak güncellenmektedir. 
+<br/>
+<hr noshade="" size="1"/>
+</li>
 </ul>
 <p> </p>
 </div>

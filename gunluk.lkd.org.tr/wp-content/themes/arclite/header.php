@@ -34,9 +34,9 @@
       // logo image?
       $logo = (get_arclite_option('logo'));
       if($logo): ?>
-      <h1 class="logo"><a href="<?php bloginfo('url'); ?>/"><img src="<?php echo $logo; ?>" title="<?php bloginfo('name');  ?>" alt="<?php bloginfo('name');  ?>" /></a></h1>
+      <h1 class="logo"><a href="<?php bloginfo('url'); ?>/"><img src="<?php echo $logo; ?>" title="<?php bloginfo('name');  ?>" alt="<?php bloginfo('name');  ?>" /></a></h1><br/>
       <?php else: ?>
-      <h1 class="logo"><a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a></h1>
+      <h1 class="logo"><a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a></h1><br/>
       <?php endif;  ?>
 
       <?php if(get_bloginfo('description')<>'') { ?><h4><?php bloginfo('description'); ?></h4><?php } ?>

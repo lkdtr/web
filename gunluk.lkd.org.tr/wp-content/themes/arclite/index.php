@@ -25,12 +25,13 @@
           <div class="post-header">
            <h3 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e('Permanent Link:','arclite'); echo ' '; the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
            <p class="post-date">
+	    <span class="year"><?php the_time(__('Y','arclite')); ?></span>
             <span class="month"><?php the_time(__('M','arclite')); ?></span>
             <span class="day"><?php the_time(__('j','arclite')); ?></span>
            </p>
            <p class="post-author">
-            <span class="info"><?php printf(__('Posted by %s in %s','arclite'),'<a href="'. get_author_posts_url(get_the_author_ID()) .'" title="'. sprintf(__("Posts by %s","arclite"), attribute_escape(get_the_author())).' ">'. get_the_author() .'</a>',get_the_category_list(', '));
-            ?> | <?php comments_popup_link(__('No Comments', 'arclite'), __('1 Comment', 'arclite'), __('% Comments', 'arclite'), 'comments', __('Comments off', 'arclite')); ?>  <?php edit_post_link(__('Edit','arclite'),' | '); ?>
+            <span class="info"><?php printf(__('Posted in %s','arclite'), get_the_category_list(', '));
+            ?> <?php edit_post_link(__('Edit','arclite'),' | '); ?>
             </span>
            </p>
           </div>

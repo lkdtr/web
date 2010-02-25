@@ -36,23 +36,23 @@
               <?php endif; ?>
               <p class="post-metadata">
                     <?php
-                      printf(__('This entry was posted on %s and is filed under %s. You can follow any responses to this entry through %s.', 'arclite'), get_the_time(get_option('date_format').', '.get_option('time_format')), get_the_category_list(', '), '<a href="'.get_post_comments_feed_link($post->ID).'" title="RSS 2.0">RSS 2.0</a>');  ?>
+                      printf(__('This entry was posted on %s and is filed under %s.', 'arclite'), get_the_time(get_option('date_format').', '.get_option('time_format')), get_the_category_list(', '));  ?>
 
                     <?php if (('open' == $post-> comment_status) && ('open' == $post->ping_status)) {
             		  // Both Comments and Pings are open
-                      printf(__('You can <a href="#respond">leave a response</a>, or <a href="%s" rel="trackback">trackback</a> from your own site.', 'arclite'), trackback_url('',false));
+//                       printf(__('You can <a href="#respond">leave a response</a>, or <a href="%s" rel="trackback">trackback</a> from your own site.', 'arclite'), trackback_url('',false));
 
             		 } elseif (!('open' == $post-> comment_status) && ('open' == $post->ping_status)) {
             		  // Only Pings are Open
-                      printf(__('Responses are currently closed, but you can <a href="%s" rel="trackback">trackback</a> from your own site.', 'arclite'), trackback_url('',false));
+//                       printf(__('Responses are currently closed, but you can <a href="%s" rel="trackback">trackback</a> from your own site.', 'arclite'), trackback_url('',false));
 
             		 } elseif (('open' == $post-> comment_status) && !('open' == $post->ping_status)) {
             		  // Comments are open, Pings are not
-            		  _e('You can skip to the end and leave a response. Pinging is currently not allowed.','arclite');
+//             		  _e('You can skip to the end and leave a response. Pinging is currently not allowed.','arclite');
 
             		 } elseif (!('open' == $post-> comment_status) && !('open' == $post->ping_status)) {
             		  // Neither Comments, nor Pings are open
-            		  _e('Both comments and pings are currently closed.','arclite');
+//             		  _e('Both comments and pings are currently closed.','arclite');
             		} ?>
                     <?php edit_post_link(__('Edit this entry', 'arclite')); ?>
     		  </p>

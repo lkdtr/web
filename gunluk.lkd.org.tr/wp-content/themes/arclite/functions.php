@@ -517,7 +517,7 @@ function queryposts($atts){
 
     $output .= '<div class="post">';
     $output .= '<div class="post-header"><h3 class="post-title"><a href="'.get_permalink().'" rel="bookmark" title="'.__('Permanent Link:','arclite').' '.get_the_title().'">'.get_the_title().'</a></h3>';
-    $output .= '<p class="post-date"><span class="month">'.get_the_time(__('M','arclite')).'</span><span class="day">'.get_the_time(__('j','arclite')).'</span></p>';
+    $output .= '<p class="post-date"><span class="year">'.get_the_time(__('Y','arclite')).'</span><span class="month">'.get_the_time(__('M','arclite')).'</span><span class="day">'.get_the_time(__('j','arclite')).'</span></p>';
     $output .= '<p class="post-author"><span class="info">'.sprintf(__('Posted by %s in %s','arclite'),'<a href="'. get_author_posts_url(get_the_author_ID()) .'" title="'. sprintf(__("Posts by %s","arclite"), attribute_escape(get_the_author())).' ">'. get_the_author() .'</a>',get_the_category_list(', ')).' | ';
 
     if (comments_open()):

@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: English\n"
+"X-Poedit-Language: Turkish\n"
 "X-Poedit-Country: UNITED STATES\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-KeywordsList: __;_e\n"
@@ -207,7 +207,7 @@ msgstr "l, F jS, Y"
 #: c:\wamp\www\wordpress\wp-content\themes\arclite/search.php:38
 #, php-format
 msgid "Posted in %s"
-msgstr "%s içinde yazıldı."
+msgstr "Bu yazı %s kategorisinde yazıldı."
 
 #: c:\wamp\www\wordpress\wp-content\themes\arclite/author.php:71
 msgid "No posts found by this author."
@@ -608,10 +608,14 @@ msgstr "Ana Sayfa"
 msgid "Click for Home"
 msgstr "Anasayfa için tıklayın"
 
+#: c:\wamp\www\wordpress\wp-content\themes\arclite/header.php:73
+msgid "Linux Kullanicilari Dernegi"
+msgstr "Linux Kullanıcıları Derneği"
+
 #: c:\wamp\www\wordpress\wp-content\themes\arclite/image.php:31
 #, php-format
-msgid "This entry was posted on %s and is filed under %s. You can follow any responses to this entry through %s."
-msgstr "Bu yazı %s tarihinde yayınlanmış ve %s kategorisinde dosyalanmıştır. Bu yazı hakkında yapılan yorumları %s formatında da izleyebilirsiniz."
+msgid "This entry was posted on %s and is filed under %s."
+msgstr "Bu yazı %s tarihinde yayınlanmış ve %s kategorisinde dosyalanmıştır."
 
 #: c:\wamp\www\wordpress\wp-content\themes\arclite/image.php:35
 #, php-format

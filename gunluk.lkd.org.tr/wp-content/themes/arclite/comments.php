@@ -150,6 +150,6 @@
 <?php if (!comments_open()): // If comments are closed. ?>
  <?php if (is_page() && (!$comments)):
   else: ?>
- <h3 class="comments"><?php _e("Comments are closed.","arclite"); ?></h3>
+ <h3 class="comments"><?php /*_e("Comments are closed.","arclite");*/ ?></h3>
  <?php endif; ?>
 <?php endif; ?>

@@ -67,8 +67,10 @@
           if((get_option('show_on_front')<>'page') && (get_arclite_option('navigation')<>'categories')) {
            if(is_home() && !is_paged()){ ?>
             <li id="nav-homelink" class="current_page_item"><a class="fadeThis" href="<?php echo get_settings('home'); ?>" title="<?php _e('You are Home','arclite'); ?>"><span><?php _e('Home','arclite'); ?></span></a></li>
+	    <li id="nav-lkd" class="current_page_item"><a class="fadeThis" href="http://www.lkd.org.tr" title="<?php _e('Linux Kullanicilari Dernegi','arclite'); ?>" target="_blank"><span><?php _e('Linux Kullanicilari Dernegi','arclite'); ?></span></a></li>
            <?php } else { ?>
             <li id="nav-homelink"><a class="fadeThis" href="<?php echo get_option('home'); ?>" title="<?php _e('Click for Home','arclite'); ?>"><span><?php _e('Home','arclite'); ?></span></a></li>
+	    <li id="nav-homelink"><a class="fadeThis" href="http://www.lkd.org.tr" title="<?php _e('Linux Kullanicilari Dernegi','arclite'); ?>" target="_blank"><span><?php _e('Linux Kullanicilari Dernegi','arclite'); ?></span></a></li>
           <?php
            }
           } ?>

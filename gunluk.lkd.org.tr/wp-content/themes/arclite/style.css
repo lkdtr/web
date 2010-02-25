@@ -703,7 +703,7 @@ h2.post-title{
 
 .post p.post-date{
   background: #fff;
-  width: 38px;
+  width: 60px;
   height: 38px;
   display: block;
   margin: 0;
@@ -716,30 +716,39 @@ h2.post-title{
   border: 1px solid #fff;
 }
 
-.post .post-date span.month{
-  background: #f44365;
+.post .post-date span.year{
   border-bottom: 1px solid #fff;
+  color: #00f;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  color: #fff;
-  font-size: 85%;
   padding: 2px 0;
-  text-transform: uppercase;
 }
 
 .post .post-date span.day{
+  background: #f44365;
+  color: #fff;
   bottom: 1px;
-  padding: 3px 0;
+  padding: 3px 1px;
   left: 0;
-  width: 100%;
+  width: 50%;
   position: absolute;
+}
+.post .post-date span.month{
+  background: #f44365;
+  color: #fff;
+  bottom: 1px;
+  padding: 3px 1px;
+  right: 0;
+  width: 50%;
+  position: absolute;
+  text-transform: uppercase;
 }
 
 .post p.post-author{
   background: transparent url(images/post-info.png) no-repeat left top;
-  margin: 0 0 0 43px;
+  margin: 0 0 0 67px;
   padding: 0 12px;
   font-size: 110%;
   font-style: italic;

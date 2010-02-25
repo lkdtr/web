@@ -730,7 +730,7 @@ h2.post-title{
   background: #f44365;
   color: #fff;
   bottom: 1px;
-  padding: 3px 1px;
+  padding: 3px 0px;
   left: 0;
   width: 50%;
   position: absolute;
@@ -739,7 +739,7 @@ h2.post-title{
   background: #f44365;
   color: #fff;
   bottom: 1px;
-  padding: 3px 1px;
+  padding: 3px 0px;
   right: 0;
   width: 50%;
   position: absolute;

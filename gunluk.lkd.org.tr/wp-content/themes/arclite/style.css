@@ -703,6 +703,9 @@ h2.post-title{
 
 .post p.post-date{
   background: #fff;
+  font-weight: bold;
+  text-shadow: 1px 3px 5px #1c1c1c;
+  color: #fff;
   width: 60px;
   height: 38px;
   display: block;
@@ -717,32 +720,20 @@ h2.post-title{
 }
 
 .post .post-date span.year{
-  border-bottom: 1px solid #fff;
-  color: #00f;
-  width: 100%;
   position: absolute;
-  top: 0;
+  width: 100%;
+  bottom: 0;
   left: 0;
-  padding: 2px 0;
+  padding: 3px 0;
 }
 
-.post .post-date span.day{
+.post .post-date span.day-month{
+  position: absolute;
   background: #f44365;
-  color: #fff;
-  bottom: 1px;
+  top: 0;
   padding: 3px 0px;
   left: 0;
-  width: 50%;
-  position: absolute;
-}
-.post .post-date span.month{
-  background: #f44365;
-  color: #fff;
-  bottom: 1px;
-  padding: 3px 0px;
-  right: 0;
-  width: 50%;
-  position: absolute;
+  width: 100%;
   text-transform: uppercase;
 }
 

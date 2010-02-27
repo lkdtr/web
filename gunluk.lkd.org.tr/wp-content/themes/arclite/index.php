@@ -26,8 +26,7 @@
            <h3 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e('Permanent Link:','arclite'); echo ' '; the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
            <p class="post-date">
 	    <span class="year"><?php the_time(__('Y','arclite')); ?></span>
-            <span class="month"><?php the_time(__('M','arclite')); ?></span>
-            <span class="day"><?php the_time(__('j','arclite')); ?></span>
+            <span class="day-month"><?php the_time(__('j M','arclite')); ?></span>
            </p>
            <p class="post-author">
             <span class="info"><?php printf(__('Posted in %s','arclite'), get_the_category_list(', '));

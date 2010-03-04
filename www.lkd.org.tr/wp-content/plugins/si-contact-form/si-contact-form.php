@@ -1668,7 +1668,7 @@ $string .= '
 ';
 if ($si_contact_opt['enable_credit_link'] == 'true') {
 $string .= '
-<p><small>'.__('Powered by', 'si-contact-form'). ' <a href="http://wordpress.org/extend/plugins/si-contact-form/" target="_new">'.__('Fast and Secure Contact Form', 'si-contact-form'). '</a></small></p>
+<p><small>'.' <a href="http://wordpress.org/extend/plugins/si-contact-form/" target="_new">'.__('Fast and Secure Contact Form', 'si-contact-form').'</a>'.__(' Powered by', 'si-contact-form').'</small></p>
 <br clear="all" />
 ';
 }

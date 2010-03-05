@@ -1,4 +1,4 @@
-<td width="508" valign="top"><table width="100%" cellpadding="5" border="0"><tbody><tr><td>Türkiye'de Linux ve özgür yazılımlar konusunda basılı yayınların bir listesini aşağıda bulabilirsiniz. Yayınların içeriği LKD tarafından herhangi bir biçimde incelenmemekte ve denetlenmemektedir. Listede bulunmayan kitaplar için <a href="mailto:lotr@linux.org.tr">bilgi@linux.org.tr</a> adresine e-posta atarak bizi haberdar edebilirsiniz. (<small><b>Son güncelleme:</b> 15/11/2008</small>)</td></tr></tbody></table>
+<td width="508" valign="top"><table width="100%" cellpadding="5" border="0"><tbody><tr><td>Türkiye'de Linux ve özgür yazılımlar konusunda basılı yayınların bir listesini aşağıda bulabilirsiniz. Yayınların içeriği LKD tarafından herhangi bir biçimde incelenmemekte ve denetlenmemektedir. Listede bulunmayan kitaplar için <a href="mailto:bilgi@linux.org.tr">bilgi@linux.org.tr</a> adresine e-posta atarak bizi haberdar edebilirsiniz. (<small><b>Son güncelleme:</b> 15/11/2008</small>)</td></tr></tbody></table>
 
 <table>
 	<tbody><tr><td colspan="2"><h2>

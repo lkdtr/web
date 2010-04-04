@@ -524,7 +524,7 @@ add_action('admin_init', 'ext_db_auth_init' );
 add_action('admin_menu', 'ext_db_auth_add_menu');
 add_action('wp_authenticate', 'ext_db_auth_check_login', 1, 2 );
 add_action('lost_password', 'disable_function');
-add_action('user_register', 'disable_function');
+//add_action('user_register', 'disable_function');
 add_action('register_form', 'disable_function_register');
 add_action('retrieve_password', 'disable_function');
 add_action('password_reset', 'disable_function');

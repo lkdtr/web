@@ -1,1 +1,1 @@
-<?php header("Location: http://www.ozguryazilimgunleri.org/"); ?>
+<?php header("Location: http://www.ozguryazilimgunleri.org.tr/"); ?>

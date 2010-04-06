@@ -409,12 +409,10 @@ blockquote p{
 }
 
 #pagetitle h4{
-  float: left;
   border-left: 2px solid #8e7762;
   padding: .6em 0 .6em .6em;
-  margin-left: 1em;
+  margin: 2em auto 1em 1em;
   color: #e9e2c9;
-  margin-right: auto;
 }
 
 

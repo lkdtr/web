@@ -1,45 +1,47 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
+<?php get_header(); ?>
 
-get_header(); ?>
-
-	<div id="content" class="narrowcolumn" role="main">
-
-	<?php if (have_posts()) : ?>
-
-		<?php while (have_posts()) : the_post(); ?>
+	<div id="container">
+		<div id="content">
+      
+      <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-				<small><?php the_time('d F Y') ?> <!-- <?php the_author() ?> tarafından --></small>
+				<h1><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e('', 'default'); ?> <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+				<small class="meta">
+          <span class="alignleft">
+            Tarih: <?php the_time(__('j F Y', 'default')) ?> | Yazar: <?php the_author() ?> | <?php _e('Kategori: ', 'default' ); the_category(', '); ?>
+            <?php edit_post_link(__( '(e)', 'default' ), ' | ', ''); ?>
+          </span>
+        </small>
 
 				<div class="entry">
-					<?php the_content('Yazının kalanını okuyun &raquo;'); ?>
+					<?php the_content((__( '&raquo; Read more: ', 'default')) . the_title('', '', false)); ?>
 				</div>
 
-				<p class="postmetadata"><?php the_tags('Etiketler: ', ', ', '<br />'); ?> Kategori <?php the_category(', ') ?> | <?php edit_post_link('Düzenle', '', ' | '); ?>  <?php comments_popup_link('Yorum Yok &#187;', '1 Yorum &#187;', '% Yorum &#187;'); ?></p>
+      <?php // include (TEMPLATEPATH . '/ad_middle.php'); ?>
+        
 			</div>
 
 		<?php endwhile; ?>
 
-		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Eski Yazılar') ?></div>
-			<div class="alignright"><?php previous_posts_link('Yeni Yazılar &raquo;') ?></div>
+		<div class="pagination navigation clearfix">
+		  <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } else { ?>
+  		  <div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries', 'default')) ?></div>
+  			<div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;', 'default')) ?></div>
+		  <?php } ?>
 		</div>
+
 
 	<?php else : ?>
 
-		<h2 class="center">Bulunamadı</h2>
-		<p class="center">Üzgünüz, aradığınız şey burada değil.</p>
-		<?php get_search_form(); ?>
+    <?php include (TEMPLATEPATH . "/missing.php"); ?>
 
 	<?php endif; ?>
 
-	</div>
+
+
+		</div><!-- #content -->
+	</div><!-- #container -->
 
 <?php get_sidebar(); ?>
-
 <?php get_footer(); ?>

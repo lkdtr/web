@@ -1,18 +1,12 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
+<?php get_header(); ?>
 
-get_header();
-?>
+	<div id="container">
+		<div id="content">
 
-	<div id="content" class="narrowcolumn">
+		  <?php include (TEMPLATEPATH . "/missing.php"); ?>
 
-		<h2 class="center">Hata 404 - Bulunamadı</h2>
-
-	</div>
+		</div><!-- #content -->
+	</div><!-- #container -->
 
 <?php get_sidebar(); ?>
-
 <?php get_footer(); ?>

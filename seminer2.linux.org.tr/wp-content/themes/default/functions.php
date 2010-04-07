@@ -1,430 +1,342 @@
 <?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
-$content_width = 450; 
 
-automatic_feed_links();
+
+// Language files loading
+function theme_init(){
+	load_theme_textdomain('default', get_template_directory() . '/languages');
+}
+add_action ('init', 'theme_init');
+
+
 
 if ( function_exists('register_sidebar') ) {
-	register_sidebar(array(
-		'before_widget' => '<li id="%1$s" class="widget %2$s">',
-		'after_widget' => '</li>',
-		'before_title' => '<h2 class="widgettitle">',
-		'after_title' => '</h2>',
-	));
+  register_sidebar(array(
+    'before_widget' => '<li id="%1$s" class="widget %2$s">',
+    'after_widget' => '</li>',
+    'before_title' => '<div class="sb-title widgettitle">',
+    'after_title' => '</div>',
+    'name' => '1'
+  ));
+    register_sidebar(array(
+    'before_widget' => '<li id="%1$s" class="widget %2$s">',
+    'after_widget' => '</li>',
+    'before_title' => '<div class="sb-title widgettitle">',
+    'after_title' => '</div>',
+    'name' => '2'
+  ));
+    register_sidebar(array(
+    'before_widget' => '<li id="%1$s" class="widget %2$s">',
+    'after_widget' => '</li>',
+    'before_title' => '<div class="sb-title widgettitle">',
+    'after_title' => '</div>',
+    'name' => '3'
+  ));
+    register_sidebar(array(
+    'before_widget' => '<li id="%1$s" class="widget %2$s">',
+    'after_widget' => '</li>',
+    'before_title' => '<div class="sb-title widgettitle">',
+    'after_title' => '</div>',
+    'name' => '4'
+  ));
 }
 
-/** @ignore */
-function kubrick_head() {
-	$head = "<style type='text/css'>\n<!--";
-	$output = '';
-	if ( kubrick_header_image() ) {
-		$url =  kubrick_header_image_url() ;
-		$output .= "#header { background: url('$url') no-repeat bottom center; }\n";
-	}
-	if ( false !== ( $color = kubrick_header_color() ) ) {
-		$output .= "#headerimg h1 a, #headerimg h1 a:visited, #headerimg .description { color: $color; }\n";
-	}
-	if ( false !== ( $display = kubrick_header_display() ) ) {
-		$output .= "#headerimg { display: $display }\n";
-	}
-	$foot = "--></style>\n";
-	if ( '' != $output )
-		echo $head . $output . $foot;
+
+
+// Generates the menu
+function greenpark_globalnav() {
+	if ( $menu = str_replace( array( "\r", "\n", "\t" ), '', wp_list_pages('title_li=&echo=0&depth=1') ) )
+	echo apply_filters( 'globalnav_menu', $menu );
 }
 
-add_action('wp_head', 'kubrick_head');
 
-function kubrick_header_image() {
-	return apply_filters('kubrick_header_image', get_option('kubrick_header_image'));
+
+// http://sivel.net/2008/10/wp-27-comment-separation/
+function list_pings($comment, $args, $depth) {
+  $GLOBALS['comment'] = $comment;
+  echo "<li id=\"comment-";
+  echo comment_ID();
+  echo "\" class=\"pings\">";
+  echo comment_author_link();
 }
 
-function kubrick_upper_color() {
-	if (strpos($url = kubrick_header_image_url(), 'header-img.php?') !== false) {
-		parse_str(substr($url, strpos($url, '?') + 1), $q);
-		return $q['upper'];
-	} else
-		return '69aee7';
+
+// Note: Custom Admin Panel Functions
+
+add_action('admin_menu', 'greenpark2_options');
+add_action('wp_head', 'greenpark2_feed');
+
+
+function greenpark2_feed() {
+	$enable = get_option('greenpark2_feed_enable');
 }
 
-function kubrick_lower_color() {
-	if (strpos($url = kubrick_header_image_url(), 'header-img.php?') !== false) {
-		parse_str(substr($url, strpos($url, '?') + 1), $q);
-		return $q['lower'];
-	} else
-		return '4180b6';
-}
 
-function kubrick_header_image_url() {
-	if ( $image = kubrick_header_image() )
-		$url = get_template_directory_uri() . '/images/' . $image;
-	else
-		$url = get_template_directory_uri() . '/images/kubrickheader.jpg';
-
-	return $url;
-}
-
-function kubrick_header_color() {
-	return apply_filters('kubrick_header_color', get_option('kubrick_header_color'));
-}
-
-function kubrick_header_color_string() {
-	$color = kubrick_header_color();
-	if ( false === $color )
-		return 'white';
-
-	return $color;
-}
-
-function kubrick_header_display() {
-	return apply_filters('kubrick_header_display', get_option('kubrick_header_display'));
-}
-
-function kubrick_header_display_string() {
-	$display = kubrick_header_display();
-	return $display ? $display : 'inline';
-}
-
-add_action('admin_menu', 'kubrick_add_theme_page');
-
-function kubrick_add_theme_page() {
-	if ( isset( $_GET['page'] ) && $_GET['page'] == basename(__FILE__) ) {
-		if ( isset( $_REQUEST['action'] ) && 'save' == $_REQUEST['action'] ) {
-			check_admin_referer('kubrick-header');
-			if ( isset($_REQUEST['njform']) ) {
-				if ( isset($_REQUEST['defaults']) ) {
-					delete_option('kubrick_header_image');
-					delete_option('kubrick_header_color');
-					delete_option('kubrick_header_display');
-				} else {
-					if ( '' == $_REQUEST['njfontcolor'] )
-						delete_option('kubrick_header_color');
-					else {
-						$fontcolor = preg_replace('/^.*(#[0-9a-fA-F]{6})?.*$/', '$1', $_REQUEST['njfontcolor']);
-						update_option('kubrick_header_color', $fontcolor);
-					}
-					if ( preg_match('/[0-9A-F]{6}|[0-9A-F]{3}/i', $_REQUEST['njuppercolor'], $uc) && preg_match('/[0-9A-F]{6}|[0-9A-F]{3}/i', $_REQUEST['njlowercolor'], $lc) ) {
-						$uc = ( strlen($uc[0]) == 3 ) ? $uc[0]{0}.$uc[0]{0}.$uc[0]{1}.$uc[0]{1}.$uc[0]{2}.$uc[0]{2} : $uc[0];
-						$lc = ( strlen($lc[0]) == 3 ) ? $lc[0]{0}.$lc[0]{0}.$lc[0]{1}.$lc[0]{1}.$lc[0]{2}.$lc[0]{2} : $lc[0];
-						update_option('kubrick_header_image', "header-img.php?upper=$uc&lower=$lc");
-					}
-
-					if ( isset($_REQUEST['toggledisplay']) ) {
-						if ( false === get_option('kubrick_header_display') )
-							update_option('kubrick_header_display', 'none');
-						else
-							delete_option('kubrick_header_display');
-					}
-				}
-			} else {
-
-				if ( isset($_REQUEST['headerimage']) ) {
-					check_admin_referer('kubrick-header');
-					if ( '' == $_REQUEST['headerimage'] )
-						delete_option('kubrick_header_image');
-					else {
-						$headerimage = preg_replace('/^.*?(header-img.php\?upper=[0-9a-fA-F]{6}&lower=[0-9a-fA-F]{6})?.*$/', '$1', $_REQUEST['headerimage']);
-						update_option('kubrick_header_image', $headerimage);
-					}
-				}
-
-				if ( isset($_REQUEST['fontcolor']) ) {
-					check_admin_referer('kubrick-header');
-					if ( '' == $_REQUEST['fontcolor'] )
-						delete_option('kubrick_header_color');
-					else {
-						$fontcolor = preg_replace('/^.*?(#[0-9a-fA-F]{6})?.*$/', '$1', $_REQUEST['fontcolor']);
-						update_option('kubrick_header_color', $fontcolor);
-					}
-				}
-
-				if ( isset($_REQUEST['fontdisplay']) ) {
-					check_admin_referer('kubrick-header');
-					if ( '' == $_REQUEST['fontdisplay'] || 'inline' == $_REQUEST['fontdisplay'] )
-						delete_option('kubrick_header_display');
-					else
-						update_option('kubrick_header_display', 'none');
-				}
-			}
-			//print_r($_REQUEST);
-			wp_redirect("themes.php?page=functions.php&saved=true");
-			die;
+function greenpark2() {
+	
+	if(isset($_POST['submitted']) and $_POST['submitted'] == 'yes') :
+		update_option("greenpark2_sidebar_about_title", stripslashes($_POST['sidebar_about_title']));
+		update_option("greenpark2_sidebar_about_content", stripslashes($_POST['sidebar_about_content']));
+		update_option("greenpark2_feed_uri", stripslashes($_POST['feed_uri']));
+		update_option("greenpark2_about_site", stripslashes($_POST['about_site']));
+		update_option("google_analytics", stripslashes($_POST['google_analytics']));
+		update_option("google_adsense_bottom", stripslashes($_POST['google_adsense_bottom']));
+		update_option("google_adsense_sidebar", stripslashes($_POST['google_adsense_sidebar']));
+		
+		if(isset($_POST['feed_enable']) and $_POST['feed_enable'] == 'yes') :
+			update_option("greenpark2_feed_enable", "yes");
+		else :
+			update_option("greenpark2_feed_enable", "no");
+		endif;
+		
+		if(isset($_POST['sidebar_about_title']) and $_POST['sidebar_about_title'] == '') {
+			update_option("greenpark2_sidebar_about_title", "About");
 		}
-		add_action('admin_head', 'kubrick_theme_page_head');
+		
+		if(isset($_POST['sidebar_about_content']) and $_POST['sidebar_about_content'] == '') {
+			update_option("greenpark2_sidebar_about_content", "Change this text in the admin section of WordPress");
+		}
+		
+		echo "<div id=\"message\" class=\"updated fade\"><p><strong>Your settings have been saved.</strong></p></div>";
+	endif; 
+	
+	if(get_option('greenpark2_sidebar_about_title') == '') {
+		update_option("greenpark2_sidebar_about_title", "About");
 	}
-	add_theme_page(__('Custom Header'), __('Custom Header'), 'edit_themes', basename(__FILE__), 'kubrick_theme_page');
-}
-
-function kubrick_theme_page_head() {
+	
+	if(get_option('greenpark2_sidebar_about_content') == '') {
+		update_option("greenpark2_sidebar_about_content", "Change this text in the admin section of WordPress");
+	}
+	
+	$data = array(
+		'feed' => array(
+			'uri' => get_option('greenpark2_feed_uri'),
+			'enable' => get_option('greenpark2_feed_enable')
+		),
+		'sidebar' => array(
+			'about_title' => get_option('greenpark2_sidebar_about_title'),
+			'about_content' => get_option('greenpark2_sidebar_about_content')
+		),
+		'aside' => get_option('greenpark2_aside_cat'),
+		'about' => get_option('greenpark2_about_site')
+	);
 ?>
-<script type="text/javascript" src="../wp-includes/js/colorpicker.js"></script>
-<script type='text/javascript'>
-// <![CDATA[
-	function pickColor(color) {
-		ColorPicker_targetInput.value = color;
-		kUpdate(ColorPicker_targetInput.id);
-	}
-	function PopupWindow_populate(contents) {
-		contents += '<br /><p style="text-align:center;margin-top:0px;"><input type="button" class="button-secondary" value="<?php esc_attr_e('Close Color Picker'); ?>" onclick="cp.hidePopup(\'prettyplease\')"></input></p>';
-		this.contents = contents;
-		this.populated = false;
-	}
-	function PopupWindow_hidePopup(magicword) {
-		if ( magicword != 'prettyplease' )
-			return false;
-		if (this.divName != null) {
-			if (this.use_gebi) {
-				document.getElementById(this.divName).style.visibility = "hidden";
-			}
-			else if (this.use_css) {
-				document.all[this.divName].style.visibility = "hidden";
-			}
-			else if (this.use_layers) {
-				document.layers[this.divName].visibility = "hidden";
-			}
-		}
-		else {
-			if (this.popupWindow && !this.popupWindow.closed) {
-				this.popupWindow.close();
-				this.popupWindow = null;
-			}
-		}
-		return false;
-	}
-	function colorSelect(t,p) {
-		if ( cp.p == p && document.getElementById(cp.divName).style.visibility != "hidden" )
-			cp.hidePopup('prettyplease');
-		else {
-			cp.p = p;
-			cp.select(t,p);
-		}
-	}
-	function PopupWindow_setSize(width,height) {
-		this.width = 162;
-		this.height = 210;
-	}
 
-	var cp = new ColorPicker();
-	function advUpdate(val, obj) {
-		document.getElementById(obj).value = val;
-		kUpdate(obj);
-	}
-	function kUpdate(oid) {
-		if ( 'uppercolor' == oid || 'lowercolor' == oid ) {
-			uc = document.getElementById('uppercolor').value.replace('#', '');
-			lc = document.getElementById('lowercolor').value.replace('#', '');
-			hi = document.getElementById('headerimage');
-			hi.value = 'header-img.php?upper='+uc+'&lower='+lc;
-			document.getElementById('header').style.background = 'url("<?php echo get_template_directory_uri(); ?>/images/'+hi.value+'") center no-repeat';
-			document.getElementById('advuppercolor').value = '#'+uc;
-			document.getElementById('advlowercolor').value = '#'+lc;
-		}
-		if ( 'fontcolor' == oid ) {
-			document.getElementById('header').style.color = document.getElementById('fontcolor').value;
-			document.getElementById('advfontcolor').value = document.getElementById('fontcolor').value;
-		}
-		if ( 'fontdisplay' == oid ) {
-			document.getElementById('headerimg').style.display = document.getElementById('fontdisplay').value;
-		}
-	}
-	function toggleDisplay() {
-		td = document.getElementById('fontdisplay');
-		td.value = ( td.value == 'none' ) ? 'inline' : 'none';
-		kUpdate('fontdisplay');
-	}
-	function toggleAdvanced() {
-		a = document.getElementById('jsAdvanced');
-		if ( a.style.display == 'none' )
-			a.style.display = 'block';
-		else
-			a.style.display = 'none';
-	}
-	function kDefaults() {
-		document.getElementById('headerimage').value = '';
-		document.getElementById('advuppercolor').value = document.getElementById('uppercolor').value = '#69aee7';
-		document.getElementById('advlowercolor').value = document.getElementById('lowercolor').value = '#4180b6';
-		document.getElementById('header').style.background = 'url("<?php echo get_template_directory_uri(); ?>/images/kubrickheader.jpg") center no-repeat';
-		document.getElementById('header').style.color = '#FFFFFF';
-		document.getElementById('advfontcolor').value = document.getElementById('fontcolor').value = '';
-		document.getElementById('fontdisplay').value = 'inline';
-		document.getElementById('headerimg').style.display = document.getElementById('fontdisplay').value;
-	}
-	function kRevert() {
-		document.getElementById('headerimage').value = '<?php echo esc_js(kubrick_header_image()); ?>';
-		document.getElementById('advuppercolor').value = document.getElementById('uppercolor').value = '#<?php echo esc_js(kubrick_upper_color()); ?>';
-		document.getElementById('advlowercolor').value = document.getElementById('lowercolor').value = '#<?php echo esc_js(kubrick_lower_color()); ?>';
-		document.getElementById('header').style.background = 'url("<?php echo esc_js(kubrick_header_image_url()); ?>") center no-repeat';
-		document.getElementById('header').style.color = '';
-		document.getElementById('advfontcolor').value = document.getElementById('fontcolor').value = '<?php echo esc_js(kubrick_header_color_string()); ?>';
-		document.getElementById('fontdisplay').value = '<?php echo esc_js(kubrick_header_display_string()); ?>';
-		document.getElementById('headerimg').style.display = document.getElementById('fontdisplay').value;
-	}
-	function kInit() {
-		document.getElementById('jsForm').style.display = 'block';
-		document.getElementById('nonJsForm').style.display = 'none';
-	}
-	addLoadEvent(kInit);
-// ]]>
-</script>
-<style type='text/css'>
-	#headwrap {
-		text-align: center;
-	}
-	#kubrick-header {
-		font-size: 80%;
-	}
-	#kubrick-header .hibrowser {
-		width: 780px;
-		height: 260px;
-		overflow: scroll;
-	}
-	#kubrick-header #hitarget {
-		display: none;
-	}
-	#kubrick-header #header h1 {
-		font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
-		font-weight: bold;
-		font-size: 4em;
-		text-align: center;
-		padding-top: 70px;
-		margin: 0;
-	}
+<!-- Cordobo Green Park 2 settings -->
+<div class="wrap">	
+	<h2>Cordobo Green Park 2 Settings</h2>
 
-	#kubrick-header #header .description {
-		font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
-		font-size: 1.2em;
-		text-align: center;
-	}
-	#kubrick-header #header {
-		text-decoration: none;
-		color: <?php echo kubrick_header_color_string(); ?>;
-		padding: 0;
-		margin: 0;
-		height: 200px;
-		text-align: center;
-		background: url('<?php echo kubrick_header_image_url(); ?>') center no-repeat;
-	}
-	#kubrick-header #headerimg {
-		margin: 0;
-		height: 200px;
-		width: 100%;
-		display: <?php echo kubrick_header_display_string(); ?>;
-	}
-  .description { 
-    margin-top: 16px; 
-    color: #fff; 
-  }
-	#jsForm {
-		display: none;
-		text-align: center;
-	}
-	#jsForm input.submit, #jsForm input.button, #jsAdvanced input.button {
-		padding: 0px;
-		margin: 0px;
-	}
-	#advanced {
-		text-align: center;
-		width: 620px;
-	}
-	html>body #advanced {
-		text-align: center;
-		position: relative;
-		left: 50%;
-		margin-left: -380px;
-	}
-	#jsAdvanced {
-		text-align: right;
-	}
-	#nonJsForm {
-		position: relative;
-		text-align: left;
-		margin-left: -370px;
-		left: 50%;
-	}
-	#nonJsForm label {
-		padding-top: 6px;
-		padding-right: 5px;
-		float: left;
-		width: 100px;
-		text-align: right;
-	}
-	.defbutton {
-		font-weight: bold;
-	}
-	.zerosize {
-		width: 0px;
-		height: 0px;
-		overflow: hidden;
-	}
-	#colorPickerDiv a, #colorPickerDiv a:hover {
-		padding: 1px;
-		text-decoration: none;
-		border-bottom: 0px;
-	}
-</style>
+<div class="settings_container" style="width: 100%; margin-right: -200px; float: left;">
+	<div style="margin-right: 200px;">
+	<form method="post" name="update_form" target="_self">
+
+
+    <h3 id="greenpark2_sidebar">Sidebar</h3>
+		<p>Sidebar box &nbsp; <a href="#greenpark2_sidebar_doc">( ? )</a></p>
+		<table class="form-table">
+			<tr>
+				<th>
+					Title:
+				</th>
+				<td>
+					<input type="text" name="sidebar_about_title" value="<?php echo $data['sidebar']['about_title']; ?>" size="35" />
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Content:
+				</th>
+				<td>
+					<textarea name="sidebar_about_content" rows="10" style="width: 95%;"><?php echo $data['sidebar']['about_content']; ?></textarea>
+				</td>
+			</tr>
+		</table>
+		<br />
+
+
+    <h3 id="greenpark2_feedburner">Feedburner</h3>
+		<p>Feedburner information</p>
+		<table class="form-table">
+			<tr>
+				<th>
+					Feed URI:
+				</th>
+				<td>
+					http://feeds.feedburner.com/<input type="text" name="feed_uri" value="<?php echo $data['feed']['uri']; ?>" size="30" />
+          <br />Check to enable feedburner <input type="checkbox" name="feed_enable" <?php echo ($data['feed']['enable'] == 'yes' ? 'checked="checked"' : ''); ?> value="yes" /> 
+				</td>
+			</tr>
+		</table>	
+		<br />
+		
+
+    <h3 id="greenpark2_admanager">Ad Manager</h3>
+		<p>Code for Google Adsense.</p>
+		<table class="form-table">
+			<tr>
+				<th>
+					Google Adsense:
+          <br />(Bottom of Post)
+				</th>
+				<td>
+					<textarea name="google_adsense_bottom" style="width: 95%;" rows="10" /><?php echo get_option('google_adsense_bottom'); ?></textarea>
+					<br />Paste your Google Adsense Code for the bottom of each post.
+					<br /><strong>Size of 468x60 Recommended.</strong>
+				</td>
+			</tr>
+		</table>
+		<br />
+		
+
+    <h3 id="greenpark2_misc">Misc</h3>
+		<p>Google Analytics.</p>
+		<table class="form-table">
+			<tr>
+				<th>
+					Google Analytics:
+				</th>
+				<td>
+					<textarea name="google_analytics" style="width: 95%;" rows="10" /><?php echo get_option('google_analytics'); ?></textarea>
+					<br />Paste your Google Analytics code here. It will appear at the end of each page.
+				</td>
+			</tr>
+		</table>
+
+    <p class="submit" id="jump_submit">
+			<input name="submitted" type="hidden" value="yes" />
+			<input type="submit" name="Submit" value="Save Changes" />
+		</p>
+	</form>
+	<br /><br /><br /><br />
+	
+	<h2>Cordobo Green Park 2 Documentation</h2>
+	
+	<h3 id="greenpark2_about_doc">About your new theme</h3>
+	<p>Thank you for using the Green Park 2 theme, a free premium wordpress theme by German webdesigner <a href="http://cordobo.com/about/">Andreas Jacob</a>.</p>
+  <p>Cordobo Green Park 2 is a <strong>simple &amp; elegant light-weight</strong> theme for Wordpress with a <strong>clean typography</strong>, built with <strong>seo and page-rendering optimizations</strong> in mind. Green Park 2 has been rebuild from scratch and supports Wordpress 2.7 and up. The theme is released as &quot;ALPHA&quot;, to let you know I’m still adding features and improvements.</p>
+	<p>If you need any support or want some tips, please visit <a href="http://cordobo.com/green-park-2/">Cordobo Green Park 2 project page</a></p>
+	
+
+	<h3 id="greenpark2_logo_doc">Logo Setup</h3>
+	<p>
+  You can easily replace the "text logo" with your image.
+  Open the file "styles.css" in the themes folder
+  <ul>
+  <li>Find the text<br />
+    <code>Start EXAMPLE CODE for an image logo</code> (line 224)</li>
+  
+  <li>Delete <code>/*</code> before<br />
+    <code>#logo,</code> (line 225)</li>
+  
+  <li>Delete <code>*/</code> (line 230) after<br />
+    <code>.description</code> (line 229)</li>
+  
+  <li>Find <code>logo.png</code> (line 228) and replace it with the name of your logo.</li>
+  
+  <li>Change the height and width to fit your logo (line 226)<br />
+    <code>#logo, #logo a { display: block; height: 19px; width: 87px; }</code></li>
+  
+  <li>Find the text<br />
+    <code>Start EXAMPLE CODE for a text logo</code> (line 234)</li>
+  
+  <li>Add <code>/*</code> before<br />
+    <code>#branding</code> (line 235)</li>
+  
+  <li>Add <code>*/</code> (line 239) after<br />
+    <code>#logo, .description { color: #868F98; float: left; margin: 17px 0 0 10px; }</code> (line 238)</li>
+  
+  <li>Save your changes and upload the file style.css to your themes folder.</li>
+  </ul>
+	</p>
+	
+
+	<h3 id="greenpark2_sidebar_doc">Sidebar</h3>
+	<p>
+	The &quot;Sidebar Box&quot; can be used for pretty anything. Personally, I use it as an &quot;About section&quot; to tell my readers a little bit about myself, but generally it's completely up to you: put your google adsense code in it, describe your website, add your photo&hellip;
+	</p>
+	
+
+	<h3 id="greenpark2_tutorials_doc">Tutorials</h3>
+	<p>
+	List of tutorials based on this theme.
+	</p>
+	<p>
+	<ul>
+		<li><a href="http://cordobo.com/1119-provide-visual-feedback-css/">Provide visual feedback using CSS</a> &mdash; an introduction to the themes usage of CSS3</li>
+	</ul>
+	</p>
+	
+
+	<h3 id="greenpark2_licence_doc">Licence</h3>
+	<p>
+	Released under the <a target="_blank" href="http://www.gnu.org/licenses/gpl.html">GPL License</a> (<a target="_blank" href="http://en.wikipedia.org/wiki/GNU_General_Public_License">What is the GPL</a>?)
+  </p>
+	<p>
+  Free to download, free to use, free to customize. Basically you can do whatever you want as long as you credit me with a link.
+	</p>
+	
+	</div>
+	</div>
+	
+			<div style="position: fixed; right: 20px; width: 170px; background:#F1F1F1; float: right; border: 1px solid #E3E3E3; -moz-border-radius: 6px; padding: 0 10px 10px;">
+		<h3 id="bordertitle">Navigation</h3>
+		
+		<h4>Settings</h4>
+		<ul style="list-style-type: none; padding-left: 10px;">
+			<li><a href="#greenpark2_sidebar">Sidebar</a></li>
+			<li><a href="#greenpark2_feedburner">FeedBurner</a></li>
+			<li><a href="#greenpark2_admanager">Ad Manager</a></li>
+			<li><a href="#greenpark2_misc">Misc</a></li>
+		</ul>
+		
+		<h4>Documentation</h4>
+		<ul style="list-style-type: none; padding-left: 10px;">
+			<li><a href="#greenpark2_about_doc">About this Theme</a></li>
+			<li><a href="#greenpark2_logo_doc">Logo setup</a></li>
+			<li><a href="#greenpark2_sidebar_doc">Sidebar</a></li>
+			<li><a href="#greenpark2_tutorials_doc">Tutorials</a></li>
+			<li><a href="#greenpark2_license_doc">License</a></li>
+		</ul>
+		
+		<br/>
+		<small>&uarr; <a href="#wpwrap">Top</a> | <a href="#jump_submit">Goto &quot;Save&quot;</a></small>
+		
+	</div>
+
+	<div class="clear"></div>
+	
+</div>
 <?php
 }
 
-function kubrick_theme_page() {
-	if ( isset( $_REQUEST['saved'] ) ) echo '<div id="message" class="updated fade"><p><strong>'.__('Options saved.').'</strong></p></div>';
-?>
-<div class='wrap'>
-	<h2><?php _e('Customize Header'); ?></h2>
-	<div id="kubrick-header">
-		<div id="headwrap">
-			<div id="header">
-				<div id="headerimg">
-					<h1><?php bloginfo('name'); ?></h1>
-					<div class="description"><?php bloginfo('description'); ?></div>
-				</div>
-			</div>
-		</div>
-		<br />
-		<div id="nonJsForm">
-			<form method="post" action="">
-				<?php wp_nonce_field('kubrick-header'); ?>
-				<div class="zerosize"><input type="submit" name="defaultsubmit" value="<?php esc_attr_e('Save'); ?>" /></div>
-					<label for="njfontcolor"><?php _e('Font Color:'); ?></label><input type="text" name="njfontcolor" id="njfontcolor" value="<?php echo esc_attr(kubrick_header_color()); ?>" /> <?php printf(__('Any CSS color (%s or %s or %s)'), '<code>red</code>', '<code>#FF0000</code>', '<code>rgb(255, 0, 0)</code>'); ?><br />
-					<label for="njuppercolor"><?php _e('Upper Color:'); ?></label><input type="text" name="njuppercolor" id="njuppercolor" value="#<?php echo esc_attr(kubrick_upper_color()); ?>" /> <?php printf(__('HEX only (%s or %s)'), '<code>#FF0000</code>', '<code>#F00</code>'); ?><br />
-				<label for="njlowercolor"><?php _e('Lower Color:'); ?></label><input type="text" name="njlowercolor" id="njlowercolor" value="#<?php echo esc_attr(kubrick_lower_color()); ?>" /> <?php printf(__('HEX only (%s or %s)'), '<code>#FF0000</code>', '<code>#F00</code>'); ?><br />
-				<input type="hidden" name="hi" id="hi" value="<?php echo esc_attr(kubrick_header_image()); ?>" />
-				<input type="submit" name="toggledisplay" id="toggledisplay" value="<?php esc_attr_e('Toggle Text'); ?>" />
-				<input type="submit" name="defaults" value="<?php esc_attr_e('Use Defaults'); ?>" />
-				<input type="submit" class="defbutton" name="submitform" value="&nbsp;&nbsp;<?php esc_attr_e('Save'); ?>&nbsp;&nbsp;" />
-				<input type="hidden" name="action" value="save" />
-				<input type="hidden" name="njform" value="true" />
-			</form>
-		</div>
-		<div id="jsForm">
-			<form style="display:inline;" method="post" name="hicolor" id="hicolor" action="<?php echo esc_attr($_SERVER['REQUEST_URI']); ?>">
-				<?php wp_nonce_field('kubrick-header'); ?>
-	<input type="button"  class="button-secondary" onclick="tgt=document.getElementById('fontcolor');colorSelect(tgt,'pick1');return false;" name="pick1" id="pick1" value="<?php esc_attr_e('Font Color'); ?>"></input>
-		<input type="button" class="button-secondary" onclick="tgt=document.getElementById('uppercolor');colorSelect(tgt,'pick2');return false;" name="pick2" id="pick2" value="<?php esc_attr_e('Upper Color'); ?>"></input>
-		<input type="button" class="button-secondary" onclick="tgt=document.getElementById('lowercolor');colorSelect(tgt,'pick3');return false;" name="pick3" id="pick3" value="<?php esc_attr_e('Lower Color'); ?>"></input>
-				<input type="button" class="button-secondary" name="revert" value="<?php esc_attr_e('Revert'); ?>" onclick="kRevert()" />
-				<input type="button" class="button-secondary" value="<?php esc_attr_e('Advanced'); ?>" onclick="toggleAdvanced()" />
-				<input type="hidden" name="action" value="save" />
-				<input type="hidden" name="fontdisplay" id="fontdisplay" value="<?php echo esc_attr(kubrick_header_display()); ?>" />
-				<input type="hidden" name="fontcolor" id="fontcolor" value="<?php echo esc_attr(kubrick_header_color()); ?>" />
-				<input type="hidden" name="uppercolor" id="uppercolor" value="<?php echo esc_attr(kubrick_upper_color()); ?>" />
-				<input type="hidden" name="lowercolor" id="lowercolor" value="<?php echo esc_attr(kubrick_lower_color()); ?>" />
-				<input type="hidden" name="headerimage" id="headerimage" value="<?php echo esc_attr(kubrick_header_image()); ?>" />
-				<p class="submit"><input type="submit" name="submitform" class="button-primary" value="<?php esc_attr_e('Update Header'); ?>" onclick="cp.hidePopup('prettyplease')" /></p>
-			</form>
-			<div id="colorPickerDiv" style="z-index: 100;background:#eee;border:1px solid #ccc;position:absolute;visibility:hidden;"> </div>
-			<div id="advanced">
-				<form id="jsAdvanced" style="display:none;" action="">
-					<?php wp_nonce_field('kubrick-header'); ?>
-					<label for="advfontcolor"><?php _e('Font Color (CSS):'); ?> </label><input type="text" id="advfontcolor" onchange="advUpdate(this.value, 'fontcolor')" value="<?php echo esc_attr(kubrick_header_color()); ?>" /><br />
-					<label for="advuppercolor"><?php _e('Upper Color (HEX):');?> </label><input type="text" id="advuppercolor" onchange="advUpdate(this.value, 'uppercolor')" value="#<?php echo esc_attr(kubrick_upper_color()); ?>" /><br />
-					<label for="advlowercolor"><?php _e('Lower Color (HEX):'); ?> </label><input type="text" id="advlowercolor" onchange="advUpdate(this.value, 'lowercolor')" value="#<?php echo esc_attr(kubrick_lower_color()); ?>" /><br />
-					<input type="button" class="button-secondary" name="default" value="<?php esc_attr_e('Select Default Colors'); ?>" onclick="kDefaults()" /><br />
-					<input type="button" class="button-secondary" onclick="toggleDisplay();return false;" name="pick" id="pick" value="<?php esc_attr_e('Toggle Text Display'); ?>"></input><br />
-				</form>
-			</div>
-		</div>
-	</div>
+function greenpark2_options() { // Adds to menu
+	add_menu_page('greenpark2 Settings', __('Green Park 2 Settings', 'default'), 'edit_themes', __FILE__, 'greenpark2');
+}
+
+
+/*
+   Please leave the credits. Thanks!
+ */
+function greenpark2_footer() { ?>
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link"><?php _e(' ', 'default'); ?></a>
+</p>
+
+<p>
+<a href="http://www.lkd.org.tr">Linux Kullanıcıları Derneği</a> <a href="http://seminer.linux.org.tr">Seminer Çalışma Grubu</a><br />
+<small>Altyapı: <a href="http://wordpress.org/" title="<?php _e('Blogsoftware by Wordpress', 'default'); ?>">WordPress</a> |	Tema: <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a></small>
+</p>
+
+<p class="signet">
+
+</p>
+
 </div>
-<?php } ?>
+
+<?php
+}
+  
+  add_action('wp_footer', 'greenpark2_footer');
+
+?>

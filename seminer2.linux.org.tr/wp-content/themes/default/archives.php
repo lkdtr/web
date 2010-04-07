@@ -1,8 +1,4 @@
 <?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
 /*
 Template Name: Archives
 */
@@ -10,20 +6,27 @@ Template Name: Archives
 
 <?php get_header(); ?>
 
-<div id="content" class="widecolumn">
+<div id="container">
+	<div id="content">
 
-<?php get_search_form(); ?>
+    <div class="hentry post">
+      <h1><?php _e('Archives by Month', 'default'); ?></h1>
+      	<div class="entry">
+          <ul>
+        		<?php wp_get_archives('type=monthly'); ?>
+        	</ul>
+      	</div>
+      
+      <h1><?php _e('Archives by Subject', 'default'); ?></h1>
+      	<div class="entry">
+          <ul>
+        		 <?php wp_list_categories('title_li=&depth=-1'); ?>
+        	</ul>
+      	</div>
+    </div>
 
-<h2>Aylara göre arşiv:</h2>
-	<ul>
-		<?php wp_get_archives('type=monthly'); ?>
-	</ul>
-
-<h2>Kategorilere göre Arşiv:</h2>
-	<ul>
-		 <?php wp_list_categories(); ?>
-	</ul>
-
+	</div>
 </div>
 
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

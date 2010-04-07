@@ -1,48 +1,41 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
+<?php get_header(); ?>
 
-get_header(); ?>
-
-	<div id="content" class="narrowcolumn" role="main">
+	<div id="container">
+		<div id="content">
 
 	<?php if (have_posts()) : ?>
 
-		<h2 class="pagetitle">Arama Sonuçları</h2>
-
-		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Eski Yazılar') ?></div>
-			<div class="alignright"><?php previous_posts_link('Yeni Yazılar &raquo;') ?></div>
-		</div>
-
+		<h1 class="pagetitle"><?php _e('Search Results', 'default'); ?></h1>
 
 		<?php while (have_posts()) : the_post(); ?>
 
 			<div <?php post_class() ?>>
-				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?> için Kalıcı Bağlantı"><?php the_title(); ?></a></h3>
-				<small><?php the_time('l, j F Y') ?></small>
-
-        <p class="postmetadata"><?php the_tags('Etiketler: ', ', ', '<br />'); ?> Kategori: <?php the_category(', ') ?> | <?php edit_post_link('Düzenle', '', ' | '); ?>  <?php comments_popup_link('Yorum Yok &#187;', '1 Yorum &#187;', '% Yorum &#187;'); ?></p>
+				<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e('Permanent Link to', 'default'); ?> <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+				<small class="meta"><?php the_time(__('F jS, Y','default')) ?></small>
 			</div>
 
 		<?php endwhile; ?>
 
-    	<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Eski Yazılar') ?></div>
-			<div class="alignright"><?php previous_posts_link('Yeni Yazılar &raquo;') ?></div>
+		<div class="pagination navigation clearfix">
+		  <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } else { ?>
+  		  <div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries', 'default')) ?></div>
+  			<div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;', 'default')) ?></div>
+		  <?php } ?>
 		</div>
 
 	<?php else : ?>
 
-		<h2 class="center">Hiç yazı bulunamadı. Yeni bir arama yapmak ister misiniz?</h2>
-		<?php get_search_form(); ?>
+		<h1 class="pagetitle"><?php _e('No posts found. Try a different search?', 'default'); ?></h1>
+			<div class="post">
+				<?php get_search_form(); ?>
+			</div>
+
+		
 
 	<?php endif; ?>
 
-	</div>
+		</div><!-- #content -->
+	</div><!-- #container -->
 
 <?php get_sidebar(); ?>
-
 <?php get_footer(); ?>

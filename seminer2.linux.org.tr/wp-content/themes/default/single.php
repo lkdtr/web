@@ -1,73 +1,42 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
+<?php get_header(); ?>
 
-get_header();
-?>
-
-	<div id="content" class="widecolumn" role="main">
+	<div id="container">
+		<div id="content">
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-		<div class="navigation">
-			<div class="alignleft"><?php previous_post_link('&laquo; %link') ?></div>
-			<div class="alignright"><?php next_post_link('%link &raquo;') ?></div>
-		</div>
-
 		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<h2><?php the_title(); ?></h2>
+			<h1><?php the_title(); ?></h1>
+			<small class="meta">
+          <span class="alignleft">
+            Tarih: <?php the_time(__('j F Y', 'default')) ?> | Yazar: <?php the_author() ?> | <?php _e('Kategori: ', 'default' ); the_category(', '); ?>
+            <?php edit_post_link(__( '(e)', 'default' ), ' | ', ''); ?>
+          </span>
+      </small>
 
 			<div class="entry">
-				<?php the_content('<p class="serif">Yazının tamamını okuyun &raquo;</p>'); ?>
+				<?php the_content(); ?>
+				<?php wp_link_pages(array('before' => '<div class="page-link clearfix"><strong>Pages:</strong>', 'after' => '</div>', 'next_or_number' => 'number', 'pagelink' => '<span>%</span>')); ?>
 
-				<?php wp_link_pages(array('before' => '<p><strong>Sayfalar:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-				<?php the_tags( '<p>Etiketler: ', ', ', '</p>'); ?>
-
-				<p class="postmetadata alt">
-					<small>
-						Bu yazı
-						<?php /* Bu özellik kapalı çünkü kimi zaman küçük bir ayar gerektiriyor.
-							Aşağıdaki eklentiyi indirip, yönergeleri takip etmelisiniz:
-							http://binarybonsai.com/archives/2004/08/17/time-since-plugin/ */
-							/* $entry_datetime = abs(strtotime($post->post_date) - (60*120)); echo time_since($entry_datetime); echo ' ago'; */ ?>
-						<?php the_time('l, d F Y') ?>, <?php the_time() ?> tarihinde
-						<?php the_category(', ') ?> kategorisi altında yayınlandı.
-						Bu yazıya yapılacak yorumlardan haberdar olmak için <?php post_comments_feed_link('RSS 2.0'); ?> beslemesini kullanabilirsiniz.
-
-						<?php if ( comments_open() && pings_open() ) {
-							// Yorumlar ve geri izlemeler açık ?>
-              				<a href="#respond">Yorum yapabilirsiniz</a>, veya kendi sitenizden <a href="<?php trackback_url(); ?>" rel="trackback">geri izleme</a> yapabilirsiniz.
-
-						<?php } elseif ( !comments_open() && pings_open() ) {
-							// Sadece geri izlemeler açık ?>
-							Yorum yapma şimdilik kapalı, fakat kendi sitenizden <a href="<?php trackback_url(); ?> " rel="trackback">geri izleme</a> yapabilirsiniz.
-
-						<?php } elseif ( comments_open() && !pings_open() ) {
-							// Yorum yapma açık, ping kapalı ?>
-							Sona gidip yorum yapabilirsiniz. Pingleme şimdilik kapalı.
-
-						<?php } elseif ( !comments_open() && !pings_open() ) {
-							// Ne yorum yapma ne de pingleme açık ?>
-							Yorum yapma ve pingleme kapalı.
-
-						<?php } edit_post_link('Yazıyı düzenleyin','','.'); ?>
-
-					</small>
-				</p>
-
+      	<ul class="previousnext clearfix">
+      		<?php previous_post_link('<li class="previous_post">%link</li>', '<span>' . (__('Previous Entry', 'default')) . ':</span> %title'); ?>
+      		<?php next_post_link('<li class="next_post">%link</li>', '<span>' . (__('Next Entry', 'default')) . ':</span> %title'); ?>
+      	</ul>
 			</div>
+
 		</div>
 
-	<?php comments_template(); ?>
+  	<?php comments_template('', true); ?>
+  	 
 
 	<?php endwhile; else: ?>
 
-		<p>Üzgünüz, kriterinize uygun yazı bulunamadı.</p>
+    <?php include (TEMPLATEPATH . "/missing.php"); ?>
 
 <?php endif; ?>
 
-	</div>
+		</div><!-- #content -->
+	</div><!-- #container -->
 
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

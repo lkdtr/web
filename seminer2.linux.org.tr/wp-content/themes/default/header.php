@@ -40,7 +40,7 @@ if (top.location != self.location) top.location = self.location;
 	</ul>
 
 	<div id="branding">
-		<h1 id="logo"><a href="<?php echo get_option('home'); ?>/" title="<?php bloginfo('name'); ?>"><img src="http://ardacetin.net/seminer/wp-content/themes/cordobo-green-park-2/img/logo.png"></a></h1>
+		<h1 id="logo"><a href="<?php echo get_option('home'); ?>/" title="<?php bloginfo('name'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png"></a></h1>
 
 	</div>
 	

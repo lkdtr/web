@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+img.header_banner {
+    margin-top: 38px;
+    float: right;
+}
+
+#top {
+    background: #FFF url('../images/header_bg.png') no-repeat top center;
+    border-bottom: 5px solid #C9D7F1;
+}
+
+#header {
+    background: transparent url('../images/logo.png') no-repeat top left;
+    margin: 0 auto;
+    width: 700px;
+    height: 110px;
+}

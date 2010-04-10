@@ -4,8 +4,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="Türkiye Linux Kullanıcıları" />
     <meta name="keywords" content="türkiye, linux" />
+    <title>Linux ..:.. Özgür Yazılım</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/menu.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="javascript/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="javascript/menu.js"></script>
   </head>
   <body>
     <div id="top">

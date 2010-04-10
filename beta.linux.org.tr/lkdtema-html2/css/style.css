@@ -1,4 +1,6 @@
 body {
+    font-size: 0.85em;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -18,7 +20,7 @@ img.header_banner {
 }
 
 #horizontal_menu {
-    height: 22px;
+    height: 21px;
 }
 
 .wrapper {

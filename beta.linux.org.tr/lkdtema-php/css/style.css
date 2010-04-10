@@ -9,6 +9,10 @@ p {
     margin: 0;
 }
 
+img.button {
+    padding: 10px 14px;
+}
+
 .wrapper {
     margin: 0 auto;
     width: 700px;
@@ -36,6 +40,7 @@ p {
 }
 
 #content {
+    padding: 5px;
     background-color: #FFF;
     min-height: 550px;
 }

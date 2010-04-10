@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/menu.css" type="text/css" media="screen" />
     <script type="text/javascript" src="javascript/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="javascript/menu.js"></script>
+    <script type="text/javascript" src="javascript/buttons.js"></script>
   </head>
   <body>
     <div id="top">

@@ -1,7 +1,17 @@
 body {
+    margin: 0;
     font-size: 0.85em;
     font-family:Verdana, Arial, Helvetica, sans-serif;
+    background-color: #000;
+}
+
+p {
     margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 700px;
 }
 
 #top {
@@ -20,7 +30,12 @@ body {
     height: 21px;
 }
 
-.wrapper {
-    margin: 0 auto;
-    width: 700px;
+#page {
+    background: #000 url('../images/background.jpg') no-repeat top center;
+    min-height: 600px;
+}
+
+#content {
+    background-color: #FFF;
+    min-height: 550px;
 }

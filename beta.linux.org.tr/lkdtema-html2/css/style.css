@@ -14,7 +14,14 @@ img.header_banner {
 
 #header {
     background: transparent url('../images/logo.png') no-repeat top left;
+    height: 110px;
+}
+
+#horizontal_menu {
+    height: 22px;
+}
+
+.wrapper {
     margin: 0 auto;
     width: 700px;
-    height: 110px;
 }

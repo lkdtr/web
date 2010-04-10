@@ -26,6 +26,6 @@
         <li><a href="#">E-posta Listeleri</a></li>
       </ul>
     </li>
-    <li><a href="#">İletişim</a></li>
+    <li class="last"><a href="#">İletişim</a></li>
   </ul>
 </div>

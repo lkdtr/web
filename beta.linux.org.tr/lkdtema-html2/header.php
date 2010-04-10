@@ -13,7 +13,7 @@
   <body>
     <div id="top">
       <div class="wrapper" id="header">
-        <a href="http://www.acik-kaynak.org.tr" target="blank"><img class="header_banner" src="images/header_bn.png" /></a>
+        <?php include 'banner.php'; ?>
       </div>
       <?php include 'menu.php'; ?>
     </div>

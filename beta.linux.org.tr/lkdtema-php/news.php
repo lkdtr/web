@@ -2,12 +2,9 @@
 
 function microtime_float()
 {
-    if (version_compare(phpversion(), '5.0.0', '>='))
-    {
+    if (version_compare(phpversion(), '5.0.0', '>=')) {
         return microtime(true);
-    }
-    else
-    {
+    } else {
         list($usec, $sec) = explode(' ', microtime());
         return ((float) $usec + (float) $sec);
     }
@@ -15,15 +12,8 @@ function microtime_float()
 
 $start = microtime_float();
 
-//include('simplepie.inc');
 include('simplepie.class.php');
-
-// Parse it
 $feed = new SimplePie();
-if (get_magic_quotes_gpc())
-{
-    $_GET['feed'] = stripslashes('http://haber.linux.org.tr/feed/');
-}
 $feed->set_feed_url('http://haber.linux.org.tr/feed/');
 $feed->init();
 $feed->handle_content_type();

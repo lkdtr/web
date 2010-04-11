@@ -1,39 +1,31 @@
 <?php
 
-function microtime_float()
-{
-    if (version_compare(phpversion(), '5.0.0', '>=')) {
-        return microtime(true);
-    } else {
-        list($usec, $sec) = explode(' ', microtime());
-        return ((float) $usec + (float) $sec);
-    }
-}
-
-$start = microtime_float();
-
 include('simplepie.class.php');
+
 $feed = new SimplePie();
 $feed->set_feed_url('http://haber.linux.org.tr/feed/');
 $feed->init();
 $feed->handle_content_type();
 
 ?>
-    <div id="sp_results">
-        <?php if ($feed->data): ?>
-            <?php $items = $feed->get_items(); ?>
-            <p align="center"><span style="background-color:#ffc;">Displaying <?php echo $feed->get_item_quantity(); ?> most recent entries.</span></p>
-            <?php foreach($items as $item): ?>
-                <div class="chunk" style="padding:0 5px;">
-                    <h4><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a> <?php echo $item->get_date('j M Y'); ?></h4>
-                    <?php echo $item->get_content(); ?>
-                    <?php
-                    if ($enclosure = $item->get_enclosure(0))
-                        echo '<p><a href="' . $enclosure->get_link() . '" class="download"><img src="./for_the_demo/mini_podcast.png" alt="Podcast" title="Download the Podcast" border="0" /></a></p>';
-                    ?>
-                </div>
-            <?php endforeach; ?>
-            </div>
-        <?php endif; ?>
-    </div>
+
+<h4 class="news_title"><a href="#">Haber Linux</a></h4>
+
+<?php if ($feed->data): ?>
+  <?php $items = $feed->get_items(); ?>
+  <span class="news_description">Son <?php echo $feed->get_item_quantity(); ?> haber görüntüleniyor..</span>
+  <ul class="news">
+    <?php foreach($items as $item): ?>
+        <li>
+        <h4><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a> <?php echo $item->get_date('j M Y'); ?></h4>
+        <?php echo $item->get_content(); ?>
+        <?php
+        if ($enclosure = $item->get_enclosure(0))
+          echo '<p><a href="' . $enclosure->get_link() . '" class="download"><img src="./for_the_demo/mini_podcast.png" alt="Podcast" title="Download the Podcast" border="0" /></a></p>';
+        ?>
+      </li>
+    <?php endforeach; ?>
+  </ul>
+  </div>
+<?php endif; ?>
 

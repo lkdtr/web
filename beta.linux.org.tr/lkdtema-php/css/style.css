@@ -5,6 +5,10 @@ body {
     background-color: #000;
 }
 
+a {
+    text-decoration: none;
+}
+
 p {
     margin: 0;
     padding: 5px;
@@ -41,7 +45,6 @@ ul.news li.other_new {
 
 ul.news a {
     color: #0000BE;
-    text-decoration: none;
 }
 
 ul.news a:hover {
@@ -70,7 +73,6 @@ h4.news_title {
 }
 
 h4.news_title a {
-    text-decoration: none;
     color: #760707;
 }
 
@@ -113,4 +115,27 @@ span.news_description {
 #content {
     background-color: #FFF;
     min-height: 550px;
+}
+
+#footer {
+    padding: 5px 0;
+    border-top: 3px solid #C9D7F1;
+    background-color: #D5E4FF;
+    font-size: 11px;
+}
+
+#footer a {
+    color: #333;
+}
+
+#footer span {
+    padding: 5px;
+    border-right: 2px solid #C9D7F1;
+}
+
+#footer p.left {
+    margin: 0;
+    padding: 0 5px 0 0;
+    text-align: right;
+    float: right;
 }

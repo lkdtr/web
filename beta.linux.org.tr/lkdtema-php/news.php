@@ -31,6 +31,5 @@ $feed->handle_content_type();
       <li class="other_new"><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a> <?php echo $item->get_date('j M Y'); ?></li>
     <?php endforeach; ?>
   </ul>
-  </div>
 <?php endif; ?>
 

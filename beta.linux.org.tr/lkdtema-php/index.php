@@ -9,6 +9,9 @@
     </div>
     <?php include 'news.php'; ?>
     <div id="bottom_right">
+      <div id="other">
+        <p>Burası firefox banneri falan için.</p>
+      </div>
       <div id="supports">
         <h4>Sunucu Destekçilerimiz</h4>
         <a href="http://www.parkyeri.com"><img src="images/supports/ulakbim.gif" /></a>

@@ -11,7 +11,7 @@ p {
 }
 
 img.button {
-    padding: 10px 15px;
+    padding: 10px 5px;
     border: none;
 }
 
@@ -86,7 +86,7 @@ span.news_description {
 
 .wrapper {
     margin: 0 auto;
-    width: 700px;
+    width: 640px;
 }
 
 #top {

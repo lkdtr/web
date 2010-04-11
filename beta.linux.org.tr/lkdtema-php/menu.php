@@ -28,4 +28,8 @@
     </li>
     <li class="last"><a href="#">İletişim</a></li>
   </ul>
+
+  <ul id="nav_en">
+    <li><a href="#">About Us</a></li>
+  </ul>
 </div>

@@ -60,3 +60,35 @@
 #nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul{
     display: block;
 }
+
+#nav_en, #nav_en ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    float: right;
+    line-height: 21px;
+}
+
+#nav_en li {
+    margin: 0;
+    padding: 0;
+    background: #C9D7F1 url('../images/menu_bg.png') bottom left repeat-x;
+    font-size: 10px;
+    list-style-type: none;
+
+}
+
+#nav_en li:hover {
+    background: #C9D7F1 url('../images/menu_bg.png') center left repeat-x;
+}
+
+#nav_en a {
+    padding: 0 5px;
+    color: #660000;
+    text-decoration: none;
+    display: block;
+}
+
+#nav_en a:hover {
+    color: #555;
+}

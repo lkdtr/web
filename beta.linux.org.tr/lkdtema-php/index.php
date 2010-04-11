@@ -8,6 +8,7 @@
       <a href="#"><img class="button" src="images/button-2.jpg" /></a>
     </div>
     <?php include 'news.php'; ?>
+    <?php include 'google_search.php'; ?>
   </div>
   <?php include 'footer.php'; ?>
 </div>

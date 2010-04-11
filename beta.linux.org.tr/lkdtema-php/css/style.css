@@ -14,6 +14,15 @@ p {
     padding: 5px;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
 img.button {
     padding: 10px 5px;
     border: none;
@@ -26,7 +35,6 @@ img.last {
 ul.news {
     margin: 10px 0 0 0;
     padding: 5px 0 0 0;
-    list-style-type: none;
     font-size: 10px;
     border-top: 1px solid #CCC;
 }
@@ -138,4 +146,16 @@ span.news_description {
     padding: 0 5px 0 0;
     text-align: right;
     float: right;
+}
+
+#google_search {
+    background-color: #EEE;
+    margin: 0;
+    padding: 0 5px 5px 5px;
+    width: 230px;
+    border-right: 1px solid #CCC;
+}
+
+#google_search input.text {
+    border: 1px solid #AAA;
 }

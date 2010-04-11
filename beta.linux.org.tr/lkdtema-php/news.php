@@ -12,14 +12,14 @@ $feed->handle_content_type();
 
 ?>
 
-<h4 class="news_title"><a href="#">Haber Linux</a></h4>
+<h4>Haber Linux</h4>
 <?php if ($feed->data): ?>
   <?php $items = $feed->get_items(1, 10); ?>
   <span class="news_description">Son <?php echo count($items) + 1; ?> haber görüntüleniyor..</span>
   <ul class="news">
     <li class="new">
       <?php $last_item = $feed->get_item(0); ?>
-      <h4><a href="<?php echo $last_item->get_permalink(); ?>"><?php echo $last_item->get_title(); ?></a> <?php echo $last_item->get_date('j M Y'); ?></h4>
+      <h4 class="new_title"><a href="<?php echo $last_item->get_permalink(); ?>"><?php echo $last_item->get_title(); ?></a> <?php echo $last_item->get_date('j M Y'); ?></h4>
       <?php echo $last_item->get_content(); ?>
       <?php
       if ($enclosure = $last_item->get_enclosure(0))

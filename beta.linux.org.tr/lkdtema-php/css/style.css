@@ -75,13 +75,15 @@ ul.news p {
     padding: 0;
 }
 
-h4.news_title {
+h4 {
     margin: 0;
     padding: 0 5px;
+    color: #760707;
 }
 
-h4.news_title a {
-    color: #760707;
+
+h4.new_title {
+    color: #333;
 }
 
 span.news_description {
@@ -158,4 +160,17 @@ span.news_description {
 
 #google_search input.text {
     border: 1px solid #AAA;
+}
+
+#bottom_right {
+    width: 399px;
+    float: right;
+}
+
+#supports {
+    background-color: #FFFFC0;
+}
+
+#supports img {
+    margin: 10px;
 }

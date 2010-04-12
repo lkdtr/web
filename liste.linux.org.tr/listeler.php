@@ -217,6 +217,16 @@
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.elektronik">Web/RSS/NNTP ile Okuyun</a>
     </div>
     <hr>
+
+    <div class="baslik">Elektronik <span>(linux-mobil@liste.linux.org.tr)</span></div>
+    <div class="detay">
+Android, Moblin, Maemo, netbook dağıtımları gibi linux temelli taşınabilir işletim sistemleri ve bunları kullanan cihazlar bu listede konuşulur.<br />
+      <br />
+      <a class="gir" href="mailto:linux-mobil-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="cik" href="mailto:linux-mobil-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
+      <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.mobil">Web/RSS/NNTP ile Okuyun</a>
+    </div>
+    <hr>
     
     <div class="baslik">Deneme <span>(deneme@liste.linux.org.tr)</span></div>
     <div class="detay">

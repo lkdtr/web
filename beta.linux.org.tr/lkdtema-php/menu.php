@@ -1,6 +1,5 @@
 <div class="wrapper" id="horizontal_menu">
   <ul id="nav">
-    <li><a href="#">LKD Hakkında</a></li>
     <li><a href="#">Haberler</a></li>
     <li>
       <a href="#">Daha Fazla Linux</a>
@@ -15,7 +14,7 @@
         <li><a href="#">Yardım</a></li>
       </ul>
     </li>
-    <li>
+    <li class="last">
       <a href="#">Bağlantılar</a>
       <ul>
         <li><a href="#">FTP Dosya Alanı</a></li>
@@ -26,10 +25,11 @@
         <li><a href="#">E-posta Listeleri</a></li>
       </ul>
     </li>
-    <li class="last"><a href="#">İletişim</a></li>
   </ul>
 
   <ul id="nav_en">
+    <li><a href="#">LKD Hakkında</a></li>
     <li><a href="#">About Us</a></li>
+    <li class="last"><a href="#">İletişim</a></li>
   </ul>
 </div>

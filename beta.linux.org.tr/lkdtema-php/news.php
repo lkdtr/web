@@ -14,7 +14,7 @@ $feed->handle_content_type();
 
 <h4>Haber Linux</h4>
 <?php if ($feed->data): ?>
-  <?php $items = $feed->get_items(1, 10); ?>
+  <?php $items = $feed->get_items(1, 2); ?>
   <span class="news_description">Son <?php echo count($items) + 1; ?> haber görüntüleniyor..</span>
   <ul class="news">
     <li class="new">

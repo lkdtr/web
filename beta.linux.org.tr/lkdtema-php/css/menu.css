@@ -5,6 +5,7 @@
     list-style-position: outside;
     position: relative;
     line-height: 21px;
+    font-size: 12px;
 }
 
 #nav a {
@@ -12,7 +13,6 @@
     color: #444;
     text-decoration: none;
     display: block;
-    font-size: 12px;
 }
 
 #nav li {
@@ -24,6 +24,12 @@
 
 #nav li ul li, #nav li.last {
     border-right: none;
+}
+
+#nav li a.help {
+    margin-right: 2px;
+    padding-right: 18px;
+    background: transparent url('../images/help.png') center right no-repeat;
 }
 
 #nav li:hover {

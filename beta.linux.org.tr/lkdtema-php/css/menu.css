@@ -75,7 +75,12 @@
     background: #C9D7F1 url('../images/menu_bg.png') bottom left repeat-x;
     font-size: 10px;
     list-style-type: none;
+    float: left;
+    border-right: 1px solid #C2CFE8;
+}
 
+#nav_en li.last {
+    border: none;
 }
 
 #nav_en li:hover {

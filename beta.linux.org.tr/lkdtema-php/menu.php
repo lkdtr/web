@@ -11,10 +11,9 @@
         <li><a href="#">Dağıtımlar Kılavuzu</a></li>
         <li><a href="#">Yerel Özgür Yazılımlar</a></li>
         <li><a href="#">Yerelleştirme Çalışmaları</a></li>
-        <li><a href="#">Yardım</a></li>
       </ul>
     </li>
-    <li class="last">
+    <li>
       <a href="#">Bağlantılar</a>
       <ul>
         <li><a href="#">FTP Dosya Alanı</a></li>
@@ -25,6 +24,7 @@
         <li><a href="#">E-posta Listeleri</a></li>
       </ul>
     </li>
+    <li class="last"><a class="help" href="#">Yardım</a></li>
   </ul>
 
   <ul id="nav_en">

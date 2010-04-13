@@ -1,6 +1,5 @@
 <div class="wrapper" id="horizontal_menu">
   <ul id="nav">
-    <li><a href="#">Haberler</a></li>
     <li>
       <a href="#">Daha Fazla Linux</a>
       <ul>
@@ -11,6 +10,13 @@
         <li><a href="#">Dağıtımlar Kılavuzu</a></li>
         <li><a href="#">Yerel Özgür Yazılımlar</a></li>
         <li><a href="#">Yerelleştirme Çalışmaları</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Daha Fazla Özgürlük</a>
+      <ul>
+        <li><a href="#">Wikipedia Özgür Ansiklopedi</a></li>
+        <li><a href="#">Özgür Dünya Haritası</a></li>
       </ul>
     </li>
     <li>

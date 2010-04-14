@@ -126,7 +126,7 @@ span.news_description {
 
 #content {
     background-color: #FFF;
-    min-height: 550px;
+    min-height: 450px;
 }
 
 #footer {
@@ -154,13 +154,23 @@ span.news_description {
 }
 
 #google_search {
-    background-color: #EEE;
     margin: 0;
     padding: 0 5px 5px 5px;
 }
 
 #google_search input.text {
+    margin: 10px 5px 5px 0;
     border: 1px solid #AAA;
+    width: 200px;
+}
+
+#google_search ul li {
+    margin-right: 15px;
+    display: inline;
+}
+
+#google_search img {
+    float: left;
 }
 
 #bottom_right {
@@ -181,4 +191,9 @@ span.news_description {
 
 #other {
     height: 50px;
+}
+
+#bottom_area {
+    border-top: 2px solid #CCC;
+    background-color: #EEE;
 }

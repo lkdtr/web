@@ -218,7 +218,7 @@
     </div>
     <hr>
 
-    <div class="baslik">Elektronik <span>(linux-mobil@liste.linux.org.tr)</span></div>
+    <div class="baslik">Mobil <span>(linux-mobil@liste.linux.org.tr)</span></div>
     <div class="detay">
 Android, Moblin, Maemo, netbook dağıtımları gibi linux temelli taşınabilir işletim sistemleri ve bunları kullanan cihazlar bu listede konuşulur.<br />
       <br />

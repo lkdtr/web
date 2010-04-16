@@ -14,7 +14,10 @@ $feed->handle_content_type();
 
 <?php if ($feed->data): ?>
   <?php $last_item = $feed->get_item(0); ?>
-  <h4><a href="<?php echo $last_item->get_permalink(); ?>"><?php echo $last_item->get_title(); ?></a> <?php echo $last_item->get_date('j M Y'); ?></h4>
+  <h4>
+    <a href="<?php echo $last_item->get_permalink(); ?>"><?php echo $last_item->get_title(); ?></a>
+    <p class="date"><?php echo $last_item->get_date('j M Y'); ?></p>
+  </h4>
   <?php echo $last_item->get_content(); ?>
   <?php
   if ($enclosure = $last_item->get_enclosure(0))

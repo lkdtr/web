@@ -3,39 +3,39 @@
     <li>
       <a href="#">Daha Fazla Linux</a>
       <ul>
-        <li><a href="#">Linux CD'leri</a></li>
-        <li><a href="#">Destek ve Eğitim Kurumları</a></li>
-        <li><a href="#">Kitaplar</a></li>
-        <li><a href="#">Elektronik Dergiler</a></li>
-        <li><a href="#">Dağıtımlar Kılavuzu</a></li>
-        <li><a href="#">Yerel Özgür Yazılımlar</a></li>
-        <li><a href="#">Yerelleştirme Çalışmaları</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/linux_cdleri">Linux CD'leri</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/destek_ve_egitim_kurumlari">Destek ve Eğitim Kurumları</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/kitaplar">Kitaplar</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/elektronik_dergiler">Elektronik Dergiler</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/dagitimlar_kilavuzu">Dağıtımlar Kılavuzu</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/yerel_ozgur_yazilimlar">Yerel Özgür Yazılımlar</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/yerellestirme_calismalari">Yerelleştirme Çalışmaları</a></li>
       </ul>
     </li>
     <li>
       <a href="#">Daha Fazla Özgürlük</a>
       <ul>
-        <li><a href="#">Wikipedia Özgür Ansiklopedi</a></li>
-        <li><a href="#">Özgür Dünya Haritası</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/wikipedia_ozgur_ansiklopedi">Wikipedia Özgür Ansiklopedi</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/ozgur_dunya_haritasi">Özgür Dünya Haritası</a></li>
       </ul>
     </li>
     <li>
       <a href="#">Bağlantılar</a>
       <ul>
-        <li><a href="#">FTP Dosya Alanı</a></li>
-        <li><a href="#">Belgeler</a></li>
-        <li><a href="#">Seminerler</a></li>
-        <li><a href="#">Linux Gezegeni</a></li>
-        <li><a href="#">Linux ve Özgür Yazılım Şenliği</a></li>
-        <li><a href="#">E-posta Listeleri</a></li>
+        <li><a href="http://www.linux.org.tr/ftp.html">FTP Dosya Alanı</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/belgeler">Belgeler</a></li>
+        <li><a href="http://seminer.linux.org.tr">Seminerler</a></li>
+        <li><a href="http://gezegen.linux.org.tr">Linux Gezegeni</a></li>
+        <li><a href="http://senlik.linux.org.tr">Linux ve Özgür Yazılım Şenliği</a></li>
+        <li><a href="http://liste.linux.org.tr">E-posta Listeleri</a></li>
       </ul>
     </li>
-    <li class="last"><a class="help" href="#">Yardım</a></li>
+    <li class="last"><a class="help" href="<?php bloginfo('siteurl'); ?>/yardim">Yardım</a></li>
   </ul>
 
   <ul id="nav_en">
-    <li><a href="#">LKD Hakkında</a></li>
-    <li><a href="#">About Us</a></li>
-    <li class="last"><a href="#">İletişim</a></li>
+    <li><a href="<?php bloginfo('siteurl'); ?>/lkd_hakkinda">LKD Hakkında</a></li>
+    <li><a href="<?php bloginfo('siteurl'); ?>/about">About Us</a></li>
+    <li class="last"><a href="<?php bloginfo('siteurl'); ?>/iletisim">İletişim</a></li>
   </ul>
 </div>

@@ -52,6 +52,10 @@ img.last {
     float: right;
 }
 
+ul {
+    padding: 0 5px;
+}
+
 ul.news {
     margin: 0;
     padding: 0;

@@ -18,7 +18,7 @@ $feed->handle_content_type();
   <?php $last_item = $feed->get_item(0); ?>
   <h4>
     <a href="<?php echo $last_item->get_permalink(); ?>"><?php echo $last_item->get_title(); ?></a>
-    <p class="date"><?php echo $last_item->get_date('j M Y'); ?></p>
+    <p class="date"><?php echo $last_item->get_date('j F Y'); ?></p>
   </h4>
   <?php echo $last_item->get_content(); ?>
   <?php

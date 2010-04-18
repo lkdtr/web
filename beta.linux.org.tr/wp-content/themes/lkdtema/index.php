@@ -15,6 +15,7 @@
       <a href="#"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-1.jpg" /></a>
       <a href="#"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-2.jpg" /></a>
     </div>
+
     <!--
     <?php if (have_posts()) : ?>
       <?php while (have_posts()) : the_post(); ?>
@@ -33,11 +34,12 @@
       <p>Üzgünüz, aradığınız şey burada değil.</p>
     <?php endif; ?>
     -->
+
     <?php include 'news.php'; ?>
   </div>
   
   <?php include 'bottom_area.php'; ?>
-  <?php include 'footer.php'; ?>
+  <?php get_footer(); ?>
 </div>
 
 <!-- Finito -->

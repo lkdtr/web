@@ -84,6 +84,10 @@ h4 {
     font-size: 13px;
 }
 
+h4 a {
+    color: #025387;
+}
+
 span.news_description {
     margin: 2px 5px 10px 5px;
     padding: 0;

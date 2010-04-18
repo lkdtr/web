@@ -31,6 +31,7 @@
       <h2>Bulunamadı</h2>
       <p>Üzgünüz, aradığınız şey burada değil.</p>
     <?php endif; ?>
+    <?php include 'news.php'; ?>
   </div>
 </div>
 

@@ -38,6 +38,12 @@ img {
     border: none;
 }
 
+img.logo {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
 img.button {
     padding: 10px 5px;
 }
@@ -109,10 +115,13 @@ span.news_description {
 }
 
 #header {
-    padding-top: 18px;
+    padding-top: 0;
     text-align: right;
-    background: transparent url('../images/logo.png') no-repeat 5px left;
-    height: 72px;
+    height: 85px;
+}
+
+#banner {
+    padding-top: 15px;
 }
 
 #horizontal_menu {

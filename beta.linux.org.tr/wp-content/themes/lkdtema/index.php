@@ -15,8 +15,8 @@
       <a href="#"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-1.jpg" /></a>
       <a href="#"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-2.jpg" /></a>
     </div>
-    <?php if (have_post()) : ?>
-      <?php while (have_post()) : the_post(); ?>
+    <?php if (have_posts()) : ?>
+      <?php while (have_posts()) : the_post(); ?>
         <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
           <h2>
             <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>

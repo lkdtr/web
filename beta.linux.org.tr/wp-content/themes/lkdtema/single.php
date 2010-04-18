@@ -14,5 +14,6 @@ get_header();
       <?php the_content(); ?>
     <?php endwhile; endif; ?>
   </div>
+  <?php include 'bottom_area.php'; ?>
   <?php get_footer(); ?>
 </div>

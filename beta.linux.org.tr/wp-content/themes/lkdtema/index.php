@@ -34,6 +34,7 @@
     <?php include 'news.php'; ?>
   </div>
   
+  <?php include 'bottom_area.php'; ?>
   <?php include 'footer.php'; ?>
 </div>
 

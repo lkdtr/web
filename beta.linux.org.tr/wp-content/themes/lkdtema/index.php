@@ -4,48 +4,35 @@
  * @subpackage lkdTema 
  */
 
-ini_set('error_reporting', E_ALL);
+  ini_set('error_reporting', E_ALL);
+  get_header();
+?>
 
-get_header(); ?>
-
-	<div id="orta">
-
-	<?php if (have_posts()) : ?>
-
-		<?php while (have_posts()) : the_post(); ?>
-
-			<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-				<small><?php the_time('d F Y') ?> <!-- <?php the_author() ?> tarafından --></small>
-
-				<div class="entry">
-					<?php the_content('Yazının kalanını okuyun &raquo;'); ?>
-				</div>
-
-				<p class="postmetadata"><?php the_tags('Etiketler: ', ', ', '<br />'); ?> Kategori <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('Yorum Yok &#187;', '1 Yorum &#187;', '% Yorum &#187;'); ?></p>
-			</div>
-
-		<?php endwhile; ?>
-
-		<div class="navigation">
-			<div class="alignleft"><?php next_posts_link('&laquo; Eski Yazılar') ?></div>
-			<div class="alignright"><?php previous_posts_link('Yeni Yazılar &raquo;') ?></div>
-		</div>
-
-	<?php else : ?>
-
-		<h2 class="center">Bulunamadı</h2>
-		<p class="center">Üzgünüz, aradığınız şey burada değil.</p>
-		<?php get_search_form(); ?>
-
-	<?php endif; ?>
-
-	</div>
-
-<?php get_sidebar(); ?>
-
+<div id="page">
+  <div class="wrapper" id="content">
+    <div id="buttons">
+      <a href="#"><img class="button last" src="<?php bloginfo('template_url'); ?>/images/button-3.jpg" /></a>
+      <a href="#"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-1.jpg" /></a>
+      <a href="#"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-2.jpg" /></a>
+    </div>
+    <?php if (have_post()) : ?>
+      <?php while (have_post()) : the_post(); ?>
+        <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
+          <h2>
+            <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+          </h2>
+          <small><?php the_time('d F Y'); ?></small>
+          <div class="entry">
+            <?php the_content('Yazının kalanını okuyun &raquo;'); ?>
+          </div>
+        </div>
+      <?php endwhile; ?>
+    <?php else: ?>
+      <h2>Bulunamadı</h2>
+      <p>Üzgünüz, aradığınız şey burada değil.</p>
+    <?php endif; ?>
+  </div>
 </div>
 
-<div class="temizle"></div>
-
-<?php get_footer(); ?>
+<!-- Finito -->
+</body></html>

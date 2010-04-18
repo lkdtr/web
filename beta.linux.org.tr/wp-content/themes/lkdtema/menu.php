@@ -22,7 +22,7 @@
     <li>
       <a href="#">Bağlantılar</a>
       <ul>
-        <li><a href="http://www.linux.org.tr/ftp.html">FTP Dosya Alanı</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/ftp_dosya_alani">FTP Dosya Alanı</a></li>
         <li><a href="<?php bloginfo('siteurl'); ?>/belgeler">Belgeler</a></li>
         <li><a href="http://seminer.linux.org.tr">Seminerler</a></li>
         <li><a href="http://gezegen.linux.org.tr">Linux Gezegeni</a></li>

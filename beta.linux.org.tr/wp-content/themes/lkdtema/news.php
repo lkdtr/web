@@ -4,6 +4,8 @@ include('simplepie.class.php');
 
 $feed = new SimplePie();
 $feed->set_feed_url('http://haber.linux.org.tr/feed/');
+$feed->set_cache_location(TEMPLATEPATH.'/cache');
+$feed->set_cache_duration(600);
 $feed->init();
 $feed->strip_attributes();
 $feed->strip_comments();

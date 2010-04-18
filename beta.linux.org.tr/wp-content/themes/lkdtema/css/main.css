@@ -78,14 +78,14 @@ ul.news p {
 }
 
 h4 {
-    margin: 10px 0 5px 5px;
-    padding: 0;
+    margin: 0;
+    padding: 10px 0 5px 5px;
     color: #760707;
     font-size: 13px;
 }
 
 h4 a {
-    color: #025387;
+    color: #760707;
 }
 
 span.news_description {

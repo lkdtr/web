@@ -33,6 +33,8 @@
     <?php endif; ?>
     <?php include 'news.php'; ?>
   </div>
+  
+  <?php include 'footer.php'; ?>
 </div>
 
 <!-- Finito -->

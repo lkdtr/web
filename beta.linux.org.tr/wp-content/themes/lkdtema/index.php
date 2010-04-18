@@ -15,13 +15,14 @@
       <a href="#"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-1.jpg" /></a>
       <a href="#"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-2.jpg" /></a>
     </div>
+    <!--
     <?php if (have_posts()) : ?>
       <?php while (have_posts()) : the_post(); ?>
         <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-          <h2>
+          <h4>
             <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-          </h2>
-          <small><?php the_time('d F Y'); ?></small>
+            <p class="date"><?php the_time('d F Y'); ?></p>
+          </h4>
           <div class="entry">
             <?php the_content('Yazının kalanını okuyun &raquo;'); ?>
           </div>
@@ -31,6 +32,7 @@
       <h2>Bulunamadı</h2>
       <p>Üzgünüz, aradığınız şey burada değil.</p>
     <?php endif; ?>
+    -->
     <?php include 'news.php'; ?>
   </div>
   

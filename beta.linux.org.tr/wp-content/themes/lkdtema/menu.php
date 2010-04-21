@@ -3,26 +3,26 @@
     <li>
       <a href="#">Daha Fazla Linux</a>
       <ul>
-        <li><a href="<?php bloginfo('siteurl'); ?>/linux_cdleri">Linux CD'leri</a></li>
-        <li><a href="<?php bloginfo('siteurl'); ?>/destek_ve_egitim_kurumlari">Destek ve Eğitim Kurumları</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/linux-cdleri">Linux CD'leri</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/destek-ve-egitim-kurumlari">Destek ve Eğitim Kurumları</a></li>
         <li><a href="<?php bloginfo('siteurl'); ?>/kitaplar">Kitaplar</a></li>
-        <li><a href="<?php bloginfo('siteurl'); ?>/elektronik_dergiler">Elektronik Dergiler</a></li>
-        <li><a href="<?php bloginfo('siteurl'); ?>/dagitimlar_kilavuzu">Dağıtımlar Kılavuzu</a></li>
-        <li><a href="<?php bloginfo('siteurl'); ?>/yerel_ozgur_yazilimlar">Yerel Özgür Yazılımlar</a></li>
-        <li><a href="<?php bloginfo('siteurl'); ?>/yerellestirme_calismalari">Yerelleştirme Çalışmaları</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/elektronik-dergiler">Elektronik Dergiler</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/dagitimlar-kilavuzu">Dağıtımlar Kılavuzu</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/yerel-ozgur-yazilimlar">Yerel Özgür Yazılımlar</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/yerellestirme-calismalari">Yerelleştirme Çalışmaları</a></li>
       </ul>
     </li>
     <li>
       <a href="#">Daha Fazla Özgürlük</a>
       <ul>
-        <li><a href="<?php bloginfo('siteurl'); ?>/wikipedia_ozgur_ansiklopedi">Wikipedia Özgür Ansiklopedi</a></li>
-        <li><a href="<?php bloginfo('siteurl'); ?>/ozgur_dunya_haritasi">Özgür Dünya Haritası</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/wikipedia-ozgur-ansiklopedi">Wikipedia Özgür Ansiklopedi</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/ozgur-dunya-haritasi">Özgür Dünya Haritası</a></li>
       </ul>
     </li>
     <li>
       <a href="#">Bağlantılar</a>
       <ul>
-        <li><a href="<?php bloginfo('siteurl'); ?>/ftp_dosya_alani">FTP Dosya Alanı</a></li>
+        <li><a href="<?php bloginfo('siteurl'); ?>/ftp-dosya-alani">FTP Dosya Alanı</a></li>
         <li><a href="<?php bloginfo('siteurl'); ?>/belgeler">Belgeler</a></li>
         <li><a href="http://seminer.linux.org.tr">Seminerler</a></li>
         <li><a href="http://gezegen.linux.org.tr">Linux Gezegeni</a></li>

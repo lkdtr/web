@@ -206,8 +206,8 @@ span.news_description {
     background-color: #EEE;
 }
 
-// Diğer Özelleştirmeler
-ul.yerellestirme_calismalari li {
+// Diger Ozellestirmeler
+li.yc {
     margin: 0 0 5px 0;
     border-bottom: 1px solid #CCC;
 }

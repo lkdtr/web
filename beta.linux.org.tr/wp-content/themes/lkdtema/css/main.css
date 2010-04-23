@@ -134,7 +134,7 @@ span.news_description {
 
 #page {
     background: #000 url('../images/background.jpg') no-repeat top center;
-    min-height: 550px;
+    min-height: 580px;
 }
 
 #content {
@@ -143,6 +143,7 @@ span.news_description {
 }
 
 #footer {
+    margin-bottom: 10px;
     padding: 5px 0;
     border-top: 3px solid #C9D7F1;
     background-color: #D5E4FF;

@@ -154,8 +154,12 @@ span.news_description {
     min-height: 450px;
 }
 
+#content ul {
+    list-style-type: circle;
+}
+
 #content ul li {
-	padding: 0 0 5px 20px;
+	padding: 3px 0 3px 20px;
 }
 
 #footer {
@@ -197,6 +201,7 @@ span.news_description {
 #google_search ul li {
     margin-right: 15px;
     display: inline;
+    list-style-type: none;
 }
 
 #google_search img {

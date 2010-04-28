@@ -158,6 +158,10 @@ span.news_description {
     min-height: 450px;
 }
 
+#content ul li {
+	list-style-type: circle;
+}
+
 #footer {
     margin-bottom: 10px;
     padding: 5px 0;

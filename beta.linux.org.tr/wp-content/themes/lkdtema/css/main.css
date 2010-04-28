@@ -237,4 +237,5 @@ span.news_description {
 	background-color: #FFFFCC;
 	border: 1px dashed #AAA;
 	font-size: 10px;
+	text-align: justify;
 }

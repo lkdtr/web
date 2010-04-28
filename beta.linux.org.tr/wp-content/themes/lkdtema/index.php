@@ -20,10 +20,10 @@
     <?php if (have_posts()) : ?>
       <?php while (have_posts()) : the_post(); ?>
         <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-          <h4>
+          <h2>
             <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
             <p class="date"><?php the_time('d F Y'); ?></p>
-          </h4>
+          </h2>
           <div class="entry">
             <?php the_content('Yazının kalanını okuyun &raquo;'); ?>
           </div>

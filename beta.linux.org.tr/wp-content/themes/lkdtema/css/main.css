@@ -64,11 +64,6 @@ ul.news {
     font-size: 11px;
 }
 
-li.new, li.other_new {
-    margin-bottom: 5px;
-    padding: 5px 12px;
-}
-
 ul.news li.other_new {
     margin: 0;
     padding: 2px 10px;
@@ -153,12 +148,12 @@ span.news_description {
 }
 
 #content ul {
-	margin: 0;
-	padding-left: 20px;
+	margin: 0 0 0 30px;
     list-style-type: circle;
 }
 
 #content ul li {
+	margin: 0;
 	padding: 3px 0;
 }
 

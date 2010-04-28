@@ -232,6 +232,8 @@ span.news_description {
 }
 
 #warning-dialog {
+	margin: 5px 20px;
+	padding: 5px;
 	background-color: #FFFFCC;
 	border: 1px dashed #AAA;
 	font-size: 10px;

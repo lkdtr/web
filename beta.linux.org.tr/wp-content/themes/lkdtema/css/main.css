@@ -230,3 +230,9 @@ span.news_description {
 	color: #333;
 	text-shadow:  2px 2px 4px #CCC;
 }
+
+#warning-dialog {
+	background-color: #FFFFCC;
+	border: 1px dashed #AAA;
+	font-size: 10px;
+}

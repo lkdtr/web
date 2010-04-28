@@ -36,6 +36,6 @@
   <ul id="nav_en">
     <li><a href="http://www.lkd.org.tr">LKD Hakkında</a></li>
     <li><a href="http://www.lkd.org.tr/english/">About Us</a></li>
-    <li class="last"><a href="<?php bloginfo('siteurl'); ?>/iletisim">İletişim</a></li>
+    <li class="last"><a href="http://www.lkd.org.tr/hakkimizda/iletisim/">İletişim</a></li>
   </ul>
 </div>

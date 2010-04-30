@@ -10,22 +10,24 @@
 
 <div id="page">
   <div class="wrapper" id="content">
-    <div id="buttons">
-      <a href="<?php bloginfo('siteurl'); ?>/yardim"><img class="button last" src="<?php bloginfo('template_url'); ?>/images/button-3.jpg" /></a>
-      <a href="<?php bloginfo('siteurl'); ?>/linux-nedir"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-1.jpg" /></a>
-      <a href="<?php bloginfo('siteurl'); ?>/dagitimlar-kilavuzu"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-2.jpg" /></a>
-    </div>
+    <div id="with-sidebar">
+      <div id="buttons">
+        <a href="<?php bloginfo('siteurl'); ?>/linux-nedir"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-1.jpg" /></a>
+        <a href="<?php bloginfo('siteurl'); ?>/dagitimlar-kilavuzu"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-2.jpg" /></a>
+        <a href="<?php bloginfo('siteurl'); ?>/yardim"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-3.jpg" /></a>
+      </div>
+      
+      <div id="what-is-linux">
+        <h4>Linux Nedir?</h4>
+        <p>Linux, Internet üzerinden haberleşen çok sayıda gönüllü programcının desteğiyle Linus Torvalds tarafından baştan başlanarak geliştirilmiş GNU/Linux işletim sisteminin çekirdeğidir. Daha fazla bilgi…</p>
     
-    <div id="what-is-linux">
-      <h4>Linux Nedir?</h4>
-      <p>Linux, Internet üzerinden haberleşen çok sayıda gönüllü programcının desteğiyle Linus Torvalds tarafından baştan başlanarak geliştirilmiş GNU/Linux işletim sisteminin çekirdeğidir. Daha fazla bilgi…</p>
-  
-      <h4>Özgür Yazılım Nedir?</h4>
-      <p>Yazılım ürünlerinin kişi, kurum ve kuruluşlardan bağımsız olarak geliştirilmesi, kullanılması, dağıtılması ve paylaşılması anlayışı özgür yazılım olarak bilinmektedir. Daha fazla bilgi…</p>
-  
-      <h4>Nereden Linux Bulabilirim?</h4>
-      <p>Linux, diğer birçok özgür yazılım ürünü gibi ücretsiz olarak edinilebilmektedir. Çeşitli Linux dağıtımlarının yansılarını Dosya Alanı bölümünü oluşturan FTP sunucumuzda bulabilirsiniz. LKD’nin katıldığı çeşitli fuarlarda, standımızda Linux CD’leri bulabilirsiniz. Bunun yanı sıra CD satan yerlere de başvurabilirsiniz.</p>
-    </div>
+        <h4>Özgür Yazılım Nedir?</h4>
+        <p>Yazılım ürünlerinin kişi, kurum ve kuruluşlardan bağımsız olarak geliştirilmesi, kullanılması, dağıtılması ve paylaşılması anlayışı özgür yazılım olarak bilinmektedir. Daha fazla bilgi…</p>
+    
+        <h4>Nereden Linux Bulabilirim?</h4>
+        <p>Linux, diğer birçok özgür yazılım ürünü gibi ücretsiz olarak edinilebilmektedir. Çeşitli Linux dağıtımlarının yansılarını Dosya Alanı bölümünü oluşturan FTP sunucumuzda bulabilirsiniz. LKD’nin katıldığı çeşitli fuarlarda, standımızda Linux CD’leri bulabilirsiniz. Bunun yanı sıra CD satan yerlere de başvurabilirsiniz.</p>
+      </div>
+    </div> <!-- end with-sidebar -->
 
     <!--
     <?php if (have_posts()) : ?>

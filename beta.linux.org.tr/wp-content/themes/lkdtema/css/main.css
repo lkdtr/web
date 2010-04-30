@@ -46,11 +46,7 @@ img.logo {
 }
 
 img.button {
-    padding: 10px 5px;
-}
-
-img.last {
-    float: right;
+    padding: 0 0 5px 0;
 }
 
 ul {
@@ -114,7 +110,7 @@ span.news_description {
 
 .wrapper {
     margin: 0 auto;
-    width: 640px;
+    width: 760px;
 }
 
 #top {
@@ -217,24 +213,35 @@ span.news_description {
     background-color: #EEE;
 }
 
+#with-sidebar {
+	background-color: #FFFFCC;
+    border-bottom: 1px dashed #760707;
+    min-height: 280px;
+}
+
 #what-is-linux {
 	padding-bottom: 10px;
-	background-color: #FFFFCC;
-	border: 1px solid #760707;
-	border-left: none;
-	border-right: none;
+	text-align: justify;
+    width: 550px;
 }
 
 #what-is-linux h4 {
+	padding-top: 14px;
 	color: #333;
 	text-shadow:  2px 2px 4px #CCC;
 }
 
 #warning-dialog {
-	margin: 5px 20px;
+	margin: 0 20px;
 	padding: 5px;
 	background-color: #FFFFCC;
 	border: 1px dashed #AAA;
 	font-size: 10px;
 	text-align: justify;
+}
+
+#buttons {
+	padding: 5px 10px;
+	width: 200px;
+	float: right;
 }

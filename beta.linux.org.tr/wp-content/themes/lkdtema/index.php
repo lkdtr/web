@@ -3,7 +3,6 @@
  * @package WordPress
  * @subpackage lkdTema 
  */
-
   ini_set('error_reporting', E_ALL);
   get_header();
 ?>

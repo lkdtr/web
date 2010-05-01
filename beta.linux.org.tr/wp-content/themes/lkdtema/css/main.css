@@ -55,6 +55,7 @@ ul.news {
     margin: 0;
     padding: 0 0 5px 0;
     font-size: 11px;
+    width: 330px;
 }
 
 ul.news li.other_new {
@@ -177,6 +178,9 @@ span.news_description {
 #google_search {
     margin: 0;
     padding: 0 5px 5px 5px;
+    clear: both;
+    border-top: 2px solid #CCC;
+    background-color: #EEE;
 }
 
 #google_search input.text {
@@ -191,23 +195,12 @@ span.news_description {
     list-style-type: none;
 }
 
-#google_search img {
-    float: left;
-}
-
-#bottom_right {
-    width: 400px;
-    float: right;
-    border-left: 1px solid #CCC;
-}
-
 #other {
     height: 50px;
 }
 
 #bottom_area {
-    border-top: 2px solid #CCC;
-    background-color: #EEE;
+    background-color: #FFF;
 }
 
 #with-sidebar {
@@ -242,3 +235,12 @@ span.news_description {
 	width: 200px;
 	float: right;
 }
+
+#right-news {
+	float: right;
+}
+
+/* Kalsın bu böyle, lazım olabilir ;-)
+#other-news {
+}
+*/

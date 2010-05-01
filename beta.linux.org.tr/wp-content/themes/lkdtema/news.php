@@ -18,7 +18,7 @@ $feed->handle_content_type();
   <?php $last_item = $feed->get_item(0); ?>
   <h2>
     <a href="<?php echo $last_item->get_permalink(); ?>"><?php echo $last_item->get_title(); ?></a>
-    <p class="date"><?php echo $last_item->get_date('j F Y'); ?></p>
+    <p class="date"><?php echo $last_item->get_date('d m Y'); ?></p>
   </h2>
   <?php echo $last_item->get_content(); ?>
   <?php
@@ -30,7 +30,7 @@ $feed->handle_content_type();
   <h2>Diğer Haber Başlıkları</h2>
   <ul class="news">
     <?php foreach($items as $item): ?>
-      <li class="other_new"><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a> <?php echo $item->get_date('j M Y'); ?></li>
+      <li class="other_new"><a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a> <?php echo $item->get_date('d m Y'); ?></li>
     <?php endforeach; ?>
   </ul>
 <?php endif; ?>

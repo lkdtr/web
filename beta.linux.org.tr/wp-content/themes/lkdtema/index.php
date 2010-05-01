@@ -19,7 +19,7 @@
         
         <div id="what-is-linux">
           <h4>Linux Nedir?</h4>
-          <p>Linux, Internet üzerinden haberleşen çok sayıda gönüllü programcının desteğiyle Linus Torvalds tarafından baştan başlanarak geliştirilmiş GNU/Linux işletim sisteminin çekirdeğidir. Daha fazla bilgi…</p>
+          <p>Linux, Internet üzerinden haberleşen çok sayıda gönüllü programcının desteğiyle Linus Torvalds tarafından baştan başlanarak geliştirilmiş GNU/Linux işletim sisteminin çekirdeğidir.</p>
       
           <h4>Özgür Yazılım Nedir?</h4>
           <p>Yazılım ürünlerinin kişi, kurum ve kuruluşlardan bağımsız olarak geliştirilmesi, kullanılması, dağıtılması ve paylaşılması anlayışı özgür yazılım olarak bilinmektedir. <a href="/linux-nedir">Daha fazla bilgi…</a></p>

@@ -11,7 +11,6 @@ a {
 
 p {
     margin: 0;
-    padding: 5px 12px;
 }
 
 p.date {
@@ -78,7 +77,6 @@ ul.news p {
 
 h2 {
     margin: 0;
-    padding: 12px;
     color: #760707;
 }
 
@@ -88,7 +86,6 @@ h2 a {
 
 h4 {
     margin: 0;
-    padding: 12px 12px 0 12px;
     color: #760707;
     font-size: 13px;
 }
@@ -137,8 +134,8 @@ span.news_description {
 }
 
 #content {
+	padding: 10px 15px;
     background-color: #FFF;
-    min-height: 450px;
 }
 
 #content ul {
@@ -152,7 +149,7 @@ span.news_description {
 }
 
 #footer {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 5px 0;
     border-top: 3px solid #C9D7F1;
     background-color: #D5E4FF;
@@ -219,7 +216,7 @@ span.news_description {
 }
 
 #what-is-linux {
-	padding-bottom: 10px;
+	padding: 0 15px;
 	text-align: justify;
     width: 550px;
 }

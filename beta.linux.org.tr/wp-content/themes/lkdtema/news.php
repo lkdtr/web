@@ -1,5 +1,5 @@
 <?php
-setlocale(LC_ALL, "tr_TR");
+setlocale(LC_ALL, "tr_TR.UTF-8");
 include('simplepie.class.php');
 
 $feed = new SimplePie();

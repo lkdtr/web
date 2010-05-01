@@ -180,7 +180,7 @@ span.news_description {
 }
 
 #google_search input.text {
-    margin: 10px 5px 5px 0;
+    margin: 10px 5px 5px 7px;
     border: 1px solid #AAA;
     width: 200px;
 }

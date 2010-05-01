@@ -1,5 +1,5 @@
 <?php
-
+setlocale(LC_ALL, "tr_TR");
 include('simplepie.class.php');
 
 $feed = new SimplePie();
@@ -27,7 +27,7 @@ $gfeed->handle_content_type();
 <?php $last_item = $feed->get_item(0); ?>
 <h2>
   <a href="<?php echo $last_item->get_permalink(); ?>"><?php echo $last_item->get_title(); ?></a>
-  <p class="date"><?php echo $last_item->get_date('d m Y'); ?></p>
+  <p class="date"><?php echo $last_item->get_local_date('%e %B %Y'); ?></p>
 </h2>
 <?php echo $last_item->get_content(); ?>
 <?php
@@ -37,29 +37,29 @@ if ($enclosure = $last_item->get_enclosure(0))
 
 
 <div id="other-news">
-<div id="right-news">
-<?php $items = $gfeed->get_items(0, 2); ?>
-<h2>Linux Gezegeni</h2>
-<ul class="news">
-  <?php foreach($items as $item): ?>
-    <li class="other_new">
-      <a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a>
-      <p style="font-size: 9px; margin: 0;">(<?php echo $item->get_date('d m Y'); ?>)</p>
-    </li>
-  <?php endforeach; ?>
-</ul>
-<p style="padding-bottom: 10px; font-size: 10px; font-style: italic; list-style-type: none;">(Tüm gezegen yazılarını görmek için <a href="http://gezegen.linux.org.tr/">tıklayın.</a>)</p>
-</div>
+  <div id="right-news">
+  <?php $items = $gfeed->get_items(0, 2); ?>
+  <h2>Linux Gezegeni</h2>
+  <ul class="news">
+    <?php foreach($items as $item): ?>
+      <li class="other_new">
+        <a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a>
+        <p style="font-size: 9px; margin: 0;">(<?php echo $item->get_local_date('%e %B %Y'); ?>)</p>
+      </li>
+    <?php endforeach; ?>
+  </ul>
+  <p style="padding-bottom: 10px; font-size: 10px; font-style: italic; list-style-type: none;">(Tüm gezegen yazılarını görmek için <a href="http://gezegen.linux.org.tr/">tıklayın.</a>)</p>
+  </div>
 
-<?php $items = $feed->get_items(1, 2); ?>
-<h2>Diğer Haber Başlıkları</h2>
-<ul class="news">
-  <?php foreach($items as $item): ?>
-    <li class="other_new">
-      <a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a>
-      <p style="font-size: 9px; margin: 0;">(<?php echo $item->get_date('d m Y'); ?>)</p>
-     </li>
-  <?php endforeach; ?>
-</ul>
-<p style="padding-bottom: 10px; font-size: 10px; font-style: italic; list-style-type: none;">(Tüm haberleri görmek için <a href="http://haber.linux.org.tr/">tıklayın.</a>)</p>
+  <?php $items = $feed->get_items(1, 2); ?>
+  <h2>Diğer Haber Başlıkları</h2>
+  <ul class="news">
+    <?php foreach($items as $item): ?>
+      <li class="other_new">
+        <a href="<?php echo $item->get_permalink(); ?>"><?php echo $item->get_title(); ?></a>
+        <p style="font-size: 9px; margin: 0;">(<?php echo $item->get_local_date('%e %B %Y'); ?>)</p>
+       </li>
+    <?php endforeach; ?>
+  </ul>
+  <p style="padding-bottom: 10px; font-size: 10px; font-style: italic; list-style-type: none;">(Tüm haberleri görmek için <a href="http://haber.linux.org.tr/">tıklayın.</a>)</p>
 </div>

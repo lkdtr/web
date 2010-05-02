@@ -1,9 +1,4 @@
 <?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
-
 // Bu satırları silmeyin
 	if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
 		die ('Lütfen bu sayfayı direkt yüklemeyin. Teşekkürler!');

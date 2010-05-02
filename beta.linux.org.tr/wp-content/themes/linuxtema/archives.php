@@ -1,13 +1,3 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
-/*
-Template Name: Archives
-*/
-?>
-
 <?php get_header(); ?>
 
 <div id="content" class="widecolumn">

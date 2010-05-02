@@ -1,14 +1,3 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
-
-/*
-Template Name: Links
-*/
-?>
-
 <?php get_header(); ?>
 
 <div class="blok">

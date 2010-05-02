@@ -1,9 +1,3 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
-?>
 	<div id="sag">
 			<?php 	/* Eğer eklentiler yüklüyse bu yan sütun bileşen uyumlu çalışır. */
 					if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>

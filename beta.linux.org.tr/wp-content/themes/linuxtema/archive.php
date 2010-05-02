@@ -1,11 +1,5 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
+<?php get_header(); ?>
 
-get_header();
-?>
 <div id="orta">
 	<div id="content" class="narrowcolumn">
 

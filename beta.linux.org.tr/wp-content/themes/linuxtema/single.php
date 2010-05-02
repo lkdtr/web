@@ -1,11 +1,4 @@
-<?php
-/**
- * @package WordPress
- * @subpackage lkdTema
- */
-
-get_header();
-?>
+<?php get_header(); ?>
 
 <div id="page">
   <div class="wrapper">

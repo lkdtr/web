@@ -53,8 +53,12 @@ ul {
 }
 
 ul.index li, ul.index li ul li {
-	margin: 0 10px;
+	margin: 0;
 	padding: 0;
+}
+
+ul.index, ul.index ul {
+	margin: 0;
 }
 
 ul.news {

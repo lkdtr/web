@@ -11,4 +11,10 @@
     <a href='http://www.vim.org'><img src='<?php bloginfo('template_url'); ?>/images/banners/vim_edited_blue.jpg' alt='Edited with VIM' /></a>
   </p>
   <span><a href="<?php bloginfo('siteurl'); ?>/gpl">GPL</a></span>
+  <?php
+    if (function_exists('quotescollection_quote')):
+      $quote_array = quotescollection_get_randomquote(); 
+      echo('<span><i>"'.$quote_array['quote'].'"</i></span>');
+    endif;
+  ?>
 </div>

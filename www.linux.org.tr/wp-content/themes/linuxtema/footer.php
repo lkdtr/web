@@ -1,10 +1,3 @@
-<?php
-/**
- * @package WordPress
- * @subpackage lkdTema
- */
-?>
-
 <div class="wrapper" id="footer">
   <p class="left">
     <a href='http://www.mozilla.org/products/firefox/'><img src='http://sfx-images.mozilla.org/firefox/3.6/80x15_square_orange.png' alt='Spread Firefox Affiliate Button' border='0' /></a>
@@ -13,8 +6,9 @@
   <span><a href="<?php bloginfo('siteurl'); ?>/gpl">GPL</a></span>
   <?php
     if (function_exists('quotescollection_quote')):
-      $quote_array = quotescollection_get_randomquote(); 
-      echo('<span><i>"'.$quote_array['quote'].'"</i></span>');
+      $quote_array = quotescollection_get_randomquote();
+      $quote = stripslashes($quote_array['quote']);
+      print('<span><i>'. $quote .'</i></span>');
     endif;
   ?>
 </div>

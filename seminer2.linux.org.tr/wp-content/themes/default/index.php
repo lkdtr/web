@@ -9,7 +9,7 @@
 				<h1><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e('', 'default'); ?> <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 				<small class="meta">
           <span class="alignleft">
-            Tarih: <?php the_time(__('j F Y', 'default')) ?> | Yazar: <?php the_author() ?> | <?php _e('Kategori: ', 'default' ); the_category(', '); ?>
+            <?php _e('Kategori: ', 'default' ); the_category(', '); ?>
             <?php edit_post_link(__( '(e)', 'default' ), ' | ', ''); ?>
           </span>
         </small>

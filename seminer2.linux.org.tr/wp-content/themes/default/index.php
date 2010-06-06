@@ -2,7 +2,9 @@
 
 	<div id="container">
 		<div id="content">
-      
+
+      <p align="center"><font color="red"><i>Site ağır inşaat halindedir. Geçmiş arşivlerin aktarılması sürmektedir.</i></font></p>      
+
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			<div <?php post_class() ?> id="post-<?php the_ID(); ?>">

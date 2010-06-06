@@ -9,7 +9,7 @@
 			<h1><?php the_title(); ?></h1>
 			<small class="meta">
           <span class="alignleft">
-            Tarih: <?php the_time(__('j F Y', 'default')) ?> | Yazar: <?php the_author() ?> | <?php _e('Kategori: ', 'default' ); the_category(', '); ?>
+            <?php _e('Kategori: ', 'default' ); the_category(', '); ?>
             <?php edit_post_link(__( '(e)', 'default' ), ' | ', ''); ?>
           </span>
       </small>

@@ -33,9 +33,8 @@ if (top.location != self.location) top.location = self.location;
 <div id="header" class="clearfix">
 
 	<ul id="accessibility">
-		<li><a href="<?php echo get_option('home'); ?>/hakkinda">Çalışma Grubu</a></li>
-		<li><a href="<?php echo get_option('home'); ?>/sss">Sık Sorulan Sorular</a></li>
-		<li><a href="<?php echo get_option('home'); ?>/iletisim">İletişim</a></li>
+		<li><a href="<?php echo get_option('home'); ?>/hakkinda">Hakkımızda</a></li>
+		<li><a href="http://www.lkd.org.tr">LKD</a></li>
 		<li><a href="<?php if (get_option('greenpark2_feed_enable') == 'yes') { echo 'http://feeds.feedburner.com/' . get_option('greenpark2_feed_uri'); } else { echo get_bloginfo('rss2_url'); }?>">RSS</a></li>
 	</ul>
 
@@ -49,14 +48,11 @@ if (top.location != self.location) top.location = self.location;
 			<?php get_search_form(); ?>
 		</div>
 		<ul id="menu">
-  		<li class="page-item-home <?php if ( is_home() ) { ?> current_page_item <?php } ?>"><a href="<?php echo get_option('home'); ?>/"><?php _e('Home', 'default'); ?></a></li>
-		<li><a href="<?php echo get_option('home'); ?>/kategori/gezici-seminerler/">Gezici Seminerler</a></li>
-		<li><a href="<?php echo get_option('home'); ?>/kategori/konferanslar/">Konferanslar</a></li>
-		<li><a href="<?php echo get_option('home'); ?>/konusmacilar">Konuşmacılar</a></li>
+  		<li class="page-item-home <?php if ( is_home() ) { ?> current_page_item <?php } ?>"><a href="<?php echo get_option('home'); ?>/">Seminerler</a></li>
 		<li><a href="<?php echo get_option('home'); ?>/seminer-notlari">Seminer Notları</a></li>
 		<li><a href="<?php echo get_option('home'); ?>/seminer-videolari">Seminer Videoları</a></li>
-		<li><a href="<?php echo get_option('home'); ?>/seminer-afisleri">Seminer Afişleri</a></li>
-
+		<li><a href="<?php echo get_option('home'); ?>/sss">Sık Sorulan Sorular</a></li>
+		<li><a href="http://www.lkd.org.tr/hakkimizda/iletisim/">İletişim</a></li>
 		</ul>
 	</div>
 

@@ -33,7 +33,6 @@ if (top.location != self.location) top.location = self.location;
 <div id="header" class="clearfix">
 
 	<ul id="accessibility">
-		<li><a href="<?php echo get_option('home'); ?>/hakkinda">Hakkımızda</a></li>
 		<li><a href="http://www.lkd.org.tr">LKD</a></li>
 		<li><a href="<?php if (get_option('greenpark2_feed_enable') == 'yes') { echo 'http://feeds.feedburner.com/' . get_option('greenpark2_feed_uri'); } else { echo get_bloginfo('rss2_url'); }?>">RSS</a></li>
 	</ul>

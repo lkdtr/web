@@ -51,7 +51,7 @@ if (top.location != self.location) top.location = self.location;
 		<li><a href="<?php echo get_option('home'); ?>/seminer-notlari">Seminer Notları</a></li>
 		<li><a href="<?php echo get_option('home'); ?>/seminer-videolari">Seminer Videoları</a></li>
 		<li><a href="<?php echo get_option('home'); ?>/sss">Sık Sorulan Sorular</a></li>
-		<li><a href="http://www.lkd.org.tr/hakkimizda/iletisim/">İletişim</a></li>
+		<li><a href="<?php echo get_option('home'); ?>/iletisim">İletişim</a></li>
 		</ul>
 	</div>
 

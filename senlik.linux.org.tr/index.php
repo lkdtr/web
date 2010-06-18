@@ -1,1 +1,1 @@
-<?php header("Location: 2010/"); ?>
+deneme

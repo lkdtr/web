@@ -18,8 +18,8 @@ $indexCount     = count($dirArray);
 sort($dirArray);
 
 // print 'em
-print("<TABLE border=1 cellpadding=5 cellspacing=0 class=whitelinks>\n");
-print("<TR><TH>Filename</TH></TR>\n");
+print("<TABLE border=0 cellpadding=5 cellspacing=0 class=whitelinks>\n");
+print("<TR><TH>Önceki yıllarda yapılan  şenliklerimiz</TH></TR>\n");
 // loop through the array of files and print them all
 for($index=0; $index < $indexCount; $index++) {
         if (substr("$dirArray[$index]", 0, 1) != "."){ // don't list hidden files

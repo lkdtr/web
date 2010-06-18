@@ -15,10 +15,10 @@ closedir($myDirectory);
 $indexCount     = count($dirArray);
 
 // sort 'em
-sort($dirArray);
+rsort($dirArray);
 
 // print 'em
-print("<TABLE border=0 cellpadding=5 cellspacing=0 class=whitelinks>\n");
+print("<TABLE align=center border=0 cellpadding=5 cellspacing=0 class=whitelinks>\n");
 print("<TR><TH>Önceki yıllarda yapılan  şenliklerimiz</TH></TR>\n");
 // loop through the array of files and print them all
 for($index=0; $index < $indexCount; $index++) {

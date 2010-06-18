@@ -30,6 +30,7 @@ for($index=0; $index < $indexCount; $index++) {
 
 
                 print("<TR><TD><a href=\"$dirArray[$index]\">$dirArray[$index]</a></td>");
+                print("<TR><TD><a href=\"$dirArray[$index]\"><img src=\"images/banners/{$dirArray[$index]}.gif\" border=\"0\"/></a></td>");
                 print("</TR>\n");
 
         }

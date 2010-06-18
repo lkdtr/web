@@ -1,0 +1,77 @@
+body, td {
+
+font-family: "DejaVu Sans Condensed", Arial, Helvetica, sans-serif, verdana;
+font-size:13px;
+color:#ffffff;
+background: #171717 url(images/gp.png) no-repeat fixed;
+background-position: bottom left;
+}
+
+table.program {
+	border-width: 0px 0px 0px 0px;
+}
+table.program th {
+	border-width: thin thin thin thin;
+	padding: 2px 2px 2px 2px;
+	border-style: solid solid solid solid;
+	border-color: gray gray gray gray;
+	-moz-border-radius: 6px 6px 6px 6px;
+	font-size: 11px;
+}
+table.program td {
+	background-color: #323232;
+	border-width: thin thin thin thin;
+	padding: 2px 2px 2px 2px;
+	border-style: solid solid solid solid;
+	border-color: #777777;
+	-moz-border-radius: 6px 6px 6px 6px;
+	font-size: 13px;
+}
+
+
+h1 {font-size:16px}
+h2 {font-size:14px}
+
+A:visited, A:link, A:active, A:hover {
+color:#ff0000
+}
+
+.menu {
+font-size:12px;
+background-color:#e2e2e2;
+color:black;
+font-weight:bold;
+text-decoration: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #fff;
+padding-left:2px;
+padding-right:2px;
+margin: 2px;
+text-align: justify;
+}
+
+.menuu {
+font-size:13px;
+background-color:#373737;
+color:#e2e2e2;
+font-weight:bold;
+text-decoration: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border: 1px solid #686868;
+padding-left:2px;
+padding-right:2px;
+margin: 2px;
+text-align: justify;
+}
+
+A.menu, A.menu:link, A.menu:visited {
+text-decoration: none;
+color:black;
+}
+
+A.menu:hover {
+text-decoration: none;
+color:red;
+}

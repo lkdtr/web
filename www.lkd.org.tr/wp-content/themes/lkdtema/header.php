@@ -102,5 +102,4 @@ src='http://reklam.lkd.org.tr/www/delivery/avw.php?zoneid=4&amp;cb=INSERT_RANDOM
 <li><a target="_blank" href="ftp://ftp.linux.org.tr">FTP Servisi</a></li>
 <li><a target="_blank" href="http://uyeyazilimi.linux.org.tr">Üye Yazılımı</a></li>
 <li><a target="_blank" href="http://pardus.linux.org.tr">Pardus Deposu</a></li>
-<li><a target="_blank" href="http://galeri.linux.org.tr">Fotoğraflar</a></li>
 </ul>

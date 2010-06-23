@@ -24,8 +24,8 @@
 
 
 		<div class="navigation clearfix">
-			<div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries', 'default')) ?></div>
-			<div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;', 'default')) ?></div>
+			<div class="alignleft"><?php next_posts_link(__('&laquo; Eski Girdiler', 'default')) ?></div>
+			<div class="alignright"><?php previous_posts_link(__('Yeni Girdiler &raquo;', 'default')) ?></div>
 		</div>
 
 		<?php while (have_posts()) : the_post(); ?>
@@ -34,7 +34,7 @@
 			<small class="meta">Tarih: <?php the_time(__('j F Y','default')); ?> | <?php _e('Kategori: ', 'default' ); the_category(', '); ?><?php edit_post_link(__( '(düzenle)', 'default' ), ' | ', ''); ?></small>
 
 			<div class="entry">
-				<?php the_content((__( '&raquo; Read more: ', 'default')) . the_title('', '', false)); ?>
+				<?php the_content((__( '&raquo; Daha fazlasını okuyun: ', 'default')) . the_title('', '', false)); ?>
 			</div>
 
 		</div>

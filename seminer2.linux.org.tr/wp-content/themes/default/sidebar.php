@@ -17,7 +17,7 @@
 </li>
 
 <div>
-    <center><img src="<?php bloginfo('stylesheet_directory'); ?>/img/resim.jpg"></center>
+    <center><a href="http://tr.wikipedia.org" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/viki-banner-300x250px.png" /></a></center>
 </div>
 
 <div><h5>Seminer-Çalışma Grubu Hakkında</h5></div>

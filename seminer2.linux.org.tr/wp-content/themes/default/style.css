@@ -68,7 +68,7 @@ a:focus, a:hover, a:active { color: #333; }
 #submenu a:active { position: relative; top: 1px; }
 #submenu a:focus { color: #111; }
 
-#sidebar a, #sidebar a:link, #sidebar a:visited { border-bottom: 1px solid #fff; color: #C54E0B; }
+#sidebar a, #sidebar a:link, #sidebar a:visited { border-bottom: 0px solid #fff; color: #C54E0B; }
 #sidebar a:focus, #sidebar a:hover, #sidebar a:active { border-bottom-color: #C54E0B; color: #111; }
 #sidebar .sb-tools a, #sidebar .sb-tools a:link, #sidebar .sb-tools a:visited { border: 0 none; color: #C54E0B; }
 #sidebar .sb-tools a:active, #sidebar .sb-tools a:focus, #sidebar .sb-tools a:hover { border: 0 none; color: #000; }

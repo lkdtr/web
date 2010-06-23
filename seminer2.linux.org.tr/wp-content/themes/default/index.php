@@ -28,8 +28,8 @@
 
 		<div class="pagination navigation clearfix">
 		  <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } else { ?>
-  		  <div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries', 'default')) ?></div>
-  			<div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;', 'default')) ?></div>
+  		  <div class="alignleft"><?php next_posts_link(__('&laquo; Eski Girdiler', 'default')) ?></div>
+  			<div class="alignright"><?php previous_posts_link(__('Yeni Girdiler &raquo;', 'default')) ?></div>
 		  <?php } ?>
 		</div>
 

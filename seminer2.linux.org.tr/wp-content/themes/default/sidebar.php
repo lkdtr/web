@@ -21,15 +21,10 @@
 </div>
 
 
-<div><h5>Seminer Çalışmaları Hakkında</h5></div>
-  <ul>
-  	<li>
-  		Linux Kullanıcıları Derneği Seminer Çalışma Grubu, derneğin gerçekleştirdiği seminerlerin sağlıklı bir biçimde yürütülmesinden sorumludur. Seminerlerde görev alacak kişilerin tespiti, desteklenmesi ve lojistik çalışmaları yürütmek başlıca görevleri arasında yer alır.<br /><br />
-Seminer konuları, konuşmacılara ve dinleyicilerin isteklerine göre belirlenmektedir. Fikir, görüş ve önerilerinizi üst menüde yer alan "İletişim" bağlantısına tıklayarak göndermekten çekinmeyin.<br />
-	</li>
-
-	</ul>
-</li>
+<div><h5>Seminer Çalışmaları Hakkında</h5>
+<p align="justify">Linux Kullanıcıları Derneği Seminer Çalışma Grubu, derneğin gerçekleştirdiği seminerlerin sağlıklı bir biçimde yürütülmesinden sorumludur. Seminerlerde görev alacak kişilerin tespiti, desteklenmesi ve lojistik çalışmaları yürütmek başlıca görevleri arasında yer alır.<br /><br />
+Seminer konuları, konuşmacılara ve dinleyicilerin isteklerine göre belirlenmektedir. Fikir, görüş ve önerilerinizi üst menüde yer alan "İletişim" bağlantısına tıklayarak göndermekten çekinmeyin.</p>
+</div>
 
 <?php endif; // end 1st sidebar widgets  ?>
 

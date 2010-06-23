@@ -25,7 +25,7 @@
 
 	<?php else : ?>
 
-		<h1 class="pagetitle"><?php _e('No posts found. Try a different search?', 'default'); ?></h1>
+		<h1 class="pagetitle"><?php _e('Hiçbir sonuç bulunamadı. Farklı bir arama denemek ister misiniz?', 'default'); ?></h1>
 			<div class="post">
 				<?php get_search_form(); ?>
 			</div>

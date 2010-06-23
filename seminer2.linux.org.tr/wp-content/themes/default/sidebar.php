@@ -17,7 +17,7 @@
 </li>
 
 <div>
-    <center><img src="./wp-content/themes/default/img/resim.jpg" width=250 height=250 /></center>
+    <center><img src="<?php bloginfo('stylesheet_directory'); ?>/img/resim.jpg"></center>
 </div>
 
 <div><h5>Seminer-Çalışma Grubu Hakkında</h5></div>

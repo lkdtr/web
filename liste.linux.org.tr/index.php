@@ -1,3 +1,4 @@
+<?php $title = "Hoşgeldiniz!"; ?>
 <?php include("site_ust.php"); ?>
 
   <h1>Hoşgeldiniz</h1>

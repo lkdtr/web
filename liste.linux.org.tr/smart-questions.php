@@ -1,3 +1,4 @@
+<?php $title = "Soru Sorarken Dikkat Edilmesi Gerekenler - İçindekiler"; ?>
 <?php include("site_ust.php"); ?>
 <h2 class="head2">Soru Sorarken Dikkat Edilmesi Gerekenler</h2>
 <div class="toc">

@@ -1,3 +1,4 @@
+<?php $title = "E-Posta Etiği"; ?>
 <?php include("site_ust.php"); ?>
 
   <h1>E-Posta Etiği</h1>

@@ -1,3 +1,4 @@
+<?php $title = "Liste Arşivleri"; ?>
 <?php include("site_ust.php"); ?>
 
   <h1 class="head2">Liste Arşivleri</h1>

@@ -1,3 +1,4 @@
+<?php $title = "E-Posta Listesi Nedir?"; ?>
 <?php include("site_ust.php"); ?>
 
   <h1 class="head2">E-Posta Listesi Nedir?</h1>

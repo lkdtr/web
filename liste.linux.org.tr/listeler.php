@@ -80,8 +80,7 @@
 
     <div class="baslik">İnsan Kaynakları <span>(linux-ik@liste.linux.org.tr)</span></div>
     <div class="detay">
-      Linux ve diğer özgür yazılımlar üzerine çalışacak eleman arayanlar duyuruları için bu e-posta listesini kullanabilirler.<br />
-Listede moderasyon uygulanarak, sadece ilan ve duyurular kabul ediliyor. Yorum/yanıtlarınızı özelden ilan sahibinin adresine ya da ilanda belirtilen adrese göndermeniz gerekmektedir.<br />
+      Linux ve diğer özgür yazılımlar üzerine çalışacak eleman arayanlar duyuruları için bu e-posta listesini kullanabilirler. Listede moderasyon uygulanarak, sadece ilan ve duyurular kabul ediliyor. Yorum/yanıtlarınızı özelden ilan sahibinin adresine ya da ilanda belirtilen adrese göndermeniz gerekmektedir.<br />
       <br />
       <a class="gir" href="mailto:linux-ik-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
       <a class="cik" href="mailto:linux-ik-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>

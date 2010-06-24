@@ -9,7 +9,7 @@ ini_set("default_charset", 'utf-8');
 <html xmlns="http://www.w3.org/1999/xhtml" version="-//W3C//DTD XHTML 1.1//EN" xml:lang="en">
 <head>
   <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
-  <title>LKD E-Posta Listeleri</title>
+  <title>LKD E-Posta Listeleri - <?php echo $title; ?></title>
   <link rel="stylesheet" type="text/css" media="screen" href="stil.css">
 </head>
 <body><div id="arayuz">

@@ -1,3 +1,4 @@
+<?php $title = "Soru Sorarken Dikkat Edilmesi Gerekenler - Cevapları Yorumlamak"; ?>
 <?php include("site_ust.php"); ?>
 <div style="border:1px dotted #aaa;">
   <table width="100%" border="0" cellpadding="8" cellspacing="0">

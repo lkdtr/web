@@ -1,3 +1,4 @@
+<?php $title = "E-Posta Listelerine Nasıl Kaydolurum?"; ?>
 <?php include("site_ust.php"); ?>
 
   <h1 class="head2">E-Posta Listelerine Nasıl Kaydolurum?</h1>

@@ -24,6 +24,7 @@
       <a href="#">Bağlantılar</a>
       <ul>
         <li><a href="<?php bloginfo('siteurl'); ?>/ftp-dosya-alani">FTP Dosya Alanı</a></li>
+        <li><a href="http://tuxweet.linux.org.tr">Tuxweet</a></li>
         <li><a href="http://seminer.linux.org.tr">Seminerler</a></li>
         <li><a href="http://gezegen.linux.org.tr">Linux Gezegeni</a></li>
         <li><a href="http://senlik.linux.org.tr">Linux ve Özgür Yazılım Şenliği</a></li>

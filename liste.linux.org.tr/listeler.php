@@ -1,4 +1,3 @@
-<?php $title = "LKD E-Posta Listeleri"; ?>
 <?php include("site_ust.php"); ?>
 
   <style type="text/css" media="screen">

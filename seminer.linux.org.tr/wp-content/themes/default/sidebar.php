@@ -9,24 +9,34 @@
 	<ul class="sb-tools clearfix">
 		<li class="rss-icon">
 			<a href="<?php if (get_option('greenpark2_feed_enable') == 'yes') { echo 'http://feeds.feedburner.com/' . get_option('greenpark2_feed_uri'); } else { echo get_bloginfo('rss2_url'); }?>" title="<?php _e('Subscribe to my feed - You\'ll be happy!', 'default'); ?>">
-				<span><?php _e('RSS', 'default'); ?></span>
-				<?php _e('Bizi Takip Edin', 'default'); ?>
+				<span><?php _e('Subscribe', 'default'); ?></span>
+				<?php _e('Subscribe to my blogs feed', 'default'); ?>
 			</a>
 		</li>
 	</ul>
 </li>
 
-<div>
-    <center><a href="http://tr.wikipedia.org" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/viki-banner-300x250px.png" /></a></center>
-</div>
-
-
-<div><h5>Seminer Çalışmaları Hakkında</h5>
-<p align="justify">Linux Kullanıcıları Derneği Seminer Çalışma Grubu, derneğin gerçekleştirdiği seminerlerin sağlıklı bir biçimde yürütülmesinden sorumludur. Seminerlerde görev alacak kişilerin tespiti, desteklenmesi ve lojistik çalışmaları yürütmek başlıca görevleri arasında yer alır.<br /><br />
-Seminer konuları, konuşmacılara ve dinleyicilerin isteklerine göre belirlenmektedir. Fikir, görüş ve önerilerinizi üst menüde yer alan "İletişim" bağlantısına tıklayarak göndermekten çekinmeyin.</p>
-</div>
-
 <?php endif; // end 1st sidebar widgets  ?>
+
+
+<?php if ( is_single() ) { ?>
+<li>
+	<ul class="sb-tools clearfix">
+		<?php previous_post_link('<li class="previous-post">%link</li>', '<span>' . (__('Previous Entry', 'default')) . '</span> %title'); ?>
+		<?php next_post_link('<li class="next-post">%link</li>', '<span>' . (__('Next Entry', 'default')) . '</span> %title'); ?>
+	</ul>	
+</li>
+<?php } ?>
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title"><?php echo get_option('greenpark2_sidebar_about_title'); ?></div>
+  <ul>
+  	<li>
+  		<?php echo get_option('greenpark2_sidebar_about_content');?>
+		</li>
+	</ul>
+</li>
 
 
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(2) ) : ?>
@@ -62,7 +72,49 @@ Seminer konuları, konuşmacılara ve dinleyicilerin isteklerine göre belirlenm
 <?php endif; // end 2nd sidebar widgets  ?>
 </ul>
 
+<ul class="group">
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(3) ) : ?>
+  
+  <?php if ( is_front_page() || is_home() || is_page() ) { ?>
+    <?php wp_list_pages('title_li=<div class="sb-title">' . __('Pages','default') . '</div>' ); ?>
+  <?php } ?>
+  
+  <?php if ( is_home() || is_day() || is_month() || is_year() ) { ?>
+  	<li class="archives">
+      <div class="sb-title"><?php _e('Archives', 'default'); ?></div>
+  		<ul>
+  		  <?php wp_get_archives('type=monthly'); ?>
+  		</ul>
+  	</li>
+  <?php } ?>
+  
+  <?php if ( is_home() || is_category() ) { ?>
+    <?php wp_list_categories('show_count=1&title_li=<div class="sb-title">' . __('Categories','default') . '</div>'); ?>
+  <?php } ?>
+
+<?php endif; // end 3rd sidebar widgets  ?>
+</ul>
 
 
+<ul class="group">
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(4) ) : ?>
+
+  <?php if ( is_home() ) { ?>
+    <?php wp_list_bookmarks('title_before=<div class="sb-title">&title_after=</div>'); ?>
+  <?php } ?>
+  
+  <?php if ( is_home() || is_page() ) { ?>
+  	<li id="meta">
+      <div class="sb-title"><?php _e('Meta', 'default'); ?></div>
+    	<ul>
+    		<?php wp_register(); ?>
+    		<li><?php wp_loginout(); ?></li>
+    		<?php wp_meta(); ?>
+    	</ul>
+  	</li>
+  <?php } ?>
+
+<?php endif; // end 4th sidebar widgets  ?>
+</ul>
 
 </div> <!-- #sidebar -->

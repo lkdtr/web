@@ -19,8 +19,8 @@
 				<?php wp_link_pages(array('before' => '<div class="page-link clearfix"><strong>Pages:</strong>', 'after' => '</div>', 'next_or_number' => 'number', 'pagelink' => '<span>%</span>')); ?>
 
       	<ul class="previousnext clearfix">
-      		<?php previous_post_link('<li class="previous_post">%link</li>', '<span>' . (__('Bir Önceki Girdi', 'default')) . ':</span> %title'); ?>
-      		<?php next_post_link('<li class="next_post">%link</li>', '<span>' . (__('Bir Sonraki Girdi', 'default')) . ':</span> %title'); ?>
+      		<?php previous_post_link('<li class="previous_post">%link</li>', '<span>' . (__('Previous Entry', 'default')) . ':</span> %title'); ?>
+      		<?php next_post_link('<li class="next_post">%link</li>', '<span>' . (__('Next Entry', 'default')) . ':</span> %title'); ?>
       	</ul>
 			</div>
 

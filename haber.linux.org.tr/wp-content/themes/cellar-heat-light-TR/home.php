@@ -4,6 +4,7 @@
     <li class="<? echo (is_home())?'current_page_item':''; ?>"><a href="<?php echo get_option('home'); ?>/">Anasayfa</a></li>
 	<?php $pages = wp_list_pages('sort_column=menu_order&depth=1&title_li=&echo=0');
 	echo $pages; ?>
+    <li class="<? echo (is_home())?'current_page_item':''; ?>"><a href="http://www.lkd.org.tr/hakkimizda/iletisim/">İletişim</a></li>
     </ul>
 	<? unset($pages); ?> 
     <br clear="all" />

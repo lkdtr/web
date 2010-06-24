@@ -1,4 +1,4 @@
-<?php $title = "LKD Listeleri Genel Kullanım Kuralları"; ?>
+<?php $title = "Genel Kullanım Kuralları"; ?>
 <?php include("site_ust.php"); ?>
 
   <h1 class="head2">LKD Listeleri Genel Kullanım Kuralları</h1>

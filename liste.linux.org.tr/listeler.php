@@ -1,3 +1,4 @@
+<?php $title = "Listeler"; ?>
 <?php include("site_ust.php"); ?>
 
   <style type="text/css" media="screen">

@@ -16,7 +16,7 @@
 
 			<div class="entry">
 				<?php the_content(); ?>
-				<?php wp_link_pages(array('before' => '<div class="page-link clearfix"><strong>Pages:</strong>', 'after' => '</div>', 'next_or_number' => 'number', 'pagelink' => '<span>%</span>')); ?>
+				<?php wp_link_pages(array('before' => '<div class="page-link clearfix"><strong>Sayfalar:</strong>', 'after' => '</div>', 'next_or_number' => 'number', 'pagelink' => '<span>%</span>')); ?>
 
       	<ul class="previousnext clearfix">
       		<?php previous_post_link('<li class="previous_post">%link</li>', '<span>' . (__('Bir Önceki Girdi', 'default')) . ':</span> %title'); ?>

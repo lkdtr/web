@@ -4,17 +4,7 @@
 ?>
 
 <div id="page">
-  <?php
-
-    if(!empty($_GET['news'])) {
-        $news_list = 1;
-    } else {
-        $news_list = 0;
-    }
-
-  ?>
   <div class="wrapper">
-      <?php if($news_list == 0): ?>
       <div id="with-sidebar">
         <div id="buttons">
           <a href="<?php bloginfo('siteurl'); ?>/linux-nedir"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-1.jpg" alt="Linux Nedir?" /></a>
@@ -53,27 +43,8 @@
         <p>Üzgünüz, aradığınız şey burada değil.</p>
       <?php endif; ?>
 
-      <?php include 'news.php'; ?>
+      <?php include 'news_inc.php'; ?>
     </div> <!-- end content -->
-    <?php else: ?>
-    <div id="content-news">
-        <h2>Haberler</h2>
-        <ul>
-          <?php while (have_posts()) : the_post(); ?>
-            <li>
-              <p class="time">(<?php the_time('d F Y'); ?>)</p>
-              <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-            </li>
-          <?php endwhile; ?>
-        </ul>
-        <div class="navigation">
-            <div class="alignright">
-                <?php next_posts_link(__('&laquo; Previous Entries')) ?>&nbsp;&nbsp;
-                <?php previous_posts_link(__('Next Entries &raquo;')) ?>
-            </div>
-        </div>
-    </div>
-    <?php endif; ?>
   </div> <!-- end wrapper -->
 
   <?php include 'bottom_area.php'; ?>

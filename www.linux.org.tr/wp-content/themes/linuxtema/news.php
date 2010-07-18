@@ -41,6 +41,6 @@
         </li>
       <?php endwhile; ?>
     </ul>
-    <p style="padding-bottom: 10px; font-size: 10px; font-style: italic; list-style-type: none;">(Tüm haberleri görmek için <a href="http://linux.org.tr/?news=1">tıklayın.</a>)</p>
+    <p style="padding-bottom: 10px; font-size: 10px; font-style: italic; list-style-type: none;">(Tüm haberleri görmek için <a href="http://haber.linux.org.tr/">tıklayın.</a>)</p>
   <?php endif; ?>
 </div>

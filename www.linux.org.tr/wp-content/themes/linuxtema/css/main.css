@@ -145,9 +145,12 @@ span.news_description {
     min-height: 580px;
 }
 
-#content {
-	padding: 0 15px;
+#content, #content-news {
     background-color: #FFF;
+}
+
+#content {
+    padding: 0 15px;
 }
 
 #content ul {
@@ -158,6 +161,28 @@ span.news_description {
 #content ul li {
 	margin: 0;
 	padding: 3px 0;
+}
+
+#content-news h2 {
+    padding: 10px 15px 5px 15px;
+}
+
+#content-news ul {
+    margin: 0 0 15px 0;
+    padding: 0;
+    list-style-type: none;
+    border-bottom: 1px solid #CCC;
+}
+
+#content-news ul li {
+    padding: 5px 10px;
+    border-top: 1px solid #CCC;
+}
+
+#content-news ul li p.time {
+    margin: 0;
+    padding: 0;
+    background-color: #D5E4FF;
 }
 
 #footer {

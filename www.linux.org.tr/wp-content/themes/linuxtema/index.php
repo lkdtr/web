@@ -7,9 +7,9 @@
   <div class="wrapper">
       <div id="with-sidebar">
         <div id="buttons">
-          <a href="<?php bloginfo('siteurl'); ?>/linux-nedir"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-1.jpg" /></a>
-          <a href="<?php bloginfo('siteurl'); ?>/dagitimlar-kilavuzu"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-2.jpg" /></a>
-          <a href="<?php bloginfo('siteurl'); ?>/yardim"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-3.jpg" /></a>
+          <a href="<?php bloginfo('siteurl'); ?>/linux-nedir"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-1.jpg" alt="Linux Nedir?" /></a>
+          <a href="<?php bloginfo('siteurl'); ?>/dagitimlar-kilavuzu"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-2.jpg" alt="Dağıtımlar Kılavuzu"/></a>
+          <a href="<?php bloginfo('siteurl'); ?>/yardim"><img class="button" src="<?php bloginfo('template_url'); ?>/images/button-3.jpg" alt="Yardım" /></a>
         </div>
         
         <div id="what-is-linux">

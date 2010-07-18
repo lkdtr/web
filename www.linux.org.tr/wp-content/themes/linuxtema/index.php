@@ -24,7 +24,6 @@
         </div>
       </div> <!-- end with-sidebar -->
     <div id="content">
-      <!--
       <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
           <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
@@ -41,7 +40,6 @@
         <h2>Bulunamadı</h2>
         <p>Üzgünüz, aradığınız şey burada değil.</p>
       <?php endif; ?>
-      -->
     
       <?php include 'news.php'; ?>
     </div> <!-- end content -->

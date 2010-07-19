@@ -7,20 +7,8 @@
  */
 ?>
 
-
 <?php get_header(); ?>
-<?php
-
-    if (isset($_GET['paged'])) $cur_page = absint($_GET['paged']);
-    else $cur_page = 1;
-
-    $offset = ($cur_page - 1) * 10;
-    $previous = $cur_page - 1;
-    $next = $cur_page + 1;
-
-    query_posts(array('showposts' => '10', 'offset' => $offset));
-
-?>
+<?php query_posts(array('showposts' => '12', 'paged' => $cur_page)); ?>
 
 <div id="page">
   <div class="wrapper">
@@ -48,10 +36,8 @@
           <?php endwhile; ?>
         </ul>
         <div id="navigation">
-            <?php if ($previous != 0) : ?>
-                <p class="previous"><a href="/haberler/?paged=<?php echo $previous; ?>"><- Önceki Sayfa</a></p>
-            <?php endif; ?>
-            <p class="next"><a href="/haberler/?paged=<?php echo $next; ?>">Sonraki Sayfa -></a></p>
+            <p class="previous"><?php next_posts_link(__('&laquo; Previous Entries')) ?></p>
+            <p class="next"><?php previous_posts_link(__('Next Entries &raquo;')) ?></p>
             <div style="clear: both">
         </div>
     </div> <!-- end content -->
@@ -59,4 +45,5 @@
 
   <?php include 'bottom_area.php'; ?>
   <?php get_footer(); ?>
+  </div>
 </div>

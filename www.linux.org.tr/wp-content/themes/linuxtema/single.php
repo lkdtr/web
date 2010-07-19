@@ -10,6 +10,7 @@
 
       <div style="clear: both"></div>
       <?php comments_template( '', true ); ?>
+      <a class="haberler" href="/haberler">&raquo; Haberler sayfasına git. &raquo;</a>
     </div>
   </div>
   <?php include 'bottom_area.php'; ?>

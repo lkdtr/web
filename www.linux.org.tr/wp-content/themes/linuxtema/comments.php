@@ -1,90 +1,99 @@
-<?php
-// Bu satırları silmeyin
-	if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
-		die ('Lütfen bu sayfayı direkt yüklemeyin. Teşekkürler!');
+<?php // Do not delete these lines
+    if ('comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
+        die ('Please do not load this page directly. Thanks!');
 
-	if ( post_password_required() ) { ?>
-		<p class="nocomments">Bu yazı parola korumalı. Yorumları görmek için parolayı girin.</p>
-	<?php
-		return;
-	}
+    if (!empty($post->post_password)) { // if there's a password
+        if ($_COOKIE['wp-postpass_' . COOKIEHASH] != $post->post_password) {  // and it doesn't match the cookie
+            ?>
+
+            <p class="nocomments">This post is password protected. Enter the password to view comments.</p>
+
+            <?php
+            return;
+        }
+    }
+
+    /* This variable is for alternating comment background */
+    $oddcomment = 'alt';
 ?>
 
-<!-- Buradan sonrasını düzenleyebilirsiniz. -->
+<!-- You can start editing here. -->
 
-<?php if ( have_comments() ) : ?>
+<div id="comments">
+<?php if (have_comments()) : ?>
 	<h3 id="comments">&#8220;<?php the_title(); ?>&#8221; için <?php comments_number('Yorum Yok', '1 Yorum', '% Yorum' );?></h3>
 
-	<div class="navigation">
-		<div class="alignleft"><?php previous_comments_link() ?></div>
-		<div class="alignright"><?php next_comments_link() ?></div>
-	</div>
-
 	<ul class="commentlist">
-	<?php wp_list_comments(); ?>
+
+	<?php foreach ($comments as $comment) : ?>
+
+		<li class="<?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">
+            <?php if(function_exists('get_avatar')){ echo get_avatar($comment, '50'); } ?>
+			<h4><?php comment_author_link() ?>:</h4>
+            <small class="commentmetadata"><a href="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F Y') ?>, <?php comment_time('g:i a') ?></a></small>
+
+			<p><?php comment_text() ?></p>
+			<?php if ($comment->comment_approved == '0') : ?>
+			<em>(<?php _e('Comment awaits moderation') ?>)</em>
+			<?php endif; ?>
+			<?php edit_comment_link(__('Edit'),'&nbsp;|&nbsp;&nbsp;',''); ?>
+		</li>
+
+	<?php /* Changes every other comment to a different class */
+		if ('alt' == $oddcomment) $oddcomment = '';
+		else $oddcomment = 'alt';
+	?>
+
+	<?php endforeach; /* end for each comment */ ?>
+
 	</ul>
 
-	<div class="navigation">
-		<div class="alignleft"><?php previous_comments_link() ?></div>
-		<div class="alignright"><?php next_comments_link() ?></div>
-	</div>
- <?php else : // Hiç yorum yoksa gösterilecek bölüm ?>
+ <?php else : // this is displayed if there are no comments so far ?>
 
 	<?php if ('open' == $post->comment_status) : ?>
-		<!-- Yorum yapma açıksa ama henüz yorum yoksa. -->
+		<!-- If comments are open, but there are no comments. -->
 
-	 <?php else : // Yorum yapma kapalıysa ?>
-		<p class="nocomments">Yorum yapma kapalı.</p>
+	 <?php else : // comments are closed ?>
+		<!-- If comments are closed. -->
 
 	<?php endif; ?>
 <?php endif; ?>
 
-
 <?php if ('open' == $post->comment_status) : ?>
 
-<div id="respond">
-
-<h3><?php comment_form_title( 'Yorum yapın', '%s için yorum yapın' ); ?></h3>
-
-<div class="cancel-comment-reply">
-	<small><?php cancel_comment_reply_link(); ?></small>
-</div>
-
+<h3 id="respond"><?php _e('Leave a comment') ?></h3>
 <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
-<p>Yorum yapabilmek için <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">giriş</a> yapmalısınız.</p>
+<p>You must be <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php the_permalink(); ?>">logged in</a> to post a comment.</p>
 <?php else : ?>
 
 <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
 
 <?php if ( $user_ID ) : ?>
 
-<p><a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a> olarak giriş yapılmış. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Bu hesaptan çıkış yapın">Çıkış &raquo;</a></p>
+<p><?php _e('Logged in as') ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Log out of this account"><?php _e('Logout') ?> &raquo;</a></p>
 
 <?php else : ?>
 
-<p><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
-<label for="author"><small>İsim <?php if ($req) echo "(gerekli)"; ?></small></label></p>
+<p><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" />
+<label for="author"><small><?php _e('Name') ?> <?php if ($req) _e('(required)'); ?></small></label></p>
 
-<p><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
-<label for="email"><small>E-posta (yayımlanmayacak) <?php if ($req) echo "(gerekli)"; ?></small></label></p>
+<p><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" />
+<label for="email"><small><?php _e('E-Mail') ?> (<?php _e('will not be published'); ?>) <?php if ($req) _e('(required)'); ?></small></label></p>
 
 <p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
-<label for="url"><small>Site</small></label></p>
+<label for="url"><small><?php _e('Website') ?></small></label></p>
 
 <?php endif; ?>
 
-<!--<p><small><strong>XHTML:</strong> Şu etiketleri kullanabilirsiniz: <code><?php echo allowed_tags(); ?></code></small></p>-->
+<p><textarea name="comment" id="comment" rows="10" cols="90%" tabindex="4"></textarea></p>
 
-<p><textarea name="comment" id="comment" rows="10" tabindex="4"></textarea></p>
-
-<p><input name="submit" type="submit" id="submit" tabindex="5" value="Gönder" />
-<?php comment_id_fields(); ?>
+<p><input name="submit" type="submit" id="submit" tabindex="5" value=<?php _e('Submit') ?> />
+<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
 </p>
 <?php do_action('comment_form', $post->ID); ?>
 
 </form>
 
-<?php endif; // Eğer üyelik gerekliyse ve giriş yapılmamışsa ?>
+<?php endif; // If registration required and not logged in ?>
+<?php endif; // if you delete this the sky will fall on your head ?>
 </div>
-
-<?php endif; // eğer bunu silerseniz gökyüzü başınıza düşecek ?>

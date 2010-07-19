@@ -30,12 +30,11 @@
 <?php
 
     $splitted_url = explode('/', curPageURL());
-    if ($splitted_url[4] == 'paged') {
+    if ($splitted_url[4] == 'page') {
         $cur_page = absint($splitted_url[5]);
     } else {
         $cur_page = 1;
     }
-    echo($cur_page);
 
     $offset = ($cur_page - 1) * 12;
     $previous = $cur_page - 1;

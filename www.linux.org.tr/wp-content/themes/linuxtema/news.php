@@ -7,8 +7,42 @@
  */
 ?>
 
+<?php
+
+    function curPageURL() {
+       $pageURL = 'http';
+       if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
+
+       $pageURL .= "://";
+
+       if ($_SERVER["SERVER_PORT"] != "80") {
+           $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+       } else {
+           $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+       }
+
+       return $pageURL;
+    }
+
+?>
+
 <?php get_header(); ?>
-<?php query_posts(array('showposts' => '12', 'paged' => $cur_page)); ?>
+<?php
+
+    $splitted_url = explode('/', curPageURL());
+    if ($splitted_url[4] == 'paged') {
+        $cur_page = absint($splitted_url[5]);
+    } else {
+        $cur_page = 1;
+    }
+
+    $offset = ($cur_page - 1) * 12;
+    $previous = $cur_page - 1;
+    $next = $cur_page + 1;
+
+    query_posts(array('showposts' => '12', 'paged' => $cur_page));
+
+?>
 
 <div id="page">
   <div class="wrapper">
@@ -36,8 +70,8 @@
           <?php endwhile; ?>
         </ul>
         <div id="navigation">
-            <p class="previous"><?php next_posts_link(__('&laquo; Previous Entries')) ?></p>
-            <p class="next"><?php previous_posts_link(__('Next Entries &raquo;')) ?></p>
+            <p class="previous"><?php next_posts_link('&laquo; Önceki Sayfa') ?></p>
+            <p class="next"><?php previous_posts_link('Sonraki Sayfa &raquo;') ?></p>
             <div style="clear: both">
         </div>
     </div> <!-- end content -->

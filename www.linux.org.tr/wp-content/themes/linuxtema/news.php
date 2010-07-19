@@ -63,7 +63,7 @@
                   </li>
                   </a>
                   <li class="comments">
-                      <?php comments_popup_link(__('No Comments'), __('1 Comment'), __('% Comments')); ?>
+                      <?php comments_popup_link('Yorum Yok', '1 Yorum', '% Yorum'); ?>
                   </li>
               </ul>
           </li>

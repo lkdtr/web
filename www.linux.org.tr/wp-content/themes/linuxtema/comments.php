@@ -61,7 +61,7 @@
 
 <?php if ('open' == $post->comment_status) : ?>
 
-<h3 id="respond"><?php _e('Leave a comment') ?></h3>
+<h3 id="respond">Yorum Yazın</h3>
 <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
 <p>You must be <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php the_permalink(); ?>">logged in</a> to post a comment.</p>
 <?php else : ?>
@@ -87,9 +87,8 @@
 
 <p><textarea name="comment" id="comment" rows="10" cols="90%" tabindex="4"></textarea></p>
 
-<p><input name="submit" type="submit" id="submit" tabindex="5" value=<?php _e('Submit') ?> />
+<input name="submit" type="submit" id="submit" tabindex="5" value="Gönder" />
 <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
-</p>
 <?php do_action('comment_form', $post->ID); ?>
 
 </form>

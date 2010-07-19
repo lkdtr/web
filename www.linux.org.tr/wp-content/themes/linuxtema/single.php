@@ -7,6 +7,9 @@
         <h2><?php the_title(); ?></h2>
         <?php the_content(); ?>
       <?php endwhile; endif; ?>
+
+      <div style="clear: both"></div>
+      <?php comments_template( '', true ); ?>
     </div>
   </div>
   <?php include 'bottom_area.php'; ?>

@@ -20,9 +20,9 @@
 		<div class="alignright"><?php next_comments_link() ?></div>
 	</div>
 
-	<ol class="commentlist">
+	<ul class="commentlist">
 	<?php wp_list_comments(); ?>
-	</ol>
+	</ul>
 
 	<div class="navigation">
 		<div class="alignleft"><?php previous_comments_link() ?></div>
@@ -75,7 +75,7 @@
 
 <!--<p><small><strong>XHTML:</strong> Şu etiketleri kullanabilirsiniz: <code><?php echo allowed_tags(); ?></code></small></p>-->
 
-<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+<p><textarea name="comment" id="comment" rows="10" tabindex="4"></textarea></p>
 
 <p><input name="submit" type="submit" id="submit" tabindex="5" value="Gönder" />
 <?php comment_id_fields(); ?>

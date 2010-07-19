@@ -35,6 +35,7 @@
     } else {
         $cur_page = 1;
     }
+    echo($cur_page);
 
     $offset = ($cur_page - 1) * 12;
     $previous = $cur_page - 1;

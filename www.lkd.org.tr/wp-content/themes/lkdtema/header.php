@@ -1,4 +1,31 @@
 <?php
+/*
+
+$clean_uri = $_SERVER['REQUEST_URI'];
+$home_url = get_bloginfo('url');
+$path_url = str_replace($home_url, "", $clean_uri);
+
+$newUrl = $urlstr = $home_url.$path_url;
+$clean_url = langswitch_uri_cleaner( $urlstr );
+
+
+$path_url = str_replace("/tr/", "", $path_url);
+$path_url = str_replace("/en/", "", $path_url);
+
+if( ($path_url=="/tr") || ($path_url=="/en") || ($path_url=="")  || ($path_url=="/") ) $path_url = "home-page";
+
+query_posts('pagename='.$path_url);
+
+if (have_posts()) {
+
+header("HTTP/1.0 200 OK");
+
+}
+
+
+*/
+
+
 /**
  * @package WordPress
  * @subpackage Default_Theme
@@ -43,6 +70,12 @@
 <div class="temizle"></div>
 
 <? get_search_form(); ?>
+
+<div class="temizle"></div>
+
+<?php if(function_exists('langswitch_list_langs')){
+langswitch_list_langs(true, false, 'li');
+}?>
 
 <div class="temizle"></div>
 

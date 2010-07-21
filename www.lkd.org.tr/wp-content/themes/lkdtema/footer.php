@@ -19,6 +19,11 @@
 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/tlkdaltlogo.gif" />
 </div>
 
+<?php if(function_exists('langswitch_list_langs')){
+langswitch_list_langs(true, false, 'li');
+}?>
+
+
 <?php /* "Sen ne yaptığını sanıyorsun Dave?" */ ?>
 
 		<?php wp_footer(); ?>

@@ -73,11 +73,6 @@ header("HTTP/1.0 200 OK");
 
 <div class="temizle"></div>
 
-<?php if(function_exists('langswitch_list_langs')){
-langswitch_list_langs(true, false, 'li');
-}?>
-
-<div class="temizle"></div>
 
 
 <div class="banner" >

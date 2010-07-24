@@ -6,7 +6,7 @@
   
   <h2>A. Web Arayüzü</h2>
   <blockquote>
-    <a href="http://liste.linux.org.tr/mailman/listinfo" target="_blank">http://liste.linux.org.tr/mailman/listinfo</a> adresinde, Linux Kullanıcıları Derneği'nin E-posta listelerinin bir listesini bulabilirsiniz. Üye olmak istediğiniz listeye tıklandığında gelen arayüzden listeye üye olabilir, liste üyeliklerinizi düzenleyebilir ya da üyelikten çıkabilirsiniz.
+    <a href="http://liste.linux.org.tr/mailman/listinfo" target="_blank">http://liste.linux.org.tr/mailman/listinfo</a> adresinde, Linux Kullanıcıları Derneği'nin herkese açık e-posta listelerinin bir listesini bulabilirsiniz. Üye olmak istediğiniz listeye tıklandığında gelen arayüzden listeye üye olabilir, liste üyeliklerinizi düzenleyebilir ya da üyelikten çıkabilirsiniz.
   </blockquote>
   <br />
   

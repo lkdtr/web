@@ -134,6 +134,7 @@ ul#menu li a {
 	width:176px;
 	float:right;
 	margin:40px 20px 0 0;
+	list-style:none;
 }
 
 #sag .blok {

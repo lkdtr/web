@@ -42,3 +42,5 @@
 </ul>
 </div>
 
+<div class="temizle"></div>
+

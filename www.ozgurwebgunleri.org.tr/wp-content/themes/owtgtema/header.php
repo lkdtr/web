@@ -33,8 +33,7 @@
 
 <div class="temizle"></div>
 
-<div id="orta">
-<div id="ustbolum">
+<div id="ortaustbolum">
 <ul id="menu">
 <li class="birincimenu"><a href="">BILGILER</a></li>
 <li class="ikincimenu"><a href="">HAKKINDA</a></li>

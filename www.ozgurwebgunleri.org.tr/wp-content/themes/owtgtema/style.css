@@ -54,12 +54,12 @@ ul {
 #ust {
 	background:url(resimler/ustlogo.png) center top no-repeat;
 	width:100%;
-	height:230px;
+	height:173px;
 }
 
 #ust #ustbolum  {
 	width:900px;
-	height:230px;
+	height:173px;
 	margin:auto;
 }
 
@@ -121,6 +121,7 @@ ul {
 #orta {
 	margin:auto;
 	width:945px;
+	background:url(resimler/ortaorta.png) repeat-y center top;
 }
 
 /* orta sol bolum */

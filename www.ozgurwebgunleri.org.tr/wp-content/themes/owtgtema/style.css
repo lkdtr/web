@@ -49,6 +49,22 @@ ul, li {
 	list-style:none;
 }
 
+/* tasarim ogeleri */
+
+#tux {
+	background:url(resimler/tux.png) no-repeat left top;
+	width:84px;
+	height:103px;
+	position:absolute;
+}
+
+#gnu {
+	background:url(resimler/gnu.png) no-repeat left top;
+	width:105px;
+	height:118px;
+	position:absolute;
+}
+
 /* ust taraf */
 
 #ust {
@@ -137,12 +153,24 @@ ul, li {
 	text-transform:uppercase;
 	font-weight:normal;
 	font-size:20px;
-	float:left;
+	position:absolute;
 	margin:40px 0 0 0;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	-o-transform: rotate(-90deg);
+}
+
+#orta #solbolum h2.organizasyon {
+	background:url(resimler/organizasyonarka.png) no-repeat left top;
+}
+
+#orta #solbolum h2.paylas {
+	background:url(resimler/paylasarka.png) no-repeat left top;
+}
+
+#orta #solbolum h2.ulasim {
+	background:url(resimler/ulasimarka.png) no-repeat left top;
 }
 
 #orta #solbolum .icerik {
@@ -165,12 +193,19 @@ ul, li {
 	text-transform:uppercase;
 	font-weight:normal;
 	font-size:20px;
-	position:absolute;
+	float:left;
 	margin:40px 0 0 95px;
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 	-o-transform: rotate(90deg);
+}
+
+#orta #sagbolum ul li {
+	background:url(resimler/sponsorlararaliklari.png) no-repeat bottom center;
+	width:180px;
+	padding:0 0 6px 0;
+	margin: 0 0 5px 0;
 }
 
 /* orta orta bolum */

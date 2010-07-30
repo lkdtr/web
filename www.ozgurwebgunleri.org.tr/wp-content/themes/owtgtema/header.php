@@ -31,6 +31,8 @@
 </div>
 </div>
 
+<div class="temizle"></div>
+
 <div id="orta">
 <div id="ustbolum">
 <ul id="menu">

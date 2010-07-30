@@ -1,4 +1,5 @@
 <div id="tux"></div>
+
 <h2 class="organizasyon">ORGANIZASYON</h2>
 <div class="icerik">
 <a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/tlkdorganizasyonlogo.png" /></a><br />

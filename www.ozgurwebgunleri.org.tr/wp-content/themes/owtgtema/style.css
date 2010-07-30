@@ -45,7 +45,7 @@ a:hover {
 	clear:both;
 }
 
-ul {
+ul, li {
 	list-style:none;
 }
 
@@ -131,6 +131,24 @@ ul {
 	width:215px;
 }
 
+#orta #solbolum h2 {
+	padding:5px 0 0 10px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-size:20px;
+	float:left;
+	margin:40px 0 0 0;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	-o-transform: rotate(-90deg);
+}
+
+#orta #solbolum .icerik {
+	float:right;
+}
+
 /* orta sag bolum */
 
 #orta #sagbolum {
@@ -140,9 +158,15 @@ ul {
 
 #orta #sagbolum h2 {
 	background:url(resimler/sponsorlararka.png) no-repeat left top;
-	padding:5px;
-	width:162px;
-	height:33px;
+	padding:5px 0 0 10px;
+	width:152px;
+	height:28px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-size:20px;
+	position:absolute;
+	margin:40px 0 0 95px;
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);

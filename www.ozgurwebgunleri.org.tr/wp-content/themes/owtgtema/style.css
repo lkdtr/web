@@ -49,13 +49,6 @@ ul {
 	list-style:none;
 }
 
-/* genislik */
-
-#genislik {
-	margin:auto;
-	width:945px;
-}
-
 /* ust taraf */
 
 #ust {
@@ -89,10 +82,8 @@ ul {
 
 /* orta ust menu */
 
-/* orta ust menu */
-
 #ortaustbolum ul#menu {
-	margin:30px 0 0 0;
+	
 }
 
 #ortaustbolum ul#menu li {
@@ -123,6 +114,13 @@ ul {
 
 #ortaustbolum ul#menu li.dorduncumenu {
 	margin:16px 0 0 28px;
+}
+
+/* orta bolum */
+
+#orta {
+	margin:auto;
+	width:945px;
 }
 
 /* orta sol bolum */

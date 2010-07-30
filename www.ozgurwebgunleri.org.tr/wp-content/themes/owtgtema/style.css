@@ -56,6 +56,8 @@ ul, li {
 	width:84px;
 	height:103px;
 	position:absolute;
+	z-index:1;
+	margin:90px 0 0 -30px;
 }
 
 #gnu {
@@ -63,6 +65,7 @@ ul, li {
 	width:105px;
 	height:118px;
 	position:absolute;
+	z-index:1;
 }
 
 /* ust taraf */
@@ -154,11 +157,11 @@ ul, li {
 	font-weight:normal;
 	font-size:20px;
 	position:absolute;
-	margin:40px 0 0 0;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	-o-transform: rotate(-90deg);
+	z-index:0;
 }
 
 #orta #solbolum h2.organizasyon {
@@ -174,7 +177,7 @@ ul, li {
 }
 
 #orta #solbolum .icerik {
-	float:right;
+	
 }
 
 /* orta sag bolum */

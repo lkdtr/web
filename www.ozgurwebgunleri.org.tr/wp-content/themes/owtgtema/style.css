@@ -138,6 +138,17 @@ ul {
 	width:180px;
 }
 
+#orta #sagbolum h2 {
+	background:url(resimler/sponsorlararka.png) no-repeat left top;
+	padding:5px;
+	width:162px;
+	height:33px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	-o-transform: rotate(90deg);
+}
+
 /* orta orta bolum */
 
 #orta #ortabolum {
@@ -152,5 +163,5 @@ ul {
 	width:886px;
 	height:30px;
 	margin:auto;
-	padding:10px 0 0 20px;
+	padding:15px 0 0 30px;
 }

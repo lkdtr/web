@@ -8,6 +8,8 @@
 
 <?php get_header(); ?>
 
+<div id="orta">
+
 <div id="solbolum"><?php get_sidebar(); ?></div>
 
 <div id="ortabolum">
@@ -38,5 +40,9 @@
 </div>
 
 <div id="sagbolum"><?php wp_list_bookmarks(); ?></div>
+
+<div class="temizle"></div>
+
+</div>
 
 <?php get_footer(); ?>

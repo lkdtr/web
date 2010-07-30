@@ -1,11 +1,12 @@
-<h2>ORGANIZASYON</h2>
+<div id="tux"></div>
+<h2 class="organizasyon">ORGANIZASYON</h2>
 <div class="icerik">
 <a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/tlkdorganizasyonlogo.png" /></a><br />
 <a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/ytucorganizasyonlogo.png" /></a>
 </div>
 <div class="temizle"></div>
 
-<h2>PAYLAS</h2>
+<h2 class="paylas">PAYLAS</h2>
 <div class="icerik">
 <a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/facebooklogo.png" /></a>
 <a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/xinglogo.png" /></a>
@@ -15,5 +16,12 @@
 <a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/digglogo.png" /></a>
 <a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/googlelogo.png" /></a>
 <a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/friendfeedlogo.png" /></a>
+</div>
+<div class="temizle"></div>
+
+<div id="gnu"></div>
+<h2 class="ulasim">ULASIM</h2>
+<div class="icerik">
+yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe univer
 </div>
 <div class="temizle"></div>

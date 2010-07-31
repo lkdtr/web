@@ -36,7 +36,7 @@
 <div id="ortaustbolum">
 <ul id="menu">
 <li class="birincimenu"><a href="">BILGILER</a></li>
-<li class="ikincimenu"><a href="">HAKKINDA</a></li>
+<li class="ikincimenu"><a href="">ULASIM</a></li>
 <li class="ucuncumenu"><a href="">ETKINLIK&nbsp;PROGRAMI</a></li>
 <li class="dorduncumenu"><a href="">AFIS&nbsp;&&nbsp;BANNER</a></li>
 </ul>

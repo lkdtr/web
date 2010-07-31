@@ -2,7 +2,7 @@
 
 <div id="organizasyon">
 <div class="icerik">
-<a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/tlkdorganizasyonlogo.png" /></a><br />
+<a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/tlkdorganizasyonlogo.png" /></a>
 <a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/ytucorganizasyonlogo.png" /></a>
 </div>
 </div>

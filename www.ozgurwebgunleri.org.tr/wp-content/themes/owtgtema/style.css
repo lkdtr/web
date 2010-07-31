@@ -166,6 +166,21 @@ ul, li {
 	background:url(resimler/paylasarka.png) no-repeat left top;
 }
 
+#orta #solbolum .afisbanner {
+	background:url(resimler/afisbannerarka.jpg) no-repeat left top;
+	width:176px;
+	height:30px;
+	padding:10px 0 0 0;
+	text-align:center;
+	margin:0 0 0 30px;
+}
+
+#orta #solbolum .afisbanner a {
+	font-size:18px;
+	color:#fff;
+	text-decoration:none;
+}
+
 #orta #solbolum #ulasim {
 	background:url(resimler/ulasimarka.png) no-repeat left bottom;
 }

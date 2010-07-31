@@ -21,6 +21,7 @@
 </div>
 
 <div id="gnu"></div>
+<div align="center"><img src="<?php bloginfo('template_url'); ?>/resimler/etkinliktarihi.jpg" /></div>
 <div id="ulasim">
 <div class="icerik">
 yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe univer

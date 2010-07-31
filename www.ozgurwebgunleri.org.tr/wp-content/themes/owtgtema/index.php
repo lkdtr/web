@@ -23,8 +23,7 @@
 				<div class="entry">
 					<?php the_content('Yazının kalanını okuyun &raquo;'); ?>
 				</div>
-
-				<p class="postmetadata"><?php the_tags('Etiketler: ', ', ', '<br />'); ?> Kategori <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('Yorum Yok &#187;', '1 Yorum &#187;', '% Yorum &#187;'); ?></p>
+                
 			</div>
 
 		<?php endwhile; ?>

@@ -39,7 +39,9 @@
 <?php endif; ?>
 </div>
 
-<div id="sagbolum"><?php wp_list_bookmarks(); ?></div>
+<div id="sagbolum">
+<div id="sponsorlar"><div class="icerik"><?php wp_list_bookmarks(); ?></div></div>
+</div>
 
 <div class="temizle"></div>
 

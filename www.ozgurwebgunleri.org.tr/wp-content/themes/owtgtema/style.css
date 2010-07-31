@@ -150,34 +150,20 @@ ul, li {
 	width:215px;
 }
 
-#orta #solbolum h2 {
-	padding:5px 0 0 10px;
-	color:#fff;
-	text-transform:uppercase;
-	font-weight:normal;
-	font-size:20px;
-	position:absolute;
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	-o-transform: rotate(-90deg);
-	z-index:0;
-}
-
-#orta #solbolum h2.organizasyon {
+#orta #solbolum #organizasyon {
 	background:url(resimler/organizasyonarka.png) no-repeat left top;
 }
 
-#orta #solbolum h2.paylas {
+#orta #solbolum #paylas {
 	background:url(resimler/paylasarka.png) no-repeat left top;
 }
 
-#orta #solbolum h2.ulasim {
+#orta #solbolum #ulasim {
 	background:url(resimler/ulasimarka.png) no-repeat left top;
 }
 
 #orta #solbolum .icerik {
-	
+	margin:0 0 0 65px;
 }
 
 /* orta sag bolum */
@@ -188,20 +174,15 @@ ul, li {
 }
 
 #orta #sagbolum h2 {
-	background:url(resimler/sponsorlararka.png) no-repeat left top;
-	padding:5px 0 0 10px;
-	width:152px;
-	height:28px;
-	color:#fff;
-	text-transform:uppercase;
-	font-weight:normal;
-	font-size:20px;
-	float:left;
-	margin:40px 0 0 95px;
-	-webkit-transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-	-o-transform: rotate(90deg);
+	display:none;
+}
+
+#orta #sagbolum #sponsorlar {
+	background:url(resimler/sponsorlararka.png) no-repeat right top;
+}
+
+#orta #sagbolum #sponsorlar .icerik {
+	margin:0 10px 0 0;
 }
 
 #orta #sagbolum ul li {

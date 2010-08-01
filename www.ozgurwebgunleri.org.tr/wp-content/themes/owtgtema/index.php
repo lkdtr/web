@@ -38,7 +38,13 @@
 </div>
 
 <div id="sagbolum">
-<div id="sponsorlar"><div class="icerik"><?php wp_list_bookmarks(); ?></div></div>
+<noscript>
+<div id="sponsorlar"><div class="icerik">
+</noscript>
+<?php //wp_list_bookmarks(); ?>
+<noscript>
+</div></div>
+</noscript>
 </div>
 
 <div class="temizle"></div>

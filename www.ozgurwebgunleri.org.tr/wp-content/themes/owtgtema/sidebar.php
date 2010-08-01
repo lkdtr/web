@@ -12,10 +12,10 @@
 <a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/facebooklogo.png" /></a>
 <a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/xinglogo.png" /></a>
 <a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/deliciouslogo.png" /></a>
-<a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/twitterlogo.png" /></a><br />
+<a href="http://twitter.com/ozgurwebgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/twitterlogo.png" /></a><br />
 <a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/linkedinlogo.png" /></a>
 <a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/digglogo.png" /></a>
-<a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/googlelogo.png" /></a>
+<a href="http://tuxweet.linux.org.tr/ozgurwebgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/tuxweetlogo.png" /></a>
 <a href="#"><img src="<?php bloginfo('template_url'); ?>/resimler/friendfeedlogo.png" /></a>
 </div>
 </div>

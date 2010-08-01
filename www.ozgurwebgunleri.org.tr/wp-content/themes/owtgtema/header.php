@@ -35,10 +35,10 @@
 
 <div id="ortaustbolum">
 <ul id="menu">
-<li class="birincimenu"><a href="">BILGILER</a></li>
-<li class="ikincimenu"><a href="">ULASIM</a></li>
-<li class="ucuncumenu"><a href="">ETKINLIK&nbsp;PROGRAMI</a></li>
-<li class="dorduncumenu"><a href="/iletisim">ILETISIM</a></li>
+<li class="birincimenu"><a href="/">BİLGİLER</a></li>
+<li class="ikincimenu"><a href="/ulasim">ULAŞIM</a></li>
+<li class="ucuncumenu"><a href="/etkinlik-programi">ETKİNLİK PROGRAMI</a></li>
+<li class="dorduncumenu"><a href="/iletisim">İLETİŞİM</a></li>
 </ul>
 </div>
 

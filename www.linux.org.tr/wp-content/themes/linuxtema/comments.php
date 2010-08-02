@@ -85,7 +85,7 @@
 
 <?php endif; ?>
 
-<p><textarea name="comment" id="comment" rows="10" cols="600px" tabindex="4"></textarea></p>
+<p><textarea name="comment" id="comment" rows="10" cols="60%" tabindex="4"></textarea></p>
 
 <input name="submit" type="submit" id="submit" tabindex="5" value="Gönder" />
 <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />

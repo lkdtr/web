@@ -36,7 +36,7 @@
     <ul class="news">
       <?php while (have_posts()) : the_post(); ?>
         <li class="other_new">
-          <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?> için kalıcı bağlantı"><?php the_title(); ?></a>
           <p style="font-size: 9px; margin: 0;">(<?php the_time('d F Y'); ?>)</p>
         </li>
       <?php endwhile; ?>

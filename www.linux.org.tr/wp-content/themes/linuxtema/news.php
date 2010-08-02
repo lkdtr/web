@@ -54,7 +54,7 @@
           <?php while (have_posts()) : the_post(); ?>
           <li class="top">
               <ul>
-                  <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+                  <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?> için kalıcı bağlantı">
                   <li class="bottom">
                       <h4><?php the_title(); ?></h4>
                       <p class="time">(<?php the_time('d F Y'); ?>)</p>

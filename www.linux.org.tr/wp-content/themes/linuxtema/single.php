@@ -3,7 +3,7 @@
 <div id="page">
   <div class="wrapper">
     <div id="content" style="min-height: 470px">
-      <h2 style="font-size: 28px;">Haberler</h2>
+      <h2 style="font-size: 22px; padding: 10px 15px 15px 11px;">Haberler</h2>
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <h2><?php the_title(); ?></h2>
         <?php the_content(); ?>

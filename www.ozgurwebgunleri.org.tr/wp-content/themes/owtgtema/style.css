@@ -144,6 +144,15 @@ ul, li {
 	background:url(resimler/ortaorta.png) repeat-y center top;
 }
 
+#orta ul li {
+	background:url(resimler/ulliliste.gif) no-repeat left top;
+	padding:0 0 0 15px;
+}
+
+#orta h2 {
+	margin:2px 0 2px 0;
+}
+
 /* orta sol bolum */
 
 #orta #solbolum {

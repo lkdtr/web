@@ -2,8 +2,8 @@
 
 <div id="page">
   <div class="wrapper">
+    <?php include('news_menu.php'); ?>
     <div id="content" style="min-height: 470px">
-      <h2 style="font-size: 22px; padding: 10px 0 0 0;">Haberler</h2>
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <h2><?php the_title(); ?></h2>
         <?php the_content(); ?>
@@ -11,7 +11,6 @@
 
       <div style="clear: both"></div>
       <?php comments_template( '', true ); ?>
-      <a class="haberler" href="/haberler">&raquo; Haberler sayfasına git. &raquo;</a>
     </div>
   </div>
   <?php include 'bottom_area.php'; ?>

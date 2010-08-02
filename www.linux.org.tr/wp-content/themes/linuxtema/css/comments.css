@@ -31,3 +31,17 @@ small.comment-meta {
 .reply {
     text-align: right;
 }
+
+#commentform {
+    padding-bottom: 10px;
+}
+
+#commentform p input {
+    border: 1px solid #AAA;
+}
+
+textarea#comment {
+    width: 600px;
+    height: 100px;
+    border: 1px solid #AAA;
+}

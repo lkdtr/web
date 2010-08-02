@@ -163,14 +163,6 @@ span.news_description {
 	padding: 3px 0;
 }
 
-#content a.haberler {
-    padding: 2px 10px;
-    background-color: #CCC;
-    float: right;
-    color: #444;
-    text-shadow: 2px 2px 4px #CCC;
-}
-
 #content-news ul {
     list-style-type: none;
 }
@@ -213,11 +205,6 @@ span.news_description {
     margin-top: 5px;
     font-size: 9px;
     text-align: justify;
-}
-
-#content-news h2 {
-    padding: 10px 15px 15px 11px;
-    font-size: 22px;
 }
 
 #content-news li.comments {
@@ -302,7 +289,7 @@ span.news_description {
     margin: 0;
     padding: 0 5px 5px 5px;
     clear: both;
-    border-top: 2px solid #CCC;
+    border-top: 1px solid #CCC;
     background-color: #EEE;
 }
 

@@ -27,6 +27,7 @@
 ?>
 
 <?php get_header(); ?>
+
 <?php
 
     $splitted_url = explode('/', curPageURL());
@@ -46,8 +47,8 @@
 
 <div id="page">
   <div class="wrapper">
+    <?php include('news_menu.php'); ?>
     <div id="content-news">
-      <h2>Haberler</h2>
         <ul class="content-news-top">
           <?php delete_option('wl_readmore_link'); ?>
           <?php while (have_posts()) : the_post(); ?>

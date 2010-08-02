@@ -6,7 +6,7 @@
         if ($_COOKIE['wp-postpass_' . COOKIEHASH] != $post->post_password) {  // and it doesn't match the cookie
             ?>
 
-            <p class="nocomments">This post is password protected. Enter the password to view comments.</p>
+            <p class="nocomments">Bu yazı, parola korumalıdır. Yorumları görüntülemek için lütfen parolanızı giriniz.</p>
 
             <?php
             return;
@@ -34,9 +34,9 @@
 
 			<p><?php comment_text() ?></p>
 			<?php if ($comment->comment_approved == '0') : ?>
-			<em>(<?php _e('Comment awaits moderation') ?>)</em>
+			<em>(Yorumunuz onaylandıktan sonra yayınlanacaktır.)</em>
 			<?php endif; ?>
-			<?php edit_comment_link(__('Edit'),'&nbsp;|&nbsp;&nbsp;',''); ?>
+			<?php edit_comment_link('Düzenle','',''); ?>
 		</li>
 
 	<?php /* Changes every other comment to a different class */
@@ -63,25 +63,25 @@
 
 <h3 id="respond">Yorum Yazın</h3>
 <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
-<p>You must be <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php the_permalink(); ?>">logged in</a> to post a comment.</p>
+<p>Yorum yazmak için <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php the_permalink(); ?>">giriş yapmalısınız</a>.</p>
 <?php else : ?>
 
 <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
 
 <?php if ( $user_ID ) : ?>
 
-<p><?php _e('Logged in as') ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Log out of this account"><?php _e('Logout') ?> &raquo;</a></p>
+<p><a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a> olarak giriş yapıldı. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Bu hesaptan çıkış yap">Çıkış yap &raquo;</a></p>
 
 <?php else : ?>
 
 <p><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" />
-<label for="author"><small><?php _e('Name') ?> <?php if ($req) _e('(required)'); ?></small></label></p>
+<label for="author"><small>İsim, Soyisim (gerekli)</small></label></p>
 
 <p><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" />
-<label for="email"><small><?php _e('E-Mail') ?> (<?php _e('will not be published'); ?>) <?php if ($req) _e('(required)'); ?></small></label></p>
+<label for="email"><small>Eposta (yayınlanmayacaktır) (gerekli)</small></label></p>
 
 <p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
-<label for="url"><small><?php _e('Website') ?></small></label></p>
+<label for="url"><small>İnternet Sitesi</small></label></p>
 
 <?php endif; ?>
 

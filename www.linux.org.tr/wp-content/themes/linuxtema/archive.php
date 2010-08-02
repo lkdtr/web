@@ -25,13 +25,13 @@
      	  <?php while (have_posts()) : the_post(); ?>
       		<div <?php post_class() ?>>
       				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-      				<small><?php the_time('l, d F Y') ?></small>
+      				<small><?php the_time('d F Y'); ?></small>
 
       				<div class="entry">
       					<?php the_content() ?>
       				</div>
 
-              <p class="postmetadata"><?php the_tags('Etiketler: ', ', ', '<br />'); ?> Kategori: <?php the_category(', ') ?> | <?php edit_post_link('Düzenle', '', ' | '); ?>  <?php comments_popup_link('Yorum Yok &#187;', '1 Yorum &#187;', '% Yorum &#187;'); ?></p>
+              <p class="postmetadata"><?php edit_post_link('Düzenle', '', ' | '); ?>  <?php comments_popup_link('Yorum Yok &#187;', '1 Yorum &#187;', '% Yorum &#187;'); ?></p>
 
       			</div>
       <?php endwhile; ?>

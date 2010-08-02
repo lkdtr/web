@@ -147,6 +147,7 @@ ul, li {
 #orta ul li {
 	background:url(resimler/ulliliste.gif) no-repeat left top;
 	padding:0 0 0 15px;
+	margin:2px 0 2px 0;
 }
 
 #orta h2 {

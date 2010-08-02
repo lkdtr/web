@@ -29,7 +29,7 @@
         <?php while (have_posts()) : the_post(); ?>
           <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
             <h2>
-              <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+              <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?> için kalıcı bağlantı"><?php the_title(); ?></a>
               <p class="date"><?php the_time('d F Y'); ?></p>
             </h2>
             <div class="entry">

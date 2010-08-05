@@ -18,11 +18,11 @@ $paylasilacaktitle="Özgür Web Teknoloji Günleri 2010"; ?>
 <a href="http://twitter.com/home?status=<?=$paylasilacakmetin;?> <?=$paylasilacakurl;?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/twitterlogo.png" /></a><br />
 <a href="http://www.linkedin.com/shareArticle?mini=true&url=<?=$paylasilacakurl;?>&title=<?=$paylasilacaktitle;?>&summary=<?=$paylasilacakmetin;?>&source=<?=$paylasilacaktitle;?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/linkedinlogo.png" /></a>
 <a href="http://digg.com/submit?url=<?=$paylasilacakurl;?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/digglogo.png" /></a>
-<a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/tuxweetlogo.png" /></a>
+<a href="http://tuxweet.linux.org.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/tuxweetlogo.png" /></a>
 <a href="http://friendfeed.com/?url=<?=$paylasilacakurl;?>&title=<?=$paylasilacakmetin;?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/friendfeedlogo.png" /></a>
 </div>
 </div>
 
 <div id="gnu"></div>
-<div class="afisbanner"><a href="#">AFIS&nbsp;&&nbsp;BANNER</a></div>
+<div class="afisbanner"><a href="#">AFİŞ&nbsp;&&nbsp;BANNER</a></div>
 <div style="margin:0 0 0 33px;"><img src="<?php bloginfo('template_url'); ?>/resimler/afiskucuk.jpg" /></div>

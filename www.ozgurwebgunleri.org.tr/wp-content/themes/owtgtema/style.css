@@ -184,10 +184,12 @@ ul, li {
 /* orta afis banner bolumu */
 
 #orta .kod {
-	width:80%;
+	width:90%;
 	border:1px dashed #dadada;
-	padding:5px;
+	padding:10px;
 	background:#fff url(resimler/kodartalan.jpg) top right;
+	margin:auto;
+	text-align:center;
 }
 
 /* orta sol bolum */

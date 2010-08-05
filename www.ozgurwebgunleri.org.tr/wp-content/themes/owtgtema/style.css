@@ -173,6 +173,10 @@ ul, li {
 	padding:0 150px 5px 0;
 }
 
+#orta .kimler {
+	background:url(resimler/kimlerpenguen.gif) no-repeat right top;
+}
+
 /* orta sol bolum */
 
 #orta #solbolum {

@@ -166,6 +166,12 @@ ul, li {
 	margin:2px 0 2px 0;
 }
 
+/* orta bilgiler bolumu */
+
+#orta .nedir {
+	background:url(resimler/nedirartalan.gif) no-repeat right top;
+}
+
 /* orta sol bolum */
 
 #orta #solbolum {

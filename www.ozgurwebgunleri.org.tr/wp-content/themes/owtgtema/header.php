@@ -37,7 +37,7 @@
 
 <div id="ortaustbolum">
 <ul id="menu">
-<li class="birincimenu"><a href="/">BİLGİLER</a></li>
+<li class="birincimenu"><a href="/bilgiler">BİLGİLER</a></li>
 <li class="ikincimenu"><a href="/ulasim">ULAŞIM</a></li>
 <li class="ucuncumenu"><a href="/etkinlik-programi">ETKİNLİK PROGRAMI</a></li>
 <li class="dorduncumenu"><a href="/iletisim">İLETİŞİM</a></li>

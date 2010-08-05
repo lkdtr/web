@@ -181,6 +181,15 @@ ul, li {
 	background:url(resimler/orayanasilgiderim.gif) no-repeat right bottom;
 }
 
+/* orta afis banner bolumu */
+
+#orta .kod {
+	width:80%;
+	border:1px dashed #dadada;
+	padding:5px;
+	background:#fff url(resimler/kodartalan.jpg) top right;
+}
+
 /* orta sol bolum */
 
 #orta #solbolum {

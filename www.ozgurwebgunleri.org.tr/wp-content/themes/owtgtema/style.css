@@ -153,7 +153,7 @@ ul, li {
 #orta ul li {
 	background:url(resimler/ulliliste.gif) no-repeat left top;
 	padding:0 0 0 10px;
-	margin:2px 0 2px 0;
+	margin:5px 0 5px 0;
 }
 
 #orta ul.sol li {
@@ -163,13 +163,14 @@ ul, li {
 }
 
 #orta h2 {
-	margin:2px 0 2px 0;
+	margin:2px 0 6px 0;
 }
 
 /* orta bilgiler bolumu */
 
 #orta .nedir {
 	background:url(resimler/nedirartalan.gif) no-repeat right top;
+	padding:0 150px 5px 0;
 }
 
 /* orta sol bolum */

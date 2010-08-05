@@ -177,6 +177,10 @@ ul, li {
 	background:url(resimler/kimlerpenguen.gif) no-repeat center;
 }
 
+#orta .orayanasilgiderim {
+	background:url(resimler/orayanasilgiderim.gif) no-repeat right bottom;
+}
+
 /* orta sol bolum */
 
 #orta #solbolum {

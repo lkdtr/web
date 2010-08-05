@@ -25,8 +25,4 @@ $paylasilacaktitle="Özgür Web Teknoloji Günleri 2010"; ?>
 
 <div id="gnu"></div>
 <div class="afisbanner"><a href="#">AFIS&nbsp;&&nbsp;BANNER</a></div>
-<div id="ulasim">
-<div class="icerik">
-yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe universitesi yeditepe universitesi ulasim tarifi yeditepe universitesi ulasim tarifi yeditepe univer
-</div>
-</div>
+<img src="<?php bloginfo('template_url'); ?>/resimler/afiskucuk.jpg" />

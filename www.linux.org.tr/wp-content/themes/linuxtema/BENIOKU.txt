@@ -14,4 +14,5 @@ BAĞIMLILIKLAR
 - Content And Excerpt Word Limit:
     http://wordpress.org/extend/plugins/content-and-excerpt-word-limit/
 
-- TDOForm bilmemne eklentisi
+- TDO Mini Forms:
+    http://thedeadone.net/software/tdo-forum-wordpress-theme/

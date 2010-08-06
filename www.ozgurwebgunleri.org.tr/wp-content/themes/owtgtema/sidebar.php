@@ -3,7 +3,7 @@
 <div id="organizasyon">
 <div class="icerik">
 <a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/tlkdorganizasyonlogo.png" /></a>
-<a href="http://yucomp.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/ytucorganizasyonlogo.png" /></a>
+<a href="http://viki.yucomp.com/index.php?title=Ana_sayfa" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/ytucorganizasyonlogo.png" /></a>
 </div>
 </div>
 

@@ -29,6 +29,9 @@
 
 <div id="ust">
 <div id="ustbolum">
+<?php $sontweetlerial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozgurwebgunleri");
+$sontweet=$sontweetlerial->entry[0]->item; ?>
+<div id="sontweet"><?php echo $sontweet; ?></div>
 <div id="etkinlikgerisayim"></div>
 </div>
 </div>

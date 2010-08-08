@@ -91,10 +91,12 @@ ul, li {
 
 #ust #ustbolum #sontweet {
 	background:url(resimler/twitterarka.png) no-repeat top left;
-	padding:0 0 0 65px;
+	padding:4px 0 0 66px;
 	width:558px;
-	height:49px;
-	margin:0 0 0 265px;
+	height:46px;
+	margin:0 0 0 270px;
+	font-size:13px;
+	font-style:italic;
 }
 
 /* etkinlik geri sayimi */

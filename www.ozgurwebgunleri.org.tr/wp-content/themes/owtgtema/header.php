@@ -30,7 +30,7 @@
 <div id="ust">
 <div id="ustbolum">
 <?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozgurwebgunleri");
-$sontweet=$sontweetial->entry[0]->title; ?>
+$sontweet=$sontweetial->entry[0]->content; ?>
 <div id="sontweet"><?php echo $sontweet; ?></div>
 <div id="etkinlikgerisayim"></div>
 </div>

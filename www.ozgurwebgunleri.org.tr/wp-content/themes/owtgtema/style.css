@@ -89,6 +89,11 @@ ul, li {
 	height:173px;
 }
 
+#ust #ustbolum #sontweet {
+	background:url(resimler/sontweetarka.png) no-repeat top left;
+	padding:5px 10px 0 30px;
+}
+
 /* etkinlik geri sayimi */
 
 #ust #ustbolum .etkinlikgerisayim {

@@ -101,7 +101,7 @@ ul, li {
 
 /* etkinlik geri sayimi */
 
-#ust #ustbolum .etkinlikgerisayim {
+#ust #ustbolum #etkinlikgerisayim {
 	width:239px;
 	height:113px;
 	background:url(resimler/etkinlikgerisayimarka.png) no-repeat top left;

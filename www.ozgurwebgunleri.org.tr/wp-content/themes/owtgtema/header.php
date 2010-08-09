@@ -47,7 +47,7 @@ $(function () {
 	$.countdown.regional['tr'];
 });
 </script>
-<div class="etkinlige">ETKINLIGE</div>
+<div class="etkinlige">ETKİNLİĞE</div>
 <div id="gerisayim"></div>
 <div class="kaldi">KALDI</div>
 </div>

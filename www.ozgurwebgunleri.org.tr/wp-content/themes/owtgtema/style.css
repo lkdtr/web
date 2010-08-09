@@ -105,6 +105,8 @@ ul, li {
 	width:239px;
 	height:113px;
 	background:url(resimler/etkinlikgerisayimarka.png) no-repeat top left;
+	float:right;
+	margin:8px 10px 0 0;
 }
 
 /* orta ust bolum */

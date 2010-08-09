@@ -132,6 +132,19 @@ ul, li {
 	margin:0 0 0 8px;
 }
 
+#ust #ustbolum #etkinlikgerisayim #gerisayim .countdown_show4 .countdown_section {
+	width: 24.5%;
+}
+#ust #ustbolum #etkinlikgerisayim #gerisayim .countdown_section {
+	display: block;
+	float: left;
+	font-size:10px;
+	text-align: center;
+}
+#ust #ustbolum #etkinlikgerisayim #gerisayim .countdown_amount {
+	font-size:34px;
+}
+
 #ust #ustbolum #etkinlikgerisayim .kaldi {
 	font-size:13px;
 	color:#000;

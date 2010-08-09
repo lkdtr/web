@@ -24,6 +24,7 @@
 
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/gerisayim/jquery.countdown.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/gerisayim/jquery.countdown-tr.js"></script>
 
 <?php wp_head(); ?>
 </head>
@@ -43,6 +44,7 @@ $sontweet_trimmed = ltrim($sontweet, "ozgurwebgunleri: #ozgurwebgunleri "); // h
 $(function () {
 	etkinliktarihi = new Date(2010, 10 - 1, 15);
 	$('#gerisayim').countdown({until: etkinliktarihi});
+	$.countdown.regional['tr'];
 });
 </script>
 <div class="etkinlige">ETKINLIGE</div>

@@ -121,13 +121,21 @@ ul, li {
 }
 
 #ust #ustbolum #etkinlikgerisayim .etkinlige {
-	font-size:20px;
+	font-size:19px;
 	color:#FFF;
+	margin:6px 0 0 131px
+}
+
+#ust #ustbolum #etkinlikgerisayim #gerisayim {
+	width:220px;
+	height:60px;
+	margin:0 0 0 8px;
 }
 
 #ust #ustbolum #etkinlikgerisayim .kaldi {
 	font-size:13px;
 	color:#000;
+	margin:8px 0 0 187px;
 }
 
 /* orta ust bolum */

@@ -30,8 +30,10 @@
 <div id="ust">
 <div id="ustbolum">
 <?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozgurwebgunleri");
-$sontweet=$sontweetial->entry[0]->title; ?>
-<div id="sontweet"><?php echo $sontweet; ?></div>
+$sontweet=$sontweetial->entry[0]->title;
+$sontweet_trimmed = ltrim($sontweet, "ozgurwebgunleri: #ozgurwebgunleri "); // her tweet'in basinda gelen ifadeleri kirpalim
+?>
+<div id="sontweet"><?php echo $sontweet_trimmed; ?></div>
 <div id="etkinlikgerisayim"></div>
 </div>
 </div>

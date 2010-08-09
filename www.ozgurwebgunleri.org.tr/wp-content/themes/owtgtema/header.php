@@ -23,7 +23,7 @@
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/gerisayim/jquery.countdown.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/gerisayim/jquery.countdown.js"></script>
 
 <?php wp_head(); ?>
 </head>

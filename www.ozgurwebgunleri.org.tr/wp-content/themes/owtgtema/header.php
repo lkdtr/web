@@ -38,7 +38,11 @@ $sontweet_trimmed = ltrim($sontweet, "ozgurwebgunleri: #ozgurwebgunleri "); // h
 ?>
 <div id="sontweet"><a href="http://tuxweet.linux.org.tr/ozgurwebgunleri"><?php echo $sontweet_trimmed; ?></a></div>
 <div id="logo"><a href="http://www.ozgurwebgunleri.org.tr"><img src="<?php bloginfo('template_url'); ?>/resimler/bosluk.gif" /></a></div>
-<div id="etkinlikgerisayim"></div>
+<div id="etkinlikgerisayim">
+<div class="etkinlige">ETKINLIGE</div>
+<div id="gerisayim"></div>
+<div class="kaldi">KALDI</div>
+</div>
 </div>
 </div>
 

@@ -36,6 +36,7 @@
 $sontweet=$sontweetial->entry[0]->title;
 $sontweet_trimmed = ltrim($sontweet, "ozgurwebgunleri: #ozgurwebgunleri "); // her tweet'in basinda gelen ifadeleri kirpalim
 ?>
+<div id="logo"><a href="http://www.ozgurwebgunleri.org.tr"><img src="<?php bloginfo('template_url'); ?>/resimler/bosluk.gif" /></a></div>
 <div id="sontweet"><?php echo $sontweet_trimmed; ?></div>
 <div id="etkinlikgerisayim"></div>
 </div>

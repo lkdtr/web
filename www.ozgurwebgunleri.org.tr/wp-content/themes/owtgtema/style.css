@@ -96,8 +96,8 @@ ul, li {
 
 #ust #ustbolum #sontweet {
 	background:url(resimler/twitterarka.png) no-repeat top left;
-	padding:4px 0 0 66px;
-	width:558px;
+	padding:4px 0 0 62px;
+	width:560px;
 	height:46px;
 	margin:0 0 0 270px;
 	font-size:13px;
@@ -148,7 +148,7 @@ ul, li {
 #ust #ustbolum #etkinlikgerisayim .kaldi {
 	font-size:13px;
 	color:#000;
-	margin:2px 0 0 189px;
+	margin:0 0 0 191px;
 }
 
 /* orta ust bolum */

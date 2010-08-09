@@ -104,6 +104,12 @@ ul, li {
 	font-style:italic;
 }
 
+#ust #ustbolum #sontweet a {
+	font-size:13px;
+	font-style:italic;
+	text-decoration:none;
+}
+
 /* etkinlik geri sayimi */
 
 #ust #ustbolum #etkinlikgerisayim {

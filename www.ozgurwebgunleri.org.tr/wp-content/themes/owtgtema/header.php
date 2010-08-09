@@ -39,6 +39,12 @@ $sontweet_trimmed = ltrim($sontweet, "ozgurwebgunleri: #ozgurwebgunleri "); // h
 <div id="sontweet"><a href="http://tuxweet.linux.org.tr/ozgurwebgunleri"><?php echo $sontweet_trimmed; ?></a></div>
 <div id="logo"><a href="http://www.ozgurwebgunleri.org.tr"><img src="<?php bloginfo('template_url'); ?>/resimler/bosluk.gif" /></a></div>
 <div id="etkinlikgerisayim">
+<script type="text/javascript">
+$(function () {
+	etkinliktarihi = new Date(2010, 10 - 1, 15);
+	$('#gerisayim').countdown({until: etkinliktarihi});
+});
+</script>
 <div class="etkinlige">ETKINLIGE</div>
 <div id="gerisayim"></div>
 <div class="kaldi">KALDI</div>

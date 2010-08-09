@@ -204,7 +204,7 @@ ul, li {
 	width:90%;
 	border:1px dashed #dadada;
 	padding:10px;
-	background:#fff url(resimler/kodartalan.jpg) top right;
+	background:#fff url(resimler/kodartalan.jpg) no-repeat top right;
 	margin:auto;
 	text-align:center;
 }

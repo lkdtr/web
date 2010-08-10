@@ -306,6 +306,12 @@ ul, li {
 	margin:0 10px 0 0;
 }
 
+#orta #sagbolum #sponsorlar .icerik img {
+	margin:0 0 10px 5px;
+	width:140px;
+	height:140px;
+}
+
 #orta #sagbolum ul li {
 	background:url(resimler/sponsorlararaliklari.png) no-repeat bottom center;
 	width:180px;

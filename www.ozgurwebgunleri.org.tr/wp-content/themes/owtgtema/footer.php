@@ -7,6 +7,7 @@
 <a href="https://www.xing.com/events/ozgur-web-teknolojileri-gunleri-548570" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/xinglogo.png" width="16px" alt="Xing Sayfamız" /></a>
 <a href="http://twitter.com/ozgurwebgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/twitterlogo.png" width="16px" alt="Twitter Sayfamız" /></a>
 <a href="http://identi.ca/ozgurwebgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/identicalogo.png" width="16px" alt="Identica Sayfamız" /></a>
+<a href="http://friendfeed.com/ozgurwebgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/friendfeedlogo.png" width="16px" alt="FriendFeed Sayfamız" /></a>
 </div>
 <div class="temizle"></div>
 </div>

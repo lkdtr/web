@@ -3,7 +3,7 @@
 <div id="organizasyon">
 <div class="icerik">
 <a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/tlkdorganizasyonlogo.png" alt="Linux Kullanıcıları Derneği" /></a>
-<a href="http://yucomp.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/ytucorganizasyonlogo.png" alt="Yeditepe Üniversitesi Bilgisayar Topluluğu" /></a>
+<img src="<?php bloginfo('template_url'); ?>/resimler/ytucorganizasyonlogo.png" alt="Yeditepe Üniversitesi Bilgisayar Topluluğu" />
 </div>
 </div>
 

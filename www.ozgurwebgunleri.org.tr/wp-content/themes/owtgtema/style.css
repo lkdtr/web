@@ -313,8 +313,8 @@ ul, li {
 }
 
 #orta #sagbolum ul li {
-	background:url(resimler/sponsoraraliklari.png) no-repeat bottom center;
-	width:180px;
+	background:url(resimler/sponsoraraliklari.png) no-repeat bottom left;
+	width:145px;
 	padding:0px;
 	margin:0px;
 }

@@ -307,16 +307,16 @@ ul, li {
 }
 
 #orta #sagbolum #sponsorlar .icerik img {
-	margin:0 0 10px 5px;
+	margin:0 0 0 5px;
 	width:140px;
 	height:140px;
 }
 
 #orta #sagbolum ul li {
-	background:url(resimler/sponsorlararaliklari.png) no-repeat bottom center;
+	background:url(resimler/sponsoraraliklari.png) no-repeat bottom center;
 	width:180px;
-	padding:0 0 6px 0;
-	margin: 0 0 5px 0;
+	padding:0px;
+	margin:0px;
 }
 
 /* orta orta bolum */

@@ -345,3 +345,15 @@ ul, li {
 	float:right;
 	margin:40px 32px 0 0;
 }
+
+/* Ulasim */
+
+#ortabolum ul.ulasim {
+    margin-top:10px;
+}
+
+#ortabolum ul.ulasim li {
+    height:30px; 
+}
+
+

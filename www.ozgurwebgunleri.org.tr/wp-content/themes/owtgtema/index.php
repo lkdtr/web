@@ -39,7 +39,9 @@
 
 <div id="sagbolum">
 <div id="sponsorlar"><div class="icerik">
+<ul>
 <?php wp_list_bookmarks('orderby=rating'); ?>
+</ul>
 </div></div>
 </div>
 

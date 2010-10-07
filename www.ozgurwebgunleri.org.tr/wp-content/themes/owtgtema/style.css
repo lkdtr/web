@@ -313,6 +313,7 @@ ul, li {
 }
 
 #orta #sagbolum ul li {
+	background:none;
 	width:145px;
 	padding:0px;
 	margin:0 0 46px 0;

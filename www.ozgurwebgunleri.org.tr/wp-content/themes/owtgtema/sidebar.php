@@ -25,4 +25,4 @@ $paylasilacaktitle="Özgür Web Teknoloji Günleri 2010"; ?>
 
 <div id="gnu"></div>
 <div class="afisbanner"><a href="/afis-banner">AFİŞ&nbsp;&amp;&nbsp;BANNER</a></div>
-<div style="margin:0 0 0 33px;"><a href="wp-content/uploads/2010/10/afisbuyuk.jpg" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/afiskucuk.jpg" alt="Özgür Web Teknolojileri Günleri 2010 Afişi" /></a></div>
+<div style="margin:0 0 0 33px;"><a href="/afis-banner" target="_blank"><img src="<?php bloginfo('template_url'); ?>/resimler/afiskucuk.jpg" alt="Özgür Web Teknolojileri Günleri 2010 Afişi" /></a></div>

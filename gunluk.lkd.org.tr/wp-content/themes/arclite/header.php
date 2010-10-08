@@ -18,6 +18,22 @@
  <?php wp_enqueue_script('arclite',get_bloginfo('template_url').'/js/jquery.arclite.min.js',array(),false,true); ?>
 <?php endif; ?>
 
+<!-- Start Open Web Analytics Tracker -->
+<script type="text/javascript" src="http://istatistik.linux.org.tr/modules/base/js/owa.tracker-combined-min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+// Set base URL
+OWA.setSetting('baseUrl', 'http://istatistik.linux.org.tr/');
+// Create a tracker
+OWATracker = new OWA.tracker();
+OWATracker.setSiteId('8acfa218cd7632b5a2be40f0d0f58915');
+OWATracker.trackPageView();
+OWATracker.trackClicks();
+OWATracker.trackDomStream();
+//]]>
+</script>
+<!-- End Open Web Analytics Code -->
+
 <?php wp_head(); ?>
 
 </head>

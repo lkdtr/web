@@ -14,6 +14,23 @@
 
     <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
     <?php wp_head(); ?>
+
+<!-- Start Open Web Analytics Tracker -->
+<script type="text/javascript" src="http://istatistik.linux.org.tr/modules/base/js/owa.tracker-combined-min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+// Set base URL
+OWA.setSetting('baseUrl', 'http://istatistik.linux.org.tr/');
+// Create a tracker
+OWATracker = new OWA.tracker();
+OWATracker.setSiteId('a7fbbfd57149f8e23185a6d1e3fdfd6f');
+OWATracker.trackPageView();
+OWATracker.trackClicks();
+OWATracker.trackDomStream();
+//]]>
+</script>
+<!-- End Open Web Analytics Code -->
+
   </head>
   <body>
     <div id="top">

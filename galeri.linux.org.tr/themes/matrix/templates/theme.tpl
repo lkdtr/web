@@ -15,16 +15,6 @@
 
     {* Include this theme's style sheet *}
     <link rel="stylesheet" type="text/css" href="{g->theme url="theme.css"}"/>
-    
-    <script type="text/javascript" src="http://istatistik.linux.org.tr/modules/base/js/owa.tracker-combined-min.js"></script>
-    <script type="text/javascript">
-    OWA.setSetting('baseUrl', 'http://istatistik.linux.org.tr/');
-    OWATracker = new OWA.tracker();
-    OWATracker.setSiteId('362d6f5f7f392bf85b31a55d5be767f1');
-    OWATracker.trackPageView();
-    OWATracker.trackClicks();
-    OWATracker.trackDomStream();
-    </script>
 
   </head>
   <body class="gallery">

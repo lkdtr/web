@@ -11,6 +11,23 @@ ini_set("default_charset", 'utf-8');
   <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
   <title>LKD E-Posta Listeleri - <?php echo $title; ?></title>
   <link rel="stylesheet" type="text/css" media="screen" href="stil.css">
+  
+  <!-- Start Open Web Analytics Tracker -->
+  <script type="text/javascript" src="http://istatistik.linux.org.tr/modules/base/js/owa.tracker-combined-min.js"></script>
+  <script type="text/javascript">
+  //<![CDATA[
+  // Set base URL
+  OWA.setSetting('baseUrl', 'http://istatistik.linux.org.tr/');
+  // Create a tracker
+  OWATracker = new OWA.tracker();
+  OWATracker.setSiteId('7d2a5ecb2b91653efd00de966626970c');
+  OWATracker.trackPageView();
+  OWATracker.trackClicks();
+  OWATracker.trackDomStream();
+  //]]>
+  </script>
+  <!-- End Open Web Analytics Code -->
+  
 </head>
 <body><div id="arayuz">
   <a href="./"><div class="site_baslik"><h1>Linux Kullanıcıları Derneği E-Posta Listeleri</h1></div></a>

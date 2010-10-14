@@ -22,8 +22,6 @@
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/gerisayim/jquery.countdown.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/gerisayim/jquery.countdown-tr.js"></script>
 
 <?php wp_head(); ?>
 </head>
@@ -39,16 +37,7 @@ $sontweet_trimmed = ltrim($sontweet, "ozgurwebgunleri: #ozgurwebgunleri "); // h
 <div id="sontweet"><a href="http://tuxweet.linux.org.tr/ozgurwebgunleri"><?php echo $sontweet_trimmed; ?></a></div>
 <div id="logo"><a href="http://www.ozgurwebgunleri.org.tr"><img src="<?php bloginfo('template_url'); ?>/resimler/bosluk.gif" alt="Logo" /></a></div>
 <div id="etkinlikgerisayim">
-<script type="text/javascript">
-$(function () {
-	etkinliktarihi = new Date(2010, 10 - 1, 15);
-	$('#gerisayim').countdown({until: etkinliktarihi});
-	$.countdown.regional['tr'];
-});
-</script>
-<div class="etkinlige">ETKİNLİĞE</div>
-<div id="gerisayim"></div>
-<div class="kaldi">KALDI</div>
+<div class="etkinlige">ETKİNLİK BAŞLIYOR</div>
 </div>
 </div>
 </div>

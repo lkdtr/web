@@ -1,7 +1,7 @@
 <td width="508" valign="top"><div style="padding-left: 5px;"><table cellpadding="0" border="0" width="100%"><tbody><tr><td>
 <h1>Linux Destek, Teknoloji ve Eğitim Kurumları</h1>
 Türkiye'de Linux ve özgür yazılımlar konusunda hizmet verdiği bilinen
-kuruluşların bir listesini aşağıda bulabilirsiniz. LKD herhangi bir
+kuruluşların listesini aşağıda bulabilirsiniz. LKD herhangi bir
 biçimde kurumların verdiği hizmetlerden sorumlu değildir, içeriğini
 denetlememektedir.</td></tr></tbody></table>
 <table cellspacing="0" cellpadding="2" border="0" width="100%"><tbody>

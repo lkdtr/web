@@ -130,7 +130,7 @@ sunmaktadır. SUSE Linux Enterprise ürünleri satan firma; sanallaştırma,
 sanallaştırma yönetimi ve çeşitli seviyelerde kurumsal Linux destek
 hizmeti sağlamaktadır. <br/>
 <b>Web Sitesi :</b> <a href="http://www.novell.com/" target="_blank">http://www.novell.com</a></td>
-<td style="text-align: right;"><img style="width: 198px; height: 47px;" alt="" src="linuxfirmalar_files/nov_red.gif"/></td></tr>
+<td align="right" width="100" valign="middle"><img style="width: 198px; height: 47px;" alt="" src="linuxfirmalar_files/nov_red.gif"/></td></tr>
 
 <tr bgcolor="#f4f4f4"><td><h3>OBSS Açık Yazılım İş Çözümleri </h3>
 <b>Özgür Yazılımla İlgili Hizmetleri :</b> Linux Teknolojileri, Destek

@@ -60,7 +60,7 @@ html {
 }
 
 body {
-	background:url(images/bodyarka.jpg) repeat-x;
+	background:url(images/bodyarka.jpg) no-repeat center top;
 	padding:10px 0 0 0;
 }
 

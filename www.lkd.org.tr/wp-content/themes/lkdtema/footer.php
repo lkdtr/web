@@ -9,18 +9,12 @@
 
 <div class="icerik">
 
-<div id="altbilgiler">
-		<?php bloginfo('name'); ?>,
-    <a href="http://wordpress.org/">WordPress</a> - <a href="http://www.wordpress-tr.com/">TR</a> üzerine kurulmuştur.
-		<!-- <?php echo get_num_queries(); ?> sorgu. <?php timer_stop(1); ?> saniye. -->
+<div id="sosyalmedya">
+Sosyal Ağlarda LKD : <?php wp_list_bookmarks('orderby=rating'); ?>
 </div>
 
 <div id="altlogo">
 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/tlkdaltlogo.gif" />
-</div>
-
-<div id="sosyalmedya">
-Sosyal Ağlarda LKD : <?php wp_list_bookmarks('orderby=rating'); ?>
 </div>
 
 <?php if(function_exists('langswitch_list_langs')){

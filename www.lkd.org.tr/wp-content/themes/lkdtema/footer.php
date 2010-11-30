@@ -10,7 +10,7 @@
 <div class="icerik">
 
 <div id="sosyalmedya">
-Sosyal Ağlarda LKD : <?php wp_list_bookmarks('orderby=rating'); ?>
+<div>Sosyal Ağlarda LKD : </div><?php wp_list_bookmarks('orderby=rating'); ?>
 </div>
 
 <div id="altlogo">

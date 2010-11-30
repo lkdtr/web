@@ -15,12 +15,12 @@
 		<!-- <?php echo get_num_queries(); ?> sorgu. <?php timer_stop(1); ?> saniye. -->
 </div>
 
-<div id="sosyalmedya">
-
-</div>
-
 <div id="altlogo">
 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/tlkdaltlogo.gif" />
+</div>
+
+<div id="sosyalmedya">
+
 </div>
 
 <?php if(function_exists('langswitch_list_langs')){

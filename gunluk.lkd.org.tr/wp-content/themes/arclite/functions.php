@@ -57,6 +57,17 @@ function get_upload_dir($dir) {
   return $uploadpath[$dir];
 }
 
+function custom_rss2(){
+	load_template( TEMPLATEPATH.'/feed-rss2.php' );
+	die();
+}
+add_action( 'do_feed_rss2', 'custom_rss2', 1 );
+
+function custom_atom(){
+	load_template( TEMPLATEPATH.'/feed-atom.php' );
+	die();
+}
+add_action( 'do_feed_atom', 'custom_atom', 1 );
 
 function arclite_update_options() {
   check_admin_referer('theme-settings');

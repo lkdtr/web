@@ -1,5 +1,5 @@
 html {
-	background:#000 url(../images/arkaplan.png) repeat-x fixed;
+	background:#000 url(../images/arkaplan.jpg) repeat-x fixed;
 }
 
 body {
@@ -121,7 +121,7 @@ span.news_description {
 }
 
 #top {
-	background:url('http://img413.imageshack.us/img413/2773/arkaisik.png');
+	background:url(../images/arkaisik.png);
 	width:760px;
 	margin:auto;
     border-bottom: 5px solid #C9D7F1;

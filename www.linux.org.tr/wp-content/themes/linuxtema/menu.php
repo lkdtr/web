@@ -41,3 +41,4 @@
     <li class="last"><a href="http://www.lkd.org.tr/hakkimizda/iletisim/">İletişim</a></li>
   </ul>
 </div>
+<div class="clear"></div>

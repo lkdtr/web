@@ -1,3 +1,26 @@
+ul#nav {
+	margin-top:5px;
+}
+
+ul#nav li {
+	font-size:12px;
+	font-weight:bold;
+	border-right:0px solid #999;
+	margin:0 5px 0 0;
+}
+
+ul#nav li a{
+	padding:2px 7px 3px 7px;
+}
+
+ul#nav_en {
+	margin:5px 0 0 0;
+}
+
+ul#nav_en li {
+	margin:0 1px 0 0;
+}
+
 #nav, #nav ul {
     margin: 0;
     padding: 0;

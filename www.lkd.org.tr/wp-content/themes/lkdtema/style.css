@@ -17,6 +17,10 @@ Tags: lkd, linux kullanıcılar derneği, mavi, siyah
 	color:#333;
 }
 
+html {
+	background:#262626;
+}
+
 body {
 	background:#f3f5f6 url(images/arka.jpg) repeat-x top left;
 	font-size:12px;

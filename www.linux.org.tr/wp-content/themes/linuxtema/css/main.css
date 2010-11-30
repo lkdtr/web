@@ -1,12 +1,12 @@
 html {
-	background:#000 url(images/arkaplan.png) repeat-x fixed;
+	background:#000 url(../images/arkaplan.png) repeat-x fixed;
 }
 
 body {
     margin: 0;
     font-size: 12px;
     font-family:Verdana, Arial, Helvetica, sans-serif;
-	background:url(images/adam.png) no-repeat center top fixed;
+	background:url(../images/adam.png) no-repeat center top fixed;
 }
 
 a {
@@ -142,7 +142,7 @@ span.news_description {
 }
 
 #page {
-	background:url(images/golge.png) repeat-y;
+	background:url(../images/golge.png) repeat-y;
 	width:766px;
 	margin:auto;
     min-height: 580px;

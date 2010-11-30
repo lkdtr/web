@@ -20,7 +20,7 @@
 </div>
 
 <div id="sosyalmedya">
-
+<?php wp_list_bookmarks('orderby=rating'); ?>
 </div>
 
 <?php if(function_exists('langswitch_list_langs')){

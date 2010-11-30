@@ -182,7 +182,7 @@ ul#menu li a {
 	list-style:none;
 }
 
-.linkcat {
+#sag .linkcat {
 	width:176px;
 	border-right:1px solid #818181;
 	border-left:1px solid #818181;
@@ -191,7 +191,7 @@ ul#menu li a {
 	list-style:none;
 }
 
-.linkcat h2 {
+#sag .linkcat h2 {
 	background:url(images/sagh1.jpg) no-repeat top left;
 	width:141px;
 	height:24px;
@@ -201,11 +201,11 @@ ul#menu li a {
 	font-size:14px;
 }
 
-.linkcat ul {
+#sag .linkcat ul {
 	list-style:none;
 }
 
-.linkcat ul li {
+#sag .linkcat ul li {
 	list-style:none;
 	background:url(images/listeyani.jpg) no-repeat left top;
 	padding:3px 0 3px 20px;
@@ -230,8 +230,10 @@ ul#menu li a {
 
 #alt #sosyalmedya {
 	float:right;
-	width:200px;
 	margin:41px 0 0 0;
+	width:300px;
+	color:#999;
+	font-size:10px;
 }
 
 #alt #sosyalmedya li h2 {
@@ -240,6 +242,10 @@ ul#menu li a {
 
 #alt #sosyalmedya li {
 	border:none;
+}
+
+#alt #sosyalmedya li ul {
+	float:left;
 }
 
 #alt #sosyalmedya li ul li {

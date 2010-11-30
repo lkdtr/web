@@ -232,8 +232,14 @@ ul#menu li a {
 	float:left;
 	margin:41px 0 0 0;
 	width:300px;
-	color:#999;
 	font-size:10px;
+}
+
+#alt #sosyalmedya div {
+	color:#999;
+	float:left;
+	margin:0 4px 0 0;
+	padding:2px 0 0 0;
 }
 
 #alt #sosyalmedya li h2 {

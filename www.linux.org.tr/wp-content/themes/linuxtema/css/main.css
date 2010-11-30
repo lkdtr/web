@@ -153,6 +153,10 @@ span.news_description {
     list-style-type: circle;
 }
 
+#content>ul {
+	margin: -7px 0 10px 30px;
+}
+
 #content ul li {
 	margin: 0;
 	padding: 3px 0;

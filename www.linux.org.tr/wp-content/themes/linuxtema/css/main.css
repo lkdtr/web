@@ -1,8 +1,12 @@
+html {
+	background:#000 url(images/arkaplan.png) repeat-x fixed;
+}
+
 body {
     margin: 0;
     font-size: 12px;
     font-family:Verdana, Arial, Helvetica, sans-serif;
-    background-color: #000;
+	background:url(images/adam.png) no-repeat center top fixed;
 }
 
 a {
@@ -117,7 +121,9 @@ span.news_description {
 }
 
 #top {
-    background: #FFF url('../images/header_bg.png') no-repeat top center;
+	background:url('http://img413.imageshack.us/img413/2773/arkaisik.png');
+	width:760px;
+	margin:auto;
     border-bottom: 5px solid #C9D7F1;
 }
 
@@ -136,7 +142,9 @@ span.news_description {
 }
 
 #page {
-    background: #000 url('../images/background.jpg') no-repeat top center;
+	background:url(images/golge.png) repeat-y;
+	width:766px;
+	margin:auto;
     min-height: 580px;
 }
 

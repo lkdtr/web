@@ -80,7 +80,7 @@
           <?= $header_text ?>
           <? else: ?>
           <a id="g-logo" class="g-left" href="<?= item::root()->url() ?>" title="<?= t("go back to the Gallery home")->for_html_attr() ?>">
-            <img width="107" height="48" alt="<?= t("Gallery logo: Your photos on your web site")->for_html_attr() ?>" src="<?= url::file("lib/images/logo.png") ?>" />
+            <img width="107" height="48" alt="<?= t("Gallery logo: Your photos on your web site")->for_html_attr() ?>" src="<?= url::file("images/logo.png") ?>" />
           </a>
           <? endif ?>
           <?= $theme->user_menu() ?>

@@ -231,7 +231,23 @@ ul#menu li a {
 #alt #sosyalmedya {
 	float:right;
 	width:200px;
-	margin:35px 0 0 0;
+	margin:41px 0 0 0;
+}
+
+#alt #sosyalmedya li h2 {
+	display:none;
+}
+
+#alt #sosyalmedya li {
+	border:none;
+}
+
+#alt #sosyalmedya li ul li {
+	padding:0px;
+	background:none;
+	float:right;
+	width:16px;
+	margin:0 8px 0 0;
 }
 
 #alt #altbilgiler {

@@ -39,8 +39,8 @@ img {
 
 img.logo {
     margin: 0;
-    padding: 0;
     float: left;
+	padding-left:10px;
 }
 
 img.button {
@@ -122,9 +122,9 @@ span.news_description {
 
 #top {
 	background:url(../images/arkaisik.png);
-	width:760px;
 	margin:auto;
-    border-bottom: 5px solid #C9D7F1;
+	height:111px;
+	width:766px;
 }
 
 #header {
@@ -134,11 +134,15 @@ span.news_description {
 }
 
 #banner {
-    padding-top: 15px;
+	padding-top:11px;
+	padding-right:10px;
 }
 
 #horizontal_menu {
-    height: 21px;
+	background:url(../images/golge.png) left bottom;
+	padding:0 3px 0 3px;
+	height:26px;
+	width:760px;
 }
 
 #page {
@@ -361,3 +365,7 @@ span.news_description {
 #other-news {
 }
 */
+
+.clear {
+	clear:both;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta http-equiv="Content-Type" content="text/html; charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.

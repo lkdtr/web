@@ -14,7 +14,7 @@
   <br />
   <br />
     <form method="get" action="http://www.google.com/custom">
-      <input type="hidden" name="cof" value="S:http://www.linux.org.tr;AH:center;LH:120;L:http://www.lkd.org.tr/images/r1c1.gif;LW:279;AWFID:addc628b01ef0105;">
+      <input type="hidden" name="cof" value="S:http://www.linux.org.tr;AH:center;LH:120;L:http://liste.linux.org.tr/resim/lkdlogo.png;LW:279;AWFID:addc628b01ef0105;">
       <input type="hidden" name="domains" value="liste.linux.org.tr">
       <input type="hidden" name="sitesearch" value="liste.linux.org.tr">
       <a href="http://www.google.com/search"><img src="http://www.google.com/logos/Logo_40wht.gif" border="0" alt="google" align="middle"></a>

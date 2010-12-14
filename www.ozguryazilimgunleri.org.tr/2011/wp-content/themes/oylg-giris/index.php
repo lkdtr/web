@@ -11,7 +11,7 @@
 	<p>Özgür Yazılım ve Linux Günleri 2011
 		1-2 Nisan 2011
 		İstanbul Bilgi Üniversitesi Dolapdere Kampüsü</p>
-	<div id="sponsordosyasi"><a href="/wp-content/uploads/2010/12/ozgur_yazilim_ve_linux_gunleri_2011_sponsorluk_dosyasi_web_tr.pdf" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/sponsordosyasi.png" /></a></div>
+	<div id="sponsordosyasi"><a href="/2011/wp-content/uploads/2010/12/ozgur_yazilim_ve_linux_gunleri_2011_sponsorluk_dosyasi_web_tr.pdf" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/sponsordosyasi.png" /></a></div>
 </div>
 
 <?php get_footer(); ?>

@@ -73,3 +73,9 @@ body {
 #logo p {
 	display:none;
 }
+
+#logo #sosyalaglar {
+	width:180px;
+	margin:auto;
+	padding:0 0 0 800px;
+}

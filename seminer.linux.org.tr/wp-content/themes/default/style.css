@@ -255,7 +255,7 @@ td#next { text-align: right; }
 
 /* Start EXAMPLE CODE text logo */
 
-#branding { display: block; position: absolute; top: 30px; left: 1px; }
+#branding { display: block; position: absolute; top: 17px; left: 10px; }
 h1#logo { font-size: 30px; line-height: 1.2; margin: 0; }
 #logo, .description { color: #868F98; float: left; margin: 17px 0 0 10px; }
 
@@ -268,7 +268,7 @@ h1#logo { font-size: 30px; line-height: 1.2; margin: 0; }
   display: block;
   position: absolute;
   right: 28px;
-  top: 47px;
+  top: 90px;
 }
 
 #accessibility li,

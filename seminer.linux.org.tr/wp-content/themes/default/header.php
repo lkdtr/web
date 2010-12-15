@@ -50,7 +50,7 @@ OWATracker.trackDomStream();
 <div id="header" class="clearfix">
 
 	<ul id="accessibility">
-		<li><a href="http://www.lkd.org.tr">Linux Kullanıcıları Derneği</a></li>
+		<li class="last-item"><a href="http://www.lkd.org.tr">Linux Kullanıcıları Derneği</a></li>
 	</ul>
 
 	<div id="branding">

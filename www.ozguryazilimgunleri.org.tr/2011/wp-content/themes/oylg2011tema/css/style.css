@@ -45,7 +45,7 @@ html {
 body {
 	background:url(../images/bodybackground.jpg) center top no-repeat;
 	color:#444745;
-	font-size:12px;
+	font-size:0.8em;
 	}
 
 a {
@@ -113,7 +113,7 @@ a:hover {
 }
 
 #header #tuxweet a {
-	font-size:1.1em;
+	font-size:1.0em;
 	font-family:'PTSansRegular', Arial, sans-serif;
 	text-decoration:none;
 }

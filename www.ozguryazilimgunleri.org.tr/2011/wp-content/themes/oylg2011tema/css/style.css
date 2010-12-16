@@ -58,6 +58,14 @@ a:hover {
 	text-decoration:none;
 }
 
+strong {
+	font-family:'PTSansBold', Arial, sans-serif;
+}
+
+p {
+	margin:5px 0 5px 0;
+}
+
 /* header */
 
 #header {

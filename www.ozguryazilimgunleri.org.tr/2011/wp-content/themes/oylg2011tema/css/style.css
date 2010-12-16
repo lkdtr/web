@@ -202,7 +202,12 @@ a:hover {
 }
 
 #wrapper #content #left ul {
-	margin:0 5px 0 0;
+	margin:0 10px 0 10px;
+}
+
+#wrapper #content #left ul li {
+	float:left;
+	margin:0 3px 0 3px;
 }
 
 #wrapper #content #left h2 {
@@ -213,7 +218,7 @@ a:hover {
 	font-family:'PTSansNarrowRegular', Arial Narrow, sans-serif;
 	color:#fff;
 	padding:0 5px 0 5px;
-	margin:0 0 0 -10px;
+	margin:0 0 5px -10px;
 }
 
 #wrapper #content #center {

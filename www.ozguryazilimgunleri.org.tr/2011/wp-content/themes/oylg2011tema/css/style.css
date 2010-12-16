@@ -240,7 +240,12 @@ a:hover {
 #wrapper #center ul li {
 	margin:2px 0 2px 0;
 	padding:0 0 0 10px;
-	background:url(../images/list.png) no-repeat left top;
+	background:url(../images/list.png) no-repeat 0 3px;
+}
+
+#wrapper #center ul.right li {
+	background:url(../images/list.png) no-repeat right 3px;
+	padding:0 10px 0 0;
 }
 
 #wrapper #content #right {

@@ -16,6 +16,7 @@
 
 <?php wp_head(); ?>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/countdown/countdown.js"></script>
 </head>
 
 <body>
@@ -32,8 +33,8 @@
 		<div id="top"></div>
 		<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozguryazilimgunleri");
 		$sontweet=$sontweetial->entry[0]->title;
-		$sontweet_trimmed = ltrim($sontweet, "ozguryazilimgunleri: "); // her tweet'in basinda gelen ifadeleri kirpalim ?>
-		<div id="center"><a href="http://tuxweet.linux.org.tr/ozgurwebgunleri"><?php echo $sontweet_trimmed; ?></a></div>
+		$sontweet_trimmed = ltrim($sontweet, "ozguryazilimgunleri: "); //her tweet'in basinda gelen ifadeleri kirpalim ?>
+		<div id="center"><a href="http://tuxweet.linux.org.tr/ozguryazilimgunleri"><?php echo $sontweet_trimmed; ?></a></div>
 		<div id="bottom"></div>
 	</div>
 </div>
@@ -43,7 +44,10 @@
 <div id="menu">
 	<div class="content">
 		<?php dynamic_sidebar( 'primary-widget-area' ); ?>
-		<div id="date"><a href="#">1-2 NISAN 2011</a></div>
+		<div id="date">
+			<div id="countdown"></div>
+			<div id="realdate"><a href="javascript:displayCountdown()">1-2 NISAN 2011</a></div>
+		</div>
 	</div>
 </div>
 

@@ -1,6 +1,3 @@
-document.write("<script type='text/javascript' src='wp-content/themes/oylg2011tema/js/countdown/jquery.countdown.js'></script>");
-document.write("<script type='text/javascript' src='wp-content/themes/oylg2011tema/js/countdown/jquery.countdown-tr.js'></script>");
-
 $(document).ready(
 	function(){
 		var cddate = new Date(); 

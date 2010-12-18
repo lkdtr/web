@@ -121,7 +121,7 @@ p {
 }
 
 #header #tuxweet a {
-	font-size:1.0em;
+	font-size:0.9em;
 	font-family:'PTSansRegular', Arial, sans-serif;
 	text-decoration:none;
 }
@@ -147,16 +147,15 @@ p {
 	margin:-7px 0 0 0;
 	text-align:center;
 	padding:10px 0 0 0;
-}
-
-#menu .content #date a {
-	color:#444745;
-	text-decoration:none;
-	font-size:2.0em;
+	cursor:pointer;
+	overflow:hidden;
 }
 
 #menu .content #date #realdate {
 	display:none;
+	color:#444745;
+	text-decoration:none;
+	font-size:2.0em;
 }
 
 #menu .content #date #countdown {

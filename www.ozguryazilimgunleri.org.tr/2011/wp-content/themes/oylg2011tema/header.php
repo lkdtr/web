@@ -48,7 +48,7 @@
 		<?php dynamic_sidebar( 'primary-widget-area' ); ?>
 		<div id="date">
 			<div id="countdown"></div>
-			<div id="realdate"><a href="javascript:displayCountdown()">1-2 NISAN 2011</a></div>
+			<div id="realdate">1-2 NISAN 2011</div>
 		</div>
 	</div>
 </div>

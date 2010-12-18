@@ -7,15 +7,18 @@ $(document).ready(
 		$("#countdown").delay(2000).fadeOut("slow",function(){
 			$("#realdate").fadeIn("slow");
 		});
+		
+		$("#date").hover(
+			function(){
+				$("#realdate").fadeOut("fast",function(){
+					$("#countdown").fadeIn("fast");
+				});
+			},
+			function(){
+				$("#countdown").fadeOut("fast",function(){
+					$("#realdate").fadeIn("fast");
+				});
+			}
+		);
 	}
 );
-
-function displayCountdown(){
-	$("#realdate").fadeOut("slow",function(){
-		$("#countdown").fadeIn("slow",function(){
-			$("#countdown").delay(2000).fadeOut("slow",function(){
-				$("#realdate").fadeIn("slow");
-			});
-		});
-	});
-}

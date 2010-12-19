@@ -311,3 +311,17 @@ p {
 	height:65px;
 	margin:auto;
 }
+
+/* table */
+
+table tr {
+	border:1px dashed #ccc;
+}
+
+table tr td {
+	padding:5px;
+}
+
+table tr.header{
+	background:#eaeaea;
+}

@@ -248,7 +248,7 @@ p {
 	margin:0 3px 0 3px;
 }
 
-#wrapper #content #left h2 {
+#wrapper #content #left h2, #wrapper #content #left h3 {
 	background:url(../images/lefth2.png) no-repeat left top;
 	width:210px;
 	height:30px;

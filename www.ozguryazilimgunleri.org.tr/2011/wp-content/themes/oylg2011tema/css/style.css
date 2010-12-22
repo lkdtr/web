@@ -219,6 +219,7 @@ p {
 	margin:auto;
 	width:900px;
 	background:url(../images/wrapperbackground.png) repeat-y center top;
+	padding:0 0 10px 0;
 }
 
 #wrapper #content {
@@ -312,7 +313,7 @@ p {
 #footer {
 	background:url(../images/footerbackground.png) no-repeat center top;
 	width:900px;
-	height:65px;
+	height:20px;
 	margin:auto;
 }
 

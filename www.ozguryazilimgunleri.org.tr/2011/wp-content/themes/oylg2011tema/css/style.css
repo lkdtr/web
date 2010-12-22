@@ -329,3 +329,15 @@ table tr td {
 table tr.header{
 	background:#eaeaea;
 }
+
+/* banner codes */
+
+.code {
+	width:90%;
+	border:1px solid #ccc;
+	padding:5px;
+	background:#eaeaea;
+	font-size:0.8em;
+	text-align:center;
+	margin:auto;
+}

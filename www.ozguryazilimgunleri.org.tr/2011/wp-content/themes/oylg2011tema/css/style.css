@@ -101,6 +101,8 @@ p {
 #header #mainsponsor {
 	float:right;
 	width:184px;
+	background-repeat:no-repeat;
+	background-position:right top;
 }
 
 #header #mainsponsor h2 {

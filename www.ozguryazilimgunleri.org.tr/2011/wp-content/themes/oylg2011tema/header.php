@@ -41,7 +41,7 @@
 <div class="clearfix"></div>
 
 <div id="menu">
-	<div class="content">
+	<div class="content" style="width:<? if($_GET["lang"]=="en") echo "875"; else echo "935"; ?>px;">
 		<?php dynamic_sidebar( 'primary-widget-area' ); ?>
 		<div id="date">
 			<div id="countdown"></div>

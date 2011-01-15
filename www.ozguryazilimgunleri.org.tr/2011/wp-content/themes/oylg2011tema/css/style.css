@@ -123,7 +123,6 @@ p {
 }
 
 #menu .content {
-	width:900px;
 	margin:auto;
 }
 
@@ -182,12 +181,10 @@ p {
 	cursor:pointer;
 }
 
-#menu .content ul li.last {
+#menu .content ul li.menu-item-29, #menu .content ul li.menu-item-125 {
 	float:left;
 	background-image:none;
-	padding:2px 7px 0 7px;
-	height:30px;
-	cursor:pointer;
+	padding:2px 0 0 8px;
 }
 
 #menu .content ul li:hover {

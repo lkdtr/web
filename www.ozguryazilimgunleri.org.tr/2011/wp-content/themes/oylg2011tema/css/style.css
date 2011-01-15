@@ -223,26 +223,18 @@ p {
 	margin:10px 0 0 4px;
 }
 
-#wrapper #content #left #tuxweet #top {
-	background:url(../images/tuxweettop.png) no-repeat right top;
-	width:184px;
-	height:58px;
-}
-
-#wrapper #content #left #tuxweet #center {
-	background:url(../images/tuxweetcenter.png) repeat-y left top;
-	width:124px;
-	padding:0 50px 0 10px;
-}
-
-#wrapper #content #left #tuxweet #bottom {
-	background:url(../images/tuxweetbottom.png) no-repeat left top;
-	width:184px;
-	height:10px;
+#wrapper #content #left #tuxweet {
+	background:url(../images/tuxweettop.png) no-repeat left top;
+	padding:7px 0 10px 94px;
+	width:auto;
+	margin:5px 0 0 -18px;
+	line-height:1.0em;
+	text-indent:-5px;
+	min-height:65px;
 }
 
 #wrapper #content #left #tuxweet a {
-	font-size:0.9em;
+	font-size:0.8em;
 	font-family:'PTSansRegular', Arial, sans-serif;
 	text-decoration:none;
 }

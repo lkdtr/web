@@ -77,7 +77,8 @@ p {
 #header #organization {
 	float:left;
 	width:190px;
-	background:url(../images/organizationtitle.png) no-repeat left top;
+	background-repeat:no-repeat;
+	background-position:left top;
 }
 
 #header #organization ul {

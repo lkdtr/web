@@ -26,13 +26,13 @@
 <body>
 
 <div id="header">
-	<div id="organization">
+	<div id="organization" style="background-image:url(<?php bloginfo('template_url'); ?>/images/organizationtitle<? if($_GET["lang"]=="en") echo "_en"; ?>.png);">
 		<ul>
 			<li><a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/tlkdlogo.png" /></a></li>
 			<li><a href="http://www.bilgi.edu.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/istanbulbilgilogo.png" /></a></li>
 		</ul>
 	</div>
-	<div id="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Ozgur Yazilim Gunleri 2010 Logo" /></a></div>
+	<div id="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo<? if($_GET["lang"]=="en") echo "_en"; ?>.png" alt="Ozgur Yazilim Gunleri 2010 Logo" /></a></div>
 	<div id="tuxweet">
 		<div id="top"></div>
 		<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozguryazilimgunleri");
@@ -50,7 +50,7 @@
 		<?php dynamic_sidebar( 'primary-widget-area' ); ?>
 		<div id="date">
 			<div id="countdown"></div>
-			<div id="realdate">1-2 NISAN 2011</div>
+			<div id="realdate">1-2 <? if($_GET["lang"]=="en") echo "APRIL"; else echo "NİSAN"; ?>  2011</div>
 		</div>
 	</div>
 </div>

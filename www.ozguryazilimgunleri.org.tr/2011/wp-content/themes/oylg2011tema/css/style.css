@@ -98,33 +98,17 @@ p {
 	margin:5px 0 0 50px;
 }
 
-#header #tuxweet {
+#header #mainsponsor {
 	float:right;
 	width:184px;
 }
 
-#header #tuxweet #top {
-	background:url(../images/tuxweettop.png) no-repeat right top;
-	width:184px;
-	height:58px;
+#header #mainsponsor h2 {
+	display:none;
 }
 
-#header #tuxweet #center {
-	background:url(../images/tuxweetcenter.png) repeat-y left top;
-	width:124px;
-	padding:0 50px 0 10px;
-}
-
-#header #tuxweet #bottom {
-	background:url(../images/tuxweetbottom.png) no-repeat left top;
-	width:184px;
-	height:10px;
-}
-
-#header #tuxweet a {
-	font-size:0.9em;
-	font-family:'PTSansRegular', Arial, sans-serif;
-	text-decoration:none;
+#header #mainsponsor img {
+	float:left;
 }
 
 /* menu */
@@ -234,6 +218,30 @@ p {
 	float:left;
 	width:210px;
 	margin:10px 0 0 4px;
+}
+
+#wrapper #content #left #tuxweet #top {
+	background:url(../images/tuxweettop.png) no-repeat right top;
+	width:184px;
+	height:58px;
+}
+
+#wrapper #content #left #tuxweet #center {
+	background:url(../images/tuxweetcenter.png) repeat-y left top;
+	width:124px;
+	padding:0 50px 0 10px;
+}
+
+#wrapper #content #left #tuxweet #bottom {
+	background:url(../images/tuxweetbottom.png) no-repeat left top;
+	width:184px;
+	height:10px;
+}
+
+#wrapper #content #left #tuxweet a {
+	font-size:0.9em;
+	font-family:'PTSansRegular', Arial, sans-serif;
+	text-decoration:none;
 }
 
 #wrapper #content #left li {

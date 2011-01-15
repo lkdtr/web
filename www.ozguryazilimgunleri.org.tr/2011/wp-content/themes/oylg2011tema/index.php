@@ -38,7 +38,8 @@
 
 	<div id="right">
 		<div class="content">
-			<?php wp_list_bookmarks('title_li=&category_before=&category_after=&category=3&orderby=rating'); ?>
+			<h2><? if($_GET["lang"]=="en") echo "SPONSORS"; else echo "SPONSORLAR"; ?></h2>
+			<?php wp_list_bookmarks("title_before=<h2 style='display:none;'>&title_li=&category_before=&category_after=&category=3&orderby=rating"); ?>
 		</div>
 	</div>
 

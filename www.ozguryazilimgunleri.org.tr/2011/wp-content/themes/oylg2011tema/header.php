@@ -33,13 +33,8 @@
 		</ul>
 	</div>
 	<div id="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo<? if($_GET["lang"]=="en") echo "_en"; ?>.png" alt="Ozgur Yazilim Gunleri 2010 Logo" /></a></div>
-	<div id="tuxweet">
-		<div id="top"></div>
-		<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozguryazilimgunleri");
-		$sontweet=$sontweetial->entry[0]->title;
-		$sontweet_trimmed = ltrim($sontweet, "ozguryazilimgunleri: "); //her tweet'in basinda gelen ifadeleri kirpalim ?>
-		<div id="center"><a href="http://tuxweet.linux.org.tr/ozguryazilimgunleri"><?php echo $sontweet_trimmed; ?></a></div>
-		<div id="bottom"></div>
+	<div id="mainsponsor">
+		<?php wp_list_bookmarks("&title_li=&category_before=&category_after=&category=8&orderby=rating"); ?>
 	</div>
 </div>
 

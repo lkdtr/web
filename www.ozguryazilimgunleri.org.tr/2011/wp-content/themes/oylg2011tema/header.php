@@ -17,7 +17,9 @@
 <?php wp_head(); ?>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/countdown/jquery.countdown.js'></script>
+<? if($_GET["lang"]!="en") { ?>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/countdown/jquery.countdown-tr.js'></script>
+<? } ?>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/countdown/countdown.js"></script>
 </head>
 

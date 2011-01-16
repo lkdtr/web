@@ -68,6 +68,12 @@ p {
 
 /* header */
 
+#language {
+	position:absolute;
+	right:0px;
+	top:20px;
+}
+
 #header {
 	width:960px;
 	height:170px;

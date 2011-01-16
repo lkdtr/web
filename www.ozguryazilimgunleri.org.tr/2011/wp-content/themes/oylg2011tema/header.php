@@ -25,6 +25,10 @@
 
 <body>
 
+<div id="language">
+	<a href="?lang=<? if($_GET["lang"]=="en") echo "en"; else echo ""; ?>"><img src="<?php bloginfo('template_url'); ?>/images/<? if($_GET["lang"]=="en") echo "engl"; else echo "turk"; ?>ish.png" /></a>
+</div>
+
 <div id="header">
 	<div id="organization" style="background-image:url(<?php bloginfo('template_url'); ?>/images/organizationtitle<? if($_GET["lang"]=="en") echo "_en"; ?>.png);">
 		<ul>

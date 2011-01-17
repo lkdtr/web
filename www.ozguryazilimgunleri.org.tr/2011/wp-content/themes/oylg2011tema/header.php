@@ -33,7 +33,7 @@
 	<div id="organization" style="background-image:url(<?php bloginfo('template_url'); ?>/images/organizationtitle<? if($_GET["lang"]=="en") echo "_en"; ?>.png);">
 		<ul>
 			<li><a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/tlkdlogo.png" /></a></li>
-			<li><a href="http://www.bilgi.edu.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/istanbulbilgilogo.png" /></a></li>
+			<li><a href="http://www.bilgi.edu.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/istanbulbilgilogo<? if($_GET["lang"]=="en") echo "_en"; ?>.png" /></a></li>
 		</ul>
 	</div>
 	<div id="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo<? if($_GET["lang"]=="en") echo "_en"; ?>.png" alt="Ozgur Yazilim Gunleri 2010 Logo" /></a></div>

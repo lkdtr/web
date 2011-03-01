@@ -106,7 +106,7 @@ p {
 
 #header #mainsponsor {
 	float:right;
-	width:184px;
+	width:208px;
 	background-repeat:no-repeat;
 	background-position:right top;
 }
@@ -115,9 +115,8 @@ p {
 	display:none;
 }
 
-#header #mainsponsor img {
-	float:left;
-	margin:45px 0 0 40px;
+#header #mainsponsor li {
+	margin:40px 0 0 0;
 }
 
 /* menu */

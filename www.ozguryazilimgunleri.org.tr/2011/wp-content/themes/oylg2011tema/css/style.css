@@ -294,6 +294,11 @@ p {
 	font-size:1.5em;
 }
 
+#wrapper #center h2 {
+	font-family:'PTSansBold', Arial, sans-serif;
+	font-size:1.3em;
+}
+
 #wrapper #center ul li {
 	margin:2px 0 2px 0;
 	padding:0 0 0 10px;

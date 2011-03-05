@@ -37,6 +37,9 @@
 	</div>
 
 	<div id="right">
+		<div id="language">
+			<a href="<?php get_home_url(); ?>/2011/?lang=<? if($_GET["lang"]=="en") echo ""; else echo "en"; ?>"><img src="<?php bloginfo('template_url'); ?>/images/<? if($_GET["lang"]=="en") echo "turk"; else echo "engl"; ?>ish.png" /></a>
+		</div>
 		<div class="content">
 			<h2><? if($_GET["lang"]=="en") echo "SPONSORS"; else echo "SPONSORLAR"; ?></h2>
 			<?php wp_list_bookmarks("title_before=<h2 style='display:none;'>&title_li=&category_before=&category_after=&category=3&orderby=rating"); ?>

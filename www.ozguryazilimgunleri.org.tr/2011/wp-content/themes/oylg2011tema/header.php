@@ -34,7 +34,7 @@
 	</div>
 	<div id="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo<? if($_GET["lang"]=="en") echo "_en"; ?>.png" alt="Ozgur Yazilim Gunleri 2010 Logo" /></a></div>
 	<div id="mainsponsor" style="background-image:url(<?php bloginfo('template_url'); ?>/images/mainsponsortitle<? if($_GET["lang"]=="en") echo "_en"; ?>.png);">
-		<?php wp_list_bookmarks("&title_li=&category_before=&category_after=&category=8&orderby=rating"); ?>
+		<?php wp_list_bookmarks("&title_li=&category_before=&category_after=&category=4&orderby=rating"); ?>
 	</div>
 </div>
 

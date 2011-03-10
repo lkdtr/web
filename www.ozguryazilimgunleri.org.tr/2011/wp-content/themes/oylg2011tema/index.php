@@ -38,7 +38,8 @@
 
 	<div id="right">
 		<div id="language">
-			<a href="<?php get_home_url(); ?>/2011/?lang=<? if($_GET["lang"]=="en") echo ""; else echo "en"; ?>"><img src="<?php bloginfo('template_url'); ?>/images/<? if($_GET["lang"]=="en") echo "turk"; else echo "engl"; ?>ish.png" /></a>
+			<a href="<?php get_home_url(); ?>/2011/?lang="><img src="<?php bloginfo('template_url'); ?>/images/turkish.png" /></a>
+			<a href="<?php get_home_url(); ?>/2011/?lang=en"><img src="<?php bloginfo('template_url'); ?>/images/english.png" /></a>
 		</div>
 		<div class="content">
 			<h2><? if($_GET["lang"]=="en") echo "SPONSORS"; else echo "SPONSORLAR"; ?></h2>

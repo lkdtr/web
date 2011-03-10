@@ -226,7 +226,7 @@ p {
 }
 
 #wrapper #content #left ul li img {
-	width:180px;
+	margin:0 0 0 10px;
 }
 
 #wrapper #content #left #tuxweet #top {

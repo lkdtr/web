@@ -225,6 +225,10 @@ p {
 	margin:10px 0 0 4px;
 }
 
+#wrapper #content #left ul li img {
+	width:180px;
+}
+
 #wrapper #content #left #tuxweet #top {
 	background:url(../images/tuxweettop.png) no-repeat left bottom;
 	width:180px;

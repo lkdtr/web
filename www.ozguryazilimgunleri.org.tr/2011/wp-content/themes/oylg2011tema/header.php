@@ -36,6 +36,10 @@
 	<div id="mainsponsor" style="background-image:url(<?php bloginfo('template_url'); ?>/images/mainsponsortitle<? if($_GET["lang"]=="en") echo "_en"; ?>.png);">
 		<?php wp_list_bookmarks("&title_li=&category_before=&category_after=&category=4&orderby=rating"); ?>
 	</div>
+	<div id="language">
+			<a href="<?php get_home_url(); ?>/2011/?lang="><img src="<?php bloginfo('template_url'); ?>/images/turkish.png" /></a>
+			<a href="<?php get_home_url(); ?>/2011/?lang=en"><img src="<?php bloginfo('template_url'); ?>/images/english.png" /></a>
+	</div>
 </div>
 
 <div class="clearfix"></div>

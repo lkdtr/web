@@ -305,8 +305,11 @@ p {
 
 #wrapper #center h2.eglencetitle {
 	font-family:'PTSansBold', Arial, sans-serif;
-	font-size:1.3em;
 	background:url(../images/halftransparent.png);
+	color:#fff;
+	position:absolute;
+	padding:2px;
+	font-size:1.1em;
 }
 
 #wrapper #center ul li {

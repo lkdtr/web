@@ -3,14 +3,14 @@
 <div class="clearfix"></div>
 <? if($_GET["lang"]!="en") { ?>
 <div id="tuxweet">
-	<div id="top"></div>
-	<div id="center">
+	<div class="top"></div>
+	<div class="center">
 	<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozguryazilimgunleri");
 	$sontweet=$sontweetial->entry[0]->title;
 	$sontweet_trimmed = ltrim($sontweet, "ozguryazilimgunleri: "); //her tweet'in basinda gelen ifadeleri kirpalim ?>
 	<a href="http://tuxweet.linux.org.tr/ozguryazilimgunleri"><?php echo $sontweet_trimmed; ?></a>
 	</div>
-	<div id="bottom"></div>
+	<div class="bottom"></div>
 </div>
 <? } ?>
 <?php dynamic_sidebar( 'secondary-widget-area' ); ?>

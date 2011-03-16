@@ -233,14 +233,14 @@ p {
 	margin:0 0 0 10px;
 }
 
-#wrapper #content #left #tuxweet #top {
+#wrapper #content #left #tuxweet .top {
 	background:url(../images/tuxweettop.png) no-repeat left bottom;
 	width:180px;
 	height:20px;
 	margin:auto;
 }
 
-#wrapper #content #left #tuxweet #center {
+#wrapper #content #left #tuxweet .center {
 	background:url(../images/tuxweetcenter.png) repeat-y left top;
 	width:160px;
 	margin:auto;
@@ -248,7 +248,7 @@ p {
 	padding:0 10px 0 10px;
 }
 
-#wrapper #content #left #tuxweet #bottom {
+#wrapper #content #left #tuxweet .bottom {
 	background:url(../images/tuxweetbottom.png) no-repeat left top;
 	width:180px;
 	height:10px;

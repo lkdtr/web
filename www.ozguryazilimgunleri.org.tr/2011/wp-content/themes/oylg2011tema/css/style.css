@@ -62,6 +62,10 @@ strong {
 	font-family:'PTSansBold', Arial, sans-serif;
 }
 
+em {
+	font-family: 'PTSansItalic';
+}
+
 p {
 	margin:3px 0 3px 0;
 }

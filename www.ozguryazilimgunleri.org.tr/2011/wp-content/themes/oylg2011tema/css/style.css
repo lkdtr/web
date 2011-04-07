@@ -1,0 +1,384 @@
+/* font-face */
+
+@font-face {
+	font-family: 'PTSansNarrowRegular';
+	src: url('../fonts/PTN57F-webfont.eot');
+	src: local('☺'), url('../fonts/PTN57F-webfont.woff') format('woff'), url('../fonts/PTN57F-webfont.ttf') format('truetype'), url('../fonts/PTN57F-webfont.svg#webfontB8oSeycf') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSansBold';
+	src: url('../fonts/PTS75F-webfont.eot');
+	src: local('☺'), url('../fonts/PTS75F-webfont.woff') format('woff'), url('../fonts/PTS75F-webfont.ttf') format('truetype'), url('../fonts/PTS75F-webfont.svg#webfontA7FUu7lF') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSansItalic';
+	src: url('../fonts/PTS56F-webfont.eot');
+	src: local('☺'), url('../fonts/PTS56F-webfont.woff') format('woff'), url('../fonts/PTS56F-webfont.ttf') format('truetype'), url('../fonts/PTS56F-webfont.svg#webfontTReCcspK') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSansRegular';
+	src: url('../fonts/PTS55F-webfont.eot');
+	src: local('☺'), url('../fonts/PTS55F-webfont.woff') format('woff'), url('../fonts/PTS55F-webfont.ttf') format('truetype'), url('../fonts/PTS55F-webfont.svg#webfontkhdO1zOX') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* general */
+
+* {
+	font-family:'PTSansRegular', Arial, sans-serif;
+}
+
+html {
+	background:#729aaf url(../images/htmlbackground.jpg) center top repeat-x;
+	}
+
+body {
+	background:url(../images/bodybackground.jpg) center top no-repeat;
+	color:#444745;
+	font-size:0.8em;
+	}
+
+a {
+	color:#444745;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#444745;
+	text-decoration:none;
+}
+
+strong {
+	font-family:'PTSansBold', Arial, sans-serif;
+}
+
+em {
+	font-family: 'PTSansItalic';
+}
+
+p {
+	margin:3px 0 3px 0;
+}
+
+/* header */
+
+#language {
+	float:right;
+	margin:41px 30px 0 0;
+}
+
+#header {
+	width:945px;
+	height:170px;
+	margin:auto;
+}
+
+#header #organization {
+	float:left;
+	width:180px;
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#header #organization ul {
+	margin:50px 0 0 10px;
+	width:190px;
+}
+
+#header #organization ul li {
+	margin:5px 0 5px 0;
+	float:right;
+}
+
+#header #logo {
+	float:left;
+	width:512px;
+	height:151px;
+	margin:5px 0 0 48px;
+}
+
+#header #mainsponsor {
+	float:right;
+	width:190px;
+	background-repeat:no-repeat;
+	background-position:right top;
+}
+
+#header #mainsponsor h2 {
+	display:none;
+}
+
+#header #mainsponsor li {
+	margin:55px 2px 0 2px;
+	float:left;
+}
+
+/* menu */
+
+#menu {
+	width:100%;
+	background:url(../images/menubackground.png) repeat-x;
+	height:40px;
+}
+
+#menu .content {
+	margin:auto;
+}
+
+#menu .content #date {
+	float:right;
+	background:url(../images/datebackground.png) no-repeat;
+	width:201px;
+	height:41px;
+	margin:-7px 0 0 0;
+	text-align:center;
+	padding:10px 0 0 0;
+	cursor:pointer;
+	overflow:hidden;
+}
+
+#menu .content #date #realdate {
+	color:#444745;
+	text-decoration:none;
+	font-size:2.0em;
+}
+
+#menu .content #date #countdown {
+	margin:0 0 0 7px;
+}
+
+#menu .content #date #countdown .countdown_show4 .countdown_section {
+	width:24.5%;
+	margin:5px 0 0 0;
+}
+
+#menu .content #date #countdown .countdown_section {
+	display:block;
+	float:left;
+	font-size:0.5em;
+	text-align:center;
+	line-height:12px;
+}
+
+#menu .content #date #countdown .countdown_amount {
+	font-size:3.7em;
+	margin:0 0 -20px 0;
+}
+
+#menu .content ul {
+	float:left;
+}
+
+#menu .content ul li {
+	float:left;
+	background-image:url(../images/menusection.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+	padding:2px 8px 0 8px;
+	height:30px;
+	cursor:pointer;
+}
+
+#menu .content ul li.menu-item-29, #menu .content ul li.menu-item-125 {
+	float:left;
+	background-image:none;
+	padding:2px 0 0 8px;
+}
+
+#menu .content ul li:hover {
+	background-color:#505451;
+}
+
+#menu .content ul li a {
+	font-family:'PTSansNarrowRegular', Arial Narrow, sans-serif;
+	text-decoration:none;
+	font-size:1.9em;
+	color:#fff;
+}
+
+/* content */
+
+#wrapper {
+	margin:auto;
+	width:900px;
+	background:url(../images/wrapperbackground.png) repeat-y center top;
+	padding:0 0 10px 0;
+}
+
+#wrapper #content {
+	width:880px;
+	margin:-10px 0 0 11px;
+	padding:10px 0 0 0;
+	background:url(../images/menubackground.png) repeat-x 0 -33px;
+}
+
+#wrapper #content #left {
+	float:left;
+	width:210px;
+	margin:10px 0 0 4px;
+}
+
+#wrapper #content #left ul li img {
+	margin:0 0 0 10px;
+}
+
+#wrapper #content #left #tuxweet .top {
+	background:url(../images/tuxweettop.png) no-repeat left bottom;
+	width:180px;
+	height:20px;
+	margin:auto;
+}
+
+#wrapper #content #left #tuxweet .center {
+	background:url(../images/tuxweetcenter.png) repeat-y left top;
+	width:160px;
+	margin:auto;
+	float:inherit;
+	padding:0 10px 0 10px;
+}
+
+#wrapper #content #left #tuxweet .bottom {
+	background:url(../images/tuxweetbottom.png) no-repeat left top;
+	width:180px;
+	height:10px;
+	margin:auto;
+	padding:0 0 25px 0;
+}
+
+#wrapper #content #left #tuxweet a {
+	font-size:1.0em;
+	font-family:'PTSansRegular', Arial, sans-serif;
+	text-decoration:none;
+}
+
+#wrapper #content #left li {
+	margin:5px 0 5px 0;
+}
+
+#wrapper #content #left ul {
+	margin:0 10px 0 10px;
+}
+
+#wrapper #content #left ul li {
+	float:left;
+	margin:0 3px 0 3px;
+}
+
+#wrapper #content #left h2, #wrapper #content #left h3 {
+	background:url(../images/lefth2.png) no-repeat left top;
+	width:210px;
+	height:30px;
+	font-size:1.8em;
+	font-family:'PTSansNarrowRegular', Arial Narrow, sans-serif;
+	color:#fff;
+	padding:0 5px 0 5px;
+	margin:0 0 5px -10px;
+}
+
+#wrapper #content #center {
+	float:left;
+	width:460px;
+	margin:10px 10px 0 10px;
+}
+
+#wrapper #center h1 {
+	font-size:1.8em;
+	font-family:'PTSansItalic', Arial, sans-serif;
+}
+
+#wrapper #center h3 {
+	font-family:'PTSansItalic', Arial, sans-serif;
+	font-size:1.5em;
+}
+
+#wrapper #center h2 {
+	font-family:'PTSansBold', Arial, sans-serif;
+	font-size:1.3em;
+}
+
+#wrapper #center h2.eglencetitle {
+	font-family:'PTSansBold', Arial, sans-serif;
+	background:url(../images/halftransparent.png);
+	color:#fff;
+	position:absolute;
+	padding:2px;
+	font-size:1.1em;
+}
+
+#wrapper #center ul li {
+	margin:2px 0 2px 0;
+	padding:0 0 0 10px;
+	background:url(../images/list.png) no-repeat 0 3px;
+}
+
+#wrapper #center ul.right li {
+	background:url(../images/list.png) no-repeat right 3px;
+	padding:0 10px 0 0;
+}
+
+#wrapper #content #right {
+	float:left;
+	width:180px;
+	margin:10px 0 0 0;
+}
+
+#wrapper #content #right ul {
+	padding:0 0 0 5px;
+}
+
+#wrapper #content #right h2 {
+	background:url(../images/righth2.png) no-repeat left top;
+	width:180px;
+	height:30px;
+	font-size:1.8em;
+	font-family:'PTSansNarrowRegular', Arial Narrow, sans-serif;
+	color:#fff;
+	padding:0 5px 0 5px;
+	margin:0 -10px 0 0;
+	text-align:right;
+}
+
+/* footer */
+
+#footer {
+	background:url(../images/footerbackground.png) no-repeat center top;
+	width:900px;
+	height:20px;
+	margin:auto;
+}
+
+/* table */
+
+table tr {
+	border:1px dashed #ccc;
+}
+
+table tr td {
+	padding:5px;
+}
+
+table tr.header{
+	background:#eaeaea;
+}
+
+/* banner codes */
+
+.code {
+	width:93%;
+	border:1px solid #ccc;
+	padding:5px;
+	background:#eaeaea;
+	font-size:0.8em;
+	text-align:center;
+	margin:auto;
+}

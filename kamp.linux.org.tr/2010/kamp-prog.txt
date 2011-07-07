@@ -1,89 +1,89 @@
-1. Gün
+1. GÃ¼n
 ----------------------------------
-Dizin Hiyerarşisi
-Linux Komutları
-Yardım alma - man / apropos
-Dosya ve Dizin Kontrolü - ls cp mv rm mkdir rmdir cat less head tail du df find locate slocate
-Girdi ve çıktı yönlendirme
-Arka planda görev çalıştırma
-Temel Bash yapılandırması
+Dizin HiyerarÅŸisi
+Linux KomutlarÄ±
+YardÄ±m alma - man / apropos
+Dosya ve Dizin KontrolÃ¼ - ls cp mv rm mkdir rmdir cat less head tail du df find locate slocate
+Girdi ve Ã§Ä±ktÄ± yÃ¶nlendirme
+Arka planda gÃ¶rev Ã§alÄ±ÅŸtÄ±rma
+Temel Bash yapÄ±landÄ±rmasÄ±
 Screen
-Düzenli ifadeler
-Editör kullanımı - ViM / Emacs
+DÃ¼zenli ifadeler
+EditÃ¶r kullanÄ±mÄ± - ViM / Emacs
 
-2. Gün
+2. GÃ¼n
 ----------------------------------
 Metin arama - grep
-Metin işleme - sed / awk
-Kullanıcı ve Grup Yönetimi
+Metin iÅŸleme - sed / awk
+KullanÄ±cÄ± ve Grup YÃ¶netimi
 Dosya izinleri
-Kullanıcı yetkilendirme - su / sudo komutu ve ayarları
-Güvenli Kabuk Sunucusu / yerel ve uzak tünelleme / X yönlendirme
+KullanÄ±cÄ± yetkilendirme - su / sudo komutu ve ayarlarÄ±
+GÃ¼venli Kabuk Sunucusu / yerel ve uzak tÃ¼nelleme / X yÃ¶nlendirme
 rsync
 
-3. Gün
+3. GÃ¼n
 ----------------------------------
-Linux Dağıtımları
+Linux DaÄŸÄ±tÄ±mlarÄ±
 Kurulum
-Disk bölümleri - isimlendirme
-Disk biçimlendirme - dosya sistemleri
-Dosya sistemlerini bağlama / çözme
-Disk ve dosya sistemi yönetimi - fdisk / mkfs / fsck
-Süreçler / Süreç kontrolü / Sinyaller - top / ps / kill / renice
-Paket Yönetimi
+Disk bÃ¶lÃ¼mleri - isimlendirme
+Disk biÃ§imlendirme - dosya sistemleri
+Dosya sistemlerini baÄŸlama / Ã§Ã¶zme
+Disk ve dosya sistemi yÃ¶netimi - fdisk / mkfs / fsck
+SÃ¼reÃ§ler / SÃ¼reÃ§ kontrolÃ¼ / Sinyaller - top / ps / kill / renice
+Paket YÃ¶netimi
 
-4. Gün
+4. GÃ¼n
 ----------------------------------
-Arşivleme - tar
-Sıkıştırma - gzip / bzip2 / zip
+ArÅŸivleme - tar
+SÄ±kÄ±ÅŸtÄ±rma - gzip / bzip2 / zip
 Bash betikleri
-    * Betik yazma ve çalıştırma
-    * Hata ayıklama
-    * Değişkenler
+    * Betik yazma ve Ã§alÄ±ÅŸtÄ±rma
+    * Hata ayÄ±klama
+    * DeÄŸiÅŸkenler
     * Takma isimler
-    * Kontrol işlemleri
-    * Kullanıcı ile ilişki kurmak
+    * Kontrol iÅŸlemleri
+    * KullanÄ±cÄ± ile iliÅŸki kurmak
     * Tekrarlama
     * Diziler
     * Fonksiyonlar
-    * Girdi ve çıktı yönlendirme 
-Grub Açılış yöneticisi
-Açılış ve kapanış / init / runlevel / servisler
-Periyodik komut çalıştırma - Cron
+    * Girdi ve Ã§Ä±ktÄ± yÃ¶nlendirme 
+Grub AÃ§Ä±lÄ±ÅŸ yÃ¶neticisi
+AÃ§Ä±lÄ±ÅŸ ve kapanÄ±ÅŸ / init / runlevel / servisler
+Periyodik komut Ã§alÄ±ÅŸtÄ±rma - Cron
 
-5. Gün
+5. GÃ¼n
 ----------------------------------
-TCP-IP protokolü / İp adresleri / Alt Ağlar / VLSM / Portlar 
-Ağ Bağlantılarını yapılandırma - ifconfig / iwconfig / route / ip / netstat
-Ağ araçları - ping / tcpdump / iptraf / traceroute / nmap
+TCP-IP protokolÃ¼ / Ä°p adresleri / Alt AÄŸlar / VLSM / Portlar 
+AÄŸ BaÄŸlantÄ±larÄ±nÄ± yapÄ±landÄ±rma - ifconfig / iwconfig / route / ip / netstat
+AÄŸ araÃ§larÄ± - ping / tcpdump / iptraf / traceroute / nmap
 Paket Filtreleme - iptables
 
-6. Gün
+6. GÃ¼n
 ----------------------------------
-Apache Web Sunucu / IP ve İsim tabanlı Sanal Barındırma / rewrite / proxy / Erişim denetimi / Kullanıcı doğrulama ve yetkilendirme
+Apache Web Sunucu / IP ve Ä°sim tabanlÄ± Sanal BarÄ±ndÄ±rma / rewrite / proxy / EriÅŸim denetimi / KullanÄ±cÄ± doÄŸrulama ve yetkilendirme
 DNS Sunucu - Bind
 
-7. Gün
+7. GÃ¼n
 ----------------------------------
 Kaynak koddan program derleme
 Kernel derleme / ramdisk
-Sanal Özel Ağ - OpenVPN / PPTP / IPSec
+Sanal Ã–zel AÄŸ - OpenVPN / PPTP / IPSec
 DHCP Sunucu
-Cups Yazıcı Sunucusu
-Paylaşım Sunucusu - NFS / Samba
-Günlük Sunucusu ve yapılandırma - sysklogd / rsyslogd
+Cups YazÄ±cÄ± Sunucusu
+PaylaÅŸÄ±m Sunucusu - NFS / Samba
+GÃ¼nlÃ¼k Sunucusu ve yapÄ±landÄ±rma - sysklogd / rsyslogd
 FTP sunucu
 
-8. Gün
+8. GÃ¼n
 ----------------------------------
-Veritabanı Sunucusu - MySQL / PostgreSQL
+VeritabanÄ± Sunucusu - MySQL / PostgreSQL
 
-9. Gün
+9. GÃ¼n
 ----------------------------------
-Eposta Sunucu - postfix / exim / Dovecot / Spam ve Virüs Filtreleme
+Eposta Sunucu - postfix / exim / Dovecot / Spam ve VirÃ¼s Filtreleme
 
-10. Gün
+10. GÃ¼n
 ----------------------------------
 Yedekleme
-Windows ve Dos programlarını çalıştırma - Wine / Dosbox
-Sanallaştırma - VirtualBox / VMWare / KVM / Xen
+Windows ve Dos programlarÄ±nÄ± Ã§alÄ±ÅŸtÄ±rma - Wine / Dosbox
+SanallaÅŸtÄ±rma - VirtualBox / VMWare / KVM / Xen

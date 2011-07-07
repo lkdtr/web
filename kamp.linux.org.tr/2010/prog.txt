@@ -1,78 +1,78 @@
 Temel Admin
 ******************************
-Linux Dağıtımları
+Linux DaÄŸÄ±tÄ±mlarÄ±
 Kurulum
-Disk bölümleri - isimlendirme
-Disk biçimlendirme - dosya sistemleri
-Dizin Hiyerarşisi
-Editör kullanımı - ViM / Emacs
-Kullanıcı ve Grup Yönetimi
+Disk bÃ¶lÃ¼mleri - isimlendirme
+Disk biÃ§imlendirme - dosya sistemleri
+Dizin HiyerarÅŸisi
+EditÃ¶r kullanÄ±mÄ± - ViM / Emacs
+KullanÄ±cÄ± ve Grup YÃ¶netimi
 Dosya izinleri
-Dosya sistemlerini bağlama / çözme
-Güvenli Kabuk Sunucusu / yerel ve uzak tünelleme / X yönlendirme
-Linux Komutları
-Kullanıcı yetkilendirme - su / sudo komutu ve ayarları
-Dosya ve Dizin Kontrolü - ls cp mv rm mkdir rmdir find locate slocate du df cat less head tail grep
-Süreçler / Süreç kontrolü / Sinyaller - top / ps / kill / renice
-Girdi ve çıktı yönlendirme
-Arşivleme - tar
-Sıkıştırma - gzip / bzip2 / zip
-Yardım alma - man / apropos
-Arka planda görev çalıştırma
-Disk ve dosya sistemi yönetimi - fdisk / mkfs
-Paket Yönetimi
-TCP-IP protokolü / İp adresleri / Alt Ağlar / VLSM / Portlar 
-Ağ Bağlantılarını yapılandırma - ifconfig / iwconfig / route / ip / netstat
-Ağ araçları - ping / tcpdump / iptraf / traceroute / nmap
-System günlükleri
+Dosya sistemlerini baÄŸlama / Ã§Ã¶zme
+GÃ¼venli Kabuk Sunucusu / yerel ve uzak tÃ¼nelleme / X yÃ¶nlendirme
+Linux KomutlarÄ±
+KullanÄ±cÄ± yetkilendirme - su / sudo komutu ve ayarlarÄ±
+Dosya ve Dizin KontrolÃ¼ - ls cp mv rm mkdir rmdir find locate slocate du df cat less head tail grep
+SÃ¼reÃ§ler / SÃ¼reÃ§ kontrolÃ¼ / Sinyaller - top / ps / kill / renice
+Girdi ve Ã§Ä±ktÄ± yÃ¶nlendirme
+ArÅŸivleme - tar
+SÄ±kÄ±ÅŸtÄ±rma - gzip / bzip2 / zip
+YardÄ±m alma - man / apropos
+Arka planda gÃ¶rev Ã§alÄ±ÅŸtÄ±rma
+Disk ve dosya sistemi yÃ¶netimi - fdisk / mkfs
+Paket YÃ¶netimi
+TCP-IP protokolÃ¼ / Ä°p adresleri / Alt AÄŸlar / VLSM / Portlar 
+AÄŸ BaÄŸlantÄ±larÄ±nÄ± yapÄ±landÄ±rma - ifconfig / iwconfig / route / ip / netstat
+AÄŸ araÃ§larÄ± - ping / tcpdump / iptraf / traceroute / nmap
+System gÃ¼nlÃ¼kleri
 rsync
-Metin tabanlı tarayıcılar - links / lynx
-Düzenli ifadeler
-Metin işleme - sed / awk
+Metin tabanlÄ± tarayÄ±cÄ±lar - links / lynx
+DÃ¼zenli ifadeler
+Metin iÅŸleme - sed / awk
 
 Power Admin
 ******************************
-Grub Açılış yöneticisi
-Açılış ve kapanış / init / runlevel / servisler
-Periyodik komut çalıştırma - Cron
+Grub AÃ§Ä±lÄ±ÅŸ yÃ¶neticisi
+AÃ§Ä±lÄ±ÅŸ ve kapanÄ±ÅŸ / init / runlevel / servisler
+Periyodik komut Ã§alÄ±ÅŸtÄ±rma - Cron
 Paket Filtreleme - iptables
-Apache Web Sunucu / IP ve İsim tabanlı Sanal Barındırma / rewrite / proxy / Erişim denetimi / Kullanıcı doğrulama ve yetkilendirme
-Veritabanı Sunucusu - MySQL / PostgreSQL
+Apache Web Sunucu / IP ve Ä°sim tabanlÄ± Sanal BarÄ±ndÄ±rma / rewrite / proxy / EriÅŸim denetimi / KullanÄ±cÄ± doÄŸrulama ve yetkilendirme
+VeritabanÄ± Sunucusu - MySQL / PostgreSQL
 DNS Sunucu - Bind
-Eposta Sunucu - postfix / exim / Dovecot / Spam ve Virüs Filtreleme
+Eposta Sunucu - postfix / exim / Dovecot / Spam ve VirÃ¼s Filtreleme
 DHCP Sunucu
-Cups Yazıcı Sunucusu
-Paylaşım Sunucusu - NFS / Samba
-Günlük Sunucusu ve yapılandırma - sysklogd / rsyslogd
+Cups YazÄ±cÄ± Sunucusu
+PaylaÅŸÄ±m Sunucusu - NFS / Samba
+GÃ¼nlÃ¼k Sunucusu ve yapÄ±landÄ±rma - sysklogd / rsyslogd
 FTP sunucu
 Bash betikleri
-* Betik yazma ve çalıştırma
-* Hata ayıklama
-* Değişkenler
+* Betik yazma ve Ã§alÄ±ÅŸtÄ±rma
+* Hata ayÄ±klama
+* DeÄŸiÅŸkenler
 * Takma isimler
-* Kontrol işlemleri
-* Kullanıcı ile ilişki kurmak
+* Kontrol iÅŸlemleri
+* KullanÄ±cÄ± ile iliÅŸki kurmak
 * Tekrarlama
 * Diziler
 * Fonksiyonlar
-* Girdi ve çıktı yönlendirme 
+* Girdi ve Ã§Ä±ktÄ± yÃ¶nlendirme 
 Kaynak koddan program derleme
 Kernel derleme / ramdisk
 Yedekleme
 PAM
-Sanal Özel Ağ - OpenVPN / PPTP / IPSec
+Sanal Ã–zel AÄŸ - OpenVPN / PPTP / IPSec
 diff / patch
-Sürüm kontrol sistemleri SVN / Git / Mercurial
+SÃ¼rÃ¼m kontrol sistemleri SVN / Git / Mercurial
 
 Power User
 ******************************
-Ekran Kartı sürücüleri
-Windows ve Dos programlarını çalıştırma - Wine / Dosbox
-Sanallaştırma - VirtualBox / VMWare / KVM / Xen
-Temel Bash yapılandırması
+Ekran KartÄ± sÃ¼rÃ¼cÃ¼leri
+Windows ve Dos programlarÄ±nÄ± Ã§alÄ±ÅŸtÄ±rma - Wine / Dosbox
+SanallaÅŸtÄ±rma - VirtualBox / VMWare / KVM / Xen
+Temel Bash yapÄ±landÄ±rmasÄ±
 Screen
 Latex
 OpenOffice Ailesi
-Masaüstü Uygulamaları - Eposta, Web / Kde - Gnome
-Uzak Masaüstü Bağlantısı
+MasaÃ¼stÃ¼ UygulamalarÄ± - Eposta, Web / Kde - Gnome
+Uzak MasaÃ¼stÃ¼ BaÄŸlantÄ±sÄ±
 

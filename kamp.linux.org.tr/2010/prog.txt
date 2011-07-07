@@ -1,0 +1,78 @@
+Temel Admin
+******************************
+Linux Daðýtýmlarý
+Kurulum
+Disk bölümleri - isimlendirme
+Disk biçimlendirme - dosya sistemleri
+Dizin Hiyerarþisi
+Editör kullanýmý - ViM / Emacs
+Kullanýcý ve Grup Yönetimi
+Dosya izinleri
+Dosya sistemlerini baðlama / çözme
+Güvenli Kabuk Sunucusu / yerel ve uzak tünelleme / X yönlendirme
+Linux Komutlarý
+Kullanýcý yetkilendirme - su / sudo komutu ve ayarlarý
+Dosya ve Dizin Kontrolü - ls cp mv rm mkdir rmdir find locate slocate du df cat less head tail grep
+Süreçler / Süreç kontrolü / Sinyaller - top / ps / kill / renice
+Girdi ve çýktý yönlendirme
+Arþivleme - tar
+Sýkýþtýrma - gzip / bzip2 / zip
+Yardým alma - man / apropos
+Arka planda görev çalýþtýrma
+Disk ve dosya sistemi yönetimi - fdisk / mkfs
+Paket Yönetimi
+TCP-IP protokolü / Ýp adresleri / Alt Aðlar / VLSM / Portlar 
+Að Baðlantýlarýný yapýlandýrma - ifconfig / iwconfig / route / ip / netstat
+Að araçlarý - ping / tcpdump / iptraf / traceroute / nmap
+System günlükleri
+rsync
+Metin tabanlý tarayýcýlar - links / lynx
+Düzenli ifadeler
+Metin iþleme - sed / awk
+
+Power Admin
+******************************
+Grub Açýlýþ yöneticisi
+Açýlýþ ve kapanýþ / init / runlevel / servisler
+Periyodik komut çalýþtýrma - Cron
+Paket Filtreleme - iptables
+Apache Web Sunucu / IP ve Ýsim tabanlý Sanal Barýndýrma / rewrite / proxy / Eriþim denetimi / Kullanýcý doðrulama ve yetkilendirme
+Veritabaný Sunucusu - MySQL / PostgreSQL
+DNS Sunucu - Bind
+Eposta Sunucu - postfix / exim / Dovecot / Spam ve Virüs Filtreleme
+DHCP Sunucu
+Cups Yazýcý Sunucusu
+Paylaþým Sunucusu - NFS / Samba
+Günlük Sunucusu ve yapýlandýrma - sysklogd / rsyslogd
+FTP sunucu
+Bash betikleri
+* Betik yazma ve çalýþtýrma
+* Hata ayýklama
+* Deðiþkenler
+* Takma isimler
+* Kontrol iþlemleri
+* Kullanýcý ile iliþki kurmak
+* Tekrarlama
+* Diziler
+* Fonksiyonlar
+* Girdi ve çýktý yönlendirme 
+Kaynak koddan program derleme
+Kernel derleme / ramdisk
+Yedekleme
+PAM
+Sanal Özel Að - OpenVPN / PPTP / IPSec
+diff / patch
+Sürüm kontrol sistemleri SVN / Git / Mercurial
+
+Power User
+******************************
+Ekran Kartý sürücüleri
+Windows ve Dos programlarýný çalýþtýrma - Wine / Dosbox
+Sanallaþtýrma - VirtualBox / VMWare / KVM / Xen
+Temel Bash yapýlandýrmasý
+Screen
+Latex
+OpenOffice Ailesi
+Masaüstü Uygulamalarý - Eposta, Web / Kde - Gnome
+Uzak Masaüstü Baðlantýsý
+

@@ -1,0 +1,89 @@
+1. Gün
+----------------------------------
+Dizin Hiyerarþisi
+Linux Komutlarý
+Yardým alma - man / apropos
+Dosya ve Dizin Kontrolü - ls cp mv rm mkdir rmdir cat less head tail du df find locate slocate
+Girdi ve çýktý yönlendirme
+Arka planda görev çalýþtýrma
+Temel Bash yapýlandýrmasý
+Screen
+Düzenli ifadeler
+Editör kullanýmý - ViM / Emacs
+
+2. Gün
+----------------------------------
+Metin arama - grep
+Metin iþleme - sed / awk
+Kullanýcý ve Grup Yönetimi
+Dosya izinleri
+Kullanýcý yetkilendirme - su / sudo komutu ve ayarlarý
+Güvenli Kabuk Sunucusu / yerel ve uzak tünelleme / X yönlendirme
+rsync
+
+3. Gün
+----------------------------------
+Linux Daðýtýmlarý
+Kurulum
+Disk bölümleri - isimlendirme
+Disk biçimlendirme - dosya sistemleri
+Dosya sistemlerini baðlama / çözme
+Disk ve dosya sistemi yönetimi - fdisk / mkfs / fsck
+Süreçler / Süreç kontrolü / Sinyaller - top / ps / kill / renice
+Paket Yönetimi
+
+4. Gün
+----------------------------------
+Arþivleme - tar
+Sýkýþtýrma - gzip / bzip2 / zip
+Bash betikleri
+    * Betik yazma ve çalýþtýrma
+    * Hata ayýklama
+    * Deðiþkenler
+    * Takma isimler
+    * Kontrol iþlemleri
+    * Kullanýcý ile iliþki kurmak
+    * Tekrarlama
+    * Diziler
+    * Fonksiyonlar
+    * Girdi ve çýktý yönlendirme 
+Grub Açýlýþ yöneticisi
+Açýlýþ ve kapanýþ / init / runlevel / servisler
+Periyodik komut çalýþtýrma - Cron
+
+5. Gün
+----------------------------------
+TCP-IP protokolü / Ýp adresleri / Alt Aðlar / VLSM / Portlar 
+Að Baðlantýlarýný yapýlandýrma - ifconfig / iwconfig / route / ip / netstat
+Að araçlarý - ping / tcpdump / iptraf / traceroute / nmap
+Paket Filtreleme - iptables
+
+6. Gün
+----------------------------------
+Apache Web Sunucu / IP ve Ýsim tabanlý Sanal Barýndýrma / rewrite / proxy / Eriþim denetimi / Kullanýcý doðrulama ve yetkilendirme
+DNS Sunucu - Bind
+
+7. Gün
+----------------------------------
+Kaynak koddan program derleme
+Kernel derleme / ramdisk
+Sanal Özel Að - OpenVPN / PPTP / IPSec
+DHCP Sunucu
+Cups Yazýcý Sunucusu
+Paylaþým Sunucusu - NFS / Samba
+Günlük Sunucusu ve yapýlandýrma - sysklogd / rsyslogd
+FTP sunucu
+
+8. Gün
+----------------------------------
+Veritabaný Sunucusu - MySQL / PostgreSQL
+
+9. Gün
+----------------------------------
+Eposta Sunucu - postfix / exim / Dovecot / Spam ve Virüs Filtreleme
+
+10. Gün
+----------------------------------
+Yedekleme
+Windows ve Dos programlarýný çalýþtýrma - Wine / Dosbox
+Sanallaþtýrma - VirtualBox / VMWare / KVM / Xen

@@ -140,12 +140,12 @@ src='http://reklam.lkd.org.tr/www/delivery/avw.php?zoneid=4&amp;cb=INSERT_RANDOM
 
 <ul id="menu">
 <li><a target="_blank" href="http://www.linux.org.tr">www.linux.org.tr</a></li>
-<li><a target="_blank" href="http://liste.linux.org.tr">Listeler</a></li>
-<li><a target="_blank" href="http://seminer.linux.org.tr">Seminerler</a></li>
-<li><a target="_blank" href="http://senlik.linux.org.tr">Şenlik</a></li>
-<li><a target="_blank" href="http://gezegen.linux.org.tr">Gezegen</a></li>
-<li><a target="_blank" href="http://galeri.linux.org.tr">Galeri</a></li>
-<li><a target="_blank" href="ftp://ftp.linux.org.tr">FTP Servisi</a></li>
-<li><a target="_blank" href="http://uyeyazilimi.linux.org.tr">Üye Yazılımı</a></li>
-<li><a target="_blank" href="http://pardus.linux.org.tr">Pardus Deposu</a></li>
+<li><a target="_blank" href="http://liste.linux.org.tr">LİSTELER</a></li>
+<li><a target="_blank" href="http://seminer.linux.org.tr">SEMİNERLER</a></li>
+<li><a target="_blank" href="http://senlik.linux.org.tr">ŞENLİK</a></li>
+<li><a target="_blank" href="http://gezegen.linux.org.tr">GEZEGEN</a></li>
+<li><a target="_blank" href="http://galeri.linux.org.tr">GALERİ</a></li>
+<li><a target="_blank" href="ftp://ftp.linux.org.tr">FTP SERVİSİ</a></li>
+<li><a target="_blank" href="http://uyeyazilimi.linux.org.tr">ÜYE YAZILIMI</a></li>
+<li><a target="_blank" href="http://pardus.linux.org.tr">PARDUS DEPOSU</a></li>
 </ul>

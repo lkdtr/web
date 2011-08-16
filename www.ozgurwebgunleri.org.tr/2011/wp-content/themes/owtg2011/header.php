@@ -48,7 +48,7 @@
 		<div class="clearfix"></div>
 		<?php dynamic_sidebar( 'primary-widget-area' ); ?>
 	</div>
-	<div id="logo"><a href="<?php bloginfo('blog_url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a></div>
+	<div id="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a></div>
 	<div id="right">
 		<div id="tuxweet">
 			<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozgurwebgunleri");

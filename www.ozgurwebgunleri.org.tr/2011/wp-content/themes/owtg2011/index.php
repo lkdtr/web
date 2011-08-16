@@ -10,8 +10,8 @@
 			 */
 			 get_template_part( 'loop', 'index' );
 			?>
-			</div><!-- #content -->
-		</div><!-- #container -->
+			</div>
+		</div>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -168,10 +168,10 @@ body {
 
 #header ul.menu li {
 	background:url(../images/menu.png) no-repeat top left;
-	width:87px;
+	width:77px;
 	height:53px;
 	text-align:center;
-	padding:35px 0 0 0;
+	padding:35px 5px 0 5px;
 	cursor:pointer;
 	float:left;
 	margin:0 2px 0 2px;
@@ -191,6 +191,15 @@ body {
 #header ul.menu li:hover a, #header ul.menu li.current-menu-item a {
 	color:#423932;
 }
+
+/* special menu items */
+
+#header ul.menu li#menu-item-55, #header ul.menu li#menu-item-56 {
+	height:62px;
+	padding:26px 0 0 0;
+}
+
+
 
 #main {
 	width:900px;

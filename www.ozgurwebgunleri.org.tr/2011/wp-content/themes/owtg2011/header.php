@@ -37,11 +37,17 @@
 		</ul>
 		<div class="clearfix"></div>
 		<ul id="followus" class="social">
-			<?php wp_list_bookmarks("orderby=rating&category=3&title_li=0"); ?>
+			<li class="linkedin"><a href="http://events.linkedin.com/Ozgur-Web-Teknolojileri-Gunleri/pub/383023" target="_blank"><img src="images/blank.gif" /></a></li>
+			<li class="facebook"><a href="http://www.facebook.com/event.php?eid=114749385242161" target="_blank"><img src="images/blank.gif" /></a></li>
+			<li class="tuxweet"><a href="http://tuxweet.linux.org.tr/ozgurwebgunleri" target="_blank"><img src="images/blank.gif" /></a></li>
+			<li class="xing"><a href="https://www.xing.com/events/ozgur-web-teknolojileri-gunleri-548570" target="_blank"><img src="images/blank.gif" /></a></li>
+			<li class="twitter"><a href="http://twitter.com/ozgurwebgunleri" target="_blank"><img src="images/blank.gif" /></a></li>
+			<li class="technorati"><a href="http://identi.ca/ozgurwebgunleri" target="_blank"><img src="images/blank.gif" /></a></li>
+			<li class="friendfeed"><a href="http://friendfeed.com/ozgurwebgunleri" target="_blank"><img src="images/blank.gif" /></a></li>
 		</ul>
 		<div class="clearfix"></div>
 		<ul id="leftmenu" class="menu">
-			<li class="home current"><a href="#">ANASAYFA</a></li>
+			<?php dynamic_sidebar( 'primary-widget-area' ); ?>
 		</ul>
 	</div>
 	<div id="logo"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></div>
@@ -54,7 +60,13 @@
 		</div>
 		<div class="clearfix"></div>
 		<ul id="shareus" class="social">
-			<?php wp_list_bookmarks("orderby=rating&category=4&title_li=''"); ?>
+			<li class="facebook"><a href="#"><img src="images/blank.gif" /></a></li>
+			<li class="delicious"><a href="#"><img src="images/blank.gif" /></a></li>
+			<li class="twitter"><a href="#"><img src="images/blank.gif" /></a></li>
+			<li class="linkedin"><a href="#"><img src="images/blank.gif" /></a></li>
+			<li class="digg"><a href="#"><img src="images/blank.gif" /></a></li>
+			<li class="tuxweet"><a href="#"><img src="images/blank.gif" /></a></li>			
+			<li class="friendfeed"><a href="#"><img src="images/blank.gif" /></a></li>			
 		</ul>
 		<div class="clearfix"></div>
 		<ul id="rightmenu" class="menu">

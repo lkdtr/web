@@ -37,7 +37,7 @@
 		</ul>
 		<div class="clearfix"></div>
 		<ul id="followus" class="social">
-			<?php wp_list_bookmarks("orderby=rating&category_name='paylas'&title_li=0"); ?>
+			<?php wp_list_bookmarks("orderby=rating&category=3&title_li=0"); ?>
 		</ul>
 		<div class="clearfix"></div>
 		<ul id="leftmenu" class="menu">
@@ -54,7 +54,7 @@
 		</div>
 		<div class="clearfix"></div>
 		<ul id="shareus" class="social">
-			<?php wp_list_bookmarks("orderby=rating&category_name='takip-et'&title_li=''"); ?>
+			<?php wp_list_bookmarks("orderby=rating&category=4&title_li=''"); ?>
 		</ul>
 		<div class="clearfix"></div>
 		<ul id="rightmenu" class="menu">

@@ -184,11 +184,11 @@ body {
 	font-size:14px;
 }
 
-#header ul.menu li:hover {
+#header ul.menu li:hover, #header ul.menu li.current {
 	background:url(../images/menu.png) no-repeat -87px 0;
 }
 
-#header ul.menu li:hover a {
+#header ul.menu li:hover a, #header ul.menu li.current a {
 	color:#423932;
 }
 

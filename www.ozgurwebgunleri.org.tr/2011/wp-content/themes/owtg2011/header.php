@@ -35,9 +35,11 @@
 			<li><a href="http://www.lkd.org.tr/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/tlkd.png" /></a></li>
 			<li><a href="http://www.yucomp.org/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/7tepe.png" /></a></li>
 		</ul>
-		<ul id="followus">
-			<li class="linkedin"><a href=""><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
+		<div class="clearfix"></div>
+		<ul id="followus" class="social">
+			<?php wp_list_bookmarks('orderby=rating&category=3'); ?>
 		</ul>
+		<div class="clearfix"></div>
 		<ul id="leftmenu" class="menu">
 			<li class="home current"><a href="#">ANASAYFA</a></li>
 		</ul>
@@ -45,11 +47,16 @@
 	<div id="logo"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></div>
 	<div id="right">
 		<div id="tuxweet">
-			
+			<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozgurwebgunleri");
+			$sontweet=$sontweetial->entry[0]->title;
+			$sontweet_trimmed = ltrim($sontweet, "ozgurwebgunleri: #ozgurwebgunleri "); // her tweet'in basinda gelen ifadeleri kirpalim ?>
+			<a href="http://tuxweet.linux.org.tr/ozgurwebgunleri"><?php echo $sontweet_trimmed; ?></a>
 		</div>
-		<ul id="shareus">
-			<li class="linkedin"><a href=""><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
+		<div class="clearfix"></div>
+		<ul id="shareus" class="social">
+			<?php wp_list_bookmarks('orderby=rating&category=4'); ?>
 		</ul>
+		<div class="clearfix"></div>
 		<ul id="rightmenu" class="menu">
 			<li class="home current"><a href="#">ANASAYFA</a></li>
 		</ul>

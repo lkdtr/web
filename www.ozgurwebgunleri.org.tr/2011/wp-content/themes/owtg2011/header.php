@@ -46,9 +46,7 @@
 			<li class="friendfeed"><a href="http://friendfeed.com/ozgurwebgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 		</ul>
 		<div class="clearfix"></div>
-		<ul id="leftmenu" class="menu">
-			<?php dynamic_sidebar( 'primary-widget-area' ); ?>
-		</ul>
+		<?php dynamic_sidebar( 'primary-widget-area' ); ?>
 	</div>
 	<div id="logo"><a href="<?php bloginfo('blog_url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a></div>
 	<div id="right">
@@ -69,9 +67,7 @@
 			<li class="friendfeed"><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>			
 		</ul>
 		<div class="clearfix"></div>
-		<ul id="rightmenu" class="menu">
-			<li class="home current"><a href="#">ANASAYFA</a></li>
-		</ul>
+		<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
 	</div>
 	<div class="clearfix"></div>
 </div>

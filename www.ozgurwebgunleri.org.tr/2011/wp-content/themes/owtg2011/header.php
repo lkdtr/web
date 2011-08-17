@@ -61,6 +61,8 @@
 	</div>
 	<div id="logo">
 		<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a>
+		<div id="countdown_text">ETKİNLİĞE SON </div><div id="countdown"></div>
+		<div class="clearfix"></div>
 	</div>
 	<div id="right">
 		<div id="tuxweet">
@@ -69,8 +71,6 @@
 			$sontweet_trimmed = ltrim($sontweet, "ozgurwebgunleri: #ozgurwebgunleri "); // her tweet'in basinda gelen ifadeleri kirpalim ?>
 			<a href="http://tuxweet.linux.org.tr/ozgurwebgunleri" target="_blank"><?php echo $sontweet_trimmed; ?></a>
 		</div>
-		<div class="clearfix"></div>
-		<div id="countdown"></div>
 		<div class="clearfix"></div>
 		<ul id="shareus" class="social">
 			<li class="facebook"><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>

@@ -62,7 +62,6 @@
 	<div id="logo">
 		<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a>
 		<div id="countdown_text">ETKİNLİĞE SON </div><div id="countdown"></div>
-		<div class="clearfix"></div>
 	</div>
 	<div id="right">
 		<div id="tuxweet">

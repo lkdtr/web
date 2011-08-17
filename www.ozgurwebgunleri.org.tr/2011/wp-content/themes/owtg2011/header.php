@@ -24,8 +24,19 @@
 
 	?></title>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="http://tuxweet.linux.org.tr/rss/username:ozguryazilimgunleri" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+<link rel="image_src" href="<?php bloginfo('template_url'); ?>/images/logo.png" />
+
 <?php wp_head(); ?>
+
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
+
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/countdown/jquery.countdown.js'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/countdown/jquery.countdown-tr.js'></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/countdown/countdown.js"></script>
+
 </head>
 
 <body>
@@ -48,13 +59,16 @@
 		<div class="clearfix"></div>
 		<?php dynamic_sidebar( 'primary-widget-area' ); ?>
 	</div>
-	<div id="logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a></div>
+	<div id="logo">
+		<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a>
+		<div id="countdown"></div>
+	</div>
 	<div id="right">
 		<div id="tuxweet">
 			<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozgurwebgunleri");
 			$sontweet=$sontweetial->entry[0]->title;
 			$sontweet_trimmed = ltrim($sontweet, "ozgurwebgunleri: #ozgurwebgunleri "); // her tweet'in basinda gelen ifadeleri kirpalim ?>
-			<a href="http://tuxweet.linux.org.tr/ozgurwebgunleri"><?php echo $sontweet_trimmed; ?></a>
+			<a href="http://tuxweet.linux.org.tr/ozgurwebgunleri" target="_blank"><?php echo $sontweet_trimmed; ?></a>
 		</div>
 		<div class="clearfix"></div>
 		<ul id="shareus" class="social">

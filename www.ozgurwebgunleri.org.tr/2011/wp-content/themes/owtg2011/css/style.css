@@ -255,8 +255,16 @@ body {
 	margin:15px 0 3px 0;
 }
 
+#content h1.right {
+	text-align:right;
+}
+
 #content ul.left {
 	margin:0 0 0 10px;
+}
+
+#content ul.right {
+	margin:0 10px 0 0;
 }
 
 #content ul li {
@@ -268,6 +276,12 @@ body {
 #content ul.left li {
 	padding:0 0 0 10px;
 	background-position:left top;
+}
+
+#content ul.left li {
+	padding:0 10px 0 0;
+	background-position:right top;
+	text-align:right;
 }
 
 #sidebar {

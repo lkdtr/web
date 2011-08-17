@@ -61,7 +61,9 @@
 	</div>
 	<div id="logo">
 		<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a>
+		<div class="clearfix"></div>
 		<div id="countdown_text">14-15 EKİM</div><div id="countdown"></div>
+		<div class="clearfix"></div>
 	</div>
 	<div id="right">
 		<div id="tuxweet">

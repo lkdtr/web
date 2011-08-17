@@ -4,7 +4,7 @@
 <?php while (have_posts()) : the_post(); ?>
 
 <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-	<? if($_SERVER['REQUEST_URI']!="/") { ?><h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2><? } ?>
+	<? if(php bloginfo('url')!=$_SERVER['REQUEST_URI']) { ?><h1><?php the_title(); ?></h1><? } ?>
 
 		<div class="entry">
 			<?php the_content('Yazının kalanını okuyun &raquo;'); ?>

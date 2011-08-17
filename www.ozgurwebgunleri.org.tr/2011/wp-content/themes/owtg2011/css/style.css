@@ -138,33 +138,36 @@ body {
 
 #header #logo #countdown_text {
 	float:left;
+	font-size:17px;
+	margin:-7px 0 0 17px;
 }
 
 #header #logo #countdown {
-	margin:-20px 0 0 -10px;
-	font-size:12px;
+	margin:-8px 14px 0 0;
+	font-size:9px;
 	color:#423932;
 	float:right;
+	text-align:center;
 }
 
 #header #logo #countdown span.countdown_row {
-	width:185px;
+	width:145px;
 	margin:0;
 }
 
 #header #logo #countdown span {
 	float:left;
-	margin:0 3px 0 3px;
+	margin:0;
 	text-align:center;
-	width:35px;
+	width:32px;
 }
 
 #header #logo #countdown span.countdown_amount {
-	font-size:22px;
+	font-size:19px;
 	color:#d94f1e;
-	padding:0 5px 0 5px;
-	width:25px;
-	margin:0;
+	padding:0;
+	margin:0 0 2px 0;
+	width:32px;
 }
 
 /* header right */

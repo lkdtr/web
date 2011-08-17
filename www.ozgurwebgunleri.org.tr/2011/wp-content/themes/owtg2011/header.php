@@ -24,6 +24,11 @@
 
 	?></title>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+
+<!--[if ff]>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/firefox.css" />
+<![endif]-->
+
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="http://tuxweet.linux.org.tr/rss/username:ozguryazilimgunleri" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 

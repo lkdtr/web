@@ -135,20 +135,20 @@ body {
 	margin:16px 0 0 28px;
 }
 
-#header #right #countdown {
+#header #logo #countdown {
 	margin:-20px 0 0 -10px;
 	font-size:12px;
 	color:#423932;
 	font-family:"HelveticaCondensedRegular", arial, sans-serif;
 }
 
-#header #right #countdown span.countdown_row {
+#header #logo #countdown span.countdown_row {
 	width:185px;
 	background:none;
 	margin:0;
 }
 
-#header #right #countdown span {
+#header #logo #countdown span {
 	float:left;
 	margin:0 3px 0 3px;
 	text-align:center;
@@ -156,7 +156,7 @@ body {
 	width:35px;
 }
 
-#header #right #countdown span.countdown_amount {
+#header #logo #countdown span.countdown_amount {
 	font-size:22px;
 	color:#d94f1e;
 	background:#423932;

@@ -1,7 +1,7 @@
 <div class="wrapper" id="footer">
   <p class="left">
-    <a href='http://www.mozilla.org/products/firefox/'><img src='http://sfx-images.mozilla.org/firefox/3.6/80x15_square_orange.png' alt='Spread Firefox Affiliate Button' border='0' /></a>
-    <a href='http://www.vim.org'><img src='<?php bloginfo('template_url'); ?>/images/banners/vim_edited_blue.jpg' alt='Edited with VIM' /></a>
+    <a href='http://www.mozilla.org/firefox?WT.mc_id=aff_en06&WT.mc_ev=click'><img src='http://www.mozilla.org/contribute/buttons/110x32bubble_o.png' alt='Daha İyi Bir Web Deneyimi İçin Firefox Kullanın' border='0' /></a>
+    <a href='http://www.wordpress.org/'><img src='http://www.linux.org.tr/wp-content/themes/linuxtema/images/wp-logo.png' alt='Site Alt Yapısı Olarak Wordpress Kullanılmaktadır.' border='0' /></a>
   </p>
   <span><a href="<?php bloginfo('siteurl'); ?>/gpl">GPL</a></span>
   <?php

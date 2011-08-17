@@ -62,7 +62,6 @@
 	<div id="logo">
 		<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a>
 		<div id="countdown"></div>
-		<div id="realdate">14-15 EKİM 2011</div>
 	</div>
 	<div id="right">
 		<div id="tuxweet">

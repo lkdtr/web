@@ -135,6 +135,14 @@ body {
 	margin:16px 0 0 28px;
 }
 
+#header #logo #realdate {
+	display:none;
+}
+
+#header #logo {
+	font-family:"HelveticaCondensedRegular", arial, sans-serif;
+}
+
 /* header right */
 
 #header #right {

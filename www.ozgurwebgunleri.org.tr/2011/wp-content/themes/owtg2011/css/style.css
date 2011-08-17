@@ -6,6 +6,7 @@ body {
 	background:url(../images/bodyback.jpg) no-repeat center top;
 	font-size:12px;
 	font-family:"HelveticaRegular", arial,sans-serif;
+	color:#423932;
 }
 
 #header {
@@ -242,6 +243,7 @@ body {
 #content {
 	width:705px;
 	float:left;
+	margin:0 0 0 20px;
 }
 
 #content h1, #content h2 {
@@ -250,6 +252,22 @@ body {
 
 #content h1 {
 	font-size:24px;
+	margin:5px 0 10px 0;
+}
+
+#content ul.left {
+	margin:0 0 0 10px;
+}
+
+#content ul li {
+	background-image:url(../images/liste.jpg);
+	background-repeat:no-repeat;
+	padding:3px 0 3px 0;
+}
+
+#content ul.left li {
+	padding:0 0 0 10px;
+	background-position:left top;
 }
 
 #sidebar {

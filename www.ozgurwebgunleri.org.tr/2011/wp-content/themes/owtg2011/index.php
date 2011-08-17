@@ -1,17 +1,23 @@
 <?php get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
+<?php if (have_posts()) : ?>
+<?php while (have_posts()) : the_post(); ?>
 
-			<?php
-			/* Run the loop to output the posts.
-			 * If you want to overload this in a child theme then include a file
-			 * called loop-index.php and that will be used instead.
-			 */
-			 get_template_part( 'loop', 'index' );
-			?>
-			</div>
+<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
+	<? if($_SERVER['REQUEST_URI']!="/") { ?><h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2><? } ?>
+
+		<div class="entry">
+			<?php the_content('Yazının kalanını okuyun &raquo;'); ?>
 		</div>
+
+</div>
+<?php endwhile; ?>
+
+<?php else : ?>
+<h2 class="center">Bulunamadı</h2>
+	<p class="center">Üzgünüz, aradığınız şey burada değil.</p>
+	<?php get_search_form(); ?>
+<?php endif; ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

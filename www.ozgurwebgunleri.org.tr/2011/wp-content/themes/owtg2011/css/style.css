@@ -248,16 +248,12 @@ body {
 
 #content a:hover {
 	text-decoration:none;
-	color:#423932;
-	padding:2px;
-	background:#d94f1e;
+	color:#d94f1e;
 }
 
 #content a {
-	background:#423932;
-	color:#fff;
-	padding:2px;
-	text-decoration:none;
+	color:#423932;
+	text-decoration:underline;
 }
 
 #content h1, #content h2 {

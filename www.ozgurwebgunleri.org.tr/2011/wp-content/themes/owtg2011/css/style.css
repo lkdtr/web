@@ -220,11 +220,11 @@ body {
 	font-size:14px;
 }
 
-#header ul.menu li:hover, #header ul.menu li.current-menu-item {
+#header ul.menu li:hover, #header ul.menu li.current-menu-item, #header ul.menu li.current-page-ancestor {
 	background:url(../images/menu.png) no-repeat -87px 0;
 }
 
-#header ul.menu li:hover a, #header ul.menu li.current-menu-item a {
+#header ul.menu li:hover a, #header ul.menu li.current-menu-item a, #header ul.menu li.current-page-ancestor a {
 	color:#423932;
 }
 

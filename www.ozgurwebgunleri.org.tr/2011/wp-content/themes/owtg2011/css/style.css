@@ -256,7 +256,9 @@ body {
 	text-decoration:underline;
 }
 
-#content h1, #content h2 {
+/* titles */ 
+
+#content h1, #content h2, #content h3 {
 	font-family:"HelveticaCondensedRegular", arial, sans-serif;
 }
 
@@ -265,15 +267,23 @@ body {
 	margin:15px 0 3px 0;
 }
 
-#content h1.right {
-	text-align:right;
-}
-
 #content h2 {
 	font-size:16px;
 }
 
-#content h2.center {
+#content h3 {
+	font-size:14px;
+}
+
+#content .left {
+	text-align:left;
+}
+
+#content .right {
+	text-align:right;
+}
+
+#content .center {
 	text-align:center;
 }
 
@@ -300,6 +310,16 @@ body {
 	padding:0 10px 0 0;
 	background-position:right top;
 	text-align:right;
+}
+
+/* banner codes */
+
+#content .code {
+	border:1px dashed #463a31;
+	width:80%;
+	padding:3px;
+	margin:2px;
+	background:#c9b290;
 }
 
 #sidebar {

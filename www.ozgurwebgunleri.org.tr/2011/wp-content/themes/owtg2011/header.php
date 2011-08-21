@@ -29,7 +29,7 @@
 <style type="text/css" media="screen"> @import "<?php bloginfo('template_url'); ?>/css/firefox.css";</style>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="http://tuxweet.linux.org.tr/rss/username:ozguryazilimgunleri" />
+<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="http://tuxweet.linux.org.tr/rss/username:ozgurwebgunleri" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <link rel="image_src" href="<?php bloginfo('template_url'); ?>/images/owtg2011social.jpg" />
@@ -53,7 +53,7 @@
 		</ul>
 		<div class="clearfix"></div>
 		<ul id="followus" class="social">
-			<li class="linkedin"><a href="http://events.linkedin.com/Ozgur-Web-Teknolojileri-Gunleri-2011/pub/760709" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
+			<li class="linkedin"><a href="http://events.linkedin.com/Ozgur-Web-Teknolojileri-Gunleri/pub/383023" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 			<li class="facebook"><a href="http://www.facebook.com/event.php?eid=139940079428957" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 			<li class="tuxweet"><a href="http://tuxweet.linux.org.tr/ozgurwebgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 			<li class="xing"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></li>

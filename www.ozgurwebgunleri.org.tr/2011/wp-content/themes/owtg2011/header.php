@@ -53,10 +53,10 @@
 		</ul>
 		<div class="clearfix"></div>
 		<ul id="followus" class="social">
-			<li class="linkedin"><a href="http://events.linkedin.com/Ozgur-Web-Teknolojileri-Gunleri/pub/383023" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
-			<li class="facebook"><a href="http://www.facebook.com/event.php?eid=114749385242161" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
+			<li class="linkedin"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></li>
+			<li class="facebook"><a href="http://www.facebook.com/event.php?eid=139940079428957" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 			<li class="tuxweet"><a href="http://tuxweet.linux.org.tr/ozgurwebgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
-			<li class="xing"><a href="https://www.xing.com/events/ozgur-web-teknolojileri-gunleri-548570" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
+			<li class="xing"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></li>
 			<li class="twitter"><a href="http://twitter.com/ozgurwebgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 			<li class="technorati"><a href="http://identi.ca/ozgurwebgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 			<li class="friendfeed"><a href="http://friendfeed.com/ozgurwebgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>

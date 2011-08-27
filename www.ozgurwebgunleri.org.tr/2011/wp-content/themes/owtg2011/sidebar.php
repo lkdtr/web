@@ -1,3 +1,3 @@
 <div id="sidebar">
-	<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
+	<?php wp_list_bookmarks('orderby=rating'); ?>
 </div>

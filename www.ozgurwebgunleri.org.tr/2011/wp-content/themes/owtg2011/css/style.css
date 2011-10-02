@@ -254,18 +254,18 @@ body {
 
 /* main table */
 
-#main table tr td.date {
+#main table td.date {
 	text-align:center;
 	height:25px;
 	font-size:22px;
 	font-family: "HelveticaCondensedRegular",arial,sans-serif;
 }
 
-#main table tr td#date1 {
+#main table td#date1 {
 	background:#D94F1E;
 }
 
-#main table tr td#date2 {
+#main table td#date2 {
 	background:#423932;
 	color:#F2E1C9;
 }

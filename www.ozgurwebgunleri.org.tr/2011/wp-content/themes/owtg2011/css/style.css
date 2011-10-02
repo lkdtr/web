@@ -252,6 +252,43 @@ body {
 	text-decoration:underline;
 }
 
+/* main table */
+
+#main table tr td.date {
+	text-align:center;
+	height:25px;
+	font-size:22px;
+	font-family: "HelveticaCondensedRegular",arial,sans-serif;
+}
+
+#main table tr td#date1 {
+	background:#D94F1E;
+}
+
+#main table tr td#date2 {
+	background:#423932;
+	color:#F2E1C9;
+}
+
+#main table tr.place td {
+	font-family: "HelveticaCondensedRegular",arial,sans-serif;
+	font-size:16px;
+	text-align:center;
+}
+
+#main table td {
+	padding:5px;
+	border:1px dashed #423932;
+}
+
+#main table tr.odd td {
+	background:#e0d0ba;
+}
+
+#main strong {
+	font-weight:bold;
+}
+
 /* content */
 
 #content {

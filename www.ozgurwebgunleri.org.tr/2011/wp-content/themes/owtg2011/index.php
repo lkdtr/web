@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php get_header();
+
+global $post;
+$custom_fields=get_post_custom($post->ID);
+$sidebarstatus=$custom_fields['sidebar'][0]; ?>
 
 <div id="content">
 	<?php if (have_posts()) : ?>
@@ -17,5 +21,19 @@
 	<?php endif; ?>
 </div>
 
+<?php if($sidebarstatus!="0") { ?>
 <?php get_sidebar(); ?>
+<?php } else { ?>
+<style type="text/css">
+#sidebar {
+	display:none;
+}
+
+#content {
+	width:870px;
+	background:#f2e1c9;
+	padding:0 5px 0 0;
+}
+</style>
+<?php } ?>
 <?php get_footer(); ?>

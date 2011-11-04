@@ -1,0 +1,393 @@
+html {
+	background:#f2e1c9 url(../images/htmlback.jpg) repeat-x;
+}
+
+body {
+	background:url(../images/bodyback.jpg) no-repeat center top;
+	font-size:12px;
+	font-family:"HelveticaRegular", arial,sans-serif;
+	color:#423932;
+}
+
+#header {
+	width:900px;
+	margin:auto;
+	height:265px;
+}
+
+/* social network logos */
+
+#header ul.social li {
+	background-image:url(../images/social.png);
+	width:29px;
+	height:29px;
+	float:left;
+	margin:16px 2px 0 2px;
+}
+
+#header ul.social li img {
+	width:29px;
+	height:29px;
+}
+
+#header ul.social li.linkedin {
+	background-position:0 0;
+}
+
+#header ul.social li.linkedin:hover {
+	background-position:0 29px;
+}
+
+#header ul.social li.facebook {
+	background-position:-33px 0;
+}
+
+#header ul.social li.facebook:hover {
+	background-position:-33px 29px;
+}
+
+#header ul.social li.tuxweet {
+	background-position:-65px 0;
+}
+
+#header ul.social li.tuxweet:hover {
+	background-position:-65px 29px;
+}
+
+#header ul.social li.xing {
+	background-position:-98px 0;
+}
+
+#header ul.social li.xing:hover {
+	background-position:-98px 29px;
+}
+
+#header ul.social li.twitter {
+	background-position:-131px 0;
+}
+
+#header ul.social li.twitter:hover {
+	background-position:-131px 29px;
+}
+
+#header ul.social li.technorati {
+	background-position:-164px 0;
+}
+
+#header ul.social li.technorati:hover {
+	background-position:-164px 29px;
+}
+
+#header ul.social li.friendfeed {
+	background-position:-196px 0;
+}
+
+#header ul.social li.friendfeed:hover {
+	background-position:-196px 29px;
+}
+
+#header ul.social li.delicious {
+	background-position:-229px 0;
+}
+
+#header ul.social li.delicious:hover {
+	background-position:-229px 29px;
+}
+
+#header ul.social li.digg {
+	background-position:-263px 0;
+}
+
+#header ul.social li.digg:hover {
+	background-position:-263px 29px;
+}
+
+/* header left */
+
+#header #left {
+	float:left;
+}
+
+#header #left ul#organization {
+	margin:10px 0 0 30px;
+}
+
+#header #left ul#organization li {
+	float:left;
+	margin:0 15px 0 0;
+}
+
+#header #left ul#followus {
+	background:url(../images/followustitle.png) no-repeat right top;
+	height:62px;
+	margin:0 5px 0 0;
+	padding:0 0 0 11px;
+}
+
+#header ul#menu-sol {
+	margin:10px 0 0 3px;
+}
+
+/* header logo */
+
+#header #logo {
+	float:left;
+	margin:16px 0 0 28px;
+	font-family:"HelveticaCondensedRegular", arial, sans-serif;
+}
+
+#header #logo #countdown_text {
+	float:left;
+	font-size:17px;
+	margin:-7px 0 0 17px;
+}
+
+#header #logo #countdown {
+	margin:-8px 14px 0 0;
+	font-size:9px;
+	color:#423932;
+	float:right;
+	text-align:center;
+}
+
+#header #logo #countdown span.countdown_row {
+	width:145px;
+	margin:0;
+}
+
+#header #logo #countdown span {
+	float:left;
+	margin:0;
+	text-align:center;
+	width:32px;
+}
+
+#header #logo #countdown span.countdown_amount {
+	font-size:19px;
+	color:#d94f1e;
+	padding:0;
+	margin:0 0 2px 0;
+	width:32px;
+}
+
+/* header right */
+
+#header #right {
+	float:left;
+}
+
+#header #right #tuxweet {
+	width:325px;
+	margin:12px 0 0 -45px;
+	height:50px;
+}
+
+#header #right #tuxweet a {
+	font-family:"HelveticaCondensedRegular", arial, sans-serif;
+	color:#fff;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#header #right ul#shareus {
+	background:url(../images/shareustitle.png) no-repeat left top;
+	height:62px;
+	margin:50px 0 0 13px;
+	padding:0 0 0 30px;
+}
+
+#header ul#menu-sag {
+	margin:0 0 0 10px;
+}
+
+/* header menu */
+
+#header ul.menu li {
+	background:url(../images/menu.png) no-repeat top left;
+	width:77px;
+	height:53px;
+	text-align:center;
+	padding:35px 5px 0 5px;
+	cursor:pointer;
+	float:left;
+	margin:0 2px 0 2px;
+}
+
+#header ul.menu li a {
+	color:#fff;
+	text-decoration:none;
+	font-family:"HelveticaCondensedRegular", arial, sans-serif;
+	font-size:14px;
+}
+
+#header ul.menu li:hover, #header ul.menu li.current-menu-item, #header ul.menu li.current-page-ancestor {
+	background:url(../images/menu.png) no-repeat -87px 0;
+}
+
+#header ul.menu li:hover a, #header ul.menu li.current-menu-item a, #header ul.menu li.current-page-ancestor a {
+	color:#423932;
+}
+
+/* special menu items */
+
+#header ul.menu li#menu-item-55, #header ul.menu li#menu-item-56, #header ul.menu li#menu-item-164 {
+	height:62px;
+	padding:26px 5px 0 5px;
+}
+
+#main {
+	width:900px;
+	margin:auto;
+}
+
+/* main anchors */
+
+#main a:hover {
+	text-decoration:none;
+	color:#d94f1e;
+}
+
+#main a {
+	color:#423932;
+	text-decoration:underline;
+}
+
+/* main table */
+
+#main table td.date {
+	text-align:center;
+	height:25px;
+	font-size:22px;
+	font-family: "HelveticaCondensedRegular",arial,sans-serif;
+}
+
+#main table td#date1 {
+	background:#D94F1E;
+}
+
+#main table td#date2 {
+	background:#423932;
+	color:#F2E1C9;
+}
+
+#main table tr.place td {
+	font-family: "HelveticaCondensedRegular",arial,sans-serif;
+	font-size:16px;
+	text-align:center;
+}
+
+#main table td {
+	padding:5px;
+	border:1px dashed #423932;
+}
+
+#main table tr.odd td {
+	background:#e0d0ba;
+}
+
+#main strong {
+	font-weight:bold;
+}
+
+/* content */
+
+#content {
+	width:705px;
+	float:left;
+	margin:10px 0 0 20px;
+}
+
+/* titles */ 
+
+#content h1, #content h2, #content h3 {
+	font-family:"HelveticaCondensedRegular", arial, sans-serif;
+}
+
+#content h1 {
+	font-size:26px;
+	margin:15px 0 3px 0;
+}
+
+#content h2 {
+	font-size:16px;
+}
+
+#content h3 {
+	font-size:14px;
+}
+
+#content .left {
+	text-align:left;
+}
+
+#content .right {
+	text-align:right;
+}
+
+#content .center {
+	text-align:center;
+}
+
+#content ul.left {
+	margin:0 0 0 10px;
+}
+
+#content ul.right {
+	margin:0 10px 0 0;
+}
+
+#content ul li {
+	background-image:url(../images/liste.jpg);
+	background-repeat:no-repeat;
+	margin:6px 0 6px 0;
+}
+
+#content ul.left li {
+	padding:0 0 0 10px;
+	background-position:left top;
+}
+
+#content ul.right li {
+	padding:0 10px 0 0;
+	background-position:right top;
+	text-align:right;
+}
+
+/* banner codes */
+
+#content .code {
+	border:1px dashed #463a31;
+	width:80%;
+	padding:3px;
+	margin:2px;
+	background:#c9b290;
+	overflow:hidden;
+}
+
+/* sidebar */
+
+#sidebar {
+	width:160px;
+	float:left;
+	margin:0 0 0 10px;
+}
+
+#sidebar h2 {
+	font-family:"HelveticaCondensedRegular", arial, sans-serif;
+	font-size:22px;
+	text-transform:uppercase;
+	margin:22px 0 0 25px;
+}
+
+#sidebar ul {
+	margin:15px 0 0 30px;
+}
+
+/* footer */
+
+#footer {
+	background:url(../images/footer.jpg) repeat-x;
+	width:100%;
+	height:174px;
+	margin:30px 0 20px 0;
+}

@@ -23,7 +23,7 @@
 		echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
 
 	?></title>
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo $_SERVER["HTTP_HOST"]."/2012/wp-content/themes/oylg2012/css/fontface.css"; ?>" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo "http://".$_SERVER["HTTP_HOST"]."/2012/wp-content/themes/oylg2012/css/fontface.css"; ?>" />
 
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 

@@ -33,7 +33,7 @@ $sidebarstatus=$custom_fields['sidebar'][0]; ?>
 	width:690px;
 }
 html {
-	background:#44605f url(../images/htmlbackground_1.gif) no-repeat left top;
+	background:#44605f url(<?php bloginfo('template_url'); ?>/images/htmlbackground_1.gif) no-repeat left top;
 }
 </style>
 <?php } ?>

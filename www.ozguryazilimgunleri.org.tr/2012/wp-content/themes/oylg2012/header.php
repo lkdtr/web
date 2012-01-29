@@ -48,7 +48,7 @@
 	<div id="tuxweet">
 		<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozguryazilimgunleri");
 		$sontweet=$sontweetial->entry[0]->title;
-		$sontweet_trimmed = ltrim($sontweet, "ozguryazilimgunleri: #ozguryazilimgunleri "); // her tweet'in basinda gelen ifadeleri kirpalim ?>
+		$sontweet_trimmed = ltrim($sontweet, "ozguryazilimgunleri: #oylg2012 "); // her tweet'in basinda gelen ifadeleri kirpalim ?>
 		<a href="http://tuxweet.linux.org.tr/ozguryazilimgunleri" target="_blank"><?php echo $sontweet_trimmed; ?></a>
 	</div>
 </div>

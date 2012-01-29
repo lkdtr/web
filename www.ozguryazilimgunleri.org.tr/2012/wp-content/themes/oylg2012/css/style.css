@@ -292,7 +292,7 @@ body {
 
 /* banner codes */
 
-#content .code {
+#content pre {
 	border:1px dashed #ea645e;
 	width:80%;
 	padding:3px;

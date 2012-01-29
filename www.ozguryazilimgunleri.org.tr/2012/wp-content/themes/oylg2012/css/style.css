@@ -297,8 +297,9 @@ body {
 	width:80%;
 	padding:3px;
 	margin:2px 2px 10px 2px;
-	background:#12bbb5;
+	background:#d3d2d2;
 	overflow:hidden;
+	color:#44605f;
 }
 
 /* sidebar */

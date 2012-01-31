@@ -62,7 +62,7 @@
 		<li class="technorati"><a href="http://identi.ca/ozguryazilimgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 		<li class="friendfeed"><a href="http://friendfeed.com/ozguryazilimgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 		<li class="twitter"><a href="http://twitter.com/Ozgryzlmgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
-		<li class="facebook"><a href="http://www.facebook.com/events/135560503168688/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
+		<li class="facebook"><a href="http://www.facebook.com/events/142661282519099/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 	</ul>
 	<div class="clearfix"></div>
 </div>

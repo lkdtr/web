@@ -72,7 +72,7 @@
     <div class="detay">
       Linux Kullanıcıları Derneği'nin yaptığı duyuruları içeren, düşük hacimli (ayda en fazla birkaç mesaj gelen), salt-okunur duyuru e-posta listesi.<br />
       <br />
-      <a class="gir" href="mailto:lkd-duyuru-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:lkd-duyuru-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:lkd-duyuru-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.duyuru">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -82,7 +82,7 @@
     <div class="detay">
       Linux ve diğer özgür yazılımlar üzerine çalışacak eleman arayanlar duyuruları için bu e-posta listesini kullanabilirler. Listede moderasyon uygulanarak, sadece ilan ve duyurular kabul ediliyor. Yorum/yanıtlarınızı özelden ilan sahibinin adresine ya da ilanda belirtilen adrese göndermeniz gerekmektedir.<br />
       <br />
-      <a class="gir" href="mailto:linux-ik-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-ik-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-ik-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.insan-kaynaklari">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -92,7 +92,7 @@
     <div class="detay">
       Linux'un masaüstünde kullanıma ilişkin konular ve uygulamalar (OpenOffice.org, Firefox, KDE, GNOME, Oyunlar, vs) bu listede konuşulur.<br />
       <br />
-      <a class="gir" href="mailto:linux-masaustu-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-masaustu-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-masaustu-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.masaustu">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -102,7 +102,7 @@
     <div class="detay">
       Tüm sunucu servisleri (Apache, Postfix, MySQL, vb) ve sistem yönetimi ile ilgili konular konuşulur.<br />
       <br />
-      <a class="gir" href="mailto:linux-sunucu-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-sunucu-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-sunucu-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.sunucu">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -112,7 +112,7 @@
     <div class="detay">
       Ağ yönlendirme, güvenlik duvarı, proxy ve benzeri verinin taşınmasına ilişkin konular konuşulur. Sunucu/sistem yönetimi ile ilgili konular için ayrı bir linux-sunucu isimli listesi bulunuyor.<br />
       <br />
-      <a class="gir" href="mailto:linux-ag-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-ag-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-ag-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.ag">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -122,7 +122,7 @@
     <div class="detay">
       Linux ve özgür yazılımlarla çeşitli dillerde yazılım geliştirme ile ilgili konular konuşulur.<br />
       <br />
-      <a class="gir" href="mailto:linux-programlama-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-programlama-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-programlama-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.programlama">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -132,7 +132,7 @@
     <div class="detay">
       Bilgi güvenligi ve özgür yazılım uygulamaları ile ilgili konular bu listenin kapsamına girmektedir.<br />
       <br />
-      <a class="gir" href="mailto:linux-guvenlik-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-guvenlik-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-guvenlik-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.guvenlik">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -142,7 +142,7 @@
     <div class="detay">
       Linux'taki donanım ile ilgili konuların konuşulabileceği bir listedir.<br />
       <br />
-      <a class="gir" href="mailto:linux-donanim-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-donanim-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-donanim-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.donanim">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -152,7 +152,7 @@
     <div class="detay">
       Yerelleştirme ile ilgili tüm konuların konuşulabileceği bir e-posta listesidir.<br />
       <br />
-      <a class="gir" href="mailto:linux-yerellestirme-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-yerellestirme-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-yerellestirme-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.yerellestirme">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -162,7 +162,7 @@
     <div class="detay">
       Linux çekirdeği ile ilgili konular konuşulur.<br />
       <br />
-      <a class="gir" href="mailto:linux-cekirdek-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-cekirdek-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-cekirdek-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.cekirdek">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -172,7 +172,7 @@
     <div class="detay">
       *BSD işletim sistemler ile ilgili konular konuşulur.<br />
       <br />
-      <a class="gir" href="mailto:bsd-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:bsd-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:bsd-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.bsd">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -182,7 +182,7 @@
     <div class="detay">
       Listede, herhangi bir Linux dağıtımının kurulumu ile ilgili konular konuşulabilir. Ancak kurulumdan sonraki aşamalar için lütfen ilgili diğer listelere e-posta atınız.<br />
       <br />
-      <a class="gir" href="mailto:linux-kurulum-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-kurulum-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-kurulum-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.kurulum">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -192,7 +192,7 @@
     <div class="detay">
       Linux ve özgür yazılım hakkında olmak koşuluyla, sınırsız tartışma ve haberleşme listesidir. Dünya üzerinde açık kaynak kod ile ilgili gelişmeler ve haberler gibi konular bu listenin kapsamına girmektedir.<br />
       <br />
-      <a class="gir" href="mailto:linux-sohbet-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-sohbet-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-sohbet-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.sohbet">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -202,7 +202,7 @@
     <div class="detay">
       Linux ve özgür yazılımlar ile ilgili diğer liste konularına girmeyen ve giriş seviyesinde olan her türlü konu konuşulabiliyor. Sohbet konusu olabilecek konular için ayrıca linux-sohbet listesi bulunmaktadır.<br />
       <br />
-      <a class="gir" href="mailto:linux-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.linux">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -213,7 +213,7 @@
 Özgür yazılım temelli elektronik, otomasyon, robotik, gömülü sistemler konuları konuşulur.
 <br />
       <br />
-      <a class="gir" href="mailto:linux-elektronik-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-elektronik-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-elektronik-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.elektronik">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -223,7 +223,7 @@
     <div class="detay">
 Android, Moblin, Maemo, netbook dağıtımları gibi linux temelli taşınabilir işletim sistemleri ve bunları kullanan cihazlar bu listede konuşulur.<br />
       <br />
-      <a class="gir" href="mailto:linux-mobil-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:linux-mobil-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:linux-mobil-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.mobil">Web/RSS/NNTP ile Okuyun</a>
     </div>
@@ -233,7 +233,7 @@ Android, Moblin, Maemo, netbook dağıtımları gibi linux temelli taşınabilir
     <div class="detay">
       Deneme Listesi. Listeci ile ilgili denemelerinizi burada yapabilirsiniz.<br />
       <br />
-      <a class="gir" href="mailto:deneme-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıkayın</a>
+      <a class="gir" href="mailto:deneme-request@liste.linux.org.tr?subject=subscribe">Üye olmak için buraya tıklayın</a>
       <a class="cik" href="mailto:deneme-request@liste.linux.org.tr?subject=unsubscribe">Listeden çıkmak için buraya tıklayın</a>
       <a class="gmane" href="http://dir.gmane.org/gmane.org.user-groups.linux.turkey.deneme">Web/RSS/NNTP ile Okuyun</a>
     </div>

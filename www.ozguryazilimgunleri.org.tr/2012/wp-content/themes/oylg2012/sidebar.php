@@ -4,7 +4,6 @@
 </br>
 </br>
 </br>
-</br>
 
 
 		<a href="http://www.gittigidiyor.com/"><img src="/2012/wp-content/themes/oylg2012/images/gitti-gidiyor-150.png" width="150px" height="46px" border="0" /></a>

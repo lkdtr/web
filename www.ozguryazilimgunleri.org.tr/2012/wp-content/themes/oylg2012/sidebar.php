@@ -22,7 +22,7 @@
 </br>
 </br>
 
-		<a href="http://www.ebiuniverse.com/"><img src="/2012/wp-content/themes/oylg2012/images/sahibinden-150.png" width="150px" height="45px" border="0" /></a>
+		<a href="http://www.sahibinden.com/"><img src="/2012/wp-content/themes/oylg2012/images/sahibinden-150.png" width="150px" height="45px" border="0" /></a>
 </br>
 </br>
 </br>

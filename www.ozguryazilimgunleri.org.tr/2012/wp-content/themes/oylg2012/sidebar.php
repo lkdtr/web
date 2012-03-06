@@ -24,6 +24,11 @@
 </br>
 
 
+		<a href="http://www.kartaca.com/"><img src="/2012/wp-content/themes/oylg2012/images/kartaca-150.png" width="150px" height="60px" border="0" /></a>
+</br>
+</br>
+</br>
+
 
 
 

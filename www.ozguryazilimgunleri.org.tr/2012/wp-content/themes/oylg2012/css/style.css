@@ -121,9 +121,16 @@ body {
 
 #header_left ul#followus {
 	background:url(../images/followustitle.png) no-repeat right top;
-	height:62px;
+	height:35px;
 	margin:65px 0 0 2px;
 	padding:0 0 0 11px;
+}
+
+/* organization */
+
+#header_left #organization {
+	text-align:center;
+	width:140px;
 }
 
 /* tuxweet */

@@ -64,7 +64,7 @@
 		<li class="twitter"><a href="http://twitter.com/Ozgryzlmgunleri" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 		<li class="facebook"><a href="http://www.facebook.com/events/142661282519099/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/blank.gif" /></a></li>
 	</ul>
-	<div align="center">
+	<div id="organization">
 		<a href="http://www.bilgi.edu.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/bilgi_logo.png" /></a>
 		<br />
 		<a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/lkd_logo.png" /></a>

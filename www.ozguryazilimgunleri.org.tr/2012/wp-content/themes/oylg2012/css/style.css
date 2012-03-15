@@ -49,6 +49,19 @@ body {
 	margin:0 7px 0 7px;
 }
 
+#main_sponsors h3 {
+  display:none;
+}
+
+#main_sponsors ul {
+  margin:5px 0 0 0;
+}
+
+#main_sponsors ul li {
+  float:left;
+  margin:0 5px 0 0;
+}
+
 /* social network logos */
 
 #header_left ul.social li {

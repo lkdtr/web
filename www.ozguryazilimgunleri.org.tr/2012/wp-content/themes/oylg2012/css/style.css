@@ -50,16 +50,16 @@ body {
 }
 
 #main_sponsors h3 {
-  display:none;
+	display:none;
 }
 
 #main_sponsors ul {
-  margin:5px 0 0 0;
+	margin:5px 0 0 0;
 }
 
 #main_sponsors ul li {
-  float:left;
-  margin:0 5px 0 0;
+	float:left;
+	margin:0 5px 0 0;
 }
 
 /* social network logos */
@@ -146,7 +146,7 @@ body {
 /* menu */
 
 #mainmenumargin {
-	height:39px;
+	height:32px;
 }
 
 #mainmenu {
@@ -329,6 +329,22 @@ body {
 
 #sidebar ul {
 	margin:15px 0 0 39px;
+}
+
+#sidebar ul li img[title='markafoni'] {
+	margin:0 0 0 -5px;
+}
+
+#sidebar ul li img[title='obss'] {
+	margin:0 0 0 -10px;
+}
+
+#sidebar ul li img[title='sahibinden'] {
+	margin:0 0 0 -20px;
+}
+
+#sidebar ul li a[title='sponsor_dosyasi'] {
+	margin:0 0 0 -14px;
 }
 
 /* footer */

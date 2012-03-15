@@ -74,6 +74,7 @@
 
 <div id="main_sponsors">
 	<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
+	<div class="clearfix"></div>
 </div>
 
 <div class="clearfix"></div>

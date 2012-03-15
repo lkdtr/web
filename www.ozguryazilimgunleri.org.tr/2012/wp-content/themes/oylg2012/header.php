@@ -44,7 +44,7 @@
 
 <body>
 
-<? global $post;
+<?php global $post;
 $custom_fields=get_post_custom($post->ID);
 $sidebarstatus=$custom_fields['sidebar'][0]; ?>
 

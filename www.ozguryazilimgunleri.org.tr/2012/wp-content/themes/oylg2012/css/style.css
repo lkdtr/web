@@ -129,9 +129,13 @@ body {
 /* organization */
 
 #header_left #organization {
-	text-align:center;
-	width:140px;
-	margin:0 0 0 10px;
+	text-align:right;
+	width:185px;
+	margin:15px 0 0 10px;
+}
+
+#header_left #organization img {
+	margin:-10px 0 0 0;
 }
 
 /* tuxweet */

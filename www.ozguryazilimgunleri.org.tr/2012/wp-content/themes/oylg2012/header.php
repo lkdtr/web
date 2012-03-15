@@ -44,6 +44,10 @@
 
 <body>
 
+<? global $post;
+$custom_fields=get_post_custom($post->ID);
+$sidebarstatus=$custom_fields['sidebar'][0]; ?>
+
 <div id="header_top">
 	<div id="tuxweet">
 		<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozguryazilimgunleri");
@@ -73,8 +77,10 @@
 </div>
 
 <div id="main_sponsors">
+<?php if($sidebarstatus!="0") { ?>
 	<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
 	<div class="clearfix"></div>
+<? } ?>
 </div>
 
 <div class="clearfix"></div>

@@ -1,8 +1,4 @@
-<?php get_header();
-
-global $post;
-$custom_fields=get_post_custom($post->ID);
-$sidebarstatus=$custom_fields['sidebar'][0]; ?>
+<?php get_header(); ?>
 
 <div id="content">
 	<?php if (have_posts()) : ?>

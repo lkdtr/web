@@ -198,6 +198,10 @@ body {
 	background:url(../images/menubackground_first.jpg) no-repeat top left;
 }
 
+#mainmenu ul.menu li#menu-item-107 {
+	background:url(../images/menubackground_last.jpg) no-repeat top left;
+}
+
 #main {
 	width:690px;
 	margin:0 0 0 265px;

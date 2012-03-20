@@ -228,13 +228,13 @@ body {
 	font-family: "HelveticaCondensedRegular",arial,sans-serif;
 }
 
-#main table td#date1 {
-	background:#D94F1E;
+#main table td#date1, #main table td#date2 {
+	background:#b7342b;
+	text-align:center;
 }
 
-#main table td#date2 {
-	background:#423932;
-	color:#F2E1C9;
+#main table td#date1 h2, #main table td#date2 h2 {
+	color:#ffffff;
 }
 
 #main table tr.place td {

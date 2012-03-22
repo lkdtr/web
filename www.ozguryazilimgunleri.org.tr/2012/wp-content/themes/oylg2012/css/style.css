@@ -2,6 +2,10 @@ html {
 	background:#44605f url(../images/htmlbackground.gif) no-repeat left top;
 }
 
+html.blue {
+	background:#44605f url(../images/htmlbackground_1.gif) no-repeat left top;
+}
+
 body {
 	background:url(../images/bodybackground.jpg) no-repeat left top fixed;
 	font-size:12px;

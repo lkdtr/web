@@ -339,6 +339,11 @@ img#collapse {
 	display:hidden;
 }
 
+img#collapse, img#expand {
+	cursor:pointer;
+	float:right;
+}
+
 /* sidebar */
 
 #sidebar {

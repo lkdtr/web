@@ -35,6 +35,9 @@ $sidebarstatus=$custom_fields['sidebar'][0]; ?>
 html {
 	background:#44605f url(<?php bloginfo('template_url'); ?>/images/htmlbackground_1.gif) no-repeat left top;
 }
+#mainmenu ul.menu li#menu-item-107 {
+	background:url(../images/menubackground.jpg) no-repeat top left;
+}
 </style>
 <?php } ?>
 <?php get_footer(); ?>

@@ -206,6 +206,10 @@ body {
 	background:url(../images/menubackground_last.jpg) no-repeat top left;
 }
 
+#mainmenu ul.menu li.normalBackground {
+	background:url(../images/menubackground.jpg) no-repeat top left;
+}
+
 #main {
 	width:690px;
 	margin:0 0 0 265px;

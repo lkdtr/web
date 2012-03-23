@@ -36,7 +36,7 @@ html {
 	background:#44605f url(<?php bloginfo('template_url'); ?>/images/htmlbackground_1.gif) no-repeat left top;
 }
 #mainmenu ul.menu li#menu-item-107 {
-	background:url(../images/menubackground.jpg) no-repeat top left;
+	background:url(<?php bloginfo('template_url'); ?>/images/menubackground.jpg) no-repeat top left;
 }
 </style>
 <?php } ?>

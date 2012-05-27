@@ -89,6 +89,7 @@ function lkdkamp_list_images( $pageid ) {
 	$attachments = get_posts($args);
 
 		if ($attachments) {
+			echo '<div id="slider">';
 		    foreach ($attachments as $attachment) {
 		    	$attachement_url=wp_get_attachment_url($attachment->ID);
 		    	echo "<li>";
@@ -102,6 +103,7 @@ function lkdkamp_list_images( $pageid ) {
 	    		}
 	    		echo "</li>";
 		}
+		echo '</div>';
 	}
 	
 	}

@@ -63,20 +63,7 @@ function lkdkamp_list_pages( $pageid ) {
 
 /* list images */
 function lkdkamp_list_images( $pageid ) {
-	$isthumbnail=get_post_meta($pageid,"_thumbnail_id",true); // is there any thumbnail out there?
-	
-	$parent_id = get_post_ancestors( $pageid );
-	$parent_id = $parent_id[0];
-	
-	if(!$isthumbnail && !$parent_id) {
-		$my_wp_query = new WP_Query();
-		$last_wp_page = $my_wp_query->query(array('post_type' => 'page', 'post_parent' => $pageid, 'posts_per_page' => 1, 'order' => 'ASC', 'orderby' => 'menu_order'));
 		
-		$pageid=$last_wp_page[0]->ID;
-	}
-	
-	if($pageid) {
-	
 	$args = array(
 	'order'          => 'ASC',
 	'orderby'        => 'menu_order',
@@ -104,8 +91,6 @@ function lkdkamp_list_images( $pageid ) {
 	    		echo "</li>";
 		}
 		echo '</div>';
-	}
-	
 	}
 	
 }

@@ -72,7 +72,7 @@ header nav {
 
 header nav li {
 	float:left;
-	margin:0 5px 0 5px;
+	margin:0 4px;
 	background:url(images/menu.png) no-repeat;
 	overflow:hidden;
 }
@@ -87,7 +87,7 @@ header nav li a {
 	font-size:16px;
 	color:#2d2d2d;
 	text-decoration:none;
-	padding:10px;
+	padding:10px 4px;
 	white-space:nowrap;
 }
 

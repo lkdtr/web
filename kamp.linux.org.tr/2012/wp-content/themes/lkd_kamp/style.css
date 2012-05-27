@@ -100,6 +100,7 @@ header nav li a, #right li a {
 	white-space:normal;
 	font-family:"AllerRegular", Arial;
 	padding:7px 4px;
+	width:190px;
 }
 
 header nav li:nth-child(even), #right li:nth-child(even) {
@@ -139,9 +140,9 @@ article {
 }
 
 section #right {
-	width:170px;
+	width:190px;
 	float:right;
-	margin:10px 20px 0 10px;
+	margin:10px 0 0 10px;
 }
 
 article .entry {

@@ -51,7 +51,7 @@ header ul#organization {
 	width:450px;
 	height:65px;
 	float:left;
-	margin:10px 0 0 15px;
+	margin:15px 0 0 15px;
 	padding-left:90px;
 }
 
@@ -66,22 +66,22 @@ header ul#organization li.inetd {
 
 header nav {
 	float:right;
-	margin:15px 0 0 0;
+	margin:20px 0 0 0;
 	z-index:50;
 }
 
-header nav li {
+header nav li, #right li {
 	float:left;
 	margin:0 4px;
 	background:url(images/menu.png) no-repeat;
 	overflow:hidden;
 }
 
-header nav li:hover {
+header nav li:hover, #right li:hover {
 	background-position:0 -77px;
 }
 
-header nav li a {
+header nav li a, #right li a {
 	display:block;
 	font-family:"ChunkFiveRegular", Arial;
 	font-size:16px;
@@ -91,11 +91,16 @@ header nav li a {
 	white-space:nowrap;
 }
 
-header nav li:nth-child(even) {
+#right ul li a {
+	font-size:12px;
+	white-space:normal;
+}
+
+header nav li:nth-child(even), #right li:nth-child(even) {
 	background-position:0 -35px;
 }
 
-header nav li:nth-child(even):hover {
+header nav li:nth-child(even):hover, #right li:nth-child(even):hover {
 	background-position:0 -111px;
 }
 
@@ -120,7 +125,6 @@ section h1 {
 	font-size:32px;
 	color:#535353;
 	text-align:right;
-	margin-top:-10px;
 }
 
 article {

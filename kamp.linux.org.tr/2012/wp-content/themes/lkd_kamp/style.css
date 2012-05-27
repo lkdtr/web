@@ -77,6 +77,10 @@ header nav li, #right li {
 	overflow:hidden;
 }
 
+#right li {
+	text-align:right;
+}
+
 header nav li:hover, #right li:hover {
 	background-position:0 -77px;
 }
@@ -91,9 +95,11 @@ header nav li a, #right li a {
 	white-space:nowrap;
 }
 
-#right ul li a {
-	font-size:12px;
+#right li a {
+	font-size:10px;
 	white-space:normal;
+	font-family:"AllerRegular", Arial;
+	padding:7px 4px;
 }
 
 header nav li:nth-child(even), #right li:nth-child(even) {

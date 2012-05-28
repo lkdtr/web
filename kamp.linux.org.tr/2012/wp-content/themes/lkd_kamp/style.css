@@ -201,12 +201,16 @@ footer aside ul#social {
 }
 
 footer aside ul#social li:first-child {
-	margin-top:-5px;
+	margin-top:-8px;
 }
 
 footer aside ul#social li {
 	float:left;
 	margin:0 5px 0 5px;
+}
+
+footer aside ul#social li:last-child {
+	margin-top:-3px;
 }
 
 footer aside #twitter {

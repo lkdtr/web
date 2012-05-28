@@ -72,6 +72,7 @@ header nav {
 	float:right;
 	margin:20px 0 0 0;
 	z-index:50;
+	width:auto;
 }
 
 header nav li, #right li {

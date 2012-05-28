@@ -52,7 +52,7 @@ header #logo {
 
 header ul#organization {
 	background:url(images/organization_back.png) no-repeat left top;
-	width:450px;
+	width:485px;
 	height:65px;
 	float:left;
 	margin:15px 0 0 15px;
@@ -72,7 +72,6 @@ header nav {
 	float:right;
 	margin:20px 0 0 0;
 	z-index:50;
-	width:auto;
 }
 
 header nav li, #right li {
@@ -129,7 +128,7 @@ header nav li ul.children li {
 section {
 	width:960px;
 	margin:auto;
-	padding-bottom:133px;
+	padding-bottom:180px;
 }
 
 section h1 {
@@ -173,6 +172,7 @@ article #slider {
 	width:935px;
 	height:250px;
 	overflow:hidden;
+	margin-top:10px;
 }
 
 article #slider img {

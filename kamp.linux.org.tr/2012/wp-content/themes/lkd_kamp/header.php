@@ -54,7 +54,6 @@
 		<li class="inetd"><a href="http://www.inetd.org.tr" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/inetd.png" /></a></li>
 		<li class="university"><a href="http://www.ibu.edu.tr/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/university.png" /></a></li>
 	</ul>
-	<div class="clear"></div>
 	<nav><?php wp_nav_menu(); ?></nav>
 	<div class="clear"></div>
 </header>

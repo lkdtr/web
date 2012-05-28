@@ -207,7 +207,7 @@ footer aside #twitter {
 }
 
 footer aside #twitter a {
-	color:#fff;
+	color:#535353;
 	text-decoration:none;
 	font-style:italic;
 	font-size:11px;
@@ -215,7 +215,7 @@ footer aside #twitter a {
 
 #footer_back {
 	background:url(images/footer_back.png) repeat-x;
-	height:133px;
+	height:180px;
 	width:100%;
 	position:fixed;
 	z-index:5;

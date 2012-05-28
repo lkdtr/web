@@ -10,8 +10,9 @@
 			<a href="http://tuxweet.linux.org.tr/linuxyazkampi" target="_blank"><?php echo $sontweet_trimmed; ?></a>
 		</div>
 		<ul id="social">
+			<li><a href="http://tuxweet.linux.org.tr/linuxyazkampi" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/tuxweet_logo.png" /></a></li>
 			<li><a href="https://www.facebook.com/events/368019503247693/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/facebook_logo.png" /></a></li>
-			<li><a href="http://tuxweet.linux.org.tr/linuxyazkampi" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/twitter_logo.png" /></a></li>
+			<li><a href="http://twitter.com/linuxyazkampi" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/twitter_logo.png" /></a></li>
 		</ul>
 	</aside>
 </footer>

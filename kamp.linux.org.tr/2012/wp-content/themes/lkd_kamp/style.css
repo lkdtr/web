@@ -31,6 +31,10 @@ a:hover {
 	text-decoration:none;
 }
 
+strong {
+	font-weight:bold;
+}
+
 section {
 	width:900px;
 	margin:auto;
@@ -144,6 +148,12 @@ section #right {
 	width:190px;
 	float:right;
 	margin:10px 0 0 10px;
+}
+
+article .entry li {
+	background:url(images/menu.png) no-repeat -553px -130px;
+	padding-left:15px;
+	margin:5px 0;
 }
 
 article .entry {

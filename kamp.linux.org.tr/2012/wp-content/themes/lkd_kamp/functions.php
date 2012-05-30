@@ -14,7 +14,7 @@ endif;
 
 /* wp_nav_menu() fonk., anasayfayi gosterme */
 function lkdkamp_page_menu_args( $args ) {
-	$args['show_home'] = true;
+	$args['show_home'] = false;
 	return $args;
 }
 add_filter( 'wp_page_menu_args', 'lkdkamp_page_menu_args' );

@@ -7,7 +7,7 @@
 			<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:linuxyazkampi");
 			$sontweet=$sontweetial->entry[0]->title;
 			$sontweet_trimmed = ltrim($sontweet, "linuxyazkampi: #lyk2012 "); // her tweet'in basinda gelen ifadeleri kirpalim
-			$sontweet_trimmed = str_replace($sontweet, "#lyk2012"); // hashtagi de kirpalim ?>
+			$sontweet_trimmed = str_replace("#lyk2012", "", $sontweet); // hashtagi de kirpalim ?>
 			<a href="http://tuxweet.linux.org.tr/linuxyazkampi" target="_blank"><?php echo $sontweet_trimmed; ?></a>
 		</div>
 		<ul id="social">

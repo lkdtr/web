@@ -11,6 +11,7 @@
 				</div>
 				<div id="right">
 					<?php lkdkamp_list_pages(get_the_ID()); ?>
+					<div class="clear"></div>
 					<?php dynamic_sidebar('right'); ?>
 				</div>
 				<div class="clear"></div>

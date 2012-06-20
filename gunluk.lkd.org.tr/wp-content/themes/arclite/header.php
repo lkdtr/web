@@ -18,21 +18,18 @@
  <?php wp_enqueue_script('arclite',get_bloginfo('template_url').'/js/jquery.arclite.min.js',array(),false,true); ?>
 <?php endif; ?>
 
-<!-- Start Open Web Analytics Tracker -->
-<script type="text/javascript" src="http://istatistik.linux.org.tr/modules/base/js/owa.tracker-combined-min.js"></script>
+<!-- Piwik -->
 <script type="text/javascript">
-//<![CDATA[
-// Set base URL
-OWA.setSetting('baseUrl', 'http://istatistik.linux.org.tr/');
-// Create a tracker
-OWATracker = new OWA.tracker();
-OWATracker.setSiteId('8acfa218cd7632b5a2be40f0d0f58915');
-OWATracker.trackPageView();
-OWATracker.trackClicks();
-OWATracker.trackDomStream();
-//]]>
-</script>
-<!-- End Open Web Analytics Code -->
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://istatistik.linux.org.tr/" : "http://istatistik.linux.org.tr/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 10);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://istatistik.linux.org.tr/piwik.php?idsite=10" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
 
 <?php wp_head(); ?>
 

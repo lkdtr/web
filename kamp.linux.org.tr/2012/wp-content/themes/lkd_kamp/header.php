@@ -43,6 +43,19 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.cycle.js" type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/script.js" type="text/javascript"></script>
 
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://istatistik.linux.org.tr/" : "http://istatistik.linux.org.tr/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 9);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://istatistik.linux.org.tr/piwik.php?idsite=9" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
 </head>
 
 <body>

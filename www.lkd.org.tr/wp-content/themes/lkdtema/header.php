@@ -48,21 +48,18 @@ header("HTTP/1.0 200 OK");
 
 <?php wp_head(); ?>
 
-<!-- Start Open Web Analytics Tracker -->
-<script type="text/javascript" src="http://istatistik.linux.org.tr/modules/base/js/owa.tracker-combined-min.js"></script>
+<!-- Piwik -->
 <script type="text/javascript">
-//<![CDATA[
-// Set base URL
-OWA.setSetting('baseUrl', 'http://istatistik.linux.org.tr/');
-// Create a tracker
-OWATracker = new OWA.tracker();
-OWATracker.setSiteId('539d54fb7051c3748b77e311e2eb1dcf');
-OWATracker.trackPageView();
-OWATracker.trackClicks();
-OWATracker.trackDomStream();
-//]]>
-</script>
-<!-- End Open Web Analytics Code -->	
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://istatistik.linux.org.tr/" : "http://istatistik.linux.org.tr/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://istatistik.linux.org.tr/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
 
 </head>
 <body>

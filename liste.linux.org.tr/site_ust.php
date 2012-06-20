@@ -12,21 +12,18 @@ ini_set("default_charset", 'utf-8');
   <title>LKD E-Posta Listeleri - <?php echo $title; ?></title>
   <link rel="stylesheet" type="text/css" media="screen" href="stil.css">
   
-  <!-- Start Open Web Analytics Tracker -->
-  <script type="text/javascript" src="http://istatistik.linux.org.tr/modules/base/js/owa.tracker-combined-min.js"></script>
-  <script type="text/javascript">
-  //<![CDATA[
-  // Set base URL
-  OWA.setSetting('baseUrl', 'http://istatistik.linux.org.tr/');
-  // Create a tracker
-  OWATracker = new OWA.tracker();
-  OWATracker.setSiteId('7d2a5ecb2b91653efd00de966626970c');
-  OWATracker.trackPageView();
-  OWATracker.trackClicks();
-  OWATracker.trackDomStream();
-  //]]>
-  </script>
-  <!-- End Open Web Analytics Code -->
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://istatistik.linux.org.tr/" : "http://istatistik.linux.org.tr/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 8);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://istatistik.linux.org.tr/piwik.php?idsite=8" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
   
 </head>
 <body><div id="arayuz">

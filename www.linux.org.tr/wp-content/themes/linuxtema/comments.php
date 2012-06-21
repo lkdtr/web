@@ -92,5 +92,5 @@
     </form>
 
 <?php endif; // If registration required and not logged in ?>
-<?php endif; // if you delete this the sky will fall on your head ?>
+<?php endif; // if you delete this the sky will fall on your head :) ?>
 </div>

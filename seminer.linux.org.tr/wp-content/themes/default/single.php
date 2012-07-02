@@ -25,7 +25,7 @@
 			</div>
 
 		</div>
-
+<div class="clearfix"></div>
   	<?php comments_template('', true); ?>
   	 
 

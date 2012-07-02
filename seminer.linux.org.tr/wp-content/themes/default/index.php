@@ -23,7 +23,7 @@
       <?php // include (TEMPLATEPATH . '/ad_middle.php'); ?>
         
 			</div>
-
+<div class="clearfix"></div>
 		<?php endwhile; ?>
 
 		<div class="pagination navigation clearfix">

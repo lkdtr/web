@@ -4,11 +4,12 @@
 <footer>
 	<aside>
 		<div id="twitter">
-			<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:linuxyazkampi");
-			$sontweet=$sontweetial->entry[0]->title;
+			<?php $sontweetial=simplexml_load_file("https://twitter.com/statuses/user_timeline/592607643.rss");
+			$sontweet=$sontweetial->channel->item[0]->title;
 			$sontweet_trimmed = str_replace("linuxyazkampi: ", "",$sontweet); // her tweet'in basinda gelen ifadeleri kirpalim
+			$sontweet_trimmed = str_replace("LinuxYazKampi:", "", $sontweet_trimmed); // her tweet'in basinda gelen ifadeleri kirpalim
 			$sontweet_trimmed = str_replace("#lyk2012", "", $sontweet_trimmed); // hashtagi de kirpalim ?>
-			<a href="http://tuxweet.linux.org.tr/linuxyazkampi" target="_blank"><?php echo $sontweet_trimmed; ?></a>
+			<a href="https://twitter.com/linuxyazkampi" target="_blank"><?php echo $sontweet_trimmed; ?></a>
 		</div>
 		<ul id="social">
 			<li><a href="http://tuxweet.linux.org.tr/linuxyazkampi" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/tuxweet_logo.png" /></a></li>

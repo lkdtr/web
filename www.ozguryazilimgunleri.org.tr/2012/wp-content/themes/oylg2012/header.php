@@ -50,9 +50,10 @@ $sidebarstatus=$custom_fields['sidebar'][0]; ?>
 
 <div id="header_top">
 	<div id="tuxweet">
-		<?php $sontweetial=simplexml_load_file("http://tuxweet.linux.org.tr/rss/username:ozguryazilimgunleri");
-		$sontweet=$sontweetial->entry[0]->title;
-		$sontweet_trimmed = ltrim($sontweet, "ozguryazilimgunleri: #oylg2012 "); // her tweet'in basinda gelen ifadeleri kirpalim ?>
+		<?php $sontweetial=simplexml_load_file("https://twitter.com/statuses/user_timeline/224951400.rss");
+		$sontweet=$sontweetial->channel->item[0]->title;
+		$sontweet_trimmed = ltrim($sontweet, "ozguryazilimgunleri: #oylg2012 "); // her tweet'in basinda gelen ifadeleri kirpalim
+		$sontweet_trimmed = str_replace("Ozgryzlmgunleri:","",$sontweet_trimmed); ?>
 		<a href="http://tuxweet.linux.org.tr/ozguryazilimgunleri" target="_blank"><?php echo $sontweet_trimmed; ?></a>
 	</div>
 </div>

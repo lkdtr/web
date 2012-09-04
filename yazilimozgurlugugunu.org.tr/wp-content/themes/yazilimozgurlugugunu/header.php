@@ -47,9 +47,9 @@
 <header id="head" class="grid_4">
 	<div id="logo"><a href="<?php bloginfo( 'url' ); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" alt="<?php echo bloginfo( 'name' ); ?>" title="<?php echo bloginfo( 'name' ); ?>" /></a></div>
 	<ul id="social">
-		<li id="facebook"><a href="http://facebook.com/yazilimozgurligigunu"></a></li>
-		<li id="google"><a href="https://groups.google.com/forum/#!forum/yazilimozgurlugu"></a></li>
-		<li id="twitter"><a href="http://twitter.com/yazilimozgurgun"></a></li>
+		<li id="facebook"><a target="_blank" href="http://facebook.com/yazilimozgurligigunu"></a></li>
+		<li id="google"><a target="_blank" href="https://groups.google.com/forum/#!forum/yazilimozgurlugu"></a></li>
+		<li id="twitter"><a target="_blank" href="http://twitter.com/yazilimozgurgun"></a></li>
 	</ul>
 	<div id="date"></div>
 	<div class="clear"></div>

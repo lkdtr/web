@@ -1,14 +1,265 @@
 /*
-Theme Name: OWTG 2011
+Theme Name: Özgür Web Günleri 2012
 Theme URI: http://lkd.org.tr/
-Description: Ozgur Web Gunleri 2011 temasi
-Author: Lkd
-Version: 0.9
+Description: Ozgur Web Gunleri 2012 teması
+Author: Umuthan Uyan
+Version: 1.0
 License: GNU General Public License
 License URI: license.txt
-Tags: brown, orange, white, two-columns, fixed-width, custom_menu
+Tags: brown, blue, white, two-columns, fixed-width
 */
 
 @import url("css/reset.css");
 @import url("css/fontface.css");
-@import url("css/style.css");
+
+html {
+	background:#ececec url(images/html_bg.png) right repeat-y;
+}
+
+body {
+	background: url(images/body_bg.png) no-repeat center top;
+	font-size:12px;
+	font-family: "MyriadPro-Regular";
+	color:#4d4d4d;
+}
+
+section#wrapper {
+	width:980px;
+	margin:auto;
+	padding-bottom:50px;
+}
+
+header #tweet {
+	width:240px;
+	height:43px;
+	padding-top:3px;
+	text-align:center;
+	margin-left:5px;
+	float:left;
+}
+
+header #tweet a {
+	font-size:11px;
+	font-family:"MyriadPro-It";
+	text-decoration: none;
+	color:#fff;
+}
+
+header ul#organization {
+	float:left;
+	margin-left:80px;
+}
+
+header ul#organization li#lkd {
+	margin:33px 10px 0 0;
+}
+
+header ul#organization li {
+	float:left;
+}
+
+header h1 {
+	background:url(images/turquaz.png) repeat;
+	width:auto;
+	height:80px;
+	padding:10px 20px 0 20px;
+	float:right;
+	font-family:"WebServeroff";
+	font-size:76px;
+	color:#fff;
+}
+
+#logo, #logo img {
+	width:250px;
+	height:135px;
+	margin-bottom:23px;
+}
+
+section#sidebar {
+	float:left;
+	width:265px;
+}
+
+section#sidebar ul.menu {
+	padding-bottom:10px;
+}
+
+section#sidebar ul.menu li {
+	margin-bottom:10px;
+}
+
+section#sidebar ul.menu li a {
+	background:url(images/menu_bg.png) no-repeat center top;
+	text-align:center;
+	height:20px;
+	display:block;
+	color:#fff;
+	text-decoration: none;
+	font-family: "WebServeroff";
+	font-size: 18px;
+	text-transform: uppercase;
+	padding:7px 0 0 0;
+}
+
+section#sidebar ul.menu li:hover a, section#sidebar ul.menu li.current-menu-item a, section#sidebar ul.menu li.current_page_item a {
+	background:url(images/menu_bg_hover.png) no-repeat center top;
+	color:#fff;
+}
+
+section#sidebar ul.menu li.menu0 a {
+	background-position: -78px 0;
+    margin-left: 90px;
+    width: 93px;
+}
+
+section#sidebar ul.menu li.menu1 a {
+	width:116px;
+	background-position: -64px -38px;
+	margin-left:69px;
+}
+
+section#sidebar ul.menu li.menu2 a {
+	background-position: -46px -77px;
+    margin-left: 44px;
+    width: 149px;
+}
+
+section#sidebar ul.menu li.menu3 a {
+	background-position: -31px -114px;
+    margin-left: 24px;
+    width: 179px;
+}
+
+section#sidebar ul.menu li.menu4 a {
+	background-position: -18px -151px;
+    margin-left: 4px;
+    width: 206px;
+}
+
+section#sidebar ul.menu li.menu5 a {
+	background-position: 0 -188px;
+    margin-left: -18px;
+    width: 241px;
+}
+
+section#sidebar #countdown .countdown_section {
+	float:left;
+	display: block;
+	width:43px;
+	margin:0 5px;
+	background: url(images/countdown_box.png) no-repeat top center;
+	text-align: center;
+}
+
+section#sidebar #countdown .countdown_amount {
+	font-family: "WebServeroff";
+	text-align: center;
+	font-size:38px;
+	padding-top:5px;
+	color:#fff;
+	display:block;
+	margin-bottom:-17px;
+}
+
+section#sidebar aside {
+	margin-top:10px;
+}
+
+section#sidebar aside h2 {
+	background: url(images/sponsors_bg.png) no-repeat right top;
+	text-align:right;
+	font-size:18px;
+	margin-right:15px;
+	padding:5px 10px 5px 0;
+	font-family: "WebServeroff";
+	color:#fff;
+}
+
+article {
+	float:right;
+	margin-top: 35px;
+    width: 680px;
+}
+
+article h2 {
+	font-family: "WebServeroff";
+	font-size:24px;
+	color:#9d7643;
+}
+
+footer {
+	background: url(images/gray.png);
+	width:100%;
+}
+
+footer h3 {
+	background: url(images/brown.png);
+	height:23px;
+	font-family: "WebServeroff";
+	font-size:18px;
+	color:#fff;
+	padding:7px 10px 0 10px;
+}
+
+footer ul.social {
+	width:400px;
+}
+
+footer ul.social li {
+	width:30px;
+	height:30px;
+	background: url(images/social.png);
+	float:left;
+	margin:0 3px;
+}
+
+footer ul.social li img {
+	width:30px;
+	height:30px;
+}
+
+footer ul.social li.twitter:hover {
+	background-position:0 -31px;
+}
+
+footer ul.social li.facebook {
+	background-position: -37px 0;
+}
+
+footer ul.social li.facebook:hover {
+	background-position: -37px -31px;
+}
+
+footer ul.social li.linkedin {
+	background-position: -37px 0;
+}
+
+footer ul.social li.linkedin {
+	background-position: -146px 0;
+}
+
+footer ul.social li.linkedin:hover {
+	background-position: -146px -31px;
+}
+
+footer ul.social li.technorati {
+	background-position: -74px 0;
+}
+
+footer ul.social li.technorati:hover {
+	background-position: -74px -31px;
+}
+
+footer section#followus, footer section#followus h3 {
+	float:left;
+	margin-right:3px;
+}
+
+footer section#shareus, footer section#shareus h3 {
+	float:right;
+	margin-left:3px;
+}
+
+footer section#shareus ul.social li {
+	float:right;
+}

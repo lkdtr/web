@@ -1,39 +1,24 @@
-<?php get_header();
+<?php get_header(); ?>
 
-global $post;
-$custom_fields=get_post_custom($post->ID);
-$sidebarstatus=$custom_fields['sidebar'][0]; ?>
+<?php the_post(); ?>
 
-<div id="content">
-	<?php if (have_posts()) : ?>
-		<?php while (have_posts()) : the_post(); ?>
-			<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<? if($_SERVER['REQUEST_URI']!="/2011/") { ?><h1><?php the_title(); ?></h1><? } ?>
-				<div class="entry">
-					<?php the_content('Yazının kalanını okuyun &raquo;'); ?>
-				</div>
-			</div>
-		<?php endwhile; ?>
-	<?php else : ?>
-	<h2 class="center">Bulunamadı</h2>
-		<p class="center">Üzgünüz, aradığınız şey burada değil.</p>
-		<?php get_search_form(); ?>
-	<?php endif; ?>
-</div>
+	<h1><?php if(!is_front_page()) : the_title(); else: echo "19-20 Ekim"; endif; ?></h1>
 
-<?php if($sidebarstatus!="0") { ?>
-<?php get_sidebar(); ?>
-<?php } else { ?>
-<style type="text/css">
-#sidebar {
-	display:none;
-}
+	</header>
 
-#content {
-	width:870px;
-	background:#f2e1c9;
-	padding:0 5px 0 0;
-}
-</style>
-<?php } ?>
+	<div class="clearfix"></div>
+
+	<?php get_sidebar(); ?>
+
+	<article>
+		<div class="entry-content">
+			<?php the_content(); ?>
+		</div>
+		<div class="clearfix"></div>
+	</article>
+
+	<div class="clearfix"></div>
+
+</section>
+
 <?php get_footer(); ?>

@@ -195,10 +195,11 @@ article ul li {
 	background: url(images/list.png) no-repeat 2px 0;
 }
 
-article {
+article a {
 	background: url(images/turquaz.png) repeat;
 	color:#fff;
 	text-decoration: none;
+	padding: 1px 3px;
 }
 
 footer {

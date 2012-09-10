@@ -28,7 +28,7 @@
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="https://twitter.com/statuses/user_timeline/173074497.rss" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-<link rel="image_src" href="<?php bloginfo('template_url'); ?>/images/owtg2012social.jpg" />
+<link rel="image_src" href="<?php bloginfo('template_url'); ?>/images/owtg2012social.png" />
 
 <?php wp_head(); ?>
 

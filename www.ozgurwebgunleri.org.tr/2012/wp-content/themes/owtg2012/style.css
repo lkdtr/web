@@ -23,6 +23,10 @@ body {
 	color:#4d4d4d;
 }
 
+strong {
+	font-family: "MyriadPro-Bold";
+}
+
 section#wrapper {
 	width:980px;
 	margin:auto;

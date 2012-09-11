@@ -227,6 +227,10 @@ article .code {
 	background:#fff;
 }
 
+article p {
+	margin:5px 0
+}
+
 footer {
 	background: url(images/gray.png);
 	width:100%;

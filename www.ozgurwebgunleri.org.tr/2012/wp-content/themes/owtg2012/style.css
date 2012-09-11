@@ -187,6 +187,14 @@ article h2 {
 	color:#9d7643;
 }
 
+article h3 {
+    font-family: "WebServeroff";
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #19908d;
+}
+
 article .right {
 	text-align: right;
 }
@@ -200,6 +208,23 @@ article a {
 	color:#fff;
 	text-decoration: none;
 	padding: 1px 3px;
+}
+
+article a:hover {
+	background:none;
+	color:#4d4d4d;
+}
+
+article a[target=_blank] {
+	background:none;
+}
+
+article .code {
+	width:80%;
+	overflow:hidden;
+	border:#4d4d4d dashed 1px;
+	padding:4px;
+	background:#fff;
 }
 
 footer {

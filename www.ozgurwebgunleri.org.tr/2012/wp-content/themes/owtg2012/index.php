@@ -17,6 +17,10 @@
 		<div class="clearfix"></div>
 	</article>
 
+	<section id="right">
+		<?php dynamic_sidebar( 'right' ); ?>
+	</section>
+
 	<div class="clearfix"></div>
 
 </section>

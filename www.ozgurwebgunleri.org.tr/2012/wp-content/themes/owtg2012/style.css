@@ -179,10 +179,25 @@ section#sidebar aside h2 {
 	color:#fff;
 }
 
-article {
+section#right {
+	width:140px;
 	float:right;
-	margin-top: 35px;
-    width: 680px;
+}
+
+section#right aside h2 {
+	background: url(images/sponsors_bg.png) no-repeat right top;
+	text-align:right;
+	font-size:18px;
+	margin-right:15px;
+	padding:5px 10px 5px 0;
+	font-family: "WebServeroff";
+	color:#fff;
+}
+
+article {
+	float:left;
+	margin: 35px 0 0 35px;
+    width: 530px;
 }
 
 article h2 {

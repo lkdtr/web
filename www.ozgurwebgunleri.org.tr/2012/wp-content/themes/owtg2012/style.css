@@ -185,7 +185,7 @@ section#right {
 }
 
 section#right aside h2 {
-    background: url("images/sponsors_bg.png") no-repeat right top;
+    background: url(images/sponsors_bg.png) no-repeat right top;
     color: #FFFFFF;
     font-family: "WebServeroff";
     font-size: 18px;
@@ -249,6 +249,40 @@ article .code {
 
 article p {
 	margin:5px 0
+}
+
+/* contact page */
+
+form p {
+	font-family:"WebServeroff";
+	font-size:18px;
+	margin:10px 0;
+	margin-left:30px;
+}
+
+input, textarea {
+	border:1px solid #4d4d4d;
+	background:#fff;
+	padding:5px;
+	width:450px;
+	font-family:"MyriadPro-Regular";
+	font-size:12px;
+}
+
+input:focus, input:hover, textarea:focus, textarea:hover {
+	border:1px solid #19908d;
+}
+
+.wpcf7-submit {
+	float:right;
+	margin-right:38px;
+	width:70px;
+	background:#19908d;
+	color:#fff;
+}
+
+.wpcf7-submit:hover {
+	background:#4d4d4d;
 }
 
 footer {

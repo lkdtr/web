@@ -12,6 +12,7 @@
 
 	<article>
 		<div class="entry-content">
+			<?php echo "<ul class='page-list'>".wp_list_pages( 'echo=0&depth=0&child_of=' . $pageid . '&title_li=' )."</ul>"; ?>
 			<?php the_content(); ?>
 		</div>
 		<div class="clearfix"></div>

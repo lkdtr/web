@@ -235,10 +235,6 @@ article a:hover {
 	color:#4d4d4d;
 }
 
-article a[target=_blank] {
-	background:none;
-}
-
 article .code {
 	width:80%;
 	overflow:hidden;

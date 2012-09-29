@@ -281,6 +281,12 @@ input:focus, input:hover, textarea:focus, textarea:hover {
 	background:#4d4d4d;
 }
 
+/* sponsor list */
+
+.xoxo li {
+	margin:9px 0;
+}
+
 footer {
 	background: url(images/gray.png);
 	width:100%;

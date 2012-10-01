@@ -287,6 +287,24 @@ input:focus, input:hover, textarea:focus, textarea:hover {
 	margin:9px 0;
 }
 
+/* program renklendirme */
+
+table.program td {
+	padding:3px;
+}
+
+table.program td.title {
+
+}
+
+table.program td.date {
+
+}
+
+table.program td.clock {
+
+}
+
 footer {
 	background: url(images/gray.png);
 	width:100%;

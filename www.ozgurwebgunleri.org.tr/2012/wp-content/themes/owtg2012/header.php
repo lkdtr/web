@@ -55,5 +55,5 @@
 		</div>
 		<ul id="organization">
 			<li id="lkd"><a href="http://www.lkd.org.tr/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/tlkd.png" /></a></li>
-			<li><a href="http://www.yucomp.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/7tepe.png" /></a></li>
+			<li><a href="http://www.yeditepe.edu.tr/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/7tepe.png" /></a></li>
 		</ul>

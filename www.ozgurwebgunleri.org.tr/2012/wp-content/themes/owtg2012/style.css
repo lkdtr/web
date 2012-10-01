@@ -316,6 +316,7 @@ table.program td.date {
 table.program td.clock {
     font-family: "MyriadPro-It";
     font-size:11px;
+    text-align: center;
 }
 
 footer {

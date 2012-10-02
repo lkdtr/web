@@ -12,7 +12,7 @@
 
 	<?php get_sidebar(); ?>
 
-	<article<?php if($sidebarVisible=="hide") echo ' id="wide"'; ?>>
+	<article<?php if($sidebarVisible[0]=="hide") echo ' id="wide"'; ?>>
 		<div class="entry-content">
 			<?php echo "<ul class='page-list'>".wp_list_pages( 'echo=0&depth=0&child_of=' . get_the_ID() . '&title_li=' )."</ul>"; ?>
 			<?php the_content(); ?>
@@ -20,7 +20,7 @@
 		<div class="clearfix"></div>
 	</article>
 
-	<?php if($sidebarVisible!="hide") { ?>
+	<?php if($sidebarVisible[0]!="hide") { ?>
 		<section id="right">
 			<?php dynamic_sidebar( 'right' ); ?>
 		</section>

@@ -201,6 +201,10 @@ article {
     width: 525px;
 }
 
+article#wide {
+	width:680px;
+}
+
 article h2 {
 	font-family: "WebServeroff";
 	font-size:32px;

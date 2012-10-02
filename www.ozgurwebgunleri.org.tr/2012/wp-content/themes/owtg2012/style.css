@@ -27,6 +27,10 @@ strong {
 	font-family: "MyriadPro-Bold";
 }
 
+a[target=_blank] {
+	background: none;
+}
+
 section#wrapper {
 	width:980px;
 	margin:auto;

@@ -25,7 +25,9 @@
 	?></title>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
-<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="https://twitter.com/statuses/user_timeline/173074497.rss" />
+<?php $twitterrssurl = "https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=ozgurwebgunleri"; ?>
+
+<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php echo $twitterrssurl; ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <link rel="image_src" href="<?php bloginfo('template_url'); ?>/images/owtg2012social.png" />
@@ -46,7 +48,7 @@
 
 	<header>
 		<div id="tweet">
-			<?php $sontweetial=simplexml_load_file("https://twitter.com/statuses/user_timeline/173074497.rss");
+			<?php $sontweetial=simplexml_load_file($twitterrssurl);
 			$sontweet=$sontweetial->channel->item[0]->title;
 				$sontweet_trimmed = str_replace("ozgurwebgunleri: ", "",$sontweet); // her tweet'in basinda gelen ifadeleri kirpalim
 				$sontweet_trimmed = str_replace("OgurWebGunleri:", "", $sontweet_trimmed); // her tweet'in basinda gelen ifadeleri kirpalim

@@ -27,7 +27,9 @@
 
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
-<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="http://tuxweet.linux.org.tr/rss/username:ozgurwebgunleri" />
+<?php $twitterrssurl = "https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=Ozgryzlmgunleri"; ?>
+
+<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php echo $twitterrssurl; ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <link rel="image_src" href="<?php bloginfo('template_url'); ?>/images/owtg2011social.jpg" />
@@ -50,7 +52,7 @@ $sidebarstatus=$custom_fields['sidebar'][0]; ?>
 
 <div id="header_top">
 	<div id="tuxweet">
-		<?php $sontweetial=simplexml_load_file("https://twitter.com/statuses/user_timeline/224951400.rss");
+		<?php $sontweetial=simplexml_load_file($twitterrssurl);
 		$sontweet=$sontweetial->channel->item[0]->title;
 		$sontweet_trimmed = ltrim($sontweet, "ozguryazilimgunleri: #oylg2012 "); // her tweet'in basinda gelen ifadeleri kirpalim
 		$sontweet_trimmed = str_replace("Ozgryzlmgunleri:","",$sontweet_trimmed); ?>

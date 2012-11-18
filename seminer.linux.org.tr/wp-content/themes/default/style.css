@@ -737,7 +737,7 @@ ul.sb-tools {
 
 .sb-tools a:hover span { color: #C54E0B; }
 
-.twitter-icon, .rss-icon {
+.twitter-icon, .rss-icon, .mail-icon {
   padding-left: 65px;
   color: #111;
   line-height: 1.25em;
@@ -745,6 +745,7 @@ ul.sb-tools {
 
 .twitter-icon { background: transparent url(img/twitter_48.png) 0 0 no-repeat; }
 .rss-icon { background: transparent url(img/rss-icon.png) center left no-repeat; }
+.mail-icon { background: transparent url(img/mail-icon.png) center left no-repeat; }
 .sb-icon-text { padding: 3px 0 0; }
 
 .previous-post a, .next-post a {

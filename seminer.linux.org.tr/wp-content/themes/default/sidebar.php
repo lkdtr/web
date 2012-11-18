@@ -13,6 +13,12 @@
 				<?php _e('Bizi Takip Edin', 'default'); ?>
 			</a>
 		</li>
+		<li class="mail-icon">
+			<a href="https://liste.linux.org.tr/mailman/listinfo/lkd-duyuru" title="LKD Duyuru Listesine Üye Olun ">
+				<span>DUYURU LİSTESİ</span>
+				LKD Duyuru Listesine Üye Olun
+			</a>
+		</li>
 	</ul>
 </li>
 

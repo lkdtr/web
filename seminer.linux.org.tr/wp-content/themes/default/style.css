@@ -741,6 +741,7 @@ ul.sb-tools {
   padding-left: 65px;
   color: #111;
   line-height: 1.25em;
+  margin-top: 10px;
 }
 
 .twitter-icon { background: transparent url(img/twitter_48.png) 0 0 no-repeat; }

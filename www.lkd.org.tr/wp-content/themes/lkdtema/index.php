@@ -39,6 +39,22 @@ get_header(); ?>
 		<?php get_search_form(); ?>
 
 	<?php endif; ?>
+	<?php
+		
+		$feed = "http://search.twitter.com/search.atom?q=from:akgul&rpp=1";
+
+		function parse_feed($feed) {
+			$stepOne = explode("<content type=\"html\">", $feed);
+			$stepTwo = explode("</content>", $stepOne[1]);
+			$tweet = $stepTwo[0];
+			$tweet = str_replace("&lt;", "<", $tweet);
+			$tweet = str_replace("&gt;", ">", $tweet);
+			return $tweet;
+		}
+
+		$twitterFeed = file_get_contents($feed);
+		echo parse_feed($twitterFeed);
+	?>
 
 	</div>
 

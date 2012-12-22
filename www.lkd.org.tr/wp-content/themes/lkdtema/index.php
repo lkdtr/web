@@ -41,7 +41,7 @@ get_header(); ?>
 	<?php endif; ?>
 	<?php
 		
-		$feed = "http://search.twitter.com/search.atom?q=from:akgul&rpp=1";
+		$feed = "http://search.twitter.com/search.atom?q=from:lkdtr&rpp=1";
 
 		function parse_feed($feed) {
 			$stepOne = explode("<content type=\"html\">", $feed);

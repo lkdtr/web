@@ -1,0 +1,11 @@
+@import url("reset.css");
+
+html {
+	background:#14212B url(../images/bg.png) repeat-x 0 -100px;
+}
+
+section {
+	padding-top:137px;
+	margin:auto;
+	width:968px;
+}

@@ -1,0 +1,387 @@
+html {
+	background:#44605f url(../images/htmlbackground.gif) no-repeat left top;
+}
+
+html.blue {
+	background:#44605f url(../images/htmlbackground_1.gif) no-repeat left top;
+}
+
+body {
+	background:url(../images/bodybackground.jpg) no-repeat left top fixed;
+	font-size:12px;
+	font-family:"HelveticaRegular", arial,sans-serif;
+	color:#ffffff;
+}
+
+#header_left {
+	width:224px;
+	height:419px;
+	background:url(../images/logo_left.png) no-repeat;
+	float:left;
+	position:fixed;
+	z-index:999;
+}
+
+#header_top {
+	height:77px;
+	width:495px;
+	background:url(../images/logo_top.png) no-repeat;
+	float:left;
+	position:fixed;
+	z-index:999;
+	left:224px;
+}
+
+#header_left #logo {
+	width:135px;
+	height:348px;
+	margin:15px 0 0 13px;
+}
+
+#header_left #logo img {
+	width:135px;
+	height:348px;
+}
+
+#main_sponsors {
+	margin:0 0 0 705px;
+	height:36px;
+	padding:10px 0 0 0;
+}
+
+#main_sponsors img {
+	margin:0 7px 0 7px;
+}
+
+#main_sponsors h3 {
+	display:none;
+}
+
+#main_sponsors ul {
+	margin:5px 0 0 0;
+}
+
+#main_sponsors ul li {
+	float:left;
+	margin:0 5px 0 0;
+}
+
+/* social network logos */
+
+#header_left ul.social li {
+	background-image:url(../images/social.png);
+	width:25px;
+	height:25px;
+	float:left;
+	margin:0 1px 0 1px;
+}
+
+#header_left ul.social li img {
+	width:25px;
+	height:25px;
+}
+
+#header_left ul.social li.facebook {
+	background-position:-28px 0;
+}
+
+#header_left ul.social li.facebook:hover {
+	background-position:-28px 25px;
+}
+
+#header_left ul.social li.tuxweet {
+	background-position:-55px 0;
+}
+
+#header_left ul.social li.tuxweet:hover {
+	background-position:-55px 25px;
+}
+
+#header_left ul.social li.twitter {
+	background-position:-112px 0;
+}
+
+#header_left ul.social li.twitter:hover {
+	background-position:-112px 25px;
+}
+
+#header_left ul.social li.technorati {
+	background-position:-140px 0;
+}
+
+#header_left ul.social li.technorati:hover {
+	background-position:-140px 25px;
+}
+
+#header_left ul.social li.friendfeed {
+	background-position:-168px 0;
+}
+
+#header_left ul.social li.friendfeed:hover {
+	background-position:-168px 25px;
+}
+
+/* header follow us */
+
+#header_left ul#followus {
+	background:url(http://ozguryazilimgunleri.org/2012/wp-content/themes/oylg2012/images/followustitle.png) no-repeat right top;
+	height:35px;
+	margin:65px 0 0 2px;
+	padding:0 0 0 11px;
+}
+
+/* organization */
+
+#header_left #organization {
+	text-align:right;
+	width:185px;
+	margin:5px 0 0 10px;
+}
+
+#header_left #organization img {
+	
+}
+
+/* tuxweet */
+
+#header_top #tuxweet {
+	text-align:center;
+	width:355px;
+	margin:7px 0 0 15px;
+	height:50px;
+	float:left;
+}
+
+#header_top #tuxweet a {
+	font-family:"HelveticaCondensedRegular", arial, sans-serif;
+	color:#fff;
+	font-size:12px;
+	text-decoration:none;
+}
+
+/* menu */
+
+#mainmenumargin {
+	height:32px;
+}
+
+#mainmenu {
+	width:100%;
+	background:#b7342b;
+	height:30px;
+}
+
+#mainmenu ul.menu {
+	margin:0 0 0 220px;
+}
+
+#mainmenu ul.menu li {
+	background:url(../images/menubackground.jpg) no-repeat top left;
+	height:27px;
+	text-align:center;
+	padding:3px 5px 0 27px;
+	cursor:pointer;
+	float:left;
+	margin:0 2px 0 2px;
+}
+
+#mainmenu ul.menu li a {
+	color:#fff;
+	text-decoration:none;
+	font-family:"BirchStdRegular", arial, sans-serif;
+	font-size:24px;
+}
+
+#mainmenu ul.menu li:hover a, #mainmenu ul.menu li.current-menu-item a, #mainmenu ul.menu li.current-page-ancestor a {
+	color:#2d2d2d;
+}
+
+/* special menu items */
+
+#mainmenu ul.menu li#menu-item-22 {
+	background:url(../images/menubackground_first.jpg) no-repeat top left;
+}
+
+#mainmenu ul.menu li#menu-item-107 {
+	background:url(../images/menubackground_last.jpg) no-repeat top left;
+}
+
+#mainmenu ul.menu li.normalBackground {
+	background:url(../images/menubackground.jpg) no-repeat top left;
+}
+
+#main {
+	width:690px;
+	margin:0 0 0 265px;
+}
+
+/* main anchors */
+
+#main a:hover {
+	text-decoration:none;
+	color:#ea645f;
+}
+
+#main a {
+	color:#ea645f;
+	text-decoration:underline;
+}
+
+/* main table */
+
+#main table td.date {
+	text-align:center;
+	height:25px;
+	font-size:22px;
+	font-family: "HelveticaCondensedRegular",arial,sans-serif;
+}
+
+#main table td#date1, #main table td#date2 {
+	background:#b7342b;
+	text-align:center;
+}
+
+#main table td#date1 h2, #main table td#date2 h2 {
+	color:#ffffff;
+}
+
+#main table tr.place td {
+	font-family: "HelveticaCondensedRegular",arial,sans-serif;
+	font-size:16px;
+	text-align:center;
+}
+
+#main table td {
+	padding:5px;
+	border:1px dashed #423932;
+}
+
+#main table tr.odd td {
+	background:#e0d0ba;
+}
+
+#main strong {
+	font-weight:bold;
+}
+
+/* content */
+
+#content {
+	width:485px;
+	float:left;
+}
+
+/* titles */ 
+
+#content h1, #content h2, #content h3 {
+	font-family:"BirchStdRegular", arial, sans-serif;
+	font-weight:normal;
+	color:#ea645f;
+}
+
+#content h1 {
+	font-size:47px;
+	margin:5px 0 4px 0;
+	text-align:right;
+}
+
+#content h2 {
+	font-size:35px;
+}
+
+#content h3 {
+	font-size:24px;
+}
+
+#content .left {
+	text-align:left;
+}
+
+#content .right {
+	text-align:right;
+}
+
+#content .center {
+	text-align:center;
+}
+
+#content ul {
+	margin:0 0 0 10px;
+}
+
+#content ul.right {
+	margin:0 10px 0 0;
+}
+
+#content ul li {
+	background-image:url(../images/liste.jpg);
+	background-repeat:no-repeat;
+	margin:6px 0 6px 0;
+	padding:0 0 0 10px;
+	background-position:left top;
+}
+
+#content ul.right li {
+	padding:0 10px 0 0;
+	background-position:right top;
+	text-align:right;
+}
+
+/* banner codes */
+
+#content pre {
+	border:1px dashed #ea645e;
+	width:80%;
+	padding:3px;
+	margin:2px 2px 10px 2px;
+	background:#d3d2d2;
+	overflow:hidden;
+	color:#44605f;
+}
+
+img#collapse {
+	display:hidden;
+}
+
+img#collapse, img#expand {
+	cursor:pointer;
+	float:right;
+}
+
+/* sidebar */
+
+#sidebar {
+	width:160px;
+	float:left;
+	margin:0 0 0 10px;
+}
+
+#sidebar h3 {
+	display:none;
+}
+
+#sidebar ul {
+	margin:15px 0 0 39px;
+}
+
+#sidebar ul li img[title='sahibinden'] {
+	margin:0 0 0 -5px;
+}
+
+#sidebar ul li img[title='kartaca'] {
+	margin:0 0 0 -10px;
+}
+
+#sidebar ul li img[title='markafoni'] {
+	margin:0 0 0 -20px;
+}
+
+#sidebar ul li a[title='sponsor_dosyasi'] {
+	margin:0 0 0 -14px;
+}
+
+/* footer */
+
+#footer {
+	
+}

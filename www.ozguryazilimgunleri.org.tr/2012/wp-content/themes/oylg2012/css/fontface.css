@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'HelveticaRegular';
+    src: url('http://ozguryazilimgunleri.org/2012/wp-content/themes/oylg2012/fontface/helvetica-webfont.eot');
+    src: url('../fontface/helvetica-webfont.eot') format('embedded-opentype'),
+         url('../fontface/helvetica-webfont.woff') format('woff'),
+         url('../fontface/helvetica-webfont.ttf') format('truetype'),
+         url('../fontface/helvetica-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaCondensedRegular';
+    src: url('http://ozguryazilimgunleri.org/2012/wp-content/themes/oylg2012/fontface/ps_1-webfont.eot');
+    src: url('../fontface/ps_1-webfont.eot') format('embedded-opentype'),
+         url('../fontface/ps_1-webfont.woff') format('woff'),
+         url('../fontface/ps_1-webfont.ttf') format('truetype'),
+         url('../fontface/ps_1-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BirchStdRegular';
+    src: url('http://ozguryazilimgunleri.org/2012/wp-content/themes/oylg2012/fontface/birchstd-webfont.eot');
+    src: url('../fontface/birchstd-webfont.eot') format('embedded-opentype'),
+         url('../fontface/birchstd-webfont.woff') format('woff'),
+         url('../fontface/birchstd-webfont.ttf') format('truetype'),
+         url('../fontface/birchstd-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

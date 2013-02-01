@@ -4,8 +4,32 @@ html {
 	background:#14212B url(../images/bg.png) repeat-x 0 -100px;
 }
 
+body {
+	font-family:"Arial", sans-serif;i
+	font-size:12px;
+}
+
 section {
 	padding-top:137px;
 	margin:auto;
 	width:968px;
+}
+
+a {
+	display:block;
+	padding-right:30px;
+	padding-top:10px;
+	color:#ccc;
+	font-size:10px;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+footer {
+	width:277px;
+	margin:auto;
+	text-align:center;
 }

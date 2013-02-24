@@ -4,7 +4,7 @@
 <footer>
 	<aside>
 		<div id="twitter">
-			<?php $sontweetial=simplexml_load_file("https://twitter.com/statuses/user_timeline/592607643.rss");
+			<?php $sontweetial=simplexml_load_file("https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=linuxyazkampi");
 			$sontweet=$sontweetial->channel->item[0]->title;
 			$sontweet_trimmed = str_replace("linuxyazkampi: ", "",$sontweet); // her tweet'in basinda gelen ifadeleri kirpalim
 			$sontweet_trimmed = str_replace("LinuxYazKampi:", "", $sontweet_trimmed); // her tweet'in basinda gelen ifadeleri kirpalim

@@ -72,4 +72,6 @@
 		<?php dynamic_sidebar('footer'); ?>
 	</aside>
 
+	<div class="clear"></div>
+
 	<aside></aside>

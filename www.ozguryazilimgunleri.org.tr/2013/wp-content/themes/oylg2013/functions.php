@@ -58,37 +58,3 @@ function oylg2013_list_pages( $pageid ) {
 	
 	return wp_list_pages($args);
 }
-
-/* list images */
-function oylg2013_list_images( $pageid ) {
-		
-	$args = array(
-	'order'          => 'ASC',
-	'orderby'        => 'menu_order',
-	'post_type'      => 'attachment',
-	'post_parent'    => $pageid,
-	'post_mime_type' => 'image,video,text',
-	'post_status'    => null,
-	'numberposts'    => -1,
-	);
-	$attachments = get_posts($args);
-
-		if ($attachments) {
-			echo '<div id="slider">';
-		    foreach ($attachments as $attachment) {
-		    	$attachement_url=wp_get_attachment_url($attachment->ID);
-		    	echo "<li>";
-		    	if(stristr($attachment->post_mime_type, "video/")!==FALSE) {
-		    		echo "<object width=\"736\" height=\"358\" id=\"undefined\" name=\"undefined\" data=\"".get_template_directory_uri()."/js/player.swf\" type=\"application/x-shockwave-flash\"><param name=\"movie\" value=\"".get_template_directory_uri()."/js/player.swf\" /><param name=\"allowfullscreen\" value=\"true\" /><param name=\"allowscriptaccess\" value=\"always\" /><param name=\"flashvars\" value='config={\"clip\":{\"url\":\"".$attachement_url."\",\"scaling\":\"orig\"},\"playlist\":[{\"url\":\"".$attachement_url."\"}]}' /></object>";
-		    	} else if(stristr($attachment->post_mime_type, "image/")!==FALSE) {
-	    			echo "<img src='".$attachement_url."' />";
-	    		} else if(stristr($attachment->post_mime_type, "text/")!==FALSE) {
-	    			$text=file($attachement_url);
-	    			echo $text[0];
-	    		}
-	    		echo "</li>";
-		}
-		echo '</div>';
-	}
-	
-}

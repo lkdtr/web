@@ -98,6 +98,12 @@ article .entry .right {
 	text-align: right;
 }
 
+article .entry ul.right li {
+	padding-right:6px;
+	padding-left:0;
+	background-position: right 4px;
+}
+
 article .entry li {
 	background:url(images/li.png) no-repeat 0 4px;
 	padding-left:6px;

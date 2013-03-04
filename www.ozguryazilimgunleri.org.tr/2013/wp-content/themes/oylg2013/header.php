@@ -39,10 +39,14 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 
-<?php wp_head(); ?>
+<meta property="og:title" content="<?php bloginfo( 'name' ); ?>"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="<?php bloginfo( 'url' ); ?>"/>
+<meta property="og:image" content="<?php bloginfo( 'template_url' ); ?>/images/social_share.png"/>
+<meta property="og:site_name" content="<?php bloginfo( 'name' ); ?>"/>
+<meta property="og:description" content="Özgür Yazılım ve Linux Günleri 5-6 Nisan tarihlerinde İstanbul Bilgi Üniversitesi Santral Kampüsünde!"/>
 
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.cycle.js" type="text/javascript"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/script.js" type="text/javascript"></script>
+<?php wp_head(); ?>
 
 </head>
 

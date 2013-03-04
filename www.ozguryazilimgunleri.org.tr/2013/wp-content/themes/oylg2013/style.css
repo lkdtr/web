@@ -175,8 +175,13 @@ aside div#share {
 	height:101px;
 }
 
+aside ul.blogroll li:first-child {
+	border-right:1px dashed #CCCCCC;
+}
+
 aside ul.blogroll li {
 	float:left;
+	padding:0 10px;
 }
 
 #organization {

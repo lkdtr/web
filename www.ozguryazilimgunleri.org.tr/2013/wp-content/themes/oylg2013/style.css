@@ -94,6 +94,11 @@ section h1 {
 	margin:10px 0 5px 0;
 }
 
+
+section h2 {
+	font-size:35px;
+}
+
 article .entry .right {
 	text-align: right;
 }

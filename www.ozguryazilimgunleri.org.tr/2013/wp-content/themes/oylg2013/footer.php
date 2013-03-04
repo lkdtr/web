@@ -32,7 +32,7 @@
 	<div class="clear"></div>
 	<ul id="organization">
 		<li class="lkd"><a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/lkd.png" /></a></li>
-		<li class="university"><a href="http://www.ibu.edu.tr/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/university.png" /></a></li>
+		<li class="university"><a href="http://www.bilgi.edu.tr/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/istanbulbilgi.png" /></a></li>
 	</ul>
 </footer>
 

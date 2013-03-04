@@ -1,0 +1,161 @@
+/*
+Theme Name: Özgür Yazılım ve Linux Günleri '13
+Theme URI: http://lkd.org.tr/
+Description: Özgür Yazılım ve Linux Günleri 2013 teması
+Author: Umuthan Uyan
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: blue, green, organic, white, gray, lkd, fixed-width
+*/
+
+@import url("css/reset.css");
+@import url("css/fontface.css");
+
+html {
+	background:#14212a;
+}
+
+body {
+	color:#14212a;
+	font-family:"AllerRegular", Arial;
+	font-size:12px;
+	background:#f3f3f3 url(images/body_bg.png) repeat-x top center;
+}
+
+a {
+	color:#2d2d2d;
+	text-decoration:underline;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+strong {
+	font-weight:bold;
+}
+
+section {
+	width:750px;
+	margin:auto;
+}
+
+header {
+	width:856px;
+	margin:auto;
+	padding-bottom:15px;
+}
+
+header #logo {
+	width:856px;
+	margin:auto;
+	z-index:40;
+}
+
+header nav {
+	margin:-45px 0 0 40px;
+	width:800px;
+	z-index:50;
+	position: absolute;
+}
+
+header nav li{
+	float:left;
+	margin:0 10px;
+	background:#b7e070;
+}
+
+header nav li:hover a {
+	color:#fff;
+	background: #45616d;
+}
+
+header nav li a {
+	display:block;
+	font-family:"keytinregular", Arial;
+	font-size:37px;
+	color:#2d2d2d;
+	background: #b7e070;
+	text-decoration:none;
+	padding:2px 8px;
+	text-transform: uppercase;
+}
+
+section h1 {
+	font-family:"keytinregular", Arial;
+	font-size:45px;
+	color:#14212a;
+	text-align:center;
+	margin:10px 0 5px 0;
+}
+
+article .entry li {
+	background:url(images/li.png) no-repeat 0 4px;
+	padding-left:6px;
+	margin:5px 0;
+}
+
+article .entry p {
+	margin:5px 0 5px 0;
+}
+
+aside {
+	width:800px;
+	margin:auto;
+	background: url(images/divider.png) no-repeat top center;
+	padding-top:35px;
+	text-align:center;
+}
+
+aside div {
+	float:left;
+}
+
+aside div#place {
+	background:url(images/place.png) no-repeat left bottom;
+	height:76px;
+	width:190px;
+	padding:20px 0 0 0;
+	font-family: "keytinregular";
+	text-align: right;
+	font-size: 26px;
+	margin-right: 30px;
+}
+
+aside div#place span {
+	display: block;
+	margin-top:-5px;
+	font-size:20px;
+}
+
+aside div#twitter {
+	background:url(images/twitter.png) no-repeat left bottom;
+	height:99px;
+	width:260px;
+	padding-left:105px;
+	text-align:left;
+	margin-right:10px;
+	font-style: italic;
+}
+
+aside div#twitter a {
+	text-decoration: none;
+	padding-top:25px;
+	display: block;
+}
+
+aside div#twitter a:hover {
+	text-decoration: underline;
+}
+
+aside div#share {
+	background: url(images/share.png) no-repeat left bottom;
+	width:198px;
+	height:101px;
+}
+
+footer {
+	background:url(images/html_bg.png) repeat-x center bottom;
+	height:164px;
+}

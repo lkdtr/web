@@ -2,7 +2,7 @@
 </section>
 
 <aside>
-	<?php dynamic_content('footer'); ?>
+	<?php dynamic_sidebar('footer'); ?>
 </aside>
 
 <div class="clear"></div>

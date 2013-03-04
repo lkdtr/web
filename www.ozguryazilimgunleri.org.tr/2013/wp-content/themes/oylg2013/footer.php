@@ -2,7 +2,7 @@
 </section>
 
 <aside>
-	sponsor
+	<?php dynamic_content('footer'); ?>
 </aside>
 
 <div class="clear"></div>

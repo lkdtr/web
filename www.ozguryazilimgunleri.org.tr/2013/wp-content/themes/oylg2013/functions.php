@@ -19,6 +19,22 @@ function oylg2013_page_menu_args( $args ) {
 }
 add_filter( 'wp_page_menu_args', 'oylg2013_page_menu_args' );
 
+/* register sidebars */
+function oylg2013_widgets_init() {
+
+	register_sidebar( array(
+		'name' => __( 'Footer', 'lkd_kamp' ),
+		'id' => 'footer',
+		'before_widget' => '',
+		'after_widget' => "",
+		'before_title' => '<h2 style="display:none">',
+		'after_title' => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'oylg2013_widgets_init' );
+
+
 /* list sub-pages */
 function oylg2013_list_pages( $pageid ) {
 	$parent_id = get_post_ancestors( $pageid );

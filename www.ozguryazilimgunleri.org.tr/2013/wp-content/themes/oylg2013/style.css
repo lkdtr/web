@@ -175,6 +175,10 @@ aside div#share {
 	height:101px;
 }
 
+aside ul.blogroll li {
+	float:left;
+}
+
 #organization {
 	width:305px;
 	margin:auto;

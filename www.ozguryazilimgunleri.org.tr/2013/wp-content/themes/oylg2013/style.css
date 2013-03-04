@@ -36,49 +36,54 @@ strong {
 	font-weight:bold;
 }
 
-section {
-	width:750px;
+#wrapper {
+	width: 960px;
 	margin:auto;
+}
+
+section {
+	width:770px;
+	float:right;
 }
 
 header {
-	width:856px;
-	margin:auto;
-	padding-bottom:15px;
+	width:160px;
+	float:left;
 }
 
 header #logo {
-	width:856px;
+	width:225px;
+}
+
+#navBackground {
+	width:780px;
 	margin:auto;
-	z-index:40;
 }
 
-header nav {
-	margin:-45px 0 0 40px;
-	width:800px;
-	z-index:50;
-	position: absolute;
+nav {
+	float: right;
+    margin: 0;
 }
 
-header nav li{
-	float:left;
-	margin:0 10px;
+nav li{
+	margin:0 6px;
 	background:#b7e070;
+	float:left;
 }
 
-header nav li:hover a {
+nav li:hover a {
 	color:#fff;
 	background: #45616d;
 }
 
-header nav li a {
+nav li a {
 	display:block;
 	font-family:"keytinregular", Arial;
-	font-size:37px;
+	font-size:30px;
 	color:#2d2d2d;
 	background: #b7e070;
 	text-decoration:none;
-	padding:2px 8px;
+	padding:5px 8px;
 	text-transform: uppercase;
 }
 
@@ -92,6 +97,7 @@ section h1 {
 	color:#14212a;
 	text-align:center;
 	margin:10px 0 5px 0;
+	display: none;
 }
 
 
@@ -133,8 +139,8 @@ aside div {
 }
 
 aside div#place {
-	background:url(images/place.png) no-repeat left bottom;
-	height:76px;
+	background:url(images/place.png) no-repeat left 6px;
+	height:65px;
 	width:190px;
 	padding:20px 0 0 0;
 	font-family: "keytinregular";
@@ -150,8 +156,8 @@ aside div#place span {
 }
 
 aside div#twitter {
-	background:url(images/twitter.png) no-repeat left bottom;
-	height:99px;
+	background:url(images/twitter.png) no-repeat left top;
+	height:85px;
 	width:260px;
 	padding-left:105px;
 	text-align:left;
@@ -170,9 +176,9 @@ aside div#twitter a:hover {
 }
 
 aside div#share {
-	background: url(images/share.png) no-repeat left bottom;
+	background: url(images/share.png) no-repeat left top;
 	width:198px;
-	height:101px;
+	height:86px;
 }
 
 aside ul.blogroll li:first-child {
@@ -185,14 +191,18 @@ aside ul.blogroll li {
 }
 
 #organization {
-	width:305px;
-	margin:auto;
+	width:184px;
+	padding:10px 0 0 0;
+	text-align: center;
+	margin-bottom:-20px;
+}
+
+#organization li:first-child {
+	margin-left:40px;
 }
 
 #organization li {
-	float:left;
-	margin:0 5px;
-	padding:0 5px;
+	margin:5px 0;
 }
 
 footer {

@@ -95,9 +95,8 @@ section h1 {
 	font-family:"keytinregular", Arial;
 	font-size:45px;
 	color:#14212a;
-	text-align:center;
+	text-align:right;
 	margin:10px 0 5px 0;
-	display: none;
 }
 
 
@@ -181,8 +180,14 @@ aside div#share {
 	height:86px;
 }
 
+aside ul.blogroll {
+	clear:both;
+	width:770px;
+	margin:auto;
+}
+
 aside ul.blogroll li:first-child {
-	border-right:1px dashed #CCCCCC;
+	/*border-right:1px dashed #CCCCCC;*/
 }
 
 aside ul.blogroll li {

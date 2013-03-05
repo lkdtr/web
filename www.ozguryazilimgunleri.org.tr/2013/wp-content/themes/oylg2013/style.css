@@ -181,21 +181,18 @@ aside div#share {
 }
 
 aside ul.blogroll {
-	width:770px;
+	width:760px;
 	margin:auto;
 }
 
-aside ul.blogroll:first-of-type {
-	border-right:1px dashed #CCCCCC;
-}
-
 aside ul.blogroll:first-of-type li {
-	margin-top:0;
+	margin-top:5px;
+	border-right:1px dashed #CCCCCC;
 }
 
 aside ul.blogroll li {
 	float:left;
-	padding:0 20px;
+	padding:0 25px;
 	margin:-15px 0;
 }
 

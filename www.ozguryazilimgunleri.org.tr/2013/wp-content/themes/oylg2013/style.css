@@ -164,14 +164,17 @@ aside div#twitter {
 	font-style: italic;
 }
 
-aside div#twitter a {
-	text-decoration: none;
+aside div#twitter p {
 	padding-top:25px;
 	display: block;
 }
 
-aside div#twitter a:hover {
+aside div#twitter a {
 	text-decoration: underline;
+}
+
+aside div#twitter a:hover {
+	text-decoration: none;
 }
 
 aside div#share {

@@ -69,7 +69,7 @@
 	<div class="clear"></div>
 
 	<aside>
-		<?php dynamic_sidebar('footer'); ?>
+		<?php dynamic_sidebar('header'); ?>
 	</aside>
 
 	<div class="clear"></div>

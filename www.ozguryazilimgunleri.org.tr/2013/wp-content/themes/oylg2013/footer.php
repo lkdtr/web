@@ -8,13 +8,7 @@
 <footer>
 	<aside>
 		<div id="twitter">
-			<?php //$twitterRssUrl = "https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=Ozgryzlmgunleri";
-			$sontweetial=simplexml_load_file($twitterRssUrl);
-			$sontweet=$sontweetial->channel->item[0]->title;
-			$sontweet_trimmed = str_replace("Ozgryzlmgunleri: ", "",$sontweet); // her tweet'in basinda gelen ifadeleri kirpalim
-			$sontweet_trimmed = str_replace("ozgryzlmgunleri:", "", $sontweet_trimmed); // her tweet'in basinda gelen ifadeleri kirpalim
-			$sontweet_trimmed = str_replace("#lyk2012", "", $sontweet_trimmed); // hashtagi de kirpalim ?>
-			<a href="https://twitter.com/Ozgryzlmgunleri" target="_blank"><?php echo $sontweet_trimmed; ?></a>
+			<?php dynamic_sidebar('footer'); ?>
 		</div>
 		<div id="place">
 			İSTANBUL BİLGİ ÜNİVERSİTESİ

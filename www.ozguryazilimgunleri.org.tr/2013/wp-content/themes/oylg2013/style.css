@@ -145,7 +145,7 @@ aside div#place {
 	font-family: "keytinregular";
 	text-align: right;
 	font-size: 26px;
-	margin-right: 60px;
+	margin-right: 50px;
 }
 
 aside div#place span {
@@ -160,7 +160,7 @@ aside div#twitter {
 	width:300px;
 	padding-left:105px;
 	text-align:left;
-	margin-right:15bpx;
+	margin-right:20px;
 	font-style: italic;
 }
 

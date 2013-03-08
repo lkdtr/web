@@ -188,10 +188,20 @@ aside ul.blogroll {
 	margin:auto;
 }
 
+aside ul.blogroll:first-of-type{
+	width:170px;
+	float:left;
+	margin-left:25px;
+}
+
 aside ul.blogroll:first-of-type li {
 	margin-top:5px;
 	border-right:1px dashed #CCCCCC;
 	float:none;
+}
+
+aside ul.blogroll:first-of-type li:last-child {
+	padding-top:10px;
 }
 
 aside ul.blogroll li {

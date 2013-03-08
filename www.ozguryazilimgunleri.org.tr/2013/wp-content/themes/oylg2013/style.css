@@ -191,6 +191,7 @@ aside ul.blogroll {
 aside ul.blogroll:first-of-type li {
 	margin-top:5px;
 	border-right:1px dashed #CCCCCC;
+	float:none;
 }
 
 aside ul.blogroll li {

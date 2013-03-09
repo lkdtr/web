@@ -105,6 +105,11 @@ section h2 {
 	margin:5px 0 -5px 0;
 }
 
+section h3 {
+	font-size:22px;
+	text-align: center;
+}
+
 article .entry .right {
 	text-align: right;
 }

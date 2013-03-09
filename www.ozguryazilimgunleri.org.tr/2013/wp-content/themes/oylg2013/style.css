@@ -125,6 +125,14 @@ article .entry p {
 	margin:5px 0 5px 0;
 }
 
+article pre {
+	width:80%;
+	overflow:hidden;
+	padding:5px;
+	border: 1px dashed #999;
+	background:#ccc;
+}
+
 aside {
 	width:800px;
 	margin:auto;

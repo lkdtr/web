@@ -202,15 +202,16 @@ aside ul.blogroll {
 }
 
 aside ul.blogroll:first-of-type{
-	width:170px;
+	width:160px;
 	float:left;
-	margin-left:25px;
+	margin-left:5px;
 }
 
 aside ul.blogroll:first-of-type li {
 	margin-top:5px;
 	border-right:1px dashed #CCCCCC;
 	float:none;
+	padding:0 4px !important;
 }
 
 aside ul.blogroll:first-of-type li:last-child {
@@ -219,7 +220,7 @@ aside ul.blogroll:first-of-type li:last-child {
 
 aside ul.blogroll li {
 	float:left;
-	padding:0 25px;
+	padding:0 16px;
 	margin:-15px 0;
 }
 

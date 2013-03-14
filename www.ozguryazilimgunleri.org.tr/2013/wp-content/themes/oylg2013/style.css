@@ -36,6 +36,10 @@ strong {
 	font-weight:bold;
 }
 
+em {
+	font-style: italic;
+}
+
 #wrapper {
 	width: 960px;
 	margin:auto;

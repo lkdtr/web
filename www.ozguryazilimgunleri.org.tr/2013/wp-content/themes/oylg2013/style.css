@@ -206,25 +206,31 @@ aside ul.blogroll {
 }
 
 aside ul.blogroll:first-of-type{
-	width:160px;
-	float:left;
-	margin-left:5px;
+	float: left;
+    height: 220px;
+    margin-left: 5px;
+    width: 195px;
 }
 
 aside ul.blogroll:first-of-type li {
-	margin-top:5px;
+	margin-top:10px;
 	border-right:1px dashed #CCCCCC;
 	float:none;
 	padding:0 4px !important;
 }
 
 aside ul.blogroll:first-of-type li:last-child {
-	margin-top:20px;
+	margin-top:40px;
+}
+
+aside ul.blogroll:first-of-type li:last-child img {
+	padding-top:30px;
+	padding-bottom:10px;
 }
 
 aside ul.blogroll li {
 	float:left;
-	padding:0 16px;
+	padding:0 13px;
 	margin:-15px 0;
 }
 

@@ -68,7 +68,8 @@
 
 	<div class="clear"></div>
 
-	<?php $sidebarVisible=get_post_custom_values('sidebar', get_the_ID());
+	<?php global $post;
+	$sidebarVisible=get_post_custom_values('sidebar', get_the_ID());
 
 	if($sidebarVisible!="hide") { ?>
 

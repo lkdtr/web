@@ -68,10 +68,16 @@
 
 	<div class="clear"></div>
 
-	<aside>
-		<?php dynamic_sidebar('header'); ?>
-	</aside>
+	<?php $sidebarVisible=get_post_custom_values('sidebar', get_the_ID());
 
-	<div class="clear"></div>
+	if($sidebarVisible!="hide") { ?>
 
-	<aside></aside>
+		<aside>
+			<?php dynamic_sidebar('header'); ?>
+		</aside>
+
+		<div class="clear"></div>
+
+		<aside></aside>
+
+	<?php } ?>

@@ -71,7 +71,7 @@
 	<?php global $post;
 	$sidebarVisible=get_post_custom_values('sidebar', get_the_ID());
 
-	if($sidebarVisible!="hide") { ?>
+	if($sidebarVisible[0]!="hide") { ?>
 
 		<aside>
 			<?php dynamic_sidebar('header'); ?>

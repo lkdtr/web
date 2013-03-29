@@ -268,12 +268,17 @@ footer aside {
 
 /* table styles */
 
+table {
+	border:solid 1px #14212a;
+}
+
 table tr td {
 	padding:5px;
+	border:dashed 1px #14212a;
 }
 
 table tr td.date {
-	font-style: "keytinregular";
+	font-family: "keytinregular";
 	font-size:24px;
 	background: #14212a;
 	color:#fff;
@@ -285,4 +290,6 @@ table tr td.time {
 
 table tr td.saloon {
 	font-size:16px;
+	background:#b7e070;
+	color:#2d2d2d;
 }

@@ -268,26 +268,26 @@ footer aside {
 
 /* table styles */
 
-table {
+table.program {
 	border:solid 1px #14212a;
 	margin-bottom:30px;
 }
 
-table tr:nth-child(even) td {
+table.program tr:nth-child(even) td {
 	background: #fff;
 }
 
-table tr td {
+table.program tr td {
 	padding:0 5px 5px 5px;
 	border:dashed 1px #14212a;
 }
 
-table tr td strong {
+table.program tr td strong {
 	margin-top:5px;
 	display:inline-block;
 }
 
-table tr td.date {
+table.program tr td.date {
 	font-family: "keytinregular";
 	font-size:45px;
 	background: #14212a;
@@ -295,19 +295,19 @@ table tr td.date {
 	padding-top:5px;
 }
 
-table tr td.time {
+table.program tr td.time {
 	font-size:10px;
 	padding-top:5px;
 }
 
-table tr td.saloon {
+table.program tr td.saloon {
 	font-size:16px;
 	background:#b7e070;
 	color:#2d2d2d;
 	padding-top:5px;
 }
 
-table tr td.break {
+table.program tr td.break {
 	font-size:16px;
 	background:#b7e070;
 	color:#2d2d2d;

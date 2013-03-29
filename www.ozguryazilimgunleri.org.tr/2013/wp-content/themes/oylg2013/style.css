@@ -280,6 +280,7 @@ table tr td {
 
 table tr td strong {
 	margin-top:5px;
+	display:inline-block;
 }
 
 table tr td.date {

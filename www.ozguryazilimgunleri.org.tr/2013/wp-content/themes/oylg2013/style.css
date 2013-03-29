@@ -273,6 +273,10 @@ table {
 	margin-bottom:30px;
 }
 
+table tr:nth-child(even) td {
+	background: #cdcdcd;
+}
+
 table tr td {
 	padding:0 5px 5px 5px;
 	border:dashed 1px #14212a;

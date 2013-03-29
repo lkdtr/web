@@ -274,7 +274,7 @@ table {
 }
 
 table tr:nth-child(even) td {
-	background: #cdcdcd;
+	background: #fff;
 }
 
 table tr td {
@@ -301,6 +301,13 @@ table tr td.time {
 }
 
 table tr td.saloon {
+	font-size:16px;
+	background:#b7e070;
+	color:#2d2d2d;
+	padding-top:5px;
+}
+
+table tr td.break {
 	font-size:16px;
 	background:#b7e070;
 	color:#2d2d2d;

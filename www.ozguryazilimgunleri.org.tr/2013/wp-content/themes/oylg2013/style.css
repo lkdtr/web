@@ -265,3 +265,24 @@ footer aside {
 	font-size:11px;
 	line-height:14px;
 }
+
+/* table styles */
+
+table tr td {
+	padding:5px;
+}
+
+table tr td.date {
+	font-style: "keytinregular";
+	font-size:24px;
+	background: #14212a;
+	color:#fff;
+}
+
+table tr td.time {
+	font-size:10px;
+}
+
+table tr td.saloon {
+	font-size:16px;
+}

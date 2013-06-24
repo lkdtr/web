@@ -1,4 +1,27 @@
 <div class="wrapper" id="bottom_area">
+  <div id="duyuru-kayit">
+    <?php
+      if (isset($_POST['email']))
+      {
+          mail('lkd-duyuru-request@liste.linux.org.tr',
+               'subscription',
+               $_POST['email'],
+               'From:' . $_POST['email']
+              );
+          
+          echo 'Lutfen e-posta kutunuzu kontrol ediniz.';
+      }
+      else
+      {
+    ?>
+        <form action="#bottom_area" method='POST'>
+            Duyurulardan haberdar olmak icin, duyuru listemize kaydolun!
+            <input type='textbox' length='60' name='email'>
+        </form>
+    <?php
+        }
+    ?>
+  </div>
   <div id="google_search">
     <form target="google_window" action="http://www.google.com.tr/custom" method="get">
       <input type="hidden" value="www.linux.org.tr;liste.linux.org.tr;listweb.bilkent.edu.tr" name="domains" />
@@ -25,28 +48,5 @@
       <input type="hidden" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;" name="cof" />
       <input type="hidden" value="tr" name="hl" />
     </form>
-  </div>
-  <div id="duyuru-kayit">
-    <?php
-      if (isset($_POST['email']))
-      {
-          mail('lkd-duyuru-request@liste.linux.org.tr',
-               'subscription',
-               $_POST['email'],
-               'From:' . $_POST['email']
-              );
-          
-          echo 'Lutfen e-posta kutunuzu kontrol ediniz.';
-      }
-      else
-      {
-    ?>
-        <form action="#bottom_area" method='POST'>
-            Duyurulardan haberdar olmak icin, duyuru listemize kaydolun!
-            <input type='textbox' length='60' name='email'>
-        </form>
-    <?php
-        }
-    ?>
   </div>
 </div>

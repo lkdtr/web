@@ -4,7 +4,7 @@
       if (isset($_POST['email']))
       {
           mail('lkd-duyuru-request@liste.linux.org.tr',
-               'subscription',
+               'subscribe',
                $_POST['email'],
                'From:' . $_POST['email']
               );

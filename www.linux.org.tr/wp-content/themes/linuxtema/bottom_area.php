@@ -26,4 +26,27 @@
       <input type="hidden" value="tr" name="hl" />
     </form>
   </div>
+  <div id="duyuru-kayit">
+    <?php
+      if (isset($_POST['email']))
+      {
+          mail('lkd-duyuru-request@liste.linux.org.tr',
+               'subscription',
+               $_POST['email'],
+               'From:' . $_POST['email']
+              );
+          
+          echo 'Lutfen e-posta kutunuzu kontrol ediniz.';
+      }
+      else
+      {
+    ?>
+        <form action="#bottom_area" method='POST'>
+            Duyurulardan haberdar olmak icin, duyuru listemize kaydolun!
+            <input type='textbox' length='60' name='email'>
+        </form>
+    <?php
+        }
+    ?>
+  </div>
 </div>

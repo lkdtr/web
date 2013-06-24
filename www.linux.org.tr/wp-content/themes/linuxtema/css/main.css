@@ -295,12 +295,24 @@ span.news_description {
     float: right;
 }
 
+#duyuru-kayit {
+    margin: 0;
+    padding: 0 5px 5px 5px;
+    clear: both;
+    border-top: 1px solid #CCC;
+    background-color: #EEE;
+    width:50%;
+    float:right;
+}
+
 #google_search {
     margin: 0;
     padding: 0 5px 5px 5px;
     clear: both;
     border-top: 1px solid #CCC;
     background-color: #EEE;
+    width:50%;
+    float:left;
 }
 
 #google_search input.text {

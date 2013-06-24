@@ -3,6 +3,8 @@
     <?php
       if (isset($_POST['email']))
       {
+        if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
+        {
           mail('lkd-duyuru-request@liste.linux.org.tr',
                'subscribe',
                $_POST['email'],
@@ -10,6 +12,11 @@
               );
           
           echo 'Lutfen e-posta kutunuzu kontrol ediniz.';
+        }
+        else
+        {
+          echo 'Lutfen duzgun bir e-posta adresi giriniz.';
+        }
       }
       else
       {

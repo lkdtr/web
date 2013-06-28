@@ -11,7 +11,8 @@
                'From:' . $_POST['email']
               );
           
-          echo 'Lutfen e-posta kutunuzu kontrol ediniz.';
+          echo 'Lutfen e-posta kutunuzu kontrol ediniz. ';
+          echo '<a href="https://liste.linux.org.tr/kurallar.php">[KURALLAR]</a>'
         }
         else
         {
@@ -23,7 +24,7 @@
     ?>
         <form action="#bottom_area" method='POST'>
             Duyurulardan haberdar olmak icin, duyuru listemize kaydolun!
-            <input type='textbox' length='60' name='email'>
+            <input type='textbox' length='60' name='email'><a href="https://liste.linux.org.tr/kurallar.php">[KURALLAR]</a>
         </form>
     <?php
         }

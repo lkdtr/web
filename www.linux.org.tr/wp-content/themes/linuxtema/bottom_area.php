@@ -12,7 +12,7 @@
               );
           
           echo 'Lutfen e-posta kutunuzu kontrol ediniz. ';
-          echo '<a href="https://liste.linux.org.tr/kurallar.php">[KURALLAR]</a>'
+          echo '<a href="https://liste.linux.org.tr/kurallar.php">[KURALLAR]</a>';
         }
         else
         {

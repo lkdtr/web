@@ -257,3 +257,18 @@ article form aside {
 	width:30%;
 	float:left;
 }
+
+/* counter */
+
+.counter {
+	text-align:center;
+	padding-top:70px;
+}
+
+span.number {
+	font-size:32px;
+	background:#333333;
+	color:#E1E6DE;
+	padding:20px;
+	margin:2px;
+}

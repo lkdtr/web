@@ -121,7 +121,11 @@ function lkdkamp_show_extra_fields(){
     		jQuery(".register").html("Kampa başvurmak için aşağıdaki formu doldurunuz.");
     		jQuery("p#reg_passmail").html("Başvurunuzu son katılım tarihinden önce güncellemek için e-posta adresinize bir parola gelecektir.");
     		jQuery("#github").hide();
-    		if(jQuery("#user_education").indexOf("Java")==-1) jQuery("#github").show();
+    		if(jQuery("#user_education").val().indexOf("Java")!=-1) jQuery("#github").show();
+        jQuery('#user_education').change(function(){
+          jQuery("#github").hide();
+          if(jQuery('#user_education').val().indexOf("Java")!=-1) jQuery("#github").show();
+        });
     	});
     </script>
     <style>
@@ -219,7 +223,7 @@ function lkdkamp_check_fields($login, $email, $errors) {
     $job = $_POST['education'];
   }
 
-  if ($_POST['github'] == '' && stristr($_POST['education'], "Java")===TRUE) {
+  if ($_POST['github'] == '' && stristr($_POST['education'], "Java")!==FALSE) {
     $errors->add('empty_realname', "<strong>HATA</strong>: Github hesabınızı doldurmadınız.");
   } else {
     $job = $_POST['github'];

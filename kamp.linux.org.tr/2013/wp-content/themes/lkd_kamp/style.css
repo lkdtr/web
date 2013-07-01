@@ -115,13 +115,13 @@ header nav li:nth-child(even):hover, #right li:nth-child(even):hover {
 	background-position:0 -111px;
 }
 
-header nav li ul.children {
+header nav li ul.sub-menu {
 	display:none;
 	position:absolute;
 	z-index:50;
 }
 
-header nav li ul.children li {
+header nav li ul.sub-menu li {
 	float:inherit;
 }
 

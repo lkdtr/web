@@ -121,6 +121,8 @@ else {
 
 <?php } //end else ?>
 
+<div style="height:100px;"></div>
+
 </article>
 
 <?php get_footer(); ?>

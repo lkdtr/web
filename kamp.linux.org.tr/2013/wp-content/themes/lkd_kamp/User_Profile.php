@@ -24,6 +24,8 @@ if ( is_user_logged_in() ){
     $current_institution = esc_attr( get_the_author_meta( 'institution', $user_id ) );
     $current_age = esc_attr( get_the_author_meta( 'age', $user_id ) );
     $current_job = esc_attr( get_the_author_meta( 'job', $user_id ) );
+    $current_lkd = esc_attr( get_the_author_meta( 'lkd', $user_id ) );
+    $current_inetd = esc_attr( get_the_author_meta( 'inetd', $user_id ) );
     $current_education = esc_attr( get_the_author_meta( 'education', $user_id ) );
     $current_github = esc_attr( get_the_author_meta( 'github', $user_id ) );
 
@@ -98,6 +100,8 @@ if ( is_user_logged_in() ){
             <?php } ?>
           </select><li>
           <li><label for="github">Github Hesabı</label><input type="text" name="META[github]" value="<?php  if(!empty($current_github)){ echo $current_github;}  ?>" /></li>
+          <li><label for="lkd">LKD üyesi iseniz üye numaranız</label><input type="text" name="META[lkd]" value="<?php  if(!empty($current_lkd)){ echo $current_lkd;}  ?>" /></li>
+          <li><label for="inetd">INETD üyesi iseniz üye numaranız</label><input type="text" name="META[inetd]" value="<?php  if(!empty($current_inetd)){ echo $current_inetd;}  ?>" /></li>
         </ul>
         </aside>
 

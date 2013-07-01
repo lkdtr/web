@@ -166,6 +166,12 @@ function lkdkamp_show_extra_fields(){
     <p><label>Mesleğiniz<br/>
       <input id="user_job" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['job'])) echo $_POST['job']; ?>" name="job"/>
       </label></p>
+    <p><label>LKD üyesi iseniz üye numaranız<br/>
+      <input id="user_lkd" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['lkd'])) echo $_POST['lkd']; ?>" name="lkd"/>
+      </label></p>
+    <p><label>INETD üyesi iseniz üye numaranız<br/>
+      <input id="user_inetd" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['inetd'])) echo $_POST['inetd']; ?>" name="inetd"/>
+      </label></p>
 <?php $educationPage = get_page_by_title( 'Kurslar' );
       $educations_arg = array( 
 	    'post_parent' => $educationPage->ID,
@@ -188,7 +194,7 @@ function lkdkamp_show_extra_fields(){
 }
 
 function lkdkamp_check_fields($login, $email, $errors) {
-  global $firstname, $lastname, $telephone, $institution, $age, $job, $education, $github;
+  global $firstname, $lastname, $telephone, $institution, $age, $job, $lkd, $inetd, $education, $github;
 
   if ($_POST['first'] == '') {
     $errors->add('empty_realname', "<strong>HATA</strong>: Lütfen adınızı yazın.");
@@ -233,6 +239,8 @@ function lkdkamp_check_fields($login, $email, $errors) {
   }
 
   $age = $_POST['age'];
+  $lkd = $_POST['lkd'];
+  $inetd = $_POST['inetd'];
 
 }
 
@@ -245,6 +253,8 @@ function lkdkamp_register_extra_fields($user_id, $password="", $meta=array())  {
   update_usermeta( $user_id, 'telephone', $_POST['telephone'] );
   update_usermeta( $user_id, 'institution', $_POST['institution'] );
   update_usermeta( $user_id, 'job', $_POST['job'] );
+  update_usermeta( $user_id, 'lkd', $_POST['lkd'] );
+  update_usermeta( $user_id, 'inetd', $_POST['inetd'] );
   update_usermeta( $user_id, 'age', $_POST['age'] );
   update_usermeta( $user_id, 'education', $_POST['education'] );
   update_usermeta( $user_id, 'github', $_POST['github'] );
@@ -257,6 +267,8 @@ function lkdkamp_show_extra_profile_fields( $user ) {
   $current_telephone = esc_attr( get_the_author_meta( 'telephone', $user->ID ) );
   $current_institution = esc_attr( get_the_author_meta( 'institution', $user->ID ) );
   $current_job = esc_attr( get_the_author_meta( 'job', $user->ID ) );
+  $current_lkd = esc_attr( get_the_author_meta( 'lkd', $user->ID ) );
+  $current_inetd = esc_attr( get_the_author_meta( 'inetd', $user->ID ) );
   $current_age = esc_attr( get_the_author_meta( 'age', $user->ID ) );
   $current_education = esc_attr( get_the_author_meta( 'education', $user->ID ) );
   $current_github = esc_attr( get_the_author_meta( 'github', $user->ID ) );
@@ -285,6 +297,18 @@ function lkdkamp_show_extra_profile_fields( $user ) {
         <th><label for="job">Mesleği</label></th>
         <td>
           <input type="text" name="job" id="job" size="10" maxlength="200" value="<?php echo $current_job ?>" class="regular-text" />
+        </td>
+      </tr>
+      <tr>
+        <th><label for="lkd">LKD üye no</label></th>
+        <td>
+          <input type="text" name="lkd" id="lkd" size="10" maxlength="200" value="<?php echo $current_lkd ?>" class="regular-text" />
+        </td>
+      </tr>
+      <tr>
+        <th><label for="inetd">INETD üye no</label></th>
+        <td>
+          <input type="text" name="inetd" id="inetd" size="10" maxlength="200" value="<?php echo $current_inetd ?>" class="regular-text" />
         </td>
       </tr>
       <tr>
@@ -326,6 +350,8 @@ function lkdkamp_save_extra_profile_fields($user_id) {
   update_usermeta( $user_id, 'telephone', $_POST['telephone'] );
   update_usermeta( $user_id, 'institution', $_POST['institution'] );
   update_usermeta( $user_id, 'job', $_POST['job'] );
+  update_usermeta( $user_id, 'lkd', $_POST['lkd'] );
+  update_usermeta( $user_id, 'inetd', $_POST['inetd'] );
   update_usermeta( $user_id, 'age', $_POST['age'] );
   update_usermeta( $user_id, 'education', $_POST['education'] );
   update_usermeta( $user_id, 'github', $_POST['github'] );

@@ -154,6 +154,9 @@ function lkdkamp_show_extra_fields(){
     <p><label>Soyad<br/>
       <input id="user_last" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['last'])) echo $_POST['last']; ?>" name="last"/>
       </label></p>
+    <p><label>Yaşınız<br/>
+      <input id="user_age" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['age'])) echo $_POST['age']; ?>" name="age"/>
+      </label></p>
     <p><label>Telefon<br/>
       <input id="user_telephone" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['telephone'])) echo $_POST['telephone']; ?>" name="telephone"/>
       </label></p>
@@ -185,7 +188,7 @@ function lkdkamp_show_extra_fields(){
 }
 
 function lkdkamp_check_fields($login, $email, $errors) {
-  global $firstname, $lastname, $telephone, $institution, $job, $education, $github;
+  global $firstname, $lastname, $telephone, $institution, $age, $job, $education, $github;
 
   if ($_POST['first'] == '') {
     $errors->add('empty_realname', "<strong>HATA</strong>: Lütfen adınızı yazın.");
@@ -229,6 +232,8 @@ function lkdkamp_check_fields($login, $email, $errors) {
     $job = $_POST['github'];
   }
 
+  $age = $_POST['age'];
+
 }
 
 function lkdkamp_register_extra_fields($user_id, $password="", $meta=array())  {
@@ -240,6 +245,7 @@ function lkdkamp_register_extra_fields($user_id, $password="", $meta=array())  {
   update_usermeta( $user_id, 'telephone', $_POST['telephone'] );
   update_usermeta( $user_id, 'institution', $_POST['institution'] );
   update_usermeta( $user_id, 'job', $_POST['job'] );
+  update_usermeta( $user_id, 'age', $_POST['age'] );
   update_usermeta( $user_id, 'education', $_POST['education'] );
   update_usermeta( $user_id, 'github', $_POST['github'] );
 }
@@ -251,11 +257,18 @@ function lkdkamp_show_extra_profile_fields( $user ) {
   $current_telephone = esc_attr( get_the_author_meta( 'telephone', $user->ID ) );
   $current_institution = esc_attr( get_the_author_meta( 'institution', $user->ID ) );
   $current_job = esc_attr( get_the_author_meta( 'job', $user->ID ) );
+  $current_age = esc_attr( get_the_author_meta( 'age', $user->ID ) );
   $current_education = esc_attr( get_the_author_meta( 'education', $user->ID ) );
   $current_github = esc_attr( get_the_author_meta( 'github', $user->ID ) );
     ?>
     <h3>Katılım Formu</h3>
     <table class="form-table">
+      <tr>
+        <th><label for="age">Yaşı</label></th>
+        <td>
+          <input type="text" name="age" id="age" size="10" maxlength="200" value="<?php echo $current_age ?>" class="regular-text" />
+        </td>
+      </tr>
       <tr>
         <th><label for="telephone">Telefon</label></th>
         <td>
@@ -313,6 +326,7 @@ function lkdkamp_save_extra_profile_fields($user_id) {
   update_usermeta( $user_id, 'telephone', $_POST['telephone'] );
   update_usermeta( $user_id, 'institution', $_POST['institution'] );
   update_usermeta( $user_id, 'job', $_POST['job'] );
+  update_usermeta( $user_id, 'age', $_POST['age'] );
   update_usermeta( $user_id, 'education', $_POST['education'] );
   update_usermeta( $user_id, 'github', $_POST['github'] );
 }

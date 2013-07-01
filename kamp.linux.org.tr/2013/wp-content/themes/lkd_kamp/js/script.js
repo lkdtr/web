@@ -2,10 +2,10 @@ jQuery(document).ready(function() {
 	
 	jQuery("nav ul>li").hover(
 		function (){
-			jQuery("ul.children",this).show();
+			jQuery("ul.sub-menu",this).show();
 		},
 		function (){
-			jQuery("ul.children",this).hide();
+			jQuery("ul.sub-menu",this).hide();
 		}
 	);
 

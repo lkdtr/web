@@ -269,7 +269,7 @@ function lkdkamp_show_extra_profile_fields( $user ) {
             <select id="education" name="education">
             	<option value="">Hiçbiri</option>
             	<?php foreach ($educations as $education) { ?>
-            		<option value="<?php echo $education->post_title; ?>" <?php if($current_job==$education->post_title) echo "selected"; ?>><?php echo $education->post_title; ?></option>
+            		<option value="<?php echo $education->post_title; ?>" <?php if($current_education==$education->post_title) echo "selected"; ?>><?php echo $education->post_title; ?></option>
             	<?php } ?>
             </select>
         </td>

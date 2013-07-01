@@ -121,10 +121,12 @@ function lkdkamp_show_extra_fields(){
     		jQuery(".register").html("Kampa başvurmak için aşağıdaki formu doldurunuz.");
     		jQuery("p#reg_passmail").html("Başvurunuzu son katılım tarihinden önce güncellemek için e-posta adresinize bir parola gelecektir.");
     		jQuery("#github").hide();
+        jQuery("#education_link").attr("href",jQuery('#user_education').find(":selected").attr('detail'));
     		if(jQuery("#user_education").val().indexOf("Java")!=-1) jQuery("#github").show();
         jQuery('#user_education').change(function(){
           jQuery("#github").hide();
           if(jQuery('#user_education').val().indexOf("Java")!=-1) jQuery("#github").show();
+          jQuery("#education_link").attr("href",jQuery(this).find(":selected").attr('detail'));
         });
     	});
     </script>
@@ -146,6 +148,13 @@ function lkdkamp_show_extra_fields(){
       margin-top:2px;
       padding:3px;
       width:97%;
+    }
+    #education_link{
+      margin-bottom:10px;
+      display: block;
+    }
+    #user_education {
+      margin-bottom:6px;
     }
     </style>
     <p><label>Ad<br/>
@@ -183,10 +192,12 @@ function lkdkamp_show_extra_fields(){
     <p><label>Katılmak İstediginiz Eğitim<br/>
       <select id="user_education" class="element" tabindex="20" name="education">
       	<?php foreach ($educations as $education) { ?>
-      		<option value="<?php echo $education->post_title; ?>" <?php if(isset($_POST['education']) && $_POST['education']==$education->post_title) echo "selected"; ?>><?php echo $education->post_title; ?></option>
+      		<option detail="<?php echo home_url().'/'.$education->post_name; ?>" value="<?php echo $education->post_title; ?>" <?php if(isset($_POST['education']) && $_POST['education']==$education->post_title) echo "selected"; ?>><?php echo $education->post_title; ?></option>
       	<?php } ?>
       </select>
-      </label></p>
+      </label>
+      <a id="education_link" href="<?php echo home_url(); ?>" target="_blank">Başvuracağınız eğitim ile ilgili önkoşulları okudunuz mu?</a>
+    </p>
     <p id="github"><label>Github Hesabınız<br/>
       <input id="user_github" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['github'])) echo $_POST['github']; ?>" name="github"/>
       </label></p>

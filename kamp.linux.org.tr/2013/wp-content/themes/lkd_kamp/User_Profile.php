@@ -28,6 +28,7 @@ if ( is_user_logged_in() ){
     $current_inetd = esc_attr( get_the_author_meta( 'inetd', $user_id ) );
     $current_education = esc_attr( get_the_author_meta( 'education', $user_id ) );
     $current_github = esc_attr( get_the_author_meta( 'github', $user_id ) );
+    $current_notes = esc_attr( get_the_author_meta( 'notes', $user_id ) );
 
 	$meta = get_user_meta($user_id, 'profile');
 	
@@ -78,6 +79,9 @@ if ( is_user_logged_in() ){
                 <li><label for="user_login">Kullanıcı Adı </label><?php if(!empty($current_user->user_login)){ echo $current_user->user_login;} ?></li>
                 <li><label for="user_email">E-posta </label><input type="text" name="USER[user_email]" value="<?php if(!empty($current_user->user_email)){ echo $current_user->user_email;} ?>" /></li>
                 <li><label for="user_pass">Parola </label><input type="password" name="USER[user_pass]" value="" /></li>
+                <li><label for="user_notes">İletmek istediğiniz notlar</label>
+                    <textarea name="META[notes]"><?php  if(!empty($current_notes)){ echo $current_notes;}  ?></textarea>
+                </li>
             </ul>
         </aside>
 		

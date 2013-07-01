@@ -149,6 +149,10 @@ function lkdkamp_show_extra_fields(){
       padding:3px;
       width:97%;
     }
+    form textarea {
+      font-size:16px !important;
+      line-height: 20px;
+    }
     #education_link{
       margin-bottom:10px;
       display: block;
@@ -201,6 +205,9 @@ function lkdkamp_show_extra_fields(){
     <p id="github"><label>Github Hesabınız<br/>
       <input id="user_github" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['github'])) echo $_POST['github']; ?>" name="github"/>
       </label></p>
+    <p><label>İletmek İstedikleriniz<br/>
+      <textarea class="element" tabindex="20" size="25" name="notes"><?php if(isset($_POST['notes'])) echo $_POST['notes']; ?></textarea>
+      </label></p>
     <?php
 }
 
@@ -252,6 +259,7 @@ function lkdkamp_check_fields($login, $email, $errors) {
   $age = $_POST['age'];
   $lkd = $_POST['lkd'];
   $inetd = $_POST['inetd'];
+  $notes = $_POST['notes'];
 
 }
 
@@ -269,6 +277,7 @@ function lkdkamp_register_extra_fields($user_id, $password="", $meta=array())  {
   update_usermeta( $user_id, 'age', $_POST['age'] );
   update_usermeta( $user_id, 'education', $_POST['education'] );
   update_usermeta( $user_id, 'github', $_POST['github'] );
+  update_usermeta( $user_id, 'notes', $_POST['notes'] );
 }
 
 add_action( 'show_user_profile', 'lkdkamp_show_extra_profile_fields' );
@@ -283,6 +292,7 @@ function lkdkamp_show_extra_profile_fields( $user ) {
   $current_age = esc_attr( get_the_author_meta( 'age', $user->ID ) );
   $current_education = esc_attr( get_the_author_meta( 'education', $user->ID ) );
   $current_github = esc_attr( get_the_author_meta( 'github', $user->ID ) );
+  $current_notes = esc_attr( get_the_author_meta( 'notes', $user->ID ) );
     ?>
     <h3>Katılım Formu</h3>
     <table class="form-table">
@@ -347,6 +357,12 @@ function lkdkamp_show_extra_profile_fields( $user ) {
           <input type="text" name="github" id="job" size="10" maxlength="200" value="<?php echo $current_github ?>" class="regular-text" />
         </td>
       </tr>
+      <tr>
+        <th><label for="notes">İletmek İstedikleri</label></th>
+        <td>
+          <textarea name="notes" id="job" size="10" class="regular-text"><?php echo $current_notes ?></textarea>
+        </td>
+      </tr>
     </table>
     <?php
 }
@@ -366,6 +382,7 @@ function lkdkamp_save_extra_profile_fields($user_id) {
   update_usermeta( $user_id, 'age', $_POST['age'] );
   update_usermeta( $user_id, 'education', $_POST['education'] );
   update_usermeta( $user_id, 'github', $_POST['github'] );
+  update_usermeta( $user_id, 'notes', $_POST['notes'] );
 }
 
 function lkdkamp_registration_redirect()

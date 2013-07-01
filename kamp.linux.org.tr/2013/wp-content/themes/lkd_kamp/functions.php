@@ -147,7 +147,7 @@ function lkdkamp_show_extra_fields(){
       <input id="user_job" class="element" type="text" tabindex="20" size="25" maxlength="10" value="<?php if(isset($_POST['job'])) echo $_POST['job']; ?>" name="job"/>
       </label></p>
 <?php $educations_arg = array( 
-	    'post_parent' => 13589,
+	    'post_parent' => 13,
 	    'post_type'   => 'any', 
 	    'numberposts' => -1,
 	    'post_status' => 'any'

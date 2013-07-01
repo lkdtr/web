@@ -95,6 +95,19 @@ function lkdkamp_list_images( $pageid ) {
 	
 }
 
+function lkdkamp_login_logo_replacer() { ?>
+  <style type="text/css">
+  .login h1 a {
+    background-image: url(<?php bloginfo( 'template_url' ); ?>/images/logo.png);
+    background-size: 274px 100px;
+    height:100px;
+  }
+  </style>
+<?php }
+
+add_action('login_form','lkdkamp_login_logo_replacer');
+add_action('lostpassword_form','lkdkamp_login_logo_replacer');
+
 add_action('register_form','lkdkamp_show_extra_fields');
 add_action('register_post','lkdkamp_check_fields',10,3);
 add_action('user_register','lkdkamp_register_extra_fields',10,3);
@@ -146,8 +159,9 @@ function lkdkamp_show_extra_fields(){
     <p><label>Mesleğiniz<br/>
       <input id="user_job" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['job'])) echo $_POST['job']; ?>" name="job"/>
       </label></p>
-<?php $educations_arg = array( 
-	    'post_parent' => 13,
+<?php $educationPage = get_page_by_title( 'Kurslar' );
+      $educations_arg = array( 
+	    'post_parent' => $educationPage->ID,
 	    'post_type'   => 'any', 
 	    'numberposts' => -1,
 	    'post_status' => 'any'
@@ -259,8 +273,9 @@ function lkdkamp_show_extra_profile_fields( $user ) {
       <tr>
         <th><label for="education">Eğitim</label></th>
         <td>
-          <?php $educations_arg = array( 
-          	    'post_parent' => 13,
+          <?php $educationPage = get_page_by_title( 'Kurslar' );
+                $educations_arg = array( 
+          	    'post_parent' => $educationPage->ID,
           	    'post_type'   => 'any', 
           	    'numberposts' => -1,
           	    'post_status' => 'any'
@@ -304,13 +319,13 @@ function lkdkamp_registration_redirect()
 }
 add_filter( 'registration_redirect', 'lkdkamp_registration_redirect' );
 
-function my_login_redirect( $redirect_to, $request, $user ){
+function lkdkamp_login_redirect( $redirect_to, $request, $user ){
     //is there a user to check?
     if( isset( $user->roles ) && is_array( $user->roles ) ) {
         //check for admins
-        if( in_array( "administrator", $user->roles ) ) {
+        if( in_array( "subscriber", $user->roles ) ) {
             // redirect them to the default place
-            return $redirect_to;
+            return home_url( '/basvurum' );
         } else {
             return home_url();
         }
@@ -319,4 +334,9 @@ function my_login_redirect( $redirect_to, $request, $user ){
         return $redirect_to;
     }
 }
-add_filter("login_redirect", "my_login_redirect", 10, 3);
+add_filter("login_redirect", "lkdkamp_login_redirect", 10, 3);
+
+function lkdkamp_hide_admin_bar($content) {
+  return ( current_user_can( 'administrator' ) ) ? $content : false;
+}
+add_filter( 'show_admin_bar' , 'lkdkamp_hide_admin_bar');

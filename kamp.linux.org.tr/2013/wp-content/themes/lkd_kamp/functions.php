@@ -260,7 +260,7 @@ function lkdkamp_show_extra_profile_fields( $user ) {
         <th><label for="education">Eğitim</label></th>
         <td>
           <?php $educations_arg = array( 
-          	    'post_parent' => 13589,
+          	    'post_parent' => 13,
           	    'post_type'   => 'any', 
           	    'numberposts' => -1,
           	    'post_status' => 'any'

@@ -241,19 +241,19 @@ function lkdkamp_show_extra_profile_fields( $user ) {
       <tr>
         <th><label for="telephone">Telefon</label></th>
         <td>
-          <input type="text" name="telephone" id="telephone" size="10" maxlength="10" value="<?php echo $current_telephone ?>" class="regular-text" />
+          <input type="text" name="telephone" id="telephone" size="10" maxlength="200" value="<?php echo $current_telephone ?>" class="regular-text" />
         </td>
       </tr>
       <tr>
         <th><label for="institution">Kurum/Üniversite</label></th>
         <td>
-          <input type="text" name="institution" id="institution" size="10" maxlength="10" value="<?php echo $current_institution ?>" class="regular-text" />
+          <input type="text" name="institution" id="institution" size="10" maxlength="200" value="<?php echo $current_institution ?>" class="regular-text" />
         </td>
       </tr>
       <tr>
         <th><label for="job">Mesleği</label></th>
         <td>
-          <input type="text" name="job" id="job" size="10" maxlength="10" value="<?php echo $current_job ?>" class="regular-text" />
+          <input type="text" name="job" id="job" size="10" maxlength="200" value="<?php echo $current_job ?>" class="regular-text" />
         </td>
       </tr>
       <tr>
@@ -277,7 +277,7 @@ function lkdkamp_show_extra_profile_fields( $user ) {
       <tr>
         <th><label for="github">Github Hesabı</label></th>
         <td>
-          <input type="text" name="github" id="job" size="10" maxlength="10" value="<?php echo $current_github ?>" class="regular-text" />
+          <input type="text" name="github" id="job" size="10" maxlength="200" value="<?php echo $current_github ?>" class="regular-text" />
         </td>
       </tr>
     </table>

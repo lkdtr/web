@@ -144,7 +144,7 @@ function lkdkamp_show_extra_fields(){
       <input id="user_institution" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['institution'])) echo $_POST['institution']; ?>" name="institution"/>
       </label></p>
     <p><label>Mesleğiniz<br/>
-      <input id="user_job" class="element" type="text" tabindex="20" size="25" maxlength="10" value="<?php if(isset($_POST['job'])) echo $_POST['job']; ?>" name="job"/>
+      <input id="user_job" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['job'])) echo $_POST['job']; ?>" name="job"/>
       </label></p>
 <?php $educations_arg = array( 
 	    'post_parent' => 13,
@@ -161,7 +161,7 @@ function lkdkamp_show_extra_fields(){
       </select>
       </label></p>
     <p id="github"><label>Github Hesabınız<br/>
-      <input id="user_github" class="element" type="text" tabindex="20" size="25" maxlength="10" value="<?php if(isset($_POST['github'])) echo $_POST['github']; ?>" name="github"/>
+      <input id="user_github" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['github'])) echo $_POST['github']; ?>" name="github"/>
       </label></p>
     <?php
 }

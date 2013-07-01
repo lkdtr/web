@@ -28,6 +28,8 @@ $USER['ID'] = $user_id;
 		 update_usermeta( $user_id, 'institution', $META['institution'], false );
 		 update_usermeta( $user_id, 'age', $META['age'], false );
 		 update_usermeta( $user_id, 'job', $META['job'], false );
+		 update_usermeta( $user_id, 'lkd', $META['lkd'], false );
+		 update_usermeta( $user_id, 'inetd', $META['inetd'], false );
 		 update_usermeta( $user_id, 'education', $META['education'], false );
 		 update_usermeta( $user_id, 'github', $META['github'], false );
 

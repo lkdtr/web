@@ -216,7 +216,7 @@ function lkdkamp_show_extra_fields(){
         <option value="Herhangi Bir Yurt" <?php if(isset($_POST['place']) && $_POST['place']=="Herhangi Bir Yurt") echo "selected"; ?>>Herhangi Bir Yurt</option>
       </select>
       </label></p>
-    <p><label>İletmek İstedikleriniz<br/>
+    <p><label>Notlar<br/>
       <textarea class="element" tabindex="20" size="25" name="notes"><?php if(isset($_POST['notes'])) echo $_POST['notes']; ?></textarea>
       </label></p>
     <?php

@@ -29,6 +29,7 @@ if ( is_user_logged_in() ){
     $current_education = esc_attr( get_the_author_meta( 'education', $user_id ) );
     $current_github = esc_attr( get_the_author_meta( 'github', $user_id ) );
     $current_notes = esc_attr( get_the_author_meta( 'notes', $user_id ) );
+    $current_place = esc_attr( get_the_author_meta( 'place', $user_id ) );
 
 	$meta = get_user_meta($user_id, 'profile');
 	
@@ -102,10 +103,16 @@ if ( is_user_logged_in() ){
             <?php foreach ($educations as $education) { ?>
                 <option value="<?php echo $education->post_title; ?>" <?php if($current_education==$education->post_title) echo "selected"; ?>><?php echo $education->post_title; ?></option>
             <?php } ?>
-          </select><li>
-          <li><label for="github">Github Hesabı</label><input type="text" name="META[github]" value="<?php  if(!empty($current_github)){ echo $current_github;}  ?>" /></li>
-          <li><label for="lkd">LKD üyesi iseniz üye numaranız</label><input type="text" name="META[lkd]" value="<?php  if(!empty($current_lkd)){ echo $current_lkd;}  ?>" /></li>
-          <li><label for="inetd">INETD üyesi iseniz üye numaranız</label><input type="text" name="META[inetd]" value="<?php  if(!empty($current_inetd)){ echo $current_inetd;}  ?>" /></li>
+        </select><li>
+        <li><label for="github">Github Hesabı</label><input type="text" name="META[github]" value="<?php  if(!empty($current_github)){ echo $current_github;}  ?>" /></li>
+        <li><label for="lkd">LKD üyesi iseniz üye numaranız</label><input type="text" name="META[lkd]" value="<?php  if(!empty($current_lkd)){ echo $current_lkd;}  ?>" /></li>
+        <li><label for="inetd">INETD üyesi iseniz üye numaranız</label><input type="text" name="META[inetd]" value="<?php  if(!empty($current_inetd)){ echo $current_inetd;}  ?>" /></li>
+        <li><label for="place">Yurtta konaklamak istiyor musun?</label>
+          <select id="place" name="META[place]">
+            <option value="Hayır" <?php if($current_place=="Hayır") echo "selected"; ?>>Hayır</option>
+            <option value="Kredi Yurtlar" <?php if($current_place=="Kredi Yurtlar") echo "selected"; ?>>Kredi Yurtlar</option>
+            <option value="Herhangi Bir Yurt" <?php if($current_place=="Herhangi Bir Yurt") echo "selected"; ?>>Herhangi Bir Yurt</option>
+        </select><li>
         </ul>
         </aside>
 

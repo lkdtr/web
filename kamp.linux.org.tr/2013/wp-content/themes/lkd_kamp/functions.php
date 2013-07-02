@@ -209,6 +209,13 @@ function lkdkamp_show_extra_fields(){
     <p id="github"><label>Github Hesabınız<br/>
       <input id="user_github" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['github'])) echo $_POST['github']; ?>" name="github"/>
       </label></p>
+    <p><label>Yurtta konaklamak istiyor musun?<br/>
+      <select id="user_place" class="element" tabindex="20" name="place">
+        <option value="Hayır" <?php if(isset($_POST['place']) && $_POST['place']=="Hayır") echo "selected"; ?>>Hayır</option>
+        <option value="Kredi Yurtlar" <?php if(isset($_POST['place']) && $_POST['place']=="Kredi Yurtlar") echo "selected"; ?>>Kredi Yurtlar</option>
+        <option value="Herhangi Bir Yurt" <?php if(isset($_POST['place']) && $_POST['place']=="Herhangi Bir Yurt") echo "selected"; ?>>Herhangi Bir Yurt</option>
+      </select>
+      </label></p>
     <p><label>İletmek İstedikleriniz<br/>
       <textarea class="element" tabindex="20" size="25" name="notes"><?php if(isset($_POST['notes'])) echo $_POST['notes']; ?></textarea>
       </label></p>
@@ -216,7 +223,7 @@ function lkdkamp_show_extra_fields(){
 }
 
 function lkdkamp_check_fields($login, $email, $errors) {
-  global $firstname, $lastname, $telephone, $institution, $age, $job, $lkd, $inetd, $education, $github, $notes;
+  global $firstname, $lastname, $telephone, $institution, $age, $job, $lkd, $inetd, $education, $github, $notes, $place;
 
   if ($_POST['first'] == '') {
     $errors->add('empty_realname', "<strong>HATA</strong>: Lütfen adınızı yazın.");
@@ -264,6 +271,7 @@ function lkdkamp_check_fields($login, $email, $errors) {
   $lkd = $_POST['lkd'];
   $inetd = $_POST['inetd'];
   $notes = $_POST['notes'];
+  $place = $_POST['place'];
 
 }
 
@@ -282,6 +290,7 @@ function lkdkamp_register_extra_fields($user_id, $password="", $meta=array())  {
   update_usermeta( $user_id, 'education', $_POST['education'] );
   update_usermeta( $user_id, 'github', $_POST['github'] );
   update_usermeta( $user_id, 'notes', $_POST['notes'] );
+  update_usermeta( $user_id, 'place', $_POST['place'] );
 }
 
 add_action( 'show_user_profile', 'lkdkamp_show_extra_profile_fields' );
@@ -297,6 +306,7 @@ function lkdkamp_show_extra_profile_fields( $user ) {
   $current_education = esc_attr( get_the_author_meta( 'education', $user->ID ) );
   $current_github = esc_attr( get_the_author_meta( 'github', $user->ID ) );
   $current_notes = esc_attr( get_the_author_meta( 'notes', $user->ID ) );
+  $current_place = esc_attr( get_the_author_meta( 'place', $user->ID ) );
     ?>
     <h3>Katılım Formu</h3>
     <table class="form-table">
@@ -367,6 +377,16 @@ function lkdkamp_show_extra_profile_fields( $user ) {
           <textarea name="notes" id="job" size="10" class="regular-text"><?php echo $current_notes ?></textarea>
         </td>
       </tr>
+      <tr>
+        <th><label for="place">Eğitim</label></th>
+        <td>
+            <select id="place" name="place">
+              <option value="Hayır" <?php if($current_place=="Hayır") echo "selected"; ?>>Hayır</option>
+              <option value="Kredi Yurtlar" <?php if($current_place=="Kredi Yurtlar") echo "selected"; ?>>Kredi Yurtlar</option>
+              <option value="Herhangi Bir Yurt" <?php if($current_place=="Herhangi Bir Yurt") echo "selected"; ?>>Herhangi Bir Yurt</option>
+            </select>
+        </td>
+      </tr>
     </table>
     <?php
 }
@@ -387,6 +407,7 @@ function lkdkamp_save_extra_profile_fields($user_id) {
   update_usermeta( $user_id, 'education', $_POST['education'] );
   update_usermeta( $user_id, 'github', $_POST['github'] );
   update_usermeta( $user_id, 'notes', $_POST['notes'] );
+  update_usermeta( $user_id, 'place', $_POST['place'] );
 }
 
 function lkdkamp_registration_redirect()

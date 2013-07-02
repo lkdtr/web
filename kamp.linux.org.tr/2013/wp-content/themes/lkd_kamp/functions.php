@@ -118,7 +118,7 @@ function lkdkamp_show_extra_fields(){
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript">
     	jQuery(document).ready(function(){
-    		jQuery(".register").html("Kampa başvurmak için aşağıdaki formu doldurunuz.");
+    		jQuery(".register").html('<strong>KAMP BAŞVURU FORMU</strong><br>Başvurunuzu yapmadan önce lütfen kamp web sitesinden eğitimlerin <a href="<?php echo home_url()."/kurslar";?>" target="_blank">detay programlarını</a> inceleyiniz. <a href="<?php echo home_url()."/sss";?>" target="_blank">Sık Sorulan Sorular</a> bölümünü okuyunuz.');
     		jQuery("p#reg_passmail").html("Başvurunuzu son katılım tarihinden önce güncellemek için e-posta adresinize bir parola gelecektir.");
     		jQuery("#github").hide();
         jQuery("#education_link").attr("href",jQuery('#user_education').find(":selected").attr('detail'));
@@ -160,6 +160,9 @@ function lkdkamp_show_extra_fields(){
     #user_education {
       margin-bottom:6px;
     }
+    html {
+      background: none !important;
+    }
     </style>
     <p><label>Ad<br/>
       <input id="user_first" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['first'])) echo $_POST['first']; ?>" name="first"/>
@@ -200,6 +203,7 @@ function lkdkamp_show_extra_fields(){
       	<?php } ?>
       </select>
       </label>
+      <p style="color:#e6702e;">Sadece 1 eğitime kayıt olabilirsiniz.</p>
       <a id="education_link" href="<?php echo home_url(); ?>" target="_blank">Başvuracağınız eğitim ile ilgili önkoşulları okudunuz mu?</a>
     </p>
     <p id="github"><label>Github Hesabınız<br/>
@@ -212,7 +216,7 @@ function lkdkamp_show_extra_fields(){
 }
 
 function lkdkamp_check_fields($login, $email, $errors) {
-  global $firstname, $lastname, $telephone, $institution, $age, $job, $lkd, $inetd, $education, $github;
+  global $firstname, $lastname, $telephone, $institution, $age, $job, $lkd, $inetd, $education, $github, $notes;
 
   if ($_POST['first'] == '') {
     $errors->add('empty_realname', "<strong>HATA</strong>: Lütfen adınızı yazın.");

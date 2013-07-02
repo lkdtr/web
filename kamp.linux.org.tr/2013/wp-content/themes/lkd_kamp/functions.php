@@ -378,7 +378,7 @@ function lkdkamp_show_extra_profile_fields( $user ) {
         </td>
       </tr>
       <tr>
-        <th><label for="place">Eğitim</label></th>
+        <th><label for="place">Yurtta konaklamak istiyor mu?</label></th>
         <td>
             <select id="place" name="place">
               <option value="Hayır" <?php if($current_place=="Hayır") echo "selected"; ?>>Hayır</option>

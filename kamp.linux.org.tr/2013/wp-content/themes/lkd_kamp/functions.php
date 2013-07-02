@@ -118,7 +118,7 @@ function lkdkamp_show_extra_fields(){
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript">
     	jQuery(document).ready(function(){
-    		jQuery(".register").html('<strong>KAMP BAŞVURU FORMU</strong><br>Başvurunuzu yapmadan önce lütfen kamp web sitesinden eğitimlerin <a href="<?php echo home_url()."/kurslar";?>" target="_blank">detay programlarını</a> inceleyiniz. <a href="<?php echo home_url()."/sss";?>" target="_blank">Sık Sorulan Sorular</a> bölümünü okuyunuz.');
+    		jQuery(".register").html('<strong>KAMP BAŞVURU FORMU</strong><br>Başvurunuzu yapmadan önce lütfen kamp web sitesinden eğitimlerin <a href="<?php echo home_url()."/kurslar";?>" target="_blank">detay programlarını</a> inceleyiniz. <a href="<?php echo home_url()."/sik-sorulan-sorular";?>" target="_blank">Sık Sorulan Sorular</a> bölümünü okuyunuz.');
     		jQuery("p#reg_passmail").html("Başvurunuzu son katılım tarihinden önce güncellemek için e-posta adresinize bir parola gelecektir.");
     		jQuery("#github").hide();
         jQuery("#education_link").attr("href",jQuery('#user_education').find(":selected").attr('detail'));

@@ -27,6 +27,8 @@ if ( is_user_logged_in() ){
     $current_lkd = esc_attr( get_the_author_meta( 'lkd', $user_id ) );
     $current_inetd = esc_attr( get_the_author_meta( 'inetd', $user_id ) );
     $current_education = esc_attr( get_the_author_meta( 'education', $user_id ) );
+    $current_educationTwo = esc_attr( get_the_author_meta( 'educationTwo', $user_id ) );
+    $current_educationThree = esc_attr( get_the_author_meta( 'educationThree', $user_id ) );
     $current_github = esc_attr( get_the_author_meta( 'github', $user_id ) );
     $current_notes = esc_attr( get_the_author_meta( 'notes', $user_id ) );
     $current_place = esc_attr( get_the_author_meta( 'place', $user_id ) );
@@ -80,6 +82,7 @@ if ( is_user_logged_in() ){
                 <li><label for="user_login">Kullanıcı Adı </label><?php if(!empty($current_user->user_login)){ echo $current_user->user_login;} ?></li>
                 <li><label for="user_email">E-posta </label><input type="text" name="USER[user_email]" value="<?php if(!empty($current_user->user_email)){ echo $current_user->user_email;} ?>" /></li>
                 <li><label for="user_pass">Parola </label><input type="password" name="USER[user_pass]" value="" /></li>
+                <li><label for="github">Github Hesabı</label><input type="text" name="META[github]" value="<?php  if(!empty($current_github)){ echo $current_github;}  ?>" /></li>
                 <li><label for="user_notes">İletmek istediğiniz notlar</label>
                     <textarea name="META[notes]"><?php  if(!empty($current_notes)){ echo $current_notes;}  ?></textarea>
                 </li>
@@ -104,7 +107,20 @@ if ( is_user_logged_in() ){
                 <option value="<?php echo $education->post_title; ?>" <?php if($current_education==$education->post_title) echo "selected"; ?>><?php echo $education->post_title; ?></option>
             <?php } ?>
         </select><li>
-        <li><label for="github">Github Hesabı</label><input type="text" name="META[github]" value="<?php  if(!empty($current_github)){ echo $current_github;}  ?>" /></li>
+        <li><label for="educationTwo">Eğitim için varsa 2. Tercihiniz</label>
+          <select id="educationTwo" name="META[educationTwo]">
+            <option value="">Yok</option>
+            <?php foreach ($educations as $educationTwo) { ?>
+                <option value="<?php echo $educationTwo->post_title; ?>" <?php if($current_educationTwo==$educationTwo->post_title) echo "selected"; ?>><?php echo $educationTwo->post_title; ?></option>
+            <?php } ?>
+        </select><li>
+        <li><label for="educationThree">Eğitim için varsa 3. Tercihiniz</label>
+          <select id="educationThree" name="META[educationThree]">
+            <option value="">Yok</option>
+            <?php foreach ($educations as $educationThree) { ?>
+                <option value="<?php echo $educationThree->post_title; ?>" <?php if($current_educationThree==$educationThree->post_title) echo "selected"; ?>><?php echo $educationThree->post_title; ?></option>
+            <?php } ?>
+        </select><li>
         <li><label for="lkd">LKD üyesi iseniz üye numaranız</label><input type="text" name="META[lkd]" value="<?php  if(!empty($current_lkd)){ echo $current_lkd;}  ?>" /></li>
         <li><label for="inetd">INETD üyesi iseniz üye numaranız</label><input type="text" name="META[inetd]" value="<?php  if(!empty($current_inetd)){ echo $current_inetd;}  ?>" /></li>
         <li><label for="place">Yurtta konaklamak istiyor musun?</label>

@@ -31,6 +31,8 @@ $USER['ID'] = $user_id;
 		 update_usermeta( $user_id, 'lkd', $META['lkd'], false );
 		 update_usermeta( $user_id, 'inetd', $META['inetd'], false );
 		 update_usermeta( $user_id, 'education', $META['education'], false );
+		 update_usermeta( $user_id, 'educationTwo', $META['educationTwo'], false );
+		 update_usermeta( $user_id, 'educationThree', $META['educationThree'], false );
 		 update_usermeta( $user_id, 'github', $META['github'], false );
 		 update_usermeta( $user_id, 'notes', $META['notes'], false );
 		 update_usermeta( $user_id, 'place', $META['place'], false );

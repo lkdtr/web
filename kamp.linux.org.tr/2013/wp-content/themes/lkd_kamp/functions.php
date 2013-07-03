@@ -122,11 +122,11 @@ function lkdkamp_show_extra_fields(){
     		jQuery("p#reg_passmail").html("Başvurunuzu son katılım tarihinden önce güncellemek için e-posta adresinize bir parola gelecektir.");
     		jQuery("#github").hide();
         jQuery("#education_link").attr("href",jQuery('#user_education').find(":selected").attr('detail'));
-    		if(jQuery("#user_education").val().indexOf("Java")!=-1) jQuery("#github").show();
-        jQuery('#user_education').change(function(){
+    		if(jQuery("#user_education").val().indexOf("Java")!=-1 || jQuery("#user_educationTwo").val().indexOf("Java")!=-1 || jQuery("#user_educationThree").val().indexOf("Java")!=-1) jQuery("#github").show();
+        jQuery('.education').change(function(){
           jQuery("#github").hide();
-          if(jQuery('#user_education').val().indexOf("Java")!=-1) jQuery("#github").show();
-          jQuery("#education_link").attr("href",jQuery(this).find(":selected").attr('detail'));
+          if(jQuery("#user_education").val().indexOf("Java")!=-1 || jQuery("#user_educationTwo").val().indexOf("Java")!=-1 || jQuery("#user_educationThree").val().indexOf("Java")!=-1) jQuery("#github").show();
+          jQuery("#education_link").attr("href",jQuery("#user_education").find(":selected").attr('detail'));
         });
     	});
     </script>
@@ -197,7 +197,7 @@ function lkdkamp_show_extra_fields(){
 	);
 	$educations = get_children($educations_arg); ?>
     <p><label>Katılmak İstediginiz Eğitim<br/>
-      <select id="user_education" class="element" tabindex="20" name="education">
+      <select id="user_education" class="element education" tabindex="20" name="education">
       	<?php foreach ($educations as $education) { ?>
       		<option detail="<?php echo home_url().'/'.$education->post_name; ?>" value="<?php echo $education->post_title; ?>" <?php if(isset($_POST['education']) && $_POST['education']==$education->post_title) echo "selected"; ?>><?php echo $education->post_title; ?></option>
       	<?php } ?>
@@ -205,6 +205,24 @@ function lkdkamp_show_extra_fields(){
       </label>
       <p style="color:#e6702e;">Sadece 1 eğitime kayıt olabilirsiniz.</p>
       <a id="education_link" href="<?php echo home_url(); ?>" target="_blank">Başvuracağınız eğitim ile ilgili önkoşulları okudunuz mu?</a>
+    </p>
+    <p><label>Eğitim için varsa 2. Tercihiniz<br/>
+      <select id="user_educationTwo" class="element education" tabindex="20" name="educationTwo">
+        <option value="">Yok</option>
+        <?php foreach ($educations as $educationTwo) { ?>
+          <option detail="<?php echo home_url().'/'.$educationTwo->post_name; ?>" value="<?php echo $educationTwo->post_title; ?>" <?php if(isset($_POST['educationTwo']) && $_POST['educationTwo']==$educationTwo->post_title) echo "selected"; ?>><?php echo $educationTwo->post_title; ?></option>
+        <?php } ?>
+      </select>
+      </label>
+    </p>
+    <p><label>Eğitim için varsa 3. Tercihiniz<br/>
+      <select id="user_educationThree" class="element education" tabindex="20" name="educationThree">
+        <option value="">Yok</option>
+        <?php foreach ($educations as $educationThree) { ?>
+          <option detail="<?php echo home_url().'/'.$educationThree->post_name; ?>" value="<?php echo $educationThree->post_title; ?>" <?php if(isset($_POST['educationThree']) && $_POST['educationThree']==$educationThree->post_title) echo "selected"; ?>><?php echo $educationThree->post_title; ?></option>
+        <?php } ?>
+      </select>
+      </label>
     </p>
     <p id="github"><label>Github Hesabınız<br/>
       <input id="user_github" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['github'])) echo $_POST['github']; ?>" name="github"/>
@@ -223,7 +241,7 @@ function lkdkamp_show_extra_fields(){
 }
 
 function lkdkamp_check_fields($login, $email, $errors) {
-  global $firstname, $lastname, $telephone, $institution, $age, $job, $lkd, $inetd, $education, $github, $notes, $place;
+  global $firstname, $lastname, $telephone, $institution, $age, $job, $lkd, $inetd, $education, $educationTwo, $educationThree, $github, $notes, $place;
 
   if ($_POST['first'] == '') {
     $errors->add('empty_realname', "<strong>HATA</strong>: Lütfen adınızı yazın.");
@@ -261,7 +279,7 @@ function lkdkamp_check_fields($login, $email, $errors) {
     $job = $_POST['education'];
   }
 
-  if ($_POST['github'] == '' && stristr($_POST['education'], "Java")!==FALSE) {
+  if ($_POST['github'] == '' && (stristr($_POST['education'], "Java")!==FALSE || stristr($_POST['educationTwo'], "Java")!==FALSE || stristr($_POST['educationThree'], "Java")!==FALSE)) {
     $errors->add('empty_realname', "<strong>HATA</strong>: Github hesabınızı doldurmadınız.");
   } else {
     $job = $_POST['github'];
@@ -272,6 +290,8 @@ function lkdkamp_check_fields($login, $email, $errors) {
   $inetd = $_POST['inetd'];
   $notes = $_POST['notes'];
   $place = $_POST['place'];
+  $educationTwo = $_POST['educationTwo'];
+  $educationThree = $_POST['educationThree'];
 
 }
 
@@ -288,6 +308,8 @@ function lkdkamp_register_extra_fields($user_id, $password="", $meta=array())  {
   update_usermeta( $user_id, 'inetd', $_POST['inetd'] );
   update_usermeta( $user_id, 'age', $_POST['age'] );
   update_usermeta( $user_id, 'education', $_POST['education'] );
+  update_usermeta( $user_id, 'educationTwo', $_POST['educationTwo'] );
+  update_usermeta( $user_id, 'educationThree', $_POST['educationThree'] );
   update_usermeta( $user_id, 'github', $_POST['github'] );
   update_usermeta( $user_id, 'notes', $_POST['notes'] );
   update_usermeta( $user_id, 'place', $_POST['place'] );
@@ -304,6 +326,8 @@ function lkdkamp_show_extra_profile_fields( $user ) {
   $current_inetd = esc_attr( get_the_author_meta( 'inetd', $user->ID ) );
   $current_age = esc_attr( get_the_author_meta( 'age', $user->ID ) );
   $current_education = esc_attr( get_the_author_meta( 'education', $user->ID ) );
+  $current_educationTwo = esc_attr( get_the_author_meta( 'educationTwo', $user->ID ) );
+  $current_educationThree = esc_attr( get_the_author_meta( 'educationThree', $user->ID ) );
   $current_github = esc_attr( get_the_author_meta( 'github', $user->ID ) );
   $current_notes = esc_attr( get_the_author_meta( 'notes', $user->ID ) );
   $current_place = esc_attr( get_the_author_meta( 'place', $user->ID ) );
@@ -366,6 +390,28 @@ function lkdkamp_show_extra_profile_fields( $user ) {
         </td>
       </tr>
       <tr>
+        <th><label for="educationTwo">2. Tercihi</label></th>
+        <td>
+            <select id="educationTwo" name="educationTwo">
+              <option value="">Yok</option>
+              <?php foreach ($educations as $educationTwo) { ?>
+                <option value="<?php echo $educationTwo->post_title; ?>" <?php if($current_educationTwo==$educationTwo->post_title) echo "selected"; ?>><?php echo $educationTwo->post_title; ?></option>
+              <?php } ?>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <th><label for="educationThree">3. Tercihi</label></th>
+        <td>
+            <select id="educationThree" name="educationThree">
+              <option value="">Yok</option>
+              <?php foreach ($educations as $educationThree) { ?>
+                <option value="<?php echo $educationThree->post_title; ?>" <?php if($current_educationThree==$educationThree->post_title) echo "selected"; ?>><?php echo $educationThree->post_title; ?></option>
+              <?php } ?>
+            </select>
+        </td>
+      </tr>
+      <tr>
         <th><label for="github">Github Hesabı</label></th>
         <td>
           <input type="text" name="github" id="job" size="10" maxlength="200" value="<?php echo $current_github ?>" class="regular-text" />
@@ -405,6 +451,8 @@ function lkdkamp_save_extra_profile_fields($user_id) {
   update_usermeta( $user_id, 'inetd', $_POST['inetd'] );
   update_usermeta( $user_id, 'age', $_POST['age'] );
   update_usermeta( $user_id, 'education', $_POST['education'] );
+  update_usermeta( $user_id, 'educationTwo', $_POST['educationTwo'] );
+  update_usermeta( $user_id, 'educationThree', $_POST['educationThree'] );
   update_usermeta( $user_id, 'github', $_POST['github'] );
   update_usermeta( $user_id, 'notes', $_POST['notes'] );
   update_usermeta( $user_id, 'place', $_POST['place'] );

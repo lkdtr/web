@@ -258,6 +258,16 @@ article form aside {
 	float:left;
 }
 
+article form aside#submitButton {
+	width:10% !important;
+}
+
+article form aside#submitButton input {
+	width:100%;
+	height:100%;
+	white-space: pre-wrap;
+}
+
 /* counter */
 
 .counter {

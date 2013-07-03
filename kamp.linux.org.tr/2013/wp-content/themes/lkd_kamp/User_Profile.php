@@ -116,9 +116,9 @@ if ( is_user_logged_in() ){
         </ul>
         </aside>
 
+        <aside id="submitButton"><input type="submit" value="Başvurumu Güncelle" name="submit"/></aside>
+
         <div class="clear"></div>
-		
-		<div align="center"><input type="submit" value="Başvurumu Güncelle" name="submit"/></div>
         
 	</form>
     </ul>

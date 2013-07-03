@@ -193,7 +193,9 @@ function lkdkamp_show_extra_fields(){
 	    'post_parent' => $educationPage->ID,
 	    'post_type'   => 'any', 
 	    'numberposts' => -1,
-	    'post_status' => 'any'
+	    'post_status' => 'any',
+      'orderby' => 'menu_order',
+      'order' => 'ASC'
 	);
 	$educations = get_children($educations_arg); ?>
     <p><label>Katılmak İstediginiz Eğitim<br/>
@@ -378,7 +380,9 @@ function lkdkamp_show_extra_profile_fields( $user ) {
           	    'post_parent' => $educationPage->ID,
           	    'post_type'   => 'any', 
           	    'numberposts' => -1,
-          	    'post_status' => 'any'
+          	    'post_status' => 'any',
+                'orderby' => 'menu_order',
+                'order' => 'ASC'
           	);
           	$educations = get_children($educations_arg); ?>
             <select id="education" name="education">

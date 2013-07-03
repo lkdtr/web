@@ -98,7 +98,9 @@ if ( is_user_logged_in() ){
                 'post_parent' => $educationPage->ID,
                 'post_type'   => 'any', 
                 'numberposts' => -1,
-                'post_status' => 'any'
+                'post_status' => 'any',
+                'orderby' => 'menu_order',
+                'order' => 'ASC'
             );
             $educations = get_children($educations_arg); ?>
           <select id="education" name="META[education]">

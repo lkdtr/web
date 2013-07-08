@@ -4,12 +4,7 @@
 <footer>
 	<aside>
 		<div id="twitter">
-			<?php $sontweetial=simplexml_load_file("https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=linuxyazkampi");
-			$sontweet=$sontweetial->channel->item[0]->title;
-			$sontweet_trimmed = str_replace("linuxyazkampi: ", "",$sontweet); // her tweet'in basinda gelen ifadeleri kirpalim
-			$sontweet_trimmed = str_replace("LinuxYazKampi:", "", $sontweet_trimmed); // her tweet'in basinda gelen ifadeleri kirpalim
-			$sontweet_trimmed = str_replace("#lyk2012", "", $sontweet_trimmed); // hashtagi de kirpalim ?>
-			<a href="https://twitter.com/linuxyazkampi" target="_blank"><?php echo $sontweet_trimmed; ?></a>
+			<?php dynamic_sidebar('tweets'); ?>
 		</div>
 		<ul id="social">
 			<li><a href="http://tuxweet.linux.org.tr/linuxyazkampi" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/tuxweet_logo.png" /></a></li>

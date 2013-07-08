@@ -31,6 +31,15 @@ function lkdkamp_widgets_init() {
 		'after_title' => '</h2>',
 	) );
 
+  register_sidebar( array(
+    'name' => __( 'Tweets', 'lkd_kamp' ),
+    'id' => 'tweets',
+    'before_widget' => '',
+    'after_widget' => "",
+    'before_title' => '<h2 style="display:none">',
+    'after_title' => '</h2>',
+  ) );
+
 }
 add_action( 'widgets_init', 'lkdkamp_widgets_init' );
 

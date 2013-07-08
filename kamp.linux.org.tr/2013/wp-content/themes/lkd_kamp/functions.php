@@ -179,6 +179,9 @@ function lkdkamp_show_extra_fields(){
     <p><label>Kurum/Üniversite<br/>
       <input id="user_institution" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['institution'])) echo $_POST['institution']; ?>" name="institution"/>
       </label></p>
+    <p><label>Bölüm<br/>
+      <input id="user_section" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['section'])) echo $_POST['section']; ?>" name="section"/>
+      </label></p>
     <p><label>Mesleğiniz<br/>
       <input id="user_job" class="element" type="text" tabindex="20" size="25" value="<?php if(isset($_POST['job'])) echo $_POST['job']; ?>" name="job"/>
       </label></p>
@@ -243,7 +246,7 @@ function lkdkamp_show_extra_fields(){
 }
 
 function lkdkamp_check_fields($login, $email, $errors) {
-  global $firstname, $lastname, $telephone, $institution, $age, $job, $lkd, $inetd, $education, $educationTwo, $educationThree, $github, $notes, $place;
+  global $firstname, $lastname, $telephone, $institution, $section, $age, $job, $lkd, $inetd, $education, $educationTwo, $educationThree, $github, $notes, $place;
 
   if ($_POST['first'] == '') {
     $errors->add('empty_realname', "<strong>HATA</strong>: Lütfen adınızı yazın.");
@@ -287,6 +290,7 @@ function lkdkamp_check_fields($login, $email, $errors) {
     $job = $_POST['github'];
   }
 
+  $section = $_POST['section'];
   $age = $_POST['age'];
   $lkd = $_POST['lkd'];
   $inetd = $_POST['inetd'];
@@ -305,6 +309,7 @@ function lkdkamp_register_extra_fields($user_id, $password="", $meta=array())  {
   wp_update_user($userdata);
   update_usermeta( $user_id, 'telephone', $_POST['telephone'] );
   update_usermeta( $user_id, 'institution', $_POST['institution'] );
+  update_usermeta( $user_id, 'section', $_POST['section'] );
   update_usermeta( $user_id, 'job', $_POST['job'] );
   update_usermeta( $user_id, 'lkd', $_POST['lkd'] );
   update_usermeta( $user_id, 'inetd', $_POST['inetd'] );
@@ -323,6 +328,7 @@ add_action( 'edit_user_profile', 'lkdkamp_show_extra_profile_fields' );
 function lkdkamp_show_extra_profile_fields( $user ) {
   $current_telephone = esc_attr( get_the_author_meta( 'telephone', $user->ID ) );
   $current_institution = esc_attr( get_the_author_meta( 'institution', $user->ID ) );
+  $current_section = esc_attr( get_the_author_meta( 'section', $user->ID ) );
   $current_job = esc_attr( get_the_author_meta( 'job', $user->ID ) );
   $current_lkd = esc_attr( get_the_author_meta( 'lkd', $user->ID ) );
   $current_inetd = esc_attr( get_the_author_meta( 'inetd', $user->ID ) );
@@ -352,6 +358,12 @@ function lkdkamp_show_extra_profile_fields( $user ) {
         <th><label for="institution">Kurum/Üniversite</label></th>
         <td>
           <input type="text" name="institution" id="institution" size="10" maxlength="200" value="<?php echo $current_institution ?>" class="regular-text" />
+        </td>
+      </tr>
+      <tr>
+        <th><label for="section">Bölüm</label></th>
+        <td>
+          <input type="text" name="section" id="section" size="10" maxlength="200" value="<?php echo $current_section ?>" class="regular-text" />
         </td>
       </tr>
       <tr>
@@ -450,6 +462,7 @@ function lkdkamp_save_extra_profile_fields($user_id) {
   }
   update_usermeta( $user_id, 'telephone', $_POST['telephone'] );
   update_usermeta( $user_id, 'institution', $_POST['institution'] );
+  update_usermeta( $user_id, 'section', $_POST['section'] );
   update_usermeta( $user_id, 'job', $_POST['job'] );
   update_usermeta( $user_id, 'lkd', $_POST['lkd'] );
   update_usermeta( $user_id, 'inetd', $_POST['inetd'] );

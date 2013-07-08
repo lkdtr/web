@@ -26,6 +26,7 @@ $USER['ID'] = $user_id;
 		  //update our META data
 		 update_usermeta( $user_id, 'telephone', $META['telephone'], false );
 		 update_usermeta( $user_id, 'institution', $META['institution'], false );
+		 update_usermeta( $user_id, 'section', $META['section'], false );
 		 update_usermeta( $user_id, 'age', $META['age'], false );
 		 update_usermeta( $user_id, 'job', $META['job'], false );
 		 update_usermeta( $user_id, 'lkd', $META['lkd'], false );

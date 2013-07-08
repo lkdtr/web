@@ -22,6 +22,7 @@ if ( is_user_logged_in() ){
 
     $current_telephone = esc_attr( get_the_author_meta( 'telephone', $user_id ) );
     $current_institution = esc_attr( get_the_author_meta( 'institution', $user_id ) );
+    $current_section = esc_attr( get_the_author_meta( 'section', $user_id ) );
     $current_age = esc_attr( get_the_author_meta( 'age', $user_id ) );
     $current_job = esc_attr( get_the_author_meta( 'job', $user_id ) );
     $current_lkd = esc_attr( get_the_author_meta( 'lkd', $user_id ) );
@@ -72,6 +73,7 @@ if ( is_user_logged_in() ){
                 <li><label for="age">Yaşınız</label><input type="text" name="META[age]" value="<?php  if(!empty($current_age)){ echo $current_age;}  ?>" /></li>
                 <li><label for="telephone">Telefon</label><input type="text" name="META[telephone]" value="<?php  if(!empty($current_telephone)){ echo $current_telephone;}  ?>" /></li>
                 <li><label for="institution">Kurum/Üniversite</label><input type="text" name="META[institution]" value="<?php  if(!empty($current_institution)){ echo $current_institution;}  ?>" /></li>
+                <li><label for="section">Bölüm</label><input type="text" name="META[section]" value="<?php  if(!empty($current_section)){ echo $current_section;}  ?>" /></li>
                 <li><label for="job">Meslek</label><input type="text" name="META[job]" value="<?php  if(!empty($current_job)){ echo $current_job;}  ?>" /></li>
             </ul>
         </aside>

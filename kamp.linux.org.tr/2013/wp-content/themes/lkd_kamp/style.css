@@ -221,10 +221,13 @@ footer aside #twitter {
 	padding:3px 37px 0 10px;
 	text-align:right;
 	float:right;
+	font-size:11px;
+	line-height: 16px;
+	color: #333;
 }
 
 footer aside #twitter a {
-	color:#535353;
+	color:#333;
 	text-decoration:none;
 	font-style:italic;
 	font-size:11px;

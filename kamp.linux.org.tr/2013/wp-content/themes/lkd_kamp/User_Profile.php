@@ -38,14 +38,20 @@ if ( is_user_logged_in() ){
 	
 	//check if the submit button was pressed
 	if (isset($_POST['submit'])) {
-	   //email validation
-	   if(is_email($_POST['USER']['user_email'])){
-	   //if yes, call to update the data	     
-	     update_data($user_id,$redirect);	
-		 //if email is invalid, tell the user   
-	   } else {
-        $message .= 'Gecersiz%20E-posta:%20'.$_POST['USER']['user_email'];
-        //wp_safe_redirect( home_url().$redirect.'&update='.$message ); ?>
+        if((stristr($_POST['META']['education'], "Java") || 
+            stristr($_POST['META']['educationTwo'], "Java") || 
+            stristr($_POST['META']['educationThree'], "Java")) &&
+            (!$_POST['META']['github'])) {
+            $message .= 'Guncelleme%20Basarisiz%20Github%20Hesabinizi%20Girin';
+       }
+
+       if(!is_email($_POST['USER']['user_email'])) {
+            $message .= 'Gecersiz%20E-posta';
+        }
+
+        if(empty($message)) {
+            update_data($user_id,$redirect);
+        } else { ?>
         <script type="text/javascript">
         <!--
             window.location= <?php echo "'" . home_url().$redirect.'?update='.$message . "'"; ?>;
@@ -59,7 +65,7 @@ if ( is_user_logged_in() ){
 ?>  <div style="float:right;"><a href="<?php echo wp_logout_url( home_url() ); ?>">Çıkış Yap</a></div>
     <h1>Başvurum</h1>
 	<?php if(!empty($_GET['update'])){ ?>
-    <div style="color: #fff; background: #E6702E; width: 100%; padding: 5px; font-weight: bold; text-align: center; font-size: 11px; margin: 0 0 10px 0;">
+    <div style="color: #fff; background: <?php if(stristr($_GET['update'], "Basarili")) echo '#E6702E'; else echo '#990000'; ?>; width: 100%; padding: 5px; font-weight: bold; text-align: center; font-size: 11px; margin: 0 0 10px 0;">
         <?php echo $_GET['update']; ?>
     </div>
     <?php }//let the user know if data is updated ?>

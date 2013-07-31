@@ -63,7 +63,6 @@ if ( is_user_logged_in() ){
            }
         }
     }
-}
 
 ?>  <div style="float:right;"><a href="<?php echo wp_logout_url( home_url() ); ?>">Çıkış Yap</a></div>
     <h1>Başvurum</h1>

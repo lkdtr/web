@@ -7,9 +7,10 @@ Template Name: Custom_Profiler
 
 <article>
 
-<?php
+<?php $formkapa = "kapa";
+
 //load the function that updates the data
-require_once (TEMPLATEPATH . '/Profile/profile.php');
+if($formkapa!="kapa") require_once (TEMPLATEPATH . '/Profile/profile.php');
 
 //check if the user is logged in
 if ( is_user_logged_in() ){
@@ -37,30 +38,32 @@ if ( is_user_logged_in() ){
 	$meta = get_user_meta($user_id, 'profile');
 	
 	//check if the submit button was pressed
-	if (isset($_POST['submit'])) {
-        if((stristr($_POST['META']['education'], "Java") || 
-            stristr($_POST['META']['educationTwo'], "Java") || 
-            stristr($_POST['META']['educationThree'], "Java")) &&
-            (!$_POST['META']['github'])) {
-            $message .= 'Guncelleme%20Basarisiz%20Github%20Hesabinizi%20Girin';
-       }
+	if($formkapa!="kapa") {
+        if (isset($_POST['submit'])) {
+            if((stristr($_POST['META']['education'], "Java") || 
+                stristr($_POST['META']['educationTwo'], "Java") || 
+                stristr($_POST['META']['educationThree'], "Java")) &&
+                (!$_POST['META']['github'])) {
+                $message .= 'Guncelleme%20Basarisiz%20Github%20Hesabinizi%20Girin';
+           }
 
-       if(!is_email($_POST['USER']['user_email'])) {
-            $message .= 'Gecersiz%20E-posta';
+           if(!is_email($_POST['USER']['user_email'])) {
+                $message .= 'Gecersiz%20E-posta';
+            }
+
+            if(empty($message)) {
+                update_data($user_id,$redirect);
+            } else { ?>
+            <script type="text/javascript">
+            <!--
+                window.location= <?php echo "'" . home_url().$redirect.'?update='.$message . "'"; ?>;
+            //-->
+            </script>
+            <?php
+           }
         }
-
-        if(empty($message)) {
-            update_data($user_id,$redirect);
-        } else { ?>
-        <script type="text/javascript">
-        <!--
-            window.location= <?php echo "'" . home_url().$redirect.'?update='.$message . "'"; ?>;
-        //-->
-        </script>
-        <?php
-       }
-
-	 }
+    }
+}
 
 ?>  <div style="float:right;"><a href="<?php echo wp_logout_url( home_url() ); ?>">Çıkış Yap</a></div>
     <h1>Başvurum</h1>
@@ -74,13 +77,13 @@ if ( is_user_logged_in() ){
         <aside>
             <strong>Kişisel Bilgiler</strong>
             <ul>		
-                <li><label for="first_name">Ad </label><input type="text" name="USER[first_name]" value="<?php if(!empty($current_user->user_firstname)){ echo $current_user->user_firstname;} ?>" /></li>
-        		<li><label for="last_name">Soyad </label><input type="text" name="USER[last_name]" value="<?php if(!empty($current_user->user_lastname)){ echo $current_user->user_lastname;} ?>" /></li>
-                <li><label for="age">Yaşınız</label><input type="text" name="META[age]" value="<?php  if(!empty($current_age)){ echo $current_age;}  ?>" /></li>
-                <li><label for="telephone">Telefon</label><input type="text" name="META[telephone]" value="<?php  if(!empty($current_telephone)){ echo $current_telephone;}  ?>" /></li>
-                <li><label for="institution">Kurum/Üniversite</label><input type="text" name="META[institution]" value="<?php  if(!empty($current_institution)){ echo $current_institution;}  ?>" /></li>
-                <li><label for="section">Bölüm</label><input type="text" name="META[section]" value="<?php  if(!empty($current_section)){ echo $current_section;}  ?>" /></li>
-                <li><label for="job">Meslek</label><input type="text" name="META[job]" value="<?php  if(!empty($current_job)){ echo $current_job;}  ?>" /></li>
+                <li><label for="first_name">Ad </label><input type="text" <?php if($formkapa=="kapa") echo "disabled"; ?> name="USER[first_name]" value="<?php if(!empty($current_user->user_firstname)){ echo $current_user->user_firstname;} ?>" /></li>
+        		<li><label for="last_name">Soyad </label><input type="text" <?php if($formkapa=="kapa") echo "disabled"; ?> name="USER[last_name]" value="<?php if(!empty($current_user->user_lastname)){ echo $current_user->user_lastname;} ?>" /></li>
+                <li><label for="age">Yaşınız</label><input type="text" <?php if($formkapa=="kapa") echo "disabled"; ?> name="META[age]" value="<?php  if(!empty($current_age)){ echo $current_age;}  ?>" /></li>
+                <li><label for="telephone">Telefon</label><input type="text" <?php if($formkapa=="kapa") echo "disabled"; ?> name="META[telephone]" value="<?php  if(!empty($current_telephone)){ echo $current_telephone;}  ?>" /></li>
+                <li><label for="institution">Kurum/Üniversite</label><input <?php if($formkapa=="kapa") echo "disabled"; ?> type="text" name="META[institution]" value="<?php  if(!empty($current_institution)){ echo $current_institution;}  ?>" /></li>
+                <li><label for="section">Bölüm</label><input type="text" <?php if($formkapa=="kapa") echo "disabled"; ?> name="META[section]" value="<?php  if(!empty($current_section)){ echo $current_section;}  ?>" /></li>
+                <li><label for="job">Meslek</label><input type="text" <?php if($formkapa=="kapa") echo "disabled"; ?> name="META[job]" value="<?php  if(!empty($current_job)){ echo $current_job;}  ?>" /></li>
             </ul>
         </aside>
         
@@ -88,11 +91,11 @@ if ( is_user_logged_in() ){
             <strong>Erişim Bilgileri</strong>
             <ul>
                 <li><label for="user_login">Kullanıcı Adı </label><?php if(!empty($current_user->user_login)){ echo $current_user->user_login;} ?></li>
-                <li><label for="user_email">E-posta </label><input type="text" name="USER[user_email]" value="<?php if(!empty($current_user->user_email)){ echo $current_user->user_email;} ?>" /></li>
+                <li><label for="user_email">E-posta </label><input type="text" <?php if($formkapa=="kapa") echo "disabled"; ?> name="USER[user_email]" value="<?php if(!empty($current_user->user_email)){ echo $current_user->user_email;} ?>" /></li>
                 <li><label for="user_pass">Parola </label><input type="password" name="USER[user_pass]" value="" /></li>
-                <li><label for="github">Github Hesabı</label><input type="text" name="META[github]" value="<?php  if(!empty($current_github)){ echo $current_github;}  ?>" /></li>
+                <li><label for="github">Github Hesabı</label><input type="text" <?php if($formkapa=="kapa") echo "disabled"; ?> name="META[github]" value="<?php  if(!empty($current_github)){ echo $current_github;}  ?>" /></li>
                 <li><label for="user_notes">İletmek istediğiniz notlar</label>
-                    <textarea name="META[notes]"><?php  if(!empty($current_notes)){ echo $current_notes;}  ?></textarea>
+                    <textarea <?php if($formkapa=="kapa") echo "disabled"; ?> name="META[notes]"><?php  if(!empty($current_notes)){ echo $current_notes;}  ?></textarea>
                 </li>
             </ul>
         </aside>
@@ -111,30 +114,30 @@ if ( is_user_logged_in() ){
                 'order' => 'ASC'
             );
             $educations = get_children($educations_arg); ?>
-          <select id="education" name="META[education]">
+          <select <?php if($formkapa=="kapa") echo "disabled"; ?> id="education" name="META[education]">
             <option value="">Hiçbiri</option>
             <?php foreach ($educations as $education) { ?>
                 <option value="<?php echo $education->post_title; ?>" <?php if($current_education==$education->post_title) echo "selected"; ?>><?php echo $education->post_title; ?></option>
             <?php } ?>
         </select><li>
         <li><label for="educationTwo">Eğitim için varsa 2. Tercihiniz</label>
-          <select id="educationTwo" name="META[educationTwo]">
+          <select <?php if($formkapa=="kapa") echo "disabled"; ?> id="educationTwo" name="META[educationTwo]">
             <option value="">Yok</option>
             <?php foreach ($educations as $educationTwo) { ?>
                 <option value="<?php echo $educationTwo->post_title; ?>" <?php if($current_educationTwo==$educationTwo->post_title) echo "selected"; ?>><?php echo $educationTwo->post_title; ?></option>
             <?php } ?>
         </select><li>
         <li><label for="educationThree">Eğitim için varsa 3. Tercihiniz</label>
-          <select id="educationThree" name="META[educationThree]">
+          <select <?php if($formkapa=="kapa") echo "disabled"; ?> id="educationThree" name="META[educationThree]">
             <option value="">Yok</option>
             <?php foreach ($educations as $educationThree) { ?>
                 <option value="<?php echo $educationThree->post_title; ?>" <?php if($current_educationThree==$educationThree->post_title) echo "selected"; ?>><?php echo $educationThree->post_title; ?></option>
             <?php } ?>
         </select><li>
-        <li><label for="lkd">LKD üyesi iseniz üye numaranız</label><input type="text" name="META[lkd]" value="<?php  if(!empty($current_lkd)){ echo $current_lkd;}  ?>" /></li>
-        <li><label for="inetd">INETD üyesi iseniz üye numaranız</label><input type="text" name="META[inetd]" value="<?php  if(!empty($current_inetd)){ echo $current_inetd;}  ?>" /></li>
+        <li><label for="lkd">LKD üyesi iseniz üye numaranız</label><input <?php if($formkapa=="kapa") echo "disabled"; ?> type="text" name="META[lkd]" value="<?php  if(!empty($current_lkd)){ echo $current_lkd;}  ?>" /></li>
+        <li><label for="inetd">INETD üyesi iseniz üye numaranız</label><input <?php if($formkapa=="kapa") echo "disabled"; ?> type="text" name="META[inetd]" value="<?php  if(!empty($current_inetd)){ echo $current_inetd;}  ?>" /></li>
         <li><label for="place">Yurtta konaklamak istiyor musun?</label>
-          <select id="place" name="META[place]">
+          <select <?php if($formkapa=="kapa") echo "disabled"; ?> id="place" name="META[place]">
             <option value="Hayır" <?php if($current_place=="Hayır") echo "selected"; ?>>Hayır</option>
             <option value="Kredi Yurtlar" <?php if($current_place=="Kredi Yurtlar") echo "selected"; ?>>Kredi Yurtlar</option>
             <option value="Herhangi Bir Yurt" <?php if($current_place=="Herhangi Bir Yurt") echo "selected"; ?>>Herhangi Bir Yurt</option>
@@ -142,7 +145,7 @@ if ( is_user_logged_in() ){
         </ul>
         </aside>
 
-        <aside id="submitButton"><input type="submit" value="Başvurumu Güncelle" name="submit"/></aside>
+        <aside id="submitButton"><input <?php if($formkapa=="kapa") echo "disabled"; ?> type="submit" value="<?php if($formkapa=="kapa") echo "Son Başvuru Tarihi Dolmuştur. Başvurunuzu inceleyip en kısa sürede size geri dönüş yapacağız."; else echo "Başvurumu Güncelle"; ?>" name="submit"/></aside>
 
         <div class="clear"></div>
         

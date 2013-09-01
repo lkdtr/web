@@ -1,0 +1,56 @@
+#splash {
+	overflow:hidden;
+	background:#fff url(../images/owtg2013teaser.png) no-repeat top center;
+}
+section {
+	width:900px;
+	margin:auto;
+}
+aside {
+	width:160px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background:#955f97;
+	float:right;
+	color:#44b1cc;
+	font-family: 'MyriadPro-Regular';
+	padding-bottom:10px;
+}
+aside h1{
+	font-family: 'MyriadPro-Bold';
+	color:#fff;
+	text-align:center;
+	background: #505050;
+	width:100%;
+	padding:5px 0;
+}
+
+aside ul {
+	padding:5px;
+}
+
+aside ul li {
+	float:left;
+	margin:0 3px;
+}
+
+aside ul li a {
+	color:#fff;
+	padding-right:5px;
+}
+
+aside ul li a:hover {
+	text-decoration: none;
+}
+
+aside ul li:first-child {
+	margin-left:10px;
+}
+
+aside ul li:after {
+	content: "-";
+}
+
+aside ul li:last-child:after {
+	content: "";
+}

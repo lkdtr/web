@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?> style="background:#000; !important">
+<html <?php language_attributes(); ?> id="splash">
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php
@@ -23,7 +23,10 @@
 		echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
 
 	?></title>
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/fontface.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/splash.css" />
 
 <!--[if ff]>
 <style type="text/css" media="screen"> @import "<?php bloginfo('template_url'); ?>/css/firefox.css";</style>
@@ -38,12 +41,18 @@
 
 </head>
 
-<body style="background:#000; overflow:hidden;">
-<?php the_post(); ?>
+<body>
 
-<div style="margin:auto; width:900px;">
-	<?php the_content(); ?>
-</div>
+<section>
+	<aside>
+		<h1>Geçmiş Etkinlikler</h1>
+		<ul>
+			<li><a href="../2012">2012</a></li>
+			<li><a href="../2011">2011</a></li>
+			<li><a href="../2010">2010</a></li>
+		</ul>
+	</aside>
+</section>
 
 <?php wp_footer(); ?>
 

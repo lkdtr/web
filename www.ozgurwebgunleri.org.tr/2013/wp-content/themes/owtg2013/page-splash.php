@@ -35,7 +35,7 @@
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="http://tuxweet.linux.org.tr/rss/username:ozgurwebgunleri" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-<link rel="image_src" href="<?php bloginfo('template_url'); ?>/images/owtg2011social.jpg" />
+<link rel="image_src" href="<?php bloginfo('template_url'); ?>/images/owtg2013social.png" />
 
 <?php wp_head(); ?>
 

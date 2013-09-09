@@ -1,7 +1,7 @@
 /*
-Theme Name: Özgür Web Günleri 2012
+Theme Name: Özgür Web Günleri 2013
 Theme URI: http://lkd.org.tr/
-Description: Ozgur Web Gunleri 2012 teması
+Description: Ozgur Web Gunleri 2013 teması
 Author: Umuthan Uyan
 Version: 1.0
 License: GNU General Public License
@@ -232,10 +232,12 @@ article ul li {
 }
 
 article a {
-	background: url(images/turquaz.png) repeat;
-	color:#fff;
+	/* bunlari http://ozgurwebgunleri.org.tr/2013/basvuru/ sayfasinda linkler duzgun gozuksun diye kaldirdim. */
+	/* tekrar acarken ilgili sayfayi kontrol etmek lazim */
+	/* background: url(images/turquaz.png) repeat; */
+	/* color:#fff; */
 	text-decoration: none;
-	padding: 1px 3px;
+	/* padding: 1px 3px; */
 }
 
 article a:hover {

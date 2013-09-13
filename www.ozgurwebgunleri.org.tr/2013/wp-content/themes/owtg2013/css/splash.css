@@ -8,8 +8,6 @@ section {
 }
 aside {
 	width:160px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
 	background:#955f97;
 	float:right;
 	color:#44b1cc;
@@ -24,14 +22,33 @@ aside h1{
 	width:100%;
 	padding:5px 0;
 }
-
+aside#bottom h1{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+aside#top {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+aside#bottom {
+	width:200px;
+	position: fixed;
+	bottom:0;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
 aside ul {
 	padding:5px;
 }
 
-aside ul li {
+aside ul.vertical li {
 	float:left;
 	margin:0 3px;
+}
+
+aside ul.horizontal li {
+	text-align: center;
+	margin:2px 0;
 }
 
 aside ul li a {
@@ -47,10 +64,10 @@ aside ul li:first-child {
 	margin-left:10px;
 }
 
-aside ul li:after {
+aside ul.vertical li:after {
 	content: "-";
 }
 
-aside ul li:last-child:after {
+aside ul.vertical li:last-child:after {
 	content: "";
 }

@@ -44,12 +44,20 @@
 <body>
 
 <section>
-	<aside>
+	<aside id="top">
 		<h1>Geçmiş Etkinlikler</h1>
-		<ul>
+		<ul class="vertical">
 			<li><a href="../2012">2012</a></li>
 			<li><a href="../2011">2011</a></li>
 			<li><a href="../2010">2010</a></li>
+		</ul>
+	</aside>
+	<aside id="bottom">
+		<h1>Web Sitemiz Hazırlanıyor.</h1>
+		<ul class="horizontal">
+			<li><a href="/2013/wp-content/uploads/ozgur_web_teknolojileri_gunleri_2013_sponsorluk_dosyasi_web.pdf">Sponsor Dosyası</a></li>
+			<li><a href="/2013/etkin-katilim-cagrisi">Etkin Katılım Çağrısı</a></li>
+			<li><a href="/2013/basvuru">Başvuru Formu</a></li>
 		</ul>
 	</aside>
 </section>

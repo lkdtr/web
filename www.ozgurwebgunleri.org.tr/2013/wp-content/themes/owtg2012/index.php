@@ -4,7 +4,7 @@
 
 <?php $sidebarVisible=get_post_custom_values('sidebar', get_the_ID());?>
 
-	<h1><?php if(!is_front_page()) : the_title(); else: echo "19-20 Ekim"; endif; ?></h1>
+	<h1><?php if(!is_front_page()) : the_title(); else: echo "22-23 Kasım"; endif; ?></h1>
 
 	</header>
 

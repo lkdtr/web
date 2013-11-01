@@ -55,9 +55,9 @@
 	<aside id="bottom">
 		<h1>Web Sitemiz Hazırlanıyor.</h1>
 		<ul class="horizontal">
-			<li><a href="/2013/wp-content/uploads/ozgur_web_teknolojileri_gunleri_2013_sponsorluk_dosyasi_web.pdf">Sponsor Dosyası</a></li>
-			<li><a href="/2013/etkin-katilim-cagrisi">Etkin Katılım Çağrısı</a></li>
-			<li><a href="/2013/basvuru">Başvuru Formu</a></li>
+			<li><a href="/2013a/wp-content/uploads/ozgur_web_teknolojileri_gunleri_2013_sponsorluk_dosyasi_web.pdf">Sponsor Dosyası</a></li>
+			<li><a href="/2013a/etkin-katilim-cagrisi">Etkin Katılım Çağrısı</a></li>
+			<li><a href="/2013a/basvuru">Başvuru Formu</a></li>
 		</ul>
 	</aside>
 </section>

@@ -61,6 +61,15 @@ piwikTracker.enableLinkTracking();
 </script><noscript><p><img src="http://istatistik.linux.org.tr/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
 <!-- End Piwik Tracking Code -->
 
+<script src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script src='<?php echo get_template_directory_uri(); ?>/js/foundation.js'></script>
+
+<script>
+  $(function() {
+    jQuery(document).foundation();
+  });
+</script>
+
 </head>
 <body>
 <div id="genislik">

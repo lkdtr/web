@@ -35,7 +35,6 @@ piwikTracker.enableLinkTracking();
         <a href="<?php bloginfo('siteurl'); ?>">
           <img class="logo" src="<?php bloginfo('template_url'); ?>/images/logo.png" />
         </a>
-        <?php include 'banner.php'; ?>
       </div>
       <?php include 'menu.php'; ?>
     </div>

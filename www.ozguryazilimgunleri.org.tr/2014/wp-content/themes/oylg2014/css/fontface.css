@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'keytinregular';
+    src: url('../fonts/keytin-light-webfont.eot');
+    src: url('../fonts/keytin-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/keytin-light-webfont.woff') format('woff'),
+         url('../fonts/keytin-light-webfont.ttf') format('truetype'),
+         url('../fonts/keytin-light-webfont.svg#keytinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AllerRegular';
+    src: url('../fonts/allerwebfont.eot');
+    src: url('../fonts/allerwebfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/allerwebfont.woff') format('woff'),
+         url('../fonts/allerwebfont.ttf') format('truetype'),
+         url('../fonts/allerwebfont.svg#AllerRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

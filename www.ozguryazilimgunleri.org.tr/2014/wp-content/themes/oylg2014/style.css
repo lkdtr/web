@@ -111,7 +111,8 @@ section h2 {
 
 section h3 {
 	font-size:42px;
-	text-align: center;
+	text-align: left;
+	margin-top:20px;
 }
 
 article .entry .right {

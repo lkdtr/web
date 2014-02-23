@@ -44,7 +44,7 @@
 <meta property="og:url" content="<?php bloginfo( 'url' ); ?>"/>
 <meta property="og:image" content="<?php bloginfo( 'template_url' ); ?>/images/social_share.png"/>
 <meta property="og:site_name" content="<?php bloginfo( 'name' ); ?>"/>
-<meta property="og:description" content="Özgür Yazılım ve Linux Günleri 5-6 Nisan tarihlerinde İstanbul Bilgi Üniversitesi Santral Kampüsünde!"/>
+<meta property="og:description" content="Özgür Yazılım ve Linux Günleri 28-29 Mart tarihlerinde İstanbul Bahçeşehir Üniversitesi'nde!"/>
 
 <?php wp_head(); ?>
 

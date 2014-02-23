@@ -102,10 +102,22 @@ aside.front-page .blogroll li {
 	margin-left:10px;
 }
 
+.xoxo.blogroll li {
+    text-align: center;
+}
+
 .sponsorlar.front-page {
 	margin-left: 220px;
     margin-top: -50px;
     position: absolute;
+}
+
+.sponsorlar h2 {
+    background: url(images/sponsorlar_title.png) no-repeat;
+    height: 23px;
+    margin: 0 0 0 20px;
+    text-indent: -5000px;
+    width: 120px;
 }
 
 .sponsorlar.front-page h2 {
@@ -113,8 +125,6 @@ aside.front-page .blogroll li {
     float: left;
     height: 119px;
     margin: 10px 10px 0;
-    overflow: hidden;
-    text-indent: -5000px;
     width: 12px;
 }
 

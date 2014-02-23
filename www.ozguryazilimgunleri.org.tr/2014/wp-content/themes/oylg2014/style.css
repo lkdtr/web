@@ -13,18 +13,18 @@ Tags: blue, green, organic, white, gray, lkd, fixed-width
 @import url("css/fontface.css");
 
 html {
-	background:#14212a;
+	background:#e99f1a;
 }
 
 body {
-	color:#14212a;
+	color:#484347;
 	font-family:"AllerRegular", Arial;
 	font-size:13px;
-	background:#f3f3f3 url(images/body_bg.png) fixed repeat-x top center;
+	background:#f4f4ea url(images/body_bg.png) no-repeat top center;
 }
 
 a {
-	color:#2d2d2d;
+	color:#484347;
 	text-decoration:underline;
 }
 
@@ -40,72 +40,135 @@ em {
 	font-style: italic;
 }
 
-#wrapper {
-	width: 1000px;
-	margin:auto;
-}
-
-section {
-	width:765px;
-	float:right;
-}
-
 header {
-	width:220px;
-	float:left;
+	width: 960px;
+	margin:auto;
+	height:253px;
+	background: url(images/menu_bg.png) no-repeat 70px 90px;
 }
 
 header #logo {
-	width:225px;
+	width:227px;
+	float:left;
 }
 
-#navBackground {
-	width:780px;
-	margin:auto;
+header #organization {
+	float:right;
+	width:733px;
+	background: url(images/organization_bg.png) no-repeat right top;
+	padding-bottom:15px;
+	margin-top:10px;
+}
+
+header #organization li {
+	float:right;
+	margin-top:25px;
+}
+
+header #organization li:last-child {
+	margin-right:20px;
 }
 
 nav {
-	float: right;
-    margin: 0;
+	float: left;
+    width:733px;
 }
 
 nav li{
-	margin:0 6px;
-	background:#b7e070;
+	margin:6px 6px;
 	float:left;
 }
 
 nav li:hover a {
-	color:#fff;
-	background: #45616d;
+	color:#484347;
+	background: #f4f4ea;
 }
 
 nav li a {
 	display:block;
-	font-family:"keytinregular", Arial;
-	font-size:38px;
-	color:#2d2d2d;
-	background: #b7e070;
+	font-family:"aller_displayregular", Arial;
+	font-size:22px;
+	color:#f4f4ea;
 	text-decoration:none;
 	padding:5px 8px;
 	text-transform: uppercase;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family:"keytinregular";
+	font-family:"aller_displayregular";
+}
+
+.okuz {
+	background: url(images/okuz.png) no-repeat center top;
+	width:95px;
+	height:107px;
+	position: absolute;
+	margin-top:-47px;
+	margin-left:450px;
+}
+
+.penguen {
+	background: url(images/penguenler.png) no-repeat center top;
+	height: 58px;
+    margin-left: 663px;
+    margin-top: -30px;
+    position: absolute;
+    width: 140px;
+}
+
+.gri {
+	background:#484347;
+	width:100%;
+	margin-top:50px;
+	color:#f4f4ea;
+	padding-bottom: 10px;
+}
+
+.turuncu {
+	background:#e99f1a;
+	width:100%;
+	margin-top:50px;
+	color:#f4f4ea;
+	padding-bottom: 10px;
+}
+
+section .kutu {
+	padding:10px;
+	float:left;
+	width:auto;
+}
+
+section .kutu h2 {
+	position:absolute;
+	margin-top:-37px;
+	color:#484347;
+}
+
+section {
+	width:960px;
+	margin:auto;
+}
+
+section aside#leftSidebar {
+	float:left;
+	width:200px;
+	margin-left:20px;
+}
+
+section article {
+	float:right;
+	width:720px;
+	margin-top:-120px;
 }
 
 section h1 {
-	font-family:"keytinregular", Arial;
-	color:#14212a;
-	text-align:right;
+	font-family:"aller_displayregular", Arial;
+	color:#e99f1a;
 	font-size: 55px;
-    margin: -5px 0 0 5px;
 }
 
-
 section h2 {
-	font-size:37px;
+	font-size:24px;
 	margin:5px 0 -5px 0;
 }
 
@@ -143,121 +206,79 @@ article pre {
 	background:#ccc;
 }
 
-aside {
-	width:800px;
-	margin:auto;
-	background: url(images/divider.png) no-repeat top center;
-	padding-top:35px;
-	text-align:center;
-}
-
-aside div {
-	float:left;
-}
-
-aside div#place {
-	background:url(images/place.png) no-repeat left 6px;
-	height:65px;
-	width:190px;
-	padding:20px 0 0 0;
-	font-family: "keytinregular";
-	text-align: right;
-	font-size: 26px;
-	margin-right: 50px;
-}
-
-aside div#place span {
-	display: block;
-	margin-top:-5px;
-	font-size:20px;
-}
-
-aside div#twitter {
-	background:url(images/twitter.png) no-repeat left top;
-	height:85px;
-	width:300px;
-	padding-left:105px;
-	text-align:left;
-	margin-right:20px;
-	font-style: italic;
-}
-
-aside div#twitter p {
-	padding-top:25px;
-	display: block;
-}
-
-aside div#twitter a {
-	text-decoration: underline;
-}
-
-aside div#twitter a:hover {
-	text-decoration: none;
-}
-
-aside div#share {
-	background: url(images/share.png) no-repeat left top;
-	width:198px;
-	height:86px;
-}
-
-aside ul.blogroll {
-	width:760px;
-	margin:auto;
-}
-
-aside ul.blogroll:first-of-type{
-	float: left;
-    height: 220px;
-    margin-left: 5px;
-    width: 195px;
-}
-
-aside ul.blogroll:first-of-type li {
-	margin-top:10px;
-	border-right:1px dashed #CCCCCC;
-	float:none;
-	padding:0 4px !important;
-}
-
-aside ul.blogroll:first-of-type li:last-child {
-	margin-top:10px;
-}
-
-aside ul.blogroll:first-of-type li:last-child img {
-	padding-top:30px;
-	padding-bottom:10px;
-}
-
-aside ul.blogroll li {
-	float:left;
-	padding:0 13px;
-	margin:-15px 0;
-}
-
-#organization {
-	width:184px;
-	padding:10px 0 0 0;
-	text-align: center;
-}
-
-#organization li:first-child {
-	margin-left:40px;
-}
-
-#organization li {
-	margin:5px 0;
-}
-
 footer {
-	background:url(images/html_bg.png) repeat-x center bottom;
-	height:164px;
+	width:960px;
+	margin:auto;
+	height:100px;
 }
 
-footer aside {
-	width:870px;
-	padding-left:35px;
-	background-position:45px 0;
+footer #twitter, footer #countdown {
+	float:left;
+}
+
+footer #countdown {
+	width:255px;
+	font-family: "aller_displayregular";
+	padding-left:40px;
+}
+
+footer #countdown h2 {
+	text-align: left;
+	padding-left:10px;
+}
+
+footer #countdown .circle {
+	background: url(images/countdown.png) no-repeat center top;
+	width:58px;
+	text-align: center;
+	font-size: 28px;
+	padding-top: 12px;
+	float: left;
+	margin:10px 5px 0 5px;
+}
+
+footer #countdown .circle span {
+	display: block;
+	font-size:16px;
+	padding-top: 12px;
+	color: #484347;
+}
+
+footer #twitter {
+	background: url(images/twitter_bg.png) no-repeat;
+	color: #484347;
+    font-size: 11px;
+    height: 52px;
+    padding: 25px 5px 0;
+    text-align: center;
+    width: 344px;
+    margin: 22px 0 0px 25px;
+}
+
+footer #twitter .rotatingtweets .rtw_main {
+	width:345px !important;
+}
+
+footer #shareNfollow {
+	float:right;
+}
+
+footer #shareNfollow #share, footer #shareNfollow #follow {
+	float:left;
+	margin:0 10px;
+}
+
+footer #shareNfollow a {
+	display: block;
+	float:left;
+	margin:10px 5px 0 5px;
+}
+
+footer h2 {
+	color: #484347;
+	font-size: 20px;
+    margin-top: -25px;
+    text-align: center;
 }
 
 .rotatingtweet {
@@ -288,7 +309,7 @@ table.program tr td strong {
 }
 
 table.program tr td.date {
-	font-family: "keytinregular";
+	font-family: "aller_displayregular";
 	font-size:45px;
 	background: #14212a;
 	color:#fff;

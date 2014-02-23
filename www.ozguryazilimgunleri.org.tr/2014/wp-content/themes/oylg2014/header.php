@@ -52,33 +52,19 @@
 
 <body>
 
-<div id="wrapper">
-
 <header id="head">
-	<ul id="organization">
-		<li class="lkd"><a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/lkd.png" /></a></li>
-		<li class="university"><a href="http://www.bahcesehir.edu.tr/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/istanbulbilgi.png" /></a></li>
-	</ul>
 	<div id="logo"><a href="<?php bloginfo( 'url' ); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" alt="<?php echo bloginfo( 'name' ); ?>" title="<?php echo bloginfo( 'name' ); ?>" /></a></div>
+	<ul id="organization">
+		<li class="university"><a href="http://www.bahcesehir.edu.tr/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/bau.png" /></a></li>
+		<li class="lkd"><a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/lkd.png" /></a></li>
+	</ul>
+	<nav><?php wp_nav_menu(); ?></nav>
 </header>
+
+<div class="clear"></div>
 
 <section>
 
-	<nav><?php wp_nav_menu(); ?></nav>
-
-	<div class="clear"></div>
-
-	<?php global $post;
-	$sidebarVisible=get_post_custom_values('sidebar', get_the_ID());
-
-	if($sidebarVisible[0]!="hide") { ?>
-
-		<aside>
-			<?php dynamic_sidebar('header'); ?>
-		</aside>
-
-		<div class="clear"></div>
-
-		<aside></aside>
-
-	<?php } ?>
+	<aside id="leftSidebar">
+		<?php dynamic_sidebar('header'); ?>
+	</aside>

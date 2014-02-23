@@ -30,8 +30,8 @@
 				<span>dakika</span>
 			</div>
 		</div>
-		<div id="share">
-			<h2>sponsor dosyasi</h2>
+		<div id="sponsorluk">
+			<h2>sponsorluk</h2>
 			<a href="http://www.ozguryazilimgunleri.org.tr/2014/wp-content/uploads/ozgur_yazilim_ve_linux_gunleri_2014_sponsorluk_dosyasi_tr_web.pdf" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/sponsor.png" /></a>
 		</div>
 		<div id="twitter">

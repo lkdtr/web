@@ -98,13 +98,17 @@ h1, h2, h3, h4, h5, h6 {
 	font-family:"aller_displayregular";
 }
 
+.blogroll {
+	position: absolute;
+}
+
 .okuz {
 	background: url(images/okuz.png) no-repeat center top;
 	width:95px;
 	height:107px;
 	position: absolute;
 	margin-top:-47px;
-	margin-left:450px;
+	margin-left:510px;
 }
 
 .penguen {
@@ -136,10 +140,6 @@ section .kutu {
 	padding:10px;
 	float:left;
 	width:auto;
-}
-
-section .kutu li {
-	margin: 5px 0;
 }
 
 section .kutu h2 {
@@ -183,17 +183,7 @@ section h3 {
 	margin-top:20px;
 }
 
-article .entry .right {
-	text-align: right;
-}
-
-article .entry ul.right li {
-	padding-right:6px;
-	padding-left:0;
-	background-position: right 4px;
-}
-
-article .entry li {
+section li {
 	background:url(images/li.png) no-repeat 0 4px;
 	padding-left:6px;
 	margin:5px 0;

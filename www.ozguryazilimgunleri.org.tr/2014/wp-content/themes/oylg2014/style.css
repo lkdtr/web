@@ -75,7 +75,7 @@ nav {
 }
 
 nav li{
-	margin:6px 6px;
+	margin:6px 0;
 	float:left;
 }
 
@@ -87,11 +87,11 @@ nav li:hover a {
 nav li a {
 	display:block;
 	font-family:"aller_displayregular", Arial;
-	font-size:22px;
 	color:#f4f4ea;
 	text-decoration:none;
-	padding:5px 8px;
 	text-transform: uppercase;
+	font-size: 17.5px;
+    padding: 8px 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {

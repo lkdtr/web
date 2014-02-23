@@ -48,7 +48,7 @@
 			<div id="follow">
 				<h2>Takip Et</h2>
 					<a href="https://www.facebook.com/events/375066242634913" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/facebook.png" /></a>
-					<a href="https://twitter.com/Ozgryazlmgunleri" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/twitter.png" /></a>
+					<a href="https://twitter.com/Ozgryzlmgunleri" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/twitter.png" /></a>
 			</div>
 			<div class="clear"></div>
 		</div>

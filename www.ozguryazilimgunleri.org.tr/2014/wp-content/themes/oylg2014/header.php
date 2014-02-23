@@ -65,6 +65,9 @@
 
 <section>
 
-	<aside id="leftSidebar<?php if(is_front_page()) echo " front-page";?>">
+	<aside id="leftSidebar">
 		<?php dynamic_sidebar('header'); ?>
+		<div class="sponsorlar<?php if(is_front_page()) echo " front-page";?>">
+			<?php dynamic_sidebar('left'); ?>
+		</div>
 	</aside>

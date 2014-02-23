@@ -32,6 +32,15 @@ function oylg2013_widgets_init() {
 	) );
 
 	register_sidebar( array(
+		'name' => __( 'Left', 'oylg2013' ),
+		'id' => 'left',
+		'before_widget' => '',
+		'after_widget' => "",
+		'before_title' => '<h2>',
+		'after_title' => '</h2>',
+	) );
+
+	register_sidebar( array(
 		'name' => __( 'Footer', 'oylg2013' ),
 		'id' => 'footer',
 		'before_widget' => '',

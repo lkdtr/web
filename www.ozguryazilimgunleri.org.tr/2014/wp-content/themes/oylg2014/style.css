@@ -102,6 +102,27 @@ aside.front-page .blogroll li {
 	margin-left:10px;
 }
 
+.sponsorlar.front-page {
+	margin-left: 220px;
+    margin-top: -50px;
+    position: absolute;
+}
+
+.sponsorlar.front-page h2 {
+    background: url(images/sponsorlar_title_fp.png) no-repeat;
+    float: left;
+    height: 119px;
+    margin: 10px 10px 0;
+    overflow: hidden;
+    text-indent: -5000px;
+    width: 12px;
+}
+
+.front-page .blogroll {
+    float: left;
+    margin-top: 10px;
+}
+
 .okuz {
 	background: url(images/okuz.png) no-repeat center top;
 	width:95px;
@@ -123,7 +144,7 @@ aside.front-page .blogroll li {
 .gri {
 	background:#484347;
 	width:100%;
-	margin-top:250px;
+	margin-top:260px;
 	color:#f4f4ea;
 	padding-bottom: 10px;
 }

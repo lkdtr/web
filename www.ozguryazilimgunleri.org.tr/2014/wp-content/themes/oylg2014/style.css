@@ -138,6 +138,10 @@ section .kutu {
 	width:auto;
 }
 
+section .kutu li {
+	margin: 5px 0;
+}
+
 section .kutu h2 {
 	position:absolute;
 	margin-top:-37px;

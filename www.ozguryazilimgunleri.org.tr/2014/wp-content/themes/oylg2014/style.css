@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 	height:107px;
 	position: absolute;
 	margin-top:-47px;
-	margin-left:510px;
+	margin-left:525px;
 }
 
 .penguen {
@@ -212,9 +212,19 @@ footer #twitter, footer #countdown {
 }
 
 footer #countdown {
-	width:255px;
+	width:205px;
 	font-family: "aller_displayregular";
-	padding-left:40px;
+}
+
+footer #sponsorluk {
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+}
+
+footer #sponsorluk a {
+	display: block;
+    margin-top: 10px;
 }
 
 footer #countdown h2 {
@@ -241,13 +251,13 @@ footer #countdown .circle span {
 
 footer #twitter {
 	background: url(images/twitter_bg.png) no-repeat;
-	color: #484347;
+    color: #484347;
     font-size: 11px;
     height: 52px;
+    margin: 22px 0 0 30px;
     padding: 25px 5px 0;
     text-align: center;
     width: 344px;
-    margin: 22px 0 0px 25px;
 }
 
 footer #twitter .rotatingtweets .rtw_main {

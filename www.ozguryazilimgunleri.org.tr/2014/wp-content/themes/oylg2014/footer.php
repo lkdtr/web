@@ -40,7 +40,10 @@
 		<div id="shareNfollow">
 			<div id="share">
 				<h2>Paylaş</h2>
-					<a href="https://twitter.com/Ozgryzlmgunleri" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/share.png" /></a>
+					<!-- AddToAny BEGIN -->
+					<a class="a2a_dd" href="http://www.addtoany.com/share_save"><img src="<?php bloginfo( 'template_url' ); ?>/images/share.png" /></a>
+					<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+					<!-- AddToAny END -->
 			</div>
 			<div id="follow">
 				<h2>Takip Et</h2>

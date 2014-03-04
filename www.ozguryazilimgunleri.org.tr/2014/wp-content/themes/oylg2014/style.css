@@ -106,9 +106,14 @@ aside.front-page .blogroll li {
     text-align: center;
 }
 
+.sponsorlar.front-page li {
+	float:left;
+	margin-right:10px;
+}
+
 .sponsorlar.front-page {
 	margin-left: 220px;
-    margin-top: -50px;
+    margin-top: 95px;
     position: absolute;
 }
 

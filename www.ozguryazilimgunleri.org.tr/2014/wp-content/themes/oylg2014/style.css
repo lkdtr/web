@@ -376,3 +376,58 @@ table.program tr td.break {
 	color:#2d2d2d;
 	padding-top:5px;
 }
+
+/* Etkinlik 2014 Tablosu */
+
+table.program_2014 {
+	border:solid 1px #14212a;
+	margin-bottom:30px;
+}
+
+
+/*table.program_2014 tr:nth-child(even) td {
+	background: #fff;
+}*/
+
+
+table.program_2014 tr td {
+	padding:0 5px 5px 5px;
+	border:dashed 1px #14212a;
+	
+}
+
+table.program_2014 tr:hover{
+	background: rgb(230,230,230);
+	color:black;
+}
+
+table.program_2014 tr td strong {
+	margin-top:5px;
+	display:inline-block;
+}
+
+table.program_2014 tr td.date {
+	font-family: "aller_displayregular";
+	font-size:45px;
+	background: #14212a;
+	color:#fff;
+	padding-top:5px;
+}
+
+table.program_2014 tr td.time {
+	font-size:10px;
+	padding-top:5px;
+}
+
+table.program_2014 tr td.saloon {
+	font-size:16px;
+	background:rgb(233, 159, 26);
+	color:white;
+	padding-top:5px;
+}
+
+table.program_2014 tr td.break {
+	font-size:16px;
+	background:rgb(233, 159, 26);
+	color:white;
+	padding-top:5px;

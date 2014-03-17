@@ -388,18 +388,19 @@ table.program tr td.break {
 table.program_2014 {
 	border:solid 1px #14212a;
 	margin-bottom:30px;
+    width: 100%;
 }
 
-
-/*table.program_2014 tr:nth-child(even) td {
-	background: #fff;
-}*/
 
 
 table.program_2014 tr td {
 	padding:0 5px 5px 5px;
 	border:dashed 1px #14212a;
 	
+}
+
+table.program_2014 tr td:not(.time):not(.saloon) {
+    width: 50%;
 }
 
 table.program_2014 tr:hover{

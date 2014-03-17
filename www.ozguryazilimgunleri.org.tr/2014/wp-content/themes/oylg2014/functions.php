@@ -17,7 +17,9 @@ function oylg2013_page_menu_args( $args ) {
 	$args['show_home'] = false;
 	return $args;
 }
+
 add_filter( 'wp_page_menu_args', 'oylg2013_page_menu_args' );
+
 
 /* register sidebars */
 function oylg2013_widgets_init() {
@@ -27,7 +29,7 @@ function oylg2013_widgets_init() {
 		'id' => 'header',
 		'before_widget' => '',
 		'after_widget' => "",
-		'before_title' => '<h2 style="display:none">',
+		'before_title' => '<h2>',
 		'after_title' => '</h2>',
 	) );
 

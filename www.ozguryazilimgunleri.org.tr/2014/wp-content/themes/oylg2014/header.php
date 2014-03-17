@@ -54,20 +54,26 @@
 
 <header id="head">
 	<div id="logo"><a href="<?php bloginfo( 'url' ); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" alt="<?php echo bloginfo( 'name' ); ?>" title="<?php echo bloginfo( 'name' ); ?>" /></a></div>
-	<ul id="organization">
-		<li class="university"><a href="http://www.bahcesehir.edu.tr/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/bau.png" /></a></li>
-		<li class="lkd"><a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/lkd.png" /></a></li>
-	</ul>
+    <div class="logo">
+        <ul id="sponsorlar">
+            <li> <?php dynamic_sidebar('header'); ?></li>
+            <li> <?php dynamic_sidebar('left'); ?></li>
+        </ul>
+     </div>
+     <div class="logo">
+        <h2 style="font-size:18px; margin-top:5px;">organizasyon</h2>
+        <ul id="organization">
+        <li class="university"><a href="http://www.bahcesehir.edu.tr/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/bau.png" /></a></li>
+        <li class="lkd"><a href="http://www.lkd.org.tr" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/lkd.png" /></a></li>
+        </ul>
+     </div>
+	</div>
 	<nav><?php wp_nav_menu(); ?></nav>
-</header>
+
+	</header>
 
 <div class="clear"></div>
-
+    
 <section>
 
-	<aside id="leftSidebar">
-		<?php dynamic_sidebar('header'); ?>
-		<div class="sponsorlar<?php if(is_front_page()) echo " front-page";?>">
-			<?php dynamic_sidebar('left'); ?>
-		</div>
-	</aside>
+	

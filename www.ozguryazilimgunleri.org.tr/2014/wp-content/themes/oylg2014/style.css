@@ -79,7 +79,7 @@ header #organization li:last-child {
 }
 
 nav {
-    width:733px;
+    float:left;
 }
 
 nav li{

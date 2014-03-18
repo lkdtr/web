@@ -8,25 +8,23 @@
 	<footer>
 		<div id="countdown">
 			<h2>etkinliğe geri sayim</h2>
-			<?php   //Convert to date
-					$datestr="2014-03-28 09:00:00";//Your date
-					$date=strtotime($datestr);//Converted to a PHP date (a second count)
-
-					//Calculate difference
-					$diff=$date-time();//time returns current time in seconds
-					$days=floor($diff/(60*60*24));//seconds/minute*minutes/hour*hours/day)
-					$hours=round(($diff-$days*60*60*24)/(60*60));
-					$minutes=round(($diff-$hours*60*60*24)/(60*60*60)); ?>
+			<?php  
+                   $tarih = strtotime("March 28, 2014 09:00 AM");
+                   $kalan = $tarih - time();
+                   $gun = floor($kalan / 86400);
+                   $saat = floor(($kalan % 86400) / 3600);
+                   $dakika = floor(($kalan % 3600) / 60);
+			?>
 			<div class="circle">
-				<?php echo $days; ?>
+				<?php echo $gun; ?>
 				<span>gün</span>
 			</div>
 			<div class="circle">
-				<?php echo $hours; ?>
+				<?php echo $saat; ?>
 				<span>saat</span>
 			</div>
 			<div class="circle">
-				<?php echo $minutes; ?>
+				<?php echo $dakika; ?>
 				<span>dakika</span>
 			</div>
 		</div>

@@ -83,7 +83,7 @@ nav {
 }
 
 nav li{
-	margin:6px 0;
+	margin:5px 0 6px 0;
 	float:left;
 }
 
@@ -123,7 +123,7 @@ aside.front-page .blogroll li {
 .penguen {
 	background: url(images/penguenler.png) no-repeat center top;
 	height: 58px;
-    margin-left: 695px;
+    margin-left: 667px;
     margin-top: -30px;
     position: absolute;
     width: 140px;

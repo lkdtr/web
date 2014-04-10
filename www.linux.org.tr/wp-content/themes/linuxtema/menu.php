@@ -4,7 +4,6 @@
       <a href="#">Daha Fazla Linux</a>
       <ul>
         <li><a href="<?php bloginfo('siteurl'); ?>/haberler">Haberler</a></li>
-        <li><a href="<?php bloginfo('siteurl'); ?>/linux-cdleri">Linux CD'leri</a></li>
         <li><a href="<?php bloginfo('siteurl'); ?>/indir">Linux İndir</a></li>
         <li><a href="<?php bloginfo('siteurl'); ?>/belgeler">Belgeler</a></li>
         <li><a href="<?php bloginfo('siteurl'); ?>/kitaplar">Kitaplar</a></li>

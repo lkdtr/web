@@ -109,7 +109,7 @@ function lkdkamp_login_logo_replacer() { ?>
   .login h1 a {
     background-image: url(<?php bloginfo( 'template_url' ); ?>/images/logo.png);
     background-size: 274px 100px;
-    height:100px;
+    height:120px;
     width: 274px;
   }
   </style>

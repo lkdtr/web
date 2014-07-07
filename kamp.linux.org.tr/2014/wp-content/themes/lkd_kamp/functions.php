@@ -117,6 +117,7 @@ function lkdkamp_login_logo_replacer() { ?>
 
 add_action('login_form','lkdkamp_login_logo_replacer');
 add_action('lostpassword_form','lkdkamp_login_logo_replacer');
+add_action('login_enqueue_scripts','lkdkamp_login_logo_replacer');
 
 add_action('register_form','lkdkamp_show_extra_fields');
 add_action('register_post','lkdkamp_check_fields',10,3);

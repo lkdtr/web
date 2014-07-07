@@ -139,8 +139,7 @@ if ( is_user_logged_in() ){
         <li><label for="place">Yurtta konaklamak istiyor musun?</label>
           <select <?php if($formkapa=="kapa") echo "disabled"; ?> id="place" name="META[place]">
             <option value="Hayır" <?php if($current_place=="Hayır") echo "selected"; ?>>Hayır</option>
-            <option value="Kredi Yurtlar" <?php if($current_place=="Kredi Yurtlar") echo "selected"; ?>>Kredi Yurtlar</option>
-            <option value="Herhangi Bir Yurt" <?php if($current_place=="Herhangi Bir Yurt") echo "selected"; ?>>Herhangi Bir Yurt</option>
+            <option value="Evet" <?php if($current_place=="Evet") echo "selected"; ?>>Evet</option>
         </select><li>
         </ul>
         </aside>

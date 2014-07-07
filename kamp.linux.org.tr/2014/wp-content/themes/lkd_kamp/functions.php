@@ -246,8 +246,7 @@ function lkdkamp_show_extra_fields(){
     <p><label>Yurtta konaklamak istiyor musun?<br/>
       <select id="user_place" class="element" tabindex="20" name="place">
         <option value="Hayır" <?php if(isset($_POST['place']) && $_POST['place']=="Hayır") echo "selected"; ?>>Hayır</option>
-        <option value="Kredi Yurtlar" <?php if(isset($_POST['place']) && $_POST['place']=="Kredi Yurtlar") echo "selected"; ?>>Kredi Yurtlar</option>
-        <option value="Herhangi Bir Yurt" <?php if(isset($_POST['place']) && $_POST['place']=="Herhangi Bir Yurt") echo "selected"; ?>>Herhangi Bir Yurt</option>
+        <option value="Evet" <?php if(isset($_POST['place']) && $_POST['place']=="Evet") echo "selected"; ?>>Evet</option>
       </select>
       </label></p>
     <p><label>Notlar<br/>
@@ -455,8 +454,7 @@ function lkdkamp_show_extra_profile_fields( $user ) {
         <td>
             <select id="place" name="place">
               <option value="Hayır" <?php if($current_place=="Hayır") echo "selected"; ?>>Hayır</option>
-              <option value="Kredi Yurtlar" <?php if($current_place=="Kredi Yurtlar") echo "selected"; ?>>Kredi Yurtlar</option>
-              <option value="Herhangi Bir Yurt" <?php if($current_place=="Herhangi Bir Yurt") echo "selected"; ?>>Herhangi Bir Yurt</option>
+              <option value="Evet" <?php if($current_place=="Evet") echo "selected"; ?>>Evet</option>
             </select>
         </td>
       </tr>

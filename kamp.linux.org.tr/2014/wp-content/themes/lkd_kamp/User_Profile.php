@@ -7,7 +7,8 @@ Template Name: Custom_Profiler
 
 <article>
 
-<?php $formkapa = "kapa";
+<?php if(strtotime('2014-07-31 00:00:00.0') < strtotime('today')) $formkapa = "kapa";
+else $formkapa = "";
 
 //load the function that updates the data
 if($formkapa!="kapa") require_once (TEMPLATEPATH . '/Profile/profile.php');

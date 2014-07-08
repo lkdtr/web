@@ -131,12 +131,8 @@ function lkdkamp_show_extra_fields(){
     	jQuery(document).ready(function(){
     		jQuery(".register").html('<strong>KAMP BAŞVURU FORMU</strong><br>Başvurunuzu yapmadan önce lütfen kamp web sitesinden eğitimlerin <a href="<?php echo home_url()."/kurslar";?>" target="_blank">detay programlarını</a> inceleyiniz. <a href="<?php echo home_url()."/sik-sorulan-sorular";?>" target="_blank">Sık Sorulan Sorular</a> bölümünü okuyunuz.');
     		jQuery("p#reg_passmail").html("Başvurunuzu son katılım tarihinden önce güncellemek için e-posta adresinize bir parola gelecektir.");
-    		jQuery("#github").hide();
         jQuery("#education_link").attr("href",jQuery('#user_education').find(":selected").attr('detail'));
-    		if(jQuery("#user_education").val().indexOf("Java")!=-1 || jQuery("#user_educationTwo").val().indexOf("Java")!=-1 || jQuery("#user_educationThree").val().indexOf("Java")!=-1) jQuery("#github").show();
         jQuery('.education').change(function(){
-          jQuery("#github").hide();
-          if(jQuery("#user_education").val().indexOf("Java")!=-1 || jQuery("#user_educationTwo").val().indexOf("Java")!=-1 || jQuery("#user_educationThree").val().indexOf("Java")!=-1) jQuery("#github").show();
           jQuery("#education_link").attr("href",jQuery("#user_education").find(":selected").attr('detail'));
         });
     	});
@@ -294,11 +290,7 @@ function lkdkamp_check_fields($login, $email, $errors) {
     $job = $_POST['education'];
   }
 
-  if ($_POST['github'] == '' && (stristr($_POST['education'], "Java")!==FALSE || stristr($_POST['educationTwo'], "Java")!==FALSE || stristr($_POST['educationThree'], "Java")!==FALSE)) {
-    $errors->add('empty_realname', "<strong>HATA</strong>: Github hesabınızı doldurmadınız.");
-  } else {
-    $job = $_POST['github'];
-  }
+  $job = $_POST['github'];
 
   $section = $_POST['section'];
   $age = $_POST['age'];

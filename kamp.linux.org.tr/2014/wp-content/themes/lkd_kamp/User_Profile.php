@@ -41,12 +41,6 @@ if ( is_user_logged_in() ){
 	//check if the submit button was pressed
 	if($formkapa!="kapa") {
         if (isset($_POST['submit'])) {
-            if((stristr($_POST['META']['education'], "Java") || 
-                stristr($_POST['META']['educationTwo'], "Java") || 
-                stristr($_POST['META']['educationThree'], "Java")) &&
-                (!$_POST['META']['github'])) {
-                $message .= 'Guncelleme%20Basarisiz%20Github%20Hesabinizi%20Girin';
-           }
 
            if(!is_email($_POST['USER']['user_email'])) {
                 $message .= 'Gecersiz%20E-posta';

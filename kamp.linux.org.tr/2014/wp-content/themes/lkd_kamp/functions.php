@@ -321,7 +321,11 @@ function lkdkamp_register_extra_fields($user_id, $password="", $meta=array())  {
   update_usermeta( $user_id, 'github', $_POST['github'] );
   update_usermeta( $user_id, 'notes', $_POST['notes'] );
   update_usermeta( $user_id, 'place', $_POST['place'] );
-  update_usermeta( $user_id, 'status_kamp', $_POST['status_kamp'] );
+  
+  global $current_user;
+  if(in_array("administrator",$current_user->roles)) {
+    update_usermeta( $user_id, 'status_kamp', $_POST['status_kamp'] );
+  }
 }
 
 add_action( 'show_user_profile', 'lkdkamp_show_extra_profile_fields' );
@@ -451,6 +455,8 @@ function lkdkamp_show_extra_profile_fields( $user ) {
             </select>
         </td>
       </tr>
+      <?php global $current_user;
+        if(in_array("administrator",$current_user->roles)) { ?>
       <tr>
         <th><label for="status_kamp">Durumu</label></th>
         <td>
@@ -463,6 +469,7 @@ function lkdkamp_show_extra_profile_fields( $user ) {
           </select>
         </td>
       </tr>
+      <?php } ?>
     </table>
     <?php
 }
@@ -487,7 +494,10 @@ function lkdkamp_save_extra_profile_fields($user_id) {
   update_usermeta( $user_id, 'github', $_POST['github'] );
   update_usermeta( $user_id, 'notes', $_POST['notes'] );
   update_usermeta( $user_id, 'place', $_POST['place'] );
-  update_usermeta( $user_id, 'status_kamp', $_POST['status_kamp'] );
+  global $current_user;
+  if(in_array("administrator",$current_user->roles)) {
+    update_usermeta( $user_id, 'status_kamp', $_POST['status_kamp'] );
+  }
 }
 
 function lkdkamp_registration_redirect()

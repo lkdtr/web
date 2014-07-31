@@ -7,7 +7,7 @@ Template Name: Custom_Profiler
 
 <article>
 
-<?php if(strtotime('2014-07-31 23:59:00.0') < strtotime('today')) $formkapa = "kapa";
+<?php if(strtotime('2014-07-31 23:59:35') < strtotime(date('Y-m-d H:i:s'))) $formkapa = "kapa";
 else $formkapa = "";
 
 //load the function that updates the data
@@ -86,7 +86,7 @@ if ( is_user_logged_in() ){
             <ul>
                 <li><label for="user_login">Kullanıcı Adı </label><?php if(!empty($current_user->user_login)){ echo $current_user->user_login;} ?></li>
                 <li><label for="user_email">E-posta </label><input type="text" <?php if($formkapa=="kapa") echo "disabled"; ?> name="USER[user_email]" value="<?php if(!empty($current_user->user_email)){ echo $current_user->user_email;} ?>" /></li>
-                <li><label for="user_pass">Parola </label><input type="password" name="USER[user_pass]" value="" /></li>
+                <li><label for="user_pass">Parola </label><input type="password" name="USER[user_pass]" value="" <?php if($formkapa=="kapa") echo "disabled"; ?> /></li>
                 <li><label for="github">Github Hesabı</label><input type="text" <?php if($formkapa=="kapa") echo "disabled"; ?> name="META[github]" value="<?php  if(!empty($current_github)){ echo $current_github;}  ?>" /></li>
                 <li><label for="user_notes">İletmek istediğiniz notlar</label>
                     <textarea <?php if($formkapa=="kapa") echo "disabled"; ?> name="META[notes]"><?php  if(!empty($current_notes)){ echo $current_notes;}  ?></textarea>

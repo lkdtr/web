@@ -300,7 +300,6 @@ function lkdkamp_check_fields($login, $email, $errors) {
   $place = $_POST['place'];
   $educationTwo = $_POST['educationTwo'];
   $educationThree = $_POST['educationThree'];
-
 }
 
 function lkdkamp_register_extra_fields($user_id, $password="", $meta=array())  {
@@ -322,6 +321,7 @@ function lkdkamp_register_extra_fields($user_id, $password="", $meta=array())  {
   update_usermeta( $user_id, 'github', $_POST['github'] );
   update_usermeta( $user_id, 'notes', $_POST['notes'] );
   update_usermeta( $user_id, 'place', $_POST['place'] );
+  update_usermeta( $user_id, 'status_kamp', $_POST['status_kamp'] );
 }
 
 add_action( 'show_user_profile', 'lkdkamp_show_extra_profile_fields' );
@@ -341,6 +341,7 @@ function lkdkamp_show_extra_profile_fields( $user ) {
   $current_github = esc_attr( get_the_author_meta( 'github', $user->ID ) );
   $current_notes = esc_attr( get_the_author_meta( 'notes', $user->ID ) );
   $current_place = esc_attr( get_the_author_meta( 'place', $user->ID ) );
+  $current_status_kamp = esc_attr( get_the_author_meta( 'status_kamp', $user->ID ) );
     ?>
     <h3>Katılım Formu</h3>
     <table class="form-table">
@@ -450,6 +451,18 @@ function lkdkamp_show_extra_profile_fields( $user ) {
             </select>
         </td>
       </tr>
+      <tr>
+        <th><label for="status_kamp">Durumu</label></th>
+        <td>
+          <select id="status_kamp" name="status_kamp">
+            <option value="">-</option>
+            <option value="Yanıt Bekleniyor" <?php if($current_status_kamp=="Yanıt Bekleniyor") echo "selected"; ?>>Yanıt Bekleniyor</option>
+            <option value="Evrak Bekleniyor" <?php if($current_status_kamp=="Evrak Bekleniyor") echo "selected"; ?>>Evrak Bekleniyor</option>
+            <option value="Kara Liste" <?php if($current_status_kamp=="Kara Liste") echo "selected"; ?>>Kara Liste</option>
+            <option value="Yerleşti" <?php if($current_status_kamp=="Yerleşti") echo "selected"; ?>>Yerleşti</option>
+          </select>
+        </td>
+      </tr>
     </table>
     <?php
 }
@@ -474,6 +487,7 @@ function lkdkamp_save_extra_profile_fields($user_id) {
   update_usermeta( $user_id, 'github', $_POST['github'] );
   update_usermeta( $user_id, 'notes', $_POST['notes'] );
   update_usermeta( $user_id, 'place', $_POST['place'] );
+  update_usermeta( $user_id, 'status_kamp', $_POST['status_kamp'] );
 }
 
 function lkdkamp_registration_redirect()

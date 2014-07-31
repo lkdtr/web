@@ -7,7 +7,7 @@ Template Name: Custom_Profiler
 
 <article>
 
-<?php if(strtotime('2014-07-31 00:00:00.0') < strtotime('today')) $formkapa = "kapa";
+<?php if(strtotime('2014-07-31 23:59:00.0') < strtotime('today')) $formkapa = "kapa";
 else $formkapa = "";
 
 //load the function that updates the data

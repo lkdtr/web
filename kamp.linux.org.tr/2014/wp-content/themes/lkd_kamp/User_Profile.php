@@ -35,6 +35,7 @@ if ( is_user_logged_in() ){
     $current_github = esc_attr( get_the_author_meta( 'github', $user_id ) );
     $current_notes = esc_attr( get_the_author_meta( 'notes', $user_id ) );
     $current_place = esc_attr( get_the_author_meta( 'place', $user_id ) );
+    $current_status_kamp = esc_attr( get_the_author_meta( 'status_kamp', $user_id ) );
 
 	$meta = get_user_meta($user_id, 'profile');
 	

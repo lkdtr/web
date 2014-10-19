@@ -1,0 +1,198 @@
+/*
+Theme Name: OWTG2014
+Theme URI: ozgurwebgunleri.org.tr/2014
+Description: Özgür Web Teknolojileri Günleri 2014
+Version: 1.0
+License: GNU General Public License 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+body {
+  background: url(images/bg.png) repeat-x center top;
+  background-color: #F1FCD7;
+  color: #333;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  background: url(images/header-bg.png) repeat-x -192px top;
+  height: 280px;
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header figure.logo {
+  background: url(images/logo.png);
+  width: 180px;
+  height: 128px;
+  position: absolute;
+  top: 85px;
+  left: 12px;
+}
+
+header nav {
+  position: absolute;
+  top: 160px;
+  right: 0;
+}
+
+header nav ul {
+  display: table;
+}
+
+header nav ul li {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header nav ul li a {
+  display: block;
+  vertical-align: middle;
+  font-family: "Crete Round";
+  text-decoration: none;
+  color: #666;
+  padding: 20px 10px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 120px;
+  background: url(images/menu-item.png) no-repeat center center;
+  line-height: 20px;
+}
+
+header nav ul li a:hover {
+  opacity: 0.7;
+}
+
+main {
+  width: 920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#main {
+  float: left;
+  width: 749px;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+#main a {
+  background-color: #387B06;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 4px;
+}
+
+#main a:hover {
+  opacity: 0.8;
+}
+
+main h2 {
+  font-size: 26px;
+  font-family: Homenaje;
+  line-height: 50px;
+  color: #387B06;
+}
+
+main aside {
+  float: right;
+  text-align: center;
+  width: 171px;
+}
+
+footer {
+  margin-top: 50px;
+  height: 206px;
+  background: url(images/footer-bg.png) repeat-x center bottom;
+}
+
+footer .footer {
+  width: 1024px;
+  height: 206px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer .date {
+  margin-top: -30px;
+}

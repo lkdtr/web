@@ -7,48 +7,36 @@ License: GNU General Public License 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .clearfix:after {
@@ -100,7 +88,7 @@ header figure.logo {
 
 header nav {
   position: absolute;
-  top: 160px;
+  top: 180px;
   right: 0;
 }
 
@@ -119,8 +107,8 @@ header nav ul li a {
   font-family: "Crete Round";
   text-decoration: none;
   color: #666;
-  padding: 20px 10px;
-  font-size: 18px;
+  padding: 0px 5px;
+  font-size: 17px;
   text-align: center;
   text-transform: uppercase;
   max-width: 120px;
@@ -140,19 +128,28 @@ main {
 
 .left {
   float: left;
+  width: 360px;
 }
 
 .right {
   float: right;
+  width: 340px;
 }
 
 #main {
   float: left;
   width: 749px;
+  font-size: 15px;
+  min-height: 450px;
 }
 
-.content {
+#main p, #main ul {
   margin-bottom: 20px;
+}
+
+#main ul {
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 #main a {
@@ -163,13 +160,25 @@ main {
   padding: 0 4px;
 }
 
+#main strong {
+  font-weight: 700;
+}
+
 #main a:hover {
   opacity: 0.8;
 }
 
 main h2 {
   font-size: 26px;
-  font-family: Homenaje;
+  font-family: 'Cantarell', sans-serif;
+  line-height: 50px;
+  color: #387B06;
+  
+}
+
+main h3 {
+  font-size: 20px;
+  font-family: 'Cantarell', sans-serif;
   line-height: 50px;
   color: #387B06;
 }
@@ -195,4 +204,30 @@ footer .footer {
 
 footer .date {
   margin-top: -30px;
+}
+
+/*Etkinlik Tablosu*/
+
+table.program td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+table.program td b {
+  font-weight: 700;
+}
+
+table.program .date {
+  background-color: #4D4D4D;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+}
+
+table.program .title {
+  background-color: #6AAD11;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 16px;
 }

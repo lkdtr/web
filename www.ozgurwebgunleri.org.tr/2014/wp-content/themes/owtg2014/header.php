@@ -17,10 +17,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <link href='http://fonts.googleapis.com/css?family=Crete+Round|Homenaje&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Cantarell&amp;subset=latin" rel="stylesheet" type="text/css" style="font-family: Cantarell; ">
   </head>
   <body>
     <header>
-      <figure class="logo"></figure>
+      <a href="<?php bloginfo('url'); ?>"><figure class="logo"></figure></a>
       <nav>
         <ul>
           <?php wp_list_pages('title_li'); ?>

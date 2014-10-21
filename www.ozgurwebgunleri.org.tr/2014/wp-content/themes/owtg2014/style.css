@@ -61,7 +61,7 @@ html[xmlns] .clearfix {
 }
 
 body {
-  background: url(images/bg.png) repeat-x center top;
+  background: url(images/header_bg.jpg) repeat-x center top;
   background-color: #F1FCD7;
   color: #333;
   font-size: 15px;
@@ -70,8 +70,7 @@ body {
 }
 
 header {
-  background: url(images/header-bg.png) repeat-x -192px top;
-  height: 280px;
+  height: 375px;
   width: 1024px;
   margin: 0 auto;
   position: relative;
@@ -79,16 +78,16 @@ header {
 
 header figure.logo {
   background: url(images/logo.png);
-  width: 180px;
-  height: 128px;
+  width: 253px;
+  height: 181px;
   position: absolute;
-  top: 85px;
-  left: 12px;
+  top: 139px;
+  left: 5px;
 }
 
 header nav {
   position: absolute;
-  top: 180px;
+  top: 270px;
   right: 0;
 }
 
@@ -107,7 +106,7 @@ header nav ul li a {
   font-family: "Crete Round";
   text-decoration: none;
   color: #666;
-  padding: 0px 5px;
+  padding: 17px 5px;
   font-size: 17px;
   text-align: center;
   text-transform: uppercase;
@@ -191,8 +190,8 @@ main aside {
 
 footer {
   margin-top: 50px;
-  height: 206px;
-  background: url(images/footer-bg.png) repeat-x center bottom;
+  height: 515px;
+  background: url(images/footer_bg.jpg) repeat-x center bottom;
 }
 
 footer .footer {
@@ -203,7 +202,7 @@ footer .footer {
 }
 
 footer .date {
-  margin-top: -30px;
+  margin-top: 120px;
 }
 
 /*Etkinlik Tablosu*/

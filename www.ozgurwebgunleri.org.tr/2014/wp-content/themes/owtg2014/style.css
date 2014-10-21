@@ -245,3 +245,21 @@ table.program .title {
   text-align: center;
   font-size: 16px;
 }
+
+input[type="submit"] { 
+  background-color: #387B06;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+input[type="text"], input[type="email"] {
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #E2E2E2;
+}
+ 
+form span {
+  margin-top: 5px;
+  display: block;
+}

@@ -10,11 +10,8 @@
         
         <div class="clearfix"></div>
       </div>
-      <aside>
-        <div>
-          
-        </div>
-      </aside>
+      
+     <?php get_sidebar(); ?>
 </main>
 
 <div class="clearfix"></div>

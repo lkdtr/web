@@ -182,7 +182,7 @@ main h3 {
   color: #387B06;
 }
 
-main aside {
+main #aside {
   float: right;
   text-align: center;
   width: 171px;
@@ -206,6 +206,14 @@ footer .footer {
   height: 206px;
   margin: 0 auto;
   text-align: center;
+}
+
+footer .social {
+  margin-top: 80px;
+}
+
+footer .social img.twitter {
+  margin-right: 15px;
 }
 
 footer .date {
@@ -244,6 +252,10 @@ table.program .title {
   padding: 5px 0;
   text-align: center;
   font-size: 16px;
+<<<<<<< .mine
+}
+
+=======
 }
 
 input[type="submit"] { 
@@ -262,4 +274,4 @@ input[type="text"], input[type="email"] {
 form span {
   margin-top: 5px;
   display: block;
-}
+}>>>>>>> .r1444

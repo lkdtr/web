@@ -111,10 +111,10 @@ header nav ul li a {
   text-decoration: none;
   color: #666;
   padding: 17px 5px;
-  font-size: 17px;
+  font-size: 15px;
   text-align: center;
   text-transform: uppercase;
-  max-width: 120px;
+  max-width: 98px;
   background: url(images/menu-item.png) no-repeat center center;
   line-height: 20px;
 }

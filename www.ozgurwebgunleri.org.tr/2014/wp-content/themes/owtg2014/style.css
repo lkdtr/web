@@ -142,7 +142,7 @@ main {
 
 #main {
   float: left;
-  width: 749px;
+  width: 725px;
   font-size: 15px;
   min-height: 450px;
 }
@@ -185,9 +185,23 @@ main h3 {
 main #aside {
   float: right;
   text-align: center;
-  width: 171px;
+  width: 150px;
 }
 
+main #aside h3 {
+  display: block;
+  background-color: #4D4D4D;
+  color: #FFF;
+  line-height: 40px;
+}
+
+main #aside .textwidget {
+  padding-top: 20px;
+}
+
+main #aside p {
+  margin-bottom: 20px;
+}
 footer {
   margin-top: 50px;
   height: 515px;
@@ -252,10 +266,6 @@ table.program .title {
   padding: 5px 0;
   text-align: center;
   font-size: 16px;
-<<<<<<< .mine
-}
-
-=======
 }
 
 input[type="submit"] { 
@@ -270,8 +280,30 @@ input[type="text"], input[type="email"] {
   border-radius: 5px;
   border: 1px solid #E2E2E2;
 }
+
+.afisa a {
+    background-color:white !important;
+}
  
 form span {
   margin-top: 5px;
   display: block;
-}>>>>>>> .r1444
+}
+
+div.sponsor-container3 {
+  text-align: center;
+  margin: 0 auto;
+  width: 459px;
+}
+div.sponsor {
+  margin-top: 20px;
+  text-align: center;
+}
+div.sponsor a {
+   background: transparent !important;
+}
+
+div.sponsor2 {
+   float: left;
+   margin: 20px 15px;
+}

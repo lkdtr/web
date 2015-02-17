@@ -37,6 +37,6 @@
 .home-top.fixed #mini-logo {visibility: visible;}
 .home-top #nav-menu li:first-child {visibility: hidden;}
 .home-top.fixed #nav-menu li:first-child {visibility: visible;}
-#organization {position: absolute; top: 0; left: 5%; z-index:999999;}
+#organization {position: absolute; top: 0; left: 5%; z-index:9999;}
 #organization a {float:left;}
 #bubbles {margin-bottom: 60px;}

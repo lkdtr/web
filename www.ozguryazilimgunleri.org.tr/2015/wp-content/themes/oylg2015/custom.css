@@ -39,3 +39,4 @@
 .home-top.fixed #nav-menu li:first-child {visibility: visible;}
 #organization {position: absolute; top: 0; left: 5%;}
 #organization a {float:left;}
+#bubbles {margin-bottom: 60px;}

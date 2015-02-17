@@ -32,3 +32,4 @@
 #hakkinda .fa, #iletisim .fa {color: #ccc;}
 #iletisim ul.social li a span {color: #ccc !important;}
 #iletisim ul.social li:hover a span {color: #01a3b2 !important;}
+.wpcf7-form input[type="text"], .wpcf7-form input[type="email"], .wpcf7-form textarea { color: #fff !important;}

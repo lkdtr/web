@@ -24,11 +24,11 @@
 	.navbar .nav > li > a,.navbar .nav > li > a:hover, .navbar .nav > li.active > a,.navbar-inverse .nav .active>a:focus {color: #000000!important; }
 }
 .tab-pane { margin-top:0px !important; }
-#hakkinda, #iletisim {color:#fff;}
-#hakkinda h2, #iletisim h2 {color:#ccc}
-#hakkinda .color, #iletisim .color {color:#ccc !important}
-#hakkinda a, #iletisim a {color:#ccc !important; text-decoration: underline !important;}
-#hakkinda a:hover, #iletisim a:hover {color:#ccc !important; text-decoration: none !important;}
+#hakkinda, #iletisim, #afis--banner {color:#fff;}
+#hakkinda h2, #iletisim h2, #afis--banner h2 {color:#ccc}
+#hakkinda .color, #iletisim .color, #afis--banner .color {color:#ccc !important}
+#hakkinda a, #iletisim a, #afis--banner a {color:#ccc !important; text-decoration: underline !important;}
+#hakkinda a:hover, #iletisim a:hover, #afis--banner a:hover {color:#ccc !important; text-decoration: none !important;}
 #hakkinda .fa, #iletisim .fa {color: #ccc;}
 #iletisim ul.social li a span {color: #ccc !important;}
 #iletisim ul.social li:hover a span {color: #01a3b2 !important;}

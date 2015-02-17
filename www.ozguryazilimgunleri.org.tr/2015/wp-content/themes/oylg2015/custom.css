@@ -28,5 +28,5 @@
 #hakkinda h2, #iletisim h2 {color:#ccc}
 #hakkinda .color, #iletisim .color {color:#ccc !important}
 #hakkinda a, #iletisim a {color:#ccc !important; text-decoration: underline !important;}
-#hakkinda a, #iletisim a {color:#ccc !important; text-decoration: none !important;}
+#hakkinda a:hover, #iletisim a:hover {color:#ccc !important; text-decoration: none !important;}
 .fa {color: #ccc;}

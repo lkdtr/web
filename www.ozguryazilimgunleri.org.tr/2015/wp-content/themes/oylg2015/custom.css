@@ -37,3 +37,5 @@
 .home-top.fixed #mini-logo {visibility: visible;}
 .home-top #nav-menu li:first-child {visibility: hidden;}
 .home-top.fixed #nav-menu li:first-child {visibility: visible;}
+.organization {position: absolute; top: 0; left: 5%;}
+.organization a {float:left;}

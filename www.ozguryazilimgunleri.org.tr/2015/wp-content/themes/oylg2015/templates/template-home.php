@@ -5,8 +5,13 @@
  */
 
 $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-if($feat_image) $pageBackgroundStyle=' style="background-image: url('.$feat_image.');"'; ?>
+if($feat_image) $pageBackgroundStyle=' style="background-image: url('.$feat_image.');"';
+else $feat_image = ""; ?>
 <section<?php echo $pageBackgroundStyle; ?> id="<?php if (get_post_meta($post->ID, 'fw_page_link_alternative', true)) { echo get_post_meta($post->ID, 'fw_page_link_alternative', true); } else { echo the_fw_title(); } ?>" class="section-page full-home home-section <?php echo the_slug(); ?>">
+	<div id="organization">
+		<a href="http://bilgi.edu.tr" target="_blank"><img src="<?php echo get_template_directory_uri().'/img/bilgi.png'; ?>" /></a>
+		<a href="http://bilgi.edu.tr" target="_blank"><img src="<?php echo get_template_directory_uri().'/img/lkd.png'; ?>" /></a>
+	</div>
 	<div class="container <?php if (!get_post_meta($post->ID, 'fw_label_one', true)) { ?>no-bubbles<?php } ?>">
 		<?php if(!get_post_meta($post->ID, 'fw_hide_logo', true)) {?>
 		<div id="home-header">

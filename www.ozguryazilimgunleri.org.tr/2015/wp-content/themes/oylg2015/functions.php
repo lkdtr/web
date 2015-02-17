@@ -14,7 +14,7 @@
 	Required external files
 
 	======================================================================================================================== */
-	require_once ('admin/theme-options.php');
+	include ('admin/theme-options.php');
 	require_once ('admin/premium.php');
 	require_once( 'external/starkers-utilities.php' );
 	require_once( 'admin/metaboxes.php' );

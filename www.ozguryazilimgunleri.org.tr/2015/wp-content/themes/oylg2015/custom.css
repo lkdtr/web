@@ -29,4 +29,6 @@
 #hakkinda .color, #iletisim .color {color:#ccc !important}
 #hakkinda a, #iletisim a {color:#ccc !important; text-decoration: underline !important;}
 #hakkinda a:hover, #iletisim a:hover {color:#ccc !important; text-decoration: none !important;}
-.fa {color: #ccc;}
+#hakkinda .fa, #iletisim .fa {color: #ccc;}
+#iletisim ul.social li a span {color: #ccc;}
+#iletisim ul.social li:hover a span {color: #ccc;}

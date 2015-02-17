@@ -15,42 +15,42 @@ $options = array (
     array( "name" => $themename." Options",
            "type" => "title"),
     array( "type" => "open"),
-    
+
     /* General Settings */
-	       
+
     array( "name" => "General Settings",
     		   "id" => "sec-general",
            "type" => "section"),
-                     
+
     array( "name" => "Favicon",
            "desc" => "Upload the image. Then copy and paste the image url in the field on top.",
            "id" => $shortname."_favicon",
            "type" => "image",
            "std" => ''.get_bloginfo('template_directory').'/img/favicon.ico'),
-           
+
     array( "name" => "Main Color",
            "desc" => "Set the main color of your site",
            "id" => $shortname."_main_color",
            "type" => "color",
            "std" => '#01a3b2'),
-    
+
     array( "name" => "Number of Pages",
            "desc" => "How many pages do you use in your site?",
            "id" => $shortname."_page_number",
            "type" => "input-slider",
            "std" => '6'),
-           
+
     array( "name" => "Speed scroll",
            "desc" => "Set the scroll speed (in ms)",
            "id" => $shortname."_speed",
            "type" => "text",
-           "std" => '3000'),  
-               
+           "std" => '3000'),
+
    	array( "name" => "Label for Portfolio Link",
            "desc" => "Insert the label for the Portfolio link",
            "id" => $shortname."_label_portfolio_link",
            "type" => "text",
-           "std" => 'Go to work'),       
+           "std" => 'Go to work'),
 
     array( "name" => "Enable/Disable Spin Effect",
            "desc" => "If you check it, it removes the spin effect from Home Bubbles",
@@ -63,28 +63,28 @@ $options = array (
            "id" => $shortname."_onoff_scrollorama",
            "type" => "checkbox",
            "std" => 'checked'),
-     
+
     array( "name" => "Enable/Disable Animation Big Title",
            "desc" => "If you don't like animation text effect, you can disable it.",
            "id" => $shortname."_onoff_animation_title",
            "type" => "checkbox",
-           "std" => 'checked'),     
-	
+           "std" => 'checked'),
+
 		array( "name" => "Enable/Disable Custom Css",
            "desc" => "If you want to add some extra style, enable custom css and edit custom.css file.",
            "id" => $shortname."_onoff_custom_css",
            "type" => "checkbox",
            "std" => 'checked'),
-    
+
     array( "name" => "Enable/Disable Custom Javascript",
            "desc" => "If you want to add some extra javascript function, enable custom javascriot and edit custom.js file, in js directory.",
            "id" => $shortname."_onoff_custom_js",
            "type" => "checkbox",
-           "std" => 'checked'),  
+           "std" => 'checked'),
 
-    array( "type" => "submit"),       
-    
-    array( "type" => "end-section"), 
+    array( "type" => "submit"),
+
+    array( "type" => "end-section"),
 
     /* Header settings */
     array( "name" => "Header Settings",
@@ -96,13 +96,13 @@ $options = array (
            "id" => $shortname."_logo",
            "type" => "image",
            "std" => ''.get_bloginfo('template_directory').'/img/logo.png'),
-           
+
     array( "name" => "Logo Retina",
            "desc" => "Upload your retina logo image or copy and paste its image url if you have just uploaded it. It's important its name finishes with @2x. For example logo@2x.png. It must be placed in the same folder of normal logo ",
            "id" => $shortname."_logo_retina",
            "type" => "image",
            "std" => ''),
-    
+
     array( "name" => "Menu Bar Height",
            "desc" => "Set the height of menu bar. Default 40px",
            "id" => $shortname."_nav_height",
@@ -120,87 +120,87 @@ $options = array (
            "id" => $shortname."_logo_mini",
            "type" => "image",
            "std" => ''.get_bloginfo('template_directory').'/img/logo-mini.png'),
-    
+
     array( "name" => "Logo Menu Bar Retina",
            "desc" => "Upload your mini logo retina image that appears on sticky menu. It's important its name finishes with @2x. For example logo-mini@2x.png. It must be placed in the same folder of normal logo",
            "id" => $shortname."_logo_mini_retina",
            "type" => "image",
            "std" => ''),
-    
+
     array( "name" => "Show the menu bar from the top of the page",
            "desc" => "If you want to show the menu bar from the top of the page, check it",
            "id" => $shortname."_nav_menu",
            "type" => "checkbox",
            "std" => ''),
-          
+
     array( "type" => "submit"),
 
 
 
-    array( "type" => "end-section"), 
+    array( "type" => "end-section"),
 
-    /* Social Settings */       
+    /* Social Settings */
     array( "name" => "Footer Settings",
            "id" => "sec-social",
            "type" => "section"),
-    
+
     array( "name" => "Footer text",
            "desc" => "Enter text used in the right side of the footer. It can be HTML.",
            "id" => $shortname."_footer_text",
            "type" => "text",
            "std" => ""),
-           
-    /* Analytics Code */       
+
+    /* Analytics Code */
 		array( "name" => "Google Analytics Code",
            "desc" => "Paste your Google Analytics or other tracking code in this box.",
            "id" => $shortname."_ga_code",
            "type" => "textarea",
            "std" => ""),
-    array( "type" => "submit"),       
+    array( "type" => "submit"),
     array( "type" => "end-section"),
     array( "type" => "close"));
 
-    
+
 function mytheme_add_admin() {
- 
+
 	global $themename, $shortname, $options;
-	 
+
 	if ( isset( $_GET['page'] ) && $_GET['page'] == basename(__FILE__) ) {
 		if ( 'save' == $_REQUEST['action'] ) {
-		 
+
 		foreach ($options as $value) {
 		update_option( $value['id'], $_REQUEST[ $value['id'] ] ); }
-		 
+
 		foreach ($options as $value) {
 		if( isset( $_REQUEST[ $value['id'] ] ) ) { update_option( $value['id'], $_REQUEST[ $value['id'] ]  ); } else { delete_option( $value['id'] ); } }
-		 
+
 		header("Location: themes.php?page=theme-options.php&saved=true");
 		die;
-		 
+
 		} else if( 'reset' == $_REQUEST['action'] ) {
-		 
+
 		foreach ($options as $value) {
 		delete_option( $value['id'] ); }
-		 
+
 		header("Location: themes.php?page=theme-options.php&reset=true");
 		die;
-		 
+
 		}
 	}
- 	add_menu_page($themename." Options", "".$themename." Options", 'edit_themes', basename(__FILE__), 'mytheme_admin');
+ 	add_menu_page($themename." Options", "".$themename." Options", 'manage_options', basename(__FILE__), 'mytheme_admin');
 }
-function mytheme_add_init() {  
-	$file_dir=get_bloginfo('template_directory');  
-	wp_enqueue_style("functions", $file_dir."/admin/css/theme-option.css", false, "1.0", "all");  
-} 
+function mytheme_add_init() {
+	$file_dir=get_bloginfo('template_directory');
+	wp_enqueue_style("functions", $file_dir."/admin/css/theme-option.css", false, "1.0", "all");
+}
 
 function mytheme_admin() {
- 
+
 	global $themename, $shortname, $options;
-	 
+
 	if ( $_REQUEST['saved'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' settings saved.</strong></p></div>';
 	if ( $_REQUEST['reset'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' settings reset.</strong></p></div>';
-	 
+
 ?>
 
 	<div class="wrap">
@@ -231,9 +231,9 @@ function mytheme_admin() {
             		 case "close":
             		?>
             		 	</div>
-            		 
+
             		<?php break;
-            		
+
             		case "section" :
             		?>
             			<div class="tab-pane" id="<?php echo $value['id']; ?>">
@@ -244,13 +244,13 @@ function mytheme_admin() {
                             </div>
                             <div id="options-<?php echo $value['id']; ?>" class="options">
             		<?php break;
-            	
+
             		case "end-section" :
             		?>
             				</div>
             			</div>
             		<?php break;
-            		
+
             		case "subsection" :
             		?>
             			<div class="subsection">
@@ -303,7 +303,7 @@ function mytheme_admin() {
             			</script>
             		<?php
             		break;
-            		
+
             		case 'image' :
             		?>
             			<div class="fw_upload">
@@ -316,7 +316,7 @@ function mytheme_admin() {
             			</div>
             		<?php
             		break;
-            		
+
             		case 'textarea':
             		?>
                   <div class="analytics-code">
@@ -332,13 +332,13 @@ function mytheme_admin() {
             		break;
             		case 'checkbox'
             		?>
-            			<div id="<?php echo $value['id']; ?>-container" class="check">  
+            			<div id="<?php echo $value['id']; ?>-container" class="check">
             				<div class="field-description">
-                        <label for="<?php echo $value['id']; ?>"><?php echo $value['name']; ?></label>  
+                        <label for="<?php echo $value['id']; ?>"><?php echo $value['name']; ?></label>
                         <small><?php echo $value['desc']; ?></small>
-                    </div>  
+                    </div>
             				<input type="checkbox" name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>" class="on_off" value="1" <?php checked( get_option( $value['id'] ), true ); ?> />
-            				<span></span>  
+            				<span></span>
             			</div>
             			<script type="text/javascript">
             				jQuery( document ).ready( function( $ ) {
@@ -353,7 +353,7 @@ function mytheme_admin() {
             						input.change();
             					} );
             				} );
-            		</script>  
+            		</script>
             		<?php break;
                 case 'select-size'
                 ?>
@@ -366,11 +366,11 @@ function mytheme_admin() {
                     <input class="number" type="text" name="<?php echo $value['id']; ?>" id="<?php echo $value['id'] ?>-size" value="<?php if ( get_settings( $value['id'] ) != "") { echo get_settings( $value['id'] ); } else { echo $value['std']; } ?>" />
                     <div class="input-controls">
                       <a href="#" id="<?php echo $value['id']; ?>-up" class="inc">+</a>
-                      <a href="#" id="<?php echo $value['id']; ?>-down" class="dec">-</a> 
+                      <a href="#" id="<?php echo $value['id']; ?>-down" class="dec">-</a>
                     </div>
                   </div>
                 </div>
-                
+
                 <script type="text/javascript">
                   jQuery(document).ready( function($) {
                     var el = $('#<?php echo $value['id'] ?>-size');
@@ -385,8 +385,8 @@ function mytheme_admin() {
                       change( -1 );
                       e.preventDefault();
                     } );
-                  } );  
-                </script> 
+                  } );
+                </script>
                 <?php
                 break;
             		case 'submit':
@@ -406,7 +406,7 @@ function mytheme_admin() {
         </div>
     </div>
 
-	
+
 	<form method="post">
 		<p class="submit">
 			<input name="reset" type="submit" value="Reset" />
@@ -419,5 +419,5 @@ function mytheme_admin() {
 }
 
 add_action('admin_menu', 'mytheme_add_admin');
-add_action('admin_init', 'mytheme_add_init'); 
+add_action('admin_init', 'mytheme_add_init');
 ?>

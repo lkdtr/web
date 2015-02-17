@@ -8,7 +8,7 @@
 .fixed .navbar .nav > li > a, .fixed .cart-contents,.fixed .cart-contents span, .sub-menu li a {color: #000000; }
 .fixed .navbar .btn-navbar .icon-bar {background-color: #000000;}
 .fixed .navbar .nav > li > a:hover, .fixed .navbar .nav > li.active > a,.fixed .navbar-inverse .nav .active>a:focus, .fixed .navbar .nav > .current-menu-item > a, .cart-contents:hover, .cart-contents span:hover {color: #01a3b2; }
-.color, h1 > span, h2 > span, .description-text a, .description-text a:hover,.blog-article a, .article-title, .description-item a, #sidebar a, #comments a, .header-post a, .single-post a, .social a, .fa, .section-page a  { color:#01a3b2;}
+.color, h1 > span, h2 > span, .description-text a, .description-text a:hover,.blog-article a, .article-title, .description-item a, #sidebar a, #comments a, .header-post a, .single-post a, .social a, .section-page a  { color:#01a3b2;}
 .add_to_cart_button { border: 1px solid #01a3b2; color: #01a3b2;}
 .add_to_cart_button:hover { background-color: #01a3b2;}
 #mini-slogan {color: #000000; }
@@ -26,3 +26,4 @@
 .tab-pane { margin-top:0px !important; }
 #hakkinda, #iletisim {color:#fff;}
 #hakkinda h2, #iletisim h2 {color:#ccc}
+.fa {color: #ccc;}

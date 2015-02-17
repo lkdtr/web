@@ -43,44 +43,7 @@ if($feat_image) $pageBackgroundStyle=' style="background-image: url('.$feat_imag
 	   	<?php } ?>
 		<?php if (get_post_meta($post->ID, 'fw_label_one', true)) { ?>
 	   	<div class="<?php if (!get_option('fw_spin_effect')) { ?>spin-effect<?php }?>" id="bubbles">
-	   		<nav id="nav-home">
-		   		<ul>
-		   			<li class="<?php if( get_post_meta($post->ID, 'fw_enable_external_one', true)) { ?>custom-link<?php } ?>">
-		   				<a class="circle-menu circle-black" href="<?php echo get_post_meta($post->ID, 'fw_bubble_link_one', true);?>"><span class="label-link"><?php echo get_post_meta($post->ID, 'fw_label_one', true);?></span></a>
-		   				<span class="arrow"></span>
-		   			</li>
-		   			<?php if (get_post_meta($post->ID, 'fw_label_two', true)) { ?>
-		   			<li class="<?php if( get_post_meta($post->ID, 'fw_enable_external_two', true)) { ?>custom-link<?php } ?>">
-		   				<a class="circle-menu" href="<?php echo get_post_meta($post->ID, 'fw_bubble_link_two', true);?>"><span class="label-link"><?php echo get_post_meta($post->ID, 'fw_label_two', true);?></span></a>
-		   				<span class="arrow"></span>
-		   			</li>
-		   			<?php } ?>
-		   			<?php if (get_post_meta($post->ID, 'fw_label_two', true)) { ?>
-		   			<li class="<?php if( get_post_meta($post->ID, 'fw_enable_external_three', true)) { ?>custom-link<?php } ?>">
-		   				<a class="circle-menu circle-black" href="<?php echo get_post_meta($post->ID, 'fw_bubble_link_three', true);?>"><span class="label-link"><?php echo get_post_meta($post->ID, 'fw_label_three', true);?></span></a>
-		   				<span class="arrow"></span>
-		   			</li>
-		   			<?php } ?>
-		   			<?php if (get_post_meta($post->ID, 'fw_label_four', true)) { ?>
-		   			<li class="<?php if( get_post_meta($post->ID, 'fw_enable_external_four', true)) { ?>custom-link<?php } ?>">
-		   				<a class="circle-menu" href="<?php echo get_post_meta($post->ID, 'fw_bubble_link_four', true);?>"><span class="label-link"><?php echo get_post_meta($post->ID, 'fw_label_four', true);?></span></a>
-		   				<span class="arrow"></span>
-		   			</li>
-		   			<?php } ?>
-		   			<?php if (get_post_meta($post->ID, 'fw_label_five', true)) { ?>
-		   			<li class="<?php if( get_post_meta($post->ID, 'fw_enable_external_one', true)) { ?>custom-link<?php } ?>">
-		   				<a class="circle-menu circle-black" href="<?php echo get_post_meta($post->ID, 'fw_bubble_link_five', true);?>"><span class="label-link"><?php echo get_post_meta($post->ID, 'fw_label_five', true);?></span></a>
-		   				<span class="arrow"></span>
-		   			</li>
-		   			<?php } ?>
-		   			<?php if (get_post_meta($post->ID, 'fw_label_six', true)) { ?>
-		   			<li class="<?php if( get_post_meta($post->ID, 'fw_enable_external_one', true)) { ?>custom-link<?php } ?>">
-		   				<a class="circle-menu" href="<?php echo get_post_meta($post->ID, 'fw_bubble_link_six', true);?>"><span class="label-link"><?php echo get_post_meta($post->ID, 'fw_label_six', true);?></span></a>
-		   				<span class="arrow"></span>
-		   			</li>
-		   			<?php } ?>
-		   		</ul>
-	   		</nav>
+	   		<img src="<?php echo $fw_logo; ?>" />
 	   	</div>
 	   	<?php } ?>
 	</div>

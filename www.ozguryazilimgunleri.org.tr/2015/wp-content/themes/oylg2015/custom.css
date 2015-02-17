@@ -26,4 +26,5 @@
 .tab-pane { margin-top:0px !important; }
 #hakkinda, #iletisim {color:#fff;}
 #hakkinda h2, #iletisim h2 {color:#ccc}
+#hakkinda .color, #iletisim .color {color:#ccc !important}
 .fa {color: #ccc;}

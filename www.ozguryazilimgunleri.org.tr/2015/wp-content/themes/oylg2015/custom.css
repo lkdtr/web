@@ -34,4 +34,4 @@
 #iletisim ul.social li:hover a span {color: #01a3b2 !important;}
 .wpcf7-form input[type="text"], .wpcf7-form input[type="email"], .wpcf7-form textarea { color: #fff !important;}
 .home-top .mini-logo {visibility: hidden;}
-.home-top .mini-logo {visibility: visible;}
+.home-top.fixed .mini-logo {visibility: visible;}

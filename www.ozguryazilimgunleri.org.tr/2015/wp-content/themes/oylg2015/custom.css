@@ -42,3 +42,6 @@
 #bubbles {margin-bottom: 60px;}
 .sponsor {display: table;}
 .sponsor a {display: table-cell; vertical-align:middle; height: 100px;}
+#sponsorShip {position: absolute; bottom: 0; padding: 0 30px; width: 90%; background: url(img/transparan.png); }
+#sponsorShip h5 {margin-bottom:0;}
+#sponsorShip .sponsor {height: 70px;}

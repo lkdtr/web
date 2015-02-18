@@ -52,4 +52,7 @@ else $feat_image = ""; ?>
 	   	</div>
 	   	<?php } ?>
 	</div>
+	<div id="sponsorShip">
+		<?php the_content(); ?>
+	</div>
 </section>

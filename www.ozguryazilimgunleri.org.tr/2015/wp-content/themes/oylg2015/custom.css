@@ -22,6 +22,7 @@
 @media (max-width: 979px) {
 	.navbar .collapse {background: #ffffff!important;}
 	.navbar .nav > li > a,.navbar .nav > li > a:hover, .navbar .nav > li.active > a,.navbar-inverse .nav .active>a:focus {color: #000000!important; }
+	#sponsorShip {visibility: hidden;}
 }
 .tab-pane { margin-top:0px !important; }
 #hakkinda, #iletisim, #afis--banner {color:#fff;}

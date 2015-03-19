@@ -43,10 +43,10 @@ body {
 
 /* TYPOGRAPHY */
 @font-face {font-family: 'NovecentowideBookBold';src: url('fonts/2D04C8_0_0.eot');src: url('fonts/2D04C8_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2D04C8_0_0.woff2') format('woff2'),url('fonts/2D04C8_0_0.woff') format('woff'),url('fonts/2D04C8_0_0.ttf') format('truetype');}
- 
-  
+
+
 @font-face {font-family: 'NovecentowideLightRegular';src: url('fonts/2D04C8_1_0.eot');src: url('fonts/2D04C8_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/2D04C8_1_0.woff2') format('woff2'),url('fonts/2D04C8_1_0.woff') format('woff'),url('fonts/2D04C8_1_0.ttf') format('truetype');}
- 
+
 
 h1,h2,h3,h4,h5,h6 {
 	font-weight:normal;
@@ -58,9 +58,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 p {
 	font-weight: 400;
-} 
+}
 #menu-top {
-	
+
 	z-index: 9998;
 	position:relative;
 }
@@ -247,7 +247,7 @@ p {
 	width: 170px;
 	height: auto;
 	padding: 10px;
-	background:#ffffff; 
+	background:#ffffff;
 	list-style: none;
 	left: 50%;
 	margin-left: -85px;
@@ -291,7 +291,7 @@ p {
 }
 #btn-menu-container {
 	display: none;
-} 
+}
 .navbar .btn-navbar .icon-bar {
 	box-shadow: none;
 	width: 25px;
@@ -338,7 +338,7 @@ p {
 	font-size:60px;
 	text-align:left;
 	font-family: 'NovecentowideBookBold';
-	font-weight:normal;	
+	font-weight:normal;
 }
 #mini-slogan {
 	font-family: 'NovecentowideLightRegular';
@@ -430,7 +430,7 @@ nav#nav-home ul li:last-child {
 	-o-transform:  rotate(360deg);
 	transform:  rotate(360deg);
 	color:#fff;
-} 
+}
 span.arrow {
 	display:block;
 	background:url(img/arrow.png) no-repeat;
@@ -822,7 +822,7 @@ a.arrow span{
 	margin-top: 11px;
 }
 a.next-arrow {
-	right:0;	
+	right:0;
 }
 a.prev-arrow {
 	left:0;
@@ -886,7 +886,7 @@ a.prev-arrow span{
 }
 ul.social {
 	margin-top:20px;
-} 
+}
 ul.social li {
 	margin-right:10px;
 	float:left;
@@ -994,7 +994,7 @@ span.wpcf7-not-valid-tip {
 .full-width .row {
 	margin-bottom:20px;
 }
-.full-width h1, 
+.full-width h1,
 .full-width h2,
 .full-width h3,
 .full-width h4,
@@ -1266,7 +1266,7 @@ span.wpcf7-not-valid-tip {
 .woocommerce form.login, .woocommerce form.checkout_coupon {
 	border-radius: 0!important;
 	border:1px solid #000 !important;
-} 
+}
 .woocommerce input[type="checkbox"] {
 	margin:-3px 3px 0 0!important;
 }
@@ -1485,7 +1485,7 @@ span.wpcf7-not-valid-tip {
 	overflow: hidden;
 }
 /* Single post */
-.single h1, 
+.single h1,
 .single h2,
 .single h3,
 .single h4,
@@ -1772,7 +1772,7 @@ footer .widget a {
 	  overflow:hidden;
 	  text-overflow:ellipsis;
 	  -o-text-overflow:ellipsis;
-	} 
+	}
 }
 @media (max-width: 979px) and (min-width: 767px) {
 	.feature-title {
@@ -1908,7 +1908,7 @@ footer .widget a {
 	.single-post .meta-info ul {
 		padding:46px 0;
 		height:93px;
-	} 
+	}
 	.meta-info li .label-meta {
 		display:none;
 	}
@@ -2172,9 +2172,9 @@ footer .widget a {
 		width: 100%;
 	}
 }
-@media only screen 
-	and (min-device-width : 768px) 
-	and (max-device-width : 1024px) 
+@media only screen
+	and (min-device-width : 768px)
+	and (max-device-width : 1024px)
 	and (orientation : landscape) {
 	.circle-menu:hover .label-link {
 		/* Firefox */
@@ -2189,7 +2189,7 @@ footer .widget a {
 	}
 	.nav-collapse {
 		display:block!important;
-	} 
+	}
 }
 @media only screen and (max-device-width: 1024px) {
 	.content-info {
@@ -2204,4 +2204,24 @@ footer .widget a {
 	.img-circle {
 		border-top-left-radius: 499px;
 	}
+}
+
+/* table style */
+
+.program_2015 thead {
+	font-weight: bold;
+	background: #01a3b2;
+	color: #fff;
+}
+
+.program_2015 tbody td.time {
+	font-size: 10px;
+}
+
+.program_2015 tbody tr:nth-child(odd) {
+	background: #f1f1f1;
+}
+
+.program_2015 table td {
+	border: 1px solid #ddd;
 }

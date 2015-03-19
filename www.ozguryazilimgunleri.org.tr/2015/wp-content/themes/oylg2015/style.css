@@ -2218,10 +2218,10 @@ footer .widget a {
 	font-size: 10px;
 }
 
-.program_2015 tbody tr:nth-child(odd) {
-	background: #f1f1f1;
-}
-
 .program_2015 table td {
 	border: 1px solid #ddd !important;
+}
+
+.program_2015 tbody tr:nth-child(odd) {
+	background: #f1f1f1;
 }

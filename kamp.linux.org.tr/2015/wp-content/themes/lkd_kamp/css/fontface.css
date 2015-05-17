@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('../fonts/chunkfivewebfont.eot');
+    src: url('../fonts/chunkfivewebfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chunkfivewebfont.woff') format('woff'),
+         url('../fonts/chunkfivewebfont.ttf') format('truetype'),
+         url('../fonts/chunkfivewebfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AllerRegular';
+    src: url('../fonts/allerwebfont.eot');
+    src: url('../fonts/allerwebfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/allerwebfont.woff') format('woff'),
+         url('../fonts/allerwebfont.ttf') format('truetype'),
+         url('../fonts/allerwebfont.svg#AllerRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

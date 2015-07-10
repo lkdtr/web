@@ -311,3 +311,17 @@ span.number {
 	padding:20px;
 	margin:2px;
 }
+
+.blogroll li {
+    background: none !important;
+    text-align: left !important;
+    margin: 5px 0 !important;
+}
+
+.blogroll li a {
+    padding: 0 !important;
+}
+
+.blogroll img {
+    width: 170px;
+}

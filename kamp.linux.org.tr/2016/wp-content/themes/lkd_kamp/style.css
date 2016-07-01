@@ -331,10 +331,16 @@ span.number {
     width: 155px;
 }
 
+.sponsor h2 {
+    font-weight: bold;
+}
+
 footer .sponsor {
     float:left;
-    margin-top: -10px;
+    margin-top: 25px;
     background-color: rgba(255, 255, 255, 0.5);
     width: 684px;
-    height: 88px;
+    height: 85px;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
 }

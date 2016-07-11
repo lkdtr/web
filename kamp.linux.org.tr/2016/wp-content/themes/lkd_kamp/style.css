@@ -163,7 +163,7 @@ article .entry {
 	margin-left:10px;
 }
 
-article .page .entry {
+.page > .entry {
     width:940px;
 }
 article .entry p {

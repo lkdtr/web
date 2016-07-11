@@ -3,7 +3,7 @@
 <footer>
     <aside>
 		<ul class="sponsor">
-            <?php dynamic_sidebar('right'); ?>
+            <?php dynamic_sidebar('footer'); ?>
         </ul>
 	</aside>
 </footer>

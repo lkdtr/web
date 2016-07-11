@@ -30,7 +30,16 @@ function lkdkamp_widgets_init() {
 		'before_title' => '<h2>',
 		'after_title' => '</h2>',
 	) );
-
+    
+    register_sidebar( array (
+        'name' => __('Footer', 'lkd_kamp'),
+        'id' => 'footer',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>',   
+    ) );
+    
   register_sidebar( array(
     'name' => __( 'Tweets', 'lkd_kamp' ),
     'id' => 'tweets',

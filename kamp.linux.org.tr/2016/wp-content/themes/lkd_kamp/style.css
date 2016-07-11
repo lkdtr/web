@@ -163,6 +163,9 @@ article .entry {
 	margin-left:10px;
 }
 
+article .page .entry {
+    width:940px;
+}
 article .entry p {
 	margin:5px 0 5px 0;
 }

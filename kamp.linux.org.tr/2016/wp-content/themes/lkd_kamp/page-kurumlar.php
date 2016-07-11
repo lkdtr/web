@@ -8,8 +8,10 @@
             <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
             <?php if(!is_front_page()) : ?><h1><?php the_title(); ?></h1><?php endif; ?>
                 <?php lkdkamp_list_images(get_the_ID()); ?>
-                <div class="entry">
-                    <?php the_content(); ?>
+                <div class="page">
+                     <div class="entry">
+                         <?php the_content(); ?>
+                    </div>
                 </div>
                 <div id="right">
                     <?php lkdkamp_list_pages(get_the_ID()); ?>
